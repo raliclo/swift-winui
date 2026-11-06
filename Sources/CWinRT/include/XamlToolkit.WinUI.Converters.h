@@ -8,8 +8,15 @@
 #include "Windows.Foundation.h"
 #include "Microsoft.UI.Xaml.h"
 #include "Microsoft.UI.Xaml.Data.h"
+#include "Windows.UI.Xaml.Interop.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_FWD_DEFINED__
+
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter;
@@ -34,11 +41,125 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToVisibilityConverter_FWD_DEFINED__
 
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_FWD_DEFINED__
+
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -62,6 +183,39 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CIDependencyObject_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName;
+
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolNegationConverter_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverter_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToObjectConverterVtbl
@@ -202,6 +356,37 @@
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToVisibilityConverter;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIBoolToVisibilityConverter_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CICollectionVisibilityConverter_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverterVtbl
@@ -232,4 +417,638 @@
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIColorToDisplayNameConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TrueValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_TrueValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_FalseValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_FalseValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_NullValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_NullValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_GreaterThan)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_GreaterThan)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_LessThan)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_LessThan)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverter** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactoryVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TrueValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_FalseValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_NullValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_GreaterThanProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_LessThanProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToObjectConverterStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIDoubleToVisibilityConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverter** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactoryVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyCollectionToObjectConverterFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_NotEmptyValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_NotEmptyValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_EmptyValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_EmptyValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter* This,
+        IInspectable* value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverter** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactoryVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_NotEmptyValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_EmptyValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyObjectToObjectConverterStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverter** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactoryVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIEmptyStringToObjectConverterFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIFileSizeToFriendlyStringConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIResourceNameToResourceStringConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringFormatConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIStringVisibilityConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TrueValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_TrueValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_FalseValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_FalseValue)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Type)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName* value);
+    HRESULT (STDMETHODCALLTYPE* put_Type)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TrueValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_FalseValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TypeProperty)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CITypeToObjectConverterStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverterVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CConverters_CIVisibilityToBoolConverter_INTERFACE_DEFINED__) */
     

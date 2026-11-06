@@ -4,6 +4,8 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturedeviceexclusivecontrolreleasemode)
+public typealias MediaCaptureDeviceExclusiveControlReleaseMode = __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacategory)
 public typealias MediaCategory = __x_ABI_CWindows_CMedia_CCapture_CMediaCategory
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediastreamtype)
@@ -24,50 +26,44 @@ public final class MediaCaptureVideoProfileMediaDescription : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureVideoProfileMediaDescription>?) -> MediaCaptureVideoProfileMediaDescription? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.framerate)
     public var frameRate : Double {
-        get { try! _default.get_FrameRateImpl() }
+        get { try! _default.get_FrameRate() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.height)
     public var height : UInt32 {
-        get { try! _default.get_HeightImpl() }
+        get { try! _default.get_Height() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.ishdrvideosupported)
     public var isHdrVideoSupported : Bool {
-        get { try! _default.get_IsHdrVideoSupportedImpl() }
+        get { try! _default.get_IsHdrVideoSupported() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.isvariablephotosequencesupported)
     public var isVariablePhotoSequenceSupported : Bool {
-        get { try! _default.get_IsVariablePhotoSequenceSupportedImpl() }
+        get { try! _default.get_IsVariablePhotoSequenceSupported() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.width)
     public var width : UInt32 {
-        get { try! _default.get_WidthImpl() }
+        get { try! _default.get_Width() }
     }
 
     private lazy var _IMediaCaptureVideoProfileMediaDescription2: __ABI_Windows_Media_Capture.IMediaCaptureVideoProfileMediaDescription2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.properties)
     public var properties : WindowsFoundation.AnyIMapView<Foundation.UUID, Any?>! {
-        get { try! _IMediaCaptureVideoProfileMediaDescription2.get_PropertiesImpl() }
+        get { try! _IMediaCaptureVideoProfileMediaDescription2.get_Properties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.capture.mediacapturevideoprofilemediadescription.subtype)
     public var subtype : String {
-        get { try! _IMediaCaptureVideoProfileMediaDescription2.get_SubtypeImpl() }
+        get { try! _IMediaCaptureVideoProfileMediaDescription2.get_Subtype() }
     }
 
     deinit {
@@ -75,6 +71,16 @@ public final class MediaCaptureVideoProfileMediaDescription : WinRTClass {
         _IMediaCaptureVideoProfileMediaDescription2 = nil
     }
 }
+
+extension UWP.MediaCaptureDeviceExclusiveControlReleaseMode {
+    public static var onDispose : UWP.MediaCaptureDeviceExclusiveControlReleaseMode {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode_OnDispose
+    }
+    public static var onAllStreamsStopped : UWP.MediaCaptureDeviceExclusiveControlReleaseMode {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode_OnAllStreamsStopped
+    }
+}
+extension UWP.MediaCaptureDeviceExclusiveControlReleaseMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaCategory {
     public static var other : UWP.MediaCategory {
@@ -92,8 +98,17 @@ extension UWP.MediaCategory {
     public static var speech : UWP.MediaCategory {
         __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_Speech
     }
+    public static var farFieldSpeech : UWP.MediaCategory {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_FarFieldSpeech
+    }
+    public static var uniformSpeech : UWP.MediaCategory {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_UniformSpeech
+    }
+    public static var voiceTyping : UWP.MediaCategory {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_VoiceTyping
+    }
 }
-extension UWP.MediaCategory: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaCategory: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaStreamType {
     public static var videoPreview : UWP.MediaStreamType {
@@ -108,8 +123,11 @@ extension UWP.MediaStreamType {
     public static var photo : UWP.MediaStreamType {
         __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_Photo
     }
+    public static var metadata : UWP.MediaStreamType {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_Metadata
+    }
 }
-extension UWP.MediaStreamType: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaStreamType: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.PowerlineFrequency {
     public static var disabled : UWP.PowerlineFrequency {
@@ -125,5 +143,5 @@ extension UWP.PowerlineFrequency {
         __x_ABI_CWindows_CMedia_CCapture_CPowerlineFrequency_Auto
     }
 }
-extension UWP.PowerlineFrequency: @retroactive Hashable, @retroactive Codable {}
+extension UWP.PowerlineFrequency: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

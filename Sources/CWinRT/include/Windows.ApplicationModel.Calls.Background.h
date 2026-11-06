@@ -27,6 +27,12 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallDismissedTriggerDetails_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails;
@@ -98,6 +104,7 @@ enum __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_CallOriginDataRequest = 4,
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_CallBlocked = 5,
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_IncomingCallDismissed = 6,
+    __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_IncomingCallNotification = 7,
 };
 
 #if !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneCallBlockedTriggerDetails_INTERFACE_DEFINED__)
@@ -214,6 +221,41 @@ enum __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallDismissedTriggerDetails;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallDismissedTriggerDetails_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetailsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LineId)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+        GUID* value);
+    HRESULT (STDMETHODCALLTYPE* get_CallId)(__x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetailsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetailsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneIncomingCallNotificationTriggerDetails_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneLineChangedTriggerDetails_INTERFACE_DEFINED__

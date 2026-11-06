@@ -8,11 +8,12 @@ private var IID___x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CIDirect3DSurfac
     .init(Data1: 0x0BF4A146, Data2: 0x13C1, Data3: 0x4694, Data4: ( 0xBE,0xE3,0x7A,0xBF,0x15,0xEA,0xF5,0x86 ))// 0BF4A146-13C1-4694-BEE3-7ABF15EAF586
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Graphics_DirectX_Direct3D11 {
     public class IDirect3DSurface: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CIDirect3DSurface }
 
-        open func get_DescriptionImpl() throws -> UWP.Direct3DSurfaceDescription {
+        open func get_Description() throws -> UWP.Direct3DSurfaceDescription {
             var value: __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DSurfaceDescription = .init()
             _ = try perform(as: __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CIDirect3DSurface.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Description(pThis, &value))

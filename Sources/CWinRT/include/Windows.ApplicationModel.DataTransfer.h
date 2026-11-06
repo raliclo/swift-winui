@@ -80,6 +80,12 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvid
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4 __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet;
@@ -307,6 +313,54 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvid
     typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -1328,6 +1382,120 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStreams__CRandomAccessStreamReference_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+#if !defined(____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    typedef struct __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    typedef struct __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Progress)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Progress)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double** result);
+    HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double;
+
+    typedef struct __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* This,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double* asyncInfo,
+        DOUBLE progressInfo);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_doubleVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
@@ -2440,6 +2608,70 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTargetApplicationChosenEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* sender,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
@@ -2464,6 +2696,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
 
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
+typedef struct __x_ABI_CWindows_CUI_CWindowId __x_ABI_CWindows_CUI_CWindowId;
+
 typedef enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CClipboardHistoryItemsResultStatus __x_ABI_CWindows_CApplicationModel_CDataTransfer_CClipboardHistoryItemsResultStatus;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation;
@@ -2485,6 +2719,8 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation
     __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_Copy = 0x1,
     __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_Move = 0x2,
     __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_Link = 0x4,
+    __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_NewTarget = 0x40000000,
+    __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_BackgroundTarget = 0x20000000,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CSetHistoryItemAsContentStatus
@@ -2824,7 +3060,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** result);
     HRESULT (STDMETHODCALLTYPE* get_Properties)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet** value);
     HRESULT (STDMETHODCALLTYPE* get_RequestedOperation)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
@@ -2833,14 +3069,14 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation value);
     HRESULT (STDMETHODCALLTYPE* add_OperationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage___x_ABI_CWindows__CApplicationModel__CDataTransfer__COperationCompletedEventArgs* handler,
-        EventRegistrationToken* eventCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_OperationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_Destroyed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage_IInspectable* handler,
-        EventRegistrationToken* eventCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_Destroyed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* SetData)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         HSTRING formatId,
         IInspectable* value);
@@ -2947,6 +3183,42 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ShareCanceled)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ShareCanceled)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_INTERFACE_DEFINED__
@@ -3571,7 +3843,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     HRESULT (STDMETHODCALLTYPE* FailWithDisplayText)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequest* This,
         HSTRING value);
     HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequest* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestDeferral** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestDeferral** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestVtbl;
@@ -3669,15 +3941,15 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* add_DataRequested)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataRequestedEventArgs* eventHandler,
-        EventRegistrationToken* eventCookie);
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataRequestedEventArgs* handler,
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_DataRequested)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_TargetApplicationChosen)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTargetApplicationChosenEventArgs* eventHandler,
-        EventRegistrationToken* eventCookie);
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTargetApplicationChosenEventArgs* handler,
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_TargetApplicationChosen)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerVtbl;
@@ -3747,7 +4019,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* ShowShareUI)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics* This);
     HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStaticsVtbl;
@@ -3780,7 +4052,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2* This,
-        boolean* value);
+        boolean* result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2Vtbl;
@@ -4100,7 +4372,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     HRESULT (STDMETHODCALLTYPE* get_Data)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgs* This,
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** value);
     HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgs* This,
-        __x_ABI_CWindows_CFoundation_CIDeferral** value);
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgsVtbl;
@@ -4370,4 +4642,318 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Label)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_DisplayIcon)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsEnabled)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Target)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DataPackage)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxAppTargets)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_MaxAppTargets)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+        INT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_AllowedTargetAppIds)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+        UINT32* valueLength,
+        HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowedTargetAppIds)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* This,
+        UINT32 valueLength,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView* dataPackage,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactoryVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptionsFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Succeeded)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResultVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateWatcher)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions* options,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStaticsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This);
+    HRESULT (STDMETHODCALLTYPE* Stop)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This);
+    HRESULT (STDMETHODCALLTYPE* TransferToAsync)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget* target,
+        struct __x_ABI_CWindows_CUI_CWindowId parentWindowHandle,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetInvokeResult_double** operation);
+    HRESULT (STDMETHODCALLTYPE* add_Added)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Added)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Removed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Removed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Updated)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Updated)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_EnumerationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_EnumerationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Stopped)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTransferTargetWatcher_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Stopped)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics* This,
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView* dataPackage,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStaticsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcherStatics_INTERFACE_DEFINED__) */
     

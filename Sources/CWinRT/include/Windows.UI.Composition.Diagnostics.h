@@ -117,7 +117,7 @@ enum __x_ABI_CWindows_CUI_CComposition_CDiagnostics_CCompositionDebugOverdrawCon
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CDiagnostics_CICompositionDebugSettings* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* get_HeatMaps)(__x_ABI_CWindows_CUI_CComposition_CDiagnostics_CICompositionDebugSettings* This,
-        __x_ABI_CWindows_CUI_CComposition_CDiagnostics_CICompositionDebugHeatMaps** result);
+        __x_ABI_CWindows_CUI_CComposition_CDiagnostics_CICompositionDebugHeatMaps** value);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CDiagnostics_CICompositionDebugSettingsVtbl;

@@ -7,8 +7,12 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Windows.ApplicationModel.Activation.h"
+#include "Windows.Devices.Printers.h"
 #include "Windows.Graphics.Printing.PrintTicket.h"
+#include "Windows.Storage.h"
 #include "Windows.Storage.Streams.h"
+// Importing Collections header
+#include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowBackgroundSession_FWD_DEFINED__
@@ -29,6 +33,12 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession;
@@ -41,17 +51,173 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSetupRequestedEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent;
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage;
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3 __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowSourceContent_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowSourceContent_FWD_DEFINED__
@@ -101,11 +267,47 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUIActivatedEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs;
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -192,6 +394,482 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CPrintTicket__CWorkflowPrintTicket_INTERFACE_DEFINED__
+    
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus;
+
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus_INTERFACE_DEFINED__
+    
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageFile __x_ABI_CWindows_CStorage_CIStorageFile;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
+
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFileVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+        __x_ABI_CWindows_CStorage_CIStorageFile** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFileVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFileVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFileVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFileVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFileVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStorageFile_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1_HSTRING __x_ABI_C__FIIterator_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterator_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        UINT32 itemsLength,
+        HSTRING* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterator_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1_HSTRING __x_ABI_C__FIIterable_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterable_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1_HSTRING* This,
+        __x_ABI_C__FIIterator_1_HSTRING** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterable_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__
+    
+#ifndef ____x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue;
+
+#endif // ____x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue_FWD_DEFINED__
+
+#if !defined(____x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    typedef struct __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Key)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl;
+
+    interface __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue
+    {
+        CONST_VTBL struct __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        UINT32 itemsLength,
+        __x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+#if !defined(____x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    typedef struct __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Lookup)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* HasKey)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* Split)(__x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** first,
+        __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** second);
+
+        END_INTERFACE
+    } __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl;
+
+    interface __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue
+    {
+        CONST_VTBL struct __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue;
+
+    typedef struct __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Lookup)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* HasKey)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* Insert)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppAttributeValue* value,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* Remove)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This,
+        HSTRING key);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* This);
+
+        END_INTERFACE
+    } __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl;
+
+    interface __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue
+    {
+        CONST_VTBL struct __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValueVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowBackgroundSetupRequestedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowBackgroundSetupRequestedEventArgs_INTERFACE_DEFINED__
@@ -321,6 +999,262 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowForegroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowXpsDataAvailableEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* sender,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs;
@@ -333,6 +1267,18 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice;
+
+#endif // ____x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult __x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult;
+
+#endif // ____x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
@@ -341,11 +1287,23 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncAction __x_ABI_CWindows_CFoundation_CIAsyncAction;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CStreams_CIBuffer_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CStreams_CIBuffer_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CStreams_CIBuffer __x_ABI_CWindows_CStorage_CStreams_CIBuffer;
+
+#endif // ____x_ABI_CWindows_CStorage_CStreams_CIBuffer_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CStorage_CStreams_CIInputStream_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CStreams_CIInputStream_FWD_DEFINED__
@@ -359,9 +1317,75 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CStorage_CStreams_CIOutputStream_FWD_DEFINED__
 
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations;
+
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy;
+
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason;
+
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind;
+
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType;
+
+typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus;
+
 typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus;
 
 typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus;
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_None = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_PageRotation = 0x1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_PageOrdering = 0x2,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_Copies = 0x4,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_BlankPageInsertion = 0x8,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations_All = 0xffffffff,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy_MergePreferPrintTicketOnConflict = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy_MergePreferPsaOnConflict = 1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy_DoNotMergeWithPrintTicket = 2,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason_JobFailed = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason_UserCanceled = 1,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_Other = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_AttentionRequired = 1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_DoorOpen = 2,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_MarkerSupplyLow = 3,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_MarkerSupplyEmpty = 4,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_MediaJam = 5,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_MediaEmpty = 6,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_MediaLow = 7,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_OutputAreaAlmostFull = 8,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_OutputAreaFull = 9,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind_JobPrintingError = 10,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType_XpsToPdf = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType_XpsToPwgr = 1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType_XpsToPclm = 2,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType_XpsToTiff = 3,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus_Error = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus_Aborted = 1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus_InProgress = 2,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus_Completed = 3,
+};
 
 enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus
     {
@@ -369,6 +1393,7 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus
     __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus_Completed = 1,
     __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus_Aborted = 2,
     __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus_Closed = 3,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus_PdlDataAvailableForModification = 4,
 };
 
 enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus
@@ -376,6 +1401,14 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
         __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus_Succeeded = 0,
     __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus_Canceled = 1,
     __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus_Failed = 2,
+};
+
+enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus
+    {
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus_Completed = 0,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus_LaunchFailed = 1,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus_JobFailed = 2,
+    __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowUICompletionStatus_UserCanceled = 3,
 };
 
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowBackgroundSession_INTERFACE_DEFINED__)
@@ -497,6 +1530,39 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* AbortPrintFlow)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobAbortReason reason);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSession_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSessionVtbl
@@ -578,6 +1644,459 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSetupRequestedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowForegroundSetupRequestedEventArgs_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Session)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobActivatedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSessionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus* value);
+    HRESULT (STDMETHODCALLTYPE* add_JobStarting)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobStartingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_JobStarting)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_PdlModificationRequested)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlModificationRequestedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PdlModificationRequested)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSessionVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSessionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_JobIssueDetected)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobIssueDetectedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_JobIssueDetected)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_JobStatusChanged)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobBackgroundSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPrinterJobStatusChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_JobStatusChanged)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_JobIssueKind)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowJobIssueKind* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        HRESULT* value);
+    HRESULT (STDMETHODCALLTYPE* get_SkipSystemErrorToast)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_SkipSystemErrorToast)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_PrinterJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob** value);
+    HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_UILauncher)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher** value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobIssueDetectedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_PrinterJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob** value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobNotificationEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_Printer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice** value);
+    HRESULT (STDMETHODCALLTYPE* SetSkipSystemRendering)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsIppCompressionEnabled)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* DisableIppCompressionForJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This);
+    HRESULT (STDMETHODCALLTYPE* get_SkipSystemFaxUI)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_SkipSystemFaxUI)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobStartingEventArgs2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetailsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PrintWorkflowJobSession)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobBackgroundSession** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetailsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetailsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobTriggerDetails_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISessionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus* value);
+    HRESULT (STDMETHODCALLTYPE* add_PdlDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowPdlDataAvailableEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PdlDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_JobNotification)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobNotificationEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_JobNotification)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISessionVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISessionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_VirtualPrinterUIDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowJobUISession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterUIEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_VirtualPrinterUIDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowJobUISession2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProviderVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProviderVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProviderVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentVtbl
@@ -609,6 +2128,40 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIInputStream* xpsStream,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContent** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactoryVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelSourceFileContentFactory_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackageVtbl
@@ -639,6 +2192,519 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelTargetPackage_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ConvertPdlAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket* printTicket,
+        __x_ABI_CWindows_CStorage_CStreams_CIInputStream* inputStream,
+        __x_ABI_CWindows_CStorage_CStreams_CIOutputStream* outputStream,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverterVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ConvertPdlAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket* printTicket,
+        __x_ABI_CWindows_CStorage_CStreams_CIInputStream* inputStream,
+        __x_ABI_CWindows_CStorage_CStreams_CIOutputStream* outputStream,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations hostBasedProcessingOperations,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ConvertPdlFromObjectModelAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket* printTicket,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowObjectModelProvider* objectModelProvider,
+        __x_ABI_CWindows_CStorage_CStreams_CIOutputStream* outputStream,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPdlConversionHostBasedProcessingOperations hostBasedProcessingOperations,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_PrinterJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob** value);
+    HRESULT (STDMETHODCALLTYPE* get_SourceContent)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent** value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlDataAvailableEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_PrinterJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob** value);
+    HRESULT (STDMETHODCALLTYPE* get_SourceContent)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent** value);
+    HRESULT (STDMETHODCALLTYPE* get_UILauncher)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher** value);
+    HRESULT (STDMETHODCALLTYPE* CreateJobOnPrinter)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        HSTRING targetContentType,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream** result);
+    HRESULT (STDMETHODCALLTYPE* CreateJobOnPrinterWithAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* jobAttributes,
+        HSTRING targetContentType,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream** result);
+    HRESULT (STDMETHODCALLTYPE* CreateJobOnPrinterWithAttributesBuffer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* jobAttributesBuffer,
+        HSTRING targetContentType,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream** result);
+    HRESULT (STDMETHODCALLTYPE* GetPdlConverter)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType conversionType,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter** result);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateJobOnPrinterWithAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+        __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* jobAttributes,
+        HSTRING targetContentType,
+        __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* operationAttributes,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy jobAttributesMergePolicy,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy operationAttributesMergePolicy,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream** result);
+    HRESULT (STDMETHODCALLTYPE* CreateJobOnPrinterWithAttributesBuffer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* jobAttributesBuffer,
+        HSTRING targetContentType,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* operationAttributesBuffer,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy jobAttributesMergePolicy,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowAttributesMergePolicy operationAttributesMergePolicy,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* DisableIppCompressionForJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlModificationRequestedEventArgs3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContentVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ContentType)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* GetInputStream)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIInputStream** result);
+    HRESULT (STDMETHODCALLTYPE* GetContentFileAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContentVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContentVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStreamVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetOutputStream)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIOutputStream** result);
+    HRESULT (STDMETHODCALLTYPE* CompleteStreamSubmission)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus status);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStreamVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStreamVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlTargetStream_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_JobId)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Printer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice** value);
+    HRESULT (STDMETHODCALLTYPE* GetJobStatus)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPrinterJobStatus* result);
+    HRESULT (STDMETHODCALLTYPE* GetJobPrintTicket)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket** result);
+    HRESULT (STDMETHODCALLTYPE* GetJobAttributesAsBuffer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_C__FIIterable_1_HSTRING* attributeNames,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** result);
+    HRESULT (STDMETHODCALLTYPE* GetJobAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_C__FIIterable_1_HSTRING* attributeNames,
+        __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* SetJobAttributesFromBuffer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* jobAttributesBuffer,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult** result);
+    HRESULT (STDMETHODCALLTYPE* SetJobAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob* This,
+        __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue* jobAttributes,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppSetAttributesResult** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ConvertPrintTicketToJobAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket* printTicket,
+        HSTRING targetPdlFormat,
+        __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPassthroughJobWithAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* GetPassthroughJobAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+        __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+    HRESULT (STDMETHODCALLTYPE* GetPassthroughJobOperationAttributes)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3* This,
+        __x_ABI_C__FIMap_2_HSTRING___x_ABI_CWindows__CDevices__CPrinters__CIppAttributeValue** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PrinterJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJob** value);
+    HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPrinterJobStatusChangedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowSourceContent_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowSourceContent_INTERFACE_DEFINED__
@@ -919,6 +2985,202 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUIActivatedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUIActivatedEventArgs_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncherVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsUILaunchEnabled)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* LaunchAndCompleteUIAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowUICompletionStatus** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncherVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncherVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_SourceContent)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent** value);
+    HRESULT (STDMETHODCALLTYPE* get_UILauncher)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowUILauncher** value);
+    HRESULT (STDMETHODCALLTYPE* GetJobPrintTicket)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket** result);
+    HRESULT (STDMETHODCALLTYPE* GetPdlConverter)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowPdlConversionType conversionType,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlConverter** result);
+    HRESULT (STDMETHODCALLTYPE* GetTargetFileAsync)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile** operation);
+    HRESULT (STDMETHODCALLTYPE* CompleteJob)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatus status);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterDataAvailableEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSessionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+        enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSessionStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_Printer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice** value);
+    HRESULT (STDMETHODCALLTYPE* add_VirtualPrinterDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterSession___x_ABI_CWindows__CGraphics__CPrinting__CWorkflow__CPrintWorkflowVirtualPrinterDataAvailableEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_VirtualPrinterDataAvailable)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSessionVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSessionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetailsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_VirtualPrinterSession)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterSession** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetailsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetailsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterTriggerDetails_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Configuration)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_Printer)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CDevices_CPrinters_CIIppPrintDevice** value);
+    HRESULT (STDMETHODCALLTYPE* get_SourceContent)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowPdlSourceContent** value);
+    HRESULT (STDMETHODCALLTYPE* GetJobPrintTicket)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket** result);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowVirtualPrinterUIEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgsVtbl
@@ -953,4 +3215,35 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CPrintWorkflowSubmittedStatu
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsDataAvailableEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProviderVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProviderVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProviderVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CWorkflow_CIPrintWorkflowXpsObjectModelProvider_INTERFACE_DEFINED__) */
     

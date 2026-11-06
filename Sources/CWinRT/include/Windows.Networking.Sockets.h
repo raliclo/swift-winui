@@ -2025,6 +2025,7 @@ enum __x_ABI_CWindows_CNetworking_CSockets_CSocketProtectionLevel
     __x_ABI_CWindows_CNetworking_CSockets_CSocketProtectionLevel_Tls11 = 7,
     __x_ABI_CWindows_CNetworking_CSockets_CSocketProtectionLevel_Tls12 = 8,
     __x_ABI_CWindows_CNetworking_CSockets_CSocketProtectionLevel_Unspecified = 9,
+    __x_ABI_CWindows_CNetworking_CSockets_CSocketProtectionLevel_Tls13 = 10,
 };
 
 enum __x_ABI_CWindows_CNetworking_CSockets_CSocketQualityOfService

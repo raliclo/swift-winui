@@ -18,60 +18,54 @@ public final class AudioStateMonitor : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor>?) -> AudioStateMonitor? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IAudioStateMonitorStatics: __ABI_Windows_Media_Audio.IAudioStateMonitorStatics = try! RoGetActivationFactory(HString("Windows.Media.Audio.AudioStateMonitor"))
+    private static let _IAudioStateMonitorStatics: __ABI_Windows_Media_Audio.IAudioStateMonitorStatics = try! RoGetActivationFactory("Windows.Media.Audio.AudioStateMonitor")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforrendermonitoring)
-    public static func createForRenderMonitoring() -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForRenderMonitoringImpl()
+    public static func createForRenderMonitoring() throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForRenderMonitoring()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforrendermonitoring)
-    public static func createForRenderMonitoring(_ category: UWP.AudioRenderCategory) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategoryImpl(category)
+    public static func createForRenderMonitoring(_ category: UWP.AudioRenderCategory) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategory(category)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforrendermonitoring)
-    public static func createForRenderMonitoring(_ category: UWP.AudioRenderCategory, _ role: UWP.AudioDeviceRole) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategoryAndDeviceRoleImpl(category, role)
+    public static func createForRenderMonitoring(_ category: UWP.AudioRenderCategory, _ role: UWP.AudioDeviceRole) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategoryAndDeviceRole(category, role)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforrendermonitoringwithcategoryanddeviceid)
-    public static func createForRenderMonitoringWithCategoryAndDeviceId(_ category: UWP.AudioRenderCategory, _ deviceId: String) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategoryAndDeviceIdImpl(category, deviceId)
+    public static func createForRenderMonitoringWithCategoryAndDeviceId(_ category: UWP.AudioRenderCategory, _ deviceId: String) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForRenderMonitoringWithCategoryAndDeviceId(category, deviceId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforcapturemonitoring)
-    public static func createForCaptureMonitoring() -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForCaptureMonitoringImpl()
+    public static func createForCaptureMonitoring() throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForCaptureMonitoring()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforcapturemonitoring)
-    public static func createForCaptureMonitoring(_ category: UWP.MediaCategory) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategoryImpl(category)
+    public static func createForCaptureMonitoring(_ category: UWP.MediaCategory) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategory(category)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforcapturemonitoring)
-    public static func createForCaptureMonitoring(_ category: UWP.MediaCategory, _ role: UWP.AudioDeviceRole) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategoryAndDeviceRoleImpl(category, role)
+    public static func createForCaptureMonitoring(_ category: UWP.MediaCategory, _ role: UWP.AudioDeviceRole) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategoryAndDeviceRole(category, role)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.createforcapturemonitoringwithcategoryanddeviceid)
-    public static func createForCaptureMonitoringWithCategoryAndDeviceId(_ category: UWP.MediaCategory, _ deviceId: String) -> AudioStateMonitor! {
-        return try! _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategoryAndDeviceIdImpl(category, deviceId)
+    public static func createForCaptureMonitoringWithCategoryAndDeviceId(_ category: UWP.MediaCategory, _ deviceId: String) throws -> AudioStateMonitor! {
+        return try _IAudioStateMonitorStatics.CreateForCaptureMonitoringWithCategoryAndDeviceId(category, deviceId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.soundlevel)
     public var soundLevel : UWP.SoundLevel {
-        get { try! _default.get_SoundLevelImpl() }
+        get { try! _default.get_SoundLevel() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.audio.audiostatemonitor.soundlevelchanged)
@@ -79,10 +73,10 @@ public final class AudioStateMonitor : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SoundLevelChangedImpl($0)
+          return try! this.add_SoundLevelChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SoundLevelChangedImpl($0)
+         try? self?._default.remove_SoundLevelChanged($0)
        }
       )
     }()

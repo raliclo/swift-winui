@@ -4,5 +4,54 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Microsoft_UI_Xaml_Automation {
+    public enum AutomationAnnotationBridge: AbiBridge {
+        public typealias SwiftProjection = AutomationAnnotation
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationAnnotation
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationAnnotation>?) -> AutomationAnnotation? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum AutomationPropertiesBridge: AbiBridge {
+        public typealias SwiftProjection = AutomationProperties
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperties
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperties>?) -> AutomationProperties? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum AutomationPropertyBridge: AbiBridge {
+        public typealias SwiftProjection = AutomationProperty
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperty
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperty>?) -> AutomationProperty? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+public class AutomationAnnotationMaker: MakeFromAbi {
+    public typealias SwiftType = AutomationAnnotation
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return AutomationAnnotation(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class AutomationPropertiesMaker: MakeFromAbi {
+    public typealias SwiftType = AutomationProperties
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return AutomationProperties(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class AutomationPropertyMaker: MakeFromAbi {
+    public typealias SwiftType = AutomationProperty
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return AutomationProperty(fromAbi: abi)
+    }
 }

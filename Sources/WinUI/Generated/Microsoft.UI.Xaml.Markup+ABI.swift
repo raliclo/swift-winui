@@ -16,11 +16,12 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType: WindowsFoundati
     .init(Data1: 0xD24219DF, Data2: 0x7EC9, Data3: 0x57F1, Data4: ( 0xA2,0x7B,0x6A,0xF2,0x51,0xD9,0xC5,0xBC ))// D24219DF-7EC9-57F1-A27B-6AF251D9C5BC
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Microsoft_UI_Xaml_Markup {
     public class IXamlMember: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember }
 
-        open func get_IsAttachableImpl() throws -> Bool {
+        open func get_IsAttachable() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsAttachable(pThis, &value))
@@ -28,7 +29,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsDependencyPropertyImpl() throws -> Bool {
+        open func get_IsDependencyProperty() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDependencyProperty(pThis, &value))
@@ -36,7 +37,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsReadOnlyImpl() throws -> Bool {
+        open func get_IsReadOnly() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsReadOnly(pThis, &value))
@@ -44,7 +45,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_NameImpl() throws -> String {
+        open func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -52,7 +53,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_TargetTypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_TargetType() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_TargetType(pThis, &valueAbi))
@@ -61,7 +62,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_TypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_Type() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMember.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Type(pThis, &valueAbi))
@@ -70,7 +71,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func GetValueImpl(_ instance: Any?) throws -> Any? {
+        open func GetValue(_ instance: Any?) throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let instanceWrapper = __ABI_.AnyWrapper(instance)
                 let _instance = try! instanceWrapper?.toABI { $0 }
@@ -81,7 +82,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func SetValueImpl(_ instance: Any?, _ value: Any?) throws {
+        open func SetValue(_ instance: Any?, _ value: Any?) throws {
             let instanceWrapper = __ABI_.AnyWrapper(instance)
             let _instance = try! instanceWrapper?.toABI { $0 }
             let valueWrapper = __ABI_.AnyWrapper(value)
@@ -173,7 +174,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         SetValue: {
@@ -183,7 +184,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let value: Any? = __ABI_.AnyWrapper.unwrapFrom(abi: ComPtr($2))
                 try __unwrapped__instance.setValue(instance, value)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 
@@ -191,7 +192,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
     public class IXamlMetadataProvider: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMetadataProvider }
 
-        open func GetXamlTypeImpl(_ type: WinUI.TypeName) throws -> WinUI.AnyIXamlType? {
+        open func GetXamlType(_ type: WinUI.TypeName) throws -> WinUI.AnyIXamlType? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _type = __ABI_Windows_UI_Xaml_Interop._ABI_TypeName(from: type)
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMetadataProvider.self) { pThis in
@@ -201,7 +202,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: result)
         }
 
-        open func GetXamlTypeByFullNameImpl(_ fullName: String) throws -> WinUI.AnyIXamlType? {
+        open func GetXamlTypeByFullName(_ fullName: String) throws -> WinUI.AnyIXamlType? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _fullName = try! HString(fullName)
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMetadataProvider.self) { pThis in
@@ -209,6 +210,16 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 }
             }
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: result)
+        }
+
+        open func GetXmlnsDefinitions() throws -> [WinUI.XmlnsDefinition] {
+            var result: WinRTArrayAbi<__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXmlnsDefinition> = (0, nil)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMetadataProvider.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.GetXmlnsDefinitions(pThis, &result.count, &result.start))
+            }
+            defer { CoTaskMemFree(result.start) }
+            return .from(abi: result)
+
         }
 
     }
@@ -249,7 +260,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetXamlTypeByFullName: {
@@ -260,17 +271,27 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
-        GetXmlnsDefinitions: { _, _, _ in return failWith(err: E_NOTIMPL) }
+        GetXmlnsDefinitions: {
+            do {
+                guard let __unwrapped__instance = IXamlMetadataProviderWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+                let result = try __unwrapped__instance.getXmlnsDefinitions()
+                $1?.initialize(to: UInt32(result.count))
+                do {
+                    try result.fill(abi: $2)
+                } catch { return failWith(error: error) }
+                return S_OK
+            } catch { return failWith(error: error) }
+        }
     )
 
     public typealias IXamlMetadataProviderWrapper = InterfaceWrapperBase<__IMPL_Microsoft_UI_Xaml_Markup.IXamlMetadataProviderBridge>
     public class IXamlType: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType }
 
-        open func get_BaseTypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_BaseType() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_BaseType(pThis, &valueAbi))
@@ -279,7 +300,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_ContentPropertyImpl() throws -> WinUI.AnyIXamlMember? {
+        open func get_ContentProperty() throws -> WinUI.AnyIXamlMember? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContentProperty(pThis, &valueAbi))
@@ -288,7 +309,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlMemberWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_FullNameImpl() throws -> String {
+        open func get_FullName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FullName(pThis, &value))
@@ -296,7 +317,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsArrayImpl() throws -> Bool {
+        open func get_IsArray() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsArray(pThis, &value))
@@ -304,7 +325,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsCollectionImpl() throws -> Bool {
+        open func get_IsCollection() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCollection(pThis, &value))
@@ -312,7 +333,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsConstructibleImpl() throws -> Bool {
+        open func get_IsConstructible() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsConstructible(pThis, &value))
@@ -320,7 +341,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsDictionaryImpl() throws -> Bool {
+        open func get_IsDictionary() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDictionary(pThis, &value))
@@ -328,7 +349,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsMarkupExtensionImpl() throws -> Bool {
+        open func get_IsMarkupExtension() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsMarkupExtension(pThis, &value))
@@ -336,7 +357,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_IsBindableImpl() throws -> Bool {
+        open func get_IsBindable() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBindable(pThis, &value))
@@ -344,7 +365,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .init(from: value)
         }
 
-        open func get_ItemTypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_ItemType() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ItemType(pThis, &valueAbi))
@@ -353,7 +374,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_KeyTypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_KeyType() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyType(pThis, &valueAbi))
@@ -362,7 +383,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_BoxedTypeImpl() throws -> WinUI.AnyIXamlType? {
+        open func get_BoxedType() throws -> WinUI.AnyIXamlType? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_BoxedType(pThis, &valueAbi))
@@ -371,7 +392,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlTypeWrapper.unwrapFrom(abi: value)
         }
 
-        open func get_UnderlyingTypeImpl() throws -> WinUI.TypeName {
+        open func get_UnderlyingType() throws -> WinUI.TypeName {
             var value: __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_UnderlyingType(pThis, &value))
@@ -379,7 +400,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return .from(abi: value)
         }
 
-        open func ActivateInstanceImpl() throws -> Any? {
+        open func ActivateInstance() throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ActivateInstance(pThis, &resultAbi))
@@ -388,7 +409,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func CreateFromStringImpl(_ value: String) throws -> Any? {
+        open func CreateFromString(_ value: String) throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _value = try! HString(value)
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
@@ -398,7 +419,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func GetMemberImpl(_ name: String) throws -> WinUI.AnyIXamlMember? {
+        open func GetMember(_ name: String) throws -> WinUI.AnyIXamlMember? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _name = try! HString(name)
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
@@ -408,7 +429,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             return __ABI_Microsoft_UI_Xaml_Markup.IXamlMemberWrapper.unwrapFrom(abi: result)
         }
 
-        open func AddToVectorImpl(_ instance: Any?, _ value: Any?) throws {
+        open func AddToVector(_ instance: Any?, _ value: Any?) throws {
             let instanceWrapper = __ABI_.AnyWrapper(instance)
             let _instance = try! instanceWrapper?.toABI { $0 }
             let valueWrapper = __ABI_.AnyWrapper(value)
@@ -418,7 +439,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             }
         }
 
-        open func AddToMapImpl(_ instance: Any?, _ key: Any?, _ value: Any?) throws {
+        open func AddToMap(_ instance: Any?, _ key: Any?, _ value: Any?) throws {
             let instanceWrapper = __ABI_.AnyWrapper(instance)
             let _instance = try! instanceWrapper?.toABI { $0 }
             let keyWrapper = __ABI_.AnyWrapper(key)
@@ -430,7 +451,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
             }
         }
 
-        open func RunInitializerImpl() throws {
+        open func RunInitializer() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlType.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RunInitializer(pThis))
             }
@@ -570,7 +591,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFromString: {
@@ -581,7 +602,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetMember: {
@@ -592,7 +613,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let resultWrapper = __ABI_Microsoft_UI_Xaml_Markup.IXamlMemberWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         AddToVector: {
@@ -602,7 +623,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let value: Any? = __ABI_.AnyWrapper.unwrapFrom(abi: ComPtr($2))
                 try __unwrapped__instance.addToVector(instance, value)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         AddToMap: {
@@ -613,7 +634,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 let value: Any? = __ABI_.AnyWrapper.unwrapFrom(abi: ComPtr($3))
                 try __unwrapped__instance.addToMap(instance, key, value)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         RunInitializer: {
@@ -621,7 +642,7 @@ public enum __ABI_Microsoft_UI_Xaml_Markup {
                 guard let __unwrapped__instance = IXamlTypeWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
                 try __unwrapped__instance.runInitializer()
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 

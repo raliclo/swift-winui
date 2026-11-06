@@ -819,6 +819,10 @@ enum __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_RemoteSystemUnavailable = 5,
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_RemoteSystemNotSupportedByApp = 6,
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_NotAuthorized = 7,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_AuthenticationError = 8,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_NetworkNotAvailable = 9,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_DisabledByPolicy = 10,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceConnectionStatus_WebServiceUnavailable = 11,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus
@@ -829,6 +833,11 @@ enum __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_Unknown = 3,
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_RemoteSystemUnavailable = 4,
     __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_MessageSizeTooLarge = 5,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_AppUnavailable = 6,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_AuthenticationError = 7,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_NetworkNotAvailable = 8,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_DisabledByPolicy = 9,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CAppServiceResponseStatus_WebServiceUnavailable = 10,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus
@@ -844,6 +853,10 @@ enum __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponse
     __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_MessageSizeTooLarge = 8,
     __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_Failure = 9,
     __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_Unknown = 10,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_AuthenticationError = 11,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_NetworkNotAvailable = 12,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_DisabledByPolicy = 13,
+    __x_ABI_CWindows_CApplicationModel_CAppService_CStatelessAppServiceResponseStatus_WebServiceUnavailable = 14,
 };
 
 #if !defined(____x_ABI_CWindows_CApplicationModel_CAppService_CIAppServiceCatalogStatics_INTERFACE_DEFINED__)

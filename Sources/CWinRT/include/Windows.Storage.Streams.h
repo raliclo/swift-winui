@@ -8,6 +8,8 @@
 #include "Windows.Foundation.h"
 #include "Windows.Storage.h"
 #include "Windows.System.h"
+// Importing Collections header
+#include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
 #ifndef ____x_ABI_CWindows_CStorage_CStreams_CIBuffer_FWD_DEFINED__
@@ -87,6 +89,12 @@
     typedef interface __x_ABI_CWindows_CStorage_CStreams_CIOutputStream __x_ABI_CWindows_CStorage_CStreams_CIOutputStream;
 
 #endif // ____x_ABI_CWindows_CStorage_CStreams_CIOutputStream_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer;
+
+#endif // ____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_FWD_DEFINED__
@@ -928,6 +936,12 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CS
     
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
+#ifndef ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet;
+
+#endif // ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
+
 typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
@@ -1604,6 +1618,43 @@ enum __x_ABI_CWindows_CStorage_CStreams_CUnicodeEncoding
     
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CStreams_CIOutputStream;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CStreams_CIOutputStream_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Serialize)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet* propertySet,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** result);
+    HRESULT (STDMETHODCALLTYPE* Deserialize)(__x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer* This,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet* propertySet,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* buffer);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializerVtbl;
+
+    interface __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CStreams_CIPropertySetSerializer_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_INTERFACE_DEFINED__

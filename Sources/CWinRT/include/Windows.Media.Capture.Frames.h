@@ -16,6 +16,7 @@
 #include "Windows.Media.MediaProperties.h"
 #include "Windows.Perception.Spatial.h"
 #include "Windows.Storage.Streams.h"
+#include "Windows.UI.WindowManagement.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -151,6 +152,18 @@
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo2 __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo2;
 
 #endif // ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3 __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3;
+
+#endif // ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4 __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4;
+
+#endif // ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMultiSourceMediaFrameArrivedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMultiSourceMediaFrameArrivedEventArgs_FWD_DEFINED__
@@ -1549,6 +1562,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
 
 #endif // ____x_ABI_CWindows_CDevices_CEnumeration_CIDeviceInformation_FWD_DEFINED__
 
+typedef enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel __x_ABI_CWindows_CDevices_CEnumeration_CPanel;
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
@@ -1649,6 +1664,12 @@ typedef enum __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType __x_ABI_CWindows_
 
 #endif // ____x_ABI_CWindows_CStorage_CStreams_CIBuffer_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion;
+
+#endif // ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameReaderAcquisitionMode __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameReaderAcquisitionMode;
 
 typedef enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceGetPropertyStatus __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceGetPropertyStatus;
@@ -1688,6 +1709,7 @@ enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Depth = 3,
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Audio = 4,
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Image = 5,
+    __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Metadata = 6,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceSetPropertyStatus
@@ -2545,6 +2567,73 @@ enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMultiSourceMediaFrameReaderStartS
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo2;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetRelativePanel)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3* This,
+        __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion* displayRegion,
+        enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsShareable)(__x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSourceInfo4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMultiSourceMediaFrameArrivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMultiSourceMediaFrameArrivedEventArgs_INTERFACE_DEFINED__

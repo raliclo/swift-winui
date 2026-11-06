@@ -7,13 +7,17 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Microsoft.UI.Composition.h"
+#include "Microsoft.UI.Input.h"
 #include "Microsoft.UI.Xaml.h"
 #include "Microsoft.UI.Xaml.Controls.h"
+#include "Microsoft.UI.Xaml.Documents.h"
 #include "Microsoft.UI.Xaml.Input.h"
 #include "Microsoft.UI.Xaml.Markup.h"
 #include "Microsoft.UI.Xaml.Media.h"
 #include "Windows.UI.h"
+#include "Windows.UI.Input.h"
 #include "Windows.UI.Text.h"
+#include "Windows.UI.ViewManagement.h"
 #include "Windows.UI.Xaml.Interop.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
@@ -79,6 +83,12 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIAttachedShadowElementContextFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_FWD_DEFINED__
+
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger __x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger;
@@ -109,17 +119,17 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIFontIconSourceExtension_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_FWD_DEFINED__
-
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIIsEqualStateTrigger_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIIsEqualStateTrigger_FWD_DEFINED__
@@ -145,23 +155,11 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIIsNullOrEmptyStateTriggerStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_FWD_DEFINED__
-
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_FWD_DEFINED__
-
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_FWD_DEFINED__
@@ -169,17 +167,65 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIRectExtensions __x_ABI_CXamlToolkit_CWinUI_CIRectExtensions;
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger;
 
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_FWD_DEFINED__
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CISymbolIconExtension_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CISymbolIconExtension_FWD_DEFINED__
@@ -192,6 +238,12 @@
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CISymbolIconSourceExtension __x_ABI_CXamlToolkit_CWinUI_CISymbolIconSourceExtension;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CISymbolIconSourceExtension_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CITextIconExtension_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CITextIconExtension_FWD_DEFINED__
@@ -211,12 +263,6 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CITextIconExtensionStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CITransformExtensions __x_ABI_CXamlToolkit_CWinUI_CITransformExtensions;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_FWD_DEFINED__
-
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics;
@@ -229,11 +275,17 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions;
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger;
 
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_FWD_DEFINED__
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsStatics_FWD_DEFINED__
@@ -405,6 +457,8 @@ typedef enum __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection __x_ABI_
 
 #endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIVisual_FWD_DEFINED__
 
+typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape;
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIListViewBase_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIListViewBase_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIListViewBase __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIListViewBase;
@@ -412,6 +466,12 @@ typedef enum __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection __x_ABI_
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIListViewBase_FWD_DEFINED__
 
 typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSymbol __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSymbol;
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIDataTemplate_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIDataTemplate_FWD_DEFINED__
@@ -436,6 +496,12 @@ typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSymbol __x_ABI_CMicrosoft_C
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyPropertyChangedEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyPropertyChangedEventArgs;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CIDependencyPropertyChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement_FWD_DEFINED__
@@ -487,11 +553,37 @@ typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSymbol __x_ABI_CMicrosoft_C
 
 typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix;
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform_FWD_DEFINED__
+
+typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness __x_ABI_CMicrosoft_CUI_CXaml_CThickness;
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIUIElement_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIUIElement_FWD_DEFINED__
@@ -517,21 +609,59 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
 typedef struct __x_ABI_CWindows_CFoundation_CSize __x_ABI_CWindows_CFoundation_CSize;
 
+#ifndef ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
+
+#ifndef ____x_ABI_CWindows_CUI_CInput_CIRadialController_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CIRadialController_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CIRadialController __x_ABI_CWindows_CUI_CInput_CIRadialController;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CIRadialController_FWD_DEFINED__
+
+typedef enum __x_ABI_CWindows_CUI_CInput_CRadialControllerMenuKnownIcon __x_ABI_CWindows_CUI_CInput_CRadialControllerMenuKnownIcon;
 
 typedef enum __x_ABI_CWindows_CUI_CText_CFontStyle __x_ABI_CWindows_CUI_CText_CFontStyle;
 
 typedef struct __x_ABI_CWindows_CUI_CText_CFontWeight __x_ABI_CWindows_CUI_CText_CFontWeight;
 
+typedef enum __x_ABI_CWindows_CUI_CViewManagement_CHandPreference __x_ABI_CWindows_CUI_CViewManagement_CHandPreference;
+
 typedef struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName;
 
+typedef enum __x_ABI_CXamlToolkit_CWinUI_CConnectionState __x_ABI_CXamlToolkit_CWinUI_CConnectionState;
+
+typedef enum __x_ABI_CXamlToolkit_CWinUI_CRegexOptions __x_ABI_CXamlToolkit_CWinUI_CRegexOptions;
+
 typedef enum __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement;
+
+typedef enum __x_ABI_CXamlToolkit_CWinUI_CValidationMode __x_ABI_CXamlToolkit_CWinUI_CValidationMode;
+
+typedef enum __x_ABI_CXamlToolkit_CWinUI_CValidationType __x_ABI_CXamlToolkit_CWinUI_CValidationType;
+
+enum __x_ABI_CXamlToolkit_CWinUI_CConnectionState
+    {
+        __x_ABI_CXamlToolkit_CWinUI_CConnectionState_Connected = 0,
+    __x_ABI_CXamlToolkit_CWinUI_CConnectionState_Disconnected = 1,
+};
 
 enum __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection
     {
         __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection_Horizontal = 0,
     __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection_Vertical = 1,
     __x_ABI_CXamlToolkit_CWinUI_CItemContainerStretchDirection_Both = 2,
+};
+
+enum __x_ABI_CXamlToolkit_CWinUI_CRegexOptions
+    {
+        __x_ABI_CXamlToolkit_CWinUI_CRegexOptions_None = 0,
+    __x_ABI_CXamlToolkit_CWinUI_CRegexOptions_IgnoreCase = 1,
+    __x_ABI_CXamlToolkit_CWinUI_CRegexOptions_Multiline = 2,
+    __x_ABI_CXamlToolkit_CWinUI_CRegexOptions_Optimize = 3,
 };
 
 enum __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement
@@ -542,6 +672,23 @@ enum __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement
     __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement_Center = 3,
     __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement_Right = 4,
     __x_ABI_CXamlToolkit_CWinUI_CScrollItemPlacement_Bottom = 5,
+};
+
+enum __x_ABI_CXamlToolkit_CWinUI_CValidationMode
+    {
+        __x_ABI_CXamlToolkit_CWinUI_CValidationMode_Normal = 0,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationMode_Forced = 1,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationMode_Dynamic = 2,
+};
+
+enum __x_ABI_CXamlToolkit_CWinUI_CValidationType
+    {
+        __x_ABI_CXamlToolkit_CWinUI_CValidationType_Custom = 0,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationType_Email = 1,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationType_Number = 2,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationType_Decimal = 3,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationType_Characters = 4,
+    __x_ABI_CXamlToolkit_CWinUI_CValidationType_PhoneNumber = 5,
 };
 
 struct __x_ABI_CXamlToolkit_CWinUI_CHslColor
@@ -988,6 +1135,45 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIAttachedShadowElementContextFactory;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIAttachedShadowElementContextFactory_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtensionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Source)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_Source)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_ShowAsMonochrome)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShowAsMonochrome)(__x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtensionVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtensionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIBitmapIconExtension_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIControlSizeTrigger_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CIControlSizeTriggerVtbl
@@ -1205,37 +1391,6 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIFontIconSourceExtension;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIFontIconSourceExtension_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensions_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStaticsVtbl
@@ -1282,6 +1437,53 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIFrameworkElementExtensionsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CommandProperty)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CommandParameterProperty)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetCommand)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink* obj,
+        __x_ABI_CMicrosoft_CUI_CXaml_CInput_CICommand** result);
+    HRESULT (STDMETHODCALLTYPE* SetCommand)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink* obj,
+        __x_ABI_CMicrosoft_CUI_CXaml_CInput_CICommand* value);
+    HRESULT (STDMETHODCALLTYPE* GetCommandParameter)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink* obj,
+        IInspectable** result);
+    HRESULT (STDMETHODCALLTYPE* SetCommandParameter)(__x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CIHyperlink* obj,
+        IInspectable* value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIHyperlinkExtensionsStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIIsEqualStateTrigger_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIIsEqualStateTrigger_INTERFACE_DEFINED__
@@ -1425,37 +1627,6 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIIsNullOrEmptyStateTriggerStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIIsNullOrEmptyStateTriggerStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensions_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStaticsVtbl
@@ -1540,37 +1711,6 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIListViewExtensionsStatics_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensions_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_INTERFACE_DEFINED__
@@ -1668,36 +1808,167 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIMatrixExtensionsStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsVtbl
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerVtbl
     {
         BEGIN_INTERFACE
 
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
             REFIID riid,
             void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This,
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
             ULONG* iidCount,
             IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
             HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIRectExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
             TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsVtbl;
+        HRESULT (STDMETHODCALLTYPE* get_ConnectionState)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
+        enum __x_ABI_CXamlToolkit_CWinUI_CConnectionState* value);
+    HRESULT (STDMETHODCALLTYPE* put_ConnectionState)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger* This,
+        enum __x_ABI_CXamlToolkit_CWinUI_CConnectionState value);
 
-    interface __x_ABI_CXamlToolkit_CWinUI_CIRectExtensions
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger
     {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsVtbl* lpVtbl;
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerVtbl* lpVtbl;
     };
 
     
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIRectExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIRectExtensions_INTERFACE_DEFINED__) */
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTrigger_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ConnectionStateProperty)(__x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CINetworkConnectionStateTriggerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtensionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_Value)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IsNull)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsNull)(__x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtensionVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtensionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CINullableBoolExtension_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtensionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Default)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Default)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Desktop)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Desktop)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Holographic)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Holographic)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_IoT)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_IoT)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Team)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Team)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Xbox)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Xbox)(__x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension* This,
+        IInspectable* value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtensionVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtensionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIOnDeviceExtension_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_INTERFACE_DEFINED__
@@ -1740,6 +2011,229 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIRectExtensionsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Value)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Expression)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Expression)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Options)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        enum __x_ABI_CXamlToolkit_CWinUI_CRegexOptions* value);
+    HRESULT (STDMETHODCALLTYPE* put_Options)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger* This,
+        enum __x_ABI_CXamlToolkit_CWinUI_CRegexOptions value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTrigger_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ValueProperty)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_ExpressionProperty)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionsProperty)(__x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIRegexStateTriggerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_HorizontalScrollBarMarginProperty)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_VerticalScrollBarMarginProperty)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetVerticalScrollBarMargin)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness* result);
+    HRESULT (STDMETHODCALLTYPE* SetVerticalScrollBarMargin)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* GetHorizontalScrollBarMargin)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness* result);
+    HRESULT (STDMETHODCALLTYPE* SetHorizontalScrollBarMargin)(__x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIScrollViewerExtensionsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Icon)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        enum __x_ABI_CWindows_CUI_CInput_CRadialControllerMenuKnownIcon* value);
+    HRESULT (STDMETHODCALLTYPE* put_Icon)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        enum __x_ABI_CWindows_CUI_CInput_CRadialControllerMenuKnownIcon value);
+    HRESULT (STDMETHODCALLTYPE* get_StepValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_StepValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_EnableHapticFeedback)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_EnableHapticFeedback)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RotationResolutionInDegrees)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_RotationResolutionInDegrees)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_MinValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_MinValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_MaxValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_EnableTapToNextControl)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_EnableTapToNextControl)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_EnableMinMaxValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_EnableMinMaxValue)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Default)(__x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics* This,
+        __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptionsStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CISymbolIconExtension_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CISymbolIconExtension_INTERFACE_DEFINED__
@@ -1810,6 +2304,107 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CISymbolIconSourceExtension;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CISymbolIconSourceExtension_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_MaskProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetMask)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* SetMask)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_MaskPlaceholderProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetMaskPlaceholder)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* SetMaskPlaceholder)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_CustomMaskProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetCustomMask)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* SetCustomMask)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_RegexProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetRegex)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* SetRegex)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_IsValidProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetIsValid)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetIsValid)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ValidationModeProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetValidationMode)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        enum __x_ABI_CXamlToolkit_CWinUI_CValidationMode* result);
+    HRESULT (STDMETHODCALLTYPE* SetValidationMode)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        enum __x_ABI_CXamlToolkit_CWinUI_CValidationMode value);
+    HRESULT (STDMETHODCALLTYPE* get_ValidationTypeProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetValidationType)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        enum __x_ABI_CXamlToolkit_CWinUI_CValidationType* result);
+    HRESULT (STDMETHODCALLTYPE* SetValidationType)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        enum __x_ABI_CXamlToolkit_CWinUI_CValidationType value);
+    HRESULT (STDMETHODCALLTYPE* get_SurfaceDialOptionsProperty)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetSurfaceDialOptions)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions** result);
+    HRESULT (STDMETHODCALLTYPE* SetSurfaceDialOptions)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextBox* obj,
+        __x_ABI_CXamlToolkit_CWinUI_CISurfaceDialOptions* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsSurfaceDialOptionsSupported)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_Controller)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CWindows_CUI_CInput_CIRadialController** value);
+    HRESULT (STDMETHODCALLTYPE* put_Controller)(__x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics* This,
+        __x_ABI_CWindows_CUI_CInput_CIRadialController* value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CITextBoxExtensionsStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CITextIconExtension_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CITextIconExtension_INTERFACE_DEFINED__
@@ -1934,37 +2529,6 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CITextIconExtensionStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CITextIconExtensionStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensions* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CITransformExtensions
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CITransformExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CITransformExtensions_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStaticsVtbl
@@ -1985,6 +2549,18 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetMatrix)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITransform* transform,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix* result);
+    HRESULT (STDMETHODCALLTYPE* GetMatrix2)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIRotateTransform* transform,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix* result);
+    HRESULT (STDMETHODCALLTYPE* GetMatrix3)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CIScaleTransform* transform,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix* result);
+    HRESULT (STDMETHODCALLTYPE* GetMatrix4)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISkewTransform* transform,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix* result);
+    HRESULT (STDMETHODCALLTYPE* GetMatrix5)(__x_ABI_CXamlToolkit_CWinUI_CITransformExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CITranslateTransform* transform,
         struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix* result);
 
         END_INTERFACE
@@ -2033,6 +2609,14 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* parent,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* target,
         struct __x_ABI_CWindows_CFoundation_CPoint* result);
+    HRESULT (STDMETHODCALLTYPE* get_CursorProperty)(__x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetCursor)(__x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        enum __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape* result);
+    HRESULT (STDMETHODCALLTYPE* SetCursor)(__x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* obj,
+        enum __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape value);
 
         END_INTERFACE
     } __x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStaticsVtbl;
@@ -2046,36 +2630,73 @@ struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIUIElementExtensionsStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsVtbl
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerVtbl
     {
         BEGIN_INTERFACE
 
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
             REFIID riid,
             void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This,
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
             ULONG* iidCount,
             IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
             HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions* This,
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
             TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsVtbl;
+        HRESULT (STDMETHODCALLTYPE* get_HandPreference)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
+        enum __x_ABI_CWindows_CUI_CViewManagement_CHandPreference* value);
+    HRESULT (STDMETHODCALLTYPE* put_HandPreference)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger* This,
+        enum __x_ABI_CWindows_CUI_CViewManagement_CHandPreference value);
 
-    interface __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger
     {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsVtbl* lpVtbl;
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerVtbl* lpVtbl;
     };
 
     
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensions_INTERFACE_DEFINED__) */
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTrigger_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_HandPreferenceProperty)(__x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CIUserHandPreferenceStateTriggerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CIVisualExtensionsStatics_INTERFACE_DEFINED__

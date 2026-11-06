@@ -4,6 +4,7 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public enum ICoreDropOperationTargetBridge : AbiInterfaceBridge {
         public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget
@@ -30,24 +31,112 @@ public enum __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.icoredropoperationtarget.enterasync)
         fileprivate func enterAsync(_ dragInfo: CoreDragInfo!, _ dragUIOverride: CoreDragUIOverride!) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>! {
-            try _default.EnterAsyncImpl(dragInfo, dragUIOverride)
+            try _default.EnterAsync(dragInfo, dragUIOverride)
         }
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.icoredropoperationtarget.overasync)
         fileprivate func overAsync(_ dragInfo: CoreDragInfo!, _ dragUIOverride: CoreDragUIOverride!) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>! {
-            try _default.OverAsyncImpl(dragInfo, dragUIOverride)
+            try _default.OverAsync(dragInfo, dragUIOverride)
         }
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.icoredropoperationtarget.leaveasync)
         fileprivate func leaveAsync(_ dragInfo: CoreDragInfo!) throws -> WindowsFoundation.AnyIAsyncAction! {
-            try _default.LeaveAsyncImpl(dragInfo)
+            try _default.LeaveAsync(dragInfo)
         }
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.icoredropoperationtarget.dropasync)
         fileprivate func dropAsync(_ dragInfo: CoreDragInfo!) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>! {
-            try _default.DropAsyncImpl(dragInfo)
+            try _default.DropAsync(dragInfo)
         }
 
     }
 
+    public enum CoreDragDropManagerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreDragDropManager
+        public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager>?) -> CoreDragDropManager? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreDragInfoBridge: AbiBridge {
+        public typealias SwiftProjection = CoreDragInfo
+        public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo>?) -> CoreDragInfo? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreDragOperationBridge: AbiBridge {
+        public typealias SwiftProjection = CoreDragOperation
+        public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation>?) -> CoreDragOperation? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreDragUIOverrideBridge: AbiBridge {
+        public typealias SwiftProjection = CoreDragUIOverride
+        public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride>?) -> CoreDragUIOverride? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreDropOperationTargetRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreDropOperationTargetRequestedEventArgs
+        public typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTargetRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTargetRequestedEventArgs>?) -> CoreDropOperationTargetRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+public class ICoreDropOperationTargetMaker: MakeFromAbi {
+    public typealias SwiftType = AnyICoreDropOperationTarget
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDropOperationTarget = try! abi.QueryInterface()
+        return __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDropOperationTargetBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class CoreDragDropManagerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreDragDropManager
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreDragDropManager(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreDragInfoMaker: MakeFromAbi {
+    public typealias SwiftType = CoreDragInfo
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreDragInfo(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreDragOperationMaker: MakeFromAbi {
+    public typealias SwiftType = CoreDragOperation
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreDragOperation(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreDragUIOverrideMaker: MakeFromAbi {
+    public typealias SwiftType = CoreDragUIOverride
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreDragUIOverride(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreDropOperationTargetRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreDropOperationTargetRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreDropOperationTargetRequestedEventArgs(fromAbi: abi)
+    }
 }

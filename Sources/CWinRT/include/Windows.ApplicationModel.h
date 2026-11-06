@@ -27,11 +27,41 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInfo2 __x_ABI_CWindows_CApplicationModel_CIAppInfo2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInfo3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInfo3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInfo3 __x_ABI_CWindows_CApplicationModel_CIAppInfo3;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfo3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInfo4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInfo4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInfo4 __x_ABI_CWindows_CApplicationModel_CIAppInfo4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfo4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInfoStatics __x_ABI_CWindows_CApplicationModel_CIAppInfoStatics;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2 __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInstance_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIAppInstance_FWD_DEFINED__
@@ -44,12 +74,6 @@
     typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics __x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics;
-
-#endif // ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_FWD_DEFINED__
@@ -69,11 +93,35 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIEnteredBackgroundEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2 __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CILeavingBackgroundEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CILeavingBackgroundEventArgs_FWD_DEFINED__
@@ -135,6 +183,18 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIPackage7_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIPackage8_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIPackage8_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIPackage8 __x_ABI_CWindows_CApplicationModel_CIPackage8;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIPackage8_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIPackage9_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIPackage9_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIPackage9 __x_ABI_CWindows_CApplicationModel_CIPackage9;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIPackage9_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIPackageCatalog_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIPackageCatalog_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CIPackageCatalog __x_ABI_CWindows_CApplicationModel_CIPackageCatalog;
@@ -188,6 +248,12 @@
     typedef interface __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2 __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIPackageContentGroup_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIPackageContentGroup_FWD_DEFINED__
@@ -388,6 +454,82 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean __x_ABI_
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+        __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult_INTERFACE_DEFINED__
     
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CPackageCatalogAddOptionalPackageResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CApplicationModel__CPackageCatalogAddOptionalPackageResult;
 
@@ -1994,6 +2136,96 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CA
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
     
+#ifndef ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUriVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUriVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUriVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUriVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUriVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUriVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CAppInstance_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CAppInstance_INTERFACE_DEFINED__
 
@@ -2094,6 +2326,56 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CA
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CAppInstance_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CAppInstance_INTERFACE_DEFINED__
 
@@ -2160,6 +2442,73 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CA
 
     
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CAppInstance_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackageVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 index,
+        __x_ABI_CWindows_CApplicationModel_CIPackage** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CPackage** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        __x_ABI_CWindows_CApplicationModel_CIPackage* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 index,
+        __x_ABI_CWindows_CApplicationModel_CIPackage* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 index,
+        __x_ABI_CWindows_CApplicationModel_CIPackage* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        __x_ABI_CWindows_CApplicationModel_CIPackage* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CApplicationModel_CIPackage** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CApplicationModel_CIPackage** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackageVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackageVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
     
 typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
 
@@ -2427,12 +2776,6 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 typedef struct __x_ABI_CWindows_CFoundation_CSize __x_ABI_CWindows_CFoundation_CSize;
 
-#ifndef ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
-#define ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
-
-#endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CIStorageFolder __x_ABI_CWindows_CStorage_CIStorageFolder;
@@ -2447,11 +2790,25 @@ typedef struct __x_ABI_CWindows_CFoundation_CSize __x_ABI_CWindows_CFoundation_C
 
 typedef enum __x_ABI_CWindows_CSystem_CProcessorArchitecture __x_ABI_CWindows_CSystem_CProcessorArchitecture;
 
+#ifndef ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIUser __x_ABI_CWindows_CSystem_CIUser;
+
+#endif // ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions;
+
+typedef enum __x_ABI_CWindows_CApplicationModel_CAppExecutionContext __x_ABI_CWindows_CApplicationModel_CAppExecutionContext;
+
+typedef enum __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource;
+
+typedef enum __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CLimitedAccessFeatureStatus __x_ABI_CWindows_CApplicationModel_CLimitedAccessFeatureStatus;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState;
+
+typedef enum __x_ABI_CWindows_CApplicationModel_CPackageRelationship __x_ABI_CWindows_CApplicationModel_CPackageRelationship;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CPackageSignatureKind __x_ABI_CWindows_CApplicationModel_CPackageSignatureKind;
 
@@ -2464,6 +2821,27 @@ enum __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions
         __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions_None = 0,
     __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions_ForceTargetAppShutdown = 0x1,
     __x_ABI_CWindows_CApplicationModel_CAddResourcePackageOptions_ApplyUpdateIfAvailable = 0x2,
+};
+
+enum __x_ABI_CWindows_CApplicationModel_CAppExecutionContext
+    {
+        __x_ABI_CWindows_CApplicationModel_CAppExecutionContext_Unknown = 0,
+    __x_ABI_CWindows_CApplicationModel_CAppExecutionContext_Host = 1,
+    __x_ABI_CWindows_CApplicationModel_CAppExecutionContext_Guest = 2,
+};
+
+enum __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource
+    {
+        __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource_Default = 0,
+    __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource_System = 1,
+};
+
+enum __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult
+    {
+        __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult_Success = 0,
+    __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult_AccessDenied = 1,
+    __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult_FileNotFound = 2,
+    __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult_Unknown = 3,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CLimitedAccessFeatureStatus
@@ -2480,6 +2858,13 @@ enum __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState
     __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState_Queued = 1,
     __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState_Staging = 2,
     __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState_Staged = 3,
+};
+
+enum __x_ABI_CWindows_CApplicationModel_CPackageRelationship
+    {
+        __x_ABI_CWindows_CApplicationModel_CPackageRelationship_Dependencies = 0,
+    __x_ABI_CWindows_CApplicationModel_CPackageRelationship_Dependents = 1,
+    __x_ABI_CWindows_CApplicationModel_CPackageRelationship_All = 2,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CPackageSignatureKind
@@ -2599,6 +2984,146 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInfo;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIAppInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Package)(__x_ABI_CWindows_CApplicationModel_CIAppInfo2* This,
+        __x_ABI_CWindows_CApplicationModel_CIPackage** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIAppInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIAppInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIAppInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInfo2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIAppInfo3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInfo3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ExecutionContext)(__x_ABI_CWindows_CApplicationModel_CIAppInfo3* This,
+        enum __x_ABI_CWindows_CApplicationModel_CAppExecutionContext* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIAppInfo3Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIAppInfo3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIAppInfo3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInfo3;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIAppInfo4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInfo4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SupportedFileExtensions)(__x_ABI_CWindows_CApplicationModel_CIAppInfo4* This,
+        UINT32* valueLength,
+        HSTRING** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIAppInfo4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIAppInfo4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIAppInfo4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInfo4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfo4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInfoStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+        __x_ABI_CWindows_CApplicationModel_CIAppInfo** value);
+    HRESULT (STDMETHODCALLTYPE* GetFromAppUserModelId)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+        HSTRING appUserModelId,
+        __x_ABI_CWindows_CApplicationModel_CIAppInfo** result);
+    HRESULT (STDMETHODCALLTYPE* GetFromAppUserModelIdForUser)(__x_ABI_CWindows_CApplicationModel_CIAppInfoStatics* This,
+        __x_ABI_CWindows_CSystem_CIUser* user,
+        HSTRING appUserModelId,
+        __x_ABI_CWindows_CApplicationModel_CIAppInfo** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIAppInfoStaticsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIAppInfoStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIAppInfoStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInfoStatics;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInfoStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfoVtbl
@@ -2631,6 +3156,67 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_OnLaunch)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_HoursBetweenUpdateChecks)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ShowPrompt)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateBlocksActivation)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_AutomaticBackgroundTask)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAutoRepairEnabled)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_Version)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        struct __x_ABI_CWindows_CApplicationModel_CPackageVersion* value);
+    HRESULT (STDMETHODCALLTYPE* get_LastChecked)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_PausedUntil)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime** value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateUris)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_RepairUris)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_DependencyPackageUris)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageUris)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_PolicySource)(__x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2* This,
+        enum __x_ABI_CWindows_CApplicationModel_CAppInstallerPolicySource* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstance_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIAppInstance_INTERFACE_DEFINED__
@@ -2708,38 +3294,6 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* ShowInstalledApplicationsUI)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl;
-
-    interface __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics;
-#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_INTERFACE_DEFINED__
@@ -2840,6 +3394,126 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIEnteredBackgroundEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIEnteredBackgroundEventArgs_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Relationship)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        enum __x_ABI_CWindows_CApplicationModel_CPackageRelationship* value);
+    HRESULT (STDMETHODCALLTYPE* put_Relationship)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        enum __x_ABI_CWindows_CApplicationModel_CPackageRelationship value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeFrameworks)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeFrameworks)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeHostRuntimes)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeHostRuntimes)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeOptionals)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeOptionals)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeResources)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeResources)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory* This,
+        enum __x_ABI_CWindows_CApplicationModel_CPackageRelationship Relationship,
+        __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactoryVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptionsFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LaunchResult)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+        enum __x_ABI_CWindows_CApplicationModel_CFullTrustLaunchResult* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResultVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLaunchResult_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStaticsVtbl
@@ -2882,6 +3556,44 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* LaunchFullTrustProcessForCurrentAppWithArgumentsAsync)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+        HSTRING commandLine,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult** operation);
+    HRESULT (STDMETHODCALLTYPE* LaunchFullTrustProcessForAppWithArgumentsAsync)(__x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2* This,
+        HSTRING fullTrustPackageRelativeAppId,
+        HSTRING commandLine,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CFullTrustProcessLaunchResult** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIFullTrustProcessLauncherStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CILeavingBackgroundEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CILeavingBackgroundEventArgs_INTERFACE_DEFINED__
@@ -3263,6 +3975,98 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIPackage7;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIPackage7_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIPackage8_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIPackage8_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIPackage8Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_EffectiveExternalLocation)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        __x_ABI_CWindows_CStorage_CIStorageFolder** value);
+    HRESULT (STDMETHODCALLTYPE* get_MachineExternalLocation)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        __x_ABI_CWindows_CStorage_CIStorageFolder** value);
+    HRESULT (STDMETHODCALLTYPE* get_UserExternalLocation)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        __x_ABI_CWindows_CStorage_CIStorageFolder** value);
+    HRESULT (STDMETHODCALLTYPE* get_InstalledPath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_MutablePath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_EffectivePath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_EffectiveExternalPath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_MachineExternalPath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_UserExternalPath)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* GetLogoAsRandomAccessStreamReference)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        struct __x_ABI_CWindows_CFoundation_CSize size,
+        __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference** result);
+    HRESULT (STDMETHODCALLTYPE* GetAppListEntries)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CCore__CAppListEntry** result);
+    HRESULT (STDMETHODCALLTYPE* get_IsStub)(__x_ABI_CWindows_CApplicationModel_CIPackage8* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIPackage8Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIPackage8
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIPackage8Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIPackage8;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIPackage8_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIPackage9_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIPackage9_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIPackage9Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* FindRelatedPackages)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+        __x_ABI_CWindows_CApplicationModel_CIFindRelatedPackagesOptions* options,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage** result);
+    HRESULT (STDMETHODCALLTYPE* get_SourceUriSchemeName)(__x_ABI_CWindows_CApplicationModel_CIPackage9* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIPackage9Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIPackage9
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIPackage9Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIPackage9;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIPackage9_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIPackageCatalog_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIPackageCatalog_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CIPackageCatalogVtbl
@@ -3607,6 +4411,40 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* OpenForPackage)(__x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2* This,
+        __x_ABI_CWindows_CApplicationModel_CIPackage* package,
+        __x_ABI_CWindows_CApplicationModel_CIPackageCatalog** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIPackageCatalogStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIPackageContentGroup_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIPackageContentGroup_INTERFACE_DEFINED__

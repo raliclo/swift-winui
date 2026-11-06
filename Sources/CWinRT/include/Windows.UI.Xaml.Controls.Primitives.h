@@ -450,6 +450,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIScrollEvent
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory;
@@ -473,6 +479,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIScrollEvent
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics3 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics3;
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemTemplateSettings_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemTemplateSettings_FWD_DEFINED__
@@ -612,6 +624,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIScrollEvent
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics;
@@ -629,6 +647,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIScrollEvent
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics3 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics3;
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4 __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIProgressBarTemplateSettings_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIProgressBarTemplateSettings_FWD_DEFINED__
@@ -1669,7 +1693,9 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CISelectionChangedEventHa
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CISelectionChangedEventHandler_FWD_DEFINED__
 
-    #ifndef ____x_ABI_CWindows_CUI_CXaml_CData_CIValueConverter_FWD_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius __x_ABI_CWindows_CUI_CXaml_CCornerRadius;
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CData_CIValueConverter_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CData_CIValueConverter_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CData_CIValueConverter __x_ABI_CWindows_CUI_CXaml_CData_CIValueConverter;
 
@@ -2100,6 +2126,10 @@ typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CFlyoutShowMode __
 
 typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterCheckMode __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterCheckMode;
 
+typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode;
+
+typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode;
+
 typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CScrollEventType __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CScrollEventType;
 
 typedef enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CScrollingIndicatorMode __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CScrollingIndicatorMode;
@@ -2174,6 +2204,12 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterChec
     __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterCheckMode_Overlay = 1,
 };
 
+enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode
+    {
+        __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode_Inline = 0,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode_Overlay = 1,
+};
+
 enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode
     {
         __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode_Bottom = 2,
@@ -2181,6 +2217,23 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode
     __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode_Mouse = 7,
     __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode_Right = 4,
     __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPlacementMode_Top = 10,
+};
+
+enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode
+    {
+        __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_Auto = 0,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_Top = 1,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_Bottom = 2,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_Left = 3,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_Right = 4,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_TopEdgeAlignedLeft = 5,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_TopEdgeAlignedRight = 6,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_BottomEdgeAlignedLeft = 7,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_BottomEdgeAlignedRight = 8,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_LeftEdgeAlignedTop = 9,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_LeftEdgeAlignedBottom = 10,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_RightEdgeAlignedTop = 11,
+    __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode_RightEdgeAlignedBottom = 12,
 };
 
 enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CScrollEventType
@@ -5223,6 +5276,145 @@ struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxSelectedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxSelectedPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxSelectedPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxSelectedDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPointerOverBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxPointerOverBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPressedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxPressedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius* value);
+    HRESULT (STDMETHODCALLTYPE* put_CheckBoxCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius* value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorVisualEnabled)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorVisualEnabled)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorMode)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorMode)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CListViewItemPresenterSelectionIndicatorMode value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorPointerOverBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorPressedBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectionIndicatorDisabledBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedPressedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedPressedBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedInnerBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedInnerBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_PointerOverBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_PointerOverBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenter4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterFactoryVtbl
@@ -5414,6 +5606,91 @@ struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckPressedBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckDisabledBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPointerOverBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPressedBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxDisabledBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedPointerOverBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedPressedBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxSelectedDisabledBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPointerOverBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxPressedBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxDisabledBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CheckBoxCornerRadiusProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorCornerRadiusProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorVisualEnabledProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorModeProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorPointerOverBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorPressedBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectionIndicatorDisabledBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedPressedBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedInnerBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_PointerOverBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemPresenterStatics4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemTemplateSettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIListViewItemTemplateSettings_INTERFACE_DEFINED__
@@ -6298,6 +6575,52 @@ struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PlacementTarget)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIFrameworkElement** value);
+    HRESULT (STDMETHODCALLTYPE* put_PlacementTarget)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIFrameworkElement* value);
+    HRESULT (STDMETHODCALLTYPE* get_DesiredPlacement)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_DesiredPlacement)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode value);
+    HRESULT (STDMETHODCALLTYPE* get_ActualPlacement)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CPopupPlacementMode* value);
+    HRESULT (STDMETHODCALLTYPE* add_ActualPlacementChanged)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ActualPlacementChanged)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopup4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStaticsVtbl
@@ -6406,6 +6729,41 @@ struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PlacementTargetProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_DesiredPlacementProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIPopupStatics4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIProgressBarTemplateSettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CIProgressBarTemplateSettings_INTERFACE_DEFINED__

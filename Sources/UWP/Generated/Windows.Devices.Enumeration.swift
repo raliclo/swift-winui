@@ -8,6 +8,8 @@ import CWinRT
 public typealias DeviceClass = __x_ABI_CWindows_CDevices_CEnumeration_CDeviceClass
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationkind)
 public typealias DeviceInformationKind = __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingaddpairingsetmemberstatus)
+public typealias DevicePairingAddPairingSetMemberStatus = __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingkinds)
 public typealias DevicePairingKinds = __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingprotectionlevel)
@@ -34,142 +36,152 @@ public final class DeviceInformation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceInformation>?) -> DeviceInformation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IDeviceInformationStatics: __ABI_Windows_Devices_Enumeration.IDeviceInformationStatics = try! RoGetActivationFactory(HString("Windows.Devices.Enumeration.DeviceInformation"))
+    private static let _IDeviceInformationStatics: __ABI_Windows_Devices_Enumeration.IDeviceInformationStatics = try! RoGetActivationFactory("Windows.Devices.Enumeration.DeviceInformation")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createfromidasync)
-    public static func createFromIdAsync(_ deviceId: String) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
-        return try! _IDeviceInformationStatics.CreateFromIdAsyncImpl(deviceId)
+    public static func createFromIdAsync(_ deviceId: String) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
+        return try _IDeviceInformationStatics.CreateFromIdAsync(deviceId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createfromidasync)
-    public static func createFromIdAsync(_ deviceId: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
-        return try! _IDeviceInformationStatics.CreateFromIdAsyncAdditionalPropertiesImpl(deviceId, additionalProperties)
+    public static func createFromIdAsync(_ deviceId: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
+        return try _IDeviceInformationStatics.CreateFromIdAsyncAdditionalProperties(deviceId, additionalProperties)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
-    public static func findAllAsync() -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
-        return try! _IDeviceInformationStatics.FindAllAsyncImpl()
+    public static func findAllAsync() throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics.FindAllAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
-    public static func findAllAsync(_ deviceClass: DeviceClass) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
-        return try! _IDeviceInformationStatics.FindAllAsyncDeviceClassImpl(deviceClass)
+    public static func findAllAsync(_ deviceClass: DeviceClass) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics.FindAllAsyncDeviceClass(deviceClass)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
-    public static func findAllAsync(_ aqsFilter: String) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
-        return try! _IDeviceInformationStatics.FindAllAsyncAqsFilterImpl(aqsFilter)
+    public static func findAllAsync(_ aqsFilter: String) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics.FindAllAsyncAqsFilter(aqsFilter)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
-    public static func findAllAsync(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
-        return try! _IDeviceInformationStatics.FindAllAsyncAqsFilterAndAdditionalPropertiesImpl(aqsFilter, additionalProperties)
+    public static func findAllAsync(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics.FindAllAsyncAqsFilterAndAdditionalProperties(aqsFilter, additionalProperties)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
-    public static func createWatcher() -> DeviceWatcher! {
-        return try! _IDeviceInformationStatics.CreateWatcherImpl()
+    public static func createWatcher() throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics.CreateWatcher()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
-    public static func createWatcher(_ deviceClass: DeviceClass) -> DeviceWatcher! {
-        return try! _IDeviceInformationStatics.CreateWatcherDeviceClassImpl(deviceClass)
+    public static func createWatcher(_ deviceClass: DeviceClass) throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics.CreateWatcherDeviceClass(deviceClass)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
-    public static func createWatcher(_ aqsFilter: String) -> DeviceWatcher! {
-        return try! _IDeviceInformationStatics.CreateWatcherAqsFilterImpl(aqsFilter)
+    public static func createWatcher(_ aqsFilter: String) throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics.CreateWatcherAqsFilter(aqsFilter)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
-    public static func createWatcher(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) -> DeviceWatcher! {
-        return try! _IDeviceInformationStatics.CreateWatcherAqsFilterAndAdditionalPropertiesImpl(aqsFilter, additionalProperties)
+    public static func createWatcher(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!) throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics.CreateWatcherAqsFilterAndAdditionalProperties(aqsFilter, additionalProperties)
     }
 
-    private static let _IDeviceInformationStatics2: __ABI_Windows_Devices_Enumeration.IDeviceInformationStatics2 = try! RoGetActivationFactory(HString("Windows.Devices.Enumeration.DeviceInformation"))
+    private static let _IDeviceInformationStatics2: __ABI_Windows_Devices_Enumeration.IDeviceInformationStatics2 = try! RoGetActivationFactory("Windows.Devices.Enumeration.DeviceInformation")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.getaqsfilterfromdeviceclass)
-    public static func getAqsFilterFromDeviceClass(_ deviceClass: DeviceClass) -> String {
-        return try! _IDeviceInformationStatics2.GetAqsFilterFromDeviceClassImpl(deviceClass)
+    public static func getAqsFilterFromDeviceClass(_ deviceClass: DeviceClass) throws -> String {
+        return try _IDeviceInformationStatics2.GetAqsFilterFromDeviceClass(deviceClass)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createfromidasync)
-    public static func createFromIdAsync(_ deviceId: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
-        return try! _IDeviceInformationStatics2.CreateFromIdAsyncWithKindAndAdditionalPropertiesImpl(deviceId, additionalProperties, kind)
+    public static func createFromIdAsync(_ deviceId: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
+        return try _IDeviceInformationStatics2.CreateFromIdAsyncWithKindAndAdditionalProperties(deviceId, additionalProperties, kind)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
-    public static func findAllAsync(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
-        return try! _IDeviceInformationStatics2.FindAllAsyncWithKindAqsFilterAndAdditionalPropertiesImpl(aqsFilter, additionalProperties, kind)
+    public static func findAllAsync(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics2.FindAllAsyncWithKindAqsFilterAndAdditionalProperties(aqsFilter, additionalProperties, kind)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
-    public static func createWatcher(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) -> DeviceWatcher! {
-        return try! _IDeviceInformationStatics2.CreateWatcherWithKindAqsFilterAndAdditionalPropertiesImpl(aqsFilter, additionalProperties, kind)
+    public static func createWatcher(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind) throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics2.CreateWatcherWithKindAqsFilterAndAdditionalProperties(aqsFilter, additionalProperties, kind)
+    }
+
+    private static let _IDeviceInformationStatics3: __ABI_Windows_Devices_Enumeration.IDeviceInformationStatics3 = try! RoGetActivationFactory("Windows.Devices.Enumeration.DeviceInformation")
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createfromidasync)
+    public static func createFromIdAsync(_ deviceId: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind, _ settings: AnyIDeviceEnumerationSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformation?>! {
+        return try _IDeviceInformationStatics3.CreateFromIdAsyncWithAdditionalPropertiesKindAndSettings(deviceId, additionalProperties, kind, settings)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.findallasync)
+    public static func findAllAsync(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind, _ settings: AnyIDeviceEnumerationSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<DeviceInformationCollection?>! {
+        return try _IDeviceInformationStatics3.FindAllAsyncWithAqsFilterAdditionalPropertiesKindAndSettings(aqsFilter, additionalProperties, kind, settings)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher)
+    public static func createWatcher(_ aqsFilter: String, _ additionalProperties: WindowsFoundation.AnyIIterable<String>!, _ kind: DeviceInformationKind, _ settings: AnyIDeviceEnumerationSettings!) throws -> DeviceWatcher! {
+        return try _IDeviceInformationStatics3.CreateWatcherWithAqsFilterAdditionalPropertiesKindAndSettings(aqsFilter, additionalProperties, kind, settings)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.update)
     public func update(_ updateInfo: DeviceInformationUpdate!) throws {
-        try _default.UpdateImpl(updateInfo)
+        try _default.Update(updateInfo)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.getthumbnailasync)
     public func getThumbnailAsync() throws -> WindowsFoundation.AnyIAsyncOperation<DeviceThumbnail?>! {
-        try _default.GetThumbnailAsyncImpl()
+        try _default.GetThumbnailAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.getglyphthumbnailasync)
     public func getGlyphThumbnailAsync() throws -> WindowsFoundation.AnyIAsyncOperation<DeviceThumbnail?>! {
-        try _default.GetGlyphThumbnailAsyncImpl()
+        try _default.GetGlyphThumbnailAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.enclosurelocation)
     public var enclosureLocation : EnclosureLocation! {
-        get { try! _default.get_EnclosureLocationImpl() }
+        get { try! _default.get_EnclosureLocation() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.id)
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.isdefault)
     public var isDefault : Bool {
-        get { try! _default.get_IsDefaultImpl() }
+        get { try! _default.get_IsDefault() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.isenabled)
     public var isEnabled : Bool {
-        get { try! _default.get_IsEnabledImpl() }
+        get { try! _default.get_IsEnabled() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.name)
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.properties)
     public var properties : WindowsFoundation.AnyIMapView<String, Any?>! {
-        get { try! _default.get_PropertiesImpl() }
+        get { try! _default.get_Properties() }
     }
 
     private lazy var _IDeviceInformation2: __ABI_Windows_Devices_Enumeration.IDeviceInformation2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.kind)
     public var kind : DeviceInformationKind {
-        get { try! _IDeviceInformation2.get_KindImpl() }
+        get { try! _IDeviceInformation2.get_Kind() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation.pairing)
     public var pairing : DeviceInformationPairing! {
-        get { try! _IDeviceInformation2.get_PairingImpl() }
+        get { try! _IDeviceInformation2.get_Pairing() }
     }
 
     deinit {
@@ -190,12 +202,6 @@ public final class DeviceInformationCollection : WinRTClass, IVectorView, IItera
             return RawPointer(_default)
         }
         return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CEnumeration__CDeviceInformation>?) -> DeviceInformationCollection? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
     }
 
     @_spi(WinRTInternal)
@@ -230,23 +236,28 @@ public final class DeviceInformationCollection : WinRTClass, IVectorView, IItera
     // MARK: WinRT
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcollection.getat)
     public func getAt(_ index: UInt32) -> DeviceInformation? {
-        try! _default.GetAtImpl(index)
+        try! _default.GetAt(index)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcollection.indexof)
     public func indexOf(_ value: DeviceInformation?, _ index: inout UInt32) -> Bool {
-        try! _default.IndexOfImpl(value, &index)
+        try! _default.IndexOf(value, &index)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcollection.getmany)
+    public func getMany(_ startIndex: UInt32, _ items: inout [DeviceInformation?]) -> UInt32 {
+        try! _default.GetMany(startIndex, &items)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcollection.size)
     public var size : UInt32 {
-        get { try! _default.get_SizeImpl() }
+        get { try! _default.get_Size() }
     }
 
     private lazy var _IIterable: IIterableDeviceInformation! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcollection.first)
     public func first() -> WindowsFoundation.AnyIIterator<DeviceInformation?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     deinit {
@@ -269,29 +280,23 @@ public final class DeviceInformationCustomPairing : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceInformationCustomPairing>?) -> DeviceInformationCustomPairing? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.pairasync)
     public func pairAsync(_ pairingKindsSupported: DevicePairingKinds) throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _default.PairAsyncImpl(pairingKindsSupported)
+        try _default.PairAsync(pairingKindsSupported)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.pairasync)
     public func pairAsync(_ pairingKindsSupported: DevicePairingKinds, _ minProtectionLevel: DevicePairingProtectionLevel) throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _default.PairWithProtectionLevelAsyncImpl(pairingKindsSupported, minProtectionLevel)
+        try _default.PairWithProtectionLevelAsync(pairingKindsSupported, minProtectionLevel)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.pairasync)
     public func pairAsync(_ pairingKindsSupported: DevicePairingKinds, _ minProtectionLevel: DevicePairingProtectionLevel, _ devicePairingSettings: AnyIDevicePairingSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _default.PairWithProtectionLevelAndSettingsAsyncImpl(pairingKindsSupported, minProtectionLevel, devicePairingSettings)
+        try _default.PairWithProtectionLevelAndSettingsAsync(pairingKindsSupported, minProtectionLevel, devicePairingSettings)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.pairingrequested)
@@ -299,16 +304,36 @@ public final class DeviceInformationCustomPairing : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_PairingRequestedImpl($0)
+          return try! this.add_PairingRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_PairingRequestedImpl($0)
+         try? self?._default.remove_PairingRequested($0)
+       }
+      )
+    }()
+
+    private lazy var _IDeviceInformationCustomPairing2: __ABI_Windows_Devices_Enumeration.IDeviceInformationCustomPairing2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.addpairingsetmember)
+    public func addPairingSetMember(_ device: DeviceInformation!) throws {
+        try _IDeviceInformationCustomPairing2.AddPairingSetMember(device)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationcustompairing.pairingsetmembersrequested)
+    public lazy var pairingSetMembersRequested : Event<TypedEventHandler<DeviceInformationCustomPairing?, DevicePairingSetMembersRequestedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._IDeviceInformationCustomPairing2 else { return .init() }
+          return try! this.add_PairingSetMembersRequested($0)
+        },
+        remove: { [weak self] in
+         try? self?._IDeviceInformationCustomPairing2.remove_PairingSetMembersRequested($0)
        }
       )
     }()
 
     deinit {
         _default = nil
+        _IDeviceInformationCustomPairing2 = nil
     }
 }
 
@@ -326,67 +351,61 @@ public final class DeviceInformationPairing : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceInformationPairing>?) -> DeviceInformationPairing? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IDeviceInformationPairingStatics: __ABI_Windows_Devices_Enumeration.IDeviceInformationPairingStatics = try! RoGetActivationFactory(HString("Windows.Devices.Enumeration.DeviceInformationPairing"))
+    private static let _IDeviceInformationPairingStatics: __ABI_Windows_Devices_Enumeration.IDeviceInformationPairingStatics = try! RoGetActivationFactory("Windows.Devices.Enumeration.DeviceInformationPairing")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.tryregisterforallinboundpairingrequests)
-    public static func tryRegisterForAllInboundPairingRequests(_ pairingKindsSupported: DevicePairingKinds) -> Bool {
-        return try! _IDeviceInformationPairingStatics.TryRegisterForAllInboundPairingRequestsImpl(pairingKindsSupported)
+    public static func tryRegisterForAllInboundPairingRequests(_ pairingKindsSupported: DevicePairingKinds) throws -> Bool {
+        return try _IDeviceInformationPairingStatics.TryRegisterForAllInboundPairingRequests(pairingKindsSupported)
     }
 
-    private static let _IDeviceInformationPairingStatics2: __ABI_Windows_Devices_Enumeration.IDeviceInformationPairingStatics2 = try! RoGetActivationFactory(HString("Windows.Devices.Enumeration.DeviceInformationPairing"))
+    private static let _IDeviceInformationPairingStatics2: __ABI_Windows_Devices_Enumeration.IDeviceInformationPairingStatics2 = try! RoGetActivationFactory("Windows.Devices.Enumeration.DeviceInformationPairing")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.tryregisterforallinboundpairingrequestswithprotectionlevel)
-    public static func tryRegisterForAllInboundPairingRequestsWithProtectionLevel(_ pairingKindsSupported: DevicePairingKinds, _ minProtectionLevel: DevicePairingProtectionLevel) -> Bool {
-        return try! _IDeviceInformationPairingStatics2.TryRegisterForAllInboundPairingRequestsWithProtectionLevelImpl(pairingKindsSupported, minProtectionLevel)
+    public static func tryRegisterForAllInboundPairingRequestsWithProtectionLevel(_ pairingKindsSupported: DevicePairingKinds, _ minProtectionLevel: DevicePairingProtectionLevel) throws -> Bool {
+        return try _IDeviceInformationPairingStatics2.TryRegisterForAllInboundPairingRequestsWithProtectionLevel(pairingKindsSupported, minProtectionLevel)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.pairasync)
     public func pairAsync() throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _default.PairAsyncImpl()
+        try _default.PairAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.pairasync)
     public func pairAsync(_ minProtectionLevel: DevicePairingProtectionLevel) throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _default.PairWithProtectionLevelAsyncImpl(minProtectionLevel)
+        try _default.PairWithProtectionLevelAsync(minProtectionLevel)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.canpair)
     public var canPair : Bool {
-        get { try! _default.get_CanPairImpl() }
+        get { try! _default.get_CanPair() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.ispaired)
     public var isPaired : Bool {
-        get { try! _default.get_IsPairedImpl() }
+        get { try! _default.get_IsPaired() }
     }
 
     private lazy var _IDeviceInformationPairing2: __ABI_Windows_Devices_Enumeration.IDeviceInformationPairing2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.pairasync)
     public func pairAsync(_ minProtectionLevel: DevicePairingProtectionLevel, _ devicePairingSettings: AnyIDevicePairingSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<DevicePairingResult?>! {
-        try _IDeviceInformationPairing2.PairWithProtectionLevelAndSettingsAsyncImpl(minProtectionLevel, devicePairingSettings)
+        try _IDeviceInformationPairing2.PairWithProtectionLevelAndSettingsAsync(minProtectionLevel, devicePairingSettings)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.unpairasync)
     public func unpairAsync() throws -> WindowsFoundation.AnyIAsyncOperation<DeviceUnpairingResult?>! {
-        try _IDeviceInformationPairing2.UnpairAsyncImpl()
+        try _IDeviceInformationPairing2.UnpairAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.custom)
     public var custom : DeviceInformationCustomPairing! {
-        get { try! _IDeviceInformationPairing2.get_CustomImpl() }
+        get { try! _IDeviceInformationPairing2.get_Custom() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationpairing.protectionlevel)
     public var protectionLevel : DevicePairingProtectionLevel {
-        get { try! _IDeviceInformationPairing2.get_ProtectionLevelImpl() }
+        get { try! _IDeviceInformationPairing2.get_ProtectionLevel() }
     }
 
     deinit {
@@ -409,30 +428,24 @@ public final class DeviceInformationUpdate : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceInformationUpdate>?) -> DeviceInformationUpdate? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationupdate.id)
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationupdate.properties)
     public var properties : WindowsFoundation.AnyIMapView<String, Any?>! {
-        get { try! _default.get_PropertiesImpl() }
+        get { try! _default.get_Properties() }
     }
 
     private lazy var _IDeviceInformationUpdate2: __ABI_Windows_Devices_Enumeration.IDeviceInformationUpdate2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformationupdate.kind)
     public var kind : DeviceInformationKind {
-        get { try! _IDeviceInformationUpdate2.get_KindImpl() }
+        get { try! _IDeviceInformationUpdate2.get_Kind() }
     }
 
     deinit {
@@ -455,55 +468,56 @@ public final class DevicePairingRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDevicePairingRequestedEventArgs>?) -> DevicePairingRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.accept)
     public func accept() throws {
-        try _default.AcceptImpl()
+        try _default.Accept()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.accept)
     public func accept(_ pin: String) throws {
-        try _default.AcceptWithPinImpl(pin)
+        try _default.AcceptWithPin(pin)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.getdeferral)
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.deviceinformation)
     public var deviceInformation : DeviceInformation! {
-        get { try! _default.get_DeviceInformationImpl() }
+        get { try! _default.get_DeviceInformation() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.pairingkind)
     public var pairingKind : DevicePairingKinds {
-        get { try! _default.get_PairingKindImpl() }
+        get { try! _default.get_PairingKind() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.pin)
     public var pin : String {
-        get { try! _default.get_PinImpl() }
+        get { try! _default.get_Pin() }
     }
 
     private lazy var _IDevicePairingRequestedEventArgs2: __ABI_Windows_Devices_Enumeration.IDevicePairingRequestedEventArgs2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.acceptwithpasswordcredential)
     public func acceptWithPasswordCredential(_ passwordCredential: UWP.PasswordCredential!) throws {
-        try _IDevicePairingRequestedEventArgs2.AcceptWithPasswordCredentialImpl(passwordCredential)
+        try _IDevicePairingRequestedEventArgs2.AcceptWithPasswordCredential(passwordCredential)
+    }
+
+    private lazy var _IDevicePairingRequestedEventArgs3: __ABI_Windows_Devices_Enumeration.IDevicePairingRequestedEventArgs3! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.acceptwithaddress)
+    public func acceptWithAddress(_ address: String) throws {
+        try _IDevicePairingRequestedEventArgs3.AcceptWithAddress(address)
     }
 
     deinit {
         _default = nil
         _IDevicePairingRequestedEventArgs2 = nil
+        _IDevicePairingRequestedEventArgs3 = nil
     }
 }
 
@@ -521,9 +535,36 @@ public final class DevicePairingResult : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDevicePairingResult>?) -> DevicePairingResult? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingresult.protectionlevelused)
+    public var protectionLevelUsed : DevicePairingProtectionLevel {
+        get { try! _default.get_ProtectionLevelUsed() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingresult.status)
+    public var status : DevicePairingResultStatus {
+        get { try! _default.get_Status() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingsetmembersrequestedeventargs)
+public final class DevicePairingSetMembersRequestedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Devices_Enumeration.IDevicePairingSetMembersRequestedEventArgs
+    private typealias CABI = __x_ABI_CWindows_CDevices_CEnumeration_CIDevicePairingSetMembersRequestedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -531,14 +572,19 @@ public final class DevicePairingResult : WinRTClass {
         super.init(fromAbi)
     }
 
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingresult.protectionlevelused)
-    public var protectionLevelUsed : DevicePairingProtectionLevel {
-        get { try! _default.get_ProtectionLevelUsedImpl() }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingsetmembersrequestedeventargs.pairingsetmembers)
+    public var pairingSetMembers : WindowsFoundation.AnyIVectorView<DeviceInformation?>! {
+        get { try! _default.get_PairingSetMembers() }
     }
 
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingresult.status)
-    public var status : DevicePairingResultStatus {
-        get { try! _default.get_StatusImpl() }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingsetmembersrequestedeventargs.parentdeviceinformation)
+    public var parentDeviceInformation : DeviceInformation! {
+        get { try! _default.get_ParentDeviceInformation() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicepairingsetmembersrequestedeventargs.status)
+    public var status : DevicePairingAddPairingSetMemberStatus {
+        get { try! _default.get_Status() }
     }
 
     deinit {
@@ -560,12 +606,6 @@ public final class DeviceThumbnail : WinRTClass, WindowsFoundation.IClosable, UW
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamWithContentType>?) -> DeviceThumbnail? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -576,72 +616,72 @@ public final class DeviceThumbnail : WinRTClass, WindowsFoundation.IClosable, UW
     private lazy var _IClosable: __ABI_Windows_Foundation.IClosable! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.close)
     public func close() throws {
-        try _IClosable.CloseImpl()
+        try _IClosable.Close()
     }
 
     private lazy var _IInputStream: __ABI_Windows_Storage_Streams.IInputStream! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.readasync)
     public func readAsync(_ buffer: UWP.AnyIBuffer!, _ count: UInt32, _ options: UWP.InputStreamOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIBuffer?, UInt32>! {
-        try _IInputStream.ReadAsyncImpl(buffer, count, options)
+        try _IInputStream.ReadAsync(buffer, count, options)
     }
 
     private lazy var _IOutputStream: __ABI_Windows_Storage_Streams.IOutputStream! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.writeasync)
     public func writeAsync(_ buffer: UWP.AnyIBuffer!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UInt32, UInt32>! {
-        try _IOutputStream.WriteAsyncImpl(buffer)
+        try _IOutputStream.WriteAsync(buffer)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.flushasync)
     public func flushAsync() throws -> WindowsFoundation.AnyIAsyncOperation<Bool>! {
-        try _IOutputStream.FlushAsyncImpl()
+        try _IOutputStream.FlushAsync()
     }
 
     private lazy var _IRandomAccessStream: __ABI_Windows_Storage_Streams.IRandomAccessStream! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.getinputstreamat)
     public func getInputStreamAt(_ position: UInt64) throws -> UWP.AnyIInputStream! {
-        try _IRandomAccessStream.GetInputStreamAtImpl(position)
+        try _IRandomAccessStream.GetInputStreamAt(position)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.getoutputstreamat)
     public func getOutputStreamAt(_ position: UInt64) throws -> UWP.AnyIOutputStream! {
-        try _IRandomAccessStream.GetOutputStreamAtImpl(position)
+        try _IRandomAccessStream.GetOutputStreamAt(position)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.seek)
     public func seek(_ position: UInt64) throws {
-        try _IRandomAccessStream.SeekImpl(position)
+        try _IRandomAccessStream.Seek(position)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.clonestream)
     public func cloneStream() throws -> UWP.AnyIRandomAccessStream! {
-        try _IRandomAccessStream.CloneStreamImpl()
+        try _IRandomAccessStream.CloneStream()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.canread)
     public var canRead : Bool {
-        get { try! _IRandomAccessStream.get_CanReadImpl() }
+        get { try! _IRandomAccessStream.get_CanRead() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.canwrite)
     public var canWrite : Bool {
-        get { try! _IRandomAccessStream.get_CanWriteImpl() }
+        get { try! _IRandomAccessStream.get_CanWrite() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.position)
     public var position : UInt64 {
-        get { try! _IRandomAccessStream.get_PositionImpl() }
+        get { try! _IRandomAccessStream.get_Position() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.size)
     public var size : UInt64 {
-        get { try! _IRandomAccessStream.get_SizeImpl() }
-        set { try! _IRandomAccessStream.put_SizeImpl(newValue) }
+        get { try! _IRandomAccessStream.get_Size() }
+        set { try! _IRandomAccessStream.put_Size(newValue) }
     }
 
     private lazy var _IContentTypeProvider: __ABI_Windows_Storage_Streams.IContentTypeProvider! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicethumbnail.contenttype)
     public var contentType : String {
-        get { try! _IContentTypeProvider.get_ContentTypeImpl() }
+        get { try! _IContentTypeProvider.get_ContentType() }
     }
 
     deinit {
@@ -668,19 +708,13 @@ public final class DeviceUnpairingResult : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceUnpairingResult>?) -> DeviceUnpairingResult? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.deviceunpairingresult.status)
     public var status : DeviceUnpairingResultStatus {
-        get { try! _default.get_StatusImpl() }
+        get { try! _default.get_Status() }
     }
 
     deinit {
@@ -702,29 +736,23 @@ public final class DeviceWatcher : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIDeviceWatcher>?) -> DeviceWatcher? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicewatcher.start)
     public func start() throws {
-        try _default.StartImpl()
+        try _default.Start()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicewatcher.stop)
     public func stop() throws {
-        try _default.StopImpl()
+        try _default.Stop()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicewatcher.status)
     public var status : DeviceWatcherStatus {
-        get { try! _default.get_StatusImpl() }
+        get { try! _default.get_Status() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicewatcher.added)
@@ -732,10 +760,10 @@ public final class DeviceWatcher : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_AddedImpl($0)
+          return try! this.add_Added($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_AddedImpl($0)
+         try? self?._default.remove_Added($0)
        }
       )
     }()
@@ -745,10 +773,10 @@ public final class DeviceWatcher : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_EnumerationCompletedImpl($0)
+          return try! this.add_EnumerationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_EnumerationCompletedImpl($0)
+         try? self?._default.remove_EnumerationCompleted($0)
        }
       )
     }()
@@ -758,10 +786,10 @@ public final class DeviceWatcher : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_RemovedImpl($0)
+          return try! this.add_Removed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_RemovedImpl($0)
+         try? self?._default.remove_Removed($0)
        }
       )
     }()
@@ -771,10 +799,10 @@ public final class DeviceWatcher : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_StoppedImpl($0)
+          return try! this.add_Stopped($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_StoppedImpl($0)
+         try? self?._default.remove_Stopped($0)
        }
       )
     }()
@@ -784,10 +812,10 @@ public final class DeviceWatcher : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_UpdatedImpl($0)
+          return try! this.add_Updated($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_UpdatedImpl($0)
+         try? self?._default.remove_Updated($0)
        }
       )
     }()
@@ -795,7 +823,7 @@ public final class DeviceWatcher : WinRTClass {
     private lazy var _IDeviceWatcher2: __ABI_Windows_Devices_Enumeration.IDeviceWatcher2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.devicewatcher.getbackgroundtrigger)
     public func getBackgroundTrigger(_ requestedEventKinds: WindowsFoundation.AnyIIterable<DeviceWatcherEventKind>!) throws -> UWP.DeviceWatcherTrigger! {
-        try _IDeviceWatcher2.GetBackgroundTriggerImpl(requestedEventKinds)
+        try _IDeviceWatcher2.GetBackgroundTrigger(requestedEventKinds)
     }
 
     deinit {
@@ -818,30 +846,24 @@ public final class EnclosureLocation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CEnumeration_CIEnclosureLocation>?) -> EnclosureLocation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.enclosurelocation.indock)
     public var inDock : Bool {
-        get { try! _default.get_InDockImpl() }
+        get { try! _default.get_InDock() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.enclosurelocation.inlid)
     public var inLid : Bool {
-        get { try! _default.get_InLidImpl() }
+        get { try! _default.get_InLid() }
     }
 
     private lazy var _IEnclosureLocation2: __ABI_Windows_Devices_Enumeration.IEnclosureLocation2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.enclosurelocation.rotationangleindegreesclockwise)
     public var rotationAngleInDegreesClockwise : UInt32 {
-        get { try! _IEnclosureLocation2.get_RotationAngleInDegreesClockwiseImpl() }
+        get { try! _IEnclosureLocation2.get_RotationAngleInDegreesClockwise() }
     }
 
     deinit {
@@ -849,6 +871,22 @@ public final class EnclosureLocation : WinRTClass {
         _IEnclosureLocation2 = nil
     }
 }
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.ideviceenumerationsettings)
+public protocol IDeviceEnumerationSettings : WinRTInterface {
+}
+
+extension IDeviceEnumerationSettings {
+    public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        switch iid {
+            case __ABI_Windows_Devices_Enumeration.IDeviceEnumerationSettingsWrapper.IID:
+                let wrapper = __ABI_Windows_Devices_Enumeration.IDeviceEnumerationSettingsWrapper(self)
+                return wrapper!.queryInterface(iid)
+            default: return nil
+        }
+    }
+}
+public typealias AnyIDeviceEnumerationSettings = any IDeviceEnumerationSettings
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.enumeration.idevicepairingsettings)
 public protocol IDevicePairingSettings : WinRTInterface {
@@ -889,7 +927,7 @@ extension UWP.DeviceClass {
         __x_ABI_CWindows_CDevices_CEnumeration_CDeviceClass_Location
     }
 }
-extension UWP.DeviceClass: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeviceClass: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeviceInformationKind {
     public static var unknown : UWP.DeviceInformationKind {
@@ -919,8 +957,33 @@ extension UWP.DeviceInformationKind {
     public static var devicePanel : UWP.DeviceInformationKind {
         __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_DevicePanel
     }
+    public static var associationEndpointProtocol : UWP.DeviceInformationKind {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_AssociationEndpointProtocol
+    }
 }
-extension UWP.DeviceInformationKind: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeviceInformationKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension UWP.DevicePairingAddPairingSetMemberStatus {
+    public static var addedToSet : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_AddedToSet
+    }
+    public static var couldNotBeAddedToSet : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_CouldNotBeAddedToSet
+    }
+    public static var setDiscoveryNotAttemptedByProtocol : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_SetDiscoveryNotAttemptedByProtocol
+    }
+    public static var setDiscoveryCompletedByProtocol : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_SetDiscoveryCompletedByProtocol
+    }
+    public static var setDiscoveryPartiallyCompletedByProtocol : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_SetDiscoveryPartiallyCompletedByProtocol
+    }
+    public static var failed : UWP.DevicePairingAddPairingSetMemberStatus {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus_Failed
+    }
+}
+extension UWP.DevicePairingAddPairingSetMemberStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DevicePairingKinds {
     public static var none : UWP.DevicePairingKinds {
@@ -941,8 +1004,11 @@ extension UWP.DevicePairingKinds {
     public static var providePasswordCredential : UWP.DevicePairingKinds {
         __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ProvidePasswordCredential
     }
+    public static var provideAddress : UWP.DevicePairingKinds {
+        __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ProvideAddress
+    }
 }
-extension UWP.DevicePairingKinds: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DevicePairingKinds: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DevicePairingProtectionLevel {
     public static var `default` : UWP.DevicePairingProtectionLevel {
@@ -958,7 +1024,7 @@ extension UWP.DevicePairingProtectionLevel {
         __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingProtectionLevel_EncryptionAndAuthentication
     }
 }
-extension UWP.DevicePairingProtectionLevel: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DevicePairingProtectionLevel: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DevicePairingResultStatus {
     public static var paired : UWP.DevicePairingResultStatus {
@@ -1022,7 +1088,7 @@ extension UWP.DevicePairingResultStatus {
         __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingResultStatus_Failed
     }
 }
-extension UWP.DevicePairingResultStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DevicePairingResultStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeviceUnpairingResultStatus {
     public static var unpaired : UWP.DeviceUnpairingResultStatus {
@@ -1041,7 +1107,7 @@ extension UWP.DeviceUnpairingResultStatus {
         __x_ABI_CWindows_CDevices_CEnumeration_CDeviceUnpairingResultStatus_Failed
     }
 }
-extension UWP.DeviceUnpairingResultStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeviceUnpairingResultStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeviceWatcherEventKind {
     public static var add : UWP.DeviceWatcherEventKind {
@@ -1054,7 +1120,7 @@ extension UWP.DeviceWatcherEventKind {
         __x_ABI_CWindows_CDevices_CEnumeration_CDeviceWatcherEventKind_Remove
     }
 }
-extension UWP.DeviceWatcherEventKind: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeviceWatcherEventKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeviceWatcherStatus {
     public static var created : UWP.DeviceWatcherStatus {
@@ -1076,5 +1142,5 @@ extension UWP.DeviceWatcherStatus {
         __x_ABI_CWindows_CDevices_CEnumeration_CDeviceWatcherStatus_Aborted
     }
 }
-extension UWP.DeviceWatcherStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeviceWatcherStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

@@ -9,6 +9,7 @@ public typealias CoreWebView2BoundsMode = __x_ABI_CMicrosoft_CWeb_CWebView2_CCor
 public typealias CoreWebView2BrowserProcessExitKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BrowserProcessExitKind
 public typealias CoreWebView2BrowsingDataKinds = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BrowsingDataKinds
 public typealias CoreWebView2CapturePreviewImageFormat = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2CapturePreviewImageFormat
+public typealias CoreWebView2ChannelSearchKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ChannelSearchKind
 public typealias CoreWebView2ClientCertificateKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ClientCertificateKind
 public typealias CoreWebView2ContextMenuItemKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuItemKind
 public typealias CoreWebView2ContextMenuTargetKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuTargetKind
@@ -17,6 +18,8 @@ public typealias CoreWebView2DefaultDownloadDialogCornerAlignment = __x_ABI_CMic
 public typealias CoreWebView2DownloadInterruptReason = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadInterruptReason
 public typealias CoreWebView2DownloadState = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadState
 public typealias CoreWebView2FaviconImageFormat = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FaviconImageFormat
+public typealias CoreWebView2FileSystemHandleKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandleKind
+public typealias CoreWebView2FileSystemHandlePermission = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandlePermission
 public typealias CoreWebView2FrameKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FrameKind
 public typealias CoreWebView2HostResourceAccessKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2HostResourceAccessKind
 public typealias CoreWebView2KeyEventKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2KeyEventKind
@@ -25,6 +28,7 @@ public typealias CoreWebView2MouseEventKind = __x_ABI_CMicrosoft_CWeb_CWebView2_
 public typealias CoreWebView2MouseEventVirtualKeys = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MouseEventVirtualKeys
 public typealias CoreWebView2MoveFocusReason = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MoveFocusReason
 public typealias CoreWebView2NavigationKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NavigationKind
+public typealias CoreWebView2NonClientRegionKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind
 public typealias CoreWebView2PdfToolbarItems = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PdfToolbarItems
 public typealias CoreWebView2PermissionKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind
 public typealias CoreWebView2PermissionState = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionState
@@ -40,12 +44,18 @@ public typealias CoreWebView2PrintStatus = __x_ABI_CMicrosoft_CWeb_CWebView2_CCo
 public typealias CoreWebView2ProcessFailedKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedKind
 public typealias CoreWebView2ProcessFailedReason = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason
 public typealias CoreWebView2ProcessKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessKind
+public typealias CoreWebView2ReleaseChannels = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels
+public typealias CoreWebView2SaveAsKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind
+public typealias CoreWebView2SaveAsUIResult = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult
 public typealias CoreWebView2ScriptDialogKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScriptDialogKind
+public typealias CoreWebView2ScrollbarStyle = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScrollbarStyle
 public typealias CoreWebView2ServerCertificateErrorAction = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServerCertificateErrorAction
 public typealias CoreWebView2SharedBufferAccess = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SharedBufferAccess
+public typealias CoreWebView2TextDirectionKind = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TextDirectionKind
 public typealias CoreWebView2TrackingPreventionLevel = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TrackingPreventionLevel
 public typealias CoreWebView2WebErrorStatus = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebErrorStatus
 public typealias CoreWebView2WebResourceContext = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceContext
+public typealias CoreWebView2WebResourceRequestSourceKinds = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds
 public final class CoreWebView2 : WinRTClass {
     private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2
     private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2
@@ -59,12 +69,6 @@ public final class CoreWebView2 : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2>?) -> CoreWebView2? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -75,107 +79,107 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_10 else { return .init() }
-          return try! this.add_BasicAuthenticationRequestedImpl($0)
+          return try! this.add_BasicAuthenticationRequested($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_10.remove_BasicAuthenticationRequestedImpl($0)
+         try? self?._ICoreWebView2_10.remove_BasicAuthenticationRequested($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_11: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_11! = getInterfaceForCaching()
     public func callDevToolsProtocolMethodForSessionAsync(_ sessionId: String, _ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _ICoreWebView2_11.CallDevToolsProtocolMethodForSessionAsyncImpl(sessionId, methodName, parametersAsJson)
+        try _ICoreWebView2_11.CallDevToolsProtocolMethodForSessionAsync(sessionId, methodName, parametersAsJson)
     }
 
     public lazy var contextMenuRequested : Event<TypedEventHandler<CoreWebView2?, CoreWebView2ContextMenuRequestedEventArgs?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_11 else { return .init() }
-          return try! this.add_ContextMenuRequestedImpl($0)
+          return try! this.add_ContextMenuRequested($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_11.remove_ContextMenuRequestedImpl($0)
+         try? self?._ICoreWebView2_11.remove_ContextMenuRequested($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_12: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_12! = getInterfaceForCaching()
     public var statusBarText : String {
-        get { try! _ICoreWebView2_12.get_StatusBarTextImpl() }
+        get { try! _ICoreWebView2_12.get_StatusBarText() }
     }
 
     public lazy var statusBarTextChanged : Event<TypedEventHandler<CoreWebView2?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_12 else { return .init() }
-          return try! this.add_StatusBarTextChangedImpl($0)
+          return try! this.add_StatusBarTextChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_12.remove_StatusBarTextChangedImpl($0)
+         try? self?._ICoreWebView2_12.remove_StatusBarTextChanged($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_13: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_13! = getInterfaceForCaching()
     public var profile : CoreWebView2Profile! {
-        get { try! _ICoreWebView2_13.get_ProfileImpl() }
+        get { try! _ICoreWebView2_13.get_Profile() }
     }
 
     private lazy var _ICoreWebView2_14: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_14! = getInterfaceForCaching()
     public func clearServerCertificateErrorActionsAsync() throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _ICoreWebView2_14.ClearServerCertificateErrorActionsAsyncImpl()
+        try _ICoreWebView2_14.ClearServerCertificateErrorActionsAsync()
     }
 
     public lazy var serverCertificateErrorDetected : Event<TypedEventHandler<CoreWebView2?, CoreWebView2ServerCertificateErrorDetectedEventArgs?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_14 else { return .init() }
-          return try! this.add_ServerCertificateErrorDetectedImpl($0)
+          return try! this.add_ServerCertificateErrorDetected($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_14.remove_ServerCertificateErrorDetectedImpl($0)
+         try? self?._ICoreWebView2_14.remove_ServerCertificateErrorDetected($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_15: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_15! = getInterfaceForCaching()
     public func getFaviconAsync(_ format: CoreWebView2FaviconImageFormat) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>! {
-        try _ICoreWebView2_15.GetFaviconAsyncImpl(format)
+        try _ICoreWebView2_15.GetFaviconAsync(format)
     }
 
     public var faviconUri : String {
-        get { try! _ICoreWebView2_15.get_FaviconUriImpl() }
+        get { try! _ICoreWebView2_15.get_FaviconUri() }
     }
 
     public lazy var faviconChanged : Event<TypedEventHandler<CoreWebView2?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_15 else { return .init() }
-          return try! this.add_FaviconChangedImpl($0)
+          return try! this.add_FaviconChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_15.remove_FaviconChangedImpl($0)
+         try? self?._ICoreWebView2_15.remove_FaviconChanged($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_16: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_16! = getInterfaceForCaching()
     public func printAsync(_ printSettings: CoreWebView2PrintSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2PrintStatus>! {
-        try _ICoreWebView2_16.PrintAsyncImpl(printSettings)
+        try _ICoreWebView2_16.PrintAsync(printSettings)
     }
 
     public func showPrintUI(_ printDialogKind: CoreWebView2PrintDialogKind) throws {
-        try _ICoreWebView2_16.ShowPrintUIImpl(printDialogKind)
+        try _ICoreWebView2_16.ShowPrintUI(printDialogKind)
     }
 
     public func printToPdfStreamAsync(_ printSettings: CoreWebView2PrintSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>! {
-        try _ICoreWebView2_16.PrintToPdfStreamAsyncImpl(printSettings)
+        try _ICoreWebView2_16.PrintToPdfStreamAsync(printSettings)
     }
 
     private lazy var _ICoreWebView2_17: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_17! = getInterfaceForCaching()
     public func postSharedBufferToScript(_ sharedBuffer: CoreWebView2SharedBuffer!, _ access: CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
-        try _ICoreWebView2_17.PostSharedBufferToScriptImpl(sharedBuffer, access, additionalDataAsJson)
+        try _ICoreWebView2_17.PostSharedBufferToScript(sharedBuffer, access, additionalDataAsJson)
     }
 
     private lazy var _ICoreWebView2_18: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_18! = getInterfaceForCaching()
@@ -183,41 +187,41 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_18 else { return .init() }
-          return try! this.add_LaunchingExternalUriSchemeImpl($0)
+          return try! this.add_LaunchingExternalUriScheme($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_18.remove_LaunchingExternalUriSchemeImpl($0)
+         try? self?._ICoreWebView2_18.remove_LaunchingExternalUriScheme($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_19: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_19! = getInterfaceForCaching()
     public var memoryUsageTargetLevel : CoreWebView2MemoryUsageTargetLevel {
-        get { try! _ICoreWebView2_19.get_MemoryUsageTargetLevelImpl() }
-        set { try! _ICoreWebView2_19.put_MemoryUsageTargetLevelImpl(newValue) }
+        get { try! _ICoreWebView2_19.get_MemoryUsageTargetLevel() }
+        set { try! _ICoreWebView2_19.put_MemoryUsageTargetLevel(newValue) }
     }
 
     private lazy var _ICoreWebView2_2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_2! = getInterfaceForCaching()
     public func navigateWithWebResourceRequest(_ Request: CoreWebView2WebResourceRequest!) throws {
-        try _ICoreWebView2_2.NavigateWithWebResourceRequestImpl(Request)
+        try _ICoreWebView2_2.NavigateWithWebResourceRequest(Request)
     }
 
     public var cookieManager : CoreWebView2CookieManager! {
-        get { try! _ICoreWebView2_2.get_CookieManagerImpl() }
+        get { try! _ICoreWebView2_2.get_CookieManager() }
     }
 
     public var environment : CoreWebView2Environment! {
-        get { try! _ICoreWebView2_2.get_EnvironmentImpl() }
+        get { try! _ICoreWebView2_2.get_Environment() }
     }
 
     public lazy var domContentLoaded : Event<TypedEventHandler<CoreWebView2?, CoreWebView2DOMContentLoadedEventArgs?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_2 else { return .init() }
-          return try! this.add_DOMContentLoadedImpl($0)
+          return try! this.add_DOMContentLoaded($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_2.remove_DOMContentLoadedImpl($0)
+         try? self?._ICoreWebView2_2.remove_DOMContentLoaded($0)
        }
       )
     }()
@@ -226,38 +230,119 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_2 else { return .init() }
-          return try! this.add_WebResourceResponseReceivedImpl($0)
+          return try! this.add_WebResourceResponseReceived($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_2.remove_WebResourceResponseReceivedImpl($0)
+         try? self?._ICoreWebView2_2.remove_WebResourceResponseReceived($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_20: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_20! = getInterfaceForCaching()
     public var frameId : UInt32 {
-        get { try! _ICoreWebView2_20.get_FrameIdImpl() }
+        get { try! _ICoreWebView2_20.get_FrameId() }
     }
+
+    private lazy var _ICoreWebView2_21: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_21! = getInterfaceForCaching()
+    public func executeScriptWithResultAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2ExecuteScriptResult?>! {
+        try _ICoreWebView2_21.ExecuteScriptWithResultAsync(javaScript)
+    }
+
+    private lazy var _ICoreWebView2_22: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_22! = getInterfaceForCaching()
+    private lazy var _ICoreWebView2_23: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_23! = getInterfaceForCaching()
+    private lazy var _ICoreWebView2_24: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_24! = getInterfaceForCaching()
+    public lazy var notificationReceived : Event<TypedEventHandler<CoreWebView2?, CoreWebView2NotificationReceivedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2_24 else { return .init() }
+          return try! this.add_NotificationReceived($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2_24.remove_NotificationReceived($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2_25: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_25! = getInterfaceForCaching()
+    public func showSaveAsUIAsync() throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2SaveAsUIResult>! {
+        try _ICoreWebView2_25.ShowSaveAsUIAsync()
+    }
+
+    public lazy var saveAsUIShowing : Event<TypedEventHandler<CoreWebView2?, CoreWebView2SaveAsUIShowingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2_25 else { return .init() }
+          return try! this.add_SaveAsUIShowing($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2_25.remove_SaveAsUIShowing($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2_26: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_26! = getInterfaceForCaching()
+    public lazy var saveFileSecurityCheckStarting : Event<TypedEventHandler<CoreWebView2?, CoreWebView2SaveFileSecurityCheckStartingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2_26 else { return .init() }
+          return try! this.add_SaveFileSecurityCheckStarting($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2_26.remove_SaveFileSecurityCheckStarting($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2_27: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_27! = getInterfaceForCaching()
+    public lazy var screenCaptureStarting : Event<TypedEventHandler<CoreWebView2?, CoreWebView2ScreenCaptureStartingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2_27 else { return .init() }
+          return try! this.add_ScreenCaptureStarting($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2_27.remove_ScreenCaptureStarting($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2_28: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_28! = getInterfaceForCaching()
+    public var find : CoreWebView2Find! {
+        get { try! _ICoreWebView2_28.get_Find() }
+    }
+
+    private lazy var _ICoreWebView2_29: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_29! = getInterfaceForCaching()
+    public lazy var dedicatedWorkerCreated : Event<TypedEventHandler<CoreWebView2?, CoreWebView2DedicatedWorkerCreatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2_29 else { return .init() }
+          return try! this.add_DedicatedWorkerCreated($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2_29.remove_DedicatedWorkerCreated($0)
+       }
+      )
+    }()
 
     private lazy var _ICoreWebView2_3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_3! = getInterfaceForCaching()
     public func trySuspendAsync() throws -> WindowsFoundation.AnyIAsyncOperation<Bool>! {
-        try _ICoreWebView2_3.TrySuspendAsyncImpl()
+        try _ICoreWebView2_3.TrySuspendAsync()
     }
 
     public func resume() throws {
-        try _ICoreWebView2_3.ResumeImpl()
+        try _ICoreWebView2_3.Resume()
     }
 
     public func setVirtualHostNameToFolderMapping(_ hostName: String, _ folderPath: String, _ accessKind: CoreWebView2HostResourceAccessKind) throws {
-        try _ICoreWebView2_3.SetVirtualHostNameToFolderMappingImpl(hostName, folderPath, accessKind)
+        try _ICoreWebView2_3.SetVirtualHostNameToFolderMapping(hostName, folderPath, accessKind)
     }
 
     public func clearVirtualHostNameToFolderMapping(_ hostName: String) throws {
-        try _ICoreWebView2_3.ClearVirtualHostNameToFolderMappingImpl(hostName)
+        try _ICoreWebView2_3.ClearVirtualHostNameToFolderMapping(hostName)
     }
 
     public var isSuspended : Bool {
-        get { try! _ICoreWebView2_3.get_IsSuspendedImpl() }
+        get { try! _ICoreWebView2_3.get_IsSuspended() }
     }
 
     private lazy var _ICoreWebView2_4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_4! = getInterfaceForCaching()
@@ -265,10 +350,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_4 else { return .init() }
-          return try! this.add_DownloadStartingImpl($0)
+          return try! this.add_DownloadStarting($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_4.remove_DownloadStartingImpl($0)
+         try? self?._ICoreWebView2_4.remove_DownloadStarting($0)
        }
       )
     }()
@@ -277,10 +362,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_4 else { return .init() }
-          return try! this.add_FrameCreatedImpl($0)
+          return try! this.add_FrameCreated($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_4.remove_FrameCreatedImpl($0)
+         try? self?._ICoreWebView2_4.remove_FrameCreated($0)
        }
       )
     }()
@@ -290,42 +375,42 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_5 else { return .init() }
-          return try! this.add_ClientCertificateRequestedImpl($0)
+          return try! this.add_ClientCertificateRequested($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_5.remove_ClientCertificateRequestedImpl($0)
+         try? self?._ICoreWebView2_5.remove_ClientCertificateRequested($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_6! = getInterfaceForCaching()
     public func openTaskManagerWindow() throws {
-        try _ICoreWebView2_6.OpenTaskManagerWindowImpl()
+        try _ICoreWebView2_6.OpenTaskManagerWindow()
     }
 
     private lazy var _ICoreWebView2_7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_7! = getInterfaceForCaching()
     public func printToPdfAsync(_ ResultFilePath: String, _ printSettings: CoreWebView2PrintSettings!) throws -> WindowsFoundation.AnyIAsyncOperation<Bool>! {
-        try _ICoreWebView2_7.PrintToPdfAsyncImpl(ResultFilePath, printSettings)
+        try _ICoreWebView2_7.PrintToPdfAsync(ResultFilePath, printSettings)
     }
 
     private lazy var _ICoreWebView2_8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_8! = getInterfaceForCaching()
     public var isDocumentPlayingAudio : Bool {
-        get { try! _ICoreWebView2_8.get_IsDocumentPlayingAudioImpl() }
+        get { try! _ICoreWebView2_8.get_IsDocumentPlayingAudio() }
     }
 
     public var isMuted : Bool {
-        get { try! _ICoreWebView2_8.get_IsMutedImpl() }
-        set { try! _ICoreWebView2_8.put_IsMutedImpl(newValue) }
+        get { try! _ICoreWebView2_8.get_IsMuted() }
+        set { try! _ICoreWebView2_8.put_IsMuted(newValue) }
     }
 
     public lazy var isDocumentPlayingAudioChanged : Event<TypedEventHandler<CoreWebView2?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_8 else { return .init() }
-          return try! this.add_IsDocumentPlayingAudioChangedImpl($0)
+          return try! this.add_IsDocumentPlayingAudioChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_8.remove_IsDocumentPlayingAudioChangedImpl($0)
+         try? self?._ICoreWebView2_8.remove_IsDocumentPlayingAudioChanged($0)
        }
       )
     }()
@@ -334,161 +419,175 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_8 else { return .init() }
-          return try! this.add_IsMutedChangedImpl($0)
+          return try! this.add_IsMutedChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_8.remove_IsMutedChangedImpl($0)
+         try? self?._ICoreWebView2_8.remove_IsMutedChanged($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2_9: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_9! = getInterfaceForCaching()
     public func openDefaultDownloadDialog() throws {
-        try _ICoreWebView2_9.OpenDefaultDownloadDialogImpl()
+        try _ICoreWebView2_9.OpenDefaultDownloadDialog()
     }
 
     public func closeDefaultDownloadDialog() throws {
-        try _ICoreWebView2_9.CloseDefaultDownloadDialogImpl()
+        try _ICoreWebView2_9.CloseDefaultDownloadDialog()
     }
 
     public var defaultDownloadDialogCornerAlignment : CoreWebView2DefaultDownloadDialogCornerAlignment {
-        get { try! _ICoreWebView2_9.get_DefaultDownloadDialogCornerAlignmentImpl() }
-        set { try! _ICoreWebView2_9.put_DefaultDownloadDialogCornerAlignmentImpl(newValue) }
+        get { try! _ICoreWebView2_9.get_DefaultDownloadDialogCornerAlignment() }
+        set { try! _ICoreWebView2_9.put_DefaultDownloadDialogCornerAlignment(newValue) }
     }
 
     public var defaultDownloadDialogMargin : WindowsFoundation.Point {
-        get { try! _ICoreWebView2_9.get_DefaultDownloadDialogMarginImpl() }
-        set { try! _ICoreWebView2_9.put_DefaultDownloadDialogMarginImpl(newValue) }
+        get { try! _ICoreWebView2_9.get_DefaultDownloadDialogMargin() }
+        set { try! _ICoreWebView2_9.put_DefaultDownloadDialogMargin(newValue) }
     }
 
     public var isDefaultDownloadDialogOpen : Bool {
-        get { try! _ICoreWebView2_9.get_IsDefaultDownloadDialogOpenImpl() }
+        get { try! _ICoreWebView2_9.get_IsDefaultDownloadDialogOpen() }
     }
 
     public lazy var isDefaultDownloadDialogOpenChanged : Event<TypedEventHandler<CoreWebView2?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2_9 else { return .init() }
-          return try! this.add_IsDefaultDownloadDialogOpenChangedImpl($0)
+          return try! this.add_IsDefaultDownloadDialogOpenChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2_9.remove_IsDefaultDownloadDialogOpenChangedImpl($0)
+         try? self?._ICoreWebView2_9.remove_IsDefaultDownloadDialogOpenChanged($0)
        }
       )
     }()
 
+    private lazy var _ICoreWebView2_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_Manual! = getInterfaceForCaching()
+    public func addWebResourceRequestedFilter(_ uri: String, _ resourceContext: CoreWebView2WebResourceContext, _ requestSourceKinds: CoreWebView2WebResourceRequestSourceKinds) throws {
+        try _ICoreWebView2_Manual.AddWebResourceRequestedFilter(uri, resourceContext, requestSourceKinds)
+    }
+
+    public func removeWebResourceRequestedFilter(_ uri: String, _ resourceContext: CoreWebView2WebResourceContext, _ requestSourceKinds: CoreWebView2WebResourceRequestSourceKinds) throws {
+        try _ICoreWebView2_Manual.RemoveWebResourceRequestedFilter(uri, resourceContext, requestSourceKinds)
+    }
+
+    private lazy var _ICoreWebView2_Manual2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2_Manual2! = getInterfaceForCaching()
+    public func postWebMessageAsJson(_ webMessageAsJson: String, _ additionalObjects: WindowsFoundation.AnyIVectorView<Any?>!) throws {
+        try _ICoreWebView2_Manual2.PostWebMessageAsJson(webMessageAsJson, additionalObjects)
+    }
+
     public func navigate(_ uri: String) throws {
-        try _default.NavigateImpl(uri)
+        try _default.Navigate(uri)
     }
 
     public func navigateToString(_ htmlContent: String) throws {
-        try _default.NavigateToStringImpl(htmlContent)
+        try _default.NavigateToString(htmlContent)
     }
 
     public func addScriptToExecuteOnDocumentCreatedAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.AddScriptToExecuteOnDocumentCreatedAsyncImpl(javaScript)
+        try _default.AddScriptToExecuteOnDocumentCreatedAsync(javaScript)
     }
 
     public func removeScriptToExecuteOnDocumentCreated(_ id: String) throws {
-        try _default.RemoveScriptToExecuteOnDocumentCreatedImpl(id)
+        try _default.RemoveScriptToExecuteOnDocumentCreated(id)
     }
 
     public func executeScriptAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.ExecuteScriptAsyncImpl(javaScript)
+        try _default.ExecuteScriptAsync(javaScript)
     }
 
     public func capturePreviewAsync(_ imageFormat: CoreWebView2CapturePreviewImageFormat, _ imageStream: UWP.AnyIRandomAccessStream!) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _default.CapturePreviewAsyncImpl(imageFormat, imageStream)
+        try _default.CapturePreviewAsync(imageFormat, imageStream)
     }
 
     public func reload() throws {
-        try _default.ReloadImpl()
+        try _default.Reload()
     }
 
     public func postWebMessageAsJson(_ webMessageAsJson: String) throws {
-        try _default.PostWebMessageAsJsonImpl(webMessageAsJson)
+        try _default.PostWebMessageAsJson(webMessageAsJson)
     }
 
     public func postWebMessageAsString(_ webMessageAsString: String) throws {
-        try _default.PostWebMessageAsStringImpl(webMessageAsString)
+        try _default.PostWebMessageAsString(webMessageAsString)
     }
 
     public func callDevToolsProtocolMethodAsync(_ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.CallDevToolsProtocolMethodAsyncImpl(methodName, parametersAsJson)
+        try _default.CallDevToolsProtocolMethodAsync(methodName, parametersAsJson)
     }
 
     public func goBack() throws {
-        try _default.GoBackImpl()
+        try _default.GoBack()
     }
 
     public func goForward() throws {
-        try _default.GoForwardImpl()
+        try _default.GoForward()
     }
 
     public func getDevToolsProtocolEventReceiver(_ eventName: String) throws -> CoreWebView2DevToolsProtocolEventReceiver! {
-        try _default.GetDevToolsProtocolEventReceiverImpl(eventName)
+        try _default.GetDevToolsProtocolEventReceiver(eventName)
     }
 
     public func stop() throws {
-        try _default.StopImpl()
+        try _default.Stop()
     }
 
     public func addHostObjectToScript(_ name: String, _ rawObject: Any!) throws {
-        try _default.AddHostObjectToScriptImpl(name, rawObject)
+        try _default.AddHostObjectToScript(name, rawObject)
     }
 
     public func removeHostObjectFromScript(_ name: String) throws {
-        try _default.RemoveHostObjectFromScriptImpl(name)
+        try _default.RemoveHostObjectFromScript(name)
     }
 
     public func openDevToolsWindow() throws {
-        try _default.OpenDevToolsWindowImpl()
+        try _default.OpenDevToolsWindow()
     }
 
     public func addWebResourceRequestedFilter(_ uri: String, _ ResourceContext: CoreWebView2WebResourceContext) throws {
-        try _default.AddWebResourceRequestedFilterImpl(uri, ResourceContext)
+        try _default.AddWebResourceRequestedFilter(uri, ResourceContext)
     }
 
     public func removeWebResourceRequestedFilter(_ uri: String, _ ResourceContext: CoreWebView2WebResourceContext) throws {
-        try _default.RemoveWebResourceRequestedFilterImpl(uri, ResourceContext)
+        try _default.RemoveWebResourceRequestedFilter(uri, ResourceContext)
     }
 
     public var browserProcessId : UInt32 {
-        get { try! _default.get_BrowserProcessIdImpl() }
+        get { try! _default.get_BrowserProcessId() }
     }
 
     public var canGoBack : Bool {
-        get { try! _default.get_CanGoBackImpl() }
+        get { try! _default.get_CanGoBack() }
     }
 
     public var canGoForward : Bool {
-        get { try! _default.get_CanGoForwardImpl() }
+        get { try! _default.get_CanGoForward() }
     }
 
     public var containsFullScreenElement : Bool {
-        get { try! _default.get_ContainsFullScreenElementImpl() }
+        get { try! _default.get_ContainsFullScreenElement() }
     }
 
     public var documentTitle : String {
-        get { try! _default.get_DocumentTitleImpl() }
+        get { try! _default.get_DocumentTitle() }
     }
 
     public var settings : CoreWebView2Settings! {
-        get { try! _default.get_SettingsImpl() }
+        get { try! _default.get_Settings() }
     }
 
     public var source : String {
-        get { try! _default.get_SourceImpl() }
+        get { try! _default.get_Source() }
     }
 
     public lazy var containsFullScreenElementChanged : Event<TypedEventHandler<CoreWebView2?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ContainsFullScreenElementChangedImpl($0)
+          return try! this.add_ContainsFullScreenElementChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ContainsFullScreenElementChangedImpl($0)
+         try? self?._default.remove_ContainsFullScreenElementChanged($0)
        }
       )
     }()
@@ -497,10 +596,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ContentLoadingImpl($0)
+          return try! this.add_ContentLoading($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ContentLoadingImpl($0)
+         try? self?._default.remove_ContentLoading($0)
        }
       )
     }()
@@ -509,10 +608,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_DocumentTitleChangedImpl($0)
+          return try! this.add_DocumentTitleChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_DocumentTitleChangedImpl($0)
+         try? self?._default.remove_DocumentTitleChanged($0)
        }
       )
     }()
@@ -521,10 +620,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_FrameNavigationCompletedImpl($0)
+          return try! this.add_FrameNavigationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_FrameNavigationCompletedImpl($0)
+         try? self?._default.remove_FrameNavigationCompleted($0)
        }
       )
     }()
@@ -533,10 +632,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_FrameNavigationStartingImpl($0)
+          return try! this.add_FrameNavigationStarting($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_FrameNavigationStartingImpl($0)
+         try? self?._default.remove_FrameNavigationStarting($0)
        }
       )
     }()
@@ -545,10 +644,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_HistoryChangedImpl($0)
+          return try! this.add_HistoryChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_HistoryChangedImpl($0)
+         try? self?._default.remove_HistoryChanged($0)
        }
       )
     }()
@@ -557,10 +656,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_NavigationCompletedImpl($0)
+          return try! this.add_NavigationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_NavigationCompletedImpl($0)
+         try? self?._default.remove_NavigationCompleted($0)
        }
       )
     }()
@@ -569,10 +668,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_NavigationStartingImpl($0)
+          return try! this.add_NavigationStarting($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_NavigationStartingImpl($0)
+         try? self?._default.remove_NavigationStarting($0)
        }
       )
     }()
@@ -581,10 +680,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_NewWindowRequestedImpl($0)
+          return try! this.add_NewWindowRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_NewWindowRequestedImpl($0)
+         try? self?._default.remove_NewWindowRequested($0)
        }
       )
     }()
@@ -593,10 +692,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_PermissionRequestedImpl($0)
+          return try! this.add_PermissionRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_PermissionRequestedImpl($0)
+         try? self?._default.remove_PermissionRequested($0)
        }
       )
     }()
@@ -605,10 +704,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ProcessFailedImpl($0)
+          return try! this.add_ProcessFailed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ProcessFailedImpl($0)
+         try? self?._default.remove_ProcessFailed($0)
        }
       )
     }()
@@ -617,10 +716,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ScriptDialogOpeningImpl($0)
+          return try! this.add_ScriptDialogOpening($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ScriptDialogOpeningImpl($0)
+         try? self?._default.remove_ScriptDialogOpening($0)
        }
       )
     }()
@@ -629,10 +728,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SourceChangedImpl($0)
+          return try! this.add_SourceChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SourceChangedImpl($0)
+         try? self?._default.remove_SourceChanged($0)
        }
       )
     }()
@@ -641,10 +740,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_WebMessageReceivedImpl($0)
+          return try! this.add_WebMessageReceived($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_WebMessageReceivedImpl($0)
+         try? self?._default.remove_WebMessageReceived($0)
        }
       )
     }()
@@ -653,10 +752,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_WebResourceRequestedImpl($0)
+          return try! this.add_WebResourceRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_WebResourceRequestedImpl($0)
+         try? self?._default.remove_WebResourceRequested($0)
        }
       )
     }()
@@ -665,10 +764,10 @@ public final class CoreWebView2 : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_WindowCloseRequestedImpl($0)
+          return try! this.add_WindowCloseRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_WindowCloseRequestedImpl($0)
+         try? self?._default.remove_WindowCloseRequested($0)
        }
       )
     }()
@@ -687,6 +786,15 @@ public final class CoreWebView2 : WinRTClass {
         _ICoreWebView2_19 = nil
         _ICoreWebView2_2 = nil
         _ICoreWebView2_20 = nil
+        _ICoreWebView2_21 = nil
+        _ICoreWebView2_22 = nil
+        _ICoreWebView2_23 = nil
+        _ICoreWebView2_24 = nil
+        _ICoreWebView2_25 = nil
+        _ICoreWebView2_26 = nil
+        _ICoreWebView2_27 = nil
+        _ICoreWebView2_28 = nil
+        _ICoreWebView2_29 = nil
         _ICoreWebView2_3 = nil
         _ICoreWebView2_4 = nil
         _ICoreWebView2_5 = nil
@@ -694,6 +802,8 @@ public final class CoreWebView2 : WinRTClass {
         _ICoreWebView2_7 = nil
         _ICoreWebView2_8 = nil
         _ICoreWebView2_9 = nil
+        _ICoreWebView2_Manual = nil
+        _ICoreWebView2_Manual2 = nil
         _default = nil
     }
 }
@@ -711,41 +821,35 @@ public final class CoreWebView2AcceleratorKeyPressedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs>?) -> CoreWebView2AcceleratorKeyPressedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2AcceleratorKeyPressedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2AcceleratorKeyPressedEventArgs2! = getInterfaceForCaching()
     public var isBrowserAcceleratorKeyEnabled : Bool {
-        get { try! _ICoreWebView2AcceleratorKeyPressedEventArgs2.get_IsBrowserAcceleratorKeyEnabledImpl() }
-        set { try! _ICoreWebView2AcceleratorKeyPressedEventArgs2.put_IsBrowserAcceleratorKeyEnabledImpl(newValue) }
+        get { try! _ICoreWebView2AcceleratorKeyPressedEventArgs2.get_IsBrowserAcceleratorKeyEnabled() }
+        set { try! _ICoreWebView2AcceleratorKeyPressedEventArgs2.put_IsBrowserAcceleratorKeyEnabled(newValue) }
     }
 
     public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
     }
 
     public var keyEventKind : CoreWebView2KeyEventKind {
-        get { try! _default.get_KeyEventKindImpl() }
+        get { try! _default.get_KeyEventKind() }
     }
 
     public var keyEventLParam : Int32 {
-        get { try! _default.get_KeyEventLParamImpl() }
+        get { try! _default.get_KeyEventLParam() }
     }
 
     public var physicalKeyStatus : CoreWebView2PhysicalKeyStatus {
-        get { try! _default.get_PhysicalKeyStatusImpl() }
+        get { try! _default.get_PhysicalKeyStatus() }
     }
 
     public var virtualKey : UInt32 {
-        get { try! _default.get_VirtualKeyImpl() }
+        get { try! _default.get_VirtualKey() }
     }
 
     deinit {
@@ -767,35 +871,29 @@ public final class CoreWebView2BasicAuthenticationRequestedEventArgs : WinRTClas
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs>?) -> CoreWebView2BasicAuthenticationRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var cancel : Bool {
-        get { try! _default.get_CancelImpl() }
-        set { try! _default.put_CancelImpl(newValue) }
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
     }
 
     public var challenge : String {
-        get { try! _default.get_ChallengeImpl() }
+        get { try! _default.get_Challenge() }
     }
 
     public var response : CoreWebView2BasicAuthenticationResponse! {
-        get { try! _default.get_ResponseImpl() }
+        get { try! _default.get_Response() }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
+        get { try! _default.get_Uri() }
     }
 
     deinit {
@@ -816,24 +914,18 @@ public final class CoreWebView2BasicAuthenticationResponse : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse>?) -> CoreWebView2BasicAuthenticationResponse? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var password : String {
-        get { try! _default.get_PasswordImpl() }
-        set { try! _default.put_PasswordImpl(newValue) }
+        get { try! _default.get_Password() }
+        set { try! _default.put_Password(newValue) }
     }
 
     public var userName : String {
-        get { try! _default.get_UserNameImpl() }
-        set { try! _default.put_UserNameImpl(newValue) }
+        get { try! _default.get_UserName() }
+        set { try! _default.put_UserName(newValue) }
     }
 
     deinit {
@@ -854,34 +946,28 @@ public final class CoreWebView2BrowserExtension : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension>?) -> CoreWebView2BrowserExtension? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func removeAsync() throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _default.RemoveAsyncImpl()
+        try _default.RemoveAsync()
     }
 
     public func enableAsync(_ IsEnabled: Bool) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _default.EnableAsyncImpl(IsEnabled)
+        try _default.EnableAsync(IsEnabled)
     }
 
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     public var isEnabled : Bool {
-        get { try! _default.get_IsEnabledImpl() }
+        get { try! _default.get_IsEnabled() }
     }
 
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     deinit {
@@ -902,22 +988,16 @@ public final class CoreWebView2BrowserProcessExitedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs>?) -> CoreWebView2BrowserProcessExitedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var browserProcessExitKind : CoreWebView2BrowserProcessExitKind {
-        get { try! _default.get_BrowserProcessExitKindImpl() }
+        get { try! _default.get_BrowserProcessExitKind() }
     }
 
     public var browserProcessId : UInt32 {
-        get { try! _default.get_BrowserProcessIdImpl() }
+        get { try! _default.get_BrowserProcessId() }
     }
 
     deinit {
@@ -938,51 +1018,45 @@ public final class CoreWebView2Certificate : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate>?) -> CoreWebView2Certificate? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _CoreWebView2Certificate_Manual: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2Certificate_Manual! = getInterfaceForCaching()
     public func toCertificate() throws -> UWP.Certificate! {
-        try _CoreWebView2Certificate_Manual.ToCertificateImpl()
+        try _CoreWebView2Certificate_Manual.ToCertificate()
     }
 
     public func toPemEncoding() throws -> String {
-        try _default.ToPemEncodingImpl()
+        try _default.ToPemEncoding()
     }
 
     public var derEncodedSerialNumber : String {
-        get { try! _default.get_DerEncodedSerialNumberImpl() }
+        get { try! _default.get_DerEncodedSerialNumber() }
     }
 
     public var displayName : String {
-        get { try! _default.get_DisplayNameImpl() }
+        get { try! _default.get_DisplayName() }
     }
 
     public var issuer : String {
-        get { try! _default.get_IssuerImpl() }
+        get { try! _default.get_Issuer() }
     }
 
     public var pemEncodedIssuerCertificateChain : WindowsFoundation.AnyIVectorView<String>! {
-        get { try! _default.get_PemEncodedIssuerCertificateChainImpl() }
+        get { try! _default.get_PemEncodedIssuerCertificateChain() }
     }
 
     public var subject : String {
-        get { try! _default.get_SubjectImpl() }
+        get { try! _default.get_Subject() }
     }
 
     public var validFrom : Double {
-        get { try! _default.get_ValidFromImpl() }
+        get { try! _default.get_ValidFrom() }
     }
 
     public var validTo : Double {
-        get { try! _default.get_ValidToImpl() }
+        get { try! _default.get_ValidTo() }
     }
 
     deinit {
@@ -1004,55 +1078,49 @@ public final class CoreWebView2ClientCertificate : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate>?) -> CoreWebView2ClientCertificate? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _CoreWebView2ClientCertificate_Manual: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2ClientCertificate_Manual! = getInterfaceForCaching()
     public func toCertificate() throws -> UWP.Certificate! {
-        try _CoreWebView2ClientCertificate_Manual.ToCertificateImpl()
+        try _CoreWebView2ClientCertificate_Manual.ToCertificate()
     }
 
     public func toPemEncoding() throws -> String {
-        try _default.ToPemEncodingImpl()
+        try _default.ToPemEncoding()
     }
 
     public var derEncodedSerialNumber : String {
-        get { try! _default.get_DerEncodedSerialNumberImpl() }
+        get { try! _default.get_DerEncodedSerialNumber() }
     }
 
     public var displayName : String {
-        get { try! _default.get_DisplayNameImpl() }
+        get { try! _default.get_DisplayName() }
     }
 
     public var issuer : String {
-        get { try! _default.get_IssuerImpl() }
+        get { try! _default.get_Issuer() }
     }
 
     public var kind : CoreWebView2ClientCertificateKind {
-        get { try! _default.get_KindImpl() }
+        get { try! _default.get_Kind() }
     }
 
     public var pemEncodedIssuerCertificateChain : WindowsFoundation.AnyIVectorView<String>! {
-        get { try! _default.get_PemEncodedIssuerCertificateChainImpl() }
+        get { try! _default.get_PemEncodedIssuerCertificateChain() }
     }
 
     public var subject : String {
-        get { try! _default.get_SubjectImpl() }
+        get { try! _default.get_Subject() }
     }
 
     public var validFrom : Double {
-        get { try! _default.get_ValidFromImpl() }
+        get { try! _default.get_ValidFrom() }
     }
 
     public var validTo : Double {
-        get { try! _default.get_ValidToImpl() }
+        get { try! _default.get_ValidTo() }
     }
 
     deinit {
@@ -1074,53 +1142,47 @@ public final class CoreWebView2ClientCertificateRequestedEventArgs : WinRTClass 
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs>?) -> CoreWebView2ClientCertificateRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var allowedCertificateAuthorities : WindowsFoundation.AnyIVectorView<String>! {
-        get { try! _default.get_AllowedCertificateAuthoritiesImpl() }
+        get { try! _default.get_AllowedCertificateAuthorities() }
     }
 
     public var cancel : Bool {
-        get { try! _default.get_CancelImpl() }
-        set { try! _default.put_CancelImpl(newValue) }
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
     }
 
     public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
     }
 
     public var host : String {
-        get { try! _default.get_HostImpl() }
+        get { try! _default.get_Host() }
     }
 
     public var isProxy : Bool {
-        get { try! _default.get_IsProxyImpl() }
+        get { try! _default.get_IsProxy() }
     }
 
     public var mutuallyTrustedCertificates : WindowsFoundation.AnyIVectorView<CoreWebView2ClientCertificate?>! {
-        get { try! _default.get_MutuallyTrustedCertificatesImpl() }
+        get { try! _default.get_MutuallyTrustedCertificates() }
     }
 
     public var port : Int32 {
-        get { try! _default.get_PortImpl() }
+        get { try! _default.get_Port() }
     }
 
     public var selectedCertificate : CoreWebView2ClientCertificate! {
-        get { try! _default.get_SelectedCertificateImpl() }
-        set { try! _default.put_SelectedCertificateImpl(newValue) }
+        get { try! _default.get_SelectedCertificate() }
+        set { try! _default.put_SelectedCertificate(newValue) }
     }
 
     deinit {
@@ -1141,61 +1203,77 @@ public final class CoreWebView2CompositionController : WebView2Core.CoreWebView2
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController>?) -> CoreWebView2CompositionController? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     override public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi: fromAbi)
     }
 
-    private static let _ICoreWebView2CompositionControllerStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionControllerStatics = try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2CompositionController"))
-    private static let _ICoreWebView2CompositionControllerStatics2_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionControllerStatics2_Manual = try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2CompositionController"))
+    private static let _ICoreWebView2CompositionControllerStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionControllerStatics = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2CompositionController")
+    private static let _ICoreWebView2CompositionControllerStatics2_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionControllerStatics2_Manual = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2CompositionController")
     private lazy var _ICoreWebView2CompositionController2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionController2! = getInterfaceForCaching()
     private lazy var _ICoreWebView2CompositionController3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionController3! = getInterfaceForCaching()
     public func dragLeave() throws {
-        try _ICoreWebView2CompositionController3.DragLeaveImpl()
+        try _ICoreWebView2CompositionController3.DragLeave()
     }
 
+    private lazy var _ICoreWebView2CompositionController4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionController4! = getInterfaceForCaching()
+    public func getNonClientRegionAtPoint(_ point: WindowsFoundation.Point) throws -> CoreWebView2NonClientRegionKind {
+        try _ICoreWebView2CompositionController4.GetNonClientRegionAtPoint(point)
+    }
+
+    public func queryNonClientRegion(_ Kind: CoreWebView2NonClientRegionKind) throws -> WindowsFoundation.AnyIVectorView<WindowsFoundation.Rect>! {
+        try _ICoreWebView2CompositionController4.QueryNonClientRegion(Kind)
+    }
+
+    public lazy var nonClientRegionChanged : Event<TypedEventHandler<CoreWebView2CompositionController?, CoreWebView2NonClientRegionChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2CompositionController4 else { return .init() }
+          return try! this.add_NonClientRegionChanged($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2CompositionController4.remove_NonClientRegionChanged($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2CompositionController5: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CompositionController5! = getInterfaceForCaching()
     public func sendMouseInput(_ eventKind: CoreWebView2MouseEventKind, _ virtualKeys: CoreWebView2MouseEventVirtualKeys, _ mouseData: UInt32, _ point: WindowsFoundation.Point) throws {
-        try _default.SendMouseInputImpl(eventKind, virtualKeys, mouseData, point)
+        try _default.SendMouseInput(eventKind, virtualKeys, mouseData, point)
     }
 
     public func sendPointerInput(_ eventKind: CoreWebView2PointerEventKind, _ pointerInfo: CoreWebView2PointerInfo!) throws {
-        try _default.SendPointerInputImpl(eventKind, pointerInfo)
+        try _default.SendPointerInput(eventKind, pointerInfo)
     }
 
     public func dragEnter(_ dragInfo: UWP.CoreDragInfo!, _ dragUIOverride: UWP.CoreDragUIOverride!) throws -> UWP.DataPackageOperation {
-        try _default.DragEnterImpl(dragInfo, dragUIOverride)
+        try _default.DragEnter(dragInfo, dragUIOverride)
     }
 
     public func dragOver(_ dragInfo: UWP.CoreDragInfo!, _ dragUIOverride: UWP.CoreDragUIOverride!) throws -> UWP.DataPackageOperation {
-        try _default.DragOverImpl(dragInfo, dragUIOverride)
+        try _default.DragOver(dragInfo, dragUIOverride)
     }
 
     public func drop(_ dragInfo: UWP.CoreDragInfo!) throws -> UWP.DataPackageOperation {
-        try _default.DropImpl(dragInfo)
+        try _default.Drop(dragInfo)
     }
 
     public var cursor : UWP.CoreCursor! {
-        get { try! _default.get_CursorImpl() }
+        get { try! _default.get_Cursor() }
     }
 
     public var rootVisualTarget : Any! {
-        get { try! _default.get_RootVisualTargetImpl() }
-        set { try! _default.put_RootVisualTargetImpl(newValue) }
+        get { try! _default.get_RootVisualTarget() }
+        set { try! _default.put_RootVisualTarget(newValue) }
     }
 
     public lazy var cursorChanged : Event<TypedEventHandler<CoreWebView2CompositionController?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_CursorChangedImpl($0)
+          return try! this.add_CursorChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_CursorChangedImpl($0)
+         try? self?._default.remove_CursorChanged($0)
        }
       )
     }()
@@ -1203,6 +1281,8 @@ public final class CoreWebView2CompositionController : WebView2Core.CoreWebView2
     deinit {
         _ICoreWebView2CompositionController2 = nil
         _ICoreWebView2CompositionController3 = nil
+        _ICoreWebView2CompositionController4 = nil
+        _ICoreWebView2CompositionController5 = nil
         _default = nil
     }
 }
@@ -1220,22 +1300,16 @@ public final class CoreWebView2ContentLoadingEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs>?) -> CoreWebView2ContentLoadingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var isErrorPage : Bool {
-        get { try! _default.get_IsErrorPageImpl() }
+        get { try! _default.get_IsErrorPage() }
     }
 
     public var navigationId : UInt64 {
-        get { try! _default.get_NavigationIdImpl() }
+        get { try! _default.get_NavigationId() }
     }
 
     deinit {
@@ -1256,62 +1330,56 @@ public final class CoreWebView2ContextMenuItem : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem>?) -> CoreWebView2ContextMenuItem? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var children : WindowsFoundation.AnyIVector<CoreWebView2ContextMenuItem?>! {
-        get { try! _default.get_ChildrenImpl() }
+        get { try! _default.get_Children() }
     }
 
     public var commandId : Int32 {
-        get { try! _default.get_CommandIdImpl() }
+        get { try! _default.get_CommandId() }
     }
 
     public var icon : UWP.AnyIRandomAccessStream! {
-        get { try! _default.get_IconImpl() }
+        get { try! _default.get_Icon() }
     }
 
     public var isChecked : Bool {
-        get { try! _default.get_IsCheckedImpl() }
-        set { try! _default.put_IsCheckedImpl(newValue) }
+        get { try! _default.get_IsChecked() }
+        set { try! _default.put_IsChecked(newValue) }
     }
 
     public var isEnabled : Bool {
-        get { try! _default.get_IsEnabledImpl() }
-        set { try! _default.put_IsEnabledImpl(newValue) }
+        get { try! _default.get_IsEnabled() }
+        set { try! _default.put_IsEnabled(newValue) }
     }
 
     public var kind : CoreWebView2ContextMenuItemKind {
-        get { try! _default.get_KindImpl() }
+        get { try! _default.get_Kind() }
     }
 
     public var label : String {
-        get { try! _default.get_LabelImpl() }
+        get { try! _default.get_Label() }
     }
 
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     public var shortcutKeyDescription : String {
-        get { try! _default.get_ShortcutKeyDescriptionImpl() }
+        get { try! _default.get_ShortcutKeyDescription() }
     }
 
     public lazy var customItemSelected : Event<TypedEventHandler<CoreWebView2ContextMenuItem?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_CustomItemSelectedImpl($0)
+          return try! this.add_CustomItemSelected($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_CustomItemSelectedImpl($0)
+         try? self?._default.remove_CustomItemSelected($0)
        }
       )
     }()
@@ -1334,40 +1402,34 @@ public final class CoreWebView2ContextMenuRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs>?) -> CoreWebView2ContextMenuRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var contextMenuTarget : CoreWebView2ContextMenuTarget! {
-        get { try! _default.get_ContextMenuTargetImpl() }
+        get { try! _default.get_ContextMenuTarget() }
     }
 
     public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
     }
 
     public var location : WindowsFoundation.Point {
-        get { try! _default.get_LocationImpl() }
+        get { try! _default.get_Location() }
     }
 
     public var menuItems : WindowsFoundation.AnyIVector<CoreWebView2ContextMenuItem?>! {
-        get { try! _default.get_MenuItemsImpl() }
+        get { try! _default.get_MenuItems() }
     }
 
     public var selectedCommandId : Int32 {
-        get { try! _default.get_SelectedCommandIdImpl() }
-        set { try! _default.put_SelectedCommandIdImpl(newValue) }
+        get { try! _default.get_SelectedCommandId() }
+        set { try! _default.put_SelectedCommandId(newValue) }
     }
 
     deinit {
@@ -1388,66 +1450,60 @@ public final class CoreWebView2ContextMenuTarget : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget>?) -> CoreWebView2ContextMenuTarget? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var frameUri : String {
-        get { try! _default.get_FrameUriImpl() }
+        get { try! _default.get_FrameUri() }
     }
 
     public var hasLinkText : Bool {
-        get { try! _default.get_HasLinkTextImpl() }
+        get { try! _default.get_HasLinkText() }
     }
 
     public var hasLinkUri : Bool {
-        get { try! _default.get_HasLinkUriImpl() }
+        get { try! _default.get_HasLinkUri() }
     }
 
     public var hasSelection : Bool {
-        get { try! _default.get_HasSelectionImpl() }
+        get { try! _default.get_HasSelection() }
     }
 
     public var hasSourceUri : Bool {
-        get { try! _default.get_HasSourceUriImpl() }
+        get { try! _default.get_HasSourceUri() }
     }
 
     public var isEditable : Bool {
-        get { try! _default.get_IsEditableImpl() }
+        get { try! _default.get_IsEditable() }
     }
 
     public var isRequestedForMainFrame : Bool {
-        get { try! _default.get_IsRequestedForMainFrameImpl() }
+        get { try! _default.get_IsRequestedForMainFrame() }
     }
 
     public var kind : CoreWebView2ContextMenuTargetKind {
-        get { try! _default.get_KindImpl() }
+        get { try! _default.get_Kind() }
     }
 
     public var linkText : String {
-        get { try! _default.get_LinkTextImpl() }
+        get { try! _default.get_LinkText() }
     }
 
     public var linkUri : String {
-        get { try! _default.get_LinkUriImpl() }
+        get { try! _default.get_LinkUri() }
     }
 
     public var pageUri : String {
-        get { try! _default.get_PageUriImpl() }
+        get { try! _default.get_PageUri() }
     }
 
     public var selectionText : String {
-        get { try! _default.get_SelectionTextImpl() }
+        get { try! _default.get_SelectionText() }
     }
 
     public var sourceUri : String {
-        get { try! _default.get_SourceUriImpl() }
+        get { try! _default.get_SourceUri() }
     }
 
     deinit {
@@ -1468,12 +1524,6 @@ open class CoreWebView2Controller : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller>?) -> CoreWebView2Controller? {
-        guard let abi = abi else { return nil }
-        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -1489,101 +1539,101 @@ open class CoreWebView2Controller : WinRTClass {
     override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
         return super.queryInterface(iid)
     }
-    private static var _ICoreWebView2ControllerFactory : __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerFactory =  try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2Controller"))
+    private static var _ICoreWebView2ControllerFactory : __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerFactory =  try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2Controller")
 
     private lazy var _ICoreWebView2Controller2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Controller2! = getInterfaceForCaching()
     public var defaultBackgroundColor : UWP.Color {
-        get { try! _ICoreWebView2Controller2.get_DefaultBackgroundColorImpl() }
-        set { try! _ICoreWebView2Controller2.put_DefaultBackgroundColorImpl(newValue) }
+        get { try! _ICoreWebView2Controller2.get_DefaultBackgroundColor() }
+        set { try! _ICoreWebView2Controller2.put_DefaultBackgroundColor(newValue) }
     }
 
     private lazy var _ICoreWebView2Controller3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Controller3! = getInterfaceForCaching()
     public var boundsMode : CoreWebView2BoundsMode {
-        get { try! _ICoreWebView2Controller3.get_BoundsModeImpl() }
-        set { try! _ICoreWebView2Controller3.put_BoundsModeImpl(newValue) }
+        get { try! _ICoreWebView2Controller3.get_BoundsMode() }
+        set { try! _ICoreWebView2Controller3.put_BoundsMode(newValue) }
     }
 
     public var rasterizationScale : Double {
-        get { try! _ICoreWebView2Controller3.get_RasterizationScaleImpl() }
-        set { try! _ICoreWebView2Controller3.put_RasterizationScaleImpl(newValue) }
+        get { try! _ICoreWebView2Controller3.get_RasterizationScale() }
+        set { try! _ICoreWebView2Controller3.put_RasterizationScale(newValue) }
     }
 
     public var shouldDetectMonitorScaleChanges : Bool {
-        get { try! _ICoreWebView2Controller3.get_ShouldDetectMonitorScaleChangesImpl() }
-        set { try! _ICoreWebView2Controller3.put_ShouldDetectMonitorScaleChangesImpl(newValue) }
+        get { try! _ICoreWebView2Controller3.get_ShouldDetectMonitorScaleChanges() }
+        set { try! _ICoreWebView2Controller3.put_ShouldDetectMonitorScaleChanges(newValue) }
     }
 
     public lazy var rasterizationScaleChanged : Event<TypedEventHandler<CoreWebView2Controller?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Controller3 else { return .init() }
-          return try! this.add_RasterizationScaleChangedImpl($0)
+          return try! this.add_RasterizationScaleChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Controller3.remove_RasterizationScaleChangedImpl($0)
+         try? self?._ICoreWebView2Controller3.remove_RasterizationScaleChanged($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2Controller4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Controller4! = getInterfaceForCaching()
     public var allowExternalDrop : Bool {
-        get { try! _ICoreWebView2Controller4.get_AllowExternalDropImpl() }
-        set { try! _ICoreWebView2Controller4.put_AllowExternalDropImpl(newValue) }
+        get { try! _ICoreWebView2Controller4.get_AllowExternalDrop() }
+        set { try! _ICoreWebView2Controller4.put_AllowExternalDrop(newValue) }
     }
 
     private lazy var _ICoreWebView2PrivatePartialController: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2PrivatePartialController! = getInterfaceForCaching()
     public var isBrowserHitTransparent : Bool {
-        get { try! _ICoreWebView2PrivatePartialController.get_IsBrowserHitTransparentImpl() }
+        get { try! _ICoreWebView2PrivatePartialController.get_IsBrowserHitTransparent() }
     }
 
     public func setBoundsAndZoomFactor(_ Bounds: WindowsFoundation.Rect, _ ZoomFactor: Double) throws {
-        try _default.SetBoundsAndZoomFactorImpl(Bounds, ZoomFactor)
+        try _default.SetBoundsAndZoomFactor(Bounds, ZoomFactor)
     }
 
     public func moveFocus(_ reason: CoreWebView2MoveFocusReason) throws {
-        try _default.MoveFocusImpl(reason)
+        try _default.MoveFocus(reason)
     }
 
     public func notifyParentWindowPositionChanged() throws {
-        try _default.NotifyParentWindowPositionChangedImpl()
+        try _default.NotifyParentWindowPositionChanged()
     }
 
     public func close() throws {
-        try _default.CloseImpl()
+        try _default.Close()
     }
 
     public var bounds : WindowsFoundation.Rect {
-        get { try! _default.get_BoundsImpl() }
-        set { try! _default.put_BoundsImpl(newValue) }
+        get { try! _default.get_Bounds() }
+        set { try! _default.put_Bounds(newValue) }
     }
 
     public var coreWebView2 : CoreWebView2! {
-        get { try! _default.get_CoreWebView2Impl() }
+        get { try! _default.get_CoreWebView2() }
     }
 
     public var isVisible : Bool {
-        get { try! _default.get_IsVisibleImpl() }
-        set { try! _default.put_IsVisibleImpl(newValue) }
+        get { try! _default.get_IsVisible() }
+        set { try! _default.put_IsVisible(newValue) }
     }
 
     public var parentWindow : CoreWebView2ControllerWindowReference! {
-        get { try! _default.get_ParentWindowImpl() }
-        set { try! _default.put_ParentWindowImpl(newValue) }
+        get { try! _default.get_ParentWindow() }
+        set { try! _default.put_ParentWindow(newValue) }
     }
 
     public var zoomFactor : Double {
-        get { try! _default.get_ZoomFactorImpl() }
-        set { try! _default.put_ZoomFactorImpl(newValue) }
+        get { try! _default.get_ZoomFactor() }
+        set { try! _default.put_ZoomFactor(newValue) }
     }
 
     public lazy var acceleratorKeyPressed : Event<TypedEventHandler<CoreWebView2Controller?, CoreWebView2AcceleratorKeyPressedEventArgs?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_AcceleratorKeyPressedImpl($0)
+          return try! this.add_AcceleratorKeyPressed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_AcceleratorKeyPressedImpl($0)
+         try? self?._default.remove_AcceleratorKeyPressed($0)
        }
       )
     }()
@@ -1592,10 +1642,10 @@ open class CoreWebView2Controller : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_GotFocusImpl($0)
+          return try! this.add_GotFocus($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_GotFocusImpl($0)
+         try? self?._default.remove_GotFocus($0)
        }
       )
     }()
@@ -1604,10 +1654,10 @@ open class CoreWebView2Controller : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_LostFocusImpl($0)
+          return try! this.add_LostFocus($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_LostFocusImpl($0)
+         try? self?._default.remove_LostFocus($0)
        }
       )
     }()
@@ -1616,10 +1666,10 @@ open class CoreWebView2Controller : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_MoveFocusRequestedImpl($0)
+          return try! this.add_MoveFocusRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_MoveFocusRequestedImpl($0)
+         try? self?._default.remove_MoveFocusRequested($0)
        }
       )
     }()
@@ -1628,25 +1678,14 @@ open class CoreWebView2Controller : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ZoomFactorChangedImpl($0)
+          return try! this.add_ZoomFactorChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ZoomFactorChangedImpl($0)
+         try? self?._default.remove_ZoomFactorChanged($0)
        }
       )
     }()
 
-    internal enum ICoreWebView2Controller : ComposableImpl {
-        internal typealias CABI = C_IInspectable
-        internal typealias SwiftABI = WindowsFoundation.IInspectable
-        internal typealias Class = CoreWebView2Controller
-        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
-        internal enum Default : AbiInterface {
-            internal typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller
-            internal typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Controller
-        }
-    }
-    internal typealias Composable = ICoreWebView2Controller
     deinit {
         _ICoreWebView2Controller2 = nil
         _ICoreWebView2Controller3 = nil
@@ -1669,34 +1708,42 @@ public final class CoreWebView2ControllerOptions : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions>?) -> CoreWebView2ControllerOptions? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2ControllerOptions2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerOptions2! = getInterfaceForCaching()
     public var scriptLocale : String {
-        get { try! _ICoreWebView2ControllerOptions2.get_ScriptLocaleImpl() }
-        set { try! _ICoreWebView2ControllerOptions2.put_ScriptLocaleImpl(newValue) }
+        get { try! _ICoreWebView2ControllerOptions2.get_ScriptLocale() }
+        set { try! _ICoreWebView2ControllerOptions2.put_ScriptLocale(newValue) }
+    }
+
+    private lazy var _ICoreWebView2ControllerOptions3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerOptions3! = getInterfaceForCaching()
+    public var defaultBackgroundColor : UWP.Color {
+        get { try! _ICoreWebView2ControllerOptions3.get_DefaultBackgroundColor() }
+        set { try! _ICoreWebView2ControllerOptions3.put_DefaultBackgroundColor(newValue) }
+    }
+
+    private lazy var _ICoreWebView2ControllerOptions4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerOptions4! = getInterfaceForCaching()
+    public var allowHostInputProcessing : Bool {
+        get { try! _ICoreWebView2ControllerOptions4.get_AllowHostInputProcessing() }
+        set { try! _ICoreWebView2ControllerOptions4.put_AllowHostInputProcessing(newValue) }
     }
 
     public var isInPrivateModeEnabled : Bool {
-        get { try! _default.get_IsInPrivateModeEnabledImpl() }
-        set { try! _default.put_IsInPrivateModeEnabledImpl(newValue) }
+        get { try! _default.get_IsInPrivateModeEnabled() }
+        set { try! _default.put_IsInPrivateModeEnabled(newValue) }
     }
 
     public var profileName : String {
-        get { try! _default.get_ProfileNameImpl() }
-        set { try! _default.put_ProfileNameImpl(newValue) }
+        get { try! _default.get_ProfileName() }
+        set { try! _default.put_ProfileName(newValue) }
     }
 
     deinit {
         _ICoreWebView2ControllerOptions2 = nil
+        _ICoreWebView2ControllerOptions3 = nil
+        _ICoreWebView2ControllerOptions4 = nil
         _default = nil
     }
 }
@@ -1714,31 +1761,25 @@ public final class CoreWebView2ControllerWindowReference : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference>?) -> CoreWebView2ControllerWindowReference? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ICoreWebView2ControllerWindowReferenceStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerWindowReferenceStatics = try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference"))
-    public static func createFromWindowHandle(_ windowHandle: UInt64) -> CoreWebView2ControllerWindowReference! {
-        return try! _ICoreWebView2ControllerWindowReferenceStatics.CreateFromWindowHandleImpl(windowHandle)
+    private static let _ICoreWebView2ControllerWindowReferenceStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ControllerWindowReferenceStatics = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference")
+    public static func createFromWindowHandle(_ windowHandle: UInt64) throws -> CoreWebView2ControllerWindowReference! {
+        return try _ICoreWebView2ControllerWindowReferenceStatics.CreateFromWindowHandle(windowHandle)
     }
 
-    public static func createFromCoreWindow(_ coreWindow: UWP.CoreWindow!) -> CoreWebView2ControllerWindowReference! {
-        return try! _ICoreWebView2ControllerWindowReferenceStatics.CreateFromCoreWindowImpl(coreWindow)
+    public static func createFromCoreWindow(_ coreWindow: UWP.CoreWindow!) throws -> CoreWebView2ControllerWindowReference! {
+        return try _ICoreWebView2ControllerWindowReferenceStatics.CreateFromCoreWindow(coreWindow)
     }
 
     public var coreWindow : UWP.CoreWindow! {
-        get { try! _default.get_CoreWindowImpl() }
+        get { try! _default.get_CoreWindow() }
     }
 
     public var windowHandle : UInt64 {
-        get { try! _default.get_WindowHandleImpl() }
+        get { try! _default.get_WindowHandle() }
     }
 
     deinit {
@@ -1759,55 +1800,49 @@ public final class CoreWebView2Cookie : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie>?) -> CoreWebView2Cookie? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var domain : String {
-        get { try! _default.get_DomainImpl() }
+        get { try! _default.get_Domain() }
     }
 
     public var expires : Double {
-        get { try! _default.get_ExpiresImpl() }
-        set { try! _default.put_ExpiresImpl(newValue) }
+        get { try! _default.get_Expires() }
+        set { try! _default.put_Expires(newValue) }
     }
 
     public var isHttpOnly : Bool {
-        get { try! _default.get_IsHttpOnlyImpl() }
-        set { try! _default.put_IsHttpOnlyImpl(newValue) }
+        get { try! _default.get_IsHttpOnly() }
+        set { try! _default.put_IsHttpOnly(newValue) }
     }
 
     public var isSecure : Bool {
-        get { try! _default.get_IsSecureImpl() }
-        set { try! _default.put_IsSecureImpl(newValue) }
+        get { try! _default.get_IsSecure() }
+        set { try! _default.put_IsSecure(newValue) }
     }
 
     public var isSession : Bool {
-        get { try! _default.get_IsSessionImpl() }
+        get { try! _default.get_IsSession() }
     }
 
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     public var path : String {
-        get { try! _default.get_PathImpl() }
+        get { try! _default.get_Path() }
     }
 
     public var sameSite : CoreWebView2CookieSameSiteKind {
-        get { try! _default.get_SameSiteImpl() }
-        set { try! _default.put_SameSiteImpl(newValue) }
+        get { try! _default.get_SameSite() }
+        set { try! _default.put_SameSite(newValue) }
     }
 
     public var value : String {
-        get { try! _default.get_ValueImpl() }
-        set { try! _default.put_ValueImpl(newValue) }
+        get { try! _default.get_Value() }
+        set { try! _default.put_Value(newValue) }
     }
 
     deinit {
@@ -1828,9 +1863,59 @@ public final class CoreWebView2CookieManager : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager>?) -> CoreWebView2CookieManager? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private lazy var _ICoreWebView2CookieManager_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CookieManager_Manual! = getInterfaceForCaching()
+    public func getCookiesAsync(_ uri: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2Cookie?>?>! {
+        try _ICoreWebView2CookieManager_Manual.GetCookiesAsync(uri)
+    }
+
+    public func createCookie(_ name: String, _ value: String, _ Domain: String, _ Path: String) throws -> CoreWebView2Cookie! {
+        try _default.CreateCookie(name, value, Domain, Path)
+    }
+
+    public func copyCookie(_ cookieParam: CoreWebView2Cookie!) throws -> CoreWebView2Cookie! {
+        try _default.CopyCookie(cookieParam)
+    }
+
+    public func addOrUpdateCookie(_ cookie: CoreWebView2Cookie!) throws {
+        try _default.AddOrUpdateCookie(cookie)
+    }
+
+    public func deleteCookie(_ cookie: CoreWebView2Cookie!) throws {
+        try _default.DeleteCookie(cookie)
+    }
+
+    public func deleteCookies(_ name: String, _ uri: String) throws {
+        try _default.DeleteCookies(name, uri)
+    }
+
+    public func deleteCookiesWithDomainAndPath(_ name: String, _ Domain: String, _ Path: String) throws {
+        try _default.DeleteCookiesWithDomainAndPath(name, Domain, Path)
+    }
+
+    public func deleteAllCookies() throws {
+        try _default.DeleteAllCookies()
+    }
+
+    deinit {
+        _ICoreWebView2CookieManager_Manual = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2CrashReport : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CrashReport
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -1838,41 +1923,35 @@ public final class CoreWebView2CookieManager : WinRTClass {
         super.init(fromAbi)
     }
 
-    private lazy var _ICoreWebView2CookieManager_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CookieManager_Manual! = getInterfaceForCaching()
-    public func getCookiesAsync(_ uri: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2Cookie?>?>! {
-        try _ICoreWebView2CookieManager_Manual.GetCookiesAsyncImpl(uri)
+    public var bucketId : String {
+        get { try! _default.get_BucketId() }
     }
 
-    public func createCookie(_ name: String, _ value: String, _ Domain: String, _ Path: String) throws -> CoreWebView2Cookie! {
-        try _default.CreateCookieImpl(name, value, Domain, Path)
+    public var crashReportId : String {
+        get { try! _default.get_CrashReportId() }
     }
 
-    public func copyCookie(_ cookieParam: CoreWebView2Cookie!) throws -> CoreWebView2Cookie! {
-        try _default.CopyCookieImpl(cookieParam)
+    public var exceptionCode : UInt32 {
+        get { try! _default.get_ExceptionCode() }
     }
 
-    public func addOrUpdateCookie(_ cookie: CoreWebView2Cookie!) throws {
-        try _default.AddOrUpdateCookieImpl(cookie)
+    public var faultOffset : UInt64 {
+        get { try! _default.get_FaultOffset() }
     }
 
-    public func deleteCookie(_ cookie: CoreWebView2Cookie!) throws {
-        try _default.DeleteCookieImpl(cookie)
+    public var faultingModuleName : String {
+        get { try! _default.get_FaultingModuleName() }
     }
 
-    public func deleteCookies(_ name: String, _ uri: String) throws {
-        try _default.DeleteCookiesImpl(name, uri)
+    public var faultingModuleVersion : String {
+        get { try! _default.get_FaultingModuleVersion() }
     }
 
-    public func deleteCookiesWithDomainAndPath(_ name: String, _ Domain: String, _ Path: String) throws {
-        try _default.DeleteCookiesWithDomainAndPathImpl(name, Domain, Path)
-    }
-
-    public func deleteAllCookies() throws {
-        try _default.DeleteAllCookiesImpl()
+    public var reportTime : UInt64 {
+        get { try! _default.get_ReportTime() }
     }
 
     deinit {
-        _ICoreWebView2CookieManager_Manual = nil
         _default = nil
     }
 }
@@ -1890,38 +1969,32 @@ public final class CoreWebView2CustomSchemeRegistration : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration>?) -> CoreWebView2CustomSchemeRegistration? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ICoreWebView2CustomSchemeRegistrationFactory: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CustomSchemeRegistrationFactory = try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration"))
+    private static let _ICoreWebView2CustomSchemeRegistrationFactory: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CustomSchemeRegistrationFactory = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration")
     public init(_ schemeName: String) {
-        super.init(try! Self._ICoreWebView2CustomSchemeRegistrationFactory.CreateInstanceImpl(schemeName))
+        super.init(try! Self._ICoreWebView2CustomSchemeRegistrationFactory.CreateInstance(schemeName))
     }
 
     private lazy var _ICoreWebView2CustomSchemeRegistration_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2CustomSchemeRegistration_Manual! = getInterfaceForCaching()
     public var allowedOrigins : WindowsFoundation.AnyIVector<String>! {
-        get { try! _ICoreWebView2CustomSchemeRegistration_Manual.get_AllowedOriginsImpl() }
+        get { try! _ICoreWebView2CustomSchemeRegistration_Manual.get_AllowedOrigins() }
     }
 
     public var schemeName : String {
-        get { try! _ICoreWebView2CustomSchemeRegistration_Manual.get_SchemeNameImpl() }
+        get { try! _ICoreWebView2CustomSchemeRegistration_Manual.get_SchemeName() }
     }
 
     public var hasAuthorityComponent : Bool {
-        get { try! _default.get_HasAuthorityComponentImpl() }
-        set { try! _default.put_HasAuthorityComponentImpl(newValue) }
+        get { try! _default.get_HasAuthorityComponent() }
+        set { try! _default.put_HasAuthorityComponent(newValue) }
     }
 
     public var treatAsSecure : Int32 {
-        get { try! _default.get_TreatAsSecureImpl() }
-        set { try! _default.put_TreatAsSecureImpl(newValue) }
+        get { try! _default.get_TreatAsSecure() }
+        set { try! _default.put_TreatAsSecure(newValue) }
     }
 
     deinit {
@@ -1943,9 +2016,29 @@ public final class CoreWebView2DOMContentLoadedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs>?) -> CoreWebView2DOMContentLoadedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var navigationId : UInt64 {
+        get { try! _default.get_NavigationId() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2DedicatedWorker : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DedicatedWorker
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -1953,8 +2046,82 @@ public final class CoreWebView2DOMContentLoadedEventArgs : WinRTClass {
         super.init(fromAbi)
     }
 
-    public var navigationId : UInt64 {
-        get { try! _default.get_NavigationIdImpl() }
+    public func postWebMessageAsJson(_ webMessageAsJson: String) throws {
+        try _default.PostWebMessageAsJson(webMessageAsJson)
+    }
+
+    public func postWebMessageAsString(_ webMessageAsString: String) throws {
+        try _default.PostWebMessageAsString(webMessageAsString)
+    }
+
+    public var scriptUri : String {
+        get { try! _default.get_ScriptUri() }
+    }
+
+    public lazy var dedicatedWorkerCreated : Event<TypedEventHandler<CoreWebView2DedicatedWorker?, CoreWebView2DedicatedWorkerCreatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_DedicatedWorkerCreated($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_DedicatedWorkerCreated($0)
+       }
+      )
+    }()
+
+    public lazy var destroying : Event<TypedEventHandler<CoreWebView2DedicatedWorker?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Destroying($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Destroying($0)
+       }
+      )
+    }()
+
+    public lazy var webMessageReceived : Event<TypedEventHandler<CoreWebView2DedicatedWorker?, CoreWebView2WebMessageReceivedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_WebMessageReceived($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_WebMessageReceived($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2DedicatedWorkerCreatedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DedicatedWorkerCreatedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var originalSourceFrameInfo : CoreWebView2FrameInfo! {
+        get { try! _default.get_OriginalSourceFrameInfo() }
+    }
+
+    public var worker : CoreWebView2DedicatedWorker! {
+        get { try! _default.get_Worker() }
     }
 
     deinit {
@@ -1975,23 +2142,17 @@ public final class CoreWebView2DevToolsProtocolEventReceivedEventArgs : WinRTCla
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs>?) -> CoreWebView2DevToolsProtocolEventReceivedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2DevToolsProtocolEventReceivedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DevToolsProtocolEventReceivedEventArgs2! = getInterfaceForCaching()
     public var sessionId : String {
-        get { try! _ICoreWebView2DevToolsProtocolEventReceivedEventArgs2.get_SessionIdImpl() }
+        get { try! _ICoreWebView2DevToolsProtocolEventReceivedEventArgs2.get_SessionId() }
     }
 
     public var parameterObjectAsJson : String {
-        get { try! _default.get_ParameterObjectAsJsonImpl() }
+        get { try! _default.get_ParameterObjectAsJson() }
     }
 
     deinit {
@@ -2013,12 +2174,6 @@ public final class CoreWebView2DevToolsProtocolEventReceiver : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceiver>?) -> CoreWebView2DevToolsProtocolEventReceiver? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -2027,10 +2182,10 @@ public final class CoreWebView2DevToolsProtocolEventReceiver : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_DevToolsProtocolEventReceivedImpl($0)
+          return try! this.add_DevToolsProtocolEventReceived($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_DevToolsProtocolEventReceivedImpl($0)
+         try? self?._default.remove_DevToolsProtocolEventReceived($0)
        }
       )
     }()
@@ -2053,76 +2208,70 @@ public final class CoreWebView2DownloadOperation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation>?) -> CoreWebView2DownloadOperation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func cancel() throws {
-        try _default.CancelImpl()
+        try _default.Cancel()
     }
 
     public func pause() throws {
-        try _default.PauseImpl()
+        try _default.Pause()
     }
 
     public func resume() throws {
-        try _default.ResumeImpl()
+        try _default.Resume()
     }
 
     public var bytesReceived : Int64 {
-        get { try! _default.get_BytesReceivedImpl() }
+        get { try! _default.get_BytesReceived() }
     }
 
     public var canResume : Bool {
-        get { try! _default.get_CanResumeImpl() }
+        get { try! _default.get_CanResume() }
     }
 
     public var contentDisposition : String {
-        get { try! _default.get_ContentDispositionImpl() }
+        get { try! _default.get_ContentDisposition() }
     }
 
     public var estimatedEndTime : String {
-        get { try! _default.get_EstimatedEndTimeImpl() }
+        get { try! _default.get_EstimatedEndTime() }
     }
 
     public var interruptReason : CoreWebView2DownloadInterruptReason {
-        get { try! _default.get_InterruptReasonImpl() }
+        get { try! _default.get_InterruptReason() }
     }
 
     public var mimeType : String {
-        get { try! _default.get_MimeTypeImpl() }
+        get { try! _default.get_MimeType() }
     }
 
     public var resultFilePath : String {
-        get { try! _default.get_ResultFilePathImpl() }
+        get { try! _default.get_ResultFilePath() }
     }
 
     public var state : CoreWebView2DownloadState {
-        get { try! _default.get_StateImpl() }
+        get { try! _default.get_State() }
     }
 
     public var totalBytesToReceive : Int64 {
-        get { try! _default.get_TotalBytesToReceiveImpl() }
+        get { try! _default.get_TotalBytesToReceive() }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
+        get { try! _default.get_Uri() }
     }
 
     public lazy var bytesReceivedChanged : Event<TypedEventHandler<CoreWebView2DownloadOperation?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_BytesReceivedChangedImpl($0)
+          return try! this.add_BytesReceivedChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_BytesReceivedChangedImpl($0)
+         try? self?._default.remove_BytesReceivedChanged($0)
        }
       )
     }()
@@ -2131,10 +2280,10 @@ public final class CoreWebView2DownloadOperation : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_EstimatedEndTimeChangedImpl($0)
+          return try! this.add_EstimatedEndTimeChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_EstimatedEndTimeChangedImpl($0)
+         try? self?._default.remove_EstimatedEndTimeChanged($0)
        }
       )
     }()
@@ -2143,10 +2292,10 @@ public final class CoreWebView2DownloadOperation : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_StateChangedImpl($0)
+          return try! this.add_StateChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_StateChangedImpl($0)
+         try? self?._default.remove_StateChanged($0)
        }
       )
     }()
@@ -2169,37 +2318,31 @@ public final class CoreWebView2DownloadStartingEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs>?) -> CoreWebView2DownloadStartingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var cancel : Bool {
-        get { try! _default.get_CancelImpl() }
-        set { try! _default.put_CancelImpl(newValue) }
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
     }
 
     public var downloadOperation : CoreWebView2DownloadOperation! {
-        get { try! _default.get_DownloadOperationImpl() }
+        get { try! _default.get_DownloadOperation() }
     }
 
     public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
     }
 
     public var resultFilePath : String {
-        get { try! _default.get_ResultFilePathImpl() }
-        set { try! _default.put_ResultFilePathImpl(newValue) }
+        get { try! _default.get_ResultFilePath() }
+        set { try! _default.put_ResultFilePath(newValue) }
     }
 
     deinit {
@@ -2220,69 +2363,82 @@ public final class CoreWebView2Environment : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment>?) -> CoreWebView2Environment? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ICoreWebView2EnvironmentStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentStatics = try! RoGetActivationFactory(HString("Microsoft.Web.WebView2.Core.CoreWebView2Environment"))
-    public static func createAsync() -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Environment?>! {
-        return try! _ICoreWebView2EnvironmentStatics.CreateAsyncImpl()
+    private static let _ICoreWebView2EnvironmentStatics: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentStatics = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2Environment")
+    public static func createAsync() throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Environment?>! {
+        return try _ICoreWebView2EnvironmentStatics.CreateAsync()
     }
 
-    public static func createWithOptionsAsync(_ browserExecutableFolder: String, _ userDataFolder: String, _ options: CoreWebView2EnvironmentOptions!) -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Environment?>! {
-        return try! _ICoreWebView2EnvironmentStatics.CreateWithOptionsAsyncImpl(browserExecutableFolder, userDataFolder, options)
+    public static func createWithOptionsAsync(_ browserExecutableFolder: String, _ userDataFolder: String, _ options: CoreWebView2EnvironmentOptions!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Environment?>! {
+        return try _ICoreWebView2EnvironmentStatics.CreateWithOptionsAsync(browserExecutableFolder, userDataFolder, options)
     }
 
-    public static func getAvailableBrowserVersionString() -> String {
-        return try! _ICoreWebView2EnvironmentStatics.GetAvailableBrowserVersionStringImpl()
+    public static func getAvailableBrowserVersionString() throws -> String {
+        return try _ICoreWebView2EnvironmentStatics.GetAvailableBrowserVersionString()
     }
 
-    public static func getAvailableBrowserVersionString(_ browserExecutableFolder: String) -> String {
-        return try! _ICoreWebView2EnvironmentStatics.GetAvailableBrowserVersionString2Impl(browserExecutableFolder)
+    public static func getAvailableBrowserVersionString(_ browserExecutableFolder: String) throws -> String {
+        return try _ICoreWebView2EnvironmentStatics.GetAvailableBrowserVersionString2(browserExecutableFolder)
     }
 
-    public static func compareBrowserVersionString(_ browserVersionString1: String, _ browserVersionString2: String) -> Int32 {
-        return try! _ICoreWebView2EnvironmentStatics.CompareBrowserVersionStringImpl(browserVersionString1, browserVersionString2)
+    public static func compareBrowserVersionString(_ browserVersionString1: String, _ browserVersionString2: String) throws -> Int32 {
+        return try _ICoreWebView2EnvironmentStatics.CompareBrowserVersionString(browserVersionString1, browserVersionString2)
+    }
+
+    private static let _ICoreWebView2EnvironmentStatics2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentStatics2 = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2Environment")
+    public static func getAvailableBrowserVersionString(_ browserExecutableFolder: String, _ options: CoreWebView2EnvironmentOptions!) throws -> String {
+        return try _ICoreWebView2EnvironmentStatics2.GetAvailableBrowserVersionStringWithOptions(browserExecutableFolder, options)
     }
 
     private lazy var _ICoreWebView2Environment10: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment10! = getInterfaceForCaching()
     public func createCoreWebView2ControllerOptions() throws -> CoreWebView2ControllerOptions! {
-        try _ICoreWebView2Environment10.CreateCoreWebView2ControllerOptionsImpl()
+        try _ICoreWebView2Environment10.CreateCoreWebView2ControllerOptions()
     }
 
     private lazy var _ICoreWebView2Environment11: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment11! = getInterfaceForCaching()
     public var failureReportFolderPath : String {
-        get { try! _ICoreWebView2Environment11.get_FailureReportFolderPathImpl() }
+        get { try! _ICoreWebView2Environment11.get_FailureReportFolderPath() }
     }
 
     private lazy var _ICoreWebView2Environment12: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment12! = getInterfaceForCaching()
     public func createSharedBuffer(_ Size: UInt64) throws -> CoreWebView2SharedBuffer! {
-        try _ICoreWebView2Environment12.CreateSharedBufferImpl(Size)
+        try _ICoreWebView2Environment12.CreateSharedBuffer(Size)
     }
 
     private lazy var _ICoreWebView2Environment13: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment13! = getInterfaceForCaching()
     public func getProcessExtendedInfosAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2ProcessExtendedInfo?>?>! {
-        try _ICoreWebView2Environment13.GetProcessExtendedInfosAsyncImpl()
+        try _ICoreWebView2Environment13.GetProcessExtendedInfosAsync()
+    }
+
+    private lazy var _ICoreWebView2Environment14: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment14! = getInterfaceForCaching()
+    public func createWebFileSystemFileHandle(_ Path: String, _ Permission: CoreWebView2FileSystemHandlePermission) throws -> CoreWebView2FileSystemHandle! {
+        try _ICoreWebView2Environment14.CreateWebFileSystemFileHandle(Path, Permission)
+    }
+
+    public func createWebFileSystemDirectoryHandle(_ Path: String, _ Permission: CoreWebView2FileSystemHandlePermission) throws -> CoreWebView2FileSystemHandle! {
+        try _ICoreWebView2Environment14.CreateWebFileSystemDirectoryHandle(Path, Permission)
+    }
+
+    private lazy var _ICoreWebView2Environment15: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment15! = getInterfaceForCaching()
+    public func createFindOptions() throws -> CoreWebView2FindOptions! {
+        try _ICoreWebView2Environment15.CreateFindOptions()
     }
 
     private lazy var _ICoreWebView2Environment2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment2! = getInterfaceForCaching()
     public func createWebResourceRequest(_ uri: String, _ Method: String, _ postData: UWP.AnyIRandomAccessStream!, _ Headers: String) throws -> CoreWebView2WebResourceRequest! {
-        try _ICoreWebView2Environment2.CreateWebResourceRequestImpl(uri, Method, postData, Headers)
+        try _ICoreWebView2Environment2.CreateWebResourceRequest(uri, Method, postData, Headers)
     }
 
     private lazy var _ICoreWebView2Environment3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment3! = getInterfaceForCaching()
     public func createCoreWebView2CompositionControllerAsync(_ ParentWindow: CoreWebView2ControllerWindowReference!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2CompositionController?>! {
-        try _ICoreWebView2Environment3.CreateCoreWebView2CompositionControllerAsyncImpl(ParentWindow)
+        try _ICoreWebView2Environment3.CreateCoreWebView2CompositionControllerAsync(ParentWindow)
     }
 
     public func createCoreWebView2PointerInfo() throws -> CoreWebView2PointerInfo! {
-        try _ICoreWebView2Environment3.CreateCoreWebView2PointerInfoImpl()
+        try _ICoreWebView2Environment3.CreateCoreWebView2PointerInfo()
     }
 
     private lazy var _ICoreWebView2Environment4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment4! = getInterfaceForCaching()
@@ -2291,75 +2447,75 @@ public final class CoreWebView2Environment : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Environment5 else { return .init() }
-          return try! this.add_BrowserProcessExitedImpl($0)
+          return try! this.add_BrowserProcessExited($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Environment5.remove_BrowserProcessExitedImpl($0)
+         try? self?._ICoreWebView2Environment5.remove_BrowserProcessExited($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2Environment6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment6! = getInterfaceForCaching()
     public func createPrintSettings() throws -> CoreWebView2PrintSettings! {
-        try _ICoreWebView2Environment6.CreatePrintSettingsImpl()
+        try _ICoreWebView2Environment6.CreatePrintSettings()
     }
 
     private lazy var _ICoreWebView2Environment7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment7! = getInterfaceForCaching()
     public var userDataFolder : String {
-        get { try! _ICoreWebView2Environment7.get_UserDataFolderImpl() }
+        get { try! _ICoreWebView2Environment7.get_UserDataFolder() }
     }
 
     private lazy var _ICoreWebView2Environment8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment8! = getInterfaceForCaching()
     public func getProcessInfos() throws -> WindowsFoundation.AnyIVectorView<CoreWebView2ProcessInfo?>! {
-        try _ICoreWebView2Environment8.GetProcessInfosImpl()
+        try _ICoreWebView2Environment8.GetProcessInfos()
     }
 
     public lazy var processInfosChanged : Event<TypedEventHandler<CoreWebView2Environment?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Environment8 else { return .init() }
-          return try! this.add_ProcessInfosChangedImpl($0)
+          return try! this.add_ProcessInfosChanged($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Environment8.remove_ProcessInfosChangedImpl($0)
+         try? self?._ICoreWebView2Environment8.remove_ProcessInfosChanged($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2Environment9: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment9! = getInterfaceForCaching()
     public func createContextMenuItem(_ Label: String, _ iconStream: UWP.AnyIRandomAccessStream!, _ Kind: CoreWebView2ContextMenuItemKind) throws -> CoreWebView2ContextMenuItem! {
-        try _ICoreWebView2Environment9.CreateContextMenuItemImpl(Label, iconStream, Kind)
+        try _ICoreWebView2Environment9.CreateContextMenuItem(Label, iconStream, Kind)
     }
 
     private lazy var _ICoreWebView2Environment_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Environment_Manual! = getInterfaceForCaching()
     public func createCoreWebView2ControllerAsync(_ ParentWindow: CoreWebView2ControllerWindowReference!, _ options: CoreWebView2ControllerOptions!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Controller?>! {
-        try _ICoreWebView2Environment_Manual.CreateCoreWebView2ControllerAsyncImpl(ParentWindow, options)
+        try _ICoreWebView2Environment_Manual.CreateCoreWebView2ControllerAsync(ParentWindow, options)
     }
 
     public func createCoreWebView2CompositionControllerAsync(_ ParentWindow: CoreWebView2ControllerWindowReference!, _ options: CoreWebView2ControllerOptions!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2CompositionController?>! {
-        try _ICoreWebView2Environment_Manual.CreateCoreWebView2CompositionControllerAsyncImpl(ParentWindow, options)
+        try _ICoreWebView2Environment_Manual.CreateCoreWebView2CompositionControllerAsync(ParentWindow, options)
     }
 
     public func createCoreWebView2ControllerAsync(_ ParentWindow: CoreWebView2ControllerWindowReference!) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2Controller?>! {
-        try _default.CreateCoreWebView2ControllerAsyncImpl(ParentWindow)
+        try _default.CreateCoreWebView2ControllerAsync(ParentWindow)
     }
 
     public func createWebResourceResponse(_ Content: UWP.AnyIRandomAccessStream!, _ StatusCode: Int32, _ ReasonPhrase: String, _ Headers: String) throws -> CoreWebView2WebResourceResponse! {
-        try _default.CreateWebResourceResponseImpl(Content, StatusCode, ReasonPhrase, Headers)
+        try _default.CreateWebResourceResponse(Content, StatusCode, ReasonPhrase, Headers)
     }
 
     public var browserVersionString : String {
-        get { try! _default.get_BrowserVersionStringImpl() }
+        get { try! _default.get_BrowserVersionString() }
     }
 
     public lazy var newBrowserVersionAvailable : Event<TypedEventHandler<CoreWebView2Environment?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_NewBrowserVersionAvailableImpl($0)
+          return try! this.add_NewBrowserVersionAvailable($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_NewBrowserVersionAvailableImpl($0)
+         try? self?._default.remove_NewBrowserVersionAvailable($0)
        }
       )
     }()
@@ -2369,6 +2525,8 @@ public final class CoreWebView2Environment : WinRTClass {
         _ICoreWebView2Environment11 = nil
         _ICoreWebView2Environment12 = nil
         _ICoreWebView2Environment13 = nil
+        _ICoreWebView2Environment14 = nil
+        _ICoreWebView2Environment15 = nil
         _ICoreWebView2Environment2 = nil
         _ICoreWebView2Environment3 = nil
         _ICoreWebView2Environment4 = nil
@@ -2395,70 +2553,82 @@ public final class CoreWebView2EnvironmentOptions : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions>?) -> CoreWebView2EnvironmentOptions? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     private lazy var _ICoreWebView2EnvironmentOptions2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions2! = getInterfaceForCaching()
     public var exclusiveUserDataFolderAccess : Bool {
-        get { try! _ICoreWebView2EnvironmentOptions2.get_ExclusiveUserDataFolderAccessImpl() }
-        set { try! _ICoreWebView2EnvironmentOptions2.put_ExclusiveUserDataFolderAccessImpl(newValue) }
+        get { try! _ICoreWebView2EnvironmentOptions2.get_ExclusiveUserDataFolderAccess() }
+        set { try! _ICoreWebView2EnvironmentOptions2.put_ExclusiveUserDataFolderAccess(newValue) }
     }
 
     private lazy var _ICoreWebView2EnvironmentOptions3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions3! = getInterfaceForCaching()
     public var isCustomCrashReportingEnabled : Bool {
-        get { try! _ICoreWebView2EnvironmentOptions3.get_IsCustomCrashReportingEnabledImpl() }
-        set { try! _ICoreWebView2EnvironmentOptions3.put_IsCustomCrashReportingEnabledImpl(newValue) }
+        get { try! _ICoreWebView2EnvironmentOptions3.get_IsCustomCrashReportingEnabled() }
+        set { try! _ICoreWebView2EnvironmentOptions3.put_IsCustomCrashReportingEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2EnvironmentOptions4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions4! = getInterfaceForCaching()
     private lazy var _ICoreWebView2EnvironmentOptions5: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions5! = getInterfaceForCaching()
     public var enableTrackingPrevention : Bool {
-        get { try! _ICoreWebView2EnvironmentOptions5.get_EnableTrackingPreventionImpl() }
-        set { try! _ICoreWebView2EnvironmentOptions5.put_EnableTrackingPreventionImpl(newValue) }
+        get { try! _ICoreWebView2EnvironmentOptions5.get_EnableTrackingPrevention() }
+        set { try! _ICoreWebView2EnvironmentOptions5.put_EnableTrackingPrevention(newValue) }
     }
 
     private lazy var _ICoreWebView2EnvironmentOptions6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions6! = getInterfaceForCaching()
     public var areBrowserExtensionsEnabled : Bool {
-        get { try! _ICoreWebView2EnvironmentOptions6.get_AreBrowserExtensionsEnabledImpl() }
-        set { try! _ICoreWebView2EnvironmentOptions6.put_AreBrowserExtensionsEnabledImpl(newValue) }
+        get { try! _ICoreWebView2EnvironmentOptions6.get_AreBrowserExtensionsEnabled() }
+        set { try! _ICoreWebView2EnvironmentOptions6.put_AreBrowserExtensionsEnabled(newValue) }
+    }
+
+    private lazy var _ICoreWebView2EnvironmentOptions7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions7! = getInterfaceForCaching()
+    public var channelSearchKind : CoreWebView2ChannelSearchKind {
+        get { try! _ICoreWebView2EnvironmentOptions7.get_ChannelSearchKind() }
+        set { try! _ICoreWebView2EnvironmentOptions7.put_ChannelSearchKind(newValue) }
+    }
+
+    public var releaseChannels : CoreWebView2ReleaseChannels {
+        get { try! _ICoreWebView2EnvironmentOptions7.get_ReleaseChannels() }
+        set { try! _ICoreWebView2EnvironmentOptions7.put_ReleaseChannels(newValue) }
+    }
+
+    private lazy var _ICoreWebView2EnvironmentOptions8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions8! = getInterfaceForCaching()
+    public var scrollBarStyle : CoreWebView2ScrollbarStyle {
+        get { try! _ICoreWebView2EnvironmentOptions8.get_ScrollBarStyle() }
+        set { try! _ICoreWebView2EnvironmentOptions8.put_ScrollBarStyle(newValue) }
     }
 
     private lazy var _ICoreWebView2EnvironmentOptions_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions_Manual! = getInterfaceForCaching()
     private lazy var _ICoreWebView2EnvironmentOptions_Manual3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2EnvironmentOptions_Manual3! = getInterfaceForCaching()
     public var customSchemeRegistrations : WindowsFoundation.AnyIVector<CoreWebView2CustomSchemeRegistration?>! {
-        get { try! _ICoreWebView2EnvironmentOptions_Manual3.get_CustomSchemeRegistrationsImpl() }
-        set { try! _ICoreWebView2EnvironmentOptions_Manual3.put_CustomSchemeRegistrationsImpl(newValue) }
+        get { try! _ICoreWebView2EnvironmentOptions_Manual3.get_CustomSchemeRegistrations() }
+        set { try! _ICoreWebView2EnvironmentOptions_Manual3.put_CustomSchemeRegistrations(newValue) }
     }
 
     public var additionalBrowserArguments : String {
-        get { try! _default.get_AdditionalBrowserArgumentsImpl() }
-        set { try! _default.put_AdditionalBrowserArgumentsImpl(newValue) }
+        get { try! _default.get_AdditionalBrowserArguments() }
+        set { try! _default.put_AdditionalBrowserArguments(newValue) }
     }
 
     public var allowSingleSignOnUsingOSPrimaryAccount : Bool {
-        get { try! _default.get_AllowSingleSignOnUsingOSPrimaryAccountImpl() }
-        set { try! _default.put_AllowSingleSignOnUsingOSPrimaryAccountImpl(newValue) }
+        get { try! _default.get_AllowSingleSignOnUsingOSPrimaryAccount() }
+        set { try! _default.put_AllowSingleSignOnUsingOSPrimaryAccount(newValue) }
     }
 
     public var language : String {
-        get { try! _default.get_LanguageImpl() }
-        set { try! _default.put_LanguageImpl(newValue) }
+        get { try! _default.get_Language() }
+        set { try! _default.put_Language(newValue) }
     }
 
     public var targetCompatibleBrowserVersion : String {
-        get { try! _default.get_TargetCompatibleBrowserVersionImpl() }
-        set { try! _default.put_TargetCompatibleBrowserVersionImpl(newValue) }
+        get { try! _default.get_TargetCompatibleBrowserVersion() }
+        set { try! _default.put_TargetCompatibleBrowserVersion(newValue) }
     }
 
     deinit {
@@ -2467,8 +2637,50 @@ public final class CoreWebView2EnvironmentOptions : WinRTClass {
         _ICoreWebView2EnvironmentOptions4 = nil
         _ICoreWebView2EnvironmentOptions5 = nil
         _ICoreWebView2EnvironmentOptions6 = nil
+        _ICoreWebView2EnvironmentOptions7 = nil
+        _ICoreWebView2EnvironmentOptions8 = nil
         _ICoreWebView2EnvironmentOptions_Manual = nil
         _ICoreWebView2EnvironmentOptions_Manual3 = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ExecuteScriptResult : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ExecuteScriptResult
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private lazy var _ICoreWebView2ExecuteScriptResult_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ExecuteScriptResult_Manual! = getInterfaceForCaching()
+    public func tryGetResultAsString(_ stringResult: inout String) throws -> Int32 {
+        try _ICoreWebView2ExecuteScriptResult_Manual.TryGetResultAsString(&stringResult)
+    }
+
+    public var exception : CoreWebView2ScriptException! {
+        get { try! _default.get_Exception() }
+    }
+
+    public var resultAsJson : String {
+        get { try! _default.get_ResultAsJson() }
+    }
+
+    public var succeeded : Bool {
+        get { try! _default.get_Succeeded() }
+    }
+
+    deinit {
+        _ICoreWebView2ExecuteScriptResult_Manual = nil
         _default = nil
     }
 }
@@ -2486,9 +2698,29 @@ public final class CoreWebView2File : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File>?) -> CoreWebView2File? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var path : String {
+        get { try! _default.get_Path() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2FileSystemHandle : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2FileSystemHandle
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -2496,8 +2728,133 @@ public final class CoreWebView2File : WinRTClass {
         super.init(fromAbi)
     }
 
+    public var kind : CoreWebView2FileSystemHandleKind {
+        get { try! _default.get_Kind() }
+    }
+
     public var path : String {
-        get { try! _default.get_PathImpl() }
+        get { try! _default.get_Path() }
+    }
+
+    public var permission : CoreWebView2FileSystemHandlePermission {
+        get { try! _default.get_Permission() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2Find : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Find
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func startAsync(_ options: CoreWebView2FindOptions!) throws -> WindowsFoundation.AnyIAsyncAction! {
+        try _default.StartAsync(options)
+    }
+
+    public func findNext() throws {
+        try _default.FindNext()
+    }
+
+    public func findPrevious() throws {
+        try _default.FindPrevious()
+    }
+
+    public func stop() throws {
+        try _default.Stop()
+    }
+
+    public var activeMatchIndex : Int32 {
+        get { try! _default.get_ActiveMatchIndex() }
+    }
+
+    public var matchCount : Int32 {
+        get { try! _default.get_MatchCount() }
+    }
+
+    public lazy var activeMatchIndexChanged : Event<TypedEventHandler<CoreWebView2Find?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_ActiveMatchIndexChanged($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_ActiveMatchIndexChanged($0)
+       }
+      )
+    }()
+
+    public lazy var matchCountChanged : Event<TypedEventHandler<CoreWebView2Find?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_MatchCountChanged($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_MatchCountChanged($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2FindOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2FindOptions
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var findTerm : String {
+        get { try! _default.get_FindTerm() }
+        set { try! _default.put_FindTerm(newValue) }
+    }
+
+    public var isCaseSensitive : Bool {
+        get { try! _default.get_IsCaseSensitive() }
+        set { try! _default.put_IsCaseSensitive(newValue) }
+    }
+
+    public var shouldHighlightAllMatches : Bool {
+        get { try! _default.get_ShouldHighlightAllMatches() }
+        set { try! _default.put_ShouldHighlightAllMatches(newValue) }
+    }
+
+    public var shouldMatchWord : Bool {
+        get { try! _default.get_ShouldMatchWord() }
+        set { try! _default.put_ShouldMatchWord(newValue) }
+    }
+
+    public var suppressDefaultFindDialog : Bool {
+        get { try! _default.get_SuppressDefaultFindDialog() }
+        set { try! _default.put_SuppressDefaultFindDialog(newValue) }
     }
 
     deinit {
@@ -2518,37 +2875,31 @@ public final class CoreWebView2Frame : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame>?) -> CoreWebView2Frame? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2Frame2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame2! = getInterfaceForCaching()
     public func executeScriptAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _ICoreWebView2Frame2.ExecuteScriptAsyncImpl(javaScript)
+        try _ICoreWebView2Frame2.ExecuteScriptAsync(javaScript)
     }
 
     public func postWebMessageAsJson(_ webMessageAsJson: String) throws {
-        try _ICoreWebView2Frame2.PostWebMessageAsJsonImpl(webMessageAsJson)
+        try _ICoreWebView2Frame2.PostWebMessageAsJson(webMessageAsJson)
     }
 
     public func postWebMessageAsString(_ webMessageAsString: String) throws {
-        try _ICoreWebView2Frame2.PostWebMessageAsStringImpl(webMessageAsString)
+        try _ICoreWebView2Frame2.PostWebMessageAsString(webMessageAsString)
     }
 
     public lazy var contentLoading : Event<TypedEventHandler<CoreWebView2Frame?, CoreWebView2ContentLoadingEventArgs?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame2 else { return .init() }
-          return try! this.add_ContentLoadingImpl($0)
+          return try! this.add_ContentLoading($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame2.remove_ContentLoadingImpl($0)
+         try? self?._ICoreWebView2Frame2.remove_ContentLoading($0)
        }
       )
     }()
@@ -2557,10 +2908,10 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame2 else { return .init() }
-          return try! this.add_DOMContentLoadedImpl($0)
+          return try! this.add_DOMContentLoaded($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame2.remove_DOMContentLoadedImpl($0)
+         try? self?._ICoreWebView2Frame2.remove_DOMContentLoaded($0)
        }
       )
     }()
@@ -2569,10 +2920,10 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame2 else { return .init() }
-          return try! this.add_NavigationCompletedImpl($0)
+          return try! this.add_NavigationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame2.remove_NavigationCompletedImpl($0)
+         try? self?._ICoreWebView2Frame2.remove_NavigationCompleted($0)
        }
       )
     }()
@@ -2581,10 +2932,10 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame2 else { return .init() }
-          return try! this.add_NavigationStartingImpl($0)
+          return try! this.add_NavigationStarting($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame2.remove_NavigationStartingImpl($0)
+         try? self?._ICoreWebView2Frame2.remove_NavigationStarting($0)
        }
       )
     }()
@@ -2593,10 +2944,10 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame2 else { return .init() }
-          return try! this.add_WebMessageReceivedImpl($0)
+          return try! this.add_WebMessageReceived($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame2.remove_WebMessageReceivedImpl($0)
+         try? self?._ICoreWebView2Frame2.remove_WebMessageReceived($0)
        }
       )
     }()
@@ -2606,44 +2957,83 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Frame3 else { return .init() }
-          return try! this.add_PermissionRequestedImpl($0)
+          return try! this.add_PermissionRequested($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Frame3.remove_PermissionRequestedImpl($0)
+         try? self?._ICoreWebView2Frame3.remove_PermissionRequested($0)
        }
       )
     }()
 
     private lazy var _ICoreWebView2Frame4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame4! = getInterfaceForCaching()
     public func postSharedBufferToScript(_ sharedBuffer: CoreWebView2SharedBuffer!, _ access: CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
-        try _ICoreWebView2Frame4.PostSharedBufferToScriptImpl(sharedBuffer, access, additionalDataAsJson)
+        try _ICoreWebView2Frame4.PostSharedBufferToScript(sharedBuffer, access, additionalDataAsJson)
     }
 
     private lazy var _ICoreWebView2Frame5: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame5! = getInterfaceForCaching()
     public var frameId : UInt32 {
-        get { try! _ICoreWebView2Frame5.get_FrameIdImpl() }
+        get { try! _ICoreWebView2Frame5.get_FrameId() }
     }
 
+    private lazy var _ICoreWebView2Frame6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame6! = getInterfaceForCaching()
+    public lazy var screenCaptureStarting : Event<TypedEventHandler<CoreWebView2Frame?, CoreWebView2ScreenCaptureStartingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2Frame6 else { return .init() }
+          return try! this.add_ScreenCaptureStarting($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2Frame6.remove_ScreenCaptureStarting($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2Frame7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame7! = getInterfaceForCaching()
+    public lazy var frameCreated : Event<TypedEventHandler<CoreWebView2Frame?, CoreWebView2FrameCreatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2Frame7 else { return .init() }
+          return try! this.add_FrameCreated($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2Frame7.remove_FrameCreated($0)
+       }
+      )
+    }()
+
+    private lazy var _ICoreWebView2Frame8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Frame8! = getInterfaceForCaching()
+    public lazy var dedicatedWorkerCreated : Event<TypedEventHandler<CoreWebView2Frame?, CoreWebView2DedicatedWorkerCreatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._ICoreWebView2Frame8 else { return .init() }
+          return try! this.add_DedicatedWorkerCreated($0)
+        },
+        remove: { [weak self] in
+         try? self?._ICoreWebView2Frame8.remove_DedicatedWorkerCreated($0)
+       }
+      )
+    }()
+
     public func removeHostObjectFromScript(_ name: String) throws {
-        try _default.RemoveHostObjectFromScriptImpl(name)
+        try _default.RemoveHostObjectFromScript(name)
     }
 
     public func isDestroyed() throws -> Int32 {
-        try _default.IsDestroyedImpl()
+        try _default.IsDestroyed()
     }
 
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     public lazy var destroyed : Event<TypedEventHandler<CoreWebView2Frame?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_DestroyedImpl($0)
+          return try! this.add_Destroyed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_DestroyedImpl($0)
+         try? self?._default.remove_Destroyed($0)
        }
       )
     }()
@@ -2652,10 +3042,10 @@ public final class CoreWebView2Frame : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_NameChangedImpl($0)
+          return try! this.add_NameChanged($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_NameChangedImpl($0)
+         try? self?._default.remove_NameChanged($0)
        }
       )
     }()
@@ -2665,6 +3055,9 @@ public final class CoreWebView2Frame : WinRTClass {
         _ICoreWebView2Frame3 = nil
         _ICoreWebView2Frame4 = nil
         _ICoreWebView2Frame5 = nil
+        _ICoreWebView2Frame6 = nil
+        _ICoreWebView2Frame7 = nil
+        _ICoreWebView2Frame8 = nil
         _default = nil
     }
 }
@@ -2682,18 +3075,12 @@ public final class CoreWebView2FrameCreatedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs>?) -> CoreWebView2FrameCreatedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var frame : CoreWebView2Frame! {
-        get { try! _default.get_FrameImpl() }
+        get { try! _default.get_Frame() }
     }
 
     deinit {
@@ -2714,35 +3101,29 @@ public final class CoreWebView2FrameInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo>?) -> CoreWebView2FrameInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2FrameInfo2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2FrameInfo2! = getInterfaceForCaching()
     public var frameId : UInt32 {
-        get { try! _ICoreWebView2FrameInfo2.get_FrameIdImpl() }
+        get { try! _ICoreWebView2FrameInfo2.get_FrameId() }
     }
 
     public var frameKind : CoreWebView2FrameKind {
-        get { try! _ICoreWebView2FrameInfo2.get_FrameKindImpl() }
+        get { try! _ICoreWebView2FrameInfo2.get_FrameKind() }
     }
 
     public var parentFrameInfo : CoreWebView2FrameInfo! {
-        get { try! _ICoreWebView2FrameInfo2.get_ParentFrameInfoImpl() }
+        get { try! _ICoreWebView2FrameInfo2.get_ParentFrameInfo() }
     }
 
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     public var source : String {
-        get { try! _default.get_SourceImpl() }
+        get { try! _default.get_Source() }
     }
 
     deinit {
@@ -2765,12 +3146,6 @@ public final class CoreWebView2HttpHeadersCollectionIterator : WinRTClass, IIter
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpHeadersCollectionIterator>?) -> CoreWebView2HttpHeadersCollectionIterator? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -2780,15 +3155,19 @@ public final class CoreWebView2HttpHeadersCollectionIterator : WinRTClass, IIter
     }
     private lazy var _IIterator: IIteratorIKeyValuePairString_String! = getInterfaceForCaching()
     public func moveNext() -> Bool {
-        try! _IIterator.MoveNextImpl()
+        try! _IIterator.MoveNext()
+    }
+
+    public func getMany(_ items: inout [WindowsFoundation.AnyIKeyValuePair<String, String>?]) -> UInt32 {
+        try! _IIterator.GetMany(&items)
     }
 
     public var current : WindowsFoundation.AnyIKeyValuePair<String, String>? {
-        get { try! _IIterator.get_CurrentImpl() }
+        get { try! _IIterator.get_Current() }
     }
 
     public var hasCurrent : Bool {
-        get { try! _IIterator.get_HasCurrentImpl() }
+        get { try! _IIterator.get_HasCurrent() }
     }
 
     deinit {
@@ -2811,12 +3190,6 @@ public final class CoreWebView2HttpRequestHeaders : WinRTClass, IIterable {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders>?) -> CoreWebView2HttpRequestHeaders? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -2825,28 +3198,28 @@ public final class CoreWebView2HttpRequestHeaders : WinRTClass, IIterable {
         return super.queryInterface(iid)
     }
     public func getHeader(_ name: String) throws -> String {
-        try _default.GetHeaderImpl(name)
+        try _default.GetHeader(name)
     }
 
     public func getHeaders(_ name: String) throws -> CoreWebView2HttpHeadersCollectionIterator! {
-        try _default.GetHeadersImpl(name)
+        try _default.GetHeaders(name)
     }
 
     public func contains(_ name: String) throws -> Bool {
-        try _default.ContainsImpl(name)
+        try _default.Contains(name)
     }
 
     public func setHeader(_ name: String, _ value: String) throws {
-        try _default.SetHeaderImpl(name, value)
+        try _default.SetHeader(name, value)
     }
 
     public func removeHeader(_ name: String) throws {
-        try _default.RemoveHeaderImpl(name)
+        try _default.RemoveHeader(name)
     }
 
     private lazy var _IIterable: IIterableIKeyValuePairString_String! = getInterfaceForCaching()
     public func first() -> WindowsFoundation.AnyIIterator<WindowsFoundation.AnyIKeyValuePair<String, String>?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     deinit {
@@ -2869,12 +3242,6 @@ public final class CoreWebView2HttpResponseHeaders : WinRTClass, IIterable {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders>?) -> CoreWebView2HttpResponseHeaders? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -2883,24 +3250,24 @@ public final class CoreWebView2HttpResponseHeaders : WinRTClass, IIterable {
         return super.queryInterface(iid)
     }
     public func appendHeader(_ name: String, _ value: String) throws {
-        try _default.AppendHeaderImpl(name, value)
+        try _default.AppendHeader(name, value)
     }
 
     public func contains(_ name: String) throws -> Bool {
-        try _default.ContainsImpl(name)
+        try _default.Contains(name)
     }
 
     public func getHeader(_ name: String) throws -> String {
-        try _default.GetHeaderImpl(name)
+        try _default.GetHeader(name)
     }
 
     public func getHeaders(_ name: String) throws -> CoreWebView2HttpHeadersCollectionIterator! {
-        try _default.GetHeadersImpl(name)
+        try _default.GetHeaders(name)
     }
 
     private lazy var _IIterable: IIterableIKeyValuePairString_String! = getInterfaceForCaching()
     public func first() -> WindowsFoundation.AnyIIterator<WindowsFoundation.AnyIKeyValuePair<String, String>?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     deinit {
@@ -2922,35 +3289,29 @@ public final class CoreWebView2LaunchingExternalUriSchemeEventArgs : WinRTClass 
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs>?) -> CoreWebView2LaunchingExternalUriSchemeEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var cancel : Bool {
-        get { try! _default.get_CancelImpl() }
-        set { try! _default.put_CancelImpl(newValue) }
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
     }
 
     public var initiatingOrigin : String {
-        get { try! _default.get_InitiatingOriginImpl() }
+        get { try! _default.get_InitiatingOrigin() }
     }
 
     public var isUserInitiated : Bool {
-        get { try! _default.get_IsUserInitiatedImpl() }
+        get { try! _default.get_IsUserInitiated() }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
+        get { try! _default.get_Uri() }
     }
 
     deinit {
@@ -2971,23 +3332,17 @@ public final class CoreWebView2MoveFocusRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs>?) -> CoreWebView2MoveFocusRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
     }
 
     public var reason : CoreWebView2MoveFocusReason {
-        get { try! _default.get_ReasonImpl() }
+        get { try! _default.get_Reason() }
     }
 
     deinit {
@@ -3008,31 +3363,25 @@ public final class CoreWebView2NavigationCompletedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs>?) -> CoreWebView2NavigationCompletedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2NavigationCompletedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NavigationCompletedEventArgs2! = getInterfaceForCaching()
     public var httpStatusCode : Int32 {
-        get { try! _ICoreWebView2NavigationCompletedEventArgs2.get_HttpStatusCodeImpl() }
+        get { try! _ICoreWebView2NavigationCompletedEventArgs2.get_HttpStatusCode() }
     }
 
     public var isSuccess : Bool {
-        get { try! _default.get_IsSuccessImpl() }
+        get { try! _default.get_IsSuccess() }
     }
 
     public var navigationId : UInt64 {
-        get { try! _default.get_NavigationIdImpl() }
+        get { try! _default.get_NavigationId() }
     }
 
     public var webErrorStatus : CoreWebView2WebErrorStatus {
-        get { try! _default.get_WebErrorStatusImpl() }
+        get { try! _default.get_WebErrorStatus() }
     }
 
     deinit {
@@ -3054,50 +3403,44 @@ public final class CoreWebView2NavigationStartingEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs>?) -> CoreWebView2NavigationStartingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2NavigationStartingEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NavigationStartingEventArgs2! = getInterfaceForCaching()
     public var additionalAllowedFrameAncestors : String {
-        get { try! _ICoreWebView2NavigationStartingEventArgs2.get_AdditionalAllowedFrameAncestorsImpl() }
-        set { try! _ICoreWebView2NavigationStartingEventArgs2.put_AdditionalAllowedFrameAncestorsImpl(newValue) }
+        get { try! _ICoreWebView2NavigationStartingEventArgs2.get_AdditionalAllowedFrameAncestors() }
+        set { try! _ICoreWebView2NavigationStartingEventArgs2.put_AdditionalAllowedFrameAncestors(newValue) }
     }
 
     private lazy var _ICoreWebView2NavigationStartingEventArgs3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NavigationStartingEventArgs3! = getInterfaceForCaching()
     public var navigationKind : CoreWebView2NavigationKind {
-        get { try! _ICoreWebView2NavigationStartingEventArgs3.get_NavigationKindImpl() }
+        get { try! _ICoreWebView2NavigationStartingEventArgs3.get_NavigationKind() }
     }
 
     public var cancel : Bool {
-        get { try! _default.get_CancelImpl() }
-        set { try! _default.put_CancelImpl(newValue) }
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
     }
 
     public var isRedirected : Bool {
-        get { try! _default.get_IsRedirectedImpl() }
+        get { try! _default.get_IsRedirected() }
     }
 
     public var isUserInitiated : Bool {
-        get { try! _default.get_IsUserInitiatedImpl() }
+        get { try! _default.get_IsUserInitiated() }
     }
 
     public var navigationId : UInt64 {
-        get { try! _default.get_NavigationIdImpl() }
+        get { try! _default.get_NavigationId() }
     }
 
     public var requestHeaders : CoreWebView2HttpRequestHeaders! {
-        get { try! _default.get_RequestHeadersImpl() }
+        get { try! _default.get_RequestHeaders() }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
+        get { try! _default.get_Uri() }
     }
 
     deinit {
@@ -3120,9 +3463,63 @@ public final class CoreWebView2NewWindowRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs>?) -> CoreWebView2NewWindowRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private lazy var _ICoreWebView2NewWindowRequestedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NewWindowRequestedEventArgs2! = getInterfaceForCaching()
+    public var name : String {
+        get { try! _ICoreWebView2NewWindowRequestedEventArgs2.get_Name() }
+    }
+
+    private lazy var _ICoreWebView2NewWindowRequestedEventArgs3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NewWindowRequestedEventArgs3! = getInterfaceForCaching()
+    public var originalSourceFrameInfo : CoreWebView2FrameInfo! {
+        get { try! _ICoreWebView2NewWindowRequestedEventArgs3.get_OriginalSourceFrameInfo() }
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var handled : Bool {
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
+    }
+
+    public var isUserInitiated : Bool {
+        get { try! _default.get_IsUserInitiated() }
+    }
+
+    public var newWindow : CoreWebView2! {
+        get { try! _default.get_NewWindow() }
+        set { try! _default.put_NewWindow(newValue) }
+    }
+
+    public var uri : String {
+        get { try! _default.get_Uri() }
+    }
+
+    public var windowFeatures : CoreWebView2WindowFeatures! {
+        get { try! _default.get_WindowFeatures() }
+    }
+
+    deinit {
+        _ICoreWebView2NewWindowRequestedEventArgs2 = nil
+        _ICoreWebView2NewWindowRequestedEventArgs3 = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2NonClientRegionChangedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NonClientRegionChangedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -3130,45 +3527,150 @@ public final class CoreWebView2NewWindowRequestedEventArgs : WinRTClass {
         super.init(fromAbi)
     }
 
-    private lazy var _ICoreWebView2NewWindowRequestedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NewWindowRequestedEventArgs2! = getInterfaceForCaching()
-    public var name : String {
-        get { try! _ICoreWebView2NewWindowRequestedEventArgs2.get_NameImpl() }
-    }
-
-    private lazy var _ICoreWebView2NewWindowRequestedEventArgs3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NewWindowRequestedEventArgs3! = getInterfaceForCaching()
-    public var originalSourceFrameInfo : CoreWebView2FrameInfo! {
-        get { try! _ICoreWebView2NewWindowRequestedEventArgs3.get_OriginalSourceFrameInfoImpl() }
-    }
-
-    public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
-    }
-
-    public var handled : Bool {
-        get { try! _default.get_HandledImpl() }
-        set { try! _default.put_HandledImpl(newValue) }
-    }
-
-    public var isUserInitiated : Bool {
-        get { try! _default.get_IsUserInitiatedImpl() }
-    }
-
-    public var newWindow : CoreWebView2! {
-        get { try! _default.get_NewWindowImpl() }
-        set { try! _default.put_NewWindowImpl(newValue) }
-    }
-
-    public var uri : String {
-        get { try! _default.get_UriImpl() }
-    }
-
-    public var windowFeatures : CoreWebView2WindowFeatures! {
-        get { try! _default.get_WindowFeaturesImpl() }
+    public var regionKind : CoreWebView2NonClientRegionKind {
+        get { try! _default.get_RegionKind() }
     }
 
     deinit {
-        _ICoreWebView2NewWindowRequestedEventArgs2 = nil
-        _ICoreWebView2NewWindowRequestedEventArgs3 = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2Notification : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Notification
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private lazy var _ICoreWebView2Notification_Manual2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Notification_Manual2! = getInterfaceForCaching()
+    public var vibrationPattern : WindowsFoundation.AnyIVectorView<UInt64>! {
+        get { try! _ICoreWebView2Notification_Manual2.get_VibrationPattern() }
+    }
+
+    public func reportShown() throws {
+        try _default.ReportShown()
+    }
+
+    public func reportClicked() throws {
+        try _default.ReportClicked()
+    }
+
+    public func reportClosed() throws {
+        try _default.ReportClosed()
+    }
+
+    public var badgeUri : String {
+        get { try! _default.get_BadgeUri() }
+    }
+
+    public var body : String {
+        get { try! _default.get_Body() }
+    }
+
+    public var bodyImageUri : String {
+        get { try! _default.get_BodyImageUri() }
+    }
+
+    public var direction : CoreWebView2TextDirectionKind {
+        get { try! _default.get_Direction() }
+    }
+
+    public var iconUri : String {
+        get { try! _default.get_IconUri() }
+    }
+
+    public var isSilent : Bool {
+        get { try! _default.get_IsSilent() }
+    }
+
+    public var language : String {
+        get { try! _default.get_Language() }
+    }
+
+    public var requiresInteraction : Bool {
+        get { try! _default.get_RequiresInteraction() }
+    }
+
+    public var shouldRenotify : Bool {
+        get { try! _default.get_ShouldRenotify() }
+    }
+
+    public var tag : String {
+        get { try! _default.get_Tag() }
+    }
+
+    public var timestamp : Double {
+        get { try! _default.get_Timestamp() }
+    }
+
+    public var title : String {
+        get { try! _default.get_Title() }
+    }
+
+    public lazy var closeRequested : Event<TypedEventHandler<CoreWebView2Notification?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_CloseRequested($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_CloseRequested($0)
+       }
+      )
+    }()
+
+    deinit {
+        _ICoreWebView2Notification_Manual2 = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2NotificationReceivedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2NotificationReceivedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var handled : Bool {
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
+    }
+
+    public var notification : CoreWebView2Notification! {
+        get { try! _default.get_Notification() }
+    }
+
+    public var senderOrigin : String {
+        get { try! _default.get_SenderOrigin() }
+    }
+
+    deinit {
         _default = nil
     }
 }
@@ -3186,47 +3688,41 @@ public final class CoreWebView2PermissionRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs>?) -> CoreWebView2PermissionRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2PermissionRequestedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2PermissionRequestedEventArgs2! = getInterfaceForCaching()
     public var handled : Bool {
-        get { try! _ICoreWebView2PermissionRequestedEventArgs2.get_HandledImpl() }
-        set { try! _ICoreWebView2PermissionRequestedEventArgs2.put_HandledImpl(newValue) }
+        get { try! _ICoreWebView2PermissionRequestedEventArgs2.get_Handled() }
+        set { try! _ICoreWebView2PermissionRequestedEventArgs2.put_Handled(newValue) }
     }
 
     private lazy var _ICoreWebView2PermissionRequestedEventArgs3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2PermissionRequestedEventArgs3! = getInterfaceForCaching()
     public var savesInProfile : Bool {
-        get { try! _ICoreWebView2PermissionRequestedEventArgs3.get_SavesInProfileImpl() }
-        set { try! _ICoreWebView2PermissionRequestedEventArgs3.put_SavesInProfileImpl(newValue) }
+        get { try! _ICoreWebView2PermissionRequestedEventArgs3.get_SavesInProfile() }
+        set { try! _ICoreWebView2PermissionRequestedEventArgs3.put_SavesInProfile(newValue) }
     }
 
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var isUserInitiated : Bool {
-        get { try! _default.get_IsUserInitiatedImpl() }
+        get { try! _default.get_IsUserInitiated() }
     }
 
     public var permissionKind : CoreWebView2PermissionKind {
-        get { try! _default.get_PermissionKindImpl() }
+        get { try! _default.get_PermissionKind() }
     }
 
     public var state : CoreWebView2PermissionState {
-        get { try! _default.get_StateImpl() }
-        set { try! _default.put_StateImpl(newValue) }
+        get { try! _default.get_State() }
+        set { try! _default.put_State(newValue) }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
+        get { try! _default.get_Uri() }
     }
 
     deinit {
@@ -3249,26 +3745,20 @@ public final class CoreWebView2PermissionSetting : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting>?) -> CoreWebView2PermissionSetting? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var permissionKind : CoreWebView2PermissionKind {
-        get { try! _default.get_PermissionKindImpl() }
+        get { try! _default.get_PermissionKind() }
     }
 
     public var permissionOrigin : String {
-        get { try! _default.get_PermissionOriginImpl() }
+        get { try! _default.get_PermissionOrigin() }
     }
 
     public var permissionState : CoreWebView2PermissionState {
-        get { try! _default.get_PermissionStateImpl() }
+        get { try! _default.get_PermissionState() }
     }
 
     deinit {
@@ -3289,154 +3779,148 @@ public final class CoreWebView2PointerInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo>?) -> CoreWebView2PointerInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var buttonChangeKind : Int32 {
-        get { try! _default.get_ButtonChangeKindImpl() }
-        set { try! _default.put_ButtonChangeKindImpl(newValue) }
+        get { try! _default.get_ButtonChangeKind() }
+        set { try! _default.put_ButtonChangeKind(newValue) }
     }
 
     public var displayRect : WindowsFoundation.Rect {
-        get { try! _default.get_DisplayRectImpl() }
-        set { try! _default.put_DisplayRectImpl(newValue) }
+        get { try! _default.get_DisplayRect() }
+        set { try! _default.put_DisplayRect(newValue) }
     }
 
     public var frameId : UInt32 {
-        get { try! _default.get_FrameIdImpl() }
-        set { try! _default.put_FrameIdImpl(newValue) }
+        get { try! _default.get_FrameId() }
+        set { try! _default.put_FrameId(newValue) }
     }
 
     public var himetricLocation : WindowsFoundation.Point {
-        get { try! _default.get_HimetricLocationImpl() }
-        set { try! _default.put_HimetricLocationImpl(newValue) }
+        get { try! _default.get_HimetricLocation() }
+        set { try! _default.put_HimetricLocation(newValue) }
     }
 
     public var himetricLocationRaw : WindowsFoundation.Point {
-        get { try! _default.get_HimetricLocationRawImpl() }
-        set { try! _default.put_HimetricLocationRawImpl(newValue) }
+        get { try! _default.get_HimetricLocationRaw() }
+        set { try! _default.put_HimetricLocationRaw(newValue) }
     }
 
     public var historyCount : UInt32 {
-        get { try! _default.get_HistoryCountImpl() }
-        set { try! _default.put_HistoryCountImpl(newValue) }
+        get { try! _default.get_HistoryCount() }
+        set { try! _default.put_HistoryCount(newValue) }
     }
 
     public var inputData : Int32 {
-        get { try! _default.get_InputDataImpl() }
-        set { try! _default.put_InputDataImpl(newValue) }
+        get { try! _default.get_InputData() }
+        set { try! _default.put_InputData(newValue) }
     }
 
     public var keyStates : UInt32 {
-        get { try! _default.get_KeyStatesImpl() }
-        set { try! _default.put_KeyStatesImpl(newValue) }
+        get { try! _default.get_KeyStates() }
+        set { try! _default.put_KeyStates(newValue) }
     }
 
     public var penFlags : UInt32 {
-        get { try! _default.get_PenFlagsImpl() }
-        set { try! _default.put_PenFlagsImpl(newValue) }
+        get { try! _default.get_PenFlags() }
+        set { try! _default.put_PenFlags(newValue) }
     }
 
     public var penMask : UInt32 {
-        get { try! _default.get_PenMaskImpl() }
-        set { try! _default.put_PenMaskImpl(newValue) }
+        get { try! _default.get_PenMask() }
+        set { try! _default.put_PenMask(newValue) }
     }
 
     public var penPressure : UInt32 {
-        get { try! _default.get_PenPressureImpl() }
-        set { try! _default.put_PenPressureImpl(newValue) }
+        get { try! _default.get_PenPressure() }
+        set { try! _default.put_PenPressure(newValue) }
     }
 
     public var penRotation : UInt32 {
-        get { try! _default.get_PenRotationImpl() }
-        set { try! _default.put_PenRotationImpl(newValue) }
+        get { try! _default.get_PenRotation() }
+        set { try! _default.put_PenRotation(newValue) }
     }
 
     public var penTiltX : Int32 {
-        get { try! _default.get_PenTiltXImpl() }
-        set { try! _default.put_PenTiltXImpl(newValue) }
+        get { try! _default.get_PenTiltX() }
+        set { try! _default.put_PenTiltX(newValue) }
     }
 
     public var penTiltY : Int32 {
-        get { try! _default.get_PenTiltYImpl() }
-        set { try! _default.put_PenTiltYImpl(newValue) }
+        get { try! _default.get_PenTiltY() }
+        set { try! _default.put_PenTiltY(newValue) }
     }
 
     public var performanceCount : UInt64 {
-        get { try! _default.get_PerformanceCountImpl() }
-        set { try! _default.put_PerformanceCountImpl(newValue) }
+        get { try! _default.get_PerformanceCount() }
+        set { try! _default.put_PerformanceCount(newValue) }
     }
 
     public var pixelLocation : WindowsFoundation.Point {
-        get { try! _default.get_PixelLocationImpl() }
-        set { try! _default.put_PixelLocationImpl(newValue) }
+        get { try! _default.get_PixelLocation() }
+        set { try! _default.put_PixelLocation(newValue) }
     }
 
     public var pixelLocationRaw : WindowsFoundation.Point {
-        get { try! _default.get_PixelLocationRawImpl() }
-        set { try! _default.put_PixelLocationRawImpl(newValue) }
+        get { try! _default.get_PixelLocationRaw() }
+        set { try! _default.put_PixelLocationRaw(newValue) }
     }
 
     public var pointerDeviceRect : WindowsFoundation.Rect {
-        get { try! _default.get_PointerDeviceRectImpl() }
-        set { try! _default.put_PointerDeviceRectImpl(newValue) }
+        get { try! _default.get_PointerDeviceRect() }
+        set { try! _default.put_PointerDeviceRect(newValue) }
     }
 
     public var pointerFlags : UInt32 {
-        get { try! _default.get_PointerFlagsImpl() }
-        set { try! _default.put_PointerFlagsImpl(newValue) }
+        get { try! _default.get_PointerFlags() }
+        set { try! _default.put_PointerFlags(newValue) }
     }
 
     public var pointerId : UInt32 {
-        get { try! _default.get_PointerIdImpl() }
-        set { try! _default.put_PointerIdImpl(newValue) }
+        get { try! _default.get_PointerId() }
+        set { try! _default.put_PointerId(newValue) }
     }
 
     public var pointerKind : UInt32 {
-        get { try! _default.get_PointerKindImpl() }
-        set { try! _default.put_PointerKindImpl(newValue) }
+        get { try! _default.get_PointerKind() }
+        set { try! _default.put_PointerKind(newValue) }
     }
 
     public var time : UInt32 {
-        get { try! _default.get_TimeImpl() }
-        set { try! _default.put_TimeImpl(newValue) }
+        get { try! _default.get_Time() }
+        set { try! _default.put_Time(newValue) }
     }
 
     public var touchContact : WindowsFoundation.Rect {
-        get { try! _default.get_TouchContactImpl() }
-        set { try! _default.put_TouchContactImpl(newValue) }
+        get { try! _default.get_TouchContact() }
+        set { try! _default.put_TouchContact(newValue) }
     }
 
     public var touchContactRaw : WindowsFoundation.Rect {
-        get { try! _default.get_TouchContactRawImpl() }
-        set { try! _default.put_TouchContactRawImpl(newValue) }
+        get { try! _default.get_TouchContactRaw() }
+        set { try! _default.put_TouchContactRaw(newValue) }
     }
 
     public var touchFlags : UInt32 {
-        get { try! _default.get_TouchFlagsImpl() }
-        set { try! _default.put_TouchFlagsImpl(newValue) }
+        get { try! _default.get_TouchFlags() }
+        set { try! _default.put_TouchFlags(newValue) }
     }
 
     public var touchMask : UInt32 {
-        get { try! _default.get_TouchMaskImpl() }
-        set { try! _default.put_TouchMaskImpl(newValue) }
+        get { try! _default.get_TouchMask() }
+        set { try! _default.put_TouchMask(newValue) }
     }
 
     public var touchOrientation : UInt32 {
-        get { try! _default.get_TouchOrientationImpl() }
-        set { try! _default.put_TouchOrientationImpl(newValue) }
+        get { try! _default.get_TouchOrientation() }
+        set { try! _default.put_TouchOrientation(newValue) }
     }
 
     public var touchPressure : UInt32 {
-        get { try! _default.get_TouchPressureImpl() }
-        set { try! _default.put_TouchPressureImpl(newValue) }
+        get { try! _default.get_TouchPressure() }
+        set { try! _default.put_TouchPressure(newValue) }
     }
 
     deinit {
@@ -3457,120 +3941,114 @@ public final class CoreWebView2PrintSettings : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings>?) -> CoreWebView2PrintSettings? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2PrintSettings2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2PrintSettings2! = getInterfaceForCaching()
     public var collation : CoreWebView2PrintCollation {
-        get { try! _ICoreWebView2PrintSettings2.get_CollationImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_CollationImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_Collation() }
+        set { try! _ICoreWebView2PrintSettings2.put_Collation(newValue) }
     }
 
     public var colorMode : CoreWebView2PrintColorMode {
-        get { try! _ICoreWebView2PrintSettings2.get_ColorModeImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_ColorModeImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_ColorMode() }
+        set { try! _ICoreWebView2PrintSettings2.put_ColorMode(newValue) }
     }
 
     public var copies : Int32 {
-        get { try! _ICoreWebView2PrintSettings2.get_CopiesImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_CopiesImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_Copies() }
+        set { try! _ICoreWebView2PrintSettings2.put_Copies(newValue) }
     }
 
     public var duplex : CoreWebView2PrintDuplex {
-        get { try! _ICoreWebView2PrintSettings2.get_DuplexImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_DuplexImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_Duplex() }
+        set { try! _ICoreWebView2PrintSettings2.put_Duplex(newValue) }
     }
 
     public var mediaSize : CoreWebView2PrintMediaSize {
-        get { try! _ICoreWebView2PrintSettings2.get_MediaSizeImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_MediaSizeImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_MediaSize() }
+        set { try! _ICoreWebView2PrintSettings2.put_MediaSize(newValue) }
     }
 
     public var pageRanges : String {
-        get { try! _ICoreWebView2PrintSettings2.get_PageRangesImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_PageRangesImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_PageRanges() }
+        set { try! _ICoreWebView2PrintSettings2.put_PageRanges(newValue) }
     }
 
     public var pagesPerSide : Int32 {
-        get { try! _ICoreWebView2PrintSettings2.get_PagesPerSideImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_PagesPerSideImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_PagesPerSide() }
+        set { try! _ICoreWebView2PrintSettings2.put_PagesPerSide(newValue) }
     }
 
     public var printerName : String {
-        get { try! _ICoreWebView2PrintSettings2.get_PrinterNameImpl() }
-        set { try! _ICoreWebView2PrintSettings2.put_PrinterNameImpl(newValue) }
+        get { try! _ICoreWebView2PrintSettings2.get_PrinterName() }
+        set { try! _ICoreWebView2PrintSettings2.put_PrinterName(newValue) }
     }
 
     public var footerUri : String {
-        get { try! _default.get_FooterUriImpl() }
-        set { try! _default.put_FooterUriImpl(newValue) }
+        get { try! _default.get_FooterUri() }
+        set { try! _default.put_FooterUri(newValue) }
     }
 
     public var headerTitle : String {
-        get { try! _default.get_HeaderTitleImpl() }
-        set { try! _default.put_HeaderTitleImpl(newValue) }
+        get { try! _default.get_HeaderTitle() }
+        set { try! _default.put_HeaderTitle(newValue) }
     }
 
     public var marginBottom : Double {
-        get { try! _default.get_MarginBottomImpl() }
-        set { try! _default.put_MarginBottomImpl(newValue) }
+        get { try! _default.get_MarginBottom() }
+        set { try! _default.put_MarginBottom(newValue) }
     }
 
     public var marginLeft : Double {
-        get { try! _default.get_MarginLeftImpl() }
-        set { try! _default.put_MarginLeftImpl(newValue) }
+        get { try! _default.get_MarginLeft() }
+        set { try! _default.put_MarginLeft(newValue) }
     }
 
     public var marginRight : Double {
-        get { try! _default.get_MarginRightImpl() }
-        set { try! _default.put_MarginRightImpl(newValue) }
+        get { try! _default.get_MarginRight() }
+        set { try! _default.put_MarginRight(newValue) }
     }
 
     public var marginTop : Double {
-        get { try! _default.get_MarginTopImpl() }
-        set { try! _default.put_MarginTopImpl(newValue) }
+        get { try! _default.get_MarginTop() }
+        set { try! _default.put_MarginTop(newValue) }
     }
 
     public var orientation : CoreWebView2PrintOrientation {
-        get { try! _default.get_OrientationImpl() }
-        set { try! _default.put_OrientationImpl(newValue) }
+        get { try! _default.get_Orientation() }
+        set { try! _default.put_Orientation(newValue) }
     }
 
     public var pageHeight : Double {
-        get { try! _default.get_PageHeightImpl() }
-        set { try! _default.put_PageHeightImpl(newValue) }
+        get { try! _default.get_PageHeight() }
+        set { try! _default.put_PageHeight(newValue) }
     }
 
     public var pageWidth : Double {
-        get { try! _default.get_PageWidthImpl() }
-        set { try! _default.put_PageWidthImpl(newValue) }
+        get { try! _default.get_PageWidth() }
+        set { try! _default.put_PageWidth(newValue) }
     }
 
     public var scaleFactor : Double {
-        get { try! _default.get_ScaleFactorImpl() }
-        set { try! _default.put_ScaleFactorImpl(newValue) }
+        get { try! _default.get_ScaleFactor() }
+        set { try! _default.put_ScaleFactor(newValue) }
     }
 
     public var shouldPrintBackgrounds : Bool {
-        get { try! _default.get_ShouldPrintBackgroundsImpl() }
-        set { try! _default.put_ShouldPrintBackgroundsImpl(newValue) }
+        get { try! _default.get_ShouldPrintBackgrounds() }
+        set { try! _default.put_ShouldPrintBackgrounds(newValue) }
     }
 
     public var shouldPrintHeaderAndFooter : Bool {
-        get { try! _default.get_ShouldPrintHeaderAndFooterImpl() }
-        set { try! _default.put_ShouldPrintHeaderAndFooterImpl(newValue) }
+        get { try! _default.get_ShouldPrintHeaderAndFooter() }
+        set { try! _default.put_ShouldPrintHeaderAndFooter(newValue) }
     }
 
     public var shouldPrintSelectionOnly : Bool {
-        get { try! _default.get_ShouldPrintSelectionOnlyImpl() }
-        set { try! _default.put_ShouldPrintSelectionOnlyImpl(newValue) }
+        get { try! _default.get_ShouldPrintSelectionOnly() }
+        set { try! _default.put_ShouldPrintSelectionOnly(newValue) }
     }
 
     deinit {
@@ -3592,22 +4070,16 @@ public final class CoreWebView2ProcessExtendedInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo>?) -> CoreWebView2ProcessExtendedInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var associatedFrameInfos : WindowsFoundation.AnyIVectorView<CoreWebView2FrameInfo?>! {
-        get { try! _default.get_AssociatedFrameInfosImpl() }
+        get { try! _default.get_AssociatedFrameInfos() }
     }
 
     public var processInfo : CoreWebView2ProcessInfo! {
-        get { try! _default.get_ProcessInfoImpl() }
+        get { try! _default.get_ProcessInfo() }
     }
 
     deinit {
@@ -3628,39 +4100,45 @@ public final class CoreWebView2ProcessFailedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs>?) -> CoreWebView2ProcessFailedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2ProcessFailedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ProcessFailedEventArgs2! = getInterfaceForCaching()
     public var exitCode : Int32 {
-        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_ExitCodeImpl() }
+        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_ExitCode() }
     }
 
     public var frameInfosForFailedProcess : WindowsFoundation.AnyIVectorView<CoreWebView2FrameInfo?>! {
-        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_FrameInfosForFailedProcessImpl() }
+        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_FrameInfosForFailedProcess() }
     }
 
     public var processDescription : String {
-        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_ProcessDescriptionImpl() }
+        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_ProcessDescription() }
     }
 
     public var reason : CoreWebView2ProcessFailedReason {
-        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_ReasonImpl() }
+        get { try! _ICoreWebView2ProcessFailedEventArgs2.get_Reason() }
+    }
+
+    private lazy var _ICoreWebView2ProcessFailedEventArgs3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ProcessFailedEventArgs3! = getInterfaceForCaching()
+    public var failureSourceModulePath : String {
+        get { try! _ICoreWebView2ProcessFailedEventArgs3.get_FailureSourceModulePath() }
+    }
+
+    private lazy var _ICoreWebView2ProcessFailedEventArgs4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ProcessFailedEventArgs4! = getInterfaceForCaching()
+    public var crashReport : CoreWebView2CrashReport! {
+        get { try! _ICoreWebView2ProcessFailedEventArgs4.get_CrashReport() }
     }
 
     public var processFailedKind : CoreWebView2ProcessFailedKind {
-        get { try! _default.get_ProcessFailedKindImpl() }
+        get { try! _default.get_ProcessFailedKind() }
     }
 
     deinit {
         _ICoreWebView2ProcessFailedEventArgs2 = nil
+        _ICoreWebView2ProcessFailedEventArgs3 = nil
+        _ICoreWebView2ProcessFailedEventArgs4 = nil
         _default = nil
     }
 }
@@ -3678,22 +4156,16 @@ public final class CoreWebView2ProcessInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo>?) -> CoreWebView2ProcessInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var kind : CoreWebView2ProcessKind {
-        get { try! _default.get_KindImpl() }
+        get { try! _default.get_Kind() }
     }
 
     public var processId : Int32 {
-        get { try! _default.get_ProcessIdImpl() }
+        get { try! _default.get_ProcessId() }
     }
 
     deinit {
@@ -3714,109 +4186,123 @@ public final class CoreWebView2Profile : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile>?) -> CoreWebView2Profile? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _CoreWebView2Profile_Manual: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2Profile_Manual! = getInterfaceForCaching()
     public func clearBrowsingDataAsync(_ dataKinds: CoreWebView2BrowsingDataKinds, _ startTime: WindowsFoundation.DateTime, _ endTime: WindowsFoundation.DateTime) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _CoreWebView2Profile_Manual.ClearBrowsingDataAsyncImpl(dataKinds, startTime, endTime)
+        try _CoreWebView2Profile_Manual.ClearBrowsingDataAsync(dataKinds, startTime, endTime)
     }
 
     public func clearBrowsingDataAsync() throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _CoreWebView2Profile_Manual.ClearBrowsingDataAsync2Impl()
+        try _CoreWebView2Profile_Manual.ClearBrowsingDataAsync2()
     }
 
     private lazy var _CoreWebView2Profile_Manual2: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2Profile_Manual2! = getInterfaceForCaching()
     public func getNonDefaultPermissionSettingsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2PermissionSetting?>?>! {
-        try _CoreWebView2Profile_Manual2.GetNonDefaultPermissionSettingsAsyncImpl()
+        try _CoreWebView2Profile_Manual2.GetNonDefaultPermissionSettingsAsync()
+    }
+
+    private lazy var _CoreWebView2Profile_Manual3: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2Profile_Manual3! = getInterfaceForCaching()
+    public func getBrowserExtensionsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2BrowserExtension?>?>! {
+        try _CoreWebView2Profile_Manual3.GetBrowserExtensionsAsync()
     }
 
     private lazy var _ICoreWebView2Profile2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile2! = getInterfaceForCaching()
     public func clearBrowsingDataAsync(_ dataKinds: CoreWebView2BrowsingDataKinds) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _ICoreWebView2Profile2.ClearBrowsingDataAsyncImpl(dataKinds)
+        try _ICoreWebView2Profile2.ClearBrowsingDataAsync(dataKinds)
     }
 
     private lazy var _ICoreWebView2Profile3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile3! = getInterfaceForCaching()
     public var preferredTrackingPreventionLevel : CoreWebView2TrackingPreventionLevel {
-        get { try! _ICoreWebView2Profile3.get_PreferredTrackingPreventionLevelImpl() }
-        set { try! _ICoreWebView2Profile3.put_PreferredTrackingPreventionLevelImpl(newValue) }
+        get { try! _ICoreWebView2Profile3.get_PreferredTrackingPreventionLevel() }
+        set { try! _ICoreWebView2Profile3.put_PreferredTrackingPreventionLevel(newValue) }
     }
 
     private lazy var _ICoreWebView2Profile4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile4! = getInterfaceForCaching()
     public func setPermissionStateAsync(_ PermissionKind: CoreWebView2PermissionKind, _ origin: String, _ State: CoreWebView2PermissionState) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _ICoreWebView2Profile4.SetPermissionStateAsyncImpl(PermissionKind, origin, State)
+        try _ICoreWebView2Profile4.SetPermissionStateAsync(PermissionKind, origin, State)
     }
 
     private lazy var _ICoreWebView2Profile5: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile5! = getInterfaceForCaching()
     public var cookieManager : CoreWebView2CookieManager! {
-        get { try! _ICoreWebView2Profile5.get_CookieManagerImpl() }
+        get { try! _ICoreWebView2Profile5.get_CookieManager() }
     }
 
     private lazy var _ICoreWebView2Profile6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile6! = getInterfaceForCaching()
     public var isGeneralAutofillEnabled : Bool {
-        get { try! _ICoreWebView2Profile6.get_IsGeneralAutofillEnabledImpl() }
-        set { try! _ICoreWebView2Profile6.put_IsGeneralAutofillEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Profile6.get_IsGeneralAutofillEnabled() }
+        set { try! _ICoreWebView2Profile6.put_IsGeneralAutofillEnabled(newValue) }
     }
 
     public var isPasswordAutosaveEnabled : Bool {
-        get { try! _ICoreWebView2Profile6.get_IsPasswordAutosaveEnabledImpl() }
-        set { try! _ICoreWebView2Profile6.put_IsPasswordAutosaveEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Profile6.get_IsPasswordAutosaveEnabled() }
+        set { try! _ICoreWebView2Profile6.put_IsPasswordAutosaveEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Profile7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile7! = getInterfaceForCaching()
     public func addBrowserExtensionAsync(_ extensionFolderPath: String) throws -> WindowsFoundation.AnyIAsyncOperation<CoreWebView2BrowserExtension?>! {
-        try _ICoreWebView2Profile7.AddBrowserExtensionAsyncImpl(extensionFolderPath)
+        try _ICoreWebView2Profile7.AddBrowserExtensionAsync(extensionFolderPath)
     }
 
     private lazy var _ICoreWebView2Profile8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile8! = getInterfaceForCaching()
     public func delete() throws {
-        try _ICoreWebView2Profile8.DeleteImpl()
+        try _ICoreWebView2Profile8.Delete()
     }
 
     public lazy var deleted : Event<TypedEventHandler<CoreWebView2Profile?, Any?>> = {
       .init(
         add: { [weak self] in
           guard let this = self?._ICoreWebView2Profile8 else { return .init() }
-          return try! this.add_DeletedImpl($0)
+          return try! this.add_Deleted($0)
         },
         remove: { [weak self] in
-         try? self?._ICoreWebView2Profile8.remove_DeletedImpl($0)
+         try? self?._ICoreWebView2Profile8.remove_Deleted($0)
        }
       )
     }()
 
+    private lazy var _ICoreWebView2Profile9: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Profile9! = getInterfaceForCaching()
+    public var areWebViewScriptApisEnabledForServiceWorkers : Bool {
+        get { try! _ICoreWebView2Profile9.get_AreWebViewScriptApisEnabledForServiceWorkers() }
+        set { try! _ICoreWebView2Profile9.put_AreWebViewScriptApisEnabledForServiceWorkers(newValue) }
+    }
+
+    public var serviceWorkerManager : CoreWebView2ServiceWorkerManager! {
+        get { try! _ICoreWebView2Profile9.get_ServiceWorkerManager() }
+    }
+
+    public var sharedWorkerManager : CoreWebView2SharedWorkerManager! {
+        get { try! _ICoreWebView2Profile9.get_SharedWorkerManager() }
+    }
+
     public var defaultDownloadFolderPath : String {
-        get { try! _default.get_DefaultDownloadFolderPathImpl() }
-        set { try! _default.put_DefaultDownloadFolderPathImpl(newValue) }
+        get { try! _default.get_DefaultDownloadFolderPath() }
+        set { try! _default.put_DefaultDownloadFolderPath(newValue) }
     }
 
     public var isInPrivateModeEnabled : Bool {
-        get { try! _default.get_IsInPrivateModeEnabledImpl() }
+        get { try! _default.get_IsInPrivateModeEnabled() }
     }
 
     public var preferredColorScheme : CoreWebView2PreferredColorScheme {
-        get { try! _default.get_PreferredColorSchemeImpl() }
-        set { try! _default.put_PreferredColorSchemeImpl(newValue) }
+        get { try! _default.get_PreferredColorScheme() }
+        set { try! _default.put_PreferredColorScheme(newValue) }
     }
 
     public var profileName : String {
-        get { try! _default.get_ProfileNameImpl() }
+        get { try! _default.get_ProfileName() }
     }
 
     public var profilePath : String {
-        get { try! _default.get_ProfilePathImpl() }
+        get { try! _default.get_ProfilePath() }
     }
 
     deinit {
         _CoreWebView2Profile_Manual = nil
         _CoreWebView2Profile_Manual2 = nil
+        _CoreWebView2Profile_Manual3 = nil
         _ICoreWebView2Profile2 = nil
         _ICoreWebView2Profile3 = nil
         _ICoreWebView2Profile4 = nil
@@ -3824,6 +4310,150 @@ public final class CoreWebView2Profile : WinRTClass {
         _ICoreWebView2Profile6 = nil
         _ICoreWebView2Profile7 = nil
         _ICoreWebView2Profile8 = nil
+        _ICoreWebView2Profile9 = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2SaveAsUIShowingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SaveAsUIShowingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var allowReplace : Bool {
+        get { try! _default.get_AllowReplace() }
+        set { try! _default.put_AllowReplace(newValue) }
+    }
+
+    public var cancel : Bool {
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
+    }
+
+    public var contentMimeType : String {
+        get { try! _default.get_ContentMimeType() }
+    }
+
+    public var kind : CoreWebView2SaveAsKind {
+        get { try! _default.get_Kind() }
+        set { try! _default.put_Kind(newValue) }
+    }
+
+    public var saveAsFilePath : String {
+        get { try! _default.get_SaveAsFilePath() }
+        set { try! _default.put_SaveAsFilePath(newValue) }
+    }
+
+    public var suppressDefaultDialog : Bool {
+        get { try! _default.get_SuppressDefaultDialog() }
+        set { try! _default.put_SuppressDefaultDialog(newValue) }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2SaveFileSecurityCheckStartingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SaveFileSecurityCheckStartingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var cancelSave : Bool {
+        get { try! _default.get_CancelSave() }
+        set { try! _default.put_CancelSave(newValue) }
+    }
+
+    public var documentOriginUri : String {
+        get { try! _default.get_DocumentOriginUri() }
+    }
+
+    public var fileExtension : String {
+        get { try! _default.get_FileExtension() }
+    }
+
+    public var filePath : String {
+        get { try! _default.get_FilePath() }
+    }
+
+    public var suppressDefaultPolicy : Bool {
+        get { try! _default.get_SuppressDefaultPolicy() }
+        set { try! _default.put_SuppressDefaultPolicy(newValue) }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ScreenCaptureStartingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ScreenCaptureStartingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var cancel : Bool {
+        get { try! _default.get_Cancel() }
+        set { try! _default.put_Cancel(newValue) }
+    }
+
+    public var handled : Bool {
+        get { try! _default.get_Handled() }
+        set { try! _default.put_Handled(newValue) }
+    }
+
+    public var originalSourceFrameInfo : CoreWebView2FrameInfo! {
+        get { try! _default.get_OriginalSourceFrameInfo() }
+    }
+
+    deinit {
         _default = nil
     }
 }
@@ -3841,9 +4471,54 @@ public final class CoreWebView2ScriptDialogOpeningEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs>?) -> CoreWebView2ScriptDialogOpeningEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func accept() throws {
+        try _default.Accept()
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var defaultText : String {
+        get { try! _default.get_DefaultText() }
+    }
+
+    public var kind : CoreWebView2ScriptDialogKind {
+        get { try! _default.get_Kind() }
+    }
+
+    public var message : String {
+        get { try! _default.get_Message() }
+    }
+
+    public var resultText : String {
+        get { try! _default.get_ResultText() }
+        set { try! _default.put_ResultText(newValue) }
+    }
+
+    public var uri : String {
+        get { try! _default.get_Uri() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ScriptException : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ScriptException
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -3851,33 +4526,24 @@ public final class CoreWebView2ScriptDialogOpeningEventArgs : WinRTClass {
         super.init(fromAbi)
     }
 
-    public func accept() throws {
-        try _default.AcceptImpl()
+    public var columnNumber : UInt32 {
+        get { try! _default.get_ColumnNumber() }
     }
 
-    public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
-    }
-
-    public var defaultText : String {
-        get { try! _default.get_DefaultTextImpl() }
-    }
-
-    public var kind : CoreWebView2ScriptDialogKind {
-        get { try! _default.get_KindImpl() }
+    public var lineNumber : UInt32 {
+        get { try! _default.get_LineNumber() }
     }
 
     public var message : String {
-        get { try! _default.get_MessageImpl() }
+        get { try! _default.get_Message() }
     }
 
-    public var resultText : String {
-        get { try! _default.get_ResultTextImpl() }
-        set { try! _default.put_ResultTextImpl(newValue) }
+    public var name : String {
+        get { try! _default.get_Name() }
     }
 
-    public var uri : String {
-        get { try! _default.get_UriImpl() }
+    public var toJson : String {
+        get { try! _default.get_ToJson() }
     }
 
     deinit {
@@ -3898,9 +4564,46 @@ public final class CoreWebView2ServerCertificateErrorDetectedEventArgs : WinRTCl
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs>?) -> CoreWebView2ServerCertificateErrorDetectedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getDeferral() throws -> WindowsFoundation.Deferral! {
+        try _default.GetDeferral()
+    }
+
+    public var action : CoreWebView2ServerCertificateErrorAction {
+        get { try! _default.get_Action() }
+        set { try! _default.put_Action(newValue) }
+    }
+
+    public var errorStatus : CoreWebView2WebErrorStatus {
+        get { try! _default.get_ErrorStatus() }
+    }
+
+    public var requestUri : String {
+        get { try! _default.get_RequestUri() }
+    }
+
+    public var serverCertificate : CoreWebView2Certificate! {
+        get { try! _default.get_ServerCertificate() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ServiceWorker : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ServiceWorker
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -3908,26 +4611,199 @@ public final class CoreWebView2ServerCertificateErrorDetectedEventArgs : WinRTCl
         super.init(fromAbi)
     }
 
-    public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+    public func postWebMessageAsJson(_ webMessageAsJson: String) throws {
+        try _default.PostWebMessageAsJson(webMessageAsJson)
     }
 
-    public var action : CoreWebView2ServerCertificateErrorAction {
-        get { try! _default.get_ActionImpl() }
-        set { try! _default.put_ActionImpl(newValue) }
+    public func postWebMessageAsString(_ webMessageAsString: String) throws {
+        try _default.PostWebMessageAsString(webMessageAsString)
     }
 
-    public var errorStatus : CoreWebView2WebErrorStatus {
-        get { try! _default.get_ErrorStatusImpl() }
+    public var scriptUri : String {
+        get { try! _default.get_ScriptUri() }
     }
 
-    public var requestUri : String {
-        get { try! _default.get_RequestUriImpl() }
+    public lazy var destroying : Event<TypedEventHandler<CoreWebView2ServiceWorker?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Destroying($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Destroying($0)
+       }
+      )
+    }()
+
+    public lazy var webMessageReceived : Event<TypedEventHandler<CoreWebView2ServiceWorker?, CoreWebView2WebMessageReceivedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_WebMessageReceived($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_WebMessageReceived($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ServiceWorkerActivatedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ServiceWorkerActivatedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
-    public var serverCertificate : CoreWebView2Certificate! {
-        get { try! _default.get_ServerCertificateImpl() }
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
     }
+
+    public var activeServiceWorker : CoreWebView2ServiceWorker! {
+        get { try! _default.get_ActiveServiceWorker() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ServiceWorkerManager : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ServiceWorkerManager
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private lazy var _CoreWebView2ServiceWorkerManager_Manual: __ABI_Microsoft_Web_WebView2_Core.CoreWebView2ServiceWorkerManager_Manual! = getInterfaceForCaching()
+    public func getServiceWorkerRegistrationsAsync(_ scope: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2ServiceWorkerRegistration?>?>! {
+        try _CoreWebView2ServiceWorkerManager_Manual.GetServiceWorkerRegistrationsAsync(scope)
+    }
+
+    public func getServiceWorkerRegistrationsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2ServiceWorkerRegistration?>?>! {
+        try _default.GetServiceWorkerRegistrationsAsync()
+    }
+
+    public lazy var serviceWorkerRegistered : Event<TypedEventHandler<CoreWebView2ServiceWorkerManager?, CoreWebView2ServiceWorkerRegisteredEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_ServiceWorkerRegistered($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_ServiceWorkerRegistered($0)
+       }
+      )
+    }()
+
+    deinit {
+        _CoreWebView2ServiceWorkerManager_Manual = nil
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ServiceWorkerRegisteredEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ServiceWorkerRegisteredEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var serviceWorkerRegistration : CoreWebView2ServiceWorkerRegistration! {
+        get { try! _default.get_ServiceWorkerRegistration() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2ServiceWorkerRegistration : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2ServiceWorkerRegistration
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var activeServiceWorker : CoreWebView2ServiceWorker! {
+        get { try! _default.get_ActiveServiceWorker() }
+    }
+
+    public var origin : String {
+        get { try! _default.get_Origin() }
+    }
+
+    public var scopeUri : String {
+        get { try! _default.get_ScopeUri() }
+    }
+
+    public var topLevelOrigin : String {
+        get { try! _default.get_TopLevelOrigin() }
+    }
+
+    public lazy var serviceWorkerActivated : Event<TypedEventHandler<CoreWebView2ServiceWorkerRegistration?, CoreWebView2ServiceWorkerActivatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_ServiceWorkerActivated($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_ServiceWorkerActivated($0)
+       }
+      )
+    }()
+
+    public lazy var unregistering : Event<TypedEventHandler<CoreWebView2ServiceWorkerRegistration?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Unregistering($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Unregistering($0)
+       }
+      )
+    }()
 
     deinit {
         _default = nil
@@ -3947,112 +4823,112 @@ public final class CoreWebView2Settings : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings>?) -> CoreWebView2Settings? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2Settings2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings2! = getInterfaceForCaching()
     public var userAgent : String {
-        get { try! _ICoreWebView2Settings2.get_UserAgentImpl() }
-        set { try! _ICoreWebView2Settings2.put_UserAgentImpl(newValue) }
+        get { try! _ICoreWebView2Settings2.get_UserAgent() }
+        set { try! _ICoreWebView2Settings2.put_UserAgent(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings3: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings3! = getInterfaceForCaching()
     public var areBrowserAcceleratorKeysEnabled : Bool {
-        get { try! _ICoreWebView2Settings3.get_AreBrowserAcceleratorKeysEnabledImpl() }
-        set { try! _ICoreWebView2Settings3.put_AreBrowserAcceleratorKeysEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Settings3.get_AreBrowserAcceleratorKeysEnabled() }
+        set { try! _ICoreWebView2Settings3.put_AreBrowserAcceleratorKeysEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings4: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings4! = getInterfaceForCaching()
     public var isGeneralAutofillEnabled : Bool {
-        get { try! _ICoreWebView2Settings4.get_IsGeneralAutofillEnabledImpl() }
-        set { try! _ICoreWebView2Settings4.put_IsGeneralAutofillEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Settings4.get_IsGeneralAutofillEnabled() }
+        set { try! _ICoreWebView2Settings4.put_IsGeneralAutofillEnabled(newValue) }
     }
 
     public var isPasswordAutosaveEnabled : Bool {
-        get { try! _ICoreWebView2Settings4.get_IsPasswordAutosaveEnabledImpl() }
-        set { try! _ICoreWebView2Settings4.put_IsPasswordAutosaveEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Settings4.get_IsPasswordAutosaveEnabled() }
+        set { try! _ICoreWebView2Settings4.put_IsPasswordAutosaveEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings5: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings5! = getInterfaceForCaching()
     public var isPinchZoomEnabled : Bool {
-        get { try! _ICoreWebView2Settings5.get_IsPinchZoomEnabledImpl() }
-        set { try! _ICoreWebView2Settings5.put_IsPinchZoomEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Settings5.get_IsPinchZoomEnabled() }
+        set { try! _ICoreWebView2Settings5.put_IsPinchZoomEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings6: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings6! = getInterfaceForCaching()
     public var isSwipeNavigationEnabled : Bool {
-        get { try! _ICoreWebView2Settings6.get_IsSwipeNavigationEnabledImpl() }
-        set { try! _ICoreWebView2Settings6.put_IsSwipeNavigationEnabledImpl(newValue) }
+        get { try! _ICoreWebView2Settings6.get_IsSwipeNavigationEnabled() }
+        set { try! _ICoreWebView2Settings6.put_IsSwipeNavigationEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings7: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings7! = getInterfaceForCaching()
     public var hiddenPdfToolbarItems : CoreWebView2PdfToolbarItems {
-        get { try! _ICoreWebView2Settings7.get_HiddenPdfToolbarItemsImpl() }
-        set { try! _ICoreWebView2Settings7.put_HiddenPdfToolbarItemsImpl(newValue) }
+        get { try! _ICoreWebView2Settings7.get_HiddenPdfToolbarItems() }
+        set { try! _ICoreWebView2Settings7.put_HiddenPdfToolbarItems(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings8: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings8! = getInterfaceForCaching()
     public var isReputationCheckingRequired : Bool {
-        get { try! _ICoreWebView2Settings8.get_IsReputationCheckingRequiredImpl() }
-        set { try! _ICoreWebView2Settings8.put_IsReputationCheckingRequiredImpl(newValue) }
+        get { try! _ICoreWebView2Settings8.get_IsReputationCheckingRequired() }
+        set { try! _ICoreWebView2Settings8.put_IsReputationCheckingRequired(newValue) }
+    }
+
+    private lazy var _ICoreWebView2Settings9: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings9! = getInterfaceForCaching()
+    public var isNonClientRegionSupportEnabled : Bool {
+        get { try! _ICoreWebView2Settings9.get_IsNonClientRegionSupportEnabled() }
+        set { try! _ICoreWebView2Settings9.put_IsNonClientRegionSupportEnabled(newValue) }
     }
 
     private lazy var _ICoreWebView2Settings_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Settings_Manual! = getInterfaceForCaching()
     public var hostObjectDispatchAdapter : AnyICoreWebView2DispatchAdapter! {
-        get { try! _ICoreWebView2Settings_Manual.get_HostObjectDispatchAdapterImpl() }
-        set { try! _ICoreWebView2Settings_Manual.put_HostObjectDispatchAdapterImpl(newValue) }
+        get { try! _ICoreWebView2Settings_Manual.get_HostObjectDispatchAdapter() }
+        set { try! _ICoreWebView2Settings_Manual.put_HostObjectDispatchAdapter(newValue) }
     }
 
     public var areDefaultContextMenusEnabled : Bool {
-        get { try! _default.get_AreDefaultContextMenusEnabledImpl() }
-        set { try! _default.put_AreDefaultContextMenusEnabledImpl(newValue) }
+        get { try! _default.get_AreDefaultContextMenusEnabled() }
+        set { try! _default.put_AreDefaultContextMenusEnabled(newValue) }
     }
 
     public var areDefaultScriptDialogsEnabled : Bool {
-        get { try! _default.get_AreDefaultScriptDialogsEnabledImpl() }
-        set { try! _default.put_AreDefaultScriptDialogsEnabledImpl(newValue) }
+        get { try! _default.get_AreDefaultScriptDialogsEnabled() }
+        set { try! _default.put_AreDefaultScriptDialogsEnabled(newValue) }
     }
 
     public var areDevToolsEnabled : Bool {
-        get { try! _default.get_AreDevToolsEnabledImpl() }
-        set { try! _default.put_AreDevToolsEnabledImpl(newValue) }
+        get { try! _default.get_AreDevToolsEnabled() }
+        set { try! _default.put_AreDevToolsEnabled(newValue) }
     }
 
     public var areHostObjectsAllowed : Bool {
-        get { try! _default.get_AreHostObjectsAllowedImpl() }
-        set { try! _default.put_AreHostObjectsAllowedImpl(newValue) }
+        get { try! _default.get_AreHostObjectsAllowed() }
+        set { try! _default.put_AreHostObjectsAllowed(newValue) }
     }
 
     public var isBuiltInErrorPageEnabled : Bool {
-        get { try! _default.get_IsBuiltInErrorPageEnabledImpl() }
-        set { try! _default.put_IsBuiltInErrorPageEnabledImpl(newValue) }
+        get { try! _default.get_IsBuiltInErrorPageEnabled() }
+        set { try! _default.put_IsBuiltInErrorPageEnabled(newValue) }
     }
 
     public var isScriptEnabled : Bool {
-        get { try! _default.get_IsScriptEnabledImpl() }
-        set { try! _default.put_IsScriptEnabledImpl(newValue) }
+        get { try! _default.get_IsScriptEnabled() }
+        set { try! _default.put_IsScriptEnabled(newValue) }
     }
 
     public var isStatusBarEnabled : Bool {
-        get { try! _default.get_IsStatusBarEnabledImpl() }
-        set { try! _default.put_IsStatusBarEnabledImpl(newValue) }
+        get { try! _default.get_IsStatusBarEnabled() }
+        set { try! _default.put_IsStatusBarEnabled(newValue) }
     }
 
     public var isWebMessageEnabled : Bool {
-        get { try! _default.get_IsWebMessageEnabledImpl() }
-        set { try! _default.put_IsWebMessageEnabledImpl(newValue) }
+        get { try! _default.get_IsWebMessageEnabled() }
+        set { try! _default.put_IsWebMessageEnabled(newValue) }
     }
 
     public var isZoomControlEnabled : Bool {
-        get { try! _default.get_IsZoomControlEnabledImpl() }
-        set { try! _default.put_IsZoomControlEnabledImpl(newValue) }
+        get { try! _default.get_IsZoomControlEnabled() }
+        set { try! _default.put_IsZoomControlEnabled(newValue) }
     }
 
     deinit {
@@ -4063,6 +4939,7 @@ public final class CoreWebView2Settings : WinRTClass {
         _ICoreWebView2Settings6 = nil
         _ICoreWebView2Settings7 = nil
         _ICoreWebView2Settings8 = nil
+        _ICoreWebView2Settings9 = nil
         _ICoreWebView2Settings_Manual = nil
         _default = nil
     }
@@ -4081,12 +4958,6 @@ public final class CoreWebView2SharedBuffer : WinRTClass, WindowsFoundation.IClo
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer>?) -> CoreWebView2SharedBuffer? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -4096,26 +4967,136 @@ public final class CoreWebView2SharedBuffer : WinRTClass, WindowsFoundation.IClo
     }
     private lazy var _ICoreWebView2SharedBuffer_Manual: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SharedBuffer_Manual! = getInterfaceForCaching()
     public var buffer : WindowsFoundation.AnyIMemoryBufferReference! {
-        get { try! _ICoreWebView2SharedBuffer_Manual.get_BufferImpl() }
+        get { try! _ICoreWebView2SharedBuffer_Manual.get_Buffer() }
     }
 
     public func openStream() throws -> UWP.AnyIRandomAccessStream! {
-        try _default.OpenStreamImpl()
+        try _default.OpenStream()
     }
 
     public var size : UInt64 {
-        get { try! _default.get_SizeImpl() }
+        get { try! _default.get_Size() }
     }
 
     private lazy var _IClosable: __ABI_Windows_Foundation.IClosable! = getInterfaceForCaching()
     public func close() throws {
-        try _IClosable.CloseImpl()
+        try _IClosable.Close()
     }
 
     deinit {
         _ICoreWebView2SharedBuffer_Manual = nil
         _default = nil
         _IClosable = nil
+    }
+}
+
+public final class CoreWebView2SharedWorker : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SharedWorker
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var origin : String {
+        get { try! _default.get_Origin() }
+    }
+
+    public var scriptUri : String {
+        get { try! _default.get_ScriptUri() }
+    }
+
+    public var topLevelOrigin : String {
+        get { try! _default.get_TopLevelOrigin() }
+    }
+
+    public lazy var destroying : Event<TypedEventHandler<CoreWebView2SharedWorker?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Destroying($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Destroying($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2SharedWorkerCreatedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SharedWorkerCreatedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public var worker : CoreWebView2SharedWorker! {
+        get { try! _default.get_Worker() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+public final class CoreWebView2SharedWorkerManager : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2SharedWorkerManager
+    private typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    public func getSharedWorkersAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<CoreWebView2SharedWorker?>?>! {
+        try _default.GetSharedWorkersAsync()
+    }
+
+    public lazy var sharedWorkerCreated : Event<TypedEventHandler<CoreWebView2SharedWorkerManager?, CoreWebView2SharedWorkerCreatedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_SharedWorkerCreated($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_SharedWorkerCreated($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
     }
 }
 
@@ -4132,18 +5113,12 @@ public final class CoreWebView2SourceChangedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs>?) -> CoreWebView2SourceChangedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var isNewDocument : Bool {
-        get { try! _default.get_IsNewDocumentImpl() }
+        get { try! _default.get_IsNewDocument() }
     }
 
     deinit {
@@ -4164,31 +5139,25 @@ public final class CoreWebView2WebMessageReceivedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs>?) -> CoreWebView2WebMessageReceivedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     private lazy var _ICoreWebView2WebMessageReceivedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2WebMessageReceivedEventArgs2! = getInterfaceForCaching()
     public var additionalObjects : WindowsFoundation.AnyIVectorView<Any?>! {
-        get { try! _ICoreWebView2WebMessageReceivedEventArgs2.get_AdditionalObjectsImpl() }
+        get { try! _ICoreWebView2WebMessageReceivedEventArgs2.get_AdditionalObjects() }
     }
 
     public func tryGetWebMessageAsString() throws -> String {
-        try _default.TryGetWebMessageAsStringImpl()
+        try _default.TryGetWebMessageAsString()
     }
 
     public var source : String {
-        get { try! _default.get_SourceImpl() }
+        get { try! _default.get_Source() }
     }
 
     public var webMessageAsJson : String {
-        get { try! _default.get_WebMessageAsJsonImpl() }
+        get { try! _default.get_WebMessageAsJson() }
     }
 
     deinit {
@@ -4210,33 +5179,27 @@ public final class CoreWebView2WebResourceRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest>?) -> CoreWebView2WebResourceRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var content : UWP.AnyIRandomAccessStream! {
-        get { try! _default.get_ContentImpl() }
-        set { try! _default.put_ContentImpl(newValue) }
+        get { try! _default.get_Content() }
+        set { try! _default.put_Content(newValue) }
     }
 
     public var headers : CoreWebView2HttpRequestHeaders! {
-        get { try! _default.get_HeadersImpl() }
+        get { try! _default.get_Headers() }
     }
 
     public var method : String {
-        get { try! _default.get_MethodImpl() }
-        set { try! _default.put_MethodImpl(newValue) }
+        get { try! _default.get_Method() }
+        set { try! _default.put_Method(newValue) }
     }
 
     public var uri : String {
-        get { try! _default.get_UriImpl() }
-        set { try! _default.put_UriImpl(newValue) }
+        get { try! _default.get_Uri() }
+        set { try! _default.put_Uri(newValue) }
     }
 
     deinit {
@@ -4257,34 +5220,34 @@ public final class CoreWebView2WebResourceRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs>?) -> CoreWebView2WebResourceRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private lazy var _ICoreWebView2WebResourceRequestedEventArgs2: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2WebResourceRequestedEventArgs2! = getInterfaceForCaching()
+    public var requestedSourceKind : CoreWebView2WebResourceRequestSourceKinds {
+        get { try! _ICoreWebView2WebResourceRequestedEventArgs2.get_RequestedSourceKind() }
+    }
+
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     public var request : CoreWebView2WebResourceRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     public var resourceContext : CoreWebView2WebResourceContext {
-        get { try! _default.get_ResourceContextImpl() }
+        get { try! _default.get_ResourceContext() }
     }
 
     public var response : CoreWebView2WebResourceResponse! {
-        get { try! _default.get_ResponseImpl() }
-        set { try! _default.put_ResponseImpl(newValue) }
+        get { try! _default.get_Response() }
+        set { try! _default.put_Response(newValue) }
     }
 
     deinit {
+        _ICoreWebView2WebResourceRequestedEventArgs2 = nil
         _default = nil
     }
 }
@@ -4302,33 +5265,27 @@ public final class CoreWebView2WebResourceResponse : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse>?) -> CoreWebView2WebResourceResponse? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var content : UWP.AnyIRandomAccessStream! {
-        get { try! _default.get_ContentImpl() }
-        set { try! _default.put_ContentImpl(newValue) }
+        get { try! _default.get_Content() }
+        set { try! _default.put_Content(newValue) }
     }
 
     public var headers : CoreWebView2HttpResponseHeaders! {
-        get { try! _default.get_HeadersImpl() }
+        get { try! _default.get_Headers() }
     }
 
     public var reasonPhrase : String {
-        get { try! _default.get_ReasonPhraseImpl() }
-        set { try! _default.put_ReasonPhraseImpl(newValue) }
+        get { try! _default.get_ReasonPhrase() }
+        set { try! _default.put_ReasonPhrase(newValue) }
     }
 
     public var statusCode : Int32 {
-        get { try! _default.get_StatusCodeImpl() }
-        set { try! _default.put_StatusCodeImpl(newValue) }
+        get { try! _default.get_StatusCode() }
+        set { try! _default.put_StatusCode(newValue) }
     }
 
     deinit {
@@ -4349,22 +5306,16 @@ public final class CoreWebView2WebResourceResponseReceivedEventArgs : WinRTClass
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs>?) -> CoreWebView2WebResourceResponseReceivedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var request : CoreWebView2WebResourceRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     public var response : CoreWebView2WebResourceResponseView! {
-        get { try! _default.get_ResponseImpl() }
+        get { try! _default.get_Response() }
     }
 
     deinit {
@@ -4385,30 +5336,24 @@ public final class CoreWebView2WebResourceResponseView : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView>?) -> CoreWebView2WebResourceResponseView? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public func getContentAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>! {
-        try _default.GetContentAsyncImpl()
+        try _default.GetContentAsync()
     }
 
     public var headers : CoreWebView2HttpResponseHeaders! {
-        get { try! _default.get_HeadersImpl() }
+        get { try! _default.get_Headers() }
     }
 
     public var reasonPhrase : String {
-        get { try! _default.get_ReasonPhraseImpl() }
+        get { try! _default.get_ReasonPhrase() }
     }
 
     public var statusCode : Int32 {
-        get { try! _default.get_StatusCodeImpl() }
+        get { try! _default.get_StatusCode() }
     }
 
     deinit {
@@ -4429,54 +5374,48 @@ public final class CoreWebView2WindowFeatures : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures>?) -> CoreWebView2WindowFeatures? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     public var hasPosition : Bool {
-        get { try! _default.get_HasPositionImpl() }
+        get { try! _default.get_HasPosition() }
     }
 
     public var hasSize : Bool {
-        get { try! _default.get_HasSizeImpl() }
+        get { try! _default.get_HasSize() }
     }
 
     public var height : UInt32 {
-        get { try! _default.get_HeightImpl() }
+        get { try! _default.get_Height() }
     }
 
     public var left : UInt32 {
-        get { try! _default.get_LeftImpl() }
+        get { try! _default.get_Left() }
     }
 
     public var shouldDisplayMenuBar : Bool {
-        get { try! _default.get_ShouldDisplayMenuBarImpl() }
+        get { try! _default.get_ShouldDisplayMenuBar() }
     }
 
     public var shouldDisplayScrollBars : Bool {
-        get { try! _default.get_ShouldDisplayScrollBarsImpl() }
+        get { try! _default.get_ShouldDisplayScrollBars() }
     }
 
     public var shouldDisplayStatus : Bool {
-        get { try! _default.get_ShouldDisplayStatusImpl() }
+        get { try! _default.get_ShouldDisplayStatus() }
     }
 
     public var shouldDisplayToolbar : Bool {
-        get { try! _default.get_ShouldDisplayToolbarImpl() }
+        get { try! _default.get_ShouldDisplayToolbar() }
     }
 
     public var top : UInt32 {
-        get { try! _default.get_TopImpl() }
+        get { try! _default.get_Top() }
     }
 
     public var width : UInt32 {
-        get { try! _default.get_WidthImpl() }
+        get { try! _default.get_Width() }
     }
 
     deinit {
@@ -4484,7 +5423,7 @@ public final class CoreWebView2WindowFeatures : WinRTClass {
     }
 }
 
-public struct CoreWebView2PhysicalKeyStatus: Hashable, Codable {
+public struct CoreWebView2PhysicalKeyStatus: Hashable, Codable, Sendable {
     public var repeatCount: UInt32 = 0
     public var scanCode: UInt32 = 0
     public var isExtendedKey: Int32 = 0
@@ -4499,9 +5438,6 @@ public struct CoreWebView2PhysicalKeyStatus: Hashable, Codable {
         self.isMenuKeyDown = isMenuKeyDown
         self.wasKeyDown = wasKeyDown
         self.isKeyReleased = isKeyReleased
-    }
-    public static func from(abi: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus) -> CoreWebView2PhysicalKeyStatus {
-        .init(repeatCount: abi.RepeatCount, scanCode: abi.ScanCode, isExtendedKey: abi.IsExtendedKey, isMenuKeyDown: abi.IsMenuKeyDown, wasKeyDown: abi.WasKeyDown, isKeyReleased: abi.IsKeyReleased)
     }
 }
 
@@ -4532,7 +5468,7 @@ extension WebView2Core.CoreWebView2BoundsMode {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BoundsMode_UseRasterizationScale
     }
 }
-extension WebView2Core.CoreWebView2BoundsMode: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2BoundsMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2BrowserProcessExitKind {
     public static var normal : WebView2Core.CoreWebView2BrowserProcessExitKind {
@@ -4542,7 +5478,7 @@ extension WebView2Core.CoreWebView2BrowserProcessExitKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BrowserProcessExitKind_Failed
     }
 }
-extension WebView2Core.CoreWebView2BrowserProcessExitKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2BrowserProcessExitKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2BrowsingDataKinds {
     public static var fileSystems : WebView2Core.CoreWebView2BrowsingDataKinds {
@@ -4594,7 +5530,7 @@ extension WebView2Core.CoreWebView2BrowsingDataKinds {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BrowsingDataKinds_ServiceWorkers
     }
 }
-extension WebView2Core.CoreWebView2BrowsingDataKinds: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2BrowsingDataKinds: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2CapturePreviewImageFormat {
     public static var png : WebView2Core.CoreWebView2CapturePreviewImageFormat {
@@ -4604,7 +5540,17 @@ extension WebView2Core.CoreWebView2CapturePreviewImageFormat {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2CapturePreviewImageFormat_Jpeg
     }
 }
-extension WebView2Core.CoreWebView2CapturePreviewImageFormat: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2CapturePreviewImageFormat: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2ChannelSearchKind {
+    public static var mostStable : WebView2Core.CoreWebView2ChannelSearchKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ChannelSearchKind_MostStable
+    }
+    public static var leastStable : WebView2Core.CoreWebView2ChannelSearchKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ChannelSearchKind_LeastStable
+    }
+}
+extension WebView2Core.CoreWebView2ChannelSearchKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ClientCertificateKind {
     public static var smartCard : WebView2Core.CoreWebView2ClientCertificateKind {
@@ -4617,7 +5563,7 @@ extension WebView2Core.CoreWebView2ClientCertificateKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ClientCertificateKind_Other
     }
 }
-extension WebView2Core.CoreWebView2ClientCertificateKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ClientCertificateKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ContextMenuItemKind {
     public static var command : WebView2Core.CoreWebView2ContextMenuItemKind {
@@ -4636,7 +5582,7 @@ extension WebView2Core.CoreWebView2ContextMenuItemKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuItemKind_Submenu
     }
 }
-extension WebView2Core.CoreWebView2ContextMenuItemKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ContextMenuItemKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ContextMenuTargetKind {
     public static var page : WebView2Core.CoreWebView2ContextMenuTargetKind {
@@ -4655,7 +5601,7 @@ extension WebView2Core.CoreWebView2ContextMenuTargetKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuTargetKind_Video
     }
 }
-extension WebView2Core.CoreWebView2ContextMenuTargetKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ContextMenuTargetKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2CookieSameSiteKind {
     public static var none : WebView2Core.CoreWebView2CookieSameSiteKind {
@@ -4668,7 +5614,7 @@ extension WebView2Core.CoreWebView2CookieSameSiteKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2CookieSameSiteKind_Strict
     }
 }
-extension WebView2Core.CoreWebView2CookieSameSiteKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2CookieSameSiteKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment {
     public static var topLeft : WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment {
@@ -4684,7 +5630,7 @@ extension WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DefaultDownloadDialogCornerAlignment_BottomRight
     }
 }
-extension WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2DownloadInterruptReason {
     public static var none : WebView2Core.CoreWebView2DownloadInterruptReason {
@@ -4778,7 +5724,7 @@ extension WebView2Core.CoreWebView2DownloadInterruptReason {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadInterruptReason_DownloadProcessCrashed
     }
 }
-extension WebView2Core.CoreWebView2DownloadInterruptReason: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2DownloadInterruptReason: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2DownloadState {
     public static var inProgress : WebView2Core.CoreWebView2DownloadState {
@@ -4791,7 +5737,7 @@ extension WebView2Core.CoreWebView2DownloadState {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadState_Completed
     }
 }
-extension WebView2Core.CoreWebView2DownloadState: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2DownloadState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2FaviconImageFormat {
     public static var png : WebView2Core.CoreWebView2FaviconImageFormat {
@@ -4801,7 +5747,27 @@ extension WebView2Core.CoreWebView2FaviconImageFormat {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FaviconImageFormat_Jpeg
     }
 }
-extension WebView2Core.CoreWebView2FaviconImageFormat: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2FaviconImageFormat: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2FileSystemHandleKind {
+    public static var file : WebView2Core.CoreWebView2FileSystemHandleKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandleKind_File
+    }
+    public static var directory : WebView2Core.CoreWebView2FileSystemHandleKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandleKind_Directory
+    }
+}
+extension WebView2Core.CoreWebView2FileSystemHandleKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2FileSystemHandlePermission {
+    public static var readOnly : WebView2Core.CoreWebView2FileSystemHandlePermission {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandlePermission_ReadOnly
+    }
+    public static var readWrite : WebView2Core.CoreWebView2FileSystemHandlePermission {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandlePermission_ReadWrite
+    }
+}
+extension WebView2Core.CoreWebView2FileSystemHandlePermission: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2FrameKind {
     public static var unknown : WebView2Core.CoreWebView2FrameKind {
@@ -4820,7 +5786,7 @@ extension WebView2Core.CoreWebView2FrameKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FrameKind_Object
     }
 }
-extension WebView2Core.CoreWebView2FrameKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2FrameKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2HostResourceAccessKind {
     public static var deny : WebView2Core.CoreWebView2HostResourceAccessKind {
@@ -4833,7 +5799,7 @@ extension WebView2Core.CoreWebView2HostResourceAccessKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2HostResourceAccessKind_DenyCors
     }
 }
-extension WebView2Core.CoreWebView2HostResourceAccessKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2HostResourceAccessKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2KeyEventKind {
     public static var keyDown : WebView2Core.CoreWebView2KeyEventKind {
@@ -4849,7 +5815,7 @@ extension WebView2Core.CoreWebView2KeyEventKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2KeyEventKind_SystemKeyUp
     }
 }
-extension WebView2Core.CoreWebView2KeyEventKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2KeyEventKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2MemoryUsageTargetLevel {
     public static var normal : WebView2Core.CoreWebView2MemoryUsageTargetLevel {
@@ -4859,7 +5825,7 @@ extension WebView2Core.CoreWebView2MemoryUsageTargetLevel {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MemoryUsageTargetLevel_Low
     }
 }
-extension WebView2Core.CoreWebView2MemoryUsageTargetLevel: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2MemoryUsageTargetLevel: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2MouseEventKind {
     public static var horizontalWheel : WebView2Core.CoreWebView2MouseEventKind {
@@ -4917,7 +5883,7 @@ extension WebView2Core.CoreWebView2MouseEventKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MouseEventKind_NonClientRightButtonUp
     }
 }
-extension WebView2Core.CoreWebView2MouseEventKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2MouseEventKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2MouseEventVirtualKeys {
     public static var none : WebView2Core.CoreWebView2MouseEventVirtualKeys {
@@ -4945,7 +5911,7 @@ extension WebView2Core.CoreWebView2MouseEventVirtualKeys {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MouseEventVirtualKeys_XButton2
     }
 }
-extension WebView2Core.CoreWebView2MouseEventVirtualKeys: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2MouseEventVirtualKeys: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2MoveFocusReason {
     public static var programmatic : WebView2Core.CoreWebView2MoveFocusReason {
@@ -4958,7 +5924,7 @@ extension WebView2Core.CoreWebView2MoveFocusReason {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MoveFocusReason_Previous
     }
 }
-extension WebView2Core.CoreWebView2MoveFocusReason: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2MoveFocusReason: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2NavigationKind {
     public static var reload : WebView2Core.CoreWebView2NavigationKind {
@@ -4971,7 +5937,29 @@ extension WebView2Core.CoreWebView2NavigationKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NavigationKind_NewDocument
     }
 }
-extension WebView2Core.CoreWebView2NavigationKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2NavigationKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2NonClientRegionKind {
+    public static var nowhere : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Nowhere
+    }
+    public static var client : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Client
+    }
+    public static var caption : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Caption
+    }
+    public static var minimize : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Minimize
+    }
+    public static var maximize : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Maximize
+    }
+    public static var close : WebView2Core.CoreWebView2NonClientRegionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind_Close
+    }
+}
+extension WebView2Core.CoreWebView2NonClientRegionKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PdfToolbarItems {
     public static var none : WebView2Core.CoreWebView2PdfToolbarItems {
@@ -5017,7 +6005,7 @@ extension WebView2Core.CoreWebView2PdfToolbarItems {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PdfToolbarItems_MoreSettings
     }
 }
-extension WebView2Core.CoreWebView2PdfToolbarItems: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PdfToolbarItems: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PermissionKind {
     public static var unknownPermission : WebView2Core.CoreWebView2PermissionKind {
@@ -5059,8 +6047,11 @@ extension WebView2Core.CoreWebView2PermissionKind {
     public static var windowManagement : WebView2Core.CoreWebView2PermissionKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_WindowManagement
     }
+    public static var persistentStorage : WebView2Core.CoreWebView2PermissionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_PersistentStorage
+    }
 }
-extension WebView2Core.CoreWebView2PermissionKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PermissionKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PermissionState {
     public static var `default` : WebView2Core.CoreWebView2PermissionState {
@@ -5073,7 +6064,7 @@ extension WebView2Core.CoreWebView2PermissionState {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionState_Deny
     }
 }
-extension WebView2Core.CoreWebView2PermissionState: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PermissionState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PointerEventKind {
     public static var activate : WebView2Core.CoreWebView2PointerEventKind {
@@ -5095,7 +6086,7 @@ extension WebView2Core.CoreWebView2PointerEventKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PointerEventKind_Update
     }
 }
-extension WebView2Core.CoreWebView2PointerEventKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PointerEventKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PreferredColorScheme {
     public static var auto : WebView2Core.CoreWebView2PreferredColorScheme {
@@ -5108,7 +6099,7 @@ extension WebView2Core.CoreWebView2PreferredColorScheme {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PreferredColorScheme_Dark
     }
 }
-extension WebView2Core.CoreWebView2PreferredColorScheme: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PreferredColorScheme: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintCollation {
     public static var `default` : WebView2Core.CoreWebView2PrintCollation {
@@ -5121,7 +6112,7 @@ extension WebView2Core.CoreWebView2PrintCollation {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintCollation_Uncollated
     }
 }
-extension WebView2Core.CoreWebView2PrintCollation: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintCollation: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintColorMode {
     public static var `default` : WebView2Core.CoreWebView2PrintColorMode {
@@ -5134,7 +6125,7 @@ extension WebView2Core.CoreWebView2PrintColorMode {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintColorMode_Grayscale
     }
 }
-extension WebView2Core.CoreWebView2PrintColorMode: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintColorMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintDialogKind {
     public static var browser : WebView2Core.CoreWebView2PrintDialogKind {
@@ -5144,7 +6135,7 @@ extension WebView2Core.CoreWebView2PrintDialogKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintDialogKind_System
     }
 }
-extension WebView2Core.CoreWebView2PrintDialogKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintDialogKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintDuplex {
     public static var `default` : WebView2Core.CoreWebView2PrintDuplex {
@@ -5160,7 +6151,7 @@ extension WebView2Core.CoreWebView2PrintDuplex {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintDuplex_TwoSidedShortEdge
     }
 }
-extension WebView2Core.CoreWebView2PrintDuplex: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintDuplex: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintMediaSize {
     public static var `default` : WebView2Core.CoreWebView2PrintMediaSize {
@@ -5170,7 +6161,7 @@ extension WebView2Core.CoreWebView2PrintMediaSize {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintMediaSize_Custom
     }
 }
-extension WebView2Core.CoreWebView2PrintMediaSize: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintMediaSize: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintOrientation {
     public static var portrait : WebView2Core.CoreWebView2PrintOrientation {
@@ -5180,7 +6171,7 @@ extension WebView2Core.CoreWebView2PrintOrientation {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintOrientation_Landscape
     }
 }
-extension WebView2Core.CoreWebView2PrintOrientation: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintOrientation: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2PrintStatus {
     public static var succeeded : WebView2Core.CoreWebView2PrintStatus {
@@ -5193,7 +6184,7 @@ extension WebView2Core.CoreWebView2PrintStatus {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintStatus_OtherError
     }
 }
-extension WebView2Core.CoreWebView2PrintStatus: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2PrintStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ProcessFailedKind {
     public static var browserProcessExited : WebView2Core.CoreWebView2ProcessFailedKind {
@@ -5227,7 +6218,7 @@ extension WebView2Core.CoreWebView2ProcessFailedKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedKind_UnknownProcessExited
     }
 }
-extension WebView2Core.CoreWebView2ProcessFailedKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ProcessFailedKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ProcessFailedReason {
     public static var unexpected : WebView2Core.CoreWebView2ProcessFailedReason {
@@ -5251,8 +6242,17 @@ extension WebView2Core.CoreWebView2ProcessFailedReason {
     public static var profileDeleted : WebView2Core.CoreWebView2ProcessFailedReason {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_ProfileDeleted
     }
+    public static var normalExit : WebView2Core.CoreWebView2ProcessFailedReason {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_NormalExit
+    }
+    public static var abnormalExit : WebView2Core.CoreWebView2ProcessFailedReason {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_AbnormalExit
+    }
+    public static var integrityFailure : WebView2Core.CoreWebView2ProcessFailedReason {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_IntegrityFailure
+    }
 }
-extension WebView2Core.CoreWebView2ProcessFailedReason: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ProcessFailedReason: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ProcessKind {
     public static var browser : WebView2Core.CoreWebView2ProcessKind {
@@ -5277,7 +6277,61 @@ extension WebView2Core.CoreWebView2ProcessKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessKind_PpapiBroker
     }
 }
-extension WebView2Core.CoreWebView2ProcessKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ProcessKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2ReleaseChannels {
+    public static var none : WebView2Core.CoreWebView2ReleaseChannels {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels_None
+    }
+    public static var stable : WebView2Core.CoreWebView2ReleaseChannels {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels_Stable
+    }
+    public static var beta : WebView2Core.CoreWebView2ReleaseChannels {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels_Beta
+    }
+    public static var dev : WebView2Core.CoreWebView2ReleaseChannels {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels_Dev
+    }
+    public static var canary : WebView2Core.CoreWebView2ReleaseChannels {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels_Canary
+    }
+}
+extension WebView2Core.CoreWebView2ReleaseChannels: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2SaveAsKind {
+    public static var `default` : WebView2Core.CoreWebView2SaveAsKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind_Default
+    }
+    public static var htmlOnly : WebView2Core.CoreWebView2SaveAsKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind_HtmlOnly
+    }
+    public static var singleFile : WebView2Core.CoreWebView2SaveAsKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind_SingleFile
+    }
+    public static var complete : WebView2Core.CoreWebView2SaveAsKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind_Complete
+    }
+}
+extension WebView2Core.CoreWebView2SaveAsKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2SaveAsUIResult {
+    public static var success : WebView2Core.CoreWebView2SaveAsUIResult {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult_Success
+    }
+    public static var invalidPath : WebView2Core.CoreWebView2SaveAsUIResult {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult_InvalidPath
+    }
+    public static var fileAlreadyExists : WebView2Core.CoreWebView2SaveAsUIResult {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult_FileAlreadyExists
+    }
+    public static var kindNotSupported : WebView2Core.CoreWebView2SaveAsUIResult {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult_KindNotSupported
+    }
+    public static var cancelled : WebView2Core.CoreWebView2SaveAsUIResult {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsUIResult_Cancelled
+    }
+}
+extension WebView2Core.CoreWebView2SaveAsUIResult: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ScriptDialogKind {
     public static var alert : WebView2Core.CoreWebView2ScriptDialogKind {
@@ -5293,7 +6347,17 @@ extension WebView2Core.CoreWebView2ScriptDialogKind {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScriptDialogKind_Beforeunload
     }
 }
-extension WebView2Core.CoreWebView2ScriptDialogKind: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ScriptDialogKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2ScrollbarStyle {
+    public static var `default` : WebView2Core.CoreWebView2ScrollbarStyle {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScrollbarStyle_Default
+    }
+    public static var fluentOverlay : WebView2Core.CoreWebView2ScrollbarStyle {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScrollbarStyle_FluentOverlay
+    }
+}
+extension WebView2Core.CoreWebView2ScrollbarStyle: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2ServerCertificateErrorAction {
     public static var alwaysAllow : WebView2Core.CoreWebView2ServerCertificateErrorAction {
@@ -5306,7 +6370,7 @@ extension WebView2Core.CoreWebView2ServerCertificateErrorAction {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServerCertificateErrorAction_Default
     }
 }
-extension WebView2Core.CoreWebView2ServerCertificateErrorAction: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2ServerCertificateErrorAction: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2SharedBufferAccess {
     public static var readOnly : WebView2Core.CoreWebView2SharedBufferAccess {
@@ -5316,7 +6380,20 @@ extension WebView2Core.CoreWebView2SharedBufferAccess {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SharedBufferAccess_ReadWrite
     }
 }
-extension WebView2Core.CoreWebView2SharedBufferAccess: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2SharedBufferAccess: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2TextDirectionKind {
+    public static var `default` : WebView2Core.CoreWebView2TextDirectionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TextDirectionKind_Default
+    }
+    public static var leftToRight : WebView2Core.CoreWebView2TextDirectionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TextDirectionKind_LeftToRight
+    }
+    public static var rightToLeft : WebView2Core.CoreWebView2TextDirectionKind {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TextDirectionKind_RightToLeft
+    }
+}
+extension WebView2Core.CoreWebView2TextDirectionKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2TrackingPreventionLevel {
     public static var none : WebView2Core.CoreWebView2TrackingPreventionLevel {
@@ -5332,7 +6409,7 @@ extension WebView2Core.CoreWebView2TrackingPreventionLevel {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TrackingPreventionLevel_Strict
     }
 }
-extension WebView2Core.CoreWebView2TrackingPreventionLevel: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2TrackingPreventionLevel: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2WebErrorStatus {
     public static var unknown : WebView2Core.CoreWebView2WebErrorStatus {
@@ -5393,7 +6470,7 @@ extension WebView2Core.CoreWebView2WebErrorStatus {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebErrorStatus_ValidProxyAuthenticationRequired
     }
 }
-extension WebView2Core.CoreWebView2WebErrorStatus: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2WebErrorStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WebView2Core.CoreWebView2WebResourceContext {
     public static var all : WebView2Core.CoreWebView2WebResourceContext {
@@ -5448,5 +6525,24 @@ extension WebView2Core.CoreWebView2WebResourceContext {
         __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceContext_Other
     }
 }
-extension WebView2Core.CoreWebView2WebResourceContext: @retroactive Hashable, @retroactive Codable {}
+extension WebView2Core.CoreWebView2WebResourceContext: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+    public static var none : WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds_None
+    }
+    public static var document : WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds_Document
+    }
+    public static var sharedWorker : WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds_SharedWorker
+    }
+    public static var serviceWorker : WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds_ServiceWorker
+    }
+    public static var all : WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds_All
+    }
+}
+extension WebView2Core.CoreWebView2WebResourceRequestSourceKinds: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

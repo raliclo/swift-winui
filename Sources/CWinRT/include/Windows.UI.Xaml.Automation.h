@@ -150,6 +150,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics8_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9 __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty;
@@ -1016,6 +1022,8 @@
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CXaml__CUIElement_INTERFACE_DEFINED__
     
 typedef enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAccessibilityView __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAccessibilityView;
+
+typedef enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationControlType __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationControlType;
 
 typedef enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationHeadingLevel __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationHeadingLevel;
 
@@ -2285,6 +2293,45 @@ enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CZoomUnit
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics8;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics8_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AutomationControlTypeProperty)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetAutomationControlType)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+        __x_ABI_CWindows_CUI_CXaml_CIUIElement* element,
+        enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationControlType* result);
+    HRESULT (STDMETHODCALLTYPE* SetAutomationControlType)(__x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9* This,
+        __x_ABI_CWindows_CUI_CXaml_CIUIElement* element,
+        enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CAutomationControlType value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationPropertiesStatics9_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CAutomation_CIAutomationProperty_INTERFACE_DEFINED__

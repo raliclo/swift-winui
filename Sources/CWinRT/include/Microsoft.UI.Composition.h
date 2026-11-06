@@ -299,6 +299,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEllipseGeometry_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip __x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip;
@@ -2952,6 +2958,8 @@ typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEasingFunctionMode 
 
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus;
 
+typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType;
+
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGetValueStatus __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGetValueStatus;
 
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGradientExtendMode __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGradientExtendMode;
@@ -3078,6 +3086,12 @@ enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus
     __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus_EffectTooComplex = 1,
     __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus_Pending = 2,
     __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEffectFactoryLoadStatus_Other = -1,
+};
+
+enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType
+    {
+        __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType_System = 0,
+    __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType_InProcess = 1,
 };
 
 enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGetValueStatus
@@ -4875,6 +4889,46 @@ enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CICompositionEllipseGeometry;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEllipseGeometry_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TrySetProcessEngine)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+        enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionEngineType requested,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetForSystemEngine)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+        IInspectable* compositionObject,
+        IInspectable** result);
+    HRESULT (STDMETHODCALLTYPE* GetForInProcessEngine)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics* This,
+        IInspectable* compositionObject,
+        IInspectable** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionEngineStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionGeometricClip_INTERFACE_DEFINED__

@@ -22,6 +22,12 @@
 
 #endif // ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2 __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2;
+
+#endif // ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue_FWD_DEFINED__
 #define ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue;
@@ -117,6 +123,18 @@
     typedef interface __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions;
 
 #endif // ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2 __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2;
+
+#endif // ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3 __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3;
+
+#endif // ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelStatics_FWD_DEFINED__
@@ -2611,6 +2629,8 @@ typedef enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelDeviceKind __x_
 
 typedef enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind;
 
+typedef enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange;
+
 typedef enum __x_ABI_CWindows_CAI_CMachineLearning_CTensorKind __x_ABI_CWindows_CAI_CMachineLearning_CTensorKind;
 
 enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelDeviceKind
@@ -2628,6 +2648,13 @@ enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind
     __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind_Sequence = 1,
     __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind_Map = 2,
     __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelFeatureKind_Image = 3,
+};
+
+enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange
+    {
+        __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange_ZeroTo255 = 0,
+    __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange_ZeroToOne = 1,
+    __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange_MinusOneToOne = 2,
 };
 
 enum __x_ABI_CWindows_CAI_CMachineLearning_CTensorKind
@@ -2688,6 +2715,39 @@ enum __x_ABI_CWindows_CAI_CMachineLearning_CTensorKind
     
     EXTERN_C const IID IID___x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor;
 #endif /* !defined(____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PixelRange)(__x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2* This,
+        enum __x_ABI_CWindows_CAI_CMachineLearning_CLearningModelPixelRange* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2Vtbl;
+
+    interface __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2;
+#endif /* !defined(____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureDescriptor2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CAI_CMachineLearning_CIImageFeatureValue_INTERFACE_DEFINED__
@@ -3282,6 +3342,75 @@ enum __x_ABI_CWindows_CAI_CMachineLearning_CTensorKind
     
     EXTERN_C const IID IID___x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions;
 #endif /* !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CloseModelOnSessionCreation)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_CloseModelOnSessionCreation)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2;
+#endif /* !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* OverrideNamedDimension)(__x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3* This,
+        HSTRING name,
+        UINT32 dimension);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3Vtbl;
+
+    interface __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3;
+#endif /* !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelSessionOptions3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CAI_CMachineLearning_CILearningModelStatics_INTERFACE_DEFINED__

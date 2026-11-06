@@ -4,6 +4,7 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Microsoft_Web_WebView2_Core {
     public enum ICoreWebView2DispatchAdapterBridge : AbiInterfaceBridge {
         public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DispatchAdapter
@@ -29,21 +30,1348 @@ public enum __IMPL_Microsoft_Web_WebView2_Core {
         }
 
         fileprivate func wrapNamedObject(_ name: String, _ adapter: AnyICoreWebView2DispatchAdapter!) throws -> Any! {
-            try _default.WrapNamedObjectImpl(name, adapter)
+            try _default.WrapNamedObject(name, adapter)
         }
 
         fileprivate func wrapObject(_ unwrapped: Any!, _ adapter: AnyICoreWebView2DispatchAdapter!) throws -> Any! {
-            try _default.WrapObjectImpl(unwrapped, adapter)
+            try _default.WrapObject(unwrapped, adapter)
         }
 
         fileprivate func unwrapObject(_ wrapped: Any!) throws -> Any! {
-            try _default.UnwrapObjectImpl(wrapped)
+            try _default.UnwrapObject(wrapped)
         }
 
         fileprivate func clean() throws {
-            try _default.CleanImpl()
+            try _default.Clean()
         }
 
     }
 
+    public enum CoreWebView2Bridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2>?) -> CoreWebView2? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2AcceleratorKeyPressedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2AcceleratorKeyPressedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs>?) -> CoreWebView2AcceleratorKeyPressedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2BasicAuthenticationRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2BasicAuthenticationRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs>?) -> CoreWebView2BasicAuthenticationRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2BasicAuthenticationResponseBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2BasicAuthenticationResponse
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse>?) -> CoreWebView2BasicAuthenticationResponse? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2BrowserExtensionBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2BrowserExtension
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension>?) -> CoreWebView2BrowserExtension? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2BrowserProcessExitedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2BrowserProcessExitedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs>?) -> CoreWebView2BrowserProcessExitedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CertificateBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Certificate
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate>?) -> CoreWebView2Certificate? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ClientCertificateBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ClientCertificate
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate>?) -> CoreWebView2ClientCertificate? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ClientCertificateRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ClientCertificateRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs>?) -> CoreWebView2ClientCertificateRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CompositionControllerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2CompositionController
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController>?) -> CoreWebView2CompositionController? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ContentLoadingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ContentLoadingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs>?) -> CoreWebView2ContentLoadingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ContextMenuItemBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ContextMenuItem
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem>?) -> CoreWebView2ContextMenuItem? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ContextMenuRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ContextMenuRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs>?) -> CoreWebView2ContextMenuRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ContextMenuTargetBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ContextMenuTarget
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget>?) -> CoreWebView2ContextMenuTarget? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ControllerBridge: ComposableBridge {
+        public typealias SwiftProjection = CoreWebView2Controller
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller>?) -> CoreWebView2Controller? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum ICoreWebView2Controller : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = CoreWebView2Controller
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller
+                public typealias SwiftABI = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2Controller
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = ICoreWebView2Controller
+    }
+
+    public enum CoreWebView2ControllerOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ControllerOptions
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions>?) -> CoreWebView2ControllerOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ControllerWindowReferenceBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ControllerWindowReference
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference>?) -> CoreWebView2ControllerWindowReference? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CookieBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Cookie
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie>?) -> CoreWebView2Cookie? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CookieManagerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2CookieManager
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager>?) -> CoreWebView2CookieManager? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CrashReportBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2CrashReport
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport>?) -> CoreWebView2CrashReport? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2CustomSchemeRegistrationBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2CustomSchemeRegistration
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration>?) -> CoreWebView2CustomSchemeRegistration? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DOMContentLoadedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DOMContentLoadedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs>?) -> CoreWebView2DOMContentLoadedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DedicatedWorkerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DedicatedWorker
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker>?) -> CoreWebView2DedicatedWorker? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DedicatedWorkerCreatedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DedicatedWorkerCreatedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs>?) -> CoreWebView2DedicatedWorkerCreatedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DevToolsProtocolEventReceivedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DevToolsProtocolEventReceivedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs>?) -> CoreWebView2DevToolsProtocolEventReceivedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DevToolsProtocolEventReceiverBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DevToolsProtocolEventReceiver
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceiver
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceiver>?) -> CoreWebView2DevToolsProtocolEventReceiver? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DownloadOperationBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DownloadOperation
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation>?) -> CoreWebView2DownloadOperation? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2DownloadStartingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2DownloadStartingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs>?) -> CoreWebView2DownloadStartingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2EnvironmentBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Environment
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment>?) -> CoreWebView2Environment? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2EnvironmentOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2EnvironmentOptions
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions>?) -> CoreWebView2EnvironmentOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ExecuteScriptResultBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ExecuteScriptResult
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult>?) -> CoreWebView2ExecuteScriptResult? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FileBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2File
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File>?) -> CoreWebView2File? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FileSystemHandleBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2FileSystemHandle
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle>?) -> CoreWebView2FileSystemHandle? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FindBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Find
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find>?) -> CoreWebView2Find? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FindOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2FindOptions
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions>?) -> CoreWebView2FindOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FrameBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Frame
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame>?) -> CoreWebView2Frame? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FrameCreatedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2FrameCreatedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs>?) -> CoreWebView2FrameCreatedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2FrameInfoBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2FrameInfo
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo>?) -> CoreWebView2FrameInfo? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2HttpHeadersCollectionIteratorBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2HttpHeadersCollectionIterator
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpHeadersCollectionIterator
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpHeadersCollectionIterator>?) -> CoreWebView2HttpHeadersCollectionIterator? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2HttpRequestHeadersBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2HttpRequestHeaders
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders>?) -> CoreWebView2HttpRequestHeaders? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2HttpResponseHeadersBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2HttpResponseHeaders
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders>?) -> CoreWebView2HttpResponseHeaders? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2LaunchingExternalUriSchemeEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2LaunchingExternalUriSchemeEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs>?) -> CoreWebView2LaunchingExternalUriSchemeEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2MoveFocusRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2MoveFocusRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs>?) -> CoreWebView2MoveFocusRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NavigationCompletedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2NavigationCompletedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs>?) -> CoreWebView2NavigationCompletedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NavigationStartingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2NavigationStartingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs>?) -> CoreWebView2NavigationStartingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NewWindowRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2NewWindowRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs>?) -> CoreWebView2NewWindowRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NonClientRegionChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2NonClientRegionChangedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs>?) -> CoreWebView2NonClientRegionChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NotificationBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Notification
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification>?) -> CoreWebView2Notification? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2NotificationReceivedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2NotificationReceivedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs>?) -> CoreWebView2NotificationReceivedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2PermissionRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2PermissionRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs>?) -> CoreWebView2PermissionRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2PermissionSettingBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2PermissionSetting
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting>?) -> CoreWebView2PermissionSetting? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2PointerInfoBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2PointerInfo
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo>?) -> CoreWebView2PointerInfo? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2PrintSettingsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2PrintSettings
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings>?) -> CoreWebView2PrintSettings? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ProcessExtendedInfoBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ProcessExtendedInfo
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo>?) -> CoreWebView2ProcessExtendedInfo? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ProcessFailedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ProcessFailedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs>?) -> CoreWebView2ProcessFailedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ProcessInfoBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ProcessInfo
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo>?) -> CoreWebView2ProcessInfo? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ProfileBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Profile
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile>?) -> CoreWebView2Profile? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SaveAsUIShowingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SaveAsUIShowingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs>?) -> CoreWebView2SaveAsUIShowingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SaveFileSecurityCheckStartingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SaveFileSecurityCheckStartingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs>?) -> CoreWebView2SaveFileSecurityCheckStartingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ScreenCaptureStartingEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ScreenCaptureStartingEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs>?) -> CoreWebView2ScreenCaptureStartingEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ScriptDialogOpeningEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ScriptDialogOpeningEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs>?) -> CoreWebView2ScriptDialogOpeningEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ScriptExceptionBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ScriptException
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException>?) -> CoreWebView2ScriptException? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServerCertificateErrorDetectedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServerCertificateErrorDetectedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs>?) -> CoreWebView2ServerCertificateErrorDetectedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServiceWorkerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServiceWorker
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker>?) -> CoreWebView2ServiceWorker? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServiceWorkerActivatedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServiceWorkerActivatedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs>?) -> CoreWebView2ServiceWorkerActivatedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServiceWorkerManagerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServiceWorkerManager
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager>?) -> CoreWebView2ServiceWorkerManager? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServiceWorkerRegisteredEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServiceWorkerRegisteredEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs>?) -> CoreWebView2ServiceWorkerRegisteredEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2ServiceWorkerRegistrationBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2ServiceWorkerRegistration
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration>?) -> CoreWebView2ServiceWorkerRegistration? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SettingsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2Settings
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings>?) -> CoreWebView2Settings? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SharedBufferBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SharedBuffer
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer>?) -> CoreWebView2SharedBuffer? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SharedWorkerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SharedWorker
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker>?) -> CoreWebView2SharedWorker? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SharedWorkerCreatedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SharedWorkerCreatedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs>?) -> CoreWebView2SharedWorkerCreatedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SharedWorkerManagerBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SharedWorkerManager
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager>?) -> CoreWebView2SharedWorkerManager? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2SourceChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2SourceChangedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs>?) -> CoreWebView2SourceChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebMessageReceivedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebMessageReceivedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs>?) -> CoreWebView2WebMessageReceivedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebResourceRequestBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebResourceRequest
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest>?) -> CoreWebView2WebResourceRequest? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebResourceRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebResourceRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs>?) -> CoreWebView2WebResourceRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebResourceResponseBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebResourceResponse
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse>?) -> CoreWebView2WebResourceResponse? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebResourceResponseReceivedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebResourceResponseReceivedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs>?) -> CoreWebView2WebResourceResponseReceivedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WebResourceResponseViewBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WebResourceResponseView
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView>?) -> CoreWebView2WebResourceResponseView? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum CoreWebView2WindowFeaturesBridge: AbiBridge {
+        public typealias SwiftProjection = CoreWebView2WindowFeatures
+        public typealias CABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures>?) -> CoreWebView2WindowFeatures? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+extension CoreWebView2PhysicalKeyStatus: WinRTBridgeable {
+    public typealias ABI = __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
+    public static func from(abi: ABI) -> Self {
+        .init(repeatCount: abi.RepeatCount, scanCode: abi.ScanCode, isExtendedKey: abi.IsExtendedKey, isMenuKeyDown: abi.IsMenuKeyDown, wasKeyDown: abi.WasKeyDown, isKeyReleased: abi.IsKeyReleased)
+    }
+    public func toABI() -> ABI {
+        .from(swift: self)
+    }
+}
+
+@_spi(WinRTInternal)
+public class ICoreWebView2DispatchAdapterMaker: MakeFromAbi {
+    public typealias SwiftType = AnyICoreWebView2DispatchAdapter
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DispatchAdapter = try! abi.QueryInterface()
+        return __IMPL_Microsoft_Web_WebView2_Core.ICoreWebView2DispatchAdapterBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2Maker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2AcceleratorKeyPressedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2AcceleratorKeyPressedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2AcceleratorKeyPressedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2BasicAuthenticationRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2BasicAuthenticationRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2BasicAuthenticationRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2BasicAuthenticationResponseMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2BasicAuthenticationResponse
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2BasicAuthenticationResponse(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2BrowserExtensionMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2BrowserExtension
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2BrowserExtension(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2BrowserProcessExitedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2BrowserProcessExitedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2BrowserProcessExitedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CertificateMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Certificate
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Certificate(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ClientCertificateMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ClientCertificate
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ClientCertificate(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ClientCertificateRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ClientCertificateRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ClientCertificateRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CompositionControllerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2CompositionController
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2CompositionController(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ContentLoadingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ContentLoadingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ContentLoadingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ContextMenuItemMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ContextMenuItem
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ContextMenuItem(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ContextMenuRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ContextMenuRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ContextMenuRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ContextMenuTargetMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ContextMenuTarget
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ContextMenuTarget(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ControllerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Controller
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Controller(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ControllerOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ControllerOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ControllerOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ControllerWindowReferenceMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ControllerWindowReference
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ControllerWindowReference(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CookieMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Cookie
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Cookie(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CookieManagerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2CookieManager
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2CookieManager(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CrashReportMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2CrashReport
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2CrashReport(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2CustomSchemeRegistrationMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2CustomSchemeRegistration
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2CustomSchemeRegistration(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DOMContentLoadedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DOMContentLoadedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DOMContentLoadedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DedicatedWorkerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DedicatedWorker
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DedicatedWorker(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DedicatedWorkerCreatedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DedicatedWorkerCreatedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DedicatedWorkerCreatedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DevToolsProtocolEventReceivedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DevToolsProtocolEventReceivedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DevToolsProtocolEventReceivedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DevToolsProtocolEventReceiverMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DevToolsProtocolEventReceiver
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DevToolsProtocolEventReceiver(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DownloadOperationMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DownloadOperation
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DownloadOperation(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2DownloadStartingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2DownloadStartingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2DownloadStartingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2EnvironmentMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Environment
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Environment(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2EnvironmentOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2EnvironmentOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2EnvironmentOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ExecuteScriptResultMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ExecuteScriptResult
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ExecuteScriptResult(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FileMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2File
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2File(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FileSystemHandleMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2FileSystemHandle
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2FileSystemHandle(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FindMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Find
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Find(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FindOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2FindOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2FindOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FrameMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Frame
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Frame(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FrameCreatedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2FrameCreatedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2FrameCreatedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2FrameInfoMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2FrameInfo
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2FrameInfo(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2HttpHeadersCollectionIteratorMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2HttpHeadersCollectionIterator
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2HttpHeadersCollectionIterator(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2HttpRequestHeadersMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2HttpRequestHeaders
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2HttpRequestHeaders(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2HttpResponseHeadersMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2HttpResponseHeaders
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2HttpResponseHeaders(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2LaunchingExternalUriSchemeEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2LaunchingExternalUriSchemeEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2LaunchingExternalUriSchemeEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2MoveFocusRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2MoveFocusRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2MoveFocusRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NavigationCompletedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2NavigationCompletedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2NavigationCompletedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NavigationStartingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2NavigationStartingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2NavigationStartingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NewWindowRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2NewWindowRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2NewWindowRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NonClientRegionChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2NonClientRegionChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2NonClientRegionChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NotificationMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Notification
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Notification(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2NotificationReceivedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2NotificationReceivedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2NotificationReceivedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2PermissionRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2PermissionRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2PermissionRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2PermissionSettingMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2PermissionSetting
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2PermissionSetting(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2PointerInfoMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2PointerInfo
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2PointerInfo(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2PrintSettingsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2PrintSettings
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2PrintSettings(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ProcessExtendedInfoMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ProcessExtendedInfo
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ProcessExtendedInfo(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ProcessFailedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ProcessFailedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ProcessFailedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ProcessInfoMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ProcessInfo
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ProcessInfo(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ProfileMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Profile
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Profile(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SaveAsUIShowingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SaveAsUIShowingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SaveAsUIShowingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SaveFileSecurityCheckStartingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SaveFileSecurityCheckStartingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SaveFileSecurityCheckStartingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ScreenCaptureStartingEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ScreenCaptureStartingEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ScreenCaptureStartingEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ScriptDialogOpeningEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ScriptDialogOpeningEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ScriptDialogOpeningEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ScriptExceptionMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ScriptException
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ScriptException(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServerCertificateErrorDetectedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServerCertificateErrorDetectedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServerCertificateErrorDetectedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServiceWorkerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServiceWorker
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServiceWorker(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServiceWorkerActivatedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServiceWorkerActivatedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServiceWorkerActivatedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServiceWorkerManagerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServiceWorkerManager
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServiceWorkerManager(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServiceWorkerRegisteredEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServiceWorkerRegisteredEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServiceWorkerRegisteredEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2ServiceWorkerRegistrationMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2ServiceWorkerRegistration
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2ServiceWorkerRegistration(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SettingsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2Settings
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2Settings(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SharedBufferMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SharedBuffer
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SharedBuffer(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SharedWorkerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SharedWorker
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SharedWorker(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SharedWorkerCreatedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SharedWorkerCreatedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SharedWorkerCreatedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SharedWorkerManagerMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SharedWorkerManager
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SharedWorkerManager(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2SourceChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2SourceChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2SourceChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebMessageReceivedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebMessageReceivedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebMessageReceivedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebResourceRequestMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebResourceRequest
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebResourceRequest(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebResourceRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebResourceRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebResourceRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebResourceResponseMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebResourceResponse
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebResourceResponse(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebResourceResponseReceivedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebResourceResponseReceivedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebResourceResponseReceivedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WebResourceResponseViewMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WebResourceResponseView
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WebResourceResponseView(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class CoreWebView2WindowFeaturesMaker: MakeFromAbi {
+    public typealias SwiftType = CoreWebView2WindowFeatures
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return CoreWebView2WindowFeatures(fromAbi: abi)
+    }
 }

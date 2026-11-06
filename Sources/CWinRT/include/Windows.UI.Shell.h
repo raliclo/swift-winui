@@ -7,7 +7,12 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Windows.ApplicationModel.Core.h"
+#include "Windows.Graphics.Imaging.h"
+#include "Windows.Storage.Streams.h"
+#include "Windows.UI.h"
 #include "Windows.UI.StartScreen.h"
+// Importing Collections header
+#include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
 #ifndef ____x_ABI_CWindows_CUI_CShell_CIAdaptiveCard_FWD_DEFINED__
@@ -22,11 +27,47 @@
 
 #endif // ____x_ABI_CWindows_CUI_CShell_CIAdaptiveCardBuilderStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIFocusSession_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIFocusSession_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIFocusSession __x_ABI_CWindows_CUI_CShell_CIFocusSession;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIFocusSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIFocusSessionManager __x_ABI_CWindows_CUI_CShell_CIFocusSessionManager;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CShell_CISecurityAppManager __x_ABI_CWindows_CUI_CShell_CISecurityAppManager;
 
 #endif // ____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CShell_CITaskbarManager_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CShell_CITaskbarManager_FWD_DEFINED__
@@ -40,11 +81,83 @@
 
 #endif // ____x_ABI_CWindows_CUI_CShell_CITaskbarManager2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics __x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics;
 
 #endif // ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTab_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTab_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTab __x_ABI_CWindows_CUI_CShell_CIWindowTab;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTab_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabCollection __x_ABI_CWindows_CUI_CShell_CIWindowTabCollection;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabGroup __x_ABI_CWindows_CUI_CShell_CIWindowTabGroup;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabManager __x_ABI_CWindows_CUI_CShell_CIWindowTabManager;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -126,6 +239,399 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean __x_ABI_
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CShell__CWindowTab** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 index,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 index,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CShell__CWindowTab** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 index,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 index,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTabVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CUI__CShell__CWindowTab_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable* This,
+        __x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* sender,
+        __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabManager* sender,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabManager* sender,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabManager* sender,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabManager* sender,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry;
@@ -133,6 +639,14 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean __x_ABI_
 #endif // ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry_FWD_DEFINED__
 
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
+typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIDeferral __x_ABI_CWindows_CFoundation_CIDeferral;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
@@ -146,17 +660,29 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapSize __x_ABI_CWindows_CGraphics_CImaging_CBitmapSize;
+
+#ifndef ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference;
+
+#endif // ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CStartScreen_CISecondaryTile_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CStartScreen_CISecondaryTile_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CStartScreen_CISecondaryTile __x_ABI_CWindows_CUI_CStartScreen_CISecondaryTile;
 
 #endif // ____x_ABI_CWindows_CUI_CStartScreen_CISecondaryTile_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CUI_CWindowId __x_ABI_CWindows_CUI_CWindowId;
+
 typedef enum __x_ABI_CWindows_CUI_CShell_CSecurityAppKind __x_ABI_CWindows_CUI_CShell_CSecurityAppKind;
 
 typedef enum __x_ABI_CWindows_CUI_CShell_CSecurityAppState __x_ABI_CWindows_CUI_CShell_CSecurityAppState;
 
 typedef enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus;
+
+typedef enum __x_ABI_CWindows_CUI_CShell_CShareWindowCommand __x_ABI_CWindows_CUI_CShell_CShareWindowCommand;
 
 enum __x_ABI_CWindows_CUI_CShell_CSecurityAppKind
     {
@@ -175,6 +701,13 @@ enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus
     __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus_NoActionNeeded = 1,
     __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus_ActionRecommended = 2,
     __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus_ActionNeeded = 3,
+};
+
+enum __x_ABI_CWindows_CUI_CShell_CShareWindowCommand
+    {
+        __x_ABI_CWindows_CUI_CShell_CShareWindowCommand_None = 0,
+    __x_ABI_CWindows_CUI_CShell_CShareWindowCommand_StartSharing = 1,
+    __x_ABI_CWindows_CUI_CShell_CShareWindowCommand_StopSharing = 2,
 };
 
 #if !defined(____x_ABI_CWindows_CUI_CShell_CIAdaptiveCard_INTERFACE_DEFINED__)
@@ -244,6 +777,122 @@ enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIAdaptiveCardBuilderStatics;
 #endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIAdaptiveCardBuilderStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSession_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIFocusSession_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* End)(__x_ABI_CWindows_CUI_CShell_CIFocusSession* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIFocusSessionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIFocusSession
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIFocusSession;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsFocusActive)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* GetSession)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        HSTRING id,
+        __x_ABI_CWindows_CUI_CShell_CIFocusSession** result);
+    HRESULT (STDMETHODCALLTYPE* TryStartFocusSession)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        __x_ABI_CWindows_CUI_CShell_CIFocusSession** result);
+    HRESULT (STDMETHODCALLTYPE* TryStartFocusSession2)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime endTime,
+        __x_ABI_CWindows_CUI_CShell_CIFocusSession** result);
+    HRESULT (STDMETHODCALLTYPE* DeactivateFocus)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This);
+    HRESULT (STDMETHODCALLTYPE* add_IsFocusActiveChanged)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CFocusSessionManager_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_IsFocusActiveChanged)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManager* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIFocusSessionManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIFocusSessionManager;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSessionManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+        __x_ABI_CWindows_CUI_CShell_CIFocusSessionManager** result);
+    HRESULT (STDMETHODCALLTYPE* get_IsSupported)(__x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIFocusSessionManagerStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CShell_CISecurityAppManagerVtbl
@@ -289,6 +938,120 @@ enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CISecurityAppManager;
 #endif /* !defined(____x_ABI_CWindows_CUI_CShell_CISecurityAppManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_WindowId)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+        struct __x_ABI_CWindows_CUI_CWindowId* value);
+    HRESULT (STDMETHODCALLTYPE* get_Command)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+        enum __x_ABI_CWindows_CUI_CShell_CShareWindowCommand* value);
+    HRESULT (STDMETHODCALLTYPE* put_Command)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs* This,
+        enum __x_ABI_CWindows_CUI_CShell_CShareWindowCommand value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This);
+    HRESULT (STDMETHODCALLTYPE* Stop)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This);
+    HRESULT (STDMETHODCALLTYPE* ReportCommandChanged)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This);
+    HRESULT (STDMETHODCALLTYPE* add_CommandRequested)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_CommandRequested)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_CommandInvoked)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CShareWindowCommandSource___x_ABI_CWindows__CUI__CShell__CShareWindowCommandEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_CommandInvoked)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics* This,
+        __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSource** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIShareWindowCommandSourceStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CShell_CITaskbarManager_INTERFACE_DEFINED__
@@ -375,6 +1138,37 @@ enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CITaskbarManager2;
 #endif /* !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManager2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManagerDesktopAppSupportStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CShell_CITaskbarManagerStaticsVtbl
@@ -407,4 +1201,444 @@ enum __x_ABI_CWindows_CUI_CShell_CSecurityAppSubstatus
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics;
 #endif /* !defined(____x_ABI_CWindows_CUI_CShell_CITaskbarManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTab_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTab_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tag)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        IInspectable** value);
+    HRESULT (STDMETHODCALLTYPE* put_Tag)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        IInspectable* value);
+    HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Icon)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon** value);
+    HRESULT (STDMETHODCALLTYPE* put_Icon)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* value);
+    HRESULT (STDMETHODCALLTYPE* get_TreatAsSecondaryTileId)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_TreatAsSecondaryTileId)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Group)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabGroup** value);
+    HRESULT (STDMETHODCALLTYPE* put_Group)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* value);
+    HRESULT (STDMETHODCALLTYPE* ReportThumbnailAvailable)(__x_ABI_CWindows_CUI_CShell_CIWindowTab* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTab
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTab;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTab_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabCloseRequestedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabCollectionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* MoveTab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabCollection* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* tab,
+        UINT32 index);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabCollectionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabCollection
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabCollectionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabCollection;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabCollection_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabGroupVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Icon)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon** value);
+    HRESULT (STDMETHODCALLTYPE* put_Icon)(__x_ABI_CWindows_CUI_CShell_CIWindowTabGroup* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabGroupVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabGroup
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabGroupVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabGroup;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabGroup_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabIconVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIcon* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabIconVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabIconVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabIcon;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabIcon_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateFromFontGlyph)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+        HSTRING glyph,
+        HSTRING fontFamily,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon** result);
+    HRESULT (STDMETHODCALLTYPE* CreateFromFontGlyphWithUri)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+        HSTRING glyph,
+        HSTRING fontFamily,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* fontUri,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon** result);
+    HRESULT (STDMETHODCALLTYPE* CreateFromImage)(__x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference* image,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabIcon** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabIconStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabIconStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tabs)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabCollection** value);
+    HRESULT (STDMETHODCALLTYPE* SetActiveTab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab* tab);
+    HRESULT (STDMETHODCALLTYPE* add_TabSwitchRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabSwitchRequestedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TabSwitchRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TabCloseRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabCloseRequestedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TabCloseRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TabTearOutRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabTearOutRequestedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TabTearOutRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TabThumbnailRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CShell__CWindowTabManager___x_ABI_CWindows__CUI__CShell__CWindowTabThumbnailRequestedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TabThumbnailRequested)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManager* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabManager;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForWindow)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+        struct __x_ABI_CWindows_CUI_CWindowId id,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTabManager** result);
+    HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsTabTearOutSupported)(__x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabSwitchRequestedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** value);
+    HRESULT (STDMETHODCALLTYPE* get_WindowId)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+        UINT64* value);
+    HRESULT (STDMETHODCALLTYPE* put_WindowId)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+        UINT64 value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabTearOutRequestedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Tab)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        __x_ABI_CWindows_CUI_CShell_CIWindowTab** value);
+    HRESULT (STDMETHODCALLTYPE* get_RequestedSize)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapSize* value);
+    HRESULT (STDMETHODCALLTYPE* get_Image)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference** value);
+    HRESULT (STDMETHODCALLTYPE* put_Image)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference* value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
+    HRESULT (STDMETHODCALLTYPE* get_IsCompositedOnWindow)(__x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CShell_CIWindowTabThumbnailRequestedEventArgs_INTERFACE_DEFINED__) */
     

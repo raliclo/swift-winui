@@ -119,6 +119,12 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTas
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask;
@@ -148,6 +154,24 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTas
     typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder4 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder4;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskCompletedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskCompletedEventArgs_FWD_DEFINED__
@@ -203,6 +227,12 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTas
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup;
@@ -239,17 +269,47 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTas
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2 __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2 __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3 __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger;
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2 __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3 __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CICachedFileUpdaterTrigger_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CBackground_CICachedFileUpdaterTrigger_FWD_DEFINED__
@@ -2033,6 +2093,44 @@ typedef interface __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CApplicationM
     
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_short __x_ABI_C__FIReference_1_short;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_short;
+
+    typedef struct __x_ABI_C__FIReference_1_shortVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_short* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_short* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_short* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_short* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_short* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_short* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_short* This,
+        INT16* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_shortVtbl;
+
+    interface __x_ABI_C__FIReference_1_short
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_shortVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIBackgroundActivatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CActivation_CIBackgroundActivatedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIBackgroundActivatedEventArgs __x_ABI_CWindows_CApplicationModel_CActivation_CIBackgroundActivatedEventArgs;
@@ -2084,6 +2182,14 @@ typedef enum __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTrigger
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementFilter __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementFilter;
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementFilter_FWD_DEFINED__
+
+typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType;
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters_FWD_DEFINED__
 
 typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CBluetoothEventTriggeringMode __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CBluetoothEventTriggeringMode;
 
@@ -2149,11 +2255,19 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
+
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
 
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
@@ -2196,6 +2310,8 @@ typedef enum __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundTaskThrot
 typedef enum __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundWorkCostValue __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundWorkCostValue;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CBackground_CCustomSystemEventTriggerRecurrence __x_ABI_CWindows_CApplicationModel_CBackground_CCustomSystemEventTriggerRecurrence;
+
+typedef enum __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel;
 
 typedef enum __x_ABI_CWindows_CApplicationModel_CBackground_CLocationTriggerType __x_ABI_CWindows_CApplicationModel_CBackground_CLocationTriggerType;
 
@@ -2279,6 +2395,14 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CDeviceTriggerResult
     __x_ABI_CWindows_CApplicationModel_CBackground_CDeviceTriggerResult_DeniedByUser = 1,
     __x_ABI_CWindows_CApplicationModel_CBackground_CDeviceTriggerResult_DeniedBySystem = 2,
     __x_ABI_CWindows_CApplicationModel_CBackground_CDeviceTriggerResult_LowBattery = 3,
+};
+
+enum __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel
+    {
+        __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel_Unknown = 0,
+    __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel_UnderHalfOfBudget = 1,
+    __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel_OverHalfOfBudget = 2,
+    __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel_OverBudget = 3,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CBackground_CLocationTriggerType
@@ -2850,6 +2974,46 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics2;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestAccessKindForModernStandbyAsync)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+        enum __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundAccessRequestKind requestedAccess,
+        HSTRING reason,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* GetAccessStatusForModernStandby)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+        enum __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundAccessStatus* result);
+    HRESULT (STDMETHODCALLTYPE* GetAccessStatusForModernStandbyForApplication)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3* This,
+        HSTRING applicationId,
+        enum __x_ABI_CWindows_CApplicationModel_CBackground_CBackgroundAccessStatus* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundExecutionManagerStatics3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskVtbl
@@ -3032,6 +3196,112 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder4;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetTaskEntryPointClsid)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5* This,
+        GUID TaskEntryPoint);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowRunningTaskInStandby)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowRunningTaskInStandby)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* Validate)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* Register)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6* This,
+        HSTRING taskName,
+        __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilder6_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsRunningTaskInStandbySupported)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStaticsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskBuilderStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskCompletedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskCompletedEventArgs_INTERFACE_DEFINED__
@@ -3364,6 +3634,41 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration3;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TaskLastThrottledInStandbyTimestamp)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_AppEnergyUsePredictionContribution)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4* This,
+        DOUBLE* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistration4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroup_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskRegistrationGroupVtbl
@@ -3577,6 +3882,43 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AppEnergyUseLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+        enum __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel* value);
+    HRESULT (STDMETHODCALLTYPE* get_AppEnergyUsePrediction)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+        enum __x_ABI_CWindows_CApplicationModel_CBackground_CEnergyUseLevel* value);
+    HRESULT (STDMETHODCALLTYPE* get_AppLastThrottledInStandbyTimestamp)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundWorkCostStatics2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTriggerVtbl
@@ -3609,6 +3951,92 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PreferredTransmitPowerLevelInDBm)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        __x_ABI_C__FIReference_1_short** value);
+    HRESULT (STDMETHODCALLTYPE* put_PreferredTransmitPowerLevelInDBm)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        __x_ABI_C__FIReference_1_short* value);
+    HRESULT (STDMETHODCALLTYPE* get_UseExtendedFormat)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_UseExtendedFormat)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAnonymous)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsAnonymous)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeTransmitPowerLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeTransmitPowerLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PrimaryPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+        enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType* value);
+    HRESULT (STDMETHODCALLTYPE* put_PrimaryPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+        enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType value);
+    HRESULT (STDMETHODCALLTYPE* get_SecondaryPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+        enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType* value);
+    HRESULT (STDMETHODCALLTYPE* put_SecondaryPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3* This,
+        enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPhyType value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementPublisherTrigger3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_INTERFACE_DEFINED__
@@ -3656,6 +4084,84 @@ enum __x_ABI_CWindows_CApplicationModel_CBackground_CSystemTriggerType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowExtendedAdvertisements)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowExtendedAdvertisements)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_UseUncoded1MPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_UseUncoded1MPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_UseCodedPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_UseCodedPhy)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ScanParameters)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters** value);
+    HRESULT (STDMETHODCALLTYPE* put_ScanParameters)(__x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementScanParameters* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CIBluetoothLEAdvertisementWatcherTrigger3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CBackground_CICachedFileUpdaterTrigger_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CBackground_CICachedFileUpdaterTrigger_INTERFACE_DEFINED__

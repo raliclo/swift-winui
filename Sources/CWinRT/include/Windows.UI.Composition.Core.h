@@ -91,7 +91,7 @@
         __x_ABI_CWindows_CUI_CComposition_CICompositor** value);
     HRESULT (STDMETHODCALLTYPE* Commit)(__x_ABI_CWindows_CUI_CComposition_CCore_CICompositorController* This);
     HRESULT (STDMETHODCALLTYPE* EnsurePreviousCommitCompletedAsync)(__x_ABI_CWindows_CUI_CComposition_CCore_CICompositorController* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** action);
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
     HRESULT (STDMETHODCALLTYPE* add_CommitNeeded)(__x_ABI_CWindows_CUI_CComposition_CCore_CICompositorController* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CComposition__CCore__CCompositorController_IInspectable* handler,
         EventRegistrationToken* token);

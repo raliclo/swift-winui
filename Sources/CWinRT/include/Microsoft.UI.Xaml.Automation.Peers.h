@@ -1083,6 +1083,18 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitButtonAutomationPeerFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer;
@@ -2346,6 +2358,12 @@ typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CAutomationTextEditChangeT
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButton __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButton;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButton_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_FWD_DEFINED__
@@ -8863,6 +8881,73 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CRawElementProviderRuntim
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitButtonAutomationPeerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitButtonAutomationPeerFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstanceWithOwner)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* owner,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeer** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactoryVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CISplitMenuFlyoutItemAutomationPeerFactory_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CITabViewAutomationPeer_INTERFACE_DEFINED__

@@ -701,6 +701,7 @@ enum __x_ABI_CWindows_CDevices_CEnumeration_CPnp_CPnpObjectType
     __x_ABI_CWindows_CDevices_CEnumeration_CPnp_CPnpObjectType_AssociationEndpointContainer = 6,
     __x_ABI_CWindows_CDevices_CEnumeration_CPnp_CPnpObjectType_AssociationEndpointService = 7,
     __x_ABI_CWindows_CDevices_CEnumeration_CPnp_CPnpObjectType_DevicePanel = 8,
+    __x_ABI_CWindows_CDevices_CEnumeration_CPnp_CPnpObjectType_AssociationEndpointProtocol = 9,
 };
 
 #if !defined(____x_ABI_CWindows_CDevices_CEnumeration_CPnp_CIPnpObject_INTERFACE_DEFINED__)

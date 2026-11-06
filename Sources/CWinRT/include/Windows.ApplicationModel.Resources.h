@@ -45,6 +45,12 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4 __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
@@ -271,4 +277,38 @@
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics3;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefaultPriPath)(__x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4* This,
+        HSTRING packageFullName,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CResources_CIResourceLoaderStatics4_INTERFACE_DEFINED__) */
     

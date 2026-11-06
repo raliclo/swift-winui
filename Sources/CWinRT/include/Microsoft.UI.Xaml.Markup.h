@@ -8,6 +8,7 @@
 #include "Windows.Foundation.h"
 #include "Microsoft.UI.Xaml.h"
 #include "Windows.Storage.Streams.h"
+#include "Windows.UI.h"
 #include "Windows.UI.Xaml.Interop.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
@@ -96,6 +97,18 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2 __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMarkupHelper_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMarkupHelper_FWD_DEFINED__
@@ -356,6 +369,8 @@
     
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CStorage__CStreams__CIRandomAccessStream_INTERFACE_DEFINED__
     
+typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius;
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIDependencyObject_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIDependencyObject_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyObject __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyObject;
@@ -373,6 +388,8 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIXamlServiceProvider __x_ABI_CMicrosoft_CUI_CXaml_CIXamlServiceProvider;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlServiceProvider_FWD_DEFINED__
+
+typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness __x_ABI_CMicrosoft_CUI_CXaml_CThickness;
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIUIElement_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIUIElement_FWD_DEFINED__
@@ -395,6 +412,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+
+typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 typedef struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName;
 
@@ -976,6 +995,83 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXmlnsDefinition
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetPropertyFromThickness)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+        IInspectable* dependencyObject,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty* propertyToSet,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* SetPropertyFromCornerRadius)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+        IInspectable* dependencyObject,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty* propertyToSet,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius value);
+    HRESULT (STDMETHODCALLTYPE* SetPropertyFromColor)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2* This,
+        IInspectable* dependencyObject,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty* propertyToSet,
+        struct __x_ABI_CWindows_CUI_CColor value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlBindingHelperStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlConditionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Evaluate)(__x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition* This,
+        HSTRING argument,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlConditionVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlConditionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlCondition_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMarkupHelper_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CIXamlMarkupHelper_INTERFACE_DEFINED__

@@ -33,6 +33,12 @@
 
 #endif // ____x_ABI_CWindows_CWeb_CHttp_CIHttpClient2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3 __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3;
+
+#endif // ____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory __x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory;
@@ -134,6 +140,12 @@
     typedef interface __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage;
 
 #endif // ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2 __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2;
+
+#endif // ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory_FWD_DEFINED__
@@ -2839,6 +2851,41 @@ struct __x_ABI_CWindows_CWeb_CHttp_CHttpProgress
     EXTERN_C const IID IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient2;
 #endif /* !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpClient2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DefaultPrivacyAnnotation)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_DefaultPrivacyAnnotation)(__x_ABI_CWindows_CWeb_CHttp_CIHttpClient3* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3Vtbl;
+
+    interface __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient3;
+#endif /* !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpClient3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactoryVtbl
@@ -3514,6 +3561,41 @@ struct __x_ABI_CWindows_CWeb_CHttp_CHttpProgress
     
     EXTERN_C const IID IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage;
 #endif /* !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PrivacyAnnotation)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_PrivacyAnnotation)(__x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2Vtbl;
+
+    interface __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2;
+#endif /* !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory_INTERFACE_DEFINED__

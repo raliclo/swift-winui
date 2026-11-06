@@ -47,6 +47,9 @@ enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP709 = 22,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP2020 = 23,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24TopLeftP2020 = 24,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG10NoneP2020 = 25,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22ExtNoneP709 = 26,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22NoneP3 = 27,
 };
 
 enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat
@@ -170,6 +173,9 @@ enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_P208 = 130,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_V208 = 131,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_V408 = 132,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMinMipOpaque = 189,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMipRegionUsedOpaque = 190,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_A4B4G4R4 = 191,
 };
 
 enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPrimitiveTopology

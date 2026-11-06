@@ -22,74 +22,81 @@ public final class Language : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CGlobalization_CILanguage>?) -> Language? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ILanguageFactory: __ABI_Windows_Globalization.ILanguageFactory = try! RoGetActivationFactory(HString("Windows.Globalization.Language"))
+    private static let _ILanguageFactory: __ABI_Windows_Globalization.ILanguageFactory = try! RoGetActivationFactory("Windows.Globalization.Language")
     public init(_ languageTag: String) {
-        super.init(try! Self._ILanguageFactory.CreateLanguageImpl(languageTag))
+        super.init(try! Self._ILanguageFactory.CreateLanguage(languageTag))
     }
 
-    private static let _ILanguageStatics: __ABI_Windows_Globalization.ILanguageStatics = try! RoGetActivationFactory(HString("Windows.Globalization.Language"))
+    private static let _ILanguageStatics: __ABI_Windows_Globalization.ILanguageStatics = try! RoGetActivationFactory("Windows.Globalization.Language")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.iswellformed)
-    public static func isWellFormed(_ languageTag: String) -> Bool {
-        return try! _ILanguageStatics.IsWellFormedImpl(languageTag)
+    public static func isWellFormed(_ languageTag: String) throws -> Bool {
+        return try _ILanguageStatics.IsWellFormed(languageTag)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.currentinputmethodlanguagetag)
     public static var currentInputMethodLanguageTag : String {
-        get { try! _ILanguageStatics.get_CurrentInputMethodLanguageTagImpl() }
+        get { try! _ILanguageStatics.get_CurrentInputMethodLanguageTag() }
     }
 
-    private static let _ILanguageStatics2: __ABI_Windows_Globalization.ILanguageStatics2 = try! RoGetActivationFactory(HString("Windows.Globalization.Language"))
+    private static let _ILanguageStatics2: __ABI_Windows_Globalization.ILanguageStatics2 = try! RoGetActivationFactory("Windows.Globalization.Language")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.trysetinputmethodlanguagetag)
-    public static func trySetInputMethodLanguageTag(_ languageTag: String) -> Bool {
-        return try! _ILanguageStatics2.TrySetInputMethodLanguageTagImpl(languageTag)
+    public static func trySetInputMethodLanguageTag(_ languageTag: String) throws -> Bool {
+        return try _ILanguageStatics2.TrySetInputMethodLanguageTag(languageTag)
+    }
+
+    private static let _ILanguageStatics3: __ABI_Windows_Globalization.ILanguageStatics3 = try! RoGetActivationFactory("Windows.Globalization.Language")
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.getmuicompatiblelanguagelistfromlanguagetags)
+    public static func getMuiCompatibleLanguageListFromLanguageTags(_ languageTags: WindowsFoundation.AnyIIterable<String>!) throws -> WindowsFoundation.AnyIVector<String>! {
+        return try _ILanguageStatics3.GetMuiCompatibleLanguageListFromLanguageTags(languageTags)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.displayname)
     public var displayName : String {
-        get { try! _default.get_DisplayNameImpl() }
+        get { try! _default.get_DisplayName() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.languagetag)
     public var languageTag : String {
-        get { try! _default.get_LanguageTagImpl() }
+        get { try! _default.get_LanguageTag() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.nativename)
     public var nativeName : String {
-        get { try! _default.get_NativeNameImpl() }
+        get { try! _default.get_NativeName() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.script)
     public var script : String {
-        get { try! _default.get_ScriptImpl() }
+        get { try! _default.get_Script() }
     }
 
     private lazy var _ILanguageExtensionSubtags: __ABI_Windows_Globalization.ILanguageExtensionSubtags! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.getextensionsubtags)
     public func getExtensionSubtags(_ singleton: String) throws -> WindowsFoundation.AnyIVectorView<String>! {
-        try _ILanguageExtensionSubtags.GetExtensionSubtagsImpl(singleton)
+        try _ILanguageExtensionSubtags.GetExtensionSubtags(singleton)
     }
 
     private lazy var _ILanguage2: __ABI_Windows_Globalization.ILanguage2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.layoutdirection)
     public var layoutDirection : LanguageLayoutDirection {
-        get { try! _ILanguage2.get_LayoutDirectionImpl() }
+        get { try! _ILanguage2.get_LayoutDirection() }
+    }
+
+    private lazy var _ILanguage3: __ABI_Windows_Globalization.ILanguage3! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.globalization.language.abbreviatedname)
+    public var abbreviatedName : String {
+        get { try! _ILanguage3.get_AbbreviatedName() }
     }
 
     deinit {
         _default = nil
         _ILanguageExtensionSubtags = nil
         _ILanguage2 = nil
+        _ILanguage3 = nil
     }
 }
 
@@ -116,7 +123,7 @@ extension UWP.DayOfWeek {
         __x_ABI_CWindows_CGlobalization_CDayOfWeek_Saturday
     }
 }
-extension UWP.DayOfWeek: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DayOfWeek: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.LanguageLayoutDirection {
     public static var ltr : UWP.LanguageLayoutDirection {
@@ -132,5 +139,5 @@ extension UWP.LanguageLayoutDirection {
         __x_ABI_CWindows_CGlobalization_CLanguageLayoutDirection_TtbRtl
     }
 }
-extension UWP.LanguageLayoutDirection: @retroactive Hashable, @retroactive Codable {}
+extension UWP.LanguageLayoutDirection: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

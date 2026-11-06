@@ -22,6 +22,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2 __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails;
@@ -45,6 +51,12 @@
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection;
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2 __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnectionStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnectionStatics_FWD_DEFINED__
@@ -533,6 +545,44 @@ typedef interface __x_ABI_C__FIMapView_2_HSTRING___x_ABI_CWindows__CDevices__CBl
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CBluetooth__CGenericAttributeProfile__CGattValueChangedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_short __x_ABI_C__FIReference_1_short;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_short;
+
+    typedef struct __x_ABI_C__FIReference_1_shortVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_short* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_short* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_short* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_short* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_short* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_short* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_short* This,
+        INT16* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_shortVtbl;
+
+    interface __x_ABI_C__FIReference_1_short
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_shortVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_short_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPublisherStatus __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementPublisherStatus;
 
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothDevice_FWD_DEFINED__
@@ -563,11 +613,23 @@ typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities 
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattLocalService_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters __x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CRfcomm_CIRfcommServiceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CRfcomm_CIRfcommServiceId_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CRfcomm_CIRfcommServiceId __x_ABI_CWindows_CDevices_CBluetooth_CRfcomm_CIRfcommServiceId;
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CRfcomm_CIRfcommServiceId_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CSockets_CIStreamSocket_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CSockets_CIStreamSocket_FWD_DEFINED__
@@ -624,6 +686,39 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CBluetoothEventTriggeringM
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SelectedTransmitPowerLevelInDBm)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2* This,
+        __x_ABI_C__FIReference_1_short** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementPublisherTriggerDetails2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIBluetoothLEAdvertisementWatcherTriggerDetails_INTERFACE_DEFINED__
@@ -769,6 +864,39 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CBluetoothEventTriggeringM
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* UpdateAdvertisingParameters)(__x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CGenericAttributeProfile_CIGattServiceProviderAdvertisingParameters* parameters);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnection2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnectionStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CBackground_CIGattServiceProviderConnectionStatics_INTERFACE_DEFINED__

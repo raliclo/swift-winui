@@ -79,6 +79,12 @@
 
 #endif // ____x_ABI_CWindows_CServices_CStore_CIStoreContext4_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CServices_CStore_CIStoreContext5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CServices_CStore_CIStoreContext5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CServices_CStore_CIStoreContext5 __x_ABI_CWindows_CServices_CStore_CIStoreContext5;
+
+#endif // ____x_ABI_CWindows_CServices_CStore_CIStoreContext5_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CServices_CStore_CIStoreContextStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CServices_CStore_CIStoreContextStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CServices_CStore_CIStoreContextStatics __x_ABI_CWindows_CServices_CStore_CIStoreContextStatics;
@@ -132,6 +138,12 @@
     typedef interface __x_ABI_CWindows_CServices_CStore_CIStorePrice __x_ABI_CWindows_CServices_CStore_CIStorePrice;
 
 #endif // ____x_ABI_CWindows_CServices_CStore_CIStorePrice_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CServices_CStore_CIStorePrice2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CServices_CStore_CIStorePrice2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CServices_CStore_CIStorePrice2 __x_ABI_CWindows_CServices_CStore_CIStorePrice2;
+
+#endif // ____x_ABI_CWindows_CServices_CStore_CIStorePrice2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CServices_CStore_CIStoreProduct_FWD_DEFINED__
 #define ____x_ABI_CWindows_CServices_CStore_CIStoreProduct_FWD_DEFINED__
@@ -3827,6 +3839,46 @@ struct __x_ABI_CWindows_CServices_CStore_CStorePackageUpdateStatus
     EXTERN_C const IID IID___x_ABI_CWindows_CServices_CStore_CIStoreContext4;
 #endif /* !defined(____x_ABI_CWindows_CServices_CStore_CIStoreContext4_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CServices_CStore_CIStoreContext5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CServices_CStore_CIStoreContext5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CServices_CStore_CIStoreContext5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetUserPurchaseHistoryAsync)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+        __x_ABI_C__FIIterable_1_HSTRING* productKinds,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CServices__CStore__CStoreProductQueryResult** operation);
+    HRESULT (STDMETHODCALLTYPE* GetAssociatedStoreProductsByInAppOfferTokenAsync)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+        __x_ABI_C__FIIterable_1_HSTRING* inAppOfferTokens,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CServices__CStore__CStoreProductQueryResult** operation);
+    HRESULT (STDMETHODCALLTYPE* RequestPurchaseByInAppOfferTokenAsync)(__x_ABI_CWindows_CServices_CStore_CIStoreContext5* This,
+        HSTRING inAppOfferToken,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CServices__CStore__CStorePurchaseResult** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CServices_CStore_CIStoreContext5Vtbl;
+
+    interface __x_ABI_CWindows_CServices_CStore_CIStoreContext5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CServices_CStore_CIStoreContext5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CServices_CStore_CIStoreContext5;
+#endif /* !defined(____x_ABI_CWindows_CServices_CStore_CIStoreContext5_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CServices_CStore_CIStoreContextStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CServices_CStore_CIStoreContextStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CServices_CStore_CIStoreContextStaticsVtbl
@@ -4166,6 +4218,43 @@ struct __x_ABI_CWindows_CServices_CStore_CStorePackageUpdateStatus
     
     EXTERN_C const IID IID___x_ABI_CWindows_CServices_CStore_CIStorePrice;
 #endif /* !defined(____x_ABI_CWindows_CServices_CStore_CIStorePrice_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CServices_CStore_CIStorePrice2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CServices_CStore_CIStorePrice2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CServices_CStore_CIStorePrice2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_UnformattedBasePrice)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_UnformattedPrice)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_UnformattedRecurrencePrice)(__x_ABI_CWindows_CServices_CStore_CIStorePrice2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CServices_CStore_CIStorePrice2Vtbl;
+
+    interface __x_ABI_CWindows_CServices_CStore_CIStorePrice2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CServices_CStore_CIStorePrice2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CServices_CStore_CIStorePrice2;
+#endif /* !defined(____x_ABI_CWindows_CServices_CStore_CIStorePrice2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CServices_CStore_CIStoreProduct_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CServices_CStore_CIStoreProduct_INTERFACE_DEFINED__

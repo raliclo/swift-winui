@@ -671,6 +671,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIVisualStateChangedEventHandler 
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CISetterFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2 __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs;
@@ -10193,6 +10199,39 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CISetterFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CISetterFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ValueProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CISetterStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CISizeChangedEventArgs_INTERFACE_DEFINED__

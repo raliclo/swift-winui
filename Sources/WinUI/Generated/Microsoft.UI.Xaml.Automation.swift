@@ -22,50 +22,45 @@ public final class AutomationAnnotation : WinUI.DependencyObject {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationAnnotation>?) -> AutomationAnnotation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     override public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi: fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Microsoft.UI.Xaml.Automation.AutomationAnnotation")
     override public init() {
-        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Automation.AutomationAnnotation")))
+        super.init(fromAbi: try! Self._defaultFactory.ActivateInstance())
     }
 
-    private static let _IAutomationAnnotationFactory: __ABI_Microsoft_UI_Xaml_Automation.IAutomationAnnotationFactory = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Automation.AutomationAnnotation"))
+    private static let _IAutomationAnnotationFactory: __ABI_Microsoft_UI_Xaml_Automation.IAutomationAnnotationFactory = try! RoGetActivationFactory("Microsoft.UI.Xaml.Automation.AutomationAnnotation")
     public init(_ type: AnnotationType) {
-        super.init(fromAbi: try! Self._IAutomationAnnotationFactory.CreateInstanceImpl(type))
+        super.init(fromAbi: try! Self._IAutomationAnnotationFactory.CreateInstance(type))
     }
 
     public init(_ type: AnnotationType, _ element: WinUI.UIElement!) {
-        super.init(fromAbi: try! Self._IAutomationAnnotationFactory.CreateWithElementParameterImpl(type, element))
+        super.init(fromAbi: try! Self._IAutomationAnnotationFactory.CreateWithElementParameter(type, element))
     }
 
-    private static let _IAutomationAnnotationStatics: __ABI_Microsoft_UI_Xaml_Automation.IAutomationAnnotationStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Automation.AutomationAnnotation"))
+    private static let _IAutomationAnnotationStatics: __ABI_Microsoft_UI_Xaml_Automation.IAutomationAnnotationStatics = try! RoGetActivationFactory("Microsoft.UI.Xaml.Automation.AutomationAnnotation")
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationannotation.elementproperty)
     public static var elementProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationAnnotationStatics.get_ElementPropertyImpl() }
+        get { try! _IAutomationAnnotationStatics.get_ElementProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationannotation.typeproperty)
     public static var typeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationAnnotationStatics.get_TypePropertyImpl() }
+        get { try! _IAutomationAnnotationStatics.get_TypeProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationannotation.element)
     public var element : WinUI.UIElement! {
-        get { try! _default.get_ElementImpl() }
-        set { try! _default.put_ElementImpl(newValue) }
+        get { try! _default.get_Element() }
+        set { try! _default.put_Element(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationannotation.type)
     public var type : AnnotationType {
-        get { try! _default.get_TypeImpl() }
-        set { try! _default.put_TypeImpl(newValue) }
+        get { try! _default.get_Type() }
+        set { try! _default.put_Type(newValue) }
     }
 
     deinit {
@@ -87,426 +82,420 @@ public final class AutomationProperties : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperties>?) -> AutomationProperties? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IAutomationPropertiesStatics: __ABI_Microsoft_UI_Xaml_Automation.IAutomationPropertiesStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Automation.AutomationProperties"))
+    private static let _IAutomationPropertiesStatics: __ABI_Microsoft_UI_Xaml_Automation.IAutomationPropertiesStatics = try! RoGetActivationFactory("Microsoft.UI.Xaml.Automation.AutomationProperties")
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getacceleratorkey)
-    public static func getAcceleratorKey(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetAcceleratorKeyImpl(element)
+    public static func getAcceleratorKey(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetAcceleratorKey(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setacceleratorkey)
-    public static func setAcceleratorKey(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetAcceleratorKeyImpl(element, value)
+    public static func setAcceleratorKey(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetAcceleratorKey(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getaccesskey)
-    public static func getAccessKey(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetAccessKeyImpl(element)
+    public static func getAccessKey(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetAccessKey(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setaccesskey)
-    public static func setAccessKey(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetAccessKeyImpl(element, value)
+    public static func setAccessKey(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetAccessKey(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getautomationid)
-    public static func getAutomationId(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetAutomationIdImpl(element)
+    public static func getAutomationId(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetAutomationId(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setautomationid)
-    public static func setAutomationId(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetAutomationIdImpl(element, value)
+    public static func setAutomationId(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetAutomationId(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.gethelptext)
-    public static func getHelpText(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetHelpTextImpl(element)
+    public static func getHelpText(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetHelpText(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.sethelptext)
-    public static func setHelpText(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetHelpTextImpl(element, value)
+    public static func setHelpText(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetHelpText(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getisrequiredforform)
-    public static func getIsRequiredForForm(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IAutomationPropertiesStatics.GetIsRequiredForFormImpl(element)
+    public static func getIsRequiredForForm(_ element: WinUI.DependencyObject!) throws -> Bool {
+        return try _IAutomationPropertiesStatics.GetIsRequiredForForm(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setisrequiredforform)
-    public static func setIsRequiredForForm(_ element: WinUI.DependencyObject!, _ value: Bool) {
-        try! _IAutomationPropertiesStatics.SetIsRequiredForFormImpl(element, value)
+    public static func setIsRequiredForForm(_ element: WinUI.DependencyObject!, _ value: Bool) throws {
+        try _IAutomationPropertiesStatics.SetIsRequiredForForm(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getitemstatus)
-    public static func getItemStatus(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetItemStatusImpl(element)
+    public static func getItemStatus(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetItemStatus(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setitemstatus)
-    public static func setItemStatus(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetItemStatusImpl(element, value)
+    public static func setItemStatus(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetItemStatus(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getitemtype)
-    public static func getItemType(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetItemTypeImpl(element)
+    public static func getItemType(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetItemType(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setitemtype)
-    public static func setItemType(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetItemTypeImpl(element, value)
+    public static func setItemType(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetItemType(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlabeledby)
-    public static func getLabeledBy(_ element: WinUI.DependencyObject!) -> WinUI.UIElement! {
-        return try! _IAutomationPropertiesStatics.GetLabeledByImpl(element)
+    public static func getLabeledBy(_ element: WinUI.DependencyObject!) throws -> WinUI.UIElement! {
+        return try _IAutomationPropertiesStatics.GetLabeledBy(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlabeledby)
-    public static func setLabeledBy(_ element: WinUI.DependencyObject!, _ value: WinUI.UIElement!) {
-        try! _IAutomationPropertiesStatics.SetLabeledByImpl(element, value)
+    public static func setLabeledBy(_ element: WinUI.DependencyObject!, _ value: WinUI.UIElement!) throws {
+        try _IAutomationPropertiesStatics.SetLabeledBy(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getname)
-    public static func getName(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetNameImpl(element)
+    public static func getName(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetName(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setname)
-    public static func setName(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetNameImpl(element, value)
+    public static func setName(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetName(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlivesetting)
-    public static func getLiveSetting(_ element: WinUI.DependencyObject!) -> WinUI.AutomationLiveSetting {
-        return try! _IAutomationPropertiesStatics.GetLiveSettingImpl(element)
+    public static func getLiveSetting(_ element: WinUI.DependencyObject!) throws -> WinUI.AutomationLiveSetting {
+        return try _IAutomationPropertiesStatics.GetLiveSetting(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlivesetting)
-    public static func setLiveSetting(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationLiveSetting) {
-        try! _IAutomationPropertiesStatics.SetLiveSettingImpl(element, value)
+    public static func setLiveSetting(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationLiveSetting) throws {
+        try _IAutomationPropertiesStatics.SetLiveSetting(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getaccessibilityview)
-    public static func getAccessibilityView(_ element: WinUI.DependencyObject!) -> WinUI.AccessibilityView {
-        return try! _IAutomationPropertiesStatics.GetAccessibilityViewImpl(element)
+    public static func getAccessibilityView(_ element: WinUI.DependencyObject!) throws -> WinUI.AccessibilityView {
+        return try _IAutomationPropertiesStatics.GetAccessibilityView(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setaccessibilityview)
-    public static func setAccessibilityView(_ element: WinUI.DependencyObject!, _ value: WinUI.AccessibilityView) {
-        try! _IAutomationPropertiesStatics.SetAccessibilityViewImpl(element, value)
+    public static func setAccessibilityView(_ element: WinUI.DependencyObject!, _ value: WinUI.AccessibilityView) throws {
+        try _IAutomationPropertiesStatics.SetAccessibilityView(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getcontrolledpeers)
-    public static func getControlledPeers(_ element: WinUI.DependencyObject!) -> WindowsFoundation.AnyIVector<WinUI.UIElement?>! {
-        return try! _IAutomationPropertiesStatics.GetControlledPeersImpl(element)
+    public static func getControlledPeers(_ element: WinUI.DependencyObject!) throws -> WindowsFoundation.AnyIVector<WinUI.UIElement?>! {
+        return try _IAutomationPropertiesStatics.GetControlledPeers(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getpositioninset)
-    public static func getPositionInSet(_ element: WinUI.DependencyObject!) -> Int32 {
-        return try! _IAutomationPropertiesStatics.GetPositionInSetImpl(element)
+    public static func getPositionInSet(_ element: WinUI.DependencyObject!) throws -> Int32 {
+        return try _IAutomationPropertiesStatics.GetPositionInSet(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setpositioninset)
-    public static func setPositionInSet(_ element: WinUI.DependencyObject!, _ value: Int32) {
-        try! _IAutomationPropertiesStatics.SetPositionInSetImpl(element, value)
+    public static func setPositionInSet(_ element: WinUI.DependencyObject!, _ value: Int32) throws {
+        try _IAutomationPropertiesStatics.SetPositionInSet(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getsizeofset)
-    public static func getSizeOfSet(_ element: WinUI.DependencyObject!) -> Int32 {
-        return try! _IAutomationPropertiesStatics.GetSizeOfSetImpl(element)
+    public static func getSizeOfSet(_ element: WinUI.DependencyObject!) throws -> Int32 {
+        return try _IAutomationPropertiesStatics.GetSizeOfSet(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setsizeofset)
-    public static func setSizeOfSet(_ element: WinUI.DependencyObject!, _ value: Int32) {
-        try! _IAutomationPropertiesStatics.SetSizeOfSetImpl(element, value)
+    public static func setSizeOfSet(_ element: WinUI.DependencyObject!, _ value: Int32) throws {
+        try _IAutomationPropertiesStatics.SetSizeOfSet(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlevel)
-    public static func getLevel(_ element: WinUI.DependencyObject!) -> Int32 {
-        return try! _IAutomationPropertiesStatics.GetLevelImpl(element)
+    public static func getLevel(_ element: WinUI.DependencyObject!) throws -> Int32 {
+        return try _IAutomationPropertiesStatics.GetLevel(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlevel)
-    public static func setLevel(_ element: WinUI.DependencyObject!, _ value: Int32) {
-        try! _IAutomationPropertiesStatics.SetLevelImpl(element, value)
+    public static func setLevel(_ element: WinUI.DependencyObject!, _ value: Int32) throws {
+        try _IAutomationPropertiesStatics.SetLevel(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getannotations)
-    public static func getAnnotations(_ element: WinUI.DependencyObject!) -> WindowsFoundation.AnyIVector<AutomationAnnotation?>! {
-        return try! _IAutomationPropertiesStatics.GetAnnotationsImpl(element)
+    public static func getAnnotations(_ element: WinUI.DependencyObject!) throws -> WindowsFoundation.AnyIVector<AutomationAnnotation?>! {
+        return try _IAutomationPropertiesStatics.GetAnnotations(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlandmarktype)
-    public static func getLandmarkType(_ element: WinUI.DependencyObject!) -> WinUI.AutomationLandmarkType {
-        return try! _IAutomationPropertiesStatics.GetLandmarkTypeImpl(element)
+    public static func getLandmarkType(_ element: WinUI.DependencyObject!) throws -> WinUI.AutomationLandmarkType {
+        return try _IAutomationPropertiesStatics.GetLandmarkType(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlandmarktype)
-    public static func setLandmarkType(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationLandmarkType) {
-        try! _IAutomationPropertiesStatics.SetLandmarkTypeImpl(element, value)
+    public static func setLandmarkType(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationLandmarkType) throws {
+        try _IAutomationPropertiesStatics.SetLandmarkType(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlocalizedlandmarktype)
-    public static func getLocalizedLandmarkType(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetLocalizedLandmarkTypeImpl(element)
+    public static func getLocalizedLandmarkType(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetLocalizedLandmarkType(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlocalizedlandmarktype)
-    public static func setLocalizedLandmarkType(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetLocalizedLandmarkTypeImpl(element, value)
+    public static func setLocalizedLandmarkType(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetLocalizedLandmarkType(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getisperipheral)
-    public static func getIsPeripheral(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IAutomationPropertiesStatics.GetIsPeripheralImpl(element)
+    public static func getIsPeripheral(_ element: WinUI.DependencyObject!) throws -> Bool {
+        return try _IAutomationPropertiesStatics.GetIsPeripheral(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setisperipheral)
-    public static func setIsPeripheral(_ element: WinUI.DependencyObject!, _ value: Bool) {
-        try! _IAutomationPropertiesStatics.SetIsPeripheralImpl(element, value)
+    public static func setIsPeripheral(_ element: WinUI.DependencyObject!, _ value: Bool) throws {
+        try _IAutomationPropertiesStatics.SetIsPeripheral(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getisdatavalidforform)
-    public static func getIsDataValidForForm(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IAutomationPropertiesStatics.GetIsDataValidForFormImpl(element)
+    public static func getIsDataValidForForm(_ element: WinUI.DependencyObject!) throws -> Bool {
+        return try _IAutomationPropertiesStatics.GetIsDataValidForForm(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setisdatavalidforform)
-    public static func setIsDataValidForForm(_ element: WinUI.DependencyObject!, _ value: Bool) {
-        try! _IAutomationPropertiesStatics.SetIsDataValidForFormImpl(element, value)
+    public static func setIsDataValidForForm(_ element: WinUI.DependencyObject!, _ value: Bool) throws {
+        try _IAutomationPropertiesStatics.SetIsDataValidForForm(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getfulldescription)
-    public static func getFullDescription(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetFullDescriptionImpl(element)
+    public static func getFullDescription(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetFullDescription(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setfulldescription)
-    public static func setFullDescription(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetFullDescriptionImpl(element, value)
+    public static func setFullDescription(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetFullDescription(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getlocalizedcontroltype)
-    public static func getLocalizedControlType(_ element: WinUI.DependencyObject!) -> String {
-        return try! _IAutomationPropertiesStatics.GetLocalizedControlTypeImpl(element)
+    public static func getLocalizedControlType(_ element: WinUI.DependencyObject!) throws -> String {
+        return try _IAutomationPropertiesStatics.GetLocalizedControlType(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setlocalizedcontroltype)
-    public static func setLocalizedControlType(_ element: WinUI.DependencyObject!, _ value: String) {
-        try! _IAutomationPropertiesStatics.SetLocalizedControlTypeImpl(element, value)
+    public static func setLocalizedControlType(_ element: WinUI.DependencyObject!, _ value: String) throws {
+        try _IAutomationPropertiesStatics.SetLocalizedControlType(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getdescribedby)
-    public static func getDescribedBy(_ element: WinUI.DependencyObject!) -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
-        return try! _IAutomationPropertiesStatics.GetDescribedByImpl(element)
+    public static func getDescribedBy(_ element: WinUI.DependencyObject!) throws -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
+        return try _IAutomationPropertiesStatics.GetDescribedBy(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getflowsto)
-    public static func getFlowsTo(_ element: WinUI.DependencyObject!) -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
-        return try! _IAutomationPropertiesStatics.GetFlowsToImpl(element)
+    public static func getFlowsTo(_ element: WinUI.DependencyObject!) throws -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
+        return try _IAutomationPropertiesStatics.GetFlowsTo(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getflowsfrom)
-    public static func getFlowsFrom(_ element: WinUI.DependencyObject!) -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
-        return try! _IAutomationPropertiesStatics.GetFlowsFromImpl(element)
+    public static func getFlowsFrom(_ element: WinUI.DependencyObject!) throws -> WindowsFoundation.AnyIVector<WinUI.DependencyObject?>! {
+        return try _IAutomationPropertiesStatics.GetFlowsFrom(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getculture)
-    public static func getCulture(_ element: WinUI.DependencyObject!) -> Int32 {
-        return try! _IAutomationPropertiesStatics.GetCultureImpl(element)
+    public static func getCulture(_ element: WinUI.DependencyObject!) throws -> Int32 {
+        return try _IAutomationPropertiesStatics.GetCulture(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setculture)
-    public static func setCulture(_ element: WinUI.DependencyObject!, _ value: Int32) {
-        try! _IAutomationPropertiesStatics.SetCultureImpl(element, value)
+    public static func setCulture(_ element: WinUI.DependencyObject!, _ value: Int32) throws {
+        try _IAutomationPropertiesStatics.SetCulture(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getheadinglevel)
-    public static func getHeadingLevel(_ element: WinUI.DependencyObject!) -> WinUI.AutomationHeadingLevel {
-        return try! _IAutomationPropertiesStatics.GetHeadingLevelImpl(element)
+    public static func getHeadingLevel(_ element: WinUI.DependencyObject!) throws -> WinUI.AutomationHeadingLevel {
+        return try _IAutomationPropertiesStatics.GetHeadingLevel(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setheadinglevel)
-    public static func setHeadingLevel(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationHeadingLevel) {
-        try! _IAutomationPropertiesStatics.SetHeadingLevelImpl(element, value)
+    public static func setHeadingLevel(_ element: WinUI.DependencyObject!, _ value: WinUI.AutomationHeadingLevel) throws {
+        try _IAutomationPropertiesStatics.SetHeadingLevel(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getisdialog)
-    public static func getIsDialog(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IAutomationPropertiesStatics.GetIsDialogImpl(element)
+    public static func getIsDialog(_ element: WinUI.DependencyObject!) throws -> Bool {
+        return try _IAutomationPropertiesStatics.GetIsDialog(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setisdialog)
-    public static func setIsDialog(_ element: WinUI.DependencyObject!, _ value: Bool) {
-        try! _IAutomationPropertiesStatics.SetIsDialogImpl(element, value)
+    public static func setIsDialog(_ element: WinUI.DependencyObject!, _ value: Bool) throws {
+        try _IAutomationPropertiesStatics.SetIsDialog(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.acceleratorkeyproperty)
     public static var acceleratorKeyProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_AcceleratorKeyPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_AcceleratorKeyProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.accesskeyproperty)
     public static var accessKeyProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_AccessKeyPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_AccessKeyProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.accessibilityviewproperty)
     public static var accessibilityViewProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_AccessibilityViewPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_AccessibilityViewProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.annotationsproperty)
     public static var annotationsProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_AnnotationsPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_AnnotationsProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.automationidproperty)
     public static var automationIdProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_AutomationIdPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_AutomationIdProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.controlledpeersproperty)
     public static var controlledPeersProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_ControlledPeersPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_ControlledPeersProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.cultureproperty)
     public static var cultureProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_CulturePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_CultureProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.describedbyproperty)
     public static var describedByProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_DescribedByPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_DescribedByProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.flowsfromproperty)
     public static var flowsFromProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_FlowsFromPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_FlowsFromProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.flowstoproperty)
     public static var flowsToProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_FlowsToPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_FlowsToProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.fulldescriptionproperty)
     public static var fullDescriptionProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_FullDescriptionPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_FullDescriptionProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.headinglevelproperty)
     public static var headingLevelProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_HeadingLevelPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_HeadingLevelProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.helptextproperty)
     public static var helpTextProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_HelpTextPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_HelpTextProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.isdatavalidforformproperty)
     public static var isDataValidForFormProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_IsDataValidForFormPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_IsDataValidForFormProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.isdialogproperty)
     public static var isDialogProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_IsDialogPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_IsDialogProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.isperipheralproperty)
     public static var isPeripheralProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_IsPeripheralPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_IsPeripheralProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.isrequiredforformproperty)
     public static var isRequiredForFormProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_IsRequiredForFormPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_IsRequiredForFormProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.itemstatusproperty)
     public static var itemStatusProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_ItemStatusPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_ItemStatusProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.itemtypeproperty)
     public static var itemTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_ItemTypePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_ItemTypeProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.labeledbyproperty)
     public static var labeledByProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LabeledByPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LabeledByProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.landmarktypeproperty)
     public static var landmarkTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LandmarkTypePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LandmarkTypeProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.levelproperty)
     public static var levelProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LevelPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LevelProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.livesettingproperty)
     public static var liveSettingProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LiveSettingPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LiveSettingProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.localizedcontroltypeproperty)
     public static var localizedControlTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LocalizedControlTypePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LocalizedControlTypeProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.localizedlandmarktypeproperty)
     public static var localizedLandmarkTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_LocalizedLandmarkTypePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_LocalizedLandmarkTypeProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.nameproperty)
     public static var nameProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_NamePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_NameProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.positioninsetproperty)
     public static var positionInSetProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_PositionInSetPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_PositionInSetProperty() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.sizeofsetproperty)
     public static var sizeOfSetProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics.get_SizeOfSetPropertyImpl() }
+        get { try! _IAutomationPropertiesStatics.get_SizeOfSetProperty() }
     }
 
-    private static let _IAutomationPropertiesStatics2: __ABI_Microsoft_UI_Xaml_Automation.IAutomationPropertiesStatics2 = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Automation.AutomationProperties"))
+    private static let _IAutomationPropertiesStatics2: __ABI_Microsoft_UI_Xaml_Automation.IAutomationPropertiesStatics2 = try! RoGetActivationFactory("Microsoft.UI.Xaml.Automation.AutomationProperties")
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.getautomationcontroltype)
-    public static func getAutomationControlType(_ element: WinUI.UIElement!) -> WinUI.AutomationControlType {
-        return try! _IAutomationPropertiesStatics2.GetAutomationControlTypeImpl(element)
+    public static func getAutomationControlType(_ element: WinUI.UIElement!) throws -> WinUI.AutomationControlType {
+        return try _IAutomationPropertiesStatics2.GetAutomationControlType(element)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.setautomationcontroltype)
-    public static func setAutomationControlType(_ element: WinUI.UIElement!, _ value: WinUI.AutomationControlType) {
-        try! _IAutomationPropertiesStatics2.SetAutomationControlTypeImpl(element, value)
+    public static func setAutomationControlType(_ element: WinUI.UIElement!, _ value: WinUI.AutomationControlType) throws {
+        try _IAutomationPropertiesStatics2.SetAutomationControlType(element, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.automation.automationproperties.automationcontroltypeproperty)
     public static var automationControlTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IAutomationPropertiesStatics2.get_AutomationControlTypePropertyImpl() }
+        get { try! _IAutomationPropertiesStatics2.get_AutomationControlTypeProperty() }
     }
 
     deinit {
@@ -525,12 +514,6 @@ public final class AutomationProperty : WinRTClass {
             return RawPointer(_default)
         }
         return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CIAutomationProperty>?) -> AutomationProperty? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
     }
 
     @_spi(WinRTInternal)
@@ -614,7 +597,7 @@ extension WinUI.AnnotationType {
         __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CAnnotationType_CircularReferenceError
     }
 }
-extension WinUI.AnnotationType: @retroactive Hashable, @retroactive Codable {}
+extension WinUI.AnnotationType: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension WinUI.AutomationTextEditChangeType {
     public static var none : WinUI.AutomationTextEditChangeType {
@@ -630,5 +613,5 @@ extension WinUI.AutomationTextEditChangeType {
         __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CAutomationTextEditChangeType_CompositionFinalized
     }
 }
-extension WinUI.AutomationTextEditChangeType: @retroactive Hashable, @retroactive Codable {}
+extension WinUI.AutomationTextEditChangeType: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

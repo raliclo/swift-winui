@@ -30,6 +30,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2 __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
@@ -459,4 +465,39 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CApplicationDataLocality
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForUnpackaged)(__x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2* This,
+        HSTRING publisher,
+        HSTRING product,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationData** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CIApplicationDataStatics2_INTERFACE_DEFINED__) */
     

@@ -10,11 +10,35 @@
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager;
+
+#endif // ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics;
 
 #endif // ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2 __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2;
+
+#endif // ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3 __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3;
+
+#endif // ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_FWD_DEFINED__
@@ -552,6 +576,19 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
+typedef enum __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType;
+
+typedef struct __x_ABI_CWindows_CDevices_CHaptics_CHapticsControllerOverrideToken __x_ABI_CWindows_CDevices_CHaptics_CHapticsControllerOverrideToken;
+
+enum __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType
+    {
+        __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType_None = 0,
+    __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType_Generic = 1,
+    __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType_Pen = 2,
+    __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType_Touchpad = 3,
+    __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType_Mouse = 4,
+};
+
 enum __x_ABI_CWindows_CDevices_CHaptics_CVibrationAccessStatus
     {
         __x_ABI_CWindows_CDevices_CHaptics_CVibrationAccessStatus_Allowed = 0,
@@ -560,6 +597,118 @@ enum __x_ABI_CWindows_CDevices_CHaptics_CVibrationAccessStatus
     __x_ABI_CWindows_CDevices_CHaptics_CVibrationAccessStatus_DeniedByEnergySaver = 3,
 };
 
+struct __x_ABI_CWindows_CDevices_CHaptics_CHapticsControllerOverrideToken
+    {
+        INT64 Value;
+};
+
+#if !defined(____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ThreadId)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentHapticsControllerDeviceType)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        enum __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType* value);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentHapticsController)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        __x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController** value);
+    HRESULT (STDMETHODCALLTYPE* TrySendHapticWaveform)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        UINT16 waveform,
+        UINT16 waveformFallback,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* TrySendHapticWaveformWithIntensity)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        UINT16 waveform,
+        UINT16 waveformFallback,
+        DOUBLE intensity,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* TrySendHapticWaveformForDuration)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        UINT16 waveform,
+        UINT16 waveformFallback,
+        DOUBLE intensity,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan playDuration,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* TrySendHapticWaveformForPlayCount)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        UINT16 waveform,
+        UINT16 waveformFallback,
+        DOUBLE intensity,
+        INT32 playCount,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan replayPauseInterval,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* TryStopFeedback)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetOverrideHapticsController)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        enum __x_ABI_CWindows_CDevices_CHaptics_CHapticDeviceType deviceType,
+        __x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController* controller,
+        struct __x_ABI_CWindows_CDevices_CHaptics_CHapticsControllerOverrideToken* result);
+    HRESULT (STDMETHODCALLTYPE* ClearOverrideHapticsController)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager* This,
+        struct __x_ABI_CWindows_CDevices_CHaptics_CHapticsControllerOverrideToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsHapticDevicePresent)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetForCurrentThread)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+        __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager** result);
+    HRESULT (STDMETHODCALLTYPE* TryGetForThread)(__x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics* This,
+        UINT32 ThreadId,
+        __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManager** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CHaptics_CIInputHapticsManagerStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStaticsVtbl
@@ -600,6 +749,96 @@ enum __x_ABI_CWindows_CDevices_CHaptics_CVibrationAccessStatus
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_BrushContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_ChiselMarkerContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_EraserContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Error)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_GalaxyPenContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Hover)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_InkContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_MarkerContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_PencilContinuous)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Success)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2* This,
+        UINT16* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Collide)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Align)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Step)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_Grow)(__x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3* This,
+        UINT16* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CHaptics_CIKnownSimpleHapticsControllerWaveformsStatics3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_INTERFACE_DEFINED__

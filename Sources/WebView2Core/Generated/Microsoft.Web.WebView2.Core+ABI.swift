@@ -21,6 +21,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Ma
     .init(Data1: 0x6E62815A, Data2: 0x6269, Data3: 0x5756, Data4: ( 0x92,0xC3,0xF0,0x8A,0xFE,0x17,0x64,0x9C ))// 6E62815A-6269-5756-92C3-F08AFE17649C
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3: WindowsFoundation.IID {
+    .init(Data1: 0xC6129971, Data2: 0x9ECC, Data3: 0x5634, Data4: ( 0x88,0x96,0x72,0x3C,0x1D,0xBA,0xCD,0x6F ))// C6129971-9ECC-5634-8896-723C1DBACD6F
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual: WindowsFoundation.IID {
+    .init(Data1: 0x59E4391E, Data2: 0x019F, Data3: 0x5C75, Data4: ( 0x8C,0x86,0xCA,0xF1,0x59,0xDB,0xAB,0x03 ))// 59E4391E-019F-5C75-8C86-CAF159DBAB03
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2: WindowsFoundation.IID {
     .init(Data1: 0x3A3F559A, Data2: 0xE5E9, Data3: 0x5338, Data4: ( 0xBB,0x67,0x4E,0xB0,0x50,0x4A,0x4F,0x14 ))// 3A3F559A-E5E9-5338-BB67-4EB0504A4F14
 }
@@ -71,6 +79,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Compositio
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController3: WindowsFoundation.IID {
     .init(Data1: 0xBBBECDCF, Data2: 0x0F03, Data3: 0x50F0, Data4: ( 0x8F,0x85,0x9C,0xBF,0x6C,0x9B,0xBE,0x10 ))// BBBECDCF-0F03-50F0-8F85-9CBF6C9BBE10
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4: WindowsFoundation.IID {
+    .init(Data1: 0xC950CB84, Data2: 0x2648, Data3: 0x5AD5, Data4: ( 0xBA,0xDD,0xBF,0xE6,0x59,0x68,0x2F,0xB6 ))// C950CB84-2648-5AD5-BADD-BFE659682FB6
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController5: WindowsFoundation.IID {
+    .init(Data1: 0xBDE44EFF, Data2: 0xF687, Data3: 0x572C, Data4: ( 0xB4,0x7D,0x9E,0x19,0x40,0x16,0xD1,0x8B ))// BDE44EFF-F687-572C-B47D-9E194016D18B
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionControllerStatics: WindowsFoundation.IID {
@@ -125,6 +141,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller
     .init(Data1: 0x41B69E93, Data2: 0xCC17, Data3: 0x5C7D, Data4: ( 0xA0,0xC8,0xFA,0x21,0xC2,0x7A,0xAD,0xB6 ))// 41B69E93-CC17-5C7D-A0C8-FA21C27AADB6
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3: WindowsFoundation.IID {
+    .init(Data1: 0xD8DE3799, Data2: 0x3BD3, Data3: 0x5656, Data4: ( 0xA9,0xFE,0xEF,0x2C,0xB8,0x87,0x92,0x39 ))// D8DE3799-3BD3-5656-A9FE-EF2CB8879239
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4: WindowsFoundation.IID {
+    .init(Data1: 0x650FCF6C, Data2: 0x966D, Data3: 0x542E, Data4: ( 0x86,0xE5,0x88,0x89,0xD6,0xC7,0x34,0xA5 ))// 650FCF6C-966D-542E-86E5-8889D6C734A5
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference: WindowsFoundation.IID {
     .init(Data1: 0x0FEDDAD4, Data2: 0x48A3, Data3: 0x5CC4, Data4: ( 0x9F,0x61,0xE7,0xAD,0xFD,0x1E,0x9C,0x76 ))// 0FEDDAD4-48A3-5CC4-9F61-E7ADFD1E9C76
 }
@@ -145,6 +169,10 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieMana
     .init(Data1: 0x9BCCA0EA, Data2: 0x7225, Data3: 0x577A, Data4: ( 0xBB,0x23,0xC7,0xC9,0x80,0x23,0x15,0x4E ))// 9BCCA0EA-7225-577A-BB23-C7C98023154E
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport: WindowsFoundation.IID {
+    .init(Data1: 0xF64F1E46, Data2: 0xC697, Data3: 0x5E39, Data4: ( 0xAF,0x5D,0x3F,0x47,0xDA,0xB4,0x54,0xE8 ))// F64F1E46-C697-5E39-AF5D-3F47DAB454E8
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration: WindowsFoundation.IID {
     .init(Data1: 0x16DC60D9, Data2: 0xDDEC, Data3: 0x5C3D, Data4: ( 0xBC,0x1F,0x44,0x08,0xD1,0x87,0x5A,0xF1 ))// 16DC60D9-DDEC-5C3D-BC1F-4408D1875AF1
 }
@@ -159,6 +187,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSche
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0xC474D0A3, Data2: 0x24AC, Data3: 0x59FC, Data4: ( 0xB7,0x8B,0xDA,0x75,0x62,0xA6,0xA0,0x52 ))// C474D0A3-24AC-59FC-B78B-DA7562A6A052
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker: WindowsFoundation.IID {
+    .init(Data1: 0x223AADF7, Data2: 0x1B62, Data3: 0x5D45, Data4: ( 0xAF,0x25,0x82,0x7B,0xAA,0x0D,0x73,0x2B ))// 223AADF7-1B62-5D45-AF25-827BAA0D732B
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xE8E78C42, Data2: 0x7605, Data3: 0x58F8, Data4: ( 0x92,0x21,0x11,0xB6,0xBB,0x9A,0x42,0xC2 ))// E8E78C42-7605-58F8-9221-11B6BB9A42C2
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs: WindowsFoundation.IID {
@@ -203,6 +239,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environmen
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment13: WindowsFoundation.IID {
     .init(Data1: 0x22C97F2F, Data2: 0x8A28, Data3: 0x5794, Data4: ( 0x94,0x1C,0xA2,0x5B,0xCC,0x3C,0xF4,0x7E ))// 22C97F2F-8A28-5794-941C-A25BCC3CF47E
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14: WindowsFoundation.IID {
+    .init(Data1: 0x39F9505F, Data2: 0x0D1F, Data3: 0x5284, Data4: ( 0x9F,0xA9,0x9D,0xBD,0x81,0x89,0x73,0xFA ))// 39F9505F-0D1F-5284-9FA9-9DBD818973FA
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15: WindowsFoundation.IID {
+    .init(Data1: 0x37B49C50, Data2: 0xB262, Data3: 0x5563, Data4: ( 0xA5,0xED,0xAE,0x60,0x18,0x24,0x95,0xC0 ))// 37B49C50-B262-5563-A5ED-AE60182495C0
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2: WindowsFoundation.IID {
@@ -261,6 +305,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environmen
     .init(Data1: 0xEB5B14C2, Data2: 0x6F05, Data3: 0x514E, Data4: ( 0xB1,0x9A,0x76,0x74,0x4D,0x1C,0xE6,0x84 ))// EB5B14C2-6F05-514E-B19A-76744D1CE684
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7: WindowsFoundation.IID {
+    .init(Data1: 0x7447B9ED, Data2: 0xA60D, Data3: 0x5AF8, Data4: ( 0xAB,0x2A,0x56,0xC5,0x44,0xBC,0x35,0x6A ))// 7447B9ED-A60D-5AF8-AB2A-56C544BC356A
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions8: WindowsFoundation.IID {
+    .init(Data1: 0xF143E9D2, Data2: 0x2669, Data3: 0x5B6A, Data4: ( 0x8F,0x88,0x7B,0x05,0xC9,0xE1,0xEF,0x4D ))// F143E9D2-2669-5B6A-8F88-7B05C9E1EF4D
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions__Manual: WindowsFoundation.IID {
     .init(Data1: 0x1F104443, Data2: 0xEA93, Data3: 0x5A37, Data4: ( 0xB7,0x91,0x34,0xE6,0xA3,0x11,0x72,0xED ))// 1F104443-EA93-5A37-B791-34E6A31172ED
 }
@@ -273,12 +325,36 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environmen
     .init(Data1: 0x0E33F804, Data2: 0xF20B, Data3: 0x5635, Data4: ( 0x84,0x91,0x16,0x2A,0xAA,0x27,0x51,0x7B ))// 0E33F804-F20B-5635-8491-162AAA27517B
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics2: WindowsFoundation.IID {
+    .init(Data1: 0xDCBA13E4, Data2: 0xEE49, Data3: 0x5860, Data4: ( 0x84,0x99,0xC4,0x91,0x61,0xA7,0xD8,0xCE ))// DCBA13E4-EE49-5860-8499-C49161A7D8CE
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment__Manual: WindowsFoundation.IID {
     .init(Data1: 0xF51CFABE, Data2: 0x73AD, Data3: 0x5635, Data4: ( 0xA9,0x35,0x63,0x86,0xAE,0xF9,0x23,0x8E ))// F51CFABE-73AD-5635-A935-6386AEF9238E
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult: WindowsFoundation.IID {
+    .init(Data1: 0x9BEF80F9, Data2: 0x580C, Data3: 0x56A0, Data4: ( 0x8D,0xB9,0x75,0xEC,0x79,0x2C,0x84,0x21 ))// 9BEF80F9-580C-56A0-8DB9-75EC792C8421
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult__Manual: WindowsFoundation.IID {
+    .init(Data1: 0x5931BC73, Data2: 0x376C, Data3: 0x5BA7, Data4: ( 0xBC,0xBB,0x3C,0xAE,0xC6,0xD1,0xFF,0x5B ))// 5931BC73-376C-5BA7-BCBB-3CAEC6D1FF5B
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File: WindowsFoundation.IID {
     .init(Data1: 0xCAB45512, Data2: 0x9594, Data3: 0x50F1, Data4: ( 0xAC,0x3C,0x9C,0xC1,0x03,0xB5,0x74,0xA3 ))// CAB45512-9594-50F1-AC3C-9CC103B574A3
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle: WindowsFoundation.IID {
+    .init(Data1: 0x241CB4C8, Data2: 0x0021, Data3: 0x5F72, Data4: ( 0x8B,0xF2,0xE1,0x41,0xDC,0xE4,0xC1,0x51 ))// 241CB4C8-0021-5F72-8BF2-E141DCE4C151
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find: WindowsFoundation.IID {
+    .init(Data1: 0xD9AFBD37, Data2: 0xAEB2, Data3: 0x5109, Data4: ( 0xBB,0x8F,0x6F,0xF2,0x7C,0xF9,0xD2,0x79 ))// D9AFBD37-AEB2-5109-BB8F-6FF27CF9D279
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions: WindowsFoundation.IID {
+    .init(Data1: 0x157B920B, Data2: 0xE1DC, Data3: 0x5792, Data4: ( 0x8A,0x21,0x26,0xA1,0xC8,0x82,0xC3,0xF6 ))// 157B920B-E1DC-5792-8A21-26A1C882C3F6
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame: WindowsFoundation.IID {
@@ -299,6 +375,18 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame4: Wi
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame5: WindowsFoundation.IID {
     .init(Data1: 0x27C4803D, Data2: 0x9A7F, Data3: 0x599A, Data4: ( 0xBF,0x72,0x07,0xE8,0xDC,0x96,0x4A,0x5B ))// 27C4803D-9A7F-599A-BF72-07E8DC964A5B
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6: WindowsFoundation.IID {
+    .init(Data1: 0xBA197DAD, Data2: 0xD2F4, Data3: 0x5127, Data4: ( 0x80,0xB8,0xFA,0xAB,0x02,0xEC,0x21,0x1E ))// BA197DAD-D2F4-5127-80B8-FAAB02EC211E
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7: WindowsFoundation.IID {
+    .init(Data1: 0x37B88DD4, Data2: 0x5973, Data3: 0x51AD, Data4: ( 0x98,0xC5,0x68,0x32,0xC5,0x49,0x9D,0xC0 ))// 37B88DD4-5973-51AD-98C5-6832C5499DC0
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8: WindowsFoundation.IID {
+    .init(Data1: 0x6315796E, Data2: 0xE5CC, Data3: 0x5C4B, Data4: ( 0xAB,0xFC,0x70,0x6C,0x91,0x26,0xE0,0x19 ))// 6315796E-E5CC-5C4B-ABFC-706C9126E019
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs: WindowsFoundation.IID {
@@ -365,6 +453,22 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowR
     .init(Data1: 0x1F0F7826, Data2: 0x8D70, Data3: 0x5720, Data4: ( 0xBB,0x8B,0xD8,0x7F,0x63,0xCB,0xFB,0x9C ))// 1F0F7826-8D70-5720-BB8B-D87F63CBFB9C
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x4F583622, Data2: 0xCD0F, Data3: 0x55D6, Data4: ( 0xBE,0x7E,0x8A,0x8F,0x99,0xA2,0x0E,0x62 ))// 4F583622-CD0F-55D6-BE7E-8A8F99A20E62
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification: WindowsFoundation.IID {
+    .init(Data1: 0x2516351D, Data2: 0x6CCD, Data3: 0x5484, Data4: ( 0xBF,0xF3,0x75,0xF4,0xDD,0x47,0x49,0xE5 ))// 2516351D-6CCD-5484-BFF3-75F4DD4749E5
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x9416A036, Data2: 0x5E06, Data3: 0x57CB, Data4: ( 0x8B,0xBB,0x7F,0x6E,0xA1,0xDC,0x9A,0x3D ))// 9416A036-5E06-57CB-8BBB-7F6EA1DC9A3D
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification__Manual2: WindowsFoundation.IID {
+    .init(Data1: 0xA2C84873, Data2: 0xF40E, Data3: 0x5ADE, Data4: ( 0xA7,0xDB,0xE4,0x78,0x23,0x3C,0x58,0x97 ))// A2C84873-F40E-5ADE-A7DB-E478233C5897
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0x118BDD9B, Data2: 0xCEF1, Data3: 0x5910, Data4: ( 0x92,0x9E,0xC1,0xA3,0x21,0x32,0x82,0x39 ))// 118BDD9B-CEF1-5910-929E-C1A321328239
 }
@@ -413,6 +517,14 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFai
     .init(Data1: 0xC5D9C952, Data2: 0xB456, Data3: 0x5DC7, Data4: ( 0x9F,0x76,0xFD,0xE9,0x67,0x48,0x4A,0xF5 ))// C5D9C952-B456-5DC7-9F76-FDE967484AF5
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3: WindowsFoundation.IID {
+    .init(Data1: 0xD129A419, Data2: 0xADAE, Data3: 0x5C3C, Data4: ( 0x8F,0xCE,0x55,0x92,0x99,0x4E,0x9C,0xD3 ))// D129A419-ADAE-5C3C-8FCE-5592994E9CD3
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4: WindowsFoundation.IID {
+    .init(Data1: 0x4BC601B4, Data2: 0x378F, Data3: 0x5439, Data4: ( 0x8E,0x3B,0xA2,0x19,0xC7,0x37,0x43,0x31 ))// 4BC601B4-378F-5439-8E3B-A219C7374331
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo: WindowsFoundation.IID {
     .init(Data1: 0xB6EC37E1, Data2: 0x23EB, Data3: 0x5924, Data4: ( 0xB3,0x46,0xE8,0x37,0x89,0x0A,0xA9,0xD5 ))// B6EC37E1-23EB-5924-B346-E837890AA9D5
 }
@@ -449,12 +561,52 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8: 
     .init(Data1: 0x9362D39C, Data2: 0xD521, Data3: 0x59E9, Data4: ( 0x88,0xFD,0x7C,0x5A,0xA1,0x16,0x7D,0xA6 ))// 9362D39C-D521-59E9-88FD-7C5AA1167DA6
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9: WindowsFoundation.IID {
+    .init(Data1: 0x771DB489, Data2: 0x4CC5, Data3: 0x5924, Data4: ( 0x9A,0x10,0x0E,0xC1,0x60,0x44,0x26,0x14 ))// 771DB489-4CC5-5924-9A10-0EC160442614
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xCC39A250, Data2: 0x2B4C, Data3: 0x5608, Data4: ( 0x90,0x97,0xC5,0x9B,0x8A,0x82,0x31,0xB9 ))// CC39A250-2B4C-5608-9097-C59B8A8231B9
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x6F6B50FF, Data2: 0x3EAE, Data3: 0x5C4C, Data4: ( 0xA2,0x9F,0x6F,0xCE,0x82,0x2A,0x04,0xE0 ))// 6F6B50FF-3EAE-5C4C-A29F-6FCE822A04E0
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x35F0E2BB, Data2: 0x94B0, Data3: 0x5BE7, Data4: ( 0xB6,0x33,0xF8,0x72,0x44,0xE3,0x8B,0xFE ))// 35F0E2BB-94B0-5BE7-B633-F87244E38BFE
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs: WindowsFoundation.IID {
     .init(Data1: 0xA4315212, Data2: 0xC7EB, Data3: 0x568A, Data4: ( 0x86,0xE4,0xC6,0x1E,0x31,0xBA,0x6C,0xDA ))// A4315212-C7EB-568A-86E4-C61E31BA6CDA
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException: WindowsFoundation.IID {
+    .init(Data1: 0x09BC3CE3, Data2: 0x3978, Data3: 0x50A5, Data4: ( 0x86,0xAE,0x5C,0x59,0x6D,0x37,0x1C,0x4E ))// 09BC3CE3-3978-50A5-86AE-5C596D371C4E
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0x90FDC703, Data2: 0x5A9E, Data3: 0x56F6, Data4: ( 0xA4,0x22,0x7C,0x11,0x4C,0x73,0x64,0x20 ))// 90FDC703-5A9E-56F6-A422-7C114C736420
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker: WindowsFoundation.IID {
+    .init(Data1: 0x1DE7E18C, Data2: 0x9D65, Data3: 0x5E66, Data4: ( 0x9D,0xD3,0x3A,0x76,0x05,0xA1,0xB3,0xAA ))// 1DE7E18C-9D65-5E66-9DD3-3A7605A1B3AA
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x51E90F5A, Data2: 0x4CCB, Data3: 0x51AE, Data4: ( 0xA5,0x43,0x7C,0x2A,0x62,0x04,0x45,0x9D ))// 51E90F5A-4CCB-51AE-A543-7C2A6204459D
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager: WindowsFoundation.IID {
+    .init(Data1: 0x65D41A61, Data2: 0xB78C, Data3: 0x5950, Data4: ( 0xA9,0xFE,0xFE,0xDE,0xC2,0x1B,0xF7,0x68 ))// 65D41A61-B78C-5950-A9FE-FEDEC21BF768
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xB61CE117, Data2: 0x71FF, Data3: 0x5E7B, Data4: ( 0xB7,0x24,0xEA,0x7F,0x62,0xA0,0xE0,0x14 ))// B61CE117-71FF-5E7B-B724-EA7F62A0E014
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration: WindowsFoundation.IID {
+    .init(Data1: 0xBFB195CD, Data2: 0x7534, Data3: 0x5AD4, Data4: ( 0xAE,0xD9,0x24,0xDF,0xDF,0x2A,0x61,0x0D ))// BFB195CD-7534-5AD4-AED9-24DFDF2A610D
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings: WindowsFoundation.IID {
@@ -489,6 +641,10 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings8:
     .init(Data1: 0x956F1A8F, Data2: 0x3198, Data3: 0x5577, Data4: ( 0xB2,0x50,0x7D,0x91,0xD1,0x7F,0x7E,0xED ))// 956F1A8F-3198-5577-B250-7D91D17F7EED
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings9: WindowsFoundation.IID {
+    .init(Data1: 0x4C346681, Data2: 0x714D, Data3: 0x5A3D, Data4: ( 0x81,0x05,0x2A,0x7B,0x80,0xBE,0xEA,0xB5 ))// 4C346681-714D-5A3D-8105-2A7B80BEEAB5
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings__Manual: WindowsFoundation.IID {
     .init(Data1: 0x0A538C87, Data2: 0xE000, Data3: 0x511C, Data4: ( 0x87,0xCA,0xDE,0xD3,0x41,0x3D,0x03,0xDA ))// 0A538C87-E000-511C-87CA-DED3413D03DA
 }
@@ -499,6 +655,18 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuff
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual: WindowsFoundation.IID {
     .init(Data1: 0x1AA4E213, Data2: 0xACE3, Data3: 0x5F74, Data4: ( 0xA2,0xAE,0xC6,0x48,0x9C,0xEB,0x32,0x39 ))// 1AA4E213-ACE3-5F74-A2AE-C6489CEB3239
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker: WindowsFoundation.IID {
+    .init(Data1: 0x90777544, Data2: 0xF10B, Data3: 0x5365, Data4: ( 0x91,0x2D,0xA7,0x41,0x2E,0x59,0x5C,0x2D ))// 90777544-F10B-5365-912D-A7412E595C2D
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xDE7947FC, Data2: 0xB93C, Data3: 0x5A4E, Data4: ( 0x82,0x20,0xD6,0x25,0x23,0x64,0x92,0x49 ))// DE7947FC-B93C-5A4E-8220-D62523649249
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager: WindowsFoundation.IID {
+    .init(Data1: 0xD5DC327E, Data2: 0x9DC1, Data3: 0x526E, Data4: ( 0x94,0x52,0xF0,0x36,0xC3,0x27,0x1B,0x2B ))// D5DC327E-9DC1-526E-9452-F036C3271B2B
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs: WindowsFoundation.IID {
@@ -519,6 +687,10 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourc
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0x577F1FC4, Data2: 0xC943, Data3: 0x54A9, Data4: ( 0x97,0x00,0xBD,0x46,0x9B,0x48,0xBD,0x41 ))// 577F1FC4-C943-54A9-9700-BD469B48BD41
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs2: WindowsFoundation.IID {
+    .init(Data1: 0x0BBE4B89, Data2: 0x88A9, Data3: 0x575A, Data4: ( 0xB0,0x9E,0x79,0x46,0xEE,0x41,0x5E,0x94 ))// 0BBE4B89-88A9-575A-B09E-7946EE415E94
 }
 
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse: WindowsFoundation.IID {
@@ -585,6 +757,42 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__20: Wind
     .init(Data1: 0x859C4805, Data2: 0xE988, Data3: 0x50D5, Data4: ( 0x85,0xD7,0xA5,0x06,0x43,0xFC,0x81,0x5E ))// 859C4805-E988-50D5-85D7-A50643FC815E
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__21: WindowsFoundation.IID {
+    .init(Data1: 0xF7FC7705, Data2: 0x7922, Data3: 0x5ABC, Data4: ( 0x9E,0x24,0xC6,0x4F,0x1C,0x14,0xB1,0x85 ))// F7FC7705-7922-5ABC-9E24-C64F1C14B185
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__22: WindowsFoundation.IID {
+    .init(Data1: 0xD58AA4CF, Data2: 0x9B67, Data3: 0x5419, Data4: ( 0x85,0x65,0xF4,0x01,0xA9,0x8F,0xEE,0xB2 ))// D58AA4CF-9B67-5419-8565-F401A98FEEB2
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__23: WindowsFoundation.IID {
+    .init(Data1: 0xD6767391, Data2: 0xFDFE, Data3: 0x5B95, Data4: ( 0x96,0xAE,0x11,0xDE,0x6B,0x87,0x26,0xDD ))// D6767391-FDFE-5B95-96AE-11DE6B8726DD
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__24: WindowsFoundation.IID {
+    .init(Data1: 0x469056B8, Data2: 0xE78D, Data3: 0x55ED, Data4: ( 0x9A,0xF1,0x20,0x7A,0x7F,0x60,0x91,0x1F ))// 469056B8-E78D-55ED-9AF1-207A7F60911F
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__25: WindowsFoundation.IID {
+    .init(Data1: 0xB8E2EDCE, Data2: 0xD943, Data3: 0x5871, Data4: ( 0x83,0x97,0x48,0x3D,0xBD,0x6C,0x0F,0x9E ))// B8E2EDCE-D943-5871-8397-483DBD6C0F9E
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__26: WindowsFoundation.IID {
+    .init(Data1: 0xE7D803DD, Data2: 0xB2F4, Data3: 0x5FA3, Data4: ( 0x8E,0x63,0x11,0x44,0x89,0xD4,0x06,0x3D ))// E7D803DD-B2F4-5FA3-8E63-114489D4063D
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27: WindowsFoundation.IID {
+    .init(Data1: 0xD964F497, Data2: 0xFFDF, Data3: 0x5BCD, Data4: ( 0xBF,0x52,0xFF,0x45,0x85,0xF2,0xEB,0xC2 ))// D964F497-FFDF-5BCD-BF52-FF4585F2EBC2
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28: WindowsFoundation.IID {
+    .init(Data1: 0x6E43A033, Data2: 0xD2E9, Data3: 0x59FC, Data4: ( 0x88,0x56,0x88,0xD4,0xF7,0x43,0x8C,0x4D ))// 6E43A033-D2E9-59FC-8856-88D4F7438C4D
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29: WindowsFoundation.IID {
+    .init(Data1: 0xF12726D8, Data2: 0x60E0, Data3: 0x5399, Data4: ( 0x9D,0x46,0x8D,0xED,0xE2,0xB4,0xF4,0x0A ))// F12726D8-60E0-5399-9D46-8DEDE2B4F40A
+}
+
 private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3: WindowsFoundation.IID {
     .init(Data1: 0xA8C76AE7, Data2: 0x6170, Data3: 0x5DFE, Data4: ( 0x8F,0x00,0x79,0xCD,0x76,0xA9,0xB4,0xD9 ))// A8C76AE7-6170-5DFE-8F00-79CD76A9B4D9
 }
@@ -613,17 +821,26 @@ private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9: Windo
     .init(Data1: 0x64B2EC16, Data2: 0x0B29, Data3: 0x5216, Data4: ( 0xBF,0x86,0xE5,0x75,0xC8,0x8F,0x70,0x31 ))// 64B2EC16-0B29-5216-BF86-E575C88F7031
 }
 
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual: WindowsFoundation.IID {
+    .init(Data1: 0x2D988546, Data2: 0x9962, Data3: 0x516B, Data4: ( 0xBE,0x53,0x85,0x9F,0xB0,0xF5,0x01,0x79 ))// 2D988546-9962-516B-BE53-859FB0F50179
+}
+
+private var IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual2: WindowsFoundation.IID {
+    .init(Data1: 0x57D0C484, Data2: 0xF304, Data3: 0x52D4, Data4: ( 0x85,0xA6,0x68,0xCF,0xAF,0xD6,0x3B,0x61 ))// 57D0C484-F304-52D4-85A6-68CFAFD63B61
+}
+
+@_spi(WinRTInternal)
 public enum __ABI_Microsoft_Web_WebView2_Core {
     public class CoreWebView2Certificate_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Certificate__Manual }
 
-        internal func ToCertificateImpl() throws -> UWP.Certificate? {
+        public func ToCertificate() throws -> UWP.Certificate? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Certificate__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ToCertificate(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Security_Cryptography_Certificates.CertificateBridge.from(abi: result)
         }
 
     }
@@ -631,13 +848,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class CoreWebView2ClientCertificate_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ClientCertificate__Manual }
 
-        internal func ToCertificateImpl() throws -> UWP.Certificate? {
+        public func ToCertificate() throws -> UWP.Certificate? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ClientCertificate__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ToCertificate(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Security_Cryptography_Certificates.CertificateBridge.from(abi: result)
         }
 
     }
@@ -645,7 +862,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class CoreWebView2Profile_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual }
 
-        internal func ClearBrowsingDataAsyncImpl(_ dataKinds: WebView2Core.CoreWebView2BrowsingDataKinds, _ startTime: WindowsFoundation.DateTime, _ endTime: WindowsFoundation.DateTime) throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func ClearBrowsingDataAsync(_ dataKinds: WebView2Core.CoreWebView2BrowsingDataKinds, _ startTime: WindowsFoundation.DateTime, _ endTime: WindowsFoundation.DateTime) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ClearBrowsingDataAsync(pThis, dataKinds, .from(swift: startTime), .from(swift: endTime), &operationAbi))
@@ -654,7 +871,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Foundation.IAsyncActionWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func ClearBrowsingDataAsync2Impl() throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func ClearBrowsingDataAsync2() throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ClearBrowsingDataAsync2(pThis, &operationAbi))
@@ -668,7 +885,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class CoreWebView2Profile_Manual2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual2 }
 
-        internal func GetNonDefaultPermissionSettingsAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2PermissionSetting?>?>? {
+        public func GetNonDefaultPermissionSettingsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2PermissionSetting?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetNonDefaultPermissionSettingsAsync(pThis, &operationAbi))
@@ -679,19 +896,48 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class CoreWebView2Profile_Manual3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3 }
+
+        public func GetBrowserExtensionsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2BrowserExtension?>?>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetBrowserExtensionsAsync(pThis, &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2BrowserExtensionWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
+    public class CoreWebView2ServiceWorkerManager_Manual: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual }
+
+        public func GetServiceWorkerRegistrationsAsync(_ scope: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ServiceWorkerRegistration?>?>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                let _scope = try! HString(scope)
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetServiceWorkerRegistrationsAsync(pThis, _scope.get(), &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
     public class ICoreWebView2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2 }
 
-        internal func get_SettingsImpl() throws -> WebView2Core.CoreWebView2Settings? {
+        public func get_Settings() throws -> WebView2Core.CoreWebView2Settings? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Settings(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2SettingsBridge.from(abi: value)
         }
 
-        internal func get_SourceImpl() throws -> String {
+        public func get_Source() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Source(pThis, &value))
@@ -699,7 +945,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_BrowserProcessIdImpl() throws -> UInt32 {
+        public func get_BrowserProcessId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BrowserProcessId(pThis, &value))
@@ -707,7 +953,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_CanGoBackImpl() throws -> Bool {
+        public func get_CanGoBack() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_CanGoBack(pThis, &value))
@@ -715,7 +961,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_CanGoForwardImpl() throws -> Bool {
+        public func get_CanGoForward() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_CanGoForward(pThis, &value))
@@ -723,7 +969,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DocumentTitleImpl() throws -> String {
+        public func get_DocumentTitle() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DocumentTitle(pThis, &value))
@@ -731,7 +977,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ContainsFullScreenElementImpl() throws -> Bool {
+        public func get_ContainsFullScreenElement() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContainsFullScreenElement(pThis, &value))
@@ -739,7 +985,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_NavigationStartingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_NavigationStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationStartingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -749,13 +995,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NavigationStartingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NavigationStarting(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NavigationStarting(pThis, token))
             }
         }
 
-        internal func add_ContentLoadingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ContentLoadingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ContentLoading(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ContentLoadingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContentLoadingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -765,13 +1011,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ContentLoadingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ContentLoading(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ContentLoading(pThis, token))
             }
         }
 
-        internal func add_SourceChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2SourceChangedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_SourceChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2SourceChangedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SourceChangedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -781,13 +1027,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_SourceChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_SourceChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SourceChanged(pThis, token))
             }
         }
 
-        internal func add_HistoryChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_HistoryChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -797,13 +1043,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_HistoryChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_HistoryChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_HistoryChanged(pThis, token))
             }
         }
 
-        internal func add_NavigationCompletedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_NavigationCompleted(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationCompletedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -813,13 +1059,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NavigationCompletedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NavigationCompleted(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NavigationCompleted(pThis, token))
             }
         }
 
-        internal func add_FrameNavigationStartingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_FrameNavigationStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationStartingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -829,13 +1075,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_FrameNavigationStartingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_FrameNavigationStarting(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_FrameNavigationStarting(pThis, token))
             }
         }
 
-        internal func add_FrameNavigationCompletedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_FrameNavigationCompleted(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationCompletedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -845,13 +1091,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_FrameNavigationCompletedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_FrameNavigationCompleted(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_FrameNavigationCompleted(pThis, token))
             }
         }
 
-        internal func add_ScriptDialogOpeningImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ScriptDialogOpeningEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ScriptDialogOpening(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ScriptDialogOpeningEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ScriptDialogOpeningEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -861,13 +1107,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ScriptDialogOpeningImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ScriptDialogOpening(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ScriptDialogOpening(pThis, token))
             }
         }
 
-        internal func add_PermissionRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2PermissionRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_PermissionRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2PermissionRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2PermissionRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -877,13 +1123,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_PermissionRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_PermissionRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PermissionRequested(pThis, token))
             }
         }
 
-        internal func add_ProcessFailedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ProcessFailedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ProcessFailed(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ProcessFailedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ProcessFailedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -893,13 +1139,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ProcessFailedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ProcessFailed(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ProcessFailed(pThis, token))
             }
         }
 
-        internal func add_WebMessageReceivedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_WebMessageReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -909,13 +1155,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_WebMessageReceivedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_WebMessageReceived(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebMessageReceived(pThis, token))
             }
         }
 
-        internal func add_NewWindowRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NewWindowRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_NewWindowRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NewWindowRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NewWindowRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -925,13 +1171,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NewWindowRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NewWindowRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NewWindowRequested(pThis, token))
             }
         }
 
-        internal func add_DocumentTitleChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_DocumentTitleChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -941,13 +1187,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DocumentTitleChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_DocumentTitleChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DocumentTitleChanged(pThis, token))
             }
         }
 
-        internal func add_ContainsFullScreenElementChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_ContainsFullScreenElementChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -957,13 +1203,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ContainsFullScreenElementChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ContainsFullScreenElementChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ContainsFullScreenElementChanged(pThis, token))
             }
         }
 
-        internal func add_WebResourceRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebResourceRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_WebResourceRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebResourceRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebResourceRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -973,13 +1219,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_WebResourceRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_WebResourceRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebResourceRequested(pThis, token))
             }
         }
 
-        internal func add_WindowCloseRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_WindowCloseRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -989,27 +1235,27 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_WindowCloseRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_WindowCloseRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WindowCloseRequested(pThis, token))
             }
         }
 
-        internal func NavigateImpl(_ uri: String) throws {
+        public func Navigate(_ uri: String) throws {
             let _uri = try! HString(uri)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Navigate(pThis, _uri.get()))
             }
         }
 
-        internal func NavigateToStringImpl(_ htmlContent: String) throws {
+        public func NavigateToString(_ htmlContent: String) throws {
             let _htmlContent = try! HString(htmlContent)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.NavigateToString(pThis, _htmlContent.get()))
             }
         }
 
-        internal func AddScriptToExecuteOnDocumentCreatedAsyncImpl(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
+        public func AddScriptToExecuteOnDocumentCreatedAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _javaScript = try! HString(javaScript)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
@@ -1019,14 +1265,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1_HSTRINGWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func RemoveScriptToExecuteOnDocumentCreatedImpl(_ id: String) throws {
+        public func RemoveScriptToExecuteOnDocumentCreated(_ id: String) throws {
             let _id = try! HString(id)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveScriptToExecuteOnDocumentCreated(pThis, _id.get()))
             }
         }
 
-        internal func ExecuteScriptAsyncImpl(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
+        public func ExecuteScriptAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _javaScript = try! HString(javaScript)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
@@ -1036,7 +1282,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1_HSTRINGWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func CapturePreviewAsyncImpl(_ imageFormat: WebView2Core.CoreWebView2CapturePreviewImageFormat, _ imageStream: UWP.AnyIRandomAccessStream?) throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func CapturePreviewAsync(_ imageFormat: WebView2Core.CoreWebView2CapturePreviewImageFormat, _ imageStream: UWP.AnyIRandomAccessStream?) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let imageStreamWrapper = __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper(imageStream)
                 let _imageStream = try! imageStreamWrapper?.toABI { $0 }
@@ -1047,27 +1293,27 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Foundation.IAsyncActionWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func ReloadImpl() throws {
+        public func Reload() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Reload(pThis))
             }
         }
 
-        internal func PostWebMessageAsJsonImpl(_ webMessageAsJson: String) throws {
+        public func PostWebMessageAsJson(_ webMessageAsJson: String) throws {
             let _webMessageAsJson = try! HString(webMessageAsJson)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsJson(pThis, _webMessageAsJson.get()))
             }
         }
 
-        internal func PostWebMessageAsStringImpl(_ webMessageAsString: String) throws {
+        public func PostWebMessageAsString(_ webMessageAsString: String) throws {
             let _webMessageAsString = try! HString(webMessageAsString)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsString(pThis, _webMessageAsString.get()))
             }
         }
 
-        internal func CallDevToolsProtocolMethodAsyncImpl(_ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
+        public func CallDevToolsProtocolMethodAsync(_ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _methodName = try! HString(methodName)
                 let _parametersAsJson = try! HString(parametersAsJson)
@@ -1078,35 +1324,35 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1_HSTRINGWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GoBackImpl() throws {
+        public func GoBack() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.GoBack(pThis))
             }
         }
 
-        internal func GoForwardImpl() throws {
+        public func GoForward() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.GoForward(pThis))
             }
         }
 
-        internal func GetDevToolsProtocolEventReceiverImpl(_ eventName: String) throws -> WebView2Core.CoreWebView2DevToolsProtocolEventReceiver? {
+        public func GetDevToolsProtocolEventReceiver(_ eventName: String) throws -> WebView2Core.CoreWebView2DevToolsProtocolEventReceiver? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _eventName = try! HString(eventName)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDevToolsProtocolEventReceiver(pThis, _eventName.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2DevToolsProtocolEventReceiverBridge.from(abi: result)
         }
 
-        internal func StopImpl() throws {
+        public func Stop() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Stop(pThis))
             }
         }
 
-        internal func AddHostObjectToScriptImpl(_ name: String, _ rawObject: Any?) throws {
+        public func AddHostObjectToScript(_ name: String, _ rawObject: Any?) throws {
             let _name = try! HString(name)
             let rawObjectWrapper = __ABI_.AnyWrapper(rawObject)
             let _rawObject = try! rawObjectWrapper?.toABI { $0 }
@@ -1115,27 +1361,27 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func RemoveHostObjectFromScriptImpl(_ name: String) throws {
+        public func RemoveHostObjectFromScript(_ name: String) throws {
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveHostObjectFromScript(pThis, _name.get()))
             }
         }
 
-        internal func OpenDevToolsWindowImpl() throws {
+        public func OpenDevToolsWindow() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.OpenDevToolsWindow(pThis))
             }
         }
 
-        internal func AddWebResourceRequestedFilterImpl(_ uri: String, _ ResourceContext: WebView2Core.CoreWebView2WebResourceContext) throws {
+        public func AddWebResourceRequestedFilter(_ uri: String, _ ResourceContext: WebView2Core.CoreWebView2WebResourceContext) throws {
             let _uri = try! HString(uri)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.AddWebResourceRequestedFilter(pThis, _uri.get(), ResourceContext))
             }
         }
 
-        internal func RemoveWebResourceRequestedFilterImpl(_ uri: String, _ ResourceContext: WebView2Core.CoreWebView2WebResourceContext) throws {
+        public func RemoveWebResourceRequestedFilter(_ uri: String, _ ResourceContext: WebView2Core.CoreWebView2WebResourceContext) throws {
             let _uri = try! HString(uri)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveWebResourceRequestedFilter(pThis, _uri.get(), ResourceContext))
@@ -1147,7 +1393,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2AcceleratorKeyPressedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs }
 
-        internal func get_KeyEventKindImpl() throws -> WebView2Core.CoreWebView2KeyEventKind {
+        public func get_KeyEventKind() throws -> WebView2Core.CoreWebView2KeyEventKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2KeyEventKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyEventKind(pThis, &value))
@@ -1155,7 +1401,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_VirtualKeyImpl() throws -> UInt32 {
+        public func get_VirtualKey() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_VirtualKey(pThis, &value))
@@ -1163,7 +1409,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_KeyEventLParamImpl() throws -> Int32 {
+        public func get_KeyEventLParam() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyEventLParam(pThis, &value))
@@ -1171,7 +1417,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_PhysicalKeyStatusImpl() throws -> WebView2Core.CoreWebView2PhysicalKeyStatus {
+        public func get_PhysicalKeyStatus() throws -> WebView2Core.CoreWebView2PhysicalKeyStatus {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PhysicalKeyStatus(pThis, &value))
@@ -1179,7 +1425,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -1187,7 +1433,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
@@ -1198,7 +1444,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2AcceleratorKeyPressedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs2 }
 
-        internal func get_IsBrowserAcceleratorKeyEnabledImpl() throws -> Bool {
+        public func get_IsBrowserAcceleratorKeyEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBrowserAcceleratorKeyEnabled(pThis, &value))
@@ -1206,7 +1452,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsBrowserAcceleratorKeyEnabledImpl(_ value: Bool) throws {
+        public func put_IsBrowserAcceleratorKeyEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2AcceleratorKeyPressedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsBrowserAcceleratorKeyEnabled(pThis, .init(from: value)))
             }
@@ -1217,7 +1463,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2BasicAuthenticationRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -1225,7 +1471,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ChallengeImpl() throws -> String {
+        public func get_Challenge() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Challenge(pThis, &value))
@@ -1233,16 +1479,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ResponseImpl() throws -> WebView2Core.CoreWebView2BasicAuthenticationResponse? {
+        public func get_Response() throws -> WebView2Core.CoreWebView2BasicAuthenticationResponse? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Response(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2BasicAuthenticationResponseBridge.from(abi: value)
         }
 
-        internal func get_CancelImpl() throws -> Bool {
+        public func get_Cancel() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
@@ -1250,19 +1496,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_CancelImpl(_ value: Bool) throws {
+        public func put_Cancel(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -1270,7 +1516,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2BasicAuthenticationResponse: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse }
 
-        internal func get_UserNameImpl() throws -> String {
+        public func get_UserName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_UserName(pThis, &value))
@@ -1278,14 +1524,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_UserNameImpl(_ value: String) throws {
+        public func put_UserName(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_UserName(pThis, _value.get()))
             }
         }
 
-        internal func get_PasswordImpl() throws -> String {
+        public func get_Password() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Password(pThis, &value))
@@ -1293,7 +1539,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_PasswordImpl(_ value: String) throws {
+        public func put_Password(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BasicAuthenticationResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Password(pThis, _value.get()))
@@ -1305,7 +1551,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2BrowserExtension: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension }
 
-        internal func get_IdImpl() throws -> String {
+        public func get_Id() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Id(pThis, &value))
@@ -1313,7 +1559,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -1321,7 +1567,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsEnabledImpl() throws -> Bool {
+        public func get_IsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsEnabled(pThis, &value))
@@ -1329,7 +1575,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func RemoveAsyncImpl() throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func RemoveAsync() throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveAsync(pThis, &operationAbi))
@@ -1338,7 +1584,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Foundation.IAsyncActionWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func EnableAsyncImpl(_ IsEnabled: Bool) throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func EnableAsync(_ IsEnabled: Bool) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserExtension.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.EnableAsync(pThis, .init(from: IsEnabled), &operationAbi))
@@ -1352,7 +1598,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2BrowserProcessExitedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs }
 
-        internal func get_BrowserProcessExitKindImpl() throws -> WebView2Core.CoreWebView2BrowserProcessExitKind {
+        public func get_BrowserProcessExitKind() throws -> WebView2Core.CoreWebView2BrowserProcessExitKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BrowserProcessExitKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BrowserProcessExitKind(pThis, &value))
@@ -1360,7 +1606,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_BrowserProcessIdImpl() throws -> UInt32 {
+        public func get_BrowserProcessId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2BrowserProcessExitedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BrowserProcessId(pThis, &value))
@@ -1373,7 +1619,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Certificate: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate }
 
-        internal func get_SubjectImpl() throws -> String {
+        public func get_Subject() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Subject(pThis, &value))
@@ -1381,7 +1627,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IssuerImpl() throws -> String {
+        public func get_Issuer() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Issuer(pThis, &value))
@@ -1389,7 +1635,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ValidFromImpl() throws -> Double {
+        public func get_ValidFrom() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ValidFrom(pThis, &value))
@@ -1397,7 +1643,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ValidToImpl() throws -> Double {
+        public func get_ValidTo() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ValidTo(pThis, &value))
@@ -1405,7 +1651,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_DerEncodedSerialNumberImpl() throws -> String {
+        public func get_DerEncodedSerialNumber() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DerEncodedSerialNumber(pThis, &value))
@@ -1413,7 +1659,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DisplayNameImpl() throws -> String {
+        public func get_DisplayName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayName(pThis, &value))
@@ -1421,7 +1667,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PemEncodedIssuerCertificateChainImpl() throws -> WindowsFoundation.AnyIVectorView<String>? {
+        public func get_PemEncodedIssuerCertificateChain() throws -> WindowsFoundation.AnyIVectorView<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_PemEncodedIssuerCertificateChain(pThis, &valueAbi))
@@ -1430,7 +1676,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVectorView_1_HSTRINGWrapper.unwrapFrom(abi: value)
         }
 
-        internal func ToPemEncodingImpl() throws -> String {
+        public func ToPemEncoding() throws -> String {
             var result: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Certificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.ToPemEncoding(pThis, &result))
@@ -1443,7 +1689,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ClientCertificate: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate }
 
-        internal func get_SubjectImpl() throws -> String {
+        public func get_Subject() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Subject(pThis, &value))
@@ -1451,7 +1697,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IssuerImpl() throws -> String {
+        public func get_Issuer() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Issuer(pThis, &value))
@@ -1459,7 +1705,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ValidFromImpl() throws -> Double {
+        public func get_ValidFrom() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ValidFrom(pThis, &value))
@@ -1467,7 +1713,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ValidToImpl() throws -> Double {
+        public func get_ValidTo() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ValidTo(pThis, &value))
@@ -1475,7 +1721,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_DerEncodedSerialNumberImpl() throws -> String {
+        public func get_DerEncodedSerialNumber() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DerEncodedSerialNumber(pThis, &value))
@@ -1483,7 +1729,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DisplayNameImpl() throws -> String {
+        public func get_DisplayName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayName(pThis, &value))
@@ -1491,7 +1737,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PemEncodedIssuerCertificateChainImpl() throws -> WindowsFoundation.AnyIVectorView<String>? {
+        public func get_PemEncodedIssuerCertificateChain() throws -> WindowsFoundation.AnyIVectorView<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_PemEncodedIssuerCertificateChain(pThis, &valueAbi))
@@ -1500,7 +1746,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVectorView_1_HSTRINGWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_KindImpl() throws -> WebView2Core.CoreWebView2ClientCertificateKind {
+        public func get_Kind() throws -> WebView2Core.CoreWebView2ClientCertificateKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ClientCertificateKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
@@ -1508,7 +1754,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func ToPemEncodingImpl() throws -> String {
+        public func ToPemEncoding() throws -> String {
             var result: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificate.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.ToPemEncoding(pThis, &result))
@@ -1521,7 +1767,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ClientCertificateRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs }
 
-        internal func get_HostImpl() throws -> String {
+        public func get_Host() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Host(pThis, &value))
@@ -1529,7 +1775,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PortImpl() throws -> Int32 {
+        public func get_Port() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Port(pThis, &value))
@@ -1537,7 +1783,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_IsProxyImpl() throws -> Bool {
+        public func get_IsProxy() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsProxy(pThis, &value))
@@ -1545,7 +1791,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_AllowedCertificateAuthoritiesImpl() throws -> WindowsFoundation.AnyIVectorView<String>? {
+        public func get_AllowedCertificateAuthorities() throws -> WindowsFoundation.AnyIVectorView<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowedCertificateAuthorities(pThis, &valueAbi))
@@ -1554,7 +1800,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVectorView_1_HSTRINGWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_MutuallyTrustedCertificatesImpl() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ClientCertificate?>? {
+        public func get_MutuallyTrustedCertificates() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ClientCertificate?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_MutuallyTrustedCertificates(pThis, &valueAbi))
@@ -1563,22 +1809,22 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ClientCertificateWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_SelectedCertificateImpl() throws -> WebView2Core.CoreWebView2ClientCertificate? {
+        public func get_SelectedCertificate() throws -> WebView2Core.CoreWebView2ClientCertificate? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedCertificate(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ClientCertificateBridge.from(abi: value)
         }
 
-        internal func put_SelectedCertificateImpl(_ value: WebView2Core.CoreWebView2ClientCertificate?) throws {
+        public func put_SelectedCertificate(_ value: WebView2Core.CoreWebView2ClientCertificate?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_SelectedCertificate(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_CancelImpl() throws -> Bool {
+        public func get_Cancel() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
@@ -1586,13 +1832,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_CancelImpl(_ value: Bool) throws {
+        public func put_Cancel(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
             }
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -1600,19 +1846,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ClientCertificateRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -1620,7 +1866,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CompositionController: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController }
 
-        internal func get_RootVisualTargetImpl() throws -> Any? {
+        public func get_RootVisualTarget() throws -> Any? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RootVisualTarget(pThis, &valueAbi))
@@ -1629,7 +1875,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_.AnyWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_RootVisualTargetImpl(_ value: Any?) throws {
+        public func put_RootVisualTarget(_ value: Any?) throws {
             let valueWrapper = __ABI_.AnyWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
@@ -1637,7 +1883,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func add_CursorChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2CompositionController?, Any?>?) throws -> EventRegistrationToken {
+        public func add_CursorChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2CompositionController?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2CompositionController_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -1647,34 +1893,34 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_CursorChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_CursorChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_CursorChanged(pThis, token))
             }
         }
 
-        internal func SendMouseInputImpl(_ eventKind: WebView2Core.CoreWebView2MouseEventKind, _ virtualKeys: WebView2Core.CoreWebView2MouseEventVirtualKeys, _ mouseData: UInt32, _ point: WindowsFoundation.Point) throws {
+        public func SendMouseInput(_ eventKind: WebView2Core.CoreWebView2MouseEventKind, _ virtualKeys: WebView2Core.CoreWebView2MouseEventVirtualKeys, _ mouseData: UInt32, _ point: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SendMouseInput(pThis, eventKind, virtualKeys, mouseData, .from(swift: point)))
             }
         }
 
-        internal func SendPointerInputImpl(_ eventKind: WebView2Core.CoreWebView2PointerEventKind, _ pointerInfo: WebView2Core.CoreWebView2PointerInfo?) throws {
+        public func SendPointerInput(_ eventKind: WebView2Core.CoreWebView2PointerEventKind, _ pointerInfo: WebView2Core.CoreWebView2PointerInfo?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SendPointerInput(pThis, eventKind, RawPointer(pointerInfo)))
             }
         }
 
-        internal func get_CursorImpl() throws -> UWP.CoreCursor? {
+        public func get_Cursor() throws -> UWP.CoreCursor? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cursor(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_UI_Core.CoreCursorBridge.from(abi: value)
         }
 
-        internal func DragEnterImpl(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> UWP.DataPackageOperation {
+        public func DragEnter(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> UWP.DataPackageOperation {
             var result: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.DragEnter(pThis, RawPointer(dragInfo), RawPointer(dragUIOverride), &result))
@@ -1682,7 +1928,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return result
         }
 
-        internal func DragOverImpl(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> UWP.DataPackageOperation {
+        public func DragOver(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> UWP.DataPackageOperation {
             var result: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.DragOver(pThis, RawPointer(dragInfo), RawPointer(dragUIOverride), &result))
@@ -1690,7 +1936,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return result
         }
 
-        internal func DropImpl(_ dragInfo: UWP.CoreDragInfo?) throws -> UWP.DataPackageOperation {
+        public func Drop(_ dragInfo: UWP.CoreDragInfo?) throws -> UWP.DataPackageOperation {
             var result: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Drop(pThis, RawPointer(dragInfo), &result))
@@ -1708,11 +1954,54 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CompositionController3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController3 }
 
-        internal func DragLeaveImpl() throws {
+        public func DragLeave() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.DragLeave(pThis))
             }
         }
+
+    }
+
+    public class ICoreWebView2CompositionController4: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4 }
+
+        public func add_NonClientRegionChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2CompositionController?, WebView2Core.CoreWebView2NonClientRegionChangedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2CompositionController___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NonClientRegionChangedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_NonClientRegionChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_NonClientRegionChanged(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NonClientRegionChanged(pThis, token))
+            }
+        }
+
+        public func GetNonClientRegionAtPoint(_ point: WindowsFoundation.Point) throws -> WebView2Core.CoreWebView2NonClientRegionKind {
+            var result: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.GetNonClientRegionAtPoint(pThis, .from(swift: point), &result))
+            }
+            return result
+        }
+
+        public func QueryNonClientRegion(_ Kind: WebView2Core.CoreWebView2NonClientRegionKind) throws -> WindowsFoundation.AnyIVectorView<WindowsFoundation.Rect>? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController4.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.QueryNonClientRegion(pThis, Kind, &resultAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CRectWrapper.unwrapFrom(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2CompositionController5: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CompositionController5 }
 
     }
 
@@ -1729,7 +2018,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ContentLoadingEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs }
 
-        internal func get_IsErrorPageImpl() throws -> Bool {
+        public func get_IsErrorPage() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsErrorPage(pThis, &value))
@@ -1737,7 +2026,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_NavigationIdImpl() throws -> UInt64 {
+        public func get_NavigationId() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContentLoadingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NavigationId(pThis, &value))
@@ -1750,7 +2039,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ContextMenuItem: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -1758,7 +2047,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_LabelImpl() throws -> String {
+        public func get_Label() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Label(pThis, &value))
@@ -1766,7 +2055,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_CommandIdImpl() throws -> Int32 {
+        public func get_CommandId() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_CommandId(pThis, &value))
@@ -1774,7 +2063,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ShortcutKeyDescriptionImpl() throws -> String {
+        public func get_ShortcutKeyDescription() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShortcutKeyDescription(pThis, &value))
@@ -1782,7 +2071,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IconImpl() throws -> UWP.AnyIRandomAccessStream? {
+        public func get_Icon() throws -> UWP.AnyIRandomAccessStream? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Icon(pThis, &valueAbi))
@@ -1791,7 +2080,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_KindImpl() throws -> WebView2Core.CoreWebView2ContextMenuItemKind {
+        public func get_Kind() throws -> WebView2Core.CoreWebView2ContextMenuItemKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuItemKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
@@ -1799,7 +2088,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_IsEnabledImpl() throws -> Bool {
+        public func get_IsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsEnabled(pThis, &value))
@@ -1807,13 +2096,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsEnabledImpl(_ value: Bool) throws {
+        public func put_IsEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsCheckedImpl() throws -> Bool {
+        public func get_IsChecked() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsChecked(pThis, &value))
@@ -1821,13 +2110,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsCheckedImpl(_ value: Bool) throws {
+        public func put_IsChecked(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsChecked(pThis, .init(from: value)))
             }
         }
 
-        internal func get_ChildrenImpl() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2ContextMenuItem?>? {
+        public func get_Children() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2ContextMenuItem?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Children(pThis, &valueAbi))
@@ -1836,7 +2125,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContextMenuItemWrapper.unwrapFrom(abi: value)
         }
 
-        internal func add_CustomItemSelectedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ContextMenuItem?, Any?>?) throws -> EventRegistrationToken {
+        public func add_CustomItemSelected(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ContextMenuItem?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContextMenuItem_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -1846,7 +2135,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_CustomItemSelectedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_CustomItemSelected(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuItem.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_CustomItemSelected(pThis, token))
             }
@@ -1857,7 +2146,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ContextMenuRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs }
 
-        internal func get_MenuItemsImpl() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2ContextMenuItem?>? {
+        public func get_MenuItems() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2ContextMenuItem?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItems(pThis, &valueAbi))
@@ -1866,16 +2155,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContextMenuItemWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_ContextMenuTargetImpl() throws -> WebView2Core.CoreWebView2ContextMenuTarget? {
+        public func get_ContextMenuTarget() throws -> WebView2Core.CoreWebView2ContextMenuTarget? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContextMenuTarget(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ContextMenuTargetBridge.from(abi: value)
         }
 
-        internal func get_LocationImpl() throws -> WindowsFoundation.Point {
+        public func get_Location() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Location(pThis, &value))
@@ -1883,7 +2172,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func get_SelectedCommandIdImpl() throws -> Int32 {
+        public func get_SelectedCommandId() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedCommandId(pThis, &value))
@@ -1891,13 +2180,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_SelectedCommandIdImpl(_ value: Int32) throws {
+        public func put_SelectedCommandId(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_SelectedCommandId(pThis, value))
             }
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -1905,19 +2194,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -1925,7 +2214,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ContextMenuTarget: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget }
 
-        internal func get_KindImpl() throws -> WebView2Core.CoreWebView2ContextMenuTargetKind {
+        public func get_Kind() throws -> WebView2Core.CoreWebView2ContextMenuTargetKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ContextMenuTargetKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
@@ -1933,7 +2222,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_IsEditableImpl() throws -> Bool {
+        public func get_IsEditable() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsEditable(pThis, &value))
@@ -1941,7 +2230,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsRequestedForMainFrameImpl() throws -> Bool {
+        public func get_IsRequestedForMainFrame() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsRequestedForMainFrame(pThis, &value))
@@ -1949,7 +2238,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PageUriImpl() throws -> String {
+        public func get_PageUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PageUri(pThis, &value))
@@ -1957,7 +2246,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_FrameUriImpl() throws -> String {
+        public func get_FrameUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameUri(pThis, &value))
@@ -1965,7 +2254,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_HasLinkUriImpl() throws -> Bool {
+        public func get_HasLinkUri() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasLinkUri(pThis, &value))
@@ -1973,7 +2262,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_LinkUriImpl() throws -> String {
+        public func get_LinkUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_LinkUri(pThis, &value))
@@ -1981,7 +2270,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_HasLinkTextImpl() throws -> Bool {
+        public func get_HasLinkText() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasLinkText(pThis, &value))
@@ -1989,7 +2278,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_LinkTextImpl() throws -> String {
+        public func get_LinkText() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_LinkText(pThis, &value))
@@ -1997,7 +2286,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_HasSourceUriImpl() throws -> Bool {
+        public func get_HasSourceUri() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasSourceUri(pThis, &value))
@@ -2005,7 +2294,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_SourceUriImpl() throws -> String {
+        public func get_SourceUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SourceUri(pThis, &value))
@@ -2013,7 +2302,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_HasSelectionImpl() throws -> Bool {
+        public func get_HasSelection() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasSelection(pThis, &value))
@@ -2021,7 +2310,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_SelectionTextImpl() throws -> String {
+        public func get_SelectionText() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ContextMenuTarget.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectionText(pThis, &value))
@@ -2034,7 +2323,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Controller: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller }
 
-        internal func get_IsVisibleImpl() throws -> Bool {
+        public func get_IsVisible() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsVisible(pThis, &value))
@@ -2042,13 +2331,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsVisibleImpl(_ value: Bool) throws {
+        public func put_IsVisible(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsVisible(pThis, .init(from: value)))
             }
         }
 
-        internal func get_BoundsImpl() throws -> WindowsFoundation.Rect {
+        public func get_Bounds() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Bounds(pThis, &value))
@@ -2056,13 +2345,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_BoundsImpl(_ value: WindowsFoundation.Rect) throws {
+        public func put_Bounds(_ value: WindowsFoundation.Rect) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Bounds(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_ZoomFactorImpl() throws -> Double {
+        public func get_ZoomFactor() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomFactor(pThis, &value))
@@ -2070,37 +2359,37 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ZoomFactorImpl(_ value: Double) throws {
+        public func put_ZoomFactor(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ZoomFactor(pThis, value))
             }
         }
 
-        internal func get_ParentWindowImpl() throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
+        public func get_ParentWindow() throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ParentWindow(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ControllerWindowReferenceBridge.from(abi: value)
         }
 
-        internal func put_ParentWindowImpl(_ value: WebView2Core.CoreWebView2ControllerWindowReference?) throws {
+        public func put_ParentWindow(_ value: WebView2Core.CoreWebView2ControllerWindowReference?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ParentWindow(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_CoreWebView2Impl() throws -> WebView2Core.CoreWebView2? {
+        public func get_CoreWebView2() throws -> WebView2Core.CoreWebView2? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_CoreWebView2(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2Bridge.from(abi: value)
         }
 
-        internal func add_ZoomFactorChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
+        public func add_ZoomFactorChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2110,13 +2399,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ZoomFactorChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ZoomFactorChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ZoomFactorChanged(pThis, token))
             }
         }
 
-        internal func add_MoveFocusRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, WebView2Core.CoreWebView2MoveFocusRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_MoveFocusRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, WebView2Core.CoreWebView2MoveFocusRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2MoveFocusRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2126,13 +2415,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_MoveFocusRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_MoveFocusRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_MoveFocusRequested(pThis, token))
             }
         }
 
-        internal func add_GotFocusImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
+        public func add_GotFocus(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2142,13 +2431,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_GotFocusImpl(_ token: EventRegistrationToken) throws {
+        public func remove_GotFocus(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_GotFocus(pThis, token))
             }
         }
 
-        internal func add_LostFocusImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
+        public func add_LostFocus(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2158,13 +2447,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_LostFocusImpl(_ token: EventRegistrationToken) throws {
+        public func remove_LostFocus(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_LostFocus(pThis, token))
             }
         }
 
-        internal func add_AcceleratorKeyPressedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, WebView2Core.CoreWebView2AcceleratorKeyPressedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_AcceleratorKeyPressed(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, WebView2Core.CoreWebView2AcceleratorKeyPressedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2AcceleratorKeyPressedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2174,31 +2463,31 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_AcceleratorKeyPressedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_AcceleratorKeyPressed(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_AcceleratorKeyPressed(pThis, token))
             }
         }
 
-        internal func SetBoundsAndZoomFactorImpl(_ Bounds: WindowsFoundation.Rect, _ ZoomFactor: Double) throws {
+        public func SetBoundsAndZoomFactor(_ Bounds: WindowsFoundation.Rect, _ ZoomFactor: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetBoundsAndZoomFactor(pThis, .from(swift: Bounds), ZoomFactor))
             }
         }
 
-        internal func MoveFocusImpl(_ reason: WebView2Core.CoreWebView2MoveFocusReason) throws {
+        public func MoveFocus(_ reason: WebView2Core.CoreWebView2MoveFocusReason) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.MoveFocus(pThis, reason))
             }
         }
 
-        internal func NotifyParentWindowPositionChangedImpl() throws {
+        public func NotifyParentWindowPositionChanged() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.NotifyParentWindowPositionChanged(pThis))
             }
         }
 
-        internal func CloseImpl() throws {
+        public func Close() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Close(pThis))
             }
@@ -2209,7 +2498,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Controller2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller2 }
 
-        internal func get_DefaultBackgroundColorImpl() throws -> UWP.Color {
+        public func get_DefaultBackgroundColor() throws -> UWP.Color {
             var value: __x_ABI_CWindows_CUI_CColor = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultBackgroundColor(pThis, &value))
@@ -2217,7 +2506,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_DefaultBackgroundColorImpl(_ value: UWP.Color) throws {
+        public func put_DefaultBackgroundColor(_ value: UWP.Color) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultBackgroundColor(pThis, .from(swift: value)))
             }
@@ -2228,7 +2517,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Controller3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3 }
 
-        internal func get_RasterizationScaleImpl() throws -> Double {
+        public func get_RasterizationScale() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_RasterizationScale(pThis, &value))
@@ -2236,13 +2525,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_RasterizationScaleImpl(_ value: Double) throws {
+        public func put_RasterizationScale(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_RasterizationScale(pThis, value))
             }
         }
 
-        internal func get_ShouldDetectMonitorScaleChangesImpl() throws -> Bool {
+        public func get_ShouldDetectMonitorScaleChanges() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldDetectMonitorScaleChanges(pThis, &value))
@@ -2250,13 +2539,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ShouldDetectMonitorScaleChangesImpl(_ value: Bool) throws {
+        public func put_ShouldDetectMonitorScaleChanges(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldDetectMonitorScaleChanges(pThis, .init(from: value)))
             }
         }
 
-        internal func get_BoundsModeImpl() throws -> WebView2Core.CoreWebView2BoundsMode {
+        public func get_BoundsMode() throws -> WebView2Core.CoreWebView2BoundsMode {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2BoundsMode = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BoundsMode(pThis, &value))
@@ -2264,13 +2553,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_BoundsModeImpl(_ value: WebView2Core.CoreWebView2BoundsMode) throws {
+        public func put_BoundsMode(_ value: WebView2Core.CoreWebView2BoundsMode) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_BoundsMode(pThis, value))
             }
         }
 
-        internal func add_RasterizationScaleChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
+        public func add_RasterizationScaleChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Controller?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2280,7 +2569,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_RasterizationScaleChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_RasterizationScaleChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_RasterizationScaleChanged(pThis, token))
             }
@@ -2291,7 +2580,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Controller4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller4 }
 
-        internal func get_AllowExternalDropImpl() throws -> Bool {
+        public func get_AllowExternalDrop() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowExternalDrop(pThis, &value))
@@ -2299,7 +2588,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AllowExternalDropImpl(_ value: Bool) throws {
+        public func put_AllowExternalDrop(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Controller4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AllowExternalDrop(pThis, .init(from: value)))
             }
@@ -2315,7 +2604,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ControllerOptions: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions }
 
-        internal func get_ProfileNameImpl() throws -> String {
+        public func get_ProfileName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProfileName(pThis, &value))
@@ -2323,14 +2612,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ProfileNameImpl(_ value: String) throws {
+        public func put_ProfileName(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ProfileName(pThis, _value.get()))
             }
         }
 
-        internal func get_IsInPrivateModeEnabledImpl() throws -> Bool {
+        public func get_IsInPrivateModeEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInPrivateModeEnabled(pThis, &value))
@@ -2338,7 +2627,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsInPrivateModeEnabledImpl(_ value: Bool) throws {
+        public func put_IsInPrivateModeEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsInPrivateModeEnabled(pThis, .init(from: value)))
             }
@@ -2349,7 +2638,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ControllerOptions2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2 }
 
-        internal func get_ScriptLocaleImpl() throws -> String {
+        public func get_ScriptLocale() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScriptLocale(pThis, &value))
@@ -2357,7 +2646,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ScriptLocaleImpl(_ value: String) throws {
+        public func put_ScriptLocale(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ScriptLocale(pThis, _value.get()))
@@ -2366,10 +2655,48 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2ControllerOptions3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3 }
+
+        public func get_DefaultBackgroundColor() throws -> UWP.Color {
+            var value: __x_ABI_CWindows_CUI_CColor = .init()
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultBackgroundColor(pThis, &value))
+            }
+            return .from(abi: value)
+        }
+
+        public func put_DefaultBackgroundColor(_ value: UWP.Color) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultBackgroundColor(pThis, .from(swift: value)))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2ControllerOptions4: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4 }
+
+        public func get_AllowHostInputProcessing() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowHostInputProcessing(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_AllowHostInputProcessing(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AllowHostInputProcessing(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
     public class ICoreWebView2ControllerWindowReference: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference }
 
-        internal func get_WindowHandleImpl() throws -> UInt64 {
+        public func get_WindowHandle() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_WindowHandle(pThis, &value))
@@ -2377,13 +2704,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_CoreWindowImpl() throws -> UWP.CoreWindow? {
+        public func get_CoreWindow() throws -> UWP.CoreWindow? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_CoreWindow(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_UI_Core.CoreWindowBridge.from(abi: value)
         }
 
     }
@@ -2391,22 +2718,22 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ControllerWindowReferenceStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReferenceStatics }
 
-        internal func CreateFromWindowHandleImpl(_ windowHandle: UInt64) throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
+        public func CreateFromWindowHandle(_ windowHandle: UInt64) throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReferenceStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFromWindowHandle(pThis, windowHandle, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ControllerWindowReferenceBridge.from(abi: result)
         }
 
-        internal func CreateFromCoreWindowImpl(_ coreWindow: UWP.CoreWindow?) throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
+        public func CreateFromCoreWindow(_ coreWindow: UWP.CoreWindow?) throws -> WebView2Core.CoreWebView2ControllerWindowReference? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReferenceStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFromCoreWindow(pThis, RawPointer(coreWindow), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ControllerWindowReferenceBridge.from(abi: result)
         }
 
     }
@@ -2414,7 +2741,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Cookie: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -2422,7 +2749,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ValueImpl() throws -> String {
+        public func get_Value() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Value(pThis, &value))
@@ -2430,14 +2757,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ValueImpl(_ value: String) throws {
+        public func put_Value(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Value(pThis, _value.get()))
             }
         }
 
-        internal func get_DomainImpl() throws -> String {
+        public func get_Domain() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Domain(pThis, &value))
@@ -2445,7 +2772,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PathImpl() throws -> String {
+        public func get_Path() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Path(pThis, &value))
@@ -2453,7 +2780,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ExpiresImpl() throws -> Double {
+        public func get_Expires() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Expires(pThis, &value))
@@ -2461,13 +2788,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ExpiresImpl(_ value: Double) throws {
+        public func put_Expires(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Expires(pThis, value))
             }
         }
 
-        internal func get_IsHttpOnlyImpl() throws -> Bool {
+        public func get_IsHttpOnly() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsHttpOnly(pThis, &value))
@@ -2475,13 +2802,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsHttpOnlyImpl(_ value: Bool) throws {
+        public func put_IsHttpOnly(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsHttpOnly(pThis, .init(from: value)))
             }
         }
 
-        internal func get_SameSiteImpl() throws -> WebView2Core.CoreWebView2CookieSameSiteKind {
+        public func get_SameSite() throws -> WebView2Core.CoreWebView2CookieSameSiteKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2CookieSameSiteKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SameSite(pThis, &value))
@@ -2489,13 +2816,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_SameSiteImpl(_ value: WebView2Core.CoreWebView2CookieSameSiteKind) throws {
+        public func put_SameSite(_ value: WebView2Core.CoreWebView2CookieSameSiteKind) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_SameSite(pThis, value))
             }
         }
 
-        internal func get_IsSecureImpl() throws -> Bool {
+        public func get_IsSecure() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSecure(pThis, &value))
@@ -2503,13 +2830,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsSecureImpl(_ value: Bool) throws {
+        public func put_IsSecure(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsSecure(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsSessionImpl() throws -> Bool {
+        public func get_IsSession() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Cookie.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSession(pThis, &value))
@@ -2522,7 +2849,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CookieManager: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager }
 
-        internal func CreateCookieImpl(_ name: String, _ value: String, _ Domain: String, _ Path: String) throws -> WebView2Core.CoreWebView2Cookie? {
+        public func CreateCookie(_ name: String, _ value: String, _ Domain: String, _ Path: String) throws -> WebView2Core.CoreWebView2Cookie? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _name = try! HString(name)
                 let _value = try! HString(value)
@@ -2532,31 +2859,31 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCookie(pThis, _name.get(), _value.get(), _Domain.get(), _Path.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CookieBridge.from(abi: result)
         }
 
-        internal func CopyCookieImpl(_ cookieParam: WebView2Core.CoreWebView2Cookie?) throws -> WebView2Core.CoreWebView2Cookie? {
+        public func CopyCookie(_ cookieParam: WebView2Core.CoreWebView2Cookie?) throws -> WebView2Core.CoreWebView2Cookie? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CopyCookie(pThis, RawPointer(cookieParam), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CookieBridge.from(abi: result)
         }
 
-        internal func AddOrUpdateCookieImpl(_ cookie: WebView2Core.CoreWebView2Cookie?) throws {
+        public func AddOrUpdateCookie(_ cookie: WebView2Core.CoreWebView2Cookie?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.AddOrUpdateCookie(pThis, RawPointer(cookie)))
             }
         }
 
-        internal func DeleteCookieImpl(_ cookie: WebView2Core.CoreWebView2Cookie?) throws {
+        public func DeleteCookie(_ cookie: WebView2Core.CoreWebView2Cookie?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.DeleteCookie(pThis, RawPointer(cookie)))
             }
         }
 
-        internal func DeleteCookiesImpl(_ name: String, _ uri: String) throws {
+        public func DeleteCookies(_ name: String, _ uri: String) throws {
             let _name = try! HString(name)
             let _uri = try! HString(uri)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager.self) { pThis in
@@ -2564,7 +2891,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func DeleteCookiesWithDomainAndPathImpl(_ name: String, _ Domain: String, _ Path: String) throws {
+        public func DeleteCookiesWithDomainAndPath(_ name: String, _ Domain: String, _ Path: String) throws {
             let _name = try! HString(name)
             let _Domain = try! HString(Domain)
             let _Path = try! HString(Path)
@@ -2573,7 +2900,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func DeleteAllCookiesImpl() throws {
+        public func DeleteAllCookies() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.DeleteAllCookies(pThis))
             }
@@ -2584,7 +2911,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CookieManager_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager__Manual }
 
-        internal func GetCookiesAsyncImpl(_ uri: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2Cookie?>?>? {
+        public func GetCookiesAsync(_ uri: String) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2Cookie?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _uri = try! HString(uri)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager__Manual.self) { pThis in
@@ -2596,10 +2923,71 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2CrashReport: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport }
+
+        public func get_BucketId() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_BucketId(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_CrashReportId() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CrashReportId(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ExceptionCode() throws -> UInt32 {
+            var value: UINT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExceptionCode(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_FaultOffset() throws -> UInt64 {
+            var value: UINT64 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FaultOffset(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_FaultingModuleName() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FaultingModuleName(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_FaultingModuleVersion() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FaultingModuleVersion(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ReportTime() throws -> UInt64 {
+            var value: UINT64 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReportTime(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
     public class ICoreWebView2CustomSchemeRegistration: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration }
 
-        internal func get_TreatAsSecureImpl() throws -> Int32 {
+        public func get_TreatAsSecure() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TreatAsSecure(pThis, &value))
@@ -2607,13 +2995,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TreatAsSecureImpl(_ value: Int32) throws {
+        public func put_TreatAsSecure(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TreatAsSecure(pThis, value))
             }
         }
 
-        internal func get_HasAuthorityComponentImpl() throws -> Bool {
+        public func get_HasAuthorityComponent() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasAuthorityComponent(pThis, &value))
@@ -2621,7 +3009,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HasAuthorityComponentImpl(_ value: Bool) throws {
+        public func put_HasAuthorityComponent(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HasAuthorityComponent(pThis, .init(from: value)))
             }
@@ -2632,7 +3020,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CustomSchemeRegistrationFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistrationFactory }
 
-        internal func CreateInstanceImpl(_ schemeName: String) throws -> ICoreWebView2CustomSchemeRegistration {
+        public func CreateInstance(_ schemeName: String) throws -> ICoreWebView2CustomSchemeRegistration {
             let (value) = try ComPtrs.initialize { valueAbi in
                 let _schemeName = try! HString(schemeName)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistrationFactory.self) { pThis in
@@ -2647,7 +3035,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2CustomSchemeRegistration_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration__Manual }
 
-        internal func get_SchemeNameImpl() throws -> String {
+        public func get_SchemeName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration__Manual.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SchemeName(pThis, &value))
@@ -2655,7 +3043,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_AllowedOriginsImpl() throws -> WindowsFoundation.AnyIVector<String>? {
+        public func get_AllowedOrigins() throws -> WindowsFoundation.AnyIVector<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowedOrigins(pThis, &valueAbi))
@@ -2669,7 +3057,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DOMContentLoadedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs }
 
-        internal func get_NavigationIdImpl() throws -> UInt64 {
+        public func get_NavigationId() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NavigationId(pThis, &value))
@@ -2679,10 +3067,108 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2DedicatedWorker: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker }
+
+        public func get_ScriptUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScriptUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func add_DedicatedWorkerCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DedicatedWorker?, WebView2Core.CoreWebView2DedicatedWorkerCreatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DedicatedWorkerCreated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_DedicatedWorkerCreated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DedicatedWorkerCreated(pThis, token))
+            }
+        }
+
+        public func add_Destroying(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DedicatedWorker?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Destroying(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_Destroying(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Destroying(pThis, token))
+            }
+        }
+
+        public func add_WebMessageReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DedicatedWorker?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_WebMessageReceived(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_WebMessageReceived(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebMessageReceived(pThis, token))
+            }
+        }
+
+        public func PostWebMessageAsJson(_ webMessageAsJson: String) throws {
+            let _webMessageAsJson = try! HString(webMessageAsJson)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsJson(pThis, _webMessageAsJson.get()))
+            }
+        }
+
+        public func PostWebMessageAsString(_ webMessageAsString: String) throws {
+            let _webMessageAsString = try! HString(webMessageAsString)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsString(pThis, _webMessageAsString.get()))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2DedicatedWorkerCreatedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs }
+
+        public func get_OriginalSourceFrameInfo() throws -> WebView2Core.CoreWebView2FrameInfo? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OriginalSourceFrameInfo(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FrameInfoBridge.from(abi: value)
+        }
+
+        public func get_Worker() throws -> WebView2Core.CoreWebView2DedicatedWorker? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Worker(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2DedicatedWorkerBridge.from(abi: value)
+        }
+
+    }
+
     public class ICoreWebView2DevToolsProtocolEventReceivedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs }
 
-        internal func get_ParameterObjectAsJsonImpl() throws -> String {
+        public func get_ParameterObjectAsJson() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ParameterObjectAsJson(pThis, &value))
@@ -2695,7 +3181,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DevToolsProtocolEventReceivedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs2 }
 
-        internal func get_SessionIdImpl() throws -> String {
+        public func get_SessionId() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SessionId(pThis, &value))
@@ -2708,7 +3194,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DevToolsProtocolEventReceiver: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceiver }
 
-        internal func add_DevToolsProtocolEventReceivedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DevToolsProtocolEventReceivedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_DevToolsProtocolEventReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DevToolsProtocolEventReceivedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DevToolsProtocolEventReceivedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2718,7 +3204,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DevToolsProtocolEventReceivedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_DevToolsProtocolEventReceived(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceiver.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DevToolsProtocolEventReceived(pThis, token))
             }
@@ -2729,7 +3215,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DispatchAdapter: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DispatchAdapter }
 
-        open func WrapNamedObjectImpl(_ name: String, _ adapter: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws -> Any? {
+        open func WrapNamedObject(_ name: String, _ adapter: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _name = try! HString(name)
                 let adapterWrapper = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DispatchAdapterWrapper(adapter)
@@ -2741,7 +3227,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func WrapObjectImpl(_ unwrapped: Any?, _ adapter: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws -> Any? {
+        open func WrapObject(_ unwrapped: Any?, _ adapter: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let unwrappedWrapper = __ABI_.AnyWrapper(unwrapped)
                 let _unwrapped = try! unwrappedWrapper?.toABI { $0 }
@@ -2754,7 +3240,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func UnwrapObjectImpl(_ wrapped: Any?) throws -> Any? {
+        open func UnwrapObject(_ wrapped: Any?) throws -> Any? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let wrappedWrapper = __ABI_.AnyWrapper(wrapped)
                 let _wrapped = try! wrappedWrapper?.toABI { $0 }
@@ -2765,7 +3251,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_.AnyWrapper.unwrapFrom(abi: result)
         }
 
-        open func CleanImpl() throws {
+        open func Clean() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DispatchAdapter.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Clean(pThis))
             }
@@ -2810,7 +3296,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($3)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         WrapObject: {
@@ -2822,7 +3308,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($3)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         UnwrapObject: {
@@ -2833,7 +3319,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                 let resultWrapper = __ABI_.AnyWrapper(result)
                 resultWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         Clean: {
@@ -2841,7 +3327,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                 guard let __unwrapped__instance = ICoreWebView2DispatchAdapterWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
                 try __unwrapped__instance.clean()
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 
@@ -2849,7 +3335,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DownloadOperation: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -2857,7 +3343,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ContentDispositionImpl() throws -> String {
+        public func get_ContentDisposition() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContentDisposition(pThis, &value))
@@ -2865,7 +3351,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_MimeTypeImpl() throws -> String {
+        public func get_MimeType() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MimeType(pThis, &value))
@@ -2873,7 +3359,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_TotalBytesToReceiveImpl() throws -> Int64 {
+        public func get_TotalBytesToReceive() throws -> Int64 {
             var value: INT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TotalBytesToReceive(pThis, &value))
@@ -2881,7 +3367,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_BytesReceivedImpl() throws -> Int64 {
+        public func get_BytesReceived() throws -> Int64 {
             var value: INT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BytesReceived(pThis, &value))
@@ -2889,7 +3375,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_EstimatedEndTimeImpl() throws -> String {
+        public func get_EstimatedEndTime() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_EstimatedEndTime(pThis, &value))
@@ -2897,7 +3383,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ResultFilePathImpl() throws -> String {
+        public func get_ResultFilePath() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResultFilePath(pThis, &value))
@@ -2905,7 +3391,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_StateImpl() throws -> WebView2Core.CoreWebView2DownloadState {
+        public func get_State() throws -> WebView2Core.CoreWebView2DownloadState {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadState = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_State(pThis, &value))
@@ -2913,7 +3399,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_InterruptReasonImpl() throws -> WebView2Core.CoreWebView2DownloadInterruptReason {
+        public func get_InterruptReason() throws -> WebView2Core.CoreWebView2DownloadInterruptReason {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DownloadInterruptReason = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_InterruptReason(pThis, &value))
@@ -2921,7 +3407,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_CanResumeImpl() throws -> Bool {
+        public func get_CanResume() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_CanResume(pThis, &value))
@@ -2929,7 +3415,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_BytesReceivedChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
+        public func add_BytesReceivedChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadOperation_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2939,13 +3425,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_BytesReceivedChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_BytesReceivedChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_BytesReceivedChanged(pThis, token))
             }
         }
 
-        internal func add_EstimatedEndTimeChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
+        public func add_EstimatedEndTimeChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadOperation_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2955,13 +3441,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_EstimatedEndTimeChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_EstimatedEndTimeChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_EstimatedEndTimeChanged(pThis, token))
             }
         }
 
-        internal func add_StateChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
+        public func add_StateChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2DownloadOperation?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadOperation_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -2971,25 +3457,25 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_StateChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_StateChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_StateChanged(pThis, token))
             }
         }
 
-        internal func CancelImpl() throws {
+        public func Cancel() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Cancel(pThis))
             }
         }
 
-        internal func PauseImpl() throws {
+        public func Pause() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Pause(pThis))
             }
         }
 
-        internal func ResumeImpl() throws {
+        public func Resume() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Resume(pThis))
             }
@@ -3000,16 +3486,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2DownloadStartingEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs }
 
-        internal func get_DownloadOperationImpl() throws -> WebView2Core.CoreWebView2DownloadOperation? {
+        public func get_DownloadOperation() throws -> WebView2Core.CoreWebView2DownloadOperation? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_DownloadOperation(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2DownloadOperationBridge.from(abi: value)
         }
 
-        internal func get_CancelImpl() throws -> Bool {
+        public func get_Cancel() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
@@ -3017,13 +3503,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_CancelImpl(_ value: Bool) throws {
+        public func put_Cancel(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
             }
         }
 
-        internal func get_ResultFilePathImpl() throws -> String {
+        public func get_ResultFilePath() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResultFilePath(pThis, &value))
@@ -3031,14 +3517,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ResultFilePathImpl(_ value: String) throws {
+        public func put_ResultFilePath(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ResultFilePath(pThis, _value.get()))
             }
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -3046,19 +3532,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DownloadStartingEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -3066,7 +3552,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment }
 
-        internal func get_BrowserVersionStringImpl() throws -> String {
+        public func get_BrowserVersionString() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BrowserVersionString(pThis, &value))
@@ -3074,7 +3560,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_NewBrowserVersionAvailableImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, Any?>?) throws -> EventRegistrationToken {
+        public func add_NewBrowserVersionAvailable(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Environment_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3084,13 +3570,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NewBrowserVersionAvailableImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NewBrowserVersionAvailable(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NewBrowserVersionAvailable(pThis, token))
             }
         }
 
-        internal func CreateCoreWebView2ControllerAsyncImpl(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Controller?>? {
+        public func CreateCoreWebView2ControllerAsync(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Controller?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2ControllerAsync(pThis, RawPointer(ParentWindow), &operationAbi))
@@ -3099,7 +3585,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ControllerWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func CreateWebResourceResponseImpl(_ Content: UWP.AnyIRandomAccessStream?, _ StatusCode: Int32, _ ReasonPhrase: String, _ Headers: String) throws -> WebView2Core.CoreWebView2WebResourceResponse? {
+        public func CreateWebResourceResponse(_ Content: UWP.AnyIRandomAccessStream?, _ StatusCode: Int32, _ ReasonPhrase: String, _ Headers: String) throws -> WebView2Core.CoreWebView2WebResourceResponse? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let ContentWrapper = __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper(Content)
                 let _Content = try! ContentWrapper?.toABI { $0 }
@@ -3109,7 +3595,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateWebResourceResponse(pThis, _Content, StatusCode, _ReasonPhrase.get(), _Headers.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceResponseBridge.from(abi: result)
         }
 
     }
@@ -3117,13 +3603,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment10: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment10 }
 
-        internal func CreateCoreWebView2ControllerOptionsImpl() throws -> WebView2Core.CoreWebView2ControllerOptions? {
+        public func CreateCoreWebView2ControllerOptions() throws -> WebView2Core.CoreWebView2ControllerOptions? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment10.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2ControllerOptions(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ControllerOptionsBridge.from(abi: result)
         }
 
     }
@@ -3131,7 +3617,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment11: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment11 }
 
-        internal func get_FailureReportFolderPathImpl() throws -> String {
+        public func get_FailureReportFolderPath() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment11.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FailureReportFolderPath(pThis, &value))
@@ -3144,13 +3630,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment12: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment12 }
 
-        internal func CreateSharedBufferImpl(_ Size: UInt64) throws -> WebView2Core.CoreWebView2SharedBuffer? {
+        public func CreateSharedBuffer(_ Size: UInt64) throws -> WebView2Core.CoreWebView2SharedBuffer? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment12.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateSharedBuffer(pThis, Size, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2SharedBufferBridge.from(abi: result)
         }
 
     }
@@ -3158,7 +3644,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment13: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment13 }
 
-        internal func GetProcessExtendedInfosAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ProcessExtendedInfo?>?>? {
+        public func GetProcessExtendedInfosAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ProcessExtendedInfo?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment13.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetProcessExtendedInfosAsync(pThis, &operationAbi))
@@ -3169,10 +3655,49 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2Environment14: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14 }
+
+        public func CreateWebFileSystemFileHandle(_ Path: String, _ Permission: WebView2Core.CoreWebView2FileSystemHandlePermission) throws -> WebView2Core.CoreWebView2FileSystemHandle? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                let _Path = try! HString(Path)
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.CreateWebFileSystemFileHandle(pThis, _Path.get(), Permission, &resultAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FileSystemHandleBridge.from(abi: result)
+        }
+
+        public func CreateWebFileSystemDirectoryHandle(_ Path: String, _ Permission: WebView2Core.CoreWebView2FileSystemHandlePermission) throws -> WebView2Core.CoreWebView2FileSystemHandle? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                let _Path = try! HString(Path)
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.CreateWebFileSystemDirectoryHandle(pThis, _Path.get(), Permission, &resultAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FileSystemHandleBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2Environment15: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15 }
+
+        public func CreateFindOptions() throws -> WebView2Core.CoreWebView2FindOptions? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFindOptions(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FindOptionsBridge.from(abi: result)
+        }
+
+    }
+
     public class ICoreWebView2Environment2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2 }
 
-        internal func CreateWebResourceRequestImpl(_ uri: String, _ Method: String, _ postData: UWP.AnyIRandomAccessStream?, _ Headers: String) throws -> WebView2Core.CoreWebView2WebResourceRequest? {
+        public func CreateWebResourceRequest(_ uri: String, _ Method: String, _ postData: UWP.AnyIRandomAccessStream?, _ Headers: String) throws -> WebView2Core.CoreWebView2WebResourceRequest? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _uri = try! HString(uri)
                 let _Method = try! HString(Method)
@@ -3183,7 +3708,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateWebResourceRequest(pThis, _uri.get(), _Method.get(), _postData, _Headers.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceRequestBridge.from(abi: result)
         }
 
     }
@@ -3191,7 +3716,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment3 }
 
-        internal func CreateCoreWebView2CompositionControllerAsyncImpl(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2CompositionController?>? {
+        public func CreateCoreWebView2CompositionControllerAsync(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2CompositionController?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2CompositionControllerAsync(pThis, RawPointer(ParentWindow), &operationAbi))
@@ -3200,13 +3725,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2CompositionControllerWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func CreateCoreWebView2PointerInfoImpl() throws -> WebView2Core.CoreWebView2PointerInfo? {
+        public func CreateCoreWebView2PointerInfo() throws -> WebView2Core.CoreWebView2PointerInfo? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2PointerInfo(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2PointerInfoBridge.from(abi: result)
         }
 
     }
@@ -3219,7 +3744,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment5 }
 
-        internal func add_BrowserProcessExitedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, WebView2Core.CoreWebView2BrowserProcessExitedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_BrowserProcessExited(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, WebView2Core.CoreWebView2BrowserProcessExitedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Environment___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2BrowserProcessExitedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3229,7 +3754,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_BrowserProcessExitedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_BrowserProcessExited(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_BrowserProcessExited(pThis, token))
             }
@@ -3240,13 +3765,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment6: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment6 }
 
-        internal func CreatePrintSettingsImpl() throws -> WebView2Core.CoreWebView2PrintSettings? {
+        public func CreatePrintSettings() throws -> WebView2Core.CoreWebView2PrintSettings? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment6.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreatePrintSettings(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2PrintSettingsBridge.from(abi: result)
         }
 
     }
@@ -3254,7 +3779,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment7: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment7 }
 
-        internal func get_UserDataFolderImpl() throws -> String {
+        public func get_UserDataFolder() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment7.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_UserDataFolder(pThis, &value))
@@ -3267,7 +3792,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment8: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment8 }
 
-        internal func add_ProcessInfosChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, Any?>?) throws -> EventRegistrationToken {
+        public func add_ProcessInfosChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Environment?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Environment_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3277,13 +3802,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ProcessInfosChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ProcessInfosChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ProcessInfosChanged(pThis, token))
             }
         }
 
-        internal func GetProcessInfosImpl() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ProcessInfo?>? {
+        public func GetProcessInfos() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ProcessInfo?>? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment8.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetProcessInfos(pThis, &resultAbi))
@@ -3297,7 +3822,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Environment9: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment9 }
 
-        internal func CreateContextMenuItemImpl(_ Label: String, _ iconStream: UWP.AnyIRandomAccessStream?, _ Kind: WebView2Core.CoreWebView2ContextMenuItemKind) throws -> WebView2Core.CoreWebView2ContextMenuItem? {
+        public func CreateContextMenuItem(_ Label: String, _ iconStream: UWP.AnyIRandomAccessStream?, _ Kind: WebView2Core.CoreWebView2ContextMenuItemKind) throws -> WebView2Core.CoreWebView2ContextMenuItem? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _Label = try! HString(Label)
                 let iconStreamWrapper = __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper(iconStream)
@@ -3306,7 +3831,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateContextMenuItem(pThis, _Label.get(), _iconStream, Kind, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ContextMenuItemBridge.from(abi: result)
         }
 
     }
@@ -3314,7 +3839,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions }
 
-        internal func get_AdditionalBrowserArgumentsImpl() throws -> String {
+        public func get_AdditionalBrowserArguments() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AdditionalBrowserArguments(pThis, &value))
@@ -3322,14 +3847,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AdditionalBrowserArgumentsImpl(_ value: String) throws {
+        public func put_AdditionalBrowserArguments(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AdditionalBrowserArguments(pThis, _value.get()))
             }
         }
 
-        internal func get_LanguageImpl() throws -> String {
+        public func get_Language() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Language(pThis, &value))
@@ -3337,14 +3862,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_LanguageImpl(_ value: String) throws {
+        public func put_Language(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Language(pThis, _value.get()))
             }
         }
 
-        internal func get_TargetCompatibleBrowserVersionImpl() throws -> String {
+        public func get_TargetCompatibleBrowserVersion() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TargetCompatibleBrowserVersion(pThis, &value))
@@ -3352,14 +3877,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_TargetCompatibleBrowserVersionImpl(_ value: String) throws {
+        public func put_TargetCompatibleBrowserVersion(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TargetCompatibleBrowserVersion(pThis, _value.get()))
             }
         }
 
-        internal func get_AllowSingleSignOnUsingOSPrimaryAccountImpl() throws -> Bool {
+        public func get_AllowSingleSignOnUsingOSPrimaryAccount() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowSingleSignOnUsingOSPrimaryAccount(pThis, &value))
@@ -3367,7 +3892,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AllowSingleSignOnUsingOSPrimaryAccountImpl(_ value: Bool) throws {
+        public func put_AllowSingleSignOnUsingOSPrimaryAccount(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AllowSingleSignOnUsingOSPrimaryAccount(pThis, .init(from: value)))
             }
@@ -3378,7 +3903,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions2 }
 
-        internal func get_ExclusiveUserDataFolderAccessImpl() throws -> Bool {
+        public func get_ExclusiveUserDataFolderAccess() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExclusiveUserDataFolderAccess(pThis, &value))
@@ -3386,7 +3911,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ExclusiveUserDataFolderAccessImpl(_ value: Bool) throws {
+        public func put_ExclusiveUserDataFolderAccess(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ExclusiveUserDataFolderAccess(pThis, .init(from: value)))
             }
@@ -3397,7 +3922,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions3 }
 
-        internal func get_IsCustomCrashReportingEnabledImpl() throws -> Bool {
+        public func get_IsCustomCrashReportingEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCustomCrashReportingEnabled(pThis, &value))
@@ -3405,7 +3930,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsCustomCrashReportingEnabledImpl(_ value: Bool) throws {
+        public func put_IsCustomCrashReportingEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsCustomCrashReportingEnabled(pThis, .init(from: value)))
             }
@@ -3421,7 +3946,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions5 }
 
-        internal func get_EnableTrackingPreventionImpl() throws -> Bool {
+        public func get_EnableTrackingPrevention() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_EnableTrackingPrevention(pThis, &value))
@@ -3429,7 +3954,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_EnableTrackingPreventionImpl(_ value: Bool) throws {
+        public func put_EnableTrackingPrevention(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_EnableTrackingPrevention(pThis, .init(from: value)))
             }
@@ -3440,7 +3965,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions6: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions6 }
 
-        internal func get_AreBrowserExtensionsEnabledImpl() throws -> Bool {
+        public func get_AreBrowserExtensionsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreBrowserExtensionsEnabled(pThis, &value))
@@ -3448,9 +3973,61 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreBrowserExtensionsEnabledImpl(_ value: Bool) throws {
+        public func put_AreBrowserExtensionsEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreBrowserExtensionsEnabled(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2EnvironmentOptions7: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7 }
+
+        public func get_ChannelSearchKind() throws -> WebView2Core.CoreWebView2ChannelSearchKind {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ChannelSearchKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ChannelSearchKind(pThis, &value))
+            }
+            return value
+        }
+
+        public func put_ChannelSearchKind(_ value: WebView2Core.CoreWebView2ChannelSearchKind) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ChannelSearchKind(pThis, value))
+            }
+        }
+
+        public func get_ReleaseChannels() throws -> WebView2Core.CoreWebView2ReleaseChannels {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ReleaseChannels = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReleaseChannels(pThis, &value))
+            }
+            return value
+        }
+
+        public func put_ReleaseChannels(_ value: WebView2Core.CoreWebView2ReleaseChannels) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ReleaseChannels(pThis, value))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2EnvironmentOptions8: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions8 }
+
+        public func get_ScrollBarStyle() throws -> WebView2Core.CoreWebView2ScrollbarStyle {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScrollbarStyle = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions8.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScrollBarStyle(pThis, &value))
+            }
+            return value
+        }
+
+        public func put_ScrollBarStyle(_ value: WebView2Core.CoreWebView2ScrollbarStyle) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions8.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ScrollBarStyle(pThis, value))
             }
         }
 
@@ -3464,7 +4041,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentOptions_Manual3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions__Manual3 }
 
-        internal func get_CustomSchemeRegistrationsImpl() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2CustomSchemeRegistration?>? {
+        public func get_CustomSchemeRegistrations() throws -> WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2CustomSchemeRegistration?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions__Manual3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_CustomSchemeRegistrations(pThis, &valueAbi))
@@ -3473,7 +4050,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2CustomSchemeRegistrationWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_CustomSchemeRegistrationsImpl(_ value: WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2CustomSchemeRegistration?>?) throws {
+        public func put_CustomSchemeRegistrations(_ value: WindowsFoundation.AnyIVector<WebView2Core.CoreWebView2CustomSchemeRegistration?>?) throws {
             let valueWrapper = WebView2Core.__x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2CustomSchemeRegistrationWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentOptions__Manual3.self) { pThis in
@@ -3486,7 +4063,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2EnvironmentStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics }
 
-        internal func CreateAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Environment?>? {
+        public func CreateAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Environment?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateAsync(pThis, &operationAbi))
@@ -3495,7 +4072,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2EnvironmentWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func CreateWithOptionsAsyncImpl(_ browserExecutableFolder: String, _ userDataFolder: String, _ options: WebView2Core.CoreWebView2EnvironmentOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Environment?>? {
+        public func CreateWithOptionsAsync(_ browserExecutableFolder: String, _ userDataFolder: String, _ options: WebView2Core.CoreWebView2EnvironmentOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Environment?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _browserExecutableFolder = try! HString(browserExecutableFolder)
                 let _userDataFolder = try! HString(userDataFolder)
@@ -3506,7 +4083,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2EnvironmentWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetAvailableBrowserVersionStringImpl() throws -> String {
+        public func GetAvailableBrowserVersionString() throws -> String {
             var result: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.GetAvailableBrowserVersionString(pThis, &result))
@@ -3514,7 +4091,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func GetAvailableBrowserVersionString2Impl(_ browserExecutableFolder: String) throws -> String {
+        public func GetAvailableBrowserVersionString2(_ browserExecutableFolder: String) throws -> String {
             var result: HSTRING?
             let _browserExecutableFolder = try! HString(browserExecutableFolder)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics.self) { pThis in
@@ -3523,7 +4100,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func CompareBrowserVersionStringImpl(_ browserVersionString1: String, _ browserVersionString2: String) throws -> Int32 {
+        public func CompareBrowserVersionString(_ browserVersionString1: String, _ browserVersionString2: String) throws -> Int32 {
             var result: INT32 = 0
             let _browserVersionString1 = try! HString(browserVersionString1)
             let _browserVersionString2 = try! HString(browserVersionString2)
@@ -3535,10 +4112,24 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2EnvironmentStatics2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics2 }
+
+        public func GetAvailableBrowserVersionStringWithOptions(_ browserExecutableFolder: String, _ options: WebView2Core.CoreWebView2EnvironmentOptions?) throws -> String {
+            var result: HSTRING?
+            let _browserExecutableFolder = try! HString(browserExecutableFolder)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2EnvironmentStatics2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.GetAvailableBrowserVersionStringWithOptions(pThis, _browserExecutableFolder.get(), RawPointer(options), &result))
+            }
+            return .init(from: result)
+        }
+
+    }
+
     public class ICoreWebView2Environment_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment__Manual }
 
-        internal func CreateCoreWebView2ControllerAsyncImpl(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?, _ options: WebView2Core.CoreWebView2ControllerOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Controller?>? {
+        public func CreateCoreWebView2ControllerAsync(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?, _ options: WebView2Core.CoreWebView2ControllerOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2Controller?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2ControllerAsync(pThis, RawPointer(ParentWindow), RawPointer(options), &operationAbi))
@@ -3547,7 +4138,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ControllerWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func CreateCoreWebView2CompositionControllerAsyncImpl(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?, _ options: WebView2Core.CoreWebView2ControllerOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2CompositionController?>? {
+        public func CreateCoreWebView2CompositionControllerAsync(_ ParentWindow: WebView2Core.CoreWebView2ControllerWindowReference?, _ options: WebView2Core.CoreWebView2ControllerOptions?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2CompositionController?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCoreWebView2CompositionControllerAsync(pThis, RawPointer(ParentWindow), RawPointer(options), &operationAbi))
@@ -3558,10 +4149,56 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2ExecuteScriptResult: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult }
+
+        public func get_Succeeded() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Succeeded(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ResultAsJson() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResultAsJson(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Exception() throws -> WebView2Core.CoreWebView2ScriptException? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Exception(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ScriptExceptionBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2ExecuteScriptResult_Manual: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult__Manual }
+
+        public func TryGetResultAsString(_ stringResult: inout String) throws -> Int32 {
+            var result: INT32 = 0
+            var _stringResult: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ExecuteScriptResult__Manual.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetResultAsString(pThis, &_stringResult, &result))
+            }
+            stringResult = .init(from: _stringResult)
+            WindowsDeleteString(_stringResult)
+            return result
+        }
+
+    }
+
     public class ICoreWebView2File: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File }
 
-        internal func get_PathImpl() throws -> String {
+        public func get_Path() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2File.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Path(pThis, &value))
@@ -3571,10 +4208,195 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2FileSystemHandle: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle }
+
+        public func get_Kind() throws -> WebView2Core.CoreWebView2FileSystemHandleKind {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandleKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_Path() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Path(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Permission() throws -> WebView2Core.CoreWebView2FileSystemHandlePermission {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FileSystemHandlePermission = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Permission(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class ICoreWebView2Find: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find }
+
+        public func get_ActiveMatchIndex() throws -> Int32 {
+            var value: INT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ActiveMatchIndex(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_MatchCount() throws -> Int32 {
+            var value: INT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_MatchCount(pThis, &value))
+            }
+            return value
+        }
+
+        public func add_ActiveMatchIndexChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Find?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ActiveMatchIndexChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_ActiveMatchIndexChanged(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ActiveMatchIndexChanged(pThis, token))
+            }
+        }
+
+        public func add_MatchCountChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Find?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_MatchCountChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_MatchCountChanged(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_MatchCountChanged(pThis, token))
+            }
+        }
+
+        public func StartAsync(_ options: WebView2Core.CoreWebView2FindOptions?) throws -> WindowsFoundation.AnyIAsyncAction? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.StartAsync(pThis, RawPointer(options), &operationAbi))
+                }
+            }
+            return __ABI_Windows_Foundation.IAsyncActionWrapper.unwrapFrom(abi: operation)
+        }
+
+        public func FindNext() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.FindNext(pThis))
+            }
+        }
+
+        public func FindPrevious() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.FindPrevious(pThis))
+            }
+        }
+
+        public func Stop() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.Stop(pThis))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2FindOptions: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions }
+
+        public func get_FindTerm() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FindTerm(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_FindTerm(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_FindTerm(pThis, _value.get()))
+            }
+        }
+
+        public func get_IsCaseSensitive() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCaseSensitive(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_IsCaseSensitive(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsCaseSensitive(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_ShouldHighlightAllMatches() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldHighlightAllMatches(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_ShouldHighlightAllMatches(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldHighlightAllMatches(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_ShouldMatchWord() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldMatchWord(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_ShouldMatchWord(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldMatchWord(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_SuppressDefaultFindDialog() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SuppressDefaultFindDialog(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_SuppressDefaultFindDialog(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SuppressDefaultFindDialog(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
     public class ICoreWebView2Frame: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -3582,7 +4404,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_NameChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, Any?>?) throws -> EventRegistrationToken {
+        public func add_NameChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3592,13 +4414,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NameChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NameChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NameChanged(pThis, token))
             }
         }
 
-        internal func add_DestroyedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, Any?>?) throws -> EventRegistrationToken {
+        public func add_Destroyed(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3608,20 +4430,20 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DestroyedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_Destroyed(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Destroyed(pThis, token))
             }
         }
 
-        internal func RemoveHostObjectFromScriptImpl(_ name: String) throws {
+        public func RemoveHostObjectFromScript(_ name: String) throws {
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveHostObjectFromScript(pThis, _name.get()))
             }
         }
 
-        internal func IsDestroyedImpl() throws -> Int32 {
+        public func IsDestroyed() throws -> Int32 {
             var result: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.IsDestroyed(pThis, &result))
@@ -3634,7 +4456,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Frame2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2 }
 
-        internal func add_NavigationStartingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_NavigationStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2NavigationStartingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationStartingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3644,13 +4466,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NavigationStartingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NavigationStarting(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NavigationStarting(pThis, token))
             }
         }
 
-        internal func add_ContentLoadingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2ContentLoadingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ContentLoading(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2ContentLoadingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContentLoadingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3660,13 +4482,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ContentLoadingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ContentLoading(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ContentLoading(pThis, token))
             }
         }
 
-        internal func add_NavigationCompletedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_NavigationCompleted(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2NavigationCompletedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationCompletedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3676,13 +4498,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_NavigationCompletedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_NavigationCompleted(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NavigationCompleted(pThis, token))
             }
         }
 
-        internal func add_DOMContentLoadedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2DOMContentLoadedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_DOMContentLoaded(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2DOMContentLoadedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DOMContentLoadedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3692,13 +4514,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DOMContentLoadedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_DOMContentLoaded(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DOMContentLoaded(pThis, token))
             }
         }
 
-        internal func add_WebMessageReceivedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_WebMessageReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3708,13 +4530,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_WebMessageReceivedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_WebMessageReceived(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebMessageReceived(pThis, token))
             }
         }
 
-        internal func ExecuteScriptAsyncImpl(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
+        public func ExecuteScriptAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _javaScript = try! HString(javaScript)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
@@ -3724,14 +4546,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1_HSTRINGWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func PostWebMessageAsJsonImpl(_ webMessageAsJson: String) throws {
+        public func PostWebMessageAsJson(_ webMessageAsJson: String) throws {
             let _webMessageAsJson = try! HString(webMessageAsJson)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsJson(pThis, _webMessageAsJson.get()))
             }
         }
 
-        internal func PostWebMessageAsStringImpl(_ webMessageAsString: String) throws {
+        public func PostWebMessageAsString(_ webMessageAsString: String) throws {
             let _webMessageAsString = try! HString(webMessageAsString)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsString(pThis, _webMessageAsString.get()))
@@ -3743,7 +4565,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Frame3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame3 }
 
-        internal func add_PermissionRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2PermissionRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_PermissionRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2PermissionRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2PermissionRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -3753,7 +4575,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_PermissionRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_PermissionRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PermissionRequested(pThis, token))
             }
@@ -3764,7 +4586,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Frame4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame4 }
 
-        internal func PostSharedBufferToScriptImpl(_ sharedBuffer: WebView2Core.CoreWebView2SharedBuffer?, _ access: WebView2Core.CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
+        public func PostSharedBufferToScript(_ sharedBuffer: WebView2Core.CoreWebView2SharedBuffer?, _ access: WebView2Core.CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
             let _additionalDataAsJson = try! HString(additionalDataAsJson)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostSharedBufferToScript(pThis, RawPointer(sharedBuffer), access, _additionalDataAsJson.get()))
@@ -3776,7 +4598,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Frame5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame5 }
 
-        internal func get_FrameIdImpl() throws -> UInt32 {
+        public func get_FrameId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameId(pThis, &value))
@@ -3786,16 +4608,79 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2Frame6: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6 }
+
+        public func add_ScreenCaptureStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2ScreenCaptureStartingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ScreenCaptureStartingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ScreenCaptureStarting(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_ScreenCaptureStarting(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ScreenCaptureStarting(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2Frame7: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7 }
+
+        public func add_FrameCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2FrameCreatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_FrameCreated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_FrameCreated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_FrameCreated(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2Frame8: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8 }
+
+        public func add_DedicatedWorkerCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Frame?, WebView2Core.CoreWebView2DedicatedWorkerCreatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DedicatedWorkerCreated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_DedicatedWorkerCreated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DedicatedWorkerCreated(pThis, token))
+            }
+        }
+
+    }
+
     public class ICoreWebView2FrameCreatedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs }
 
-        internal func get_FrameImpl() throws -> WebView2Core.CoreWebView2Frame? {
+        public func get_Frame() throws -> WebView2Core.CoreWebView2Frame? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Frame(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FrameBridge.from(abi: value)
         }
 
     }
@@ -3803,7 +4688,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2FrameInfo: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -3811,7 +4696,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_SourceImpl() throws -> String {
+        public func get_Source() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Source(pThis, &value))
@@ -3824,16 +4709,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2FrameInfo2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo2 }
 
-        internal func get_ParentFrameInfoImpl() throws -> WebView2Core.CoreWebView2FrameInfo? {
+        public func get_ParentFrameInfo() throws -> WebView2Core.CoreWebView2FrameInfo? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ParentFrameInfo(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FrameInfoBridge.from(abi: value)
         }
 
-        internal func get_FrameIdImpl() throws -> UInt32 {
+        public func get_FrameId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameId(pThis, &value))
@@ -3841,7 +4726,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_FrameKindImpl() throws -> WebView2Core.CoreWebView2FrameKind {
+        public func get_FrameKind() throws -> WebView2Core.CoreWebView2FrameKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2FrameKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameKind(pThis, &value))
@@ -3859,7 +4744,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2HttpRequestHeaders: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders }
 
-        internal func GetHeaderImpl(_ name: String) throws -> String {
+        public func GetHeader(_ name: String) throws -> String {
             var result: HSTRING?
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders.self) { pThis in
@@ -3868,17 +4753,17 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func GetHeadersImpl(_ name: String) throws -> WebView2Core.CoreWebView2HttpHeadersCollectionIterator? {
+        public func GetHeaders(_ name: String) throws -> WebView2Core.CoreWebView2HttpHeadersCollectionIterator? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _name = try! HString(name)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetHeaders(pThis, _name.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpHeadersCollectionIteratorBridge.from(abi: result)
         }
 
-        internal func ContainsImpl(_ name: String) throws -> Bool {
+        public func Contains(_ name: String) throws -> Bool {
             var result: boolean = 0
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders.self) { pThis in
@@ -3887,7 +4772,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func SetHeaderImpl(_ name: String, _ value: String) throws {
+        public func SetHeader(_ name: String, _ value: String) throws {
             let _name = try! HString(name)
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders.self) { pThis in
@@ -3895,7 +4780,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func RemoveHeaderImpl(_ name: String) throws {
+        public func RemoveHeader(_ name: String) throws {
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpRequestHeaders.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveHeader(pThis, _name.get()))
@@ -3907,7 +4792,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2HttpResponseHeaders: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders }
 
-        internal func AppendHeaderImpl(_ name: String, _ value: String) throws {
+        public func AppendHeader(_ name: String, _ value: String) throws {
             let _name = try! HString(name)
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders.self) { pThis in
@@ -3915,7 +4800,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func ContainsImpl(_ name: String) throws -> Bool {
+        public func Contains(_ name: String) throws -> Bool {
             var result: boolean = 0
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders.self) { pThis in
@@ -3924,7 +4809,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func GetHeaderImpl(_ name: String) throws -> String {
+        public func GetHeader(_ name: String) throws -> String {
             var result: HSTRING?
             let _name = try! HString(name)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders.self) { pThis in
@@ -3933,14 +4818,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: result)
         }
 
-        internal func GetHeadersImpl(_ name: String) throws -> WebView2Core.CoreWebView2HttpHeadersCollectionIterator? {
+        public func GetHeaders(_ name: String) throws -> WebView2Core.CoreWebView2HttpHeadersCollectionIterator? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _name = try! HString(name)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2HttpResponseHeaders.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetHeaders(pThis, _name.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpHeadersCollectionIteratorBridge.from(abi: result)
         }
 
     }
@@ -3948,7 +4833,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2LaunchingExternalUriSchemeEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -3956,7 +4841,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_InitiatingOriginImpl() throws -> String {
+        public func get_InitiatingOrigin() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_InitiatingOrigin(pThis, &value))
@@ -3964,7 +4849,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsUserInitiatedImpl() throws -> Bool {
+        public func get_IsUserInitiated() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsUserInitiated(pThis, &value))
@@ -3972,7 +4857,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_CancelImpl() throws -> Bool {
+        public func get_Cancel() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
@@ -3980,19 +4865,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_CancelImpl(_ value: Bool) throws {
+        public func put_Cancel(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2LaunchingExternalUriSchemeEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -4000,7 +4885,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2MoveFocusRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs }
 
-        internal func get_ReasonImpl() throws -> WebView2Core.CoreWebView2MoveFocusReason {
+        public func get_Reason() throws -> WebView2Core.CoreWebView2MoveFocusReason {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MoveFocusReason = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Reason(pThis, &value))
@@ -4008,7 +4893,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -4016,7 +4901,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2MoveFocusRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
@@ -4027,7 +4912,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NavigationCompletedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs }
 
-        internal func get_IsSuccessImpl() throws -> Bool {
+        public func get_IsSuccess() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSuccess(pThis, &value))
@@ -4035,7 +4920,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_WebErrorStatusImpl() throws -> WebView2Core.CoreWebView2WebErrorStatus {
+        public func get_WebErrorStatus() throws -> WebView2Core.CoreWebView2WebErrorStatus {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebErrorStatus = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_WebErrorStatus(pThis, &value))
@@ -4043,7 +4928,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_NavigationIdImpl() throws -> UInt64 {
+        public func get_NavigationId() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NavigationId(pThis, &value))
@@ -4056,7 +4941,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NavigationCompletedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs2 }
 
-        internal func get_HttpStatusCodeImpl() throws -> Int32 {
+        public func get_HttpStatusCode() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationCompletedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HttpStatusCode(pThis, &value))
@@ -4069,7 +4954,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NavigationStartingEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -4077,7 +4962,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsUserInitiatedImpl() throws -> Bool {
+        public func get_IsUserInitiated() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsUserInitiated(pThis, &value))
@@ -4085,7 +4970,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsRedirectedImpl() throws -> Bool {
+        public func get_IsRedirected() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsRedirected(pThis, &value))
@@ -4093,16 +4978,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_RequestHeadersImpl() throws -> WebView2Core.CoreWebView2HttpRequestHeaders? {
+        public func get_RequestHeaders() throws -> WebView2Core.CoreWebView2HttpRequestHeaders? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestHeaders(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpRequestHeadersBridge.from(abi: value)
         }
 
-        internal func get_CancelImpl() throws -> Bool {
+        public func get_Cancel() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
@@ -4110,13 +4995,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_CancelImpl(_ value: Bool) throws {
+        public func put_Cancel(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
             }
         }
 
-        internal func get_NavigationIdImpl() throws -> UInt64 {
+        public func get_NavigationId() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NavigationId(pThis, &value))
@@ -4129,7 +5014,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NavigationStartingEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs2 }
 
-        internal func get_AdditionalAllowedFrameAncestorsImpl() throws -> String {
+        public func get_AdditionalAllowedFrameAncestors() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AdditionalAllowedFrameAncestors(pThis, &value))
@@ -4137,7 +5022,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AdditionalAllowedFrameAncestorsImpl(_ value: String) throws {
+        public func put_AdditionalAllowedFrameAncestors(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AdditionalAllowedFrameAncestors(pThis, _value.get()))
@@ -4149,7 +5034,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NavigationStartingEventArgs3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs3 }
 
-        internal func get_NavigationKindImpl() throws -> WebView2Core.CoreWebView2NavigationKind {
+        public func get_NavigationKind() throws -> WebView2Core.CoreWebView2NavigationKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NavigationKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NavigationStartingEventArgs3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NavigationKind(pThis, &value))
@@ -4162,7 +5047,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NewWindowRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -4170,22 +5055,22 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_NewWindowImpl() throws -> WebView2Core.CoreWebView2? {
+        public func get_NewWindow() throws -> WebView2Core.CoreWebView2? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_NewWindow(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2Bridge.from(abi: value)
         }
 
-        internal func put_NewWindowImpl(_ value: WebView2Core.CoreWebView2?) throws {
+        public func put_NewWindow(_ value: WebView2Core.CoreWebView2?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_NewWindow(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -4193,13 +5078,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsUserInitiatedImpl() throws -> Bool {
+        public func get_IsUserInitiated() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsUserInitiated(pThis, &value))
@@ -4207,22 +5092,22 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_WindowFeaturesImpl() throws -> WebView2Core.CoreWebView2WindowFeatures? {
+        public func get_WindowFeatures() throws -> WebView2Core.CoreWebView2WindowFeatures? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_WindowFeatures(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WindowFeaturesBridge.from(abi: value)
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -4230,7 +5115,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NewWindowRequestedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs2 }
 
-        internal func get_NameImpl() throws -> String {
+        public func get_Name() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
@@ -4243,13 +5128,220 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2NewWindowRequestedEventArgs3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs3 }
 
-        internal func get_OriginalSourceFrameInfoImpl() throws -> WebView2Core.CoreWebView2FrameInfo? {
+        public func get_OriginalSourceFrameInfo() throws -> WebView2Core.CoreWebView2FrameInfo? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NewWindowRequestedEventArgs3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_OriginalSourceFrameInfo(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FrameInfoBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2NonClientRegionChangedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs }
+
+        public func get_RegionKind() throws -> WebView2Core.CoreWebView2NonClientRegionKind {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2NonClientRegionKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NonClientRegionChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_RegionKind(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class ICoreWebView2Notification: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification }
+
+        public func get_Body() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Body(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Direction() throws -> WebView2Core.CoreWebView2TextDirectionKind {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TextDirectionKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Direction(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_Language() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Language(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Tag() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Tag(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_IconUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Title() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Title(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_BadgeUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_BadgeUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_BodyImageUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_BodyImageUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ShouldRenotify() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldRenotify(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_RequiresInteraction() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequiresInteraction(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_IsSilent() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSilent(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Timestamp() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Timestamp(pThis, &value))
+            }
+            return value
+        }
+
+        public func add_CloseRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Notification?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Notification_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_CloseRequested(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_CloseRequested(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_CloseRequested(pThis, token))
+            }
+        }
+
+        public func ReportShown() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.ReportShown(pThis))
+            }
+        }
+
+        public func ReportClicked() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.ReportClicked(pThis))
+            }
+        }
+
+        public func ReportClosed() throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.ReportClosed(pThis))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2NotificationReceivedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs }
+
+        public func get_SenderOrigin() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SenderOrigin(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Notification() throws -> WebView2Core.CoreWebView2Notification? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Notification(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2NotificationBridge.from(abi: value)
+        }
+
+        public func get_Handled() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_Handled(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
+            }
+        }
+
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2NotificationReceivedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2Notification_Manual2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification__Manual2 }
+
+        public func get_VibrationPattern() throws -> WindowsFoundation.AnyIVectorView<UInt64>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Notification__Manual2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VibrationPattern(pThis, &valueAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIVectorView_1_UINT64Wrapper.unwrapFrom(abi: value)
         }
 
     }
@@ -4257,7 +5349,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PermissionRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -4265,7 +5357,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PermissionKindImpl() throws -> WebView2Core.CoreWebView2PermissionKind {
+        public func get_PermissionKind() throws -> WebView2Core.CoreWebView2PermissionKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PermissionKind(pThis, &value))
@@ -4273,7 +5365,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_IsUserInitiatedImpl() throws -> Bool {
+        public func get_IsUserInitiated() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsUserInitiated(pThis, &value))
@@ -4281,7 +5373,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_StateImpl() throws -> WebView2Core.CoreWebView2PermissionState {
+        public func get_State() throws -> WebView2Core.CoreWebView2PermissionState {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionState = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_State(pThis, &value))
@@ -4289,19 +5381,19 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_StateImpl(_ value: WebView2Core.CoreWebView2PermissionState) throws {
+        public func put_State(_ value: WebView2Core.CoreWebView2PermissionState) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_State(pThis, value))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
         }
 
     }
@@ -4309,7 +5401,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PermissionRequestedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs2 }
 
-        internal func get_HandledImpl() throws -> Bool {
+        public func get_Handled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
@@ -4317,7 +5409,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HandledImpl(_ value: Bool) throws {
+        public func put_Handled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
@@ -4328,7 +5420,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PermissionRequestedEventArgs3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs3 }
 
-        internal func get_SavesInProfileImpl() throws -> Bool {
+        public func get_SavesInProfile() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SavesInProfile(pThis, &value))
@@ -4336,7 +5428,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_SavesInProfileImpl(_ value: Bool) throws {
+        public func put_SavesInProfile(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionRequestedEventArgs3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_SavesInProfile(pThis, .init(from: value)))
             }
@@ -4347,7 +5439,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PermissionSetting: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting }
 
-        internal func get_PermissionKindImpl() throws -> WebView2Core.CoreWebView2PermissionKind {
+        public func get_PermissionKind() throws -> WebView2Core.CoreWebView2PermissionKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PermissionKind(pThis, &value))
@@ -4355,7 +5447,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_PermissionOriginImpl() throws -> String {
+        public func get_PermissionOrigin() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PermissionOrigin(pThis, &value))
@@ -4363,7 +5455,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_PermissionStateImpl() throws -> WebView2Core.CoreWebView2PermissionState {
+        public func get_PermissionState() throws -> WebView2Core.CoreWebView2PermissionState {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionState = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PermissionSetting.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PermissionState(pThis, &value))
@@ -4376,7 +5468,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PointerInfo: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo }
 
-        internal func get_PointerKindImpl() throws -> UInt32 {
+        public func get_PointerKind() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PointerKind(pThis, &value))
@@ -4384,13 +5476,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PointerKindImpl(_ value: UInt32) throws {
+        public func put_PointerKind(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PointerKind(pThis, value))
             }
         }
 
-        internal func get_PointerIdImpl() throws -> UInt32 {
+        public func get_PointerId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PointerId(pThis, &value))
@@ -4398,13 +5490,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PointerIdImpl(_ value: UInt32) throws {
+        public func put_PointerId(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PointerId(pThis, value))
             }
         }
 
-        internal func get_FrameIdImpl() throws -> UInt32 {
+        public func get_FrameId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameId(pThis, &value))
@@ -4412,13 +5504,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_FrameIdImpl(_ value: UInt32) throws {
+        public func put_FrameId(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_FrameId(pThis, value))
             }
         }
 
-        internal func get_PointerFlagsImpl() throws -> UInt32 {
+        public func get_PointerFlags() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PointerFlags(pThis, &value))
@@ -4426,13 +5518,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PointerFlagsImpl(_ value: UInt32) throws {
+        public func put_PointerFlags(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PointerFlags(pThis, value))
             }
         }
 
-        internal func get_PointerDeviceRectImpl() throws -> WindowsFoundation.Rect {
+        public func get_PointerDeviceRect() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PointerDeviceRect(pThis, &value))
@@ -4440,13 +5532,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_PointerDeviceRectImpl(_ value: WindowsFoundation.Rect) throws {
+        public func put_PointerDeviceRect(_ value: WindowsFoundation.Rect) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PointerDeviceRect(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_DisplayRectImpl() throws -> WindowsFoundation.Rect {
+        public func get_DisplayRect() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayRect(pThis, &value))
@@ -4454,13 +5546,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_DisplayRectImpl(_ value: WindowsFoundation.Rect) throws {
+        public func put_DisplayRect(_ value: WindowsFoundation.Rect) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DisplayRect(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_PixelLocationImpl() throws -> WindowsFoundation.Point {
+        public func get_PixelLocation() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PixelLocation(pThis, &value))
@@ -4468,13 +5560,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_PixelLocationImpl(_ value: WindowsFoundation.Point) throws {
+        public func put_PixelLocation(_ value: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PixelLocation(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_HimetricLocationImpl() throws -> WindowsFoundation.Point {
+        public func get_HimetricLocation() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HimetricLocation(pThis, &value))
@@ -4482,13 +5574,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_HimetricLocationImpl(_ value: WindowsFoundation.Point) throws {
+        public func put_HimetricLocation(_ value: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HimetricLocation(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_PixelLocationRawImpl() throws -> WindowsFoundation.Point {
+        public func get_PixelLocationRaw() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PixelLocationRaw(pThis, &value))
@@ -4496,13 +5588,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_PixelLocationRawImpl(_ value: WindowsFoundation.Point) throws {
+        public func put_PixelLocationRaw(_ value: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PixelLocationRaw(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_HimetricLocationRawImpl() throws -> WindowsFoundation.Point {
+        public func get_HimetricLocationRaw() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HimetricLocationRaw(pThis, &value))
@@ -4510,13 +5602,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_HimetricLocationRawImpl(_ value: WindowsFoundation.Point) throws {
+        public func put_HimetricLocationRaw(_ value: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HimetricLocationRaw(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_TimeImpl() throws -> UInt32 {
+        public func get_Time() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Time(pThis, &value))
@@ -4524,13 +5616,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TimeImpl(_ value: UInt32) throws {
+        public func put_Time(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Time(pThis, value))
             }
         }
 
-        internal func get_HistoryCountImpl() throws -> UInt32 {
+        public func get_HistoryCount() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HistoryCount(pThis, &value))
@@ -4538,13 +5630,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_HistoryCountImpl(_ value: UInt32) throws {
+        public func put_HistoryCount(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HistoryCount(pThis, value))
             }
         }
 
-        internal func get_InputDataImpl() throws -> Int32 {
+        public func get_InputData() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_InputData(pThis, &value))
@@ -4552,13 +5644,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_InputDataImpl(_ value: Int32) throws {
+        public func put_InputData(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_InputData(pThis, value))
             }
         }
 
-        internal func get_KeyStatesImpl() throws -> UInt32 {
+        public func get_KeyStates() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyStates(pThis, &value))
@@ -4566,13 +5658,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_KeyStatesImpl(_ value: UInt32) throws {
+        public func put_KeyStates(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_KeyStates(pThis, value))
             }
         }
 
-        internal func get_PerformanceCountImpl() throws -> UInt64 {
+        public func get_PerformanceCount() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PerformanceCount(pThis, &value))
@@ -4580,13 +5672,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PerformanceCountImpl(_ value: UInt64) throws {
+        public func put_PerformanceCount(_ value: UInt64) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PerformanceCount(pThis, value))
             }
         }
 
-        internal func get_ButtonChangeKindImpl() throws -> Int32 {
+        public func get_ButtonChangeKind() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ButtonChangeKind(pThis, &value))
@@ -4594,13 +5686,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ButtonChangeKindImpl(_ value: Int32) throws {
+        public func put_ButtonChangeKind(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ButtonChangeKind(pThis, value))
             }
         }
 
-        internal func get_PenFlagsImpl() throws -> UInt32 {
+        public func get_PenFlags() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenFlags(pThis, &value))
@@ -4608,13 +5700,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenFlagsImpl(_ value: UInt32) throws {
+        public func put_PenFlags(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenFlags(pThis, value))
             }
         }
 
-        internal func get_PenMaskImpl() throws -> UInt32 {
+        public func get_PenMask() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenMask(pThis, &value))
@@ -4622,13 +5714,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenMaskImpl(_ value: UInt32) throws {
+        public func put_PenMask(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenMask(pThis, value))
             }
         }
 
-        internal func get_PenPressureImpl() throws -> UInt32 {
+        public func get_PenPressure() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenPressure(pThis, &value))
@@ -4636,13 +5728,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenPressureImpl(_ value: UInt32) throws {
+        public func put_PenPressure(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenPressure(pThis, value))
             }
         }
 
-        internal func get_PenRotationImpl() throws -> UInt32 {
+        public func get_PenRotation() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenRotation(pThis, &value))
@@ -4650,13 +5742,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenRotationImpl(_ value: UInt32) throws {
+        public func put_PenRotation(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenRotation(pThis, value))
             }
         }
 
-        internal func get_PenTiltXImpl() throws -> Int32 {
+        public func get_PenTiltX() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenTiltX(pThis, &value))
@@ -4664,13 +5756,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenTiltXImpl(_ value: Int32) throws {
+        public func put_PenTiltX(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenTiltX(pThis, value))
             }
         }
 
-        internal func get_PenTiltYImpl() throws -> Int32 {
+        public func get_PenTiltY() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PenTiltY(pThis, &value))
@@ -4678,13 +5770,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PenTiltYImpl(_ value: Int32) throws {
+        public func put_PenTiltY(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PenTiltY(pThis, value))
             }
         }
 
-        internal func get_TouchFlagsImpl() throws -> UInt32 {
+        public func get_TouchFlags() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchFlags(pThis, &value))
@@ -4692,13 +5784,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TouchFlagsImpl(_ value: UInt32) throws {
+        public func put_TouchFlags(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchFlags(pThis, value))
             }
         }
 
-        internal func get_TouchMaskImpl() throws -> UInt32 {
+        public func get_TouchMask() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchMask(pThis, &value))
@@ -4706,13 +5798,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TouchMaskImpl(_ value: UInt32) throws {
+        public func put_TouchMask(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchMask(pThis, value))
             }
         }
 
-        internal func get_TouchContactImpl() throws -> WindowsFoundation.Rect {
+        public func get_TouchContact() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchContact(pThis, &value))
@@ -4720,13 +5812,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_TouchContactImpl(_ value: WindowsFoundation.Rect) throws {
+        public func put_TouchContact(_ value: WindowsFoundation.Rect) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchContact(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_TouchContactRawImpl() throws -> WindowsFoundation.Rect {
+        public func get_TouchContactRaw() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchContactRaw(pThis, &value))
@@ -4734,13 +5826,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_TouchContactRawImpl(_ value: WindowsFoundation.Rect) throws {
+        public func put_TouchContactRaw(_ value: WindowsFoundation.Rect) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchContactRaw(pThis, .from(swift: value)))
             }
         }
 
-        internal func get_TouchOrientationImpl() throws -> UInt32 {
+        public func get_TouchOrientation() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchOrientation(pThis, &value))
@@ -4748,13 +5840,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TouchOrientationImpl(_ value: UInt32) throws {
+        public func put_TouchOrientation(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchOrientation(pThis, value))
             }
         }
 
-        internal func get_TouchPressureImpl() throws -> UInt32 {
+        public func get_TouchPressure() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_TouchPressure(pThis, &value))
@@ -4762,7 +5854,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_TouchPressureImpl(_ value: UInt32) throws {
+        public func put_TouchPressure(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PointerInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_TouchPressure(pThis, value))
             }
@@ -4773,7 +5865,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PrintSettings: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings }
 
-        internal func get_OrientationImpl() throws -> WebView2Core.CoreWebView2PrintOrientation {
+        public func get_Orientation() throws -> WebView2Core.CoreWebView2PrintOrientation {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintOrientation = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Orientation(pThis, &value))
@@ -4781,13 +5873,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_OrientationImpl(_ value: WebView2Core.CoreWebView2PrintOrientation) throws {
+        public func put_Orientation(_ value: WebView2Core.CoreWebView2PrintOrientation) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Orientation(pThis, value))
             }
         }
 
-        internal func get_ScaleFactorImpl() throws -> Double {
+        public func get_ScaleFactor() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScaleFactor(pThis, &value))
@@ -4795,13 +5887,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ScaleFactorImpl(_ value: Double) throws {
+        public func put_ScaleFactor(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ScaleFactor(pThis, value))
             }
         }
 
-        internal func get_PageWidthImpl() throws -> Double {
+        public func get_PageWidth() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PageWidth(pThis, &value))
@@ -4809,13 +5901,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PageWidthImpl(_ value: Double) throws {
+        public func put_PageWidth(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PageWidth(pThis, value))
             }
         }
 
-        internal func get_PageHeightImpl() throws -> Double {
+        public func get_PageHeight() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PageHeight(pThis, &value))
@@ -4823,13 +5915,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PageHeightImpl(_ value: Double) throws {
+        public func put_PageHeight(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PageHeight(pThis, value))
             }
         }
 
-        internal func get_MarginTopImpl() throws -> Double {
+        public func get_MarginTop() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MarginTop(pThis, &value))
@@ -4837,13 +5929,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MarginTopImpl(_ value: Double) throws {
+        public func put_MarginTop(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MarginTop(pThis, value))
             }
         }
 
-        internal func get_MarginBottomImpl() throws -> Double {
+        public func get_MarginBottom() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MarginBottom(pThis, &value))
@@ -4851,13 +5943,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MarginBottomImpl(_ value: Double) throws {
+        public func put_MarginBottom(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MarginBottom(pThis, value))
             }
         }
 
-        internal func get_MarginLeftImpl() throws -> Double {
+        public func get_MarginLeft() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MarginLeft(pThis, &value))
@@ -4865,13 +5957,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MarginLeftImpl(_ value: Double) throws {
+        public func put_MarginLeft(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MarginLeft(pThis, value))
             }
         }
 
-        internal func get_MarginRightImpl() throws -> Double {
+        public func get_MarginRight() throws -> Double {
             var value: DOUBLE = 0.0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MarginRight(pThis, &value))
@@ -4879,13 +5971,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MarginRightImpl(_ value: Double) throws {
+        public func put_MarginRight(_ value: Double) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MarginRight(pThis, value))
             }
         }
 
-        internal func get_ShouldPrintBackgroundsImpl() throws -> Bool {
+        public func get_ShouldPrintBackgrounds() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldPrintBackgrounds(pThis, &value))
@@ -4893,13 +5985,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ShouldPrintBackgroundsImpl(_ value: Bool) throws {
+        public func put_ShouldPrintBackgrounds(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldPrintBackgrounds(pThis, .init(from: value)))
             }
         }
 
-        internal func get_ShouldPrintSelectionOnlyImpl() throws -> Bool {
+        public func get_ShouldPrintSelectionOnly() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldPrintSelectionOnly(pThis, &value))
@@ -4907,13 +5999,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ShouldPrintSelectionOnlyImpl(_ value: Bool) throws {
+        public func put_ShouldPrintSelectionOnly(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldPrintSelectionOnly(pThis, .init(from: value)))
             }
         }
 
-        internal func get_ShouldPrintHeaderAndFooterImpl() throws -> Bool {
+        public func get_ShouldPrintHeaderAndFooter() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldPrintHeaderAndFooter(pThis, &value))
@@ -4921,13 +6013,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ShouldPrintHeaderAndFooterImpl(_ value: Bool) throws {
+        public func put_ShouldPrintHeaderAndFooter(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShouldPrintHeaderAndFooter(pThis, .init(from: value)))
             }
         }
 
-        internal func get_HeaderTitleImpl() throws -> String {
+        public func get_HeaderTitle() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HeaderTitle(pThis, &value))
@@ -4935,14 +6027,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_HeaderTitleImpl(_ value: String) throws {
+        public func put_HeaderTitle(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HeaderTitle(pThis, _value.get()))
             }
         }
 
-        internal func get_FooterUriImpl() throws -> String {
+        public func get_FooterUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FooterUri(pThis, &value))
@@ -4950,7 +6042,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_FooterUriImpl(_ value: String) throws {
+        public func put_FooterUri(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_FooterUri(pThis, _value.get()))
@@ -4962,7 +6054,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PrintSettings2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2 }
 
-        internal func get_PageRangesImpl() throws -> String {
+        public func get_PageRanges() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PageRanges(pThis, &value))
@@ -4970,14 +6062,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_PageRangesImpl(_ value: String) throws {
+        public func put_PageRanges(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PageRanges(pThis, _value.get()))
             }
         }
 
-        internal func get_PagesPerSideImpl() throws -> Int32 {
+        public func get_PagesPerSide() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PagesPerSide(pThis, &value))
@@ -4985,13 +6077,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PagesPerSideImpl(_ value: Int32) throws {
+        public func put_PagesPerSide(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PagesPerSide(pThis, value))
             }
         }
 
-        internal func get_CopiesImpl() throws -> Int32 {
+        public func get_Copies() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Copies(pThis, &value))
@@ -4999,13 +6091,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_CopiesImpl(_ value: Int32) throws {
+        public func put_Copies(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Copies(pThis, value))
             }
         }
 
-        internal func get_CollationImpl() throws -> WebView2Core.CoreWebView2PrintCollation {
+        public func get_Collation() throws -> WebView2Core.CoreWebView2PrintCollation {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintCollation = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Collation(pThis, &value))
@@ -5013,13 +6105,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_CollationImpl(_ value: WebView2Core.CoreWebView2PrintCollation) throws {
+        public func put_Collation(_ value: WebView2Core.CoreWebView2PrintCollation) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Collation(pThis, value))
             }
         }
 
-        internal func get_ColorModeImpl() throws -> WebView2Core.CoreWebView2PrintColorMode {
+        public func get_ColorMode() throws -> WebView2Core.CoreWebView2PrintColorMode {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintColorMode = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ColorMode(pThis, &value))
@@ -5027,13 +6119,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ColorModeImpl(_ value: WebView2Core.CoreWebView2PrintColorMode) throws {
+        public func put_ColorMode(_ value: WebView2Core.CoreWebView2PrintColorMode) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ColorMode(pThis, value))
             }
         }
 
-        internal func get_DuplexImpl() throws -> WebView2Core.CoreWebView2PrintDuplex {
+        public func get_Duplex() throws -> WebView2Core.CoreWebView2PrintDuplex {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintDuplex = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Duplex(pThis, &value))
@@ -5041,13 +6133,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_DuplexImpl(_ value: WebView2Core.CoreWebView2PrintDuplex) throws {
+        public func put_Duplex(_ value: WebView2Core.CoreWebView2PrintDuplex) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Duplex(pThis, value))
             }
         }
 
-        internal func get_MediaSizeImpl() throws -> WebView2Core.CoreWebView2PrintMediaSize {
+        public func get_MediaSize() throws -> WebView2Core.CoreWebView2PrintMediaSize {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PrintMediaSize = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MediaSize(pThis, &value))
@@ -5055,13 +6147,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MediaSizeImpl(_ value: WebView2Core.CoreWebView2PrintMediaSize) throws {
+        public func put_MediaSize(_ value: WebView2Core.CoreWebView2PrintMediaSize) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MediaSize(pThis, value))
             }
         }
 
-        internal func get_PrinterNameImpl() throws -> String {
+        public func get_PrinterName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PrinterName(pThis, &value))
@@ -5069,7 +6161,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_PrinterNameImpl(_ value: String) throws {
+        public func put_PrinterName(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrintSettings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PrinterName(pThis, _value.get()))
@@ -5086,7 +6178,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2PrivatePartialController: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrivatePartialController }
 
-        internal func get_IsBrowserHitTransparentImpl() throws -> Bool {
+        public func get_IsBrowserHitTransparent() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2PrivatePartialController.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBrowserHitTransparent(pThis, &value))
@@ -5099,16 +6191,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ProcessExtendedInfo: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo }
 
-        internal func get_ProcessInfoImpl() throws -> WebView2Core.CoreWebView2ProcessInfo? {
+        public func get_ProcessInfo() throws -> WebView2Core.CoreWebView2ProcessInfo? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProcessInfo(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ProcessInfoBridge.from(abi: value)
         }
 
-        internal func get_AssociatedFrameInfosImpl() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2FrameInfo?>? {
+        public func get_AssociatedFrameInfos() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2FrameInfo?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessExtendedInfo.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_AssociatedFrameInfos(pThis, &valueAbi))
@@ -5122,7 +6214,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ProcessFailedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs }
 
-        internal func get_ProcessFailedKindImpl() throws -> WebView2Core.CoreWebView2ProcessFailedKind {
+        public func get_ProcessFailedKind() throws -> WebView2Core.CoreWebView2ProcessFailedKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProcessFailedKind(pThis, &value))
@@ -5135,7 +6227,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ProcessFailedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs2 }
 
-        internal func get_ReasonImpl() throws -> WebView2Core.CoreWebView2ProcessFailedReason {
+        public func get_Reason() throws -> WebView2Core.CoreWebView2ProcessFailedReason {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Reason(pThis, &value))
@@ -5143,7 +6235,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ExitCodeImpl() throws -> Int32 {
+        public func get_ExitCode() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExitCode(pThis, &value))
@@ -5151,7 +6243,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ProcessDescriptionImpl() throws -> String {
+        public func get_ProcessDescription() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProcessDescription(pThis, &value))
@@ -5159,7 +6251,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_FrameInfosForFailedProcessImpl() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2FrameInfo?>? {
+        public func get_FrameInfosForFailedProcess() throws -> WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2FrameInfo?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameInfosForFailedProcess(pThis, &valueAbi))
@@ -5170,10 +6262,37 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2ProcessFailedEventArgs3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3 }
+
+        public func get_FailureSourceModulePath() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FailureSourceModulePath(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+    }
+
+    public class ICoreWebView2ProcessFailedEventArgs4: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4 }
+
+        public func get_CrashReport() throws -> WebView2Core.CoreWebView2CrashReport? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CrashReport(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CrashReportBridge.from(abi: value)
+        }
+
+    }
+
     public class ICoreWebView2ProcessInfo: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo }
 
-        internal func get_ProcessIdImpl() throws -> Int32 {
+        public func get_ProcessId() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProcessId(pThis, &value))
@@ -5181,7 +6300,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_KindImpl() throws -> WebView2Core.CoreWebView2ProcessKind {
+        public func get_Kind() throws -> WebView2Core.CoreWebView2ProcessKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
@@ -5194,7 +6313,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile }
 
-        internal func get_ProfileNameImpl() throws -> String {
+        public func get_ProfileName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProfileName(pThis, &value))
@@ -5202,7 +6321,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_IsInPrivateModeEnabledImpl() throws -> Bool {
+        public func get_IsInPrivateModeEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInPrivateModeEnabled(pThis, &value))
@@ -5210,7 +6329,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ProfilePathImpl() throws -> String {
+        public func get_ProfilePath() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProfilePath(pThis, &value))
@@ -5218,7 +6337,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DefaultDownloadFolderPathImpl() throws -> String {
+        public func get_DefaultDownloadFolderPath() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultDownloadFolderPath(pThis, &value))
@@ -5226,14 +6345,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_DefaultDownloadFolderPathImpl(_ value: String) throws {
+        public func put_DefaultDownloadFolderPath(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultDownloadFolderPath(pThis, _value.get()))
             }
         }
 
-        internal func get_PreferredColorSchemeImpl() throws -> WebView2Core.CoreWebView2PreferredColorScheme {
+        public func get_PreferredColorScheme() throws -> WebView2Core.CoreWebView2PreferredColorScheme {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PreferredColorScheme = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PreferredColorScheme(pThis, &value))
@@ -5241,7 +6360,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PreferredColorSchemeImpl(_ value: WebView2Core.CoreWebView2PreferredColorScheme) throws {
+        public func put_PreferredColorScheme(_ value: WebView2Core.CoreWebView2PreferredColorScheme) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PreferredColorScheme(pThis, value))
             }
@@ -5252,7 +6371,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile2 }
 
-        internal func ClearBrowsingDataAsyncImpl(_ dataKinds: WebView2Core.CoreWebView2BrowsingDataKinds) throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func ClearBrowsingDataAsync(_ dataKinds: WebView2Core.CoreWebView2BrowsingDataKinds) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ClearBrowsingDataAsync(pThis, dataKinds, &operationAbi))
@@ -5266,7 +6385,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile3 }
 
-        internal func get_PreferredTrackingPreventionLevelImpl() throws -> WebView2Core.CoreWebView2TrackingPreventionLevel {
+        public func get_PreferredTrackingPreventionLevel() throws -> WebView2Core.CoreWebView2TrackingPreventionLevel {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2TrackingPreventionLevel = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PreferredTrackingPreventionLevel(pThis, &value))
@@ -5274,7 +6393,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_PreferredTrackingPreventionLevelImpl(_ value: WebView2Core.CoreWebView2TrackingPreventionLevel) throws {
+        public func put_PreferredTrackingPreventionLevel(_ value: WebView2Core.CoreWebView2TrackingPreventionLevel) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_PreferredTrackingPreventionLevel(pThis, value))
             }
@@ -5285,7 +6404,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile4 }
 
-        internal func SetPermissionStateAsyncImpl(_ PermissionKind: WebView2Core.CoreWebView2PermissionKind, _ origin: String, _ State: WebView2Core.CoreWebView2PermissionState) throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func SetPermissionStateAsync(_ PermissionKind: WebView2Core.CoreWebView2PermissionKind, _ origin: String, _ State: WebView2Core.CoreWebView2PermissionState) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _origin = try! HString(origin)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile4.self) { pThis in
@@ -5300,13 +6419,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile5 }
 
-        internal func get_CookieManagerImpl() throws -> WebView2Core.CoreWebView2CookieManager? {
+        public func get_CookieManager() throws -> WebView2Core.CoreWebView2CookieManager? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile5.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_CookieManager(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CookieManagerBridge.from(abi: value)
         }
 
     }
@@ -5314,7 +6433,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile6: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile6 }
 
-        internal func get_IsPasswordAutosaveEnabledImpl() throws -> Bool {
+        public func get_IsPasswordAutosaveEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPasswordAutosaveEnabled(pThis, &value))
@@ -5322,13 +6441,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsPasswordAutosaveEnabledImpl(_ value: Bool) throws {
+        public func put_IsPasswordAutosaveEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPasswordAutosaveEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsGeneralAutofillEnabledImpl() throws -> Bool {
+        public func get_IsGeneralAutofillEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsGeneralAutofillEnabled(pThis, &value))
@@ -5336,7 +6455,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsGeneralAutofillEnabledImpl(_ value: Bool) throws {
+        public func put_IsGeneralAutofillEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsGeneralAutofillEnabled(pThis, .init(from: value)))
             }
@@ -5347,7 +6466,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile7: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile7 }
 
-        internal func AddBrowserExtensionAsyncImpl(_ extensionFolderPath: String) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2BrowserExtension?>? {
+        public func AddBrowserExtensionAsync(_ extensionFolderPath: String) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2BrowserExtension?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _extensionFolderPath = try! HString(extensionFolderPath)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile7.self) { pThis in
@@ -5362,7 +6481,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Profile8: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8 }
 
-        internal func add_DeletedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Profile?, Any?>?) throws -> EventRegistrationToken {
+        public func add_Deleted(_ handler: TypedEventHandler<WebView2Core.CoreWebView2Profile?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Profile_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -5372,13 +6491,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DeletedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_Deleted(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Deleted(pThis, token))
             }
         }
 
-        internal func DeleteImpl() throws {
+        public func Delete() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Delete(pThis))
             }
@@ -5386,10 +6505,257 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2Profile9: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9 }
+
+        public func get_AreWebViewScriptApisEnabledForServiceWorkers() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreWebViewScriptApisEnabledForServiceWorkers(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_AreWebViewScriptApisEnabledForServiceWorkers(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreWebViewScriptApisEnabledForServiceWorkers(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_ServiceWorkerManager() throws -> WebView2Core.CoreWebView2ServiceWorkerManager? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServiceWorkerManager(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ServiceWorkerManagerBridge.from(abi: value)
+        }
+
+        public func get_SharedWorkerManager() throws -> WebView2Core.CoreWebView2SharedWorkerManager? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SharedWorkerManager(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2SharedWorkerManagerBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2SaveAsUIShowingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs }
+
+        public func get_ContentMimeType() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContentMimeType(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Cancel() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_Cancel(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_SuppressDefaultDialog() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SuppressDefaultDialog(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_SuppressDefaultDialog(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SuppressDefaultDialog(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_SaveAsFilePath() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SaveAsFilePath(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_SaveAsFilePath(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SaveAsFilePath(pThis, _value.get()))
+            }
+        }
+
+        public func get_AllowReplace() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowReplace(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_AllowReplace(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AllowReplace(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_Kind() throws -> WebView2Core.CoreWebView2SaveAsKind {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2SaveAsKind = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
+            }
+            return value
+        }
+
+        public func put_Kind(_ value: WebView2Core.CoreWebView2SaveAsKind) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Kind(pThis, value))
+            }
+        }
+
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2SaveFileSecurityCheckStartingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs }
+
+        public func get_CancelSave() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CancelSave(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_CancelSave(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_CancelSave(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_DocumentOriginUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DocumentOriginUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_FileExtension() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FileExtension(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_FilePath() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_FilePath(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_SuppressDefaultPolicy() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SuppressDefaultPolicy(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_SuppressDefaultPolicy(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SuppressDefaultPolicy(pThis, .init(from: value)))
+            }
+        }
+
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveFileSecurityCheckStartingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2ScreenCaptureStartingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs }
+
+        public func get_Cancel() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_Cancel(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_Handled() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Handled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_Handled(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_OriginalSourceFrameInfo() throws -> WebView2Core.CoreWebView2FrameInfo? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OriginalSourceFrameInfo(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FrameInfoBridge.from(abi: value)
+        }
+
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScreenCaptureStartingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
     public class ICoreWebView2ScriptDialogOpeningEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -5397,7 +6763,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_KindImpl() throws -> WebView2Core.CoreWebView2ScriptDialogKind {
+        public func get_Kind() throws -> WebView2Core.CoreWebView2ScriptDialogKind {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ScriptDialogKind = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Kind(pThis, &value))
@@ -5405,7 +6771,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_MessageImpl() throws -> String {
+        public func get_Message() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Message(pThis, &value))
@@ -5413,7 +6779,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DefaultTextImpl() throws -> String {
+        public func get_DefaultText() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultText(pThis, &value))
@@ -5421,7 +6787,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ResultTextImpl() throws -> String {
+        public func get_ResultText() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResultText(pThis, &value))
@@ -5429,26 +6795,71 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ResultTextImpl(_ value: String) throws {
+        public func put_ResultText(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ResultText(pThis, _value.get()))
             }
         }
 
-        internal func AcceptImpl() throws {
+        public func Accept() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Accept(pThis))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptDialogOpeningEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2ScriptException: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException }
+
+        public func get_LineNumber() throws -> UInt32 {
+            var value: UINT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_LineNumber(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_ColumnNumber() throws -> UInt32 {
+            var value: UINT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ColumnNumber(pThis, &value))
+            }
+            return value
+        }
+
+        public func get_Name() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Name(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_Message() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Message(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ToJson() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ScriptException.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ToJson(pThis, &value))
+            }
+            return .init(from: value)
         }
 
     }
@@ -5456,7 +6867,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2ServerCertificateErrorDetectedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs }
 
-        internal func get_ErrorStatusImpl() throws -> WebView2Core.CoreWebView2WebErrorStatus {
+        public func get_ErrorStatus() throws -> WebView2Core.CoreWebView2WebErrorStatus {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebErrorStatus = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ErrorStatus(pThis, &value))
@@ -5464,7 +6875,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_RequestUriImpl() throws -> String {
+        public func get_RequestUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestUri(pThis, &value))
@@ -5472,16 +6883,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ServerCertificateImpl() throws -> WebView2Core.CoreWebView2Certificate? {
+        public func get_ServerCertificate() throws -> WebView2Core.CoreWebView2Certificate? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServerCertificate(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CertificateBridge.from(abi: value)
         }
 
-        internal func get_ActionImpl() throws -> WebView2Core.CoreWebView2ServerCertificateErrorAction {
+        public func get_Action() throws -> WebView2Core.CoreWebView2ServerCertificateErrorAction {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServerCertificateErrorAction = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Action(pThis, &value))
@@ -5489,19 +6900,206 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_ActionImpl(_ value: WebView2Core.CoreWebView2ServerCertificateErrorAction) throws {
+        public func put_Action(_ value: WebView2Core.CoreWebView2ServerCertificateErrorAction) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Action(pThis, value))
             }
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2ServiceWorker: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker }
+
+        public func get_ScriptUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScriptUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func add_Destroying(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ServiceWorker?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Destroying(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_Destroying(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Destroying(pThis, token))
+            }
+        }
+
+        public func add_WebMessageReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ServiceWorker?, WebView2Core.CoreWebView2WebMessageReceivedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_WebMessageReceived(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_WebMessageReceived(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebMessageReceived(pThis, token))
+            }
+        }
+
+        public func PostWebMessageAsJson(_ webMessageAsJson: String) throws {
+            let _webMessageAsJson = try! HString(webMessageAsJson)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsJson(pThis, _webMessageAsJson.get()))
+            }
+        }
+
+        public func PostWebMessageAsString(_ webMessageAsString: String) throws {
+            let _webMessageAsString = try! HString(webMessageAsString)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsString(pThis, _webMessageAsString.get()))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2ServiceWorkerActivatedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs }
+
+        public func get_ActiveServiceWorker() throws -> WebView2Core.CoreWebView2ServiceWorker? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ActiveServiceWorker(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ServiceWorkerBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2ServiceWorkerManager: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager }
+
+        public func add_ServiceWorkerRegistered(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ServiceWorkerManager?, WebView2Core.CoreWebView2ServiceWorkerRegisteredEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ServiceWorkerRegistered(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_ServiceWorkerRegistered(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ServiceWorkerRegistered(pThis, token))
+            }
+        }
+
+        public func GetServiceWorkerRegistrationsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2ServiceWorkerRegistration?>?>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetServiceWorkerRegistrationsAsync(pThis, &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
+    public class ICoreWebView2ServiceWorkerRegisteredEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs }
+
+        public func get_ServiceWorkerRegistration() throws -> WebView2Core.CoreWebView2ServiceWorkerRegistration? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServiceWorkerRegistration(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ServiceWorkerRegistrationBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2ServiceWorkerRegistration: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration }
+
+        public func get_ActiveServiceWorker() throws -> WebView2Core.CoreWebView2ServiceWorker? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ActiveServiceWorker(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ServiceWorkerBridge.from(abi: value)
+        }
+
+        public func get_Origin() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Origin(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ScopeUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScopeUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_TopLevelOrigin() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopLevelOrigin(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func add_ServiceWorkerActivated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ServiceWorkerRegistration?, WebView2Core.CoreWebView2ServiceWorkerActivatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ServiceWorkerActivated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_ServiceWorkerActivated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ServiceWorkerActivated(pThis, token))
+            }
+        }
+
+        public func add_Unregistering(_ handler: TypedEventHandler<WebView2Core.CoreWebView2ServiceWorkerRegistration?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Unregistering(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_Unregistering(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Unregistering(pThis, token))
+            }
         }
 
     }
@@ -5509,7 +7107,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings }
 
-        internal func get_IsScriptEnabledImpl() throws -> Bool {
+        public func get_IsScriptEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsScriptEnabled(pThis, &value))
@@ -5517,13 +7115,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsScriptEnabledImpl(_ value: Bool) throws {
+        public func put_IsScriptEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsScriptEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsWebMessageEnabledImpl() throws -> Bool {
+        public func get_IsWebMessageEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsWebMessageEnabled(pThis, &value))
@@ -5531,13 +7129,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsWebMessageEnabledImpl(_ value: Bool) throws {
+        public func put_IsWebMessageEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsWebMessageEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_AreDefaultScriptDialogsEnabledImpl() throws -> Bool {
+        public func get_AreDefaultScriptDialogsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreDefaultScriptDialogsEnabled(pThis, &value))
@@ -5545,13 +7143,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreDefaultScriptDialogsEnabledImpl(_ value: Bool) throws {
+        public func put_AreDefaultScriptDialogsEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreDefaultScriptDialogsEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsStatusBarEnabledImpl() throws -> Bool {
+        public func get_IsStatusBarEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsStatusBarEnabled(pThis, &value))
@@ -5559,13 +7157,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsStatusBarEnabledImpl(_ value: Bool) throws {
+        public func put_IsStatusBarEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsStatusBarEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_AreDevToolsEnabledImpl() throws -> Bool {
+        public func get_AreDevToolsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreDevToolsEnabled(pThis, &value))
@@ -5573,13 +7171,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreDevToolsEnabledImpl(_ value: Bool) throws {
+        public func put_AreDevToolsEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreDevToolsEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_AreDefaultContextMenusEnabledImpl() throws -> Bool {
+        public func get_AreDefaultContextMenusEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreDefaultContextMenusEnabled(pThis, &value))
@@ -5587,13 +7185,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreDefaultContextMenusEnabledImpl(_ value: Bool) throws {
+        public func put_AreDefaultContextMenusEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreDefaultContextMenusEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_AreHostObjectsAllowedImpl() throws -> Bool {
+        public func get_AreHostObjectsAllowed() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreHostObjectsAllowed(pThis, &value))
@@ -5601,13 +7199,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreHostObjectsAllowedImpl(_ value: Bool) throws {
+        public func put_AreHostObjectsAllowed(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreHostObjectsAllowed(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsZoomControlEnabledImpl() throws -> Bool {
+        public func get_IsZoomControlEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsZoomControlEnabled(pThis, &value))
@@ -5615,13 +7213,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsZoomControlEnabledImpl(_ value: Bool) throws {
+        public func put_IsZoomControlEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsZoomControlEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsBuiltInErrorPageEnabledImpl() throws -> Bool {
+        public func get_IsBuiltInErrorPageEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBuiltInErrorPageEnabled(pThis, &value))
@@ -5629,7 +7227,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsBuiltInErrorPageEnabledImpl(_ value: Bool) throws {
+        public func put_IsBuiltInErrorPageEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsBuiltInErrorPageEnabled(pThis, .init(from: value)))
             }
@@ -5640,7 +7238,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings2 }
 
-        internal func get_UserAgentImpl() throws -> String {
+        public func get_UserAgent() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_UserAgent(pThis, &value))
@@ -5648,7 +7246,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_UserAgentImpl(_ value: String) throws {
+        public func put_UserAgent(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_UserAgent(pThis, _value.get()))
@@ -5660,7 +7258,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings3 }
 
-        internal func get_AreBrowserAcceleratorKeysEnabledImpl() throws -> Bool {
+        public func get_AreBrowserAcceleratorKeysEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreBrowserAcceleratorKeysEnabled(pThis, &value))
@@ -5668,7 +7266,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_AreBrowserAcceleratorKeysEnabledImpl(_ value: Bool) throws {
+        public func put_AreBrowserAcceleratorKeysEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreBrowserAcceleratorKeysEnabled(pThis, .init(from: value)))
             }
@@ -5679,7 +7277,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings4 }
 
-        internal func get_IsPasswordAutosaveEnabledImpl() throws -> Bool {
+        public func get_IsPasswordAutosaveEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPasswordAutosaveEnabled(pThis, &value))
@@ -5687,13 +7285,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsPasswordAutosaveEnabledImpl(_ value: Bool) throws {
+        public func put_IsPasswordAutosaveEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPasswordAutosaveEnabled(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsGeneralAutofillEnabledImpl() throws -> Bool {
+        public func get_IsGeneralAutofillEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsGeneralAutofillEnabled(pThis, &value))
@@ -5701,7 +7299,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsGeneralAutofillEnabledImpl(_ value: Bool) throws {
+        public func put_IsGeneralAutofillEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsGeneralAutofillEnabled(pThis, .init(from: value)))
             }
@@ -5712,7 +7310,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings5 }
 
-        internal func get_IsPinchZoomEnabledImpl() throws -> Bool {
+        public func get_IsPinchZoomEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPinchZoomEnabled(pThis, &value))
@@ -5720,7 +7318,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsPinchZoomEnabledImpl(_ value: Bool) throws {
+        public func put_IsPinchZoomEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPinchZoomEnabled(pThis, .init(from: value)))
             }
@@ -5731,7 +7329,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings6: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings6 }
 
-        internal func get_IsSwipeNavigationEnabledImpl() throws -> Bool {
+        public func get_IsSwipeNavigationEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSwipeNavigationEnabled(pThis, &value))
@@ -5739,7 +7337,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsSwipeNavigationEnabledImpl(_ value: Bool) throws {
+        public func put_IsSwipeNavigationEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsSwipeNavigationEnabled(pThis, .init(from: value)))
             }
@@ -5750,7 +7348,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings7: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings7 }
 
-        internal func get_HiddenPdfToolbarItemsImpl() throws -> WebView2Core.CoreWebView2PdfToolbarItems {
+        public func get_HiddenPdfToolbarItems() throws -> WebView2Core.CoreWebView2PdfToolbarItems {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PdfToolbarItems = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings7.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HiddenPdfToolbarItems(pThis, &value))
@@ -5758,7 +7356,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_HiddenPdfToolbarItemsImpl(_ value: WebView2Core.CoreWebView2PdfToolbarItems) throws {
+        public func put_HiddenPdfToolbarItems(_ value: WebView2Core.CoreWebView2PdfToolbarItems) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings7.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_HiddenPdfToolbarItems(pThis, value))
             }
@@ -5769,7 +7367,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings8: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings8 }
 
-        internal func get_IsReputationCheckingRequiredImpl() throws -> Bool {
+        public func get_IsReputationCheckingRequired() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsReputationCheckingRequired(pThis, &value))
@@ -5777,9 +7375,28 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsReputationCheckingRequiredImpl(_ value: Bool) throws {
+        public func put_IsReputationCheckingRequired(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsReputationCheckingRequired(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2Settings9: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings9 }
+
+        public func get_IsNonClientRegionSupportEnabled() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings9.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsNonClientRegionSupportEnabled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_IsNonClientRegionSupportEnabled(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings9.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsNonClientRegionSupportEnabled(pThis, .init(from: value)))
             }
         }
 
@@ -5788,7 +7405,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2Settings_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings__Manual }
 
-        internal func get_HostObjectDispatchAdapterImpl() throws -> WebView2Core.AnyICoreWebView2DispatchAdapter? {
+        public func get_HostObjectDispatchAdapter() throws -> WebView2Core.AnyICoreWebView2DispatchAdapter? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_HostObjectDispatchAdapter(pThis, &valueAbi))
@@ -5797,7 +7414,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DispatchAdapterWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_HostObjectDispatchAdapterImpl(_ value: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws {
+        public func put_HostObjectDispatchAdapter(_ value: WebView2Core.AnyICoreWebView2DispatchAdapter?) throws {
             let valueWrapper = __ABI_Microsoft_Web_WebView2_Core.ICoreWebView2DispatchAdapterWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings__Manual.self) { pThis in
@@ -5810,7 +7427,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2SharedBuffer: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer }
 
-        internal func get_SizeImpl() throws -> UInt64 {
+        public func get_Size() throws -> UInt64 {
             var value: UINT64 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Size(pThis, &value))
@@ -5818,7 +7435,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func OpenStreamImpl() throws -> UWP.AnyIRandomAccessStream? {
+        public func OpenStream() throws -> UWP.AnyIRandomAccessStream? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.OpenStream(pThis, &resultAbi))
@@ -5832,7 +7449,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2SharedBuffer_Manual: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual }
 
-        internal func get_BufferImpl() throws -> WindowsFoundation.AnyIMemoryBufferReference? {
+        public func get_Buffer() throws -> WindowsFoundation.AnyIMemoryBufferReference? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Buffer(pThis, &valueAbi))
@@ -5843,10 +7460,99 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2SharedWorker: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker }
+
+        public func get_Origin() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Origin(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_ScriptUri() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScriptUri(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func get_TopLevelOrigin() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopLevelOrigin(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func add_Destroying(_ handler: TypedEventHandler<WebView2Core.CoreWebView2SharedWorker?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Destroying(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_Destroying(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Destroying(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2SharedWorkerCreatedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs }
+
+        public func get_Worker() throws -> WebView2Core.CoreWebView2SharedWorker? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Worker(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2SharedWorkerBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2SharedWorkerManager: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager }
+
+        public func add_SharedWorkerCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2SharedWorkerManager?, WebView2Core.CoreWebView2SharedWorkerCreatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_SharedWorkerCreated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_SharedWorkerCreated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SharedWorkerCreated(pThis, token))
+            }
+        }
+
+        public func GetSharedWorkersAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<WebView2Core.CoreWebView2SharedWorker?>?>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetSharedWorkersAsync(pThis, &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
     public class ICoreWebView2SourceChangedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs }
 
-        internal func get_IsNewDocumentImpl() throws -> Bool {
+        public func get_IsNewDocument() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsNewDocument(pThis, &value))
@@ -5859,7 +7565,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebMessageReceivedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs }
 
-        internal func get_SourceImpl() throws -> String {
+        public func get_Source() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Source(pThis, &value))
@@ -5867,7 +7573,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_WebMessageAsJsonImpl() throws -> String {
+        public func get_WebMessageAsJson() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_WebMessageAsJson(pThis, &value))
@@ -5875,7 +7581,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func TryGetWebMessageAsStringImpl() throws -> String {
+        public func TryGetWebMessageAsString() throws -> String {
             var result: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetWebMessageAsString(pThis, &result))
@@ -5888,7 +7594,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebMessageReceivedEventArgs2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs2 }
 
-        internal func get_AdditionalObjectsImpl() throws -> WindowsFoundation.AnyIVectorView<Any?>? {
+        public func get_AdditionalObjects() throws -> WindowsFoundation.AnyIVectorView<Any?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_AdditionalObjects(pThis, &valueAbi))
@@ -5902,7 +7608,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebResourceRequest: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest }
 
-        internal func get_UriImpl() throws -> String {
+        public func get_Uri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Uri(pThis, &value))
@@ -5910,14 +7616,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_UriImpl(_ value: String) throws {
+        public func put_Uri(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Uri(pThis, _value.get()))
             }
         }
 
-        internal func get_MethodImpl() throws -> String {
+        public func get_Method() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Method(pThis, &value))
@@ -5925,14 +7631,14 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_MethodImpl(_ value: String) throws {
+        public func put_Method(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Method(pThis, _value.get()))
             }
         }
 
-        internal func get_ContentImpl() throws -> UWP.AnyIRandomAccessStream? {
+        public func get_Content() throws -> UWP.AnyIRandomAccessStream? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Content(pThis, &valueAbi))
@@ -5941,7 +7647,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_ContentImpl(_ value: UWP.AnyIRandomAccessStream?) throws {
+        public func put_Content(_ value: UWP.AnyIRandomAccessStream?) throws {
             let valueWrapper = __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
@@ -5949,13 +7655,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func get_HeadersImpl() throws -> WebView2Core.CoreWebView2HttpRequestHeaders? {
+        public func get_Headers() throws -> WebView2Core.CoreWebView2HttpRequestHeaders? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequest.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpRequestHeadersBridge.from(abi: value)
         }
 
     }
@@ -5963,31 +7669,31 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebResourceRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs }
 
-        internal func get_RequestImpl() throws -> WebView2Core.CoreWebView2WebResourceRequest? {
+        public func get_Request() throws -> WebView2Core.CoreWebView2WebResourceRequest? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Request(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceRequestBridge.from(abi: value)
         }
 
-        internal func get_ResponseImpl() throws -> WebView2Core.CoreWebView2WebResourceResponse? {
+        public func get_Response() throws -> WebView2Core.CoreWebView2WebResourceResponse? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Response(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceResponseBridge.from(abi: value)
         }
 
-        internal func put_ResponseImpl(_ value: WebView2Core.CoreWebView2WebResourceResponse?) throws {
+        public func put_Response(_ value: WebView2Core.CoreWebView2WebResourceResponse?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Response(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_ResourceContextImpl() throws -> WebView2Core.CoreWebView2WebResourceContext {
+        public func get_ResourceContext() throws -> WebView2Core.CoreWebView2WebResourceContext {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceContext = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResourceContext(pThis, &value))
@@ -5995,13 +7701,26 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func GetDeferralImpl() throws -> WindowsFoundation.Deferral? {
+        public func GetDeferral() throws -> WindowsFoundation.Deferral? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetDeferral(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Foundation.DeferralBridge.from(abi: result)
+        }
+
+    }
+
+    public class ICoreWebView2WebResourceRequestedEventArgs2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs2 }
+
+        public func get_RequestedSourceKind() throws -> WebView2Core.CoreWebView2WebResourceRequestSourceKinds {
+            var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSourceKinds = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceRequestedEventArgs2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestedSourceKind(pThis, &value))
+            }
+            return value
         }
 
     }
@@ -6009,7 +7728,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebResourceResponse: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse }
 
-        internal func get_ContentImpl() throws -> UWP.AnyIRandomAccessStream? {
+        public func get_Content() throws -> UWP.AnyIRandomAccessStream? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Content(pThis, &valueAbi))
@@ -6018,7 +7737,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_ContentImpl(_ value: UWP.AnyIRandomAccessStream?) throws {
+        public func put_Content(_ value: UWP.AnyIRandomAccessStream?) throws {
             let valueWrapper = __ABI_Windows_Storage_Streams.IRandomAccessStreamWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
@@ -6026,16 +7745,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func get_HeadersImpl() throws -> WebView2Core.CoreWebView2HttpResponseHeaders? {
+        public func get_Headers() throws -> WebView2Core.CoreWebView2HttpResponseHeaders? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpResponseHeadersBridge.from(abi: value)
         }
 
-        internal func get_StatusCodeImpl() throws -> Int32 {
+        public func get_StatusCode() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_StatusCode(pThis, &value))
@@ -6043,13 +7762,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_StatusCodeImpl(_ value: Int32) throws {
+        public func put_StatusCode(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_StatusCode(pThis, value))
             }
         }
 
-        internal func get_ReasonPhraseImpl() throws -> String {
+        public func get_ReasonPhrase() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReasonPhrase(pThis, &value))
@@ -6057,7 +7776,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_ReasonPhraseImpl(_ value: String) throws {
+        public func put_ReasonPhrase(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponse.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ReasonPhrase(pThis, _value.get()))
@@ -6069,22 +7788,22 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebResourceResponseReceivedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs }
 
-        internal func get_RequestImpl() throws -> WebView2Core.CoreWebView2WebResourceRequest? {
+        public func get_Request() throws -> WebView2Core.CoreWebView2WebResourceRequest? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Request(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceRequestBridge.from(abi: value)
         }
 
-        internal func get_ResponseImpl() throws -> WebView2Core.CoreWebView2WebResourceResponseView? {
+        public func get_Response() throws -> WebView2Core.CoreWebView2WebResourceResponseView? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseReceivedEventArgs.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Response(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2WebResourceResponseViewBridge.from(abi: value)
         }
 
     }
@@ -6092,16 +7811,16 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WebResourceResponseView: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView }
 
-        internal func get_HeadersImpl() throws -> WebView2Core.CoreWebView2HttpResponseHeaders? {
+        public func get_Headers() throws -> WebView2Core.CoreWebView2HttpResponseHeaders? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2HttpResponseHeadersBridge.from(abi: value)
         }
 
-        internal func get_StatusCodeImpl() throws -> Int32 {
+        public func get_StatusCode() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_StatusCode(pThis, &value))
@@ -6109,7 +7828,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ReasonPhraseImpl() throws -> String {
+        public func get_ReasonPhrase() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReasonPhrase(pThis, &value))
@@ -6117,7 +7836,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func GetContentAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
+        public func GetContentAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebResourceResponseView.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetContentAsync(pThis, &operationAbi))
@@ -6131,7 +7850,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2WindowFeatures: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures }
 
-        internal func get_HasPositionImpl() throws -> Bool {
+        public func get_HasPosition() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasPosition(pThis, &value))
@@ -6139,7 +7858,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_HasSizeImpl() throws -> Bool {
+        public func get_HasSize() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasSize(pThis, &value))
@@ -6147,7 +7866,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_LeftImpl() throws -> UInt32 {
+        public func get_Left() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Left(pThis, &value))
@@ -6155,7 +7874,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_TopImpl() throws -> UInt32 {
+        public func get_Top() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Top(pThis, &value))
@@ -6163,7 +7882,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_HeightImpl() throws -> UInt32 {
+        public func get_Height() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Height(pThis, &value))
@@ -6171,7 +7890,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_WidthImpl() throws -> UInt32 {
+        public func get_Width() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Width(pThis, &value))
@@ -6179,7 +7898,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func get_ShouldDisplayMenuBarImpl() throws -> Bool {
+        public func get_ShouldDisplayMenuBar() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldDisplayMenuBar(pThis, &value))
@@ -6187,7 +7906,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ShouldDisplayStatusImpl() throws -> Bool {
+        public func get_ShouldDisplayStatus() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldDisplayStatus(pThis, &value))
@@ -6195,7 +7914,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ShouldDisplayToolbarImpl() throws -> Bool {
+        public func get_ShouldDisplayToolbar() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldDisplayToolbar(pThis, &value))
@@ -6203,7 +7922,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_ShouldDisplayScrollBarsImpl() throws -> Bool {
+        public func get_ShouldDisplayScrollBars() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WindowFeatures.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShouldDisplayScrollBars(pThis, &value))
@@ -6216,7 +7935,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_10: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__10 }
 
-        internal func add_BasicAuthenticationRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2BasicAuthenticationRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_BasicAuthenticationRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2BasicAuthenticationRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2BasicAuthenticationRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6226,7 +7945,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_BasicAuthenticationRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_BasicAuthenticationRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__10.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_BasicAuthenticationRequested(pThis, token))
             }
@@ -6237,7 +7956,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_11: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__11 }
 
-        internal func add_ContextMenuRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ContextMenuRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ContextMenuRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ContextMenuRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ContextMenuRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6247,13 +7966,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ContextMenuRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ContextMenuRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__11.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ContextMenuRequested(pThis, token))
             }
         }
 
-        internal func CallDevToolsProtocolMethodForSessionAsyncImpl(_ sessionId: String, _ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
+        public func CallDevToolsProtocolMethodForSessionAsync(_ sessionId: String, _ methodName: String, _ parametersAsJson: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _sessionId = try! HString(sessionId)
                 let _methodName = try! HString(methodName)
@@ -6270,7 +7989,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_12: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__12 }
 
-        internal func get_StatusBarTextImpl() throws -> String {
+        public func get_StatusBarText() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__12.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_StatusBarText(pThis, &value))
@@ -6278,7 +7997,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_StatusBarTextChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_StatusBarTextChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6288,7 +8007,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_StatusBarTextChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_StatusBarTextChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__12.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_StatusBarTextChanged(pThis, token))
             }
@@ -6299,13 +8018,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_13: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__13 }
 
-        internal func get_ProfileImpl() throws -> WebView2Core.CoreWebView2Profile? {
+        public func get_Profile() throws -> WebView2Core.CoreWebView2Profile? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__13.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Profile(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2ProfileBridge.from(abi: value)
         }
 
     }
@@ -6313,7 +8032,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_14: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__14 }
 
-        internal func add_ServerCertificateErrorDetectedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ServerCertificateErrorDetectedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ServerCertificateErrorDetected(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ServerCertificateErrorDetectedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServerCertificateErrorDetectedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6323,13 +8042,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ServerCertificateErrorDetectedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ServerCertificateErrorDetected(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__14.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ServerCertificateErrorDetected(pThis, token))
             }
         }
 
-        internal func ClearServerCertificateErrorActionsAsyncImpl() throws -> WindowsFoundation.AnyIAsyncAction? {
+        public func ClearServerCertificateErrorActionsAsync() throws -> WindowsFoundation.AnyIAsyncAction? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__14.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ClearServerCertificateErrorActionsAsync(pThis, &operationAbi))
@@ -6343,7 +8062,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_15: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__15 }
 
-        internal func get_FaviconUriImpl() throws -> String {
+        public func get_FaviconUri() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__15.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FaviconUri(pThis, &value))
@@ -6351,7 +8070,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_FaviconChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_FaviconChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6361,13 +8080,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_FaviconChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_FaviconChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__15.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_FaviconChanged(pThis, token))
             }
         }
 
-        internal func GetFaviconAsyncImpl(_ format: WebView2Core.CoreWebView2FaviconImageFormat) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
+        public func GetFaviconAsync(_ format: WebView2Core.CoreWebView2FaviconImageFormat) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__15.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFaviconAsync(pThis, format, &operationAbi))
@@ -6381,7 +8100,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_16: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__16 }
 
-        internal func PrintAsyncImpl(_ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2PrintStatus>? {
+        public func PrintAsync(_ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2PrintStatus>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__16.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.PrintAsync(pThis, RawPointer(printSettings), &operationAbi))
@@ -6390,13 +8109,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2PrintStatusWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func ShowPrintUIImpl(_ printDialogKind: WebView2Core.CoreWebView2PrintDialogKind) throws {
+        public func ShowPrintUI(_ printDialogKind: WebView2Core.CoreWebView2PrintDialogKind) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__16.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.ShowPrintUI(pThis, printDialogKind))
             }
         }
 
-        internal func PrintToPdfStreamAsyncImpl(_ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
+        public func PrintToPdfStreamAsync(_ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.AnyIRandomAccessStream?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__16.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.PrintToPdfStreamAsync(pThis, RawPointer(printSettings), &operationAbi))
@@ -6410,7 +8129,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_17: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__17 }
 
-        internal func PostSharedBufferToScriptImpl(_ sharedBuffer: WebView2Core.CoreWebView2SharedBuffer?, _ access: WebView2Core.CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
+        public func PostSharedBufferToScript(_ sharedBuffer: WebView2Core.CoreWebView2SharedBuffer?, _ access: WebView2Core.CoreWebView2SharedBufferAccess, _ additionalDataAsJson: String) throws {
             let _additionalDataAsJson = try! HString(additionalDataAsJson)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__17.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.PostSharedBufferToScript(pThis, RawPointer(sharedBuffer), access, _additionalDataAsJson.get()))
@@ -6422,7 +8141,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_18: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__18 }
 
-        internal func add_LaunchingExternalUriSchemeImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2LaunchingExternalUriSchemeEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_LaunchingExternalUriScheme(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2LaunchingExternalUriSchemeEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2LaunchingExternalUriSchemeEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6432,7 +8151,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_LaunchingExternalUriSchemeImpl(_ token: EventRegistrationToken) throws {
+        public func remove_LaunchingExternalUriScheme(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__18.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_LaunchingExternalUriScheme(pThis, token))
             }
@@ -6443,7 +8162,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_19: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__19 }
 
-        internal func get_MemoryUsageTargetLevelImpl() throws -> WebView2Core.CoreWebView2MemoryUsageTargetLevel {
+        public func get_MemoryUsageTargetLevel() throws -> WebView2Core.CoreWebView2MemoryUsageTargetLevel {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2MemoryUsageTargetLevel = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__19.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MemoryUsageTargetLevel(pThis, &value))
@@ -6451,7 +8170,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_MemoryUsageTargetLevelImpl(_ value: WebView2Core.CoreWebView2MemoryUsageTargetLevel) throws {
+        public func put_MemoryUsageTargetLevel(_ value: WebView2Core.CoreWebView2MemoryUsageTargetLevel) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__19.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_MemoryUsageTargetLevel(pThis, value))
             }
@@ -6462,25 +8181,25 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2 }
 
-        internal func get_CookieManagerImpl() throws -> WebView2Core.CoreWebView2CookieManager? {
+        public func get_CookieManager() throws -> WebView2Core.CoreWebView2CookieManager? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_CookieManager(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2CookieManagerBridge.from(abi: value)
         }
 
-        internal func get_EnvironmentImpl() throws -> WebView2Core.CoreWebView2Environment? {
+        public func get_Environment() throws -> WebView2Core.CoreWebView2Environment? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Environment(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2EnvironmentBridge.from(abi: value)
         }
 
-        internal func add_WebResourceResponseReceivedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebResourceResponseReceivedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_WebResourceResponseReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2WebResourceResponseReceivedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebResourceResponseReceivedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6490,13 +8209,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_WebResourceResponseReceivedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_WebResourceResponseReceived(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_WebResourceResponseReceived(pThis, token))
             }
         }
 
-        internal func add_DOMContentLoadedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DOMContentLoadedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_DOMContentLoaded(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DOMContentLoadedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DOMContentLoadedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6506,13 +8225,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DOMContentLoadedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_DOMContentLoaded(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DOMContentLoaded(pThis, token))
             }
         }
 
-        internal func NavigateWithWebResourceRequestImpl(_ Request: WebView2Core.CoreWebView2WebResourceRequest?) throws {
+        public func NavigateWithWebResourceRequest(_ Request: WebView2Core.CoreWebView2WebResourceRequest?) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.NavigateWithWebResourceRequest(pThis, RawPointer(Request)))
             }
@@ -6523,7 +8242,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_20: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__20 }
 
-        internal func get_FrameIdImpl() throws -> UInt32 {
+        public func get_FrameId() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__20.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameId(pThis, &value))
@@ -6533,10 +8252,163 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
 
     }
 
+    public class ICoreWebView2_21: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__21 }
+
+        public func ExecuteScriptWithResultAsync(_ javaScript: String) throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2ExecuteScriptResult?>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                let _javaScript = try! HString(javaScript)
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__21.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.ExecuteScriptWithResultAsync(pThis, _javaScript.get(), &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ExecuteScriptResultWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
+    public class ICoreWebView2_22: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__22 }
+
+    }
+
+    public class ICoreWebView2_23: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__23 }
+
+    }
+
+    public class ICoreWebView2_24: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__24 }
+
+        public func add_NotificationReceived(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2NotificationReceivedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NotificationReceivedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__24.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_NotificationReceived(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_NotificationReceived(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__24.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_NotificationReceived(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2_25: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__25 }
+
+        public func add_SaveAsUIShowing(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2SaveAsUIShowingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SaveAsUIShowingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__25.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_SaveAsUIShowing(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_SaveAsUIShowing(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__25.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SaveAsUIShowing(pThis, token))
+            }
+        }
+
+        public func ShowSaveAsUIAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WebView2Core.CoreWebView2SaveAsUIResult>? {
+            let (operation) = try ComPtrs.initialize { operationAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__25.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.ShowSaveAsUIAsync(pThis, &operationAbi))
+                }
+            }
+            return WebView2Core.__x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SaveAsUIResultWrapper.unwrapFrom(abi: operation)
+        }
+
+    }
+
+    public class ICoreWebView2_26: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__26 }
+
+        public func add_SaveFileSecurityCheckStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2SaveFileSecurityCheckStartingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SaveFileSecurityCheckStartingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__26.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_SaveFileSecurityCheckStarting(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_SaveFileSecurityCheckStarting(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__26.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SaveFileSecurityCheckStarting(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2_27: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27 }
+
+        public func add_ScreenCaptureStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ScreenCaptureStartingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ScreenCaptureStartingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ScreenCaptureStarting(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_ScreenCaptureStarting(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ScreenCaptureStarting(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2_28: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28 }
+
+        public func get_Find() throws -> WebView2Core.CoreWebView2Find? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Find(pThis, &valueAbi))
+                }
+            }
+            return __IMPL_Microsoft_Web_WebView2_Core.CoreWebView2FindBridge.from(abi: value)
+        }
+
+    }
+
+    public class ICoreWebView2_29: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29 }
+
+        public func add_DedicatedWorkerCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DedicatedWorkerCreatedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DedicatedWorkerCreated(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        public func remove_DedicatedWorkerCreated(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DedicatedWorkerCreated(pThis, token))
+            }
+        }
+
+    }
+
     public class ICoreWebView2_3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3 }
 
-        internal func get_IsSuspendedImpl() throws -> Bool {
+        public func get_IsSuspended() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSuspended(pThis, &value))
@@ -6544,7 +8416,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func TrySuspendAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<Bool>? {
+        public func TrySuspendAsync() throws -> WindowsFoundation.AnyIAsyncOperation<Bool>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TrySuspendAsync(pThis, &operationAbi))
@@ -6553,13 +8425,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return WebView2Core.__x_ABI_C__FIAsyncOperation_1_booleanWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func ResumeImpl() throws {
+        public func Resume() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Resume(pThis))
             }
         }
 
-        internal func SetVirtualHostNameToFolderMappingImpl(_ hostName: String, _ folderPath: String, _ accessKind: WebView2Core.CoreWebView2HostResourceAccessKind) throws {
+        public func SetVirtualHostNameToFolderMapping(_ hostName: String, _ folderPath: String, _ accessKind: WebView2Core.CoreWebView2HostResourceAccessKind) throws {
             let _hostName = try! HString(hostName)
             let _folderPath = try! HString(folderPath)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3.self) { pThis in
@@ -6567,7 +8439,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             }
         }
 
-        internal func ClearVirtualHostNameToFolderMappingImpl(_ hostName: String) throws {
+        public func ClearVirtualHostNameToFolderMapping(_ hostName: String) throws {
             let _hostName = try! HString(hostName)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.ClearVirtualHostNameToFolderMapping(pThis, _hostName.get()))
@@ -6579,7 +8451,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__4 }
 
-        internal func add_FrameCreatedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2FrameCreatedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_FrameCreated(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2FrameCreatedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6589,13 +8461,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_FrameCreatedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_FrameCreated(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_FrameCreated(pThis, token))
             }
         }
 
-        internal func add_DownloadStartingImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DownloadStartingEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_DownloadStarting(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2DownloadStartingEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadStartingEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6605,7 +8477,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_DownloadStartingImpl(_ token: EventRegistrationToken) throws {
+        public func remove_DownloadStarting(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DownloadStarting(pThis, token))
             }
@@ -6616,7 +8488,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__5 }
 
-        internal func add_ClientCertificateRequestedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ClientCertificateRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_ClientCertificateRequested(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, WebView2Core.CoreWebView2ClientCertificateRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ClientCertificateRequestedEventArgsWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6626,7 +8498,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_ClientCertificateRequestedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_ClientCertificateRequested(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__5.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ClientCertificateRequested(pThis, token))
             }
@@ -6637,7 +8509,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_6: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__6 }
 
-        internal func OpenTaskManagerWindowImpl() throws {
+        public func OpenTaskManagerWindow() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__6.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.OpenTaskManagerWindow(pThis))
             }
@@ -6648,7 +8520,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_7: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__7 }
 
-        internal func PrintToPdfAsyncImpl(_ ResultFilePath: String, _ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<Bool>? {
+        public func PrintToPdfAsync(_ ResultFilePath: String, _ printSettings: WebView2Core.CoreWebView2PrintSettings?) throws -> WindowsFoundation.AnyIAsyncOperation<Bool>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let _ResultFilePath = try! HString(ResultFilePath)
                 _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__7.self) { pThis in
@@ -6663,7 +8535,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_8: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8 }
 
-        internal func get_IsMutedImpl() throws -> Bool {
+        public func get_IsMuted() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsMuted(pThis, &value))
@@ -6671,13 +8543,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func put_IsMutedImpl(_ value: Bool) throws {
+        public func put_IsMuted(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsMuted(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsDocumentPlayingAudioImpl() throws -> Bool {
+        public func get_IsDocumentPlayingAudio() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDocumentPlayingAudio(pThis, &value))
@@ -6685,7 +8557,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func add_IsMutedChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_IsMutedChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6695,13 +8567,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_IsMutedChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_IsMutedChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_IsMutedChanged(pThis, token))
             }
         }
 
-        internal func add_IsDocumentPlayingAudioChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_IsDocumentPlayingAudioChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6711,7 +8583,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_IsDocumentPlayingAudioChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_IsDocumentPlayingAudioChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__8.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_IsDocumentPlayingAudioChanged(pThis, token))
             }
@@ -6722,7 +8594,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
     public class ICoreWebView2_9: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9 }
 
-        internal func get_IsDefaultDownloadDialogOpenImpl() throws -> Bool {
+        public func get_IsDefaultDownloadDialogOpen() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDefaultDownloadDialogOpen(pThis, &value))
@@ -6730,7 +8602,7 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .init(from: value)
         }
 
-        internal func get_DefaultDownloadDialogCornerAlignmentImpl() throws -> WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment {
+        public func get_DefaultDownloadDialogCornerAlignment() throws -> WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment {
             var value: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2DefaultDownloadDialogCornerAlignment = .init(0)
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultDownloadDialogCornerAlignment(pThis, &value))
@@ -6738,13 +8610,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return value
         }
 
-        internal func put_DefaultDownloadDialogCornerAlignmentImpl(_ value: WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment) throws {
+        public func put_DefaultDownloadDialogCornerAlignment(_ value: WebView2Core.CoreWebView2DefaultDownloadDialogCornerAlignment) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultDownloadDialogCornerAlignment(pThis, value))
             }
         }
 
-        internal func get_DefaultDownloadDialogMarginImpl() throws -> WindowsFoundation.Point {
+        public func get_DefaultDownloadDialogMargin() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultDownloadDialogMargin(pThis, &value))
@@ -6752,13 +8624,13 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return .from(abi: value)
         }
 
-        internal func put_DefaultDownloadDialogMarginImpl(_ value: WindowsFoundation.Point) throws {
+        public func put_DefaultDownloadDialogMargin(_ value: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultDownloadDialogMargin(pThis, .from(swift: value)))
             }
         }
 
-        internal func add_IsDefaultDownloadDialogOpenChangedImpl(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
+        public func add_IsDefaultDownloadDialogOpenChanged(_ handler: TypedEventHandler<WebView2Core.CoreWebView2?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = WebView2Core.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -6768,21 +8640,54 @@ public enum __ABI_Microsoft_Web_WebView2_Core {
             return token
         }
 
-        internal func remove_IsDefaultDownloadDialogOpenChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_IsDefaultDownloadDialogOpenChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_IsDefaultDownloadDialogOpenChanged(pThis, token))
             }
         }
 
-        internal func OpenDefaultDownloadDialogImpl() throws {
+        public func OpenDefaultDownloadDialog() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.OpenDefaultDownloadDialog(pThis))
             }
         }
 
-        internal func CloseDefaultDownloadDialogImpl() throws {
+        public func CloseDefaultDownloadDialog() throws {
             _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__9.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.CloseDefaultDownloadDialog(pThis))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2_Manual: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual }
+
+        public func AddWebResourceRequestedFilter(_ uri: String, _ resourceContext: WebView2Core.CoreWebView2WebResourceContext, _ requestSourceKinds: WebView2Core.CoreWebView2WebResourceRequestSourceKinds) throws {
+            let _uri = try! HString(uri)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.AddWebResourceRequestedFilter(pThis, _uri.get(), resourceContext, requestSourceKinds))
+            }
+        }
+
+        public func RemoveWebResourceRequestedFilter(_ uri: String, _ resourceContext: WebView2Core.CoreWebView2WebResourceContext, _ requestSourceKinds: WebView2Core.CoreWebView2WebResourceRequestSourceKinds) throws {
+            let _uri = try! HString(uri)
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.RemoveWebResourceRequestedFilter(pThis, _uri.get(), resourceContext, requestSourceKinds))
+            }
+        }
+
+    }
+
+    public class ICoreWebView2_Manual2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual2 }
+
+        public func PostWebMessageAsJson(_ webMessageAsJson: String, _ additionalObjects: WindowsFoundation.AnyIVectorView<Any?>?) throws {
+            let _webMessageAsJson = try! HString(webMessageAsJson)
+            let additionalObjectsWrapper = WebView2Core.__x_ABI_C__FIVectorView_1_IInspectableWrapper(additionalObjects)
+            let _additionalObjects = try! additionalObjectsWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__Manual2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.PostWebMessageAsJson(pThis, _webMessageAsJson.get(), _additionalObjects))
             }
         }
 

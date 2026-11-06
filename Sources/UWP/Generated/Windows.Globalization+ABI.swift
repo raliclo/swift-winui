@@ -12,6 +12,10 @@ private var IID___x_ABI_CWindows_CGlobalization_CILanguage2: WindowsFoundation.I
     .init(Data1: 0x6A47E5B5, Data2: 0xD94D, Data3: 0x4886, Data4: ( 0xA4,0x04,0xA5,0xA5,0xB9,0xD5,0xB4,0x94 ))// 6A47E5B5-D94D-4886-A404-A5A5B9D5B494
 }
 
+private var IID___x_ABI_CWindows_CGlobalization_CILanguage3: WindowsFoundation.IID {
+    .init(Data1: 0xC6AF3D10, Data2: 0x641A, Data3: 0x5BA4, Data4: ( 0xBB,0x43,0x5E,0x12,0xAE,0xD7,0x59,0x54 ))// C6AF3D10-641A-5BA4-BB43-5E12AED75954
+}
+
 private var IID___x_ABI_CWindows_CGlobalization_CILanguageExtensionSubtags: WindowsFoundation.IID {
     .init(Data1: 0x7D7DAF45, Data2: 0x368D, Data3: 0x4364, Data4: ( 0x85,0x2B,0xDE,0xC9,0x27,0x03,0x7B,0x85 ))// 7D7DAF45-368D-4364-852B-DEC927037B85
 }
@@ -28,11 +32,16 @@ private var IID___x_ABI_CWindows_CGlobalization_CILanguageStatics2: WindowsFound
     .init(Data1: 0x30199F6E, Data2: 0x914B, Data3: 0x4B2A, Data4: ( 0x9D,0x6E,0xE3,0xB0,0xE2,0x7D,0xBE,0x4F ))// 30199F6E-914B-4B2A-9D6E-E3B0E27DBE4F
 }
 
+private var IID___x_ABI_CWindows_CGlobalization_CILanguageStatics3: WindowsFoundation.IID {
+    .init(Data1: 0xD15ECB5A, Data2: 0x71DE, Data3: 0x5752, Data4: ( 0x95,0x42,0xFA,0xC5,0xB4,0xF2,0x72,0x61 ))// D15ECB5A-71DE-5752-9542-FAC5B4F27261
+}
+
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Globalization {
     public class ILanguage: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguage }
 
-        internal func get_LanguageTagImpl() throws -> String {
+        public func get_LanguageTag() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_LanguageTag(pThis, &value))
@@ -40,7 +49,7 @@ public enum __ABI_Windows_Globalization {
             return .init(from: value)
         }
 
-        internal func get_DisplayNameImpl() throws -> String {
+        public func get_DisplayName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayName(pThis, &value))
@@ -48,7 +57,7 @@ public enum __ABI_Windows_Globalization {
             return .init(from: value)
         }
 
-        internal func get_NativeNameImpl() throws -> String {
+        public func get_NativeName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_NativeName(pThis, &value))
@@ -56,7 +65,7 @@ public enum __ABI_Windows_Globalization {
             return .init(from: value)
         }
 
-        internal func get_ScriptImpl() throws -> String {
+        public func get_Script() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Script(pThis, &value))
@@ -69,7 +78,7 @@ public enum __ABI_Windows_Globalization {
     public class ILanguage2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguage2 }
 
-        internal func get_LayoutDirectionImpl() throws -> UWP.LanguageLayoutDirection {
+        public func get_LayoutDirection() throws -> UWP.LanguageLayoutDirection {
             var value: __x_ABI_CWindows_CGlobalization_CLanguageLayoutDirection = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_LayoutDirection(pThis, &value))
@@ -79,10 +88,23 @@ public enum __ABI_Windows_Globalization {
 
     }
 
+    public class ILanguage3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguage3 }
+
+        public func get_AbbreviatedName() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguage3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AbbreviatedName(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+    }
+
     public class ILanguageExtensionSubtags: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguageExtensionSubtags }
 
-        internal func GetExtensionSubtagsImpl(_ singleton: String) throws -> WindowsFoundation.AnyIVectorView<String>? {
+        public func GetExtensionSubtags(_ singleton: String) throws -> WindowsFoundation.AnyIVectorView<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 let _singleton = try! HString(singleton)
                 _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageExtensionSubtags.self) { pThis in
@@ -97,7 +119,7 @@ public enum __ABI_Windows_Globalization {
     public class ILanguageFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguageFactory }
 
-        internal func CreateLanguageImpl(_ languageTag: String) throws -> ILanguage {
+        public func CreateLanguage(_ languageTag: String) throws -> ILanguage {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _languageTag = try! HString(languageTag)
                 _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageFactory.self) { pThis in
@@ -112,7 +134,7 @@ public enum __ABI_Windows_Globalization {
     public class ILanguageStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguageStatics }
 
-        internal func IsWellFormedImpl(_ languageTag: String) throws -> Bool {
+        public func IsWellFormed(_ languageTag: String) throws -> Bool {
             var result: boolean = 0
             let _languageTag = try! HString(languageTag)
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageStatics.self) { pThis in
@@ -121,7 +143,7 @@ public enum __ABI_Windows_Globalization {
             return .init(from: result)
         }
 
-        internal func get_CurrentInputMethodLanguageTagImpl() throws -> String {
+        public func get_CurrentInputMethodLanguageTag() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageStatics.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_CurrentInputMethodLanguageTag(pThis, &value))
@@ -134,13 +156,29 @@ public enum __ABI_Windows_Globalization {
     public class ILanguageStatics2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguageStatics2 }
 
-        internal func TrySetInputMethodLanguageTagImpl(_ languageTag: String) throws -> Bool {
+        public func TrySetInputMethodLanguageTag(_ languageTag: String) throws -> Bool {
             var result: boolean = 0
             let _languageTag = try! HString(languageTag)
             _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageStatics2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.TrySetInputMethodLanguageTag(pThis, _languageTag.get(), &result))
             }
             return .init(from: result)
+        }
+
+    }
+
+    public class ILanguageStatics3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGlobalization_CILanguageStatics3 }
+
+        public func GetMuiCompatibleLanguageListFromLanguageTags(_ languageTags: WindowsFoundation.AnyIIterable<String>?) throws -> WindowsFoundation.AnyIVector<String>? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                let languageTagsWrapper = UWP.__x_ABI_C__FIIterable_1_HSTRINGWrapper(languageTags)
+                let _languageTags = try! languageTagsWrapper?.toABI { $0 }
+                _ = try perform(as: __x_ABI_CWindows_CGlobalization_CILanguageStatics3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.GetMuiCompatibleLanguageListFromLanguageTags(pThis, _languageTags, &resultAbi))
+                }
+            }
+            return UWP.__x_ABI_C__FIVector_1_HSTRINGWrapper.unwrapFrom(abi: result)
         }
 
     }

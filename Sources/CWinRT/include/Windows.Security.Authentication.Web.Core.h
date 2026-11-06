@@ -30,6 +30,30 @@
 
 #endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2 __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics;
@@ -53,6 +77,24 @@
     typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics4 __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics4;
 
 #endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5 __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebProviderError_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebProviderError_FWD_DEFINED__
@@ -187,6 +229,82 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CFindAllAccountsResult_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult_INTERFACE_DEFINED__
     
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebTokenRequestResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebTokenRequestResult;
 
@@ -1008,6 +1126,8 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 typedef enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsStatus __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsStatus;
 
+typedef enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus;
+
 typedef enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestPromptType __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestPromptType;
 
 typedef enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestStatus __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestStatus;
@@ -1018,6 +1138,15 @@ enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsSt
     __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsStatus_NotAllowedByProvider = 1,
     __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsStatus_NotSupportedByProvider = 2,
     __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CFindAllWebAccountsStatus_ProviderError = 3,
+};
+
+enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus
+    {
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus_Success = 0,
+    __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus_Error = 1,
+    __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus_NotSupportedByProvider = 2,
+    __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus_ServiceConnectionError = 3,
+    __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus_ProviderError = 4,
 };
 
 enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestPromptType
@@ -1151,6 +1280,148 @@ enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestStatu
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_AccountPictureUpdated)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAccountMonitor___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAccountEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_AccountPictureUpdated)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2Vtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAccountMonitor2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_WebAccount)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIWebAccount** value);
+    HRESULT (STDMETHODCALLTYPE* get_Properties)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse* This,
+        __x_ABI_C__FIMap_2_HSTRING_HSTRING** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateWithAccount)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIWebAccount* webAccount,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactoryVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponseFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ResponseData)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResponse** value);
+    HRESULT (STDMETHODCALLTYPE* get_ResponseStatus)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+        enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebAuthenticationAddAccountStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ResponseError)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult* This,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebProviderError** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResultVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationAddAccountResult_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics_INTERFACE_DEFINED__
@@ -1327,6 +1598,123 @@ enum __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CWebTokenRequestStatu
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics4;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* AddAccountWithTransferTokenAsync)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5* This,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* request,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthentication__CWeb__CCore__CWebAuthenticationAddAccountResult** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5Vtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationCoreManagerStatics5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_WebAccountProvider)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIWebAccountProvider** value);
+    HRESULT (STDMETHODCALLTYPE* get_TransferToken)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_TransferToken)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Properties)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        __x_ABI_C__FIMap_2_HSTRING_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_CorrelationId)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_CorrelationId)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIWebAccountProvider* provider,
+        HSTRING transferToken,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest** value);
+    HRESULT (STDMETHODCALLTYPE* CreateWithCorrelationId)(__x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIWebAccountProvider* provider,
+        HSTRING transferToken,
+        HSTRING correlationId,
+        __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequest** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactoryVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebAuthenticationTransferTokenRequestFactory_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebProviderError_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CCore_CIWebProviderError_INTERFACE_DEFINED__

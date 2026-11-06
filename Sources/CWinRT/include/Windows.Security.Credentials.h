@@ -9,11 +9,18 @@
 #include "Windows.Security.Cryptography.Core.h"
 #include "Windows.Storage.Streams.h"
 #include "Windows.System.h"
+#include "Windows.UI.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
-#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory_FWD_DEFINED__
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_FWD_DEFINED__
+typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_FWD_DEFINED__
+
+    #ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory __x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory;
 
@@ -25,17 +32,47 @@
 
 #endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2 __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult;
 
 #endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics;
 
 #endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2 __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialOperationResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialOperationResult_FWD_DEFINED__
@@ -48,6 +85,12 @@
     typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialRetrievalResult __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialRetrievalResult;
 
 #endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialRetrievalResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_FWD_DEFINED__
@@ -1167,6 +1210,8 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
+
 #ifndef ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
@@ -1187,7 +1232,13 @@ typedef enum __x_ABI_CWindows_CSecurity_CCryptography_CCore_CCryptographicPublic
 
 #endif // ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
 
+typedef struct __x_ABI_CWindows_CUI_CWindowId __x_ABI_CWindows_CUI_CWindowId;
+
+typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind;
+
 typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus;
+
+typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption;
 
 typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCreationOption __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCreationOption;
 
@@ -1197,12 +1248,23 @@ typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountPictureSize __x_
 
 typedef enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState;
 
+enum __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind
+    {
+        __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind_VirtualizationBasedSecurityEnclave = 0,
+};
+
 enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus
     {
         __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus_Success = 0,
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus_UnknownError = 1,
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus_NotSupported = 2,
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialAttestationStatus_TemporaryFailure = 3,
+};
+
+enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption
+    {
+        __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption_NoCache = 0,
+    __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption_CacheWhenUnlocked = 1,
 };
 
 enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCreationOption
@@ -1220,6 +1282,7 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialStatus
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialStatus_UserPrefersPassword = 4,
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialStatus_CredentialAlreadyExists = 5,
     __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialStatus_SecurityDeviceLocked = 6,
+    __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialStatus_AlgorithmNotSupported = 7,
 };
 
 enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountPictureSize
@@ -1237,6 +1300,33 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState
     __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState_Error = 2,
 };
 
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandlerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* challenge,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandlerVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandlerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler;
+    #endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CICredentialFactoryVtbl
@@ -1316,6 +1406,45 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestDeriveSharedSecretAsync)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+        struct __x_ABI_CWindows_CUI_CWindowId windowId,
+        HSTRING message,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* encryptedRequest,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CCredentials__CKeyCredentialOperationResult** operation);
+    HRESULT (STDMETHODCALLTYPE* RetrieveAuthorizationContext)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* encryptedRequest,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2Vtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredential2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResultVtbl
@@ -1352,6 +1481,115 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialAttestationResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CacheOption)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption* value);
+    HRESULT (STDMETHODCALLTYPE* get_Timeout)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* get_UsageCount)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* This,
+        UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory* This,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCacheOption cacheOption,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan timeout,
+        UINT32 usageCount,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactoryVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfigurationFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestCreateForWindowAsync)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics* This,
+        struct __x_ABI_CWindows_CUI_CWindowId window,
+        HSTRING name,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCreationOption option,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CCredentials__CKeyCredentialRetrievalResult** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStaticsVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerCreateWithWindowStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_INTERFACE_DEFINED__
@@ -1397,6 +1635,54 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestCreateAsync)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+        HSTRING name,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CKeyCredentialCreationOption option,
+        HSTRING algorithm,
+        HSTRING message,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialCacheConfiguration* cacheConfiguration,
+        struct __x_ABI_CWindows_CUI_CWindowId windowId,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind callbackType,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* attestationCallback,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CCredentials__CKeyCredentialRetrievalResult** operation);
+    HRESULT (STDMETHODCALLTYPE* OpenAsync)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+        HSTRING name,
+        enum __x_ABI_CWindows_CSecurity_CCredentials_CChallengeResponseKind callbackType,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIAttestationChallengeHandler* attestationCallback,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CCredentials__CKeyCredentialRetrievalResult** operation);
+    HRESULT (STDMETHODCALLTYPE* GetSecureId)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialManagerStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialOperationResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialOperationResult_INTERFACE_DEFINED__
@@ -1467,6 +1753,41 @@ enum __x_ABI_CWindows_CSecurity_CCredentials_CWebAccountState
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialRetrievalResult;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialRetrievalResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindowVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestSignForWindowAsync)(__x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow* This,
+        struct __x_ABI_CWindows_CUI_CWindowId window,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer* data,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CCredentials__CKeyCredentialOperationResult** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindowVtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindowVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIKeyCredentialWithWindow_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_INTERFACE_DEFINED__

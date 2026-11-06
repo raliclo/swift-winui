@@ -10,6 +10,7 @@
 #include "Microsoft.UI.Xaml.h"
 #include "Windows.Media.h"
 #include "Windows.Media.Capture.Frames.h"
+#include "Windows.Networking.Connectivity.h"
 #include "Windows.UI.h"
 #include "XamlToolkit.WinUI.h"
 // Importing Collections header
@@ -34,23 +35,17 @@ typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeChangedHandler __x
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CICameraHelperStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_FWD_DEFINED__
-
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers;
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation;
 
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_FWD_DEFINED__
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersStatics_FWD_DEFINED__
@@ -63,6 +58,18 @@ typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeChangedHandler __x
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIFrameEventArgs __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIFrameEventArgs;
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIFrameEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_FWD_DEFINED__
+
+#ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_FWD_DEFINED__
+#define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics;
+
+#endif // ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeListener_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeListener_FWD_DEFINED__
@@ -374,6 +381,90 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CXamlToo
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CXamlToolkit__CWinUI__CHelpers__CCameraHelperResult_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1_HSTRING __x_ABI_C__FIIterator_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterator_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1_HSTRING* This,
+        UINT32 itemsLength,
+        HSTRING* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterator_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1_HSTRING __x_ABI_C__FIIterable_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterable_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1_HSTRING* This,
+        __x_ABI_C__FIIterator_1_HSTRING** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterable_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1_HSTRING_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameFormat_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameFormat_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameFormat __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameFormat;
@@ -464,6 +555,56 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CXamlToo
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CCapture__CFrames__CMediaFrameFormat_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1_HSTRING __x_ABI_C__FIVectorView_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIVectorView_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32 index,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        HSTRING value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        HSTRING* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIVectorView_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CCapture__CFrames__CMediaFrameFormat_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CCapture__CFrames__CMediaFrameFormat_INTERFACE_DEFINED__
 
@@ -514,6 +655,38 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CXamlToo
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CCapture__CFrames__CMediaFrameFormat_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIEventHandler_1_IInspectable __x_ABI_C__FIEventHandler_1_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIEventHandler_1_IInspectable;
+
+    typedef struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+        IInspectable* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FIEventHandler_1_IInspectableVtbl;
+
+    interface __x_ABI_C__FIEventHandler_1_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIEventHandler_1___x_ABI_CXamlToolkit__CWinUI__CHelpers__CFrameEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIEventHandler_1___x_ABI_CXamlToolkit__CWinUI__CHelpers__CFrameEventArgs_INTERFACE_DEFINED__
 
@@ -546,6 +719,44 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CXamlToo
     
     #endif // ____x_ABI_C__FIEventHandler_1___x_ABI_CXamlToolkit__CWinUI__CHelpers__CFrameEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIReference_1_byte_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_byte_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_byte __x_ABI_C__FIReference_1_byte;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_byte;
+
+    typedef struct __x_ABI_C__FIReference_1_byteVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_byte* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_byte* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_byte* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_byte* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_byte* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_byte* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_byte* This,
+        BYTE* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_byteVtbl;
+
+    interface __x_ABI_C__FIReference_1_byte
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_byteVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_byte_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CMicrosoft_CUI_CDispatching_CIDispatcherQueue_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CDispatching_CIDispatcherQueue_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CDispatching_CIDispatcherQueue __x_ABI_CMicrosoft_CUI_CDispatching_CIDispatcherQueue;
@@ -574,6 +785,12 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSource_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSource_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSource __x_ABI_CWindows_CMedia_CCapture_CFrames_CIMediaFrameSource;
@@ -586,11 +803,27 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CMedia_CIVideoFrame_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost;
+
+#endif // ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile;
+
+#endif // ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile_FWD_DEFINED__
+
+typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkConnectivityLevel __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkConnectivityLevel;
+
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 typedef struct __x_ABI_CXamlToolkit_CWinUI_CHslColor __x_ABI_CXamlToolkit_CWinUI_CHslColor;
 
 typedef struct __x_ABI_CXamlToolkit_CWinUI_CHsvColor __x_ABI_CXamlToolkit_CWinUI_CHsvColor;
+
+typedef enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType;
 
 enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     {
@@ -602,6 +835,14 @@ enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult_CameraAccessDenied = 5,
     __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult_InitializationFailed_UnknownError = 6,
     __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult_NoCompatibleFrameFormatAvailable = 7,
+};
+
+enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType
+    {
+        __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType_Ethernet = 0,
+    __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType_WiFi = 1,
+    __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType_Data = 2,
+    __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType_Unknown = 3,
 };
 
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeChangedHandler_INTERFACE_DEFINED__)
@@ -711,37 +952,6 @@ enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CICameraHelperStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CICameraHelperStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelper_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStaticsVtbl
@@ -766,6 +976,9 @@ enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     HRESULT (STDMETHODCALLTYPE* ToHex)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics* This,
         struct __x_ABI_CWindows_CUI_CColor color,
         HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* ToInt)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics* This,
+        struct __x_ABI_CWindows_CUI_CColor color,
+        INT32* result);
     HRESULT (STDMETHODCALLTYPE* ToHsl)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics* This,
         struct __x_ABI_CWindows_CUI_CColor color,
         struct __x_ABI_CXamlToolkit_CWinUI_CHslColor* result);
@@ -797,36 +1010,53 @@ enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIColorHelperStatics_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersVtbl
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformationVtbl
     {
         BEGIN_INTERFACE
 
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This,
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
             REFIID riid,
             void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This,
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
             ULONG* iidCount,
             IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This,
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
             HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers* This,
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
             TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersVtbl;
+        HRESULT (STDMETHODCALLTYPE* UpdateConnectionInformation)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile* profile);
+    HRESULT (STDMETHODCALLTYPE* Reset)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This);
+    HRESULT (STDMETHODCALLTYPE* get_IsInternetOnMeteredConnection)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsInternetAvailable)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectionType)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CConnectionType* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectivityLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkConnectivityLevel* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectionCost)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionCost** value);
+    HRESULT (STDMETHODCALLTYPE* get_SignalStrength)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        __x_ABI_C__FIReference_1_byte** value);
+    HRESULT (STDMETHODCALLTYPE* get_NetworkNames)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation* This,
+        __x_ABI_C__FIVectorView_1_HSTRING** value);
 
-    interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformationVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation
     {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersVtbl* lpVtbl;
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformationVtbl* lpVtbl;
     };
 
     
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpers_INTERFACE_DEFINED__) */
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIDesignTimeHelpersStatics_INTERFACE_DEFINED__
@@ -897,6 +1127,77 @@ enum __x_ABI_CXamlToolkit_CWinUI_CHelpers_CCameraHelperResult
     
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CIFrameEventArgs;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIFrameEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ConnectionInformation)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+        __x_ABI_CXamlToolkit_CWinUI_CHelpers_CIConnectionInformation** value);
+    HRESULT (STDMETHODCALLTYPE* add_NetworkChanged)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_NetworkChanged)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Instance)(__x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics* This,
+        __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelper** value);
+
+        END_INTERFACE
+    } __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStaticsVtbl;
+
+    interface __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics
+    {
+        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics;
+#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CINetworkHelperStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeListener_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CHelpers_CIThemeListener_INTERFACE_DEFINED__

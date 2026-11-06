@@ -12,12 +12,165 @@ public typealias DeploymentOptions = __x_ABI_CWindows_CManagement_CDeployment_CD
 public typealias DeploymentProgressState = __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packageinstallstate)
 public typealias PackageInstallState = __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packageoperationpriority)
+public typealias PackageOperationPriority = __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagestate)
 public typealias PackageState = __x_ABI_CWindows_CManagement_CDeployment_CPackageState
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagestubpreference)
+public typealias PackageStubPreference = __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagetypes)
 public typealias PackageTypes = __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removaloptions)
 public typealias RemovalOptions = __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stubpackageoption)
+public typealias StubPackageOption = __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions)
+public final class AddPackageOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Management_Deployment.IAddPackageOptions
+    private typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.AddPackageOptions")
+    override public init() {
+        super.init(try! Self._defaultFactory.ActivateInstance())
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.allowunsigned)
+    public var allowUnsigned : Bool {
+        get { try! _default.get_AllowUnsigned() }
+        set { try! _default.put_AllowUnsigned(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.deferregistrationwhenpackagesareinuse)
+    public var deferRegistrationWhenPackagesAreInUse : Bool {
+        get { try! _default.get_DeferRegistrationWhenPackagesAreInUse() }
+        set { try! _default.put_DeferRegistrationWhenPackagesAreInUse(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.dependencypackageuris)
+    public var dependencyPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_DependencyPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.developermode)
+    public var developerMode : Bool {
+        get { try! _default.get_DeveloperMode() }
+        set { try! _default.put_DeveloperMode(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.externallocationuri)
+    public var externalLocationUri : WindowsFoundation.Uri! {
+        get { try! _default.get_ExternalLocationUri() }
+        set { try! _default.put_ExternalLocationUri(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.forceappshutdown)
+    public var forceAppShutdown : Bool {
+        get { try! _default.get_ForceAppShutdown() }
+        set { try! _default.put_ForceAppShutdown(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.forcetargetappshutdown)
+    public var forceTargetAppShutdown : Bool {
+        get { try! _default.get_ForceTargetAppShutdown() }
+        set { try! _default.put_ForceTargetAppShutdown(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.forceupdatefromanyversion)
+    public var forceUpdateFromAnyVersion : Bool {
+        get { try! _default.get_ForceUpdateFromAnyVersion() }
+        set { try! _default.put_ForceUpdateFromAnyVersion(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.installallresources)
+    public var installAllResources : Bool {
+        get { try! _default.get_InstallAllResources() }
+        set { try! _default.put_InstallAllResources(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.optionalpackagefamilynames)
+    public var optionalPackageFamilyNames : WindowsFoundation.AnyIVector<String>! {
+        get { try! _default.get_OptionalPackageFamilyNames() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.optionalpackageuris)
+    public var optionalPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_OptionalPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.relatedpackageuris)
+    public var relatedPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_RelatedPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.requiredcontentgrouponly)
+    public var requiredContentGroupOnly : Bool {
+        get { try! _default.get_RequiredContentGroupOnly() }
+        set { try! _default.put_RequiredContentGroupOnly(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.retainfilesonfailure)
+    public var retainFilesOnFailure : Bool {
+        get { try! _default.get_RetainFilesOnFailure() }
+        set { try! _default.put_RetainFilesOnFailure(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.stageinplace)
+    public var stageInPlace : Bool {
+        get { try! _default.get_StageInPlace() }
+        set { try! _default.put_StageInPlace(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.stubpackageoption)
+    public var stubPackageOption : StubPackageOption {
+        get { try! _default.get_StubPackageOption() }
+        set { try! _default.put_StubPackageOption(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.targetvolume)
+    public var targetVolume : PackageVolume! {
+        get { try! _default.get_TargetVolume() }
+        set { try! _default.put_TargetVolume(newValue) }
+    }
+
+    private lazy var _IAddPackageOptions2: __ABI_Windows_Management_Deployment.IAddPackageOptions2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.expecteddigests)
+    public var expectedDigests : WindowsFoundation.AnyIMap<WindowsFoundation.Uri?, String>! {
+        get { try! _IAddPackageOptions2.get_ExpectedDigests() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.limittoexistingpackages)
+    public var limitToExistingPackages : Bool {
+        get { try! _IAddPackageOptions2.get_LimitToExistingPackages() }
+        set { try! _IAddPackageOptions2.put_LimitToExistingPackages(newValue) }
+    }
+
+    private lazy var _IAddPackageOptions3: __ABI_Windows_Management_Deployment.IAddPackageOptions3! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.addpackageoptions.packageoperationpriority)
+    public var packageOperationPriority : PackageOperationPriority {
+        get { try! _IAddPackageOptions3.get_PackageOperationPriority() }
+        set { try! _IAddPackageOptions3.put_PackageOperationPriority(newValue) }
+    }
+
+    deinit {
+        _default = nil
+        _IAddPackageOptions2 = nil
+        _IAddPackageOptions3 = nil
+    }
+}
+
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult)
 public final class DeploymentResult : WinRTClass {
     private typealias SwiftABI = __ABI_Windows_Management_Deployment.IDeploymentResult
@@ -32,9 +185,48 @@ public final class DeploymentResult : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult>?) -> DeploymentResult? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.activityid)
+    public var activityId : Foundation.UUID {
+        get { try! _default.get_ActivityId() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.errortext)
+    public var errorText : String {
+        get { try! _default.get_ErrorText() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.extendederrorcode)
+    public var extendedErrorCode : HRESULT {
+        get { try! _default.get_ExtendedErrorCode() }
+    }
+
+    private lazy var _IDeploymentResult2: __ABI_Windows_Management_Deployment.IDeploymentResult2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.isregistered)
+    public var isRegistered : Bool {
+        get { try! _IDeploymentResult2.get_IsRegistered() }
+    }
+
+    deinit {
+        _default = nil
+        _IDeploymentResult2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagealluserprovisioningoptions)
+public final class PackageAllUserProvisioningOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Management_Deployment.IPackageAllUserProvisioningOptions
+    private typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
     }
 
     @_spi(WinRTInternal)
@@ -42,30 +234,31 @@ public final class DeploymentResult : WinRTClass {
         super.init(fromAbi)
     }
 
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.activityid)
-    public var activityId : Foundation.UUID {
-        get { try! _default.get_ActivityIdImpl() }
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.PackageAllUserProvisioningOptions")
+    override public init() {
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.errortext)
-    public var errorText : String {
-        get { try! _default.get_ErrorTextImpl() }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagealluserprovisioningoptions.optionalpackagefamilynames)
+    public var optionalPackageFamilyNames : WindowsFoundation.AnyIVector<String>! {
+        get { try! _default.get_OptionalPackageFamilyNames() }
     }
 
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.extendederrorcode)
-    public var extendedErrorCode : HRESULT {
-        get { try! _default.get_ExtendedErrorCodeImpl() }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagealluserprovisioningoptions.projectionorderpackagefamilynames)
+    public var projectionOrderPackageFamilyNames : WindowsFoundation.AnyIVector<String>! {
+        get { try! _default.get_ProjectionOrderPackageFamilyNames() }
     }
 
-    private lazy var _IDeploymentResult2: __ABI_Windows_Management_Deployment.IDeploymentResult2! = getInterfaceForCaching()
-    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentresult.isregistered)
-    public var isRegistered : Bool {
-        get { try! _IDeploymentResult2.get_IsRegisteredImpl() }
+    private lazy var _IPackageAllUserProvisioningOptions2: __ABI_Windows_Management_Deployment.IPackageAllUserProvisioningOptions2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagealluserprovisioningoptions.deferautomaticregistration)
+    public var deferAutomaticRegistration : Bool {
+        get { try! _IPackageAllUserProvisioningOptions2.get_DeferAutomaticRegistration() }
+        set { try! _IPackageAllUserProvisioningOptions2.put_DeferAutomaticRegistration(newValue) }
     }
 
     deinit {
         _default = nil
-        _IDeploymentResult2 = nil
+        _IPackageAllUserProvisioningOptions2 = nil
     }
 }
 
@@ -83,285 +276,349 @@ public final class PackageManager : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager>?) -> PackageManager? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.PackageManager")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.Management.Deployment.PackageManager")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync)
     public func addPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.AddPackageAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions)
+        try _default.AddPackageAsync(packageUri, dependencyPackageUris, deploymentOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.updatepackageasync)
     public func updatePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.UpdatePackageAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions)
+        try _default.UpdatePackageAsync(packageUri, dependencyPackageUris, deploymentOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync)
     public func removePackageAsync(_ packageFullName: String) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.RemovePackageAsyncImpl(packageFullName)
+        try _default.RemovePackageAsync(packageFullName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync)
     public func stagePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.StagePackageAsyncImpl(packageUri, dependencyPackageUris)
+        try _default.StagePackageAsync(packageUri, dependencyPackageUris)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackageasync)
     public func registerPackageAsync(_ manifestUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.RegisterPackageAsyncImpl(manifestUri, dependencyPackageUris, deploymentOptions)
+        try _default.RegisterPackageAsync(manifestUri, dependencyPackageUris, deploymentOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackages)
     public func findPackages() throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesImpl()
+        try _default.FindPackages()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdImpl(userSecurityId)
+        try _default.FindPackagesByUserSecurityId(userSecurityId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackages)
     public func findPackages(_ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesByNamePublisherImpl(packageName, packagePublisher)
+        try _default.FindPackagesByNamePublisher(packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String, _ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdNamePublisherImpl(userSecurityId, packageName, packagePublisher)
+        try _default.FindPackagesByUserSecurityIdNamePublisher(userSecurityId, packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findusers)
     public func findUsers(_ packageFullName: String) throws -> WindowsFoundation.AnyIIterable<PackageUserInformation?>! {
-        try _default.FindUsersImpl(packageFullName)
+        try _default.FindUsers(packageFullName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.setpackagestate)
     public func setPackageState(_ packageFullName: String, _ packageState: PackageState) throws {
-        try _default.SetPackageStateImpl(packageFullName, packageState)
+        try _default.SetPackageState(packageFullName, packageState)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackage)
     public func findPackage(_ packageFullName: String) throws -> UWP.Package! {
-        try _default.FindPackageByPackageFullNameImpl(packageFullName)
+        try _default.FindPackageByPackageFullName(packageFullName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.cleanuppackageforuserasync)
     public func cleanupPackageForUserAsync(_ packageName: String, _ userSecurityId: String) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _default.CleanupPackageForUserAsyncImpl(packageName, userSecurityId)
+        try _default.CleanupPackageForUserAsync(packageName, userSecurityId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackages)
     public func findPackages(_ packageFamilyName: String) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesByPackageFamilyNameImpl(packageFamilyName)
+        try _default.FindPackagesByPackageFamilyName(packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String, _ packageFamilyName: String) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdPackageFamilyNameImpl(userSecurityId, packageFamilyName)
+        try _default.FindPackagesByUserSecurityIdPackageFamilyName(userSecurityId, packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackageforuser)
     public func findPackageForUser(_ userSecurityId: String, _ packageFullName: String) throws -> UWP.Package! {
-        try _default.FindPackageByUserSecurityIdPackageFullNameImpl(userSecurityId, packageFullName)
+        try _default.FindPackageByUserSecurityIdPackageFullName(userSecurityId, packageFullName)
     }
 
     private lazy var _IPackageManager2: __ABI_Windows_Management_Deployment.IPackageManager2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync)
     public func removePackageAsync(_ packageFullName: String, _ removalOptions: RemovalOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager2.RemovePackageWithOptionsAsyncImpl(packageFullName, removalOptions)
+        try _IPackageManager2.RemovePackageWithOptionsAsync(packageFullName, removalOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync)
     public func stagePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager2.StagePackageWithOptionsAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions)
+        try _IPackageManager2.StagePackageWithOptionsAsync(packageUri, dependencyPackageUris, deploymentOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackagebyfullnameasync)
     public func registerPackageByFullNameAsync(_ mainPackageFullName: String, _ dependencyPackageFullNames: WindowsFoundation.AnyIIterable<String>!, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager2.RegisterPackageByFullNameAsyncImpl(mainPackageFullName, dependencyPackageFullNames, deploymentOptions)
+        try _IPackageManager2.RegisterPackageByFullNameAsync(mainPackageFullName, dependencyPackageFullNames, deploymentOptions)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesWithPackageTypesImpl(packageTypes)
+        try _IPackageManager2.FindPackagesWithPackageTypes(packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesByUserSecurityIdWithPackageTypesImpl(userSecurityId, packageTypes)
+        try _IPackageManager2.FindPackagesByUserSecurityIdWithPackageTypes(userSecurityId, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageName: String, _ packagePublisher: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesByNamePublisherWithPackageTypesImpl(packageName, packagePublisher, packageTypes)
+        try _IPackageManager2.FindPackagesByNamePublisherWithPackageTypes(packageName, packagePublisher, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageName: String, _ packagePublisher: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesByUserSecurityIdNamePublisherWithPackageTypesImpl(userSecurityId, packageName, packagePublisher, packageTypes)
+        try _IPackageManager2.FindPackagesByUserSecurityIdNamePublisherWithPackageTypes(userSecurityId, packageName, packagePublisher, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageFamilyName: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesByPackageFamilyNameWithPackageTypesImpl(packageFamilyName, packageTypes)
+        try _IPackageManager2.FindPackagesByPackageFamilyNameWithPackageTypes(packageFamilyName, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageFamilyName: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIIterable<UWP.Package?>! {
-        try _IPackageManager2.FindPackagesByUserSecurityIdPackageFamilyNameWithPackageTypesImpl(userSecurityId, packageFamilyName, packageTypes)
+        try _IPackageManager2.FindPackagesByUserSecurityIdPackageFamilyNameWithPackageTypes(userSecurityId, packageFamilyName, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stageuserdataasync)
     public func stageUserDataAsync(_ packageFullName: String) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager2.StageUserDataAsyncImpl(packageFullName)
+        try _IPackageManager2.StageUserDataAsync(packageFullName)
     }
 
     private lazy var _IPackageManager3: __ABI_Windows_Management_Deployment.IPackageManager3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackagevolumeasync)
     public func addPackageVolumeAsync(_ packageStorePath: String) throws -> WindowsFoundation.AnyIAsyncOperation<PackageVolume?>! {
-        try _IPackageManager3.AddPackageVolumeAsyncImpl(packageStorePath)
+        try _IPackageManager3.AddPackageVolumeAsync(packageStorePath)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync)
     public func addPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.AddPackageToVolumeAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume)
+        try _IPackageManager3.AddPackageToVolumeAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackageasync)
     public func registerPackageAsync(_ manifestUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ appDataVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.RegisterPackageWithAppDataVolumeAsyncImpl(manifestUri, dependencyPackageUris, deploymentOptions, appDataVolume)
+        try _IPackageManager3.RegisterPackageWithAppDataVolumeAsync(manifestUri, dependencyPackageUris, deploymentOptions, appDataVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagevolume)
     public func findPackageVolume(_ volumeName: String) throws -> PackageVolume! {
-        try _IPackageManager3.FindPackageVolumeByNameImpl(volumeName)
+        try _IPackageManager3.FindPackageVolumeByName(volumeName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findpackagevolumes)
     public func findPackageVolumes() throws -> WindowsFoundation.AnyIIterable<PackageVolume?>! {
-        try _IPackageManager3.FindPackageVolumesImpl()
+        try _IPackageManager3.FindPackageVolumes()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.getdefaultpackagevolume)
     public func getDefaultPackageVolume() throws -> PackageVolume! {
-        try _IPackageManager3.GetDefaultPackageVolumeImpl()
+        try _IPackageManager3.GetDefaultPackageVolume()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.movepackagetovolumeasync)
     public func movePackageToVolumeAsync(_ packageFullName: String, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.MovePackageToVolumeAsyncImpl(packageFullName, deploymentOptions, targetVolume)
+        try _IPackageManager3.MovePackageToVolumeAsync(packageFullName, deploymentOptions, targetVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackagevolumeasync)
     public func removePackageVolumeAsync(_ volume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.RemovePackageVolumeAsyncImpl(volume)
+        try _IPackageManager3.RemovePackageVolumeAsync(volume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.setdefaultpackagevolume)
     public func setDefaultPackageVolume(_ volume: PackageVolume!) throws {
-        try _IPackageManager3.SetDefaultPackageVolumeImpl(volume)
+        try _IPackageManager3.SetDefaultPackageVolume(volume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.setpackagevolumeofflineasync)
     public func setPackageVolumeOfflineAsync(_ packageVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.SetPackageVolumeOfflineAsyncImpl(packageVolume)
+        try _IPackageManager3.SetPackageVolumeOfflineAsync(packageVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.setpackagevolumeonlineasync)
     public func setPackageVolumeOnlineAsync(_ packageVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.SetPackageVolumeOnlineAsyncImpl(packageVolume)
+        try _IPackageManager3.SetPackageVolumeOnlineAsync(packageVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync)
     public func stagePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.StagePackageToVolumeAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume)
+        try _IPackageManager3.StagePackageToVolumeAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stageuserdataasync)
     public func stageUserDataAsync(_ packageFullName: String, _ deploymentOptions: DeploymentOptions) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager3.StageUserDataWithOptionsAsyncImpl(packageFullName, deploymentOptions)
+        try _IPackageManager3.StageUserDataWithOptionsAsync(packageFullName, deploymentOptions)
     }
 
     private lazy var _IPackageManager4: __ABI_Windows_Management_Deployment.IPackageManager4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.getpackagevolumesasync)
     public func getPackageVolumesAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<PackageVolume?>?>! {
-        try _IPackageManager4.GetPackageVolumesAsyncImpl()
+        try _IPackageManager4.GetPackageVolumesAsync()
     }
 
     private lazy var _IPackageManager5: __ABI_Windows_Management_Deployment.IPackageManager5! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync)
     public func addPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ externalPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager5.AddPackageToVolumeAndOptionalPackagesAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, externalPackageUris)
+        try _IPackageManager5.AddPackageToVolumeAndOptionalPackagesAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, externalPackageUris)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync)
     public func stagePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ externalPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager5.StagePackageToVolumeAndOptionalPackagesAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, externalPackageUris)
+        try _IPackageManager5.StagePackageToVolumeAndOptionalPackagesAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, externalPackageUris)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackagebyfamilynameasync)
     public func registerPackageByFamilyNameAsync(_ mainPackageFamilyName: String, _ dependencyPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ deploymentOptions: DeploymentOptions, _ appDataVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager5.RegisterPackageByFamilyNameAndOptionalPackagesAsyncImpl(mainPackageFamilyName, dependencyPackageFamilyNames, deploymentOptions, appDataVolume, optionalPackageFamilyNames)
+        try _IPackageManager5.RegisterPackageByFamilyNameAndOptionalPackagesAsync(mainPackageFamilyName, dependencyPackageFamilyNames, deploymentOptions, appDataVolume, optionalPackageFamilyNames)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.debugsettings)
     public var debugSettings : PackageManagerDebugSettings! {
-        get { try! _IPackageManager5.get_DebugSettingsImpl() }
+        get { try! _IPackageManager5.get_DebugSettings() }
     }
 
     private lazy var _IPackageManager6: __ABI_Windows_Management_Deployment.IPackageManager6! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.provisionpackageforallusersasync)
     public func provisionPackageForAllUsersAsync(_ packageFamilyName: String) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.ProvisionPackageForAllUsersAsyncImpl(packageFamilyName)
+        try _IPackageManager6.ProvisionPackageForAllUsersAsync(packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackagebyappinstallerfileasync)
     public func addPackageByAppInstallerFileAsync(_ appInstallerFileUri: WindowsFoundation.Uri!, _ options: AddPackageByAppInstallerOptions, _ targetVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.AddPackageByAppInstallerFileAsyncImpl(appInstallerFileUri, options, targetVolume)
+        try _IPackageManager6.AddPackageByAppInstallerFileAsync(appInstallerFileUri, options, targetVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.requestaddpackagebyappinstallerfileasync)
     public func requestAddPackageByAppInstallerFileAsync(_ appInstallerFileUri: WindowsFoundation.Uri!, _ options: AddPackageByAppInstallerOptions, _ targetVolume: PackageVolume!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.RequestAddPackageByAppInstallerFileAsyncImpl(appInstallerFileUri, options, targetVolume)
+        try _IPackageManager6.RequestAddPackageByAppInstallerFileAsync(appInstallerFileUri, options, targetVolume)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync)
     public func addPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ options: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ packageUrisToInstall: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ relatedPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.AddPackageToVolumeAndRelatedSetAsyncImpl(packageUri, dependencyPackageUris, options, targetVolume, optionalPackageFamilyNames, packageUrisToInstall, relatedPackageUris)
+        try _IPackageManager6.AddPackageToVolumeAndRelatedSetAsync(packageUri, dependencyPackageUris, options, targetVolume, optionalPackageFamilyNames, packageUrisToInstall, relatedPackageUris)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync)
     public func stagePackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ options: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ packageUrisToInstall: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ relatedPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.StagePackageToVolumeAndRelatedSetAsyncImpl(packageUri, dependencyPackageUris, options, targetVolume, optionalPackageFamilyNames, packageUrisToInstall, relatedPackageUris)
+        try _IPackageManager6.StagePackageToVolumeAndRelatedSetAsync(packageUri, dependencyPackageUris, options, targetVolume, optionalPackageFamilyNames, packageUrisToInstall, relatedPackageUris)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.requestaddpackageasync)
     public func requestAddPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ relatedPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager6.RequestAddPackageAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, relatedPackageUris)
+        try _IPackageManager6.RequestAddPackageAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, relatedPackageUris)
     }
 
     private lazy var _IPackageManager7: __ABI_Windows_Management_Deployment.IPackageManager7! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.requestaddpackageasync)
     public func requestAddPackageAsync(_ packageUri: WindowsFoundation.Uri!, _ dependencyPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ deploymentOptions: DeploymentOptions, _ targetVolume: PackageVolume!, _ optionalPackageFamilyNames: WindowsFoundation.AnyIIterable<String>!, _ relatedPackageUris: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!, _ packageUrisToInstall: WindowsFoundation.AnyIIterable<WindowsFoundation.Uri?>!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager7.RequestAddPackageAndRelatedSetAsyncImpl(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, relatedPackageUris, packageUrisToInstall)
+        try _IPackageManager7.RequestAddPackageAndRelatedSetAsync(packageUri, dependencyPackageUris, deploymentOptions, targetVolume, optionalPackageFamilyNames, relatedPackageUris, packageUrisToInstall)
     }
 
     private lazy var _IPackageManager8: __ABI_Windows_Management_Deployment.IPackageManager8! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.deprovisionpackageforallusersasync)
     public func deprovisionPackageForAllUsersAsync(_ packageFamilyName: String) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
-        try _IPackageManager8.DeprovisionPackageForAllUsersAsyncImpl(packageFamilyName)
+        try _IPackageManager8.DeprovisionPackageForAllUsersAsync(packageFamilyName)
+    }
+
+    private lazy var _IPackageManager9: __ABI_Windows_Management_Deployment.IPackageManager9! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.findprovisionedpackages)
+    public func findProvisionedPackages() throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
+        try _IPackageManager9.FindProvisionedPackages()
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackagebyuriasync)
+    public func addPackageByUriAsync(_ packageUri: WindowsFoundation.Uri!, _ options: AddPackageOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager9.AddPackageByUriAsync(packageUri, options)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackagebyuriasync)
+    public func stagePackageByUriAsync(_ packageUri: WindowsFoundation.Uri!, _ options: StagePackageOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager9.StagePackageByUriAsync(packageUri, options)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackagebyuriasync)
+    public func registerPackageByUriAsync(_ manifestUri: WindowsFoundation.Uri!, _ options: RegisterPackageOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager9.RegisterPackageByUriAsync(manifestUri, options)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.registerpackagesbyfullnameasync)
+    public func registerPackagesByFullNameAsync(_ packageFullNames: WindowsFoundation.AnyIIterable<String>!, _ options: RegisterPackageOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager9.RegisterPackagesByFullNameAsync(packageFullNames, options)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.setpackagestubpreference)
+    public func setPackageStubPreference(_ packageFamilyName: String, _ useStub: PackageStubPreference) throws {
+        try _IPackageManager9.SetPackageStubPreference(packageFamilyName, useStub)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.getpackagestubpreference)
+    public func getPackageStubPreference(_ packageFamilyName: String) throws -> PackageStubPreference {
+        try _IPackageManager9.GetPackageStubPreference(packageFamilyName)
+    }
+
+    private lazy var _IPackageManager10: __ABI_Windows_Management_Deployment.IPackageManager10! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.provisionpackageforallusersasync)
+    public func provisionPackageForAllUsersAsync(_ mainPackageFamilyName: String, _ options: PackageAllUserProvisioningOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager10.ProvisionPackageForAllUsersWithOptionsAsync(mainPackageFamilyName, options)
+    }
+
+    private lazy var _IPackageManager11: __ABI_Windows_Management_Deployment.IPackageManager11! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackagebyuriasync)
+    public func removePackageByUriAsync(_ packageUri: WindowsFoundation.Uri!, _ options: RemovePackageOptions!) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<DeploymentResult?, DeploymentProgress>! {
+        try _IPackageManager11.RemovePackageByUriAsync(packageUri, options)
+    }
+
+    private lazy var _IPackageManager12: __ABI_Windows_Management_Deployment.IPackageManager12! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.ispackageremovalpending)
+    public func isPackageRemovalPending(_ packageFullName: String) throws -> Bool {
+        try _IPackageManager12.IsPackageRemovalPending(packageFullName)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.ispackageremovalpendingforuser)
+    public func isPackageRemovalPendingForUser(_ packageFullName: String, _ userSecurityId: String) throws -> Bool {
+        try _IPackageManager12.IsPackageRemovalPendingForUser(packageFullName, userSecurityId)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.ispackageremovalpendingbyuri)
+    public func isPackageRemovalPendingByUri(_ packageUri: WindowsFoundation.Uri!) throws -> Bool {
+        try _IPackageManager12.IsPackageRemovalPendingByUri(packageUri)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanager.ispackageremovalpendingbyuriforuser)
+    public func isPackageRemovalPendingByUriForUser(_ packageUri: WindowsFoundation.Uri!, _ userSecurityId: String) throws -> Bool {
+        try _IPackageManager12.IsPackageRemovalPendingByUriForUser(packageUri, userSecurityId)
     }
 
     deinit {
@@ -373,6 +630,10 @@ public final class PackageManager : WinRTClass {
         _IPackageManager6 = nil
         _IPackageManager7 = nil
         _IPackageManager8 = nil
+        _IPackageManager9 = nil
+        _IPackageManager10 = nil
+        _IPackageManager11 = nil
+        _IPackageManager12 = nil
     }
 }
 
@@ -390,24 +651,18 @@ public final class PackageManagerDebugSettings : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings>?) -> PackageManagerDebugSettings? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanagerdebugsettings.setcontentgroupstateasync)
     public func setContentGroupStateAsync(_ package: UWP.Package!, _ contentGroupName: String, _ state: UWP.PackageContentGroupState) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _default.SetContentGroupStateAsyncImpl(package, contentGroupName, state)
+        try _default.SetContentGroupStateAsync(package, contentGroupName, state)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagemanagerdebugsettings.setcontentgroupstateasync)
     public func setContentGroupStateAsync(_ package: UWP.Package!, _ contentGroupName: String, _ state: UWP.PackageContentGroupState, _ completionPercentage: Double) throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _default.SetContentGroupStateWithPercentageAsyncImpl(package, contentGroupName, state, completionPercentage)
+        try _default.SetContentGroupStateWithPercentageAsync(package, contentGroupName, state, completionPercentage)
     }
 
     deinit {
@@ -429,24 +684,18 @@ public final class PackageUserInformation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageUserInformation>?) -> PackageUserInformation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packageuserinformation.installstate)
     public var installState : PackageInstallState {
-        get { try! _default.get_InstallStateImpl() }
+        get { try! _default.get_InstallState() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packageuserinformation.usersecurityid)
     public var userSecurityId : String {
-        get { try! _default.get_UserSecurityIdImpl() }
+        get { try! _default.get_UserSecurityId() }
     }
 
     deinit {
@@ -468,130 +717,124 @@ public final class PackageVolume : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume>?) -> PackageVolume? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackages)
     public func findPackages() throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesImpl()
+        try _default.FindPackages()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackages)
     public func findPackages(_ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByNamePublisherImpl(packageName, packagePublisher)
+        try _default.FindPackagesByNamePublisher(packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackages)
     public func findPackages(_ packageFamilyName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByPackageFamilyNameImpl(packageFamilyName)
+        try _default.FindPackagesByPackageFamilyName(packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesWithPackageTypesImpl(packageTypes)
+        try _default.FindPackagesWithPackageTypes(packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageTypes: PackageTypes, _ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByNamePublisherWithPackagesTypesImpl(packageTypes, packageName, packagePublisher)
+        try _default.FindPackagesByNamePublisherWithPackagesTypes(packageTypes, packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackageswithpackagetypes)
     public func findPackagesWithPackageTypes(_ packageTypes: PackageTypes, _ packageFamilyName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByPackageFamilyNameWithPackageTypesImpl(packageTypes, packageFamilyName)
+        try _default.FindPackagesByPackageFamilyNameWithPackageTypes(packageTypes, packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackage)
     public func findPackage(_ packageFullName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackageByPackageFullNameImpl(packageFullName)
+        try _default.FindPackageByPackageFullName(packageFullName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdImpl(userSecurityId)
+        try _default.FindPackagesByUserSecurityId(userSecurityId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String, _ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdNamePublisherImpl(userSecurityId, packageName, packagePublisher)
+        try _default.FindPackagesByUserSecurityIdNamePublisher(userSecurityId, packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuser)
     public func findPackagesForUser(_ userSecurityId: String, _ packageFamilyName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdPackageFamilyNameImpl(userSecurityId, packageFamilyName)
+        try _default.FindPackagesByUserSecurityIdPackageFamilyName(userSecurityId, packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageTypes: PackageTypes) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdWithPackageTypesImpl(userSecurityId, packageTypes)
+        try _default.FindPackagesByUserSecurityIdWithPackageTypes(userSecurityId, packageTypes)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageTypes: PackageTypes, _ packageName: String, _ packagePublisher: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdNamePublisherWithPackageTypesImpl(userSecurityId, packageTypes, packageName, packagePublisher)
+        try _default.FindPackagesByUserSecurityIdNamePublisherWithPackageTypes(userSecurityId, packageTypes, packageName, packagePublisher)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackagesforuserwithpackagetypes)
     public func findPackagesForUserWithPackageTypes(_ userSecurityId: String, _ packageTypes: PackageTypes, _ packageFamilyName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackagesByUserSecurityIdPackageFamilyNameWithPackagesTypesImpl(userSecurityId, packageTypes, packageFamilyName)
+        try _default.FindPackagesByUserSecurityIdPackageFamilyNameWithPackagesTypes(userSecurityId, packageTypes, packageFamilyName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.findpackageforuser)
     public func findPackageForUser(_ userSecurityId: String, _ packageFullName: String) throws -> WindowsFoundation.AnyIVector<UWP.Package?>! {
-        try _default.FindPackageByUserSecurityIdPackageFullNameImpl(userSecurityId, packageFullName)
+        try _default.FindPackageByUserSecurityIdPackageFullName(userSecurityId, packageFullName)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.isoffline)
     public var isOffline : Bool {
-        get { try! _default.get_IsOfflineImpl() }
+        get { try! _default.get_IsOffline() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.issystemvolume)
     public var isSystemVolume : Bool {
-        get { try! _default.get_IsSystemVolumeImpl() }
+        get { try! _default.get_IsSystemVolume() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.mountpoint)
     public var mountPoint : String {
-        get { try! _default.get_MountPointImpl() }
+        get { try! _default.get_MountPoint() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.name)
     public var name : String {
-        get { try! _default.get_NameImpl() }
+        get { try! _default.get_Name() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.packagestorepath)
     public var packageStorePath : String {
-        get { try! _default.get_PackageStorePathImpl() }
+        get { try! _default.get_PackageStorePath() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.supportshardlinks)
     public var supportsHardLinks : Bool {
-        get { try! _default.get_SupportsHardLinksImpl() }
+        get { try! _default.get_SupportsHardLinks() }
     }
 
     private lazy var _IPackageVolume2: __ABI_Windows_Management_Deployment.IPackageVolume2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.getavailablespaceasync)
     public func getAvailableSpaceAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UInt64>! {
-        try _IPackageVolume2.GetAvailableSpaceAsyncImpl()
+        try _IPackageVolume2.GetAvailableSpaceAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.isappxinstallsupported)
     public var isAppxInstallSupported : Bool {
-        get { try! _IPackageVolume2.get_IsAppxInstallSupportedImpl() }
+        get { try! _IPackageVolume2.get_IsAppxInstallSupported() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.packagevolume.isfulltrustpackagesupported)
     public var isFullTrustPackageSupported : Bool {
-        get { try! _IPackageVolume2.get_IsFullTrustPackageSupportedImpl() }
+        get { try! _IPackageVolume2.get_IsFullTrustPackageSupported() }
     }
 
     deinit {
@@ -600,8 +843,284 @@ public final class PackageVolume : WinRTClass {
     }
 }
 
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions)
+public final class RegisterPackageOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Management_Deployment.IRegisterPackageOptions
+    private typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.RegisterPackageOptions")
+    override public init() {
+        super.init(try! Self._defaultFactory.ActivateInstance())
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.allowunsigned)
+    public var allowUnsigned : Bool {
+        get { try! _default.get_AllowUnsigned() }
+        set { try! _default.put_AllowUnsigned(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.appdatavolume)
+    public var appDataVolume : PackageVolume! {
+        get { try! _default.get_AppDataVolume() }
+        set { try! _default.put_AppDataVolume(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.deferregistrationwhenpackagesareinuse)
+    public var deferRegistrationWhenPackagesAreInUse : Bool {
+        get { try! _default.get_DeferRegistrationWhenPackagesAreInUse() }
+        set { try! _default.put_DeferRegistrationWhenPackagesAreInUse(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.dependencypackageuris)
+    public var dependencyPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_DependencyPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.developermode)
+    public var developerMode : Bool {
+        get { try! _default.get_DeveloperMode() }
+        set { try! _default.put_DeveloperMode(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.externallocationuri)
+    public var externalLocationUri : WindowsFoundation.Uri! {
+        get { try! _default.get_ExternalLocationUri() }
+        set { try! _default.put_ExternalLocationUri(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.forceappshutdown)
+    public var forceAppShutdown : Bool {
+        get { try! _default.get_ForceAppShutdown() }
+        set { try! _default.put_ForceAppShutdown(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.forcetargetappshutdown)
+    public var forceTargetAppShutdown : Bool {
+        get { try! _default.get_ForceTargetAppShutdown() }
+        set { try! _default.put_ForceTargetAppShutdown(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.forceupdatefromanyversion)
+    public var forceUpdateFromAnyVersion : Bool {
+        get { try! _default.get_ForceUpdateFromAnyVersion() }
+        set { try! _default.put_ForceUpdateFromAnyVersion(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.installallresources)
+    public var installAllResources : Bool {
+        get { try! _default.get_InstallAllResources() }
+        set { try! _default.put_InstallAllResources(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.optionalpackagefamilynames)
+    public var optionalPackageFamilyNames : WindowsFoundation.AnyIVector<String>! {
+        get { try! _default.get_OptionalPackageFamilyNames() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.stageinplace)
+    public var stageInPlace : Bool {
+        get { try! _default.get_StageInPlace() }
+        set { try! _default.put_StageInPlace(newValue) }
+    }
+
+    private lazy var _IRegisterPackageOptions2: __ABI_Windows_Management_Deployment.IRegisterPackageOptions2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.registerpackageoptions.expecteddigests)
+    public var expectedDigests : WindowsFoundation.AnyIMap<WindowsFoundation.Uri?, String>! {
+        get { try! _IRegisterPackageOptions2.get_ExpectedDigests() }
+    }
+
+    deinit {
+        _default = nil
+        _IRegisterPackageOptions2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removepackageoptions)
+public final class RemovePackageOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Management_Deployment.IRemovePackageOptions
+    private typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.RemovePackageOptions")
+    override public init() {
+        super.init(try! Self._defaultFactory.ActivateInstance())
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removepackageoptions.preserveapplicationdata)
+    public var preserveApplicationData : Bool {
+        get { try! _default.get_PreserveApplicationData() }
+        set { try! _default.put_PreserveApplicationData(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removepackageoptions.preserveroamableapplicationdata)
+    public var preserveRoamableApplicationData : Bool {
+        get { try! _default.get_PreserveRoamableApplicationData() }
+        set { try! _default.put_PreserveRoamableApplicationData(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removepackageoptions.removeforallusers)
+    public var removeForAllUsers : Bool {
+        get { try! _default.get_RemoveForAllUsers() }
+        set { try! _default.put_RemoveForAllUsers(newValue) }
+    }
+
+    private lazy var _IRemovePackageOptions2: __ABI_Windows_Management_Deployment.IRemovePackageOptions2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.removepackageoptions.deferremovalwhenpackagesareinuse)
+    public var deferRemovalWhenPackagesAreInUse : Bool {
+        get { try! _IRemovePackageOptions2.get_DeferRemovalWhenPackagesAreInUse() }
+        set { try! _IRemovePackageOptions2.put_DeferRemovalWhenPackagesAreInUse(newValue) }
+    }
+
+    deinit {
+        _default = nil
+        _IRemovePackageOptions2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions)
+public final class StagePackageOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_Management_Deployment.IStagePackageOptions
+    private typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Management.Deployment.StagePackageOptions")
+    override public init() {
+        super.init(try! Self._defaultFactory.ActivateInstance())
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.allowunsigned)
+    public var allowUnsigned : Bool {
+        get { try! _default.get_AllowUnsigned() }
+        set { try! _default.put_AllowUnsigned(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.dependencypackageuris)
+    public var dependencyPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_DependencyPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.developermode)
+    public var developerMode : Bool {
+        get { try! _default.get_DeveloperMode() }
+        set { try! _default.put_DeveloperMode(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.externallocationuri)
+    public var externalLocationUri : WindowsFoundation.Uri! {
+        get { try! _default.get_ExternalLocationUri() }
+        set { try! _default.put_ExternalLocationUri(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.forceupdatefromanyversion)
+    public var forceUpdateFromAnyVersion : Bool {
+        get { try! _default.get_ForceUpdateFromAnyVersion() }
+        set { try! _default.put_ForceUpdateFromAnyVersion(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.installallresources)
+    public var installAllResources : Bool {
+        get { try! _default.get_InstallAllResources() }
+        set { try! _default.put_InstallAllResources(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.optionalpackagefamilynames)
+    public var optionalPackageFamilyNames : WindowsFoundation.AnyIVector<String>! {
+        get { try! _default.get_OptionalPackageFamilyNames() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.optionalpackageuris)
+    public var optionalPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_OptionalPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.relatedpackageuris)
+    public var relatedPackageUris : WindowsFoundation.AnyIVector<WindowsFoundation.Uri?>! {
+        get { try! _default.get_RelatedPackageUris() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.requiredcontentgrouponly)
+    public var requiredContentGroupOnly : Bool {
+        get { try! _default.get_RequiredContentGroupOnly() }
+        set { try! _default.put_RequiredContentGroupOnly(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.stageinplace)
+    public var stageInPlace : Bool {
+        get { try! _default.get_StageInPlace() }
+        set { try! _default.put_StageInPlace(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.stubpackageoption)
+    public var stubPackageOption : StubPackageOption {
+        get { try! _default.get_StubPackageOption() }
+        set { try! _default.put_StubPackageOption(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.targetvolume)
+    public var targetVolume : PackageVolume! {
+        get { try! _default.get_TargetVolume() }
+        set { try! _default.put_TargetVolume(newValue) }
+    }
+
+    private lazy var _IStagePackageOptions2: __ABI_Windows_Management_Deployment.IStagePackageOptions2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.expecteddigests)
+    public var expectedDigests : WindowsFoundation.AnyIMap<WindowsFoundation.Uri?, String>! {
+        get { try! _IStagePackageOptions2.get_ExpectedDigests() }
+    }
+
+    private lazy var _IStagePackageOptions3: __ABI_Windows_Management_Deployment.IStagePackageOptions3! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.stagepackageoptions.packageoperationpriority)
+    public var packageOperationPriority : PackageOperationPriority {
+        get { try! _IStagePackageOptions3.get_PackageOperationPriority() }
+        set { try! _IStagePackageOptions3.put_PackageOperationPriority(newValue) }
+    }
+
+    deinit {
+        _default = nil
+        _IStagePackageOptions2 = nil
+        _IStagePackageOptions3 = nil
+    }
+}
+
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentprogress)
-public struct DeploymentProgress: Hashable, Codable {
+public struct DeploymentProgress: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentprogress.state)
     public var state: DeploymentProgressState = .init(0)
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.management.deployment.deploymentprogress.percentage)
@@ -610,9 +1129,6 @@ public struct DeploymentProgress: Hashable, Codable {
     public init(state: DeploymentProgressState, percentage: UInt32) {
         self.state = state
         self.percentage = percentage
-    }
-    public static func from(abi: __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress) -> DeploymentProgress {
-        .init(state: abi.state, percentage: abi.percentage)
     }
 }
 
@@ -633,7 +1149,7 @@ extension UWP.AddPackageByAppInstallerOptions {
         __x_ABI_CWindows_CManagement_CDeployment_CAddPackageByAppInstallerOptions_LimitToExistingPackages
     }
 }
-extension UWP.AddPackageByAppInstallerOptions: @retroactive Hashable, @retroactive Codable {}
+extension UWP.AddPackageByAppInstallerOptions: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeploymentOptions {
     public static var none : UWP.DeploymentOptions {
@@ -660,8 +1176,11 @@ extension UWP.DeploymentOptions {
     public static var retainFilesOnFailure : UWP.DeploymentOptions {
         __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_RetainFilesOnFailure
     }
+    public static var stageInPlace : UWP.DeploymentOptions {
+        __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_StageInPlace
+    }
 }
-extension UWP.DeploymentOptions: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeploymentOptions: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DeploymentProgressState {
     public static var queued : UWP.DeploymentProgressState {
@@ -671,7 +1190,7 @@ extension UWP.DeploymentProgressState {
         __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState_Processing
     }
 }
-extension UWP.DeploymentProgressState: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DeploymentProgressState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.PackageInstallState {
     public static var notInstalled : UWP.PackageInstallState {
@@ -687,7 +1206,20 @@ extension UWP.PackageInstallState {
         __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState_Paused
     }
 }
-extension UWP.PackageInstallState: @retroactive Hashable, @retroactive Codable {}
+extension UWP.PackageInstallState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension UWP.PackageOperationPriority {
+    public static var low : UWP.PackageOperationPriority {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_Low
+    }
+    public static var normal : UWP.PackageOperationPriority {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_Normal
+    }
+    public static var high : UWP.PackageOperationPriority {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_High
+    }
+}
+extension UWP.PackageOperationPriority: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.PackageState {
     public static var normal : UWP.PackageState {
@@ -703,7 +1235,17 @@ extension UWP.PackageState {
         __x_ABI_CWindows_CManagement_CDeployment_CPackageState_Tampered
     }
 }
-extension UWP.PackageState: @retroactive Hashable, @retroactive Codable {}
+extension UWP.PackageState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension UWP.PackageStubPreference {
+    public static var full : UWP.PackageStubPreference {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference_Full
+    }
+    public static var stub : UWP.PackageStubPreference {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference_Stub
+    }
+}
+extension UWP.PackageStubPreference: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.PackageTypes {
     public static var none : UWP.PackageTypes {
@@ -727,8 +1269,11 @@ extension UWP.PackageTypes {
     public static var optional : UWP.PackageTypes {
         __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Optional
     }
+    public static var all : UWP.PackageTypes {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_All
+    }
 }
-extension UWP.PackageTypes: @retroactive Hashable, @retroactive Codable {}
+extension UWP.PackageTypes: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.RemovalOptions {
     public static var none : UWP.RemovalOptions {
@@ -737,9 +1282,31 @@ extension UWP.RemovalOptions {
     public static var preserveApplicationData : UWP.RemovalOptions {
         __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveApplicationData
     }
+    public static var preserveRoamableApplicationData : UWP.RemovalOptions {
+        __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveRoamableApplicationData
+    }
+    public static var deferRemovalWhenPackagesAreInUse : UWP.RemovalOptions {
+        __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_DeferRemovalWhenPackagesAreInUse
+    }
     public static var removeForAllUsers : UWP.RemovalOptions {
         __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_RemoveForAllUsers
     }
 }
-extension UWP.RemovalOptions: @retroactive Hashable, @retroactive Codable {}
+extension UWP.RemovalOptions: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension UWP.StubPackageOption {
+    public static var `default` : UWP.StubPackageOption {
+        __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_Default
+    }
+    public static var installFull : UWP.StubPackageOption {
+        __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_InstallFull
+    }
+    public static var installStub : UWP.StubPackageOption {
+        __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_InstallStub
+    }
+    public static var usePreference : UWP.StubPackageOption {
+        __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_UsePreference
+    }
+}
+extension UWP.StubPackageOption: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

@@ -63,6 +63,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2 __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration;
@@ -80,6 +86,12 @@
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes;
 
 #endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2 __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkPoint_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkPoint_FWD_DEFINED__
@@ -195,6 +207,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4 __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder __x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder;
@@ -272,6 +290,12 @@
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings;
 
 #endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2 __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettingsStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettingsStatics_FWD_DEFINED__
@@ -2134,6 +2158,41 @@ enum __x_ABI_CWindows_CUI_CInput_CInking_CPenTipShape
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration;
 #endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPenHapticFeedbackEnabled)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsPenHapticFeedbackEnabled)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputConfiguration2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfiguration_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkInputProcessingConfigurationVtbl
@@ -2259,6 +2318,41 @@ enum __x_ABI_CWindows_CUI_CInput_CInking_CPenTipShape
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes;
 #endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_UseVelocityBasedPressure)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_UseVelocityBasedPressure)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkModelerAttributes2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkPoint_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkPoint_INTERFACE_DEFINED__
@@ -3028,6 +3122,39 @@ enum __x_ABI_CWindows_CUI_CInput_CInking_CPenTipShape
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PointerId)(__x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4* This,
+        UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkStroke4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilder_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIInkStrokeBuilderVtbl
@@ -3589,6 +3716,39 @@ enum __x_ABI_CWindows_CUI_CInput_CInking_CPenTipShape
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings;
 #endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetPenHandedness)(__x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2* This,
+        enum __x_ABI_CWindows_CUI_CInput_CInking_CPenHandedness value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettings2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettingsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CInput_CInking_CIPenAndInkSettingsStatics_INTERFACE_DEFINED__

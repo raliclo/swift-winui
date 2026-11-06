@@ -202,6 +202,12 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation4_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5 __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5;
+
+#endif // ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation;
@@ -231,6 +237,12 @@
     typedef interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation3 __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation3;
 
 #endif // ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4 __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4;
+
+#endif // ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -3421,6 +3433,42 @@ struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundUploadProgres
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation4;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation4_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetRequestHeader)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+        HSTRING headerName,
+        HSTRING headerValue);
+    HRESULT (STDMETHODCALLTYPE* RemoveRequestHeader)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5* This,
+        HSTRING headerName);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIDownloadOperation5_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformation_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIResponseInformationVtbl
@@ -3596,4 +3644,40 @@ struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundUploadProgres
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation3;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetRequestHeader)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+        HSTRING headerName,
+        HSTRING headerValue);
+    HRESULT (STDMETHODCALLTYPE* RemoveRequestHeader)(__x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4* This,
+        HSTRING headerName);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CBackgroundTransfer_CIUploadOperation4_INTERFACE_DEFINED__) */
     

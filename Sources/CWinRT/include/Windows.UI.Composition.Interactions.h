@@ -67,6 +67,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker4_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5 __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs;
@@ -737,6 +743,12 @@ typedef struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 __x_ABI_CWindows_
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionObject4_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionObject5 __x_ABI_CWindows_CUI_CComposition_CICompositionObject5;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisualElement __x_ABI_CWindows_CUI_CComposition_CIVisualElement;
@@ -777,6 +789,8 @@ typedef enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionSourceR
 
 typedef enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClampingOption __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClampingOption;
 
+typedef enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption;
+
 typedef enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CVisualInteractionSourceRedirectionMode __x_ABI_CWindows_CUI_CComposition_CInteractions_CVisualInteractionSourceRedirectionMode;
 
 enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionBindingAxisModes
@@ -811,6 +825,12 @@ enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClamping
     {
         __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClampingOption_Auto = 0,
     __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClampingOption_Disabled = 1,
+};
+
+enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption
+    {
+        __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption_Default = 0,
+    __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption_AllowActiveCustomScaleAnimation = 1,
 };
 
 enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CVisualInteractionSourceRedirectionMode
@@ -1223,6 +1243,42 @@ enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CVisualInteractionSourceRed
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker4;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryUpdatePositionWithOption)(__x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 value,
+        enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerClampingOption option,
+        enum __x_ABI_CWindows_CUI_CComposition_CInteractions_CInteractionTrackerPositionUpdateOption posUpdateOption,
+        INT32* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTracker5_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CInteractions_CIInteractionTrackerCustomAnimationStateEnteredArgs_INTERFACE_DEFINED__

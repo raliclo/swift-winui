@@ -21,6 +21,12 @@
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration;
+
+#endif // ____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager;
@@ -32,6 +38,12 @@
     typedef interface __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect;
 
 #endif // ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2 __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2;
+
+#endif // ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffectDefinition_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffectDefinition_FWD_DEFINED__
@@ -92,12 +104,6 @@
     typedef interface __x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext __x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext;
 
 #endif // ____x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
-#define ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition;
-
-#endif // ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_FWD_DEFINED__
@@ -835,11 +841,19 @@ typedef enum __x_ABI_CWindows_CMedia_CTranscoding_CMediaVideoProcessingAlgorithm
 
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
+typedef enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState;
+
 typedef enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType;
 
 typedef enum __x_ABI_CWindows_CMedia_CEffects_CMediaEffectClosedReason __x_ABI_CWindows_CMedia_CEffects_CMediaEffectClosedReason;
 
 typedef enum __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes;
+
+enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState
+    {
+        __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState_Off = 0,
+    __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState_On = 1,
+};
 
 enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType
     {
@@ -861,6 +875,8 @@ enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_SpeakerProtection = 15,
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_SpeakerCompensation = 16,
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_DynamicRangeCompression = 17,
+    __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_FarFieldBeamForming = 18,
+    __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_DeepNoiseSuppression = 19,
 };
 
 enum __x_ABI_CWindows_CMedia_CEffects_CMediaEffectClosedReason
@@ -878,6 +894,39 @@ enum __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes
     __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes_GpuAndCpu = 2,
 };
 
+#if !defined(____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfigurationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetEchoCancellationRenderEndpoint)(__x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration* This,
+        HSTRING deviceId);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfigurationVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfigurationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManagerVtbl
@@ -948,6 +997,45 @@ enum __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CIAudioEffect;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AcousticEchoCancellationConfiguration)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+        __x_ABI_CWindows_CMedia_CEffects_CIAcousticEchoCancellationConfiguration** value);
+    HRESULT (STDMETHODCALLTYPE* get_CanSetState)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_State)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+        enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState* value);
+    HRESULT (STDMETHODCALLTYPE* SetState)(__x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2* This,
+        enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectState newState);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CIAudioEffect2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CEffects_CIAudioEffectDefinition_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CEffects_CIAudioEffectDefinition_INTERFACE_DEFINED__
@@ -1343,41 +1431,6 @@ enum __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_TimeStretchRate)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-        DOUBLE* value);
-    HRESULT (STDMETHODCALLTYPE* put_TimeStretchRate)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-        DOUBLE value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl;
-
-    interface __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition;
-#endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_INTERFACE_DEFINED__

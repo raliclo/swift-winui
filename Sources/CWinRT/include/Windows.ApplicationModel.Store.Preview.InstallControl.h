@@ -138,6 +138,12 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2 __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
@@ -1735,4 +1741,43 @@ enum __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CGetEnti
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsAlreadyOwned)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_OrderId)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_SkuId)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_AvailabilityId)(__x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CStore_CPreview_CInstallControl_CIGetEntitlementResult2_INTERFACE_DEFINED__) */
     

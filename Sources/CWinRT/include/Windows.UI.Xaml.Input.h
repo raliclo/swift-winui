@@ -1603,6 +1603,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_Chat = 58,
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_NameOrPhoneNumber = 59,
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_EmailNameOrAddress = 60,
+    __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_Private = 61,
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_Maps = 62,
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_NumericPassword = 63,
     __x_ABI_CWindows_CUI_CXaml_CInput_CInputScopeNameValue_NumericPin = 64,

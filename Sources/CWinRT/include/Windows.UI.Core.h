@@ -8,6 +8,7 @@
 #include "Windows.Foundation.h"
 #include "Windows.System.h"
 #include "Windows.UI.h"
+#include "Windows.UI.Composition.h"
 #include "Windows.UI.Input.h"
 #include "Windows.UI.Popups.h"
 // Importing Collections header
@@ -109,6 +110,18 @@ typedef interface __x_ABI_CWindows_CUI_CCore_CIIdleDispatchedHandler __x_ABI_CWi
     typedef interface __x_ABI_CWindows_CUI_CCore_CICoreDispatcherWithTaskPriority __x_ABI_CWindows_CUI_CCore_CICoreDispatcherWithTaskPriority;
 
 #endif // ____x_ABI_CWindows_CUI_CCore_CICoreDispatcherWithTaskPriority_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController;
+
+#endif // ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CCore_CICoreInputSourceBase_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CCore_CICoreInputSourceBase_FWD_DEFINED__
@@ -1652,6 +1665,12 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIClosable __x_ABI_CWindows_CFoundation_CIClosable;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
+
 typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
 
 typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_CRect;
@@ -1667,6 +1686,18 @@ typedef struct __x_ABI_CWindows_CFoundation_CSize __x_ABI_CWindows_CFoundation_C
 typedef enum __x_ABI_CWindows_CSystem_CVirtualKey __x_ABI_CWindows_CSystem_CVirtualKey;
 
 typedef enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers __x_ABI_CWindows_CSystem_CVirtualKeyModifiers;
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisualElement __x_ABI_CWindows_CUI_CComposition_CIVisualElement;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisual_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIVisual_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisual __x_ABI_CWindows_CUI_CComposition_CIVisual;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIVisual_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CPopups_CIUICommandInvokedHandler_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CPopups_CIUICommandInvokedHandler_FWD_DEFINED__
@@ -1687,6 +1718,10 @@ typedef enum __x_ABI_CWindows_CUI_CCore_CCoreAcceleratorKeyEventType __x_ABI_CWi
 typedef enum __x_ABI_CWindows_CUI_CCore_CCoreCursorType __x_ABI_CWindows_CUI_CCore_CCoreCursorType;
 
 typedef enum __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority;
+
+typedef enum __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters;
+
+typedef enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes;
 
 typedef enum __x_ABI_CWindows_CUI_CCore_CCoreProcessEventsOption __x_ABI_CWindows_CUI_CCore_CCoreProcessEventsOption;
 
@@ -1748,6 +1783,16 @@ enum __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority
     __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority_Low = -1,
     __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority_Normal = 0,
     __x_ABI_CWindows_CUI_CCore_CCoreDispatcherPriority_High = 1,
+};
+
+enum __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters
+    {
+        __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_None = 0,
+    __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_MouseButton = 0x1,
+    __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_MouseWheel = 0x2,
+    __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_MouseHover = 0x4,
+    __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_PenWithBarrel = 0x8,
+    __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters_PenInverted = 0x10,
 };
 
 enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes
@@ -2386,6 +2431,90 @@ struct __x_ABI_CWindows_CUI_CCore_CCoreProximityEvaluation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CCore_CICoreDispatcherWithTaskPriority;
 #endif /* !defined(____x_ABI_CWindows_CUI_CCore_CICoreDispatcherWithTaskPriority_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsTransparentForUncontrolledInput)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsTransparentForUncontrolledInput)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IsPalmRejectionEnabled)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsPalmRejectionEnabled)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_Source)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        __x_ABI_CWindows_CUI_CCore_CICoreInputSourceBase** value);
+    HRESULT (STDMETHODCALLTYPE* SetControlledInput)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes inputTypes);
+    HRESULT (STDMETHODCALLTYPE* SetControlledInputWithFilters)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController* This,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes inputTypes,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters required,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreIndependentInputFilters excluded);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerVtbl;
+
+    interface __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController;
+#endif /* !defined(____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateForVisual)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CIVisual* visual,
+        __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController** result);
+    HRESULT (STDMETHODCALLTYPE* CreateForIVisualElement)(__x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CIVisualElement* visualElement,
+        __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceController** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CCore_CICoreIndependentInputSourceControllerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CCore_CICoreInputSourceBase_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CCore_CICoreInputSourceBase_INTERFACE_DEFINED__

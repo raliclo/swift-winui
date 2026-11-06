@@ -24,6 +24,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CLights_CILampArray_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CLights_CILampArray2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CLights_CILampArray2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CLights_CILampArray2 __x_ABI_CWindows_CDevices_CLights_CILampArray2;
+
+#endif // ____x_ABI_CWindows_CDevices_CLights_CILampArray2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CLights_CILampArrayStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CLights_CILampArrayStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CLights_CILampArrayStatics __x_ABI_CWindows_CDevices_CLights_CILampArrayStatics;
@@ -358,6 +364,38 @@ typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLamp___x_ABI_CWindows__CDevices__CLights__CLampAvailabilityChangedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable* This,
+        __x_ABI_CWindows_CDevices_CLights_CILampArray* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
@@ -407,6 +445,9 @@ enum __x_ABI_CWindows_CDevices_CLights_CLampArrayKind
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Wearable = 8,
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Furniture = 9,
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Art = 10,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Headset = 11,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Microphone = 12,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Speaker = 13,
 };
 
 enum __x_ABI_CWindows_CDevices_CLights_CLampPurposes
@@ -573,6 +614,44 @@ enum __x_ABI_CWindows_CDevices_CLights_CLampPurposes
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CLights_CILampArray;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CLights_CILampArray_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CLights_CILampArray2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CLights_CILampArray2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CLights_CILampArray2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsAvailable)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* add_AvailabilityChanged)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CLights__CLampArray_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_AvailabilityChanged)(__x_ABI_CWindows_CDevices_CLights_CILampArray2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CLights_CILampArray2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CLights_CILampArray2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CLights_CILampArray2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CLights_CILampArray2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CLights_CILampArray2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CLights_CILampArrayStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CLights_CILampArrayStatics_INTERFACE_DEFINED__

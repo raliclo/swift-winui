@@ -16,11 +16,12 @@ private var IID___x_ABI_CWindows_CDevices_CInput_CIPointerDeviceStatics: Windows
     .init(Data1: 0xD8B89AA1, Data2: 0xD1C6, Data3: 0x416E, Data4: ( 0xBD,0x8D,0x57,0x90,0x91,0x4D,0xC5,0x63 ))// D8B89AA1-D1C6-416E-BD8D-5790914DC563
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Devices_Input {
     public class IPointerDevice: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CDevices_CInput_CIPointerDevice }
 
-        internal func get_PointerDeviceTypeImpl() throws -> UWP.PointerDeviceType {
+        public func get_PointerDeviceType() throws -> UWP.PointerDeviceType {
             var value: __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PointerDeviceType(pThis, &value))
@@ -28,7 +29,7 @@ public enum __ABI_Windows_Devices_Input {
             return value
         }
 
-        internal func get_IsIntegratedImpl() throws -> Bool {
+        public func get_IsIntegrated() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsIntegrated(pThis, &value))
@@ -36,7 +37,7 @@ public enum __ABI_Windows_Devices_Input {
             return .init(from: value)
         }
 
-        internal func get_MaxContactsImpl() throws -> UInt32 {
+        public func get_MaxContacts() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxContacts(pThis, &value))
@@ -44,7 +45,7 @@ public enum __ABI_Windows_Devices_Input {
             return value
         }
 
-        internal func get_PhysicalDeviceRectImpl() throws -> WindowsFoundation.Rect {
+        public func get_PhysicalDeviceRect() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_PhysicalDeviceRect(pThis, &value))
@@ -52,7 +53,7 @@ public enum __ABI_Windows_Devices_Input {
             return .from(abi: value)
         }
 
-        internal func get_ScreenRectImpl() throws -> WindowsFoundation.Rect {
+        public func get_ScreenRect() throws -> WindowsFoundation.Rect {
             var value: __x_ABI_CWindows_CFoundation_CRect = .init()
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScreenRect(pThis, &value))
@@ -60,7 +61,7 @@ public enum __ABI_Windows_Devices_Input {
             return .from(abi: value)
         }
 
-        internal func get_SupportedUsagesImpl() throws -> WindowsFoundation.AnyIVectorView<UWP.PointerDeviceUsage>? {
+        public func get_SupportedUsages() throws -> WindowsFoundation.AnyIVectorView<UWP.PointerDeviceUsage>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_SupportedUsages(pThis, &valueAbi))
@@ -74,7 +75,7 @@ public enum __ABI_Windows_Devices_Input {
     public class IPointerDevice2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CDevices_CInput_CIPointerDevice2 }
 
-        internal func get_MaxPointersWithZDistanceImpl() throws -> UInt32 {
+        public func get_MaxPointersWithZDistance() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDevice2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxPointersWithZDistance(pThis, &value))
@@ -87,16 +88,16 @@ public enum __ABI_Windows_Devices_Input {
     public class IPointerDeviceStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CDevices_CInput_CIPointerDeviceStatics }
 
-        internal func GetPointerDeviceImpl(_ pointerId: UInt32) throws -> UWP.PointerDevice? {
+        public func GetPointerDevice(_ pointerId: UInt32) throws -> UWP.PointerDevice? {
             let (pointerDevice) = try ComPtrs.initialize { pointerDeviceAbi in
                 _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDeviceStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetPointerDevice(pThis, pointerId, &pointerDeviceAbi))
                 }
             }
-            return .from(abi: pointerDevice)
+            return __IMPL_Windows_Devices_Input.PointerDeviceBridge.from(abi: pointerDevice)
         }
 
-        internal func GetPointerDevicesImpl() throws -> WindowsFoundation.AnyIVectorView<UWP.PointerDevice?>? {
+        public func GetPointerDevices() throws -> WindowsFoundation.AnyIVectorView<UWP.PointerDevice?>? {
             let (pointerDevices) = try ComPtrs.initialize { pointerDevicesAbi in
                 _ = try perform(as: __x_ABI_CWindows_CDevices_CInput_CIPointerDeviceStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetPointerDevices(pThis, &pointerDevicesAbi))

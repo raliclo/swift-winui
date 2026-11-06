@@ -49,6 +49,18 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4 __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4;
+
+#endif // ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs;
+
+#endif // ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs;
@@ -66,6 +78,12 @@
     typedef interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification2 __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification2;
 
 #endif // ____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3 __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3;
+
+#endif // ____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -319,6 +337,38 @@ typedef interface __x_ABI_C__FIMapView_2_HSTRING_HSTRING __x_ABI_C__FIMapView_2_
 
     
     #endif // ____x_ABI_C__FIMapView_2_HSTRING_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs;
+
+    typedef struct __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs* This,
+        IInspectable* sender,
+        __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgsVtbl;
+
+    interface __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannel___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannel___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationReceivedEventArgs_INTERFACE_DEFINED__
@@ -631,6 +681,73 @@ enum __x_ABI_CWindows_CNetworking_CPushNotifications_CPushNotificationType
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics3;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ChannelsRevoked)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+        __x_ABI_C__FIEventHandler_1___x_ABI_CWindows__CNetworking__CPushNotifications__CPushNotificationChannelsRevokedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ChannelsRevoked)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelManagerStatics4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationChannelsRevokedEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIPushNotificationReceivedEventArgsVtbl
@@ -743,4 +860,37 @@ enum __x_ABI_CWindows_CNetworking_CPushNotifications_CPushNotificationType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification2;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ContentBytes)(__x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CPushNotifications_CIRawNotification3_INTERFACE_DEFINED__) */
     

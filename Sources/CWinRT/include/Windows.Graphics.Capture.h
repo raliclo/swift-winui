@@ -9,8 +9,12 @@
 #include "Windows.Graphics.h"
 #include "Windows.Graphics.DirectX.h"
 #include "Windows.Graphics.DirectX.Direct3D11.h"
+#include "Windows.Security.Authorization.AppCapabilityAccess.h"
 #include "Windows.System.h"
+#include "Windows.UI.h"
 #include "Windows.UI.Composition.h"
+// Importing Collections header
+#include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
 #ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame_FWD_DEFINED__
@@ -18,6 +22,18 @@
     typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame;
 
 #endif // ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2 __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3 __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePool_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePool_FWD_DEFINED__
@@ -37,6 +53,18 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePoolStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem;
@@ -49,6 +77,12 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker;
@@ -60,6 +94,42 @@
     typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession;
 
 #endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7 __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7;
+
+#endif // ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSessionStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSessionStatics_FWD_DEFINED__
@@ -146,6 +216,356 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CGraphics__CCapture__CGraphicsCaptureItem_INTERFACE_DEFINED__
+    
+typedef enum __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CAppCapabilityAccessStatus __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CAppCapabilityAccessStatus;
+
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+        enum __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CAppCapabilityAccessStatus* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CGraphics_CRectInt32 __x_ABI_CWindows_CGraphics_CRectInt32;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32 __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32 __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CUI_CWindowId __x_ABI_CWindows_CUI_CWindowId;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        struct __x_ABI_CWindows_CUI_CWindowId* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CUI_CWindowId* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32 __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        UINT32 index,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32 value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 index,
+        struct __x_ABI_CWindows_CUI_CWindowId* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        struct __x_ABI_CWindows_CUI_CWindowId value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CUI_CWindowId* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CCapture__CDirect3D11CaptureFramePool_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CGraphics__CCapture__CDirect3D11CaptureFramePool_IInspectable_INTERFACE_DEFINED__
@@ -241,6 +661,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
 
 typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat;
 
+typedef struct __x_ABI_CWindows_CGraphics_CDisplayId __x_ABI_CWindows_CGraphics_CDisplayId;
+
 typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_CSizeInt32;
 
 #ifndef ____x_ABI_CWindows_CSystem_CIDispatcherQueue_FWD_DEFINED__
@@ -254,6 +676,22 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisual __x_ABI_CWindows_CUI_CComposition_CIVisual;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIVisual_FWD_DEFINED__
+
+typedef enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind;
+
+typedef enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode;
+
+enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind
+    {
+        __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind_Borderless = 0,
+    __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind_Programmatic = 1,
+};
+
+enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode
+    {
+        __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode_ReportOnly = 0,
+    __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode_ReportAndRender = 1,
+};
 
 #if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame_INTERFACE_DEFINED__
@@ -291,6 +729,74 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DirtyRegions)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CRectInt32** value);
+    HRESULT (STDMETHODCALLTYPE* get_DirtyRegionMode)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2* This,
+        enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ConfigurationIteration)(__x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3* This,
+        UINT64* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFrame3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePool_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePool_INTERFACE_DEFINED__
@@ -414,6 +920,76 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePoolStatics2;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDirect3D11CaptureFramePoolStatics2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSessionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetWindowExclusionList)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+        __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* excludedWindows,
+        UINT64* result);
+    HRESULT (STDMETHODCALLTYPE* GetWindowExclusionList)(__x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSessionVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSessionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIDisplayGraphicsCaptureSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestAccessAsync)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics* This,
+        enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureAccessKind request,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSecurity__CAuthorization__CAppCapabilityAccess__CAppCapabilityAccessStatus** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStaticsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureAccessStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemVtbl
@@ -488,6 +1064,43 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryCreateFromWindowId)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+        struct __x_ABI_CWindows_CUI_CWindowId windowId,
+        __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem** result);
+    HRESULT (STDMETHODCALLTYPE* TryCreateFromDisplayId)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2* This,
+        struct __x_ABI_CWindows_CGraphics_CDisplayId displayId,
+        __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItem** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureItemStatics2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePicker_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCapturePickerVtbl
@@ -552,6 +1165,214 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsCursorCaptureEnabled)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsCursorCaptureEnabled)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsBorderRequired)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsBorderRequired)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DirtyRegionMode)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+        enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_DirtyRegionMode)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4* This,
+        enum __x_ABI_CWindows_CGraphics_CCapture_CGraphicsCaptureDirtyRegionMode value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_MinUpdateInterval)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* put_MinUpdateInterval)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IncludeSecondaryWindows)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeSecondaryWindows)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession6_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ConfigurationIteration)(__x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7* This,
+        UINT64* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSession7_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSessionStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CCapture_CIGraphicsCaptureSessionStatics_INTERFACE_DEFINED__

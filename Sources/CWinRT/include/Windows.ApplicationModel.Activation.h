@@ -283,6 +283,12 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CActivation_CILockScreenCallActivatedEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs __x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs;
@@ -1137,6 +1143,11 @@ enum __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_StartupTask = 1020,
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_CommandLineLaunch = 1021,
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_BarcodeScannerProvider = 1022,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PrintSupportJobUI = 1023,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PrintSupportSettingsUI = 1024,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PhoneCallActivation = 1025,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_VpnForeground = 1026,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PrintSupportEnterpriseManagementUI = 1027,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CActivation_CApplicationExecutionState
@@ -2581,6 +2592,39 @@ enum __x_ABI_CWindows_CApplicationModel_CActivation_CApplicationExecutionState
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CActivation_CILockScreenCallActivatedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CActivation_CILockScreenCallActivatedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LineId)(__x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs* This,
+        GUID* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CActivation_CIPhoneCallActivatedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CActivation_CIPickerReturnedActivatedEventArgs_INTERFACE_DEFINED__

@@ -64,6 +64,11 @@ struct __x_ABI_CWindows_CUI_CColor
     BYTE B;
 };
 
+struct __x_ABI_CWindows_CUI_CWindowId
+    {
+        UINT64 Value;
+};
+
 #if !defined(____x_ABI_CWindows_CUI_CIColorHelper_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CIColorHelper_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CIColorHelperVtbl

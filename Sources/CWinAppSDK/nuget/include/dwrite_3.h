@@ -61,7 +61,7 @@ interface IDWriteFontDownloadQueue;
 /// <summary>
 /// The font property enumeration identifies a string in a font.
 /// </summary>
-enum DWRITE_FONT_PROPERTY_ID
+enum DWRITE_FONT_PROPERTY_ID: INT32
 {
     /// <summary>
     /// Unspecified font property identifier.
@@ -206,6 +206,12 @@ enum DWRITE_FONT_PROPERTY_ID
     DWRITE_FONT_PROPERTY_ID_FONT_SOURCE_NAME,
 
     /// <summary>
+    /// GDI-compatible face name.
+    /// </summary>
+    DWRITE_FONT_PROPERTY_ID_WIN32_FACE_NAME,
+
+
+    /// <summary>
     /// Total number of properties for NTDDI_WIN10 (IDWriteFontSet).
     /// </summary>
     /// <remarks>
@@ -222,6 +228,11 @@ enum DWRITE_FONT_PROPERTY_ID
     /// Total number of properties for NTDDI_WIN10_RS5 (IDWriteFontSet3).
     /// </summary>
     DWRITE_FONT_PROPERTY_ID_TOTAL_RS5 = DWRITE_FONT_PROPERTY_ID_FONT_SOURCE_NAME + 1,
+
+    /// <summary>
+    /// Total number of properties for font sets that implement IDWriteFontSet5.
+    /// </summary>
+    DWRITE_FONT_PROPERTY_ID_TOTAL_5 = DWRITE_FONT_PROPERTY_ID_WIN32_FACE_NAME + 1,
 
     // Obsolete aliases kept to avoid breaking existing code.
     DWRITE_FONT_PROPERTY_ID_PREFERRED_FAMILY_NAME = DWRITE_FONT_PROPERTY_ID_TYPOGRAPHIC_FAMILY_NAME,
@@ -264,7 +275,7 @@ struct DWRITE_FONT_PROPERTY
 /// <summary>
 /// Specifies the locality of a resource.
 /// </summary>
-enum DWRITE_LOCALITY
+enum DWRITE_LOCALITY: INT32
 {
     /// <summary>
     /// The resource is remote, and information is unknown yet, including the file size and date.
@@ -290,7 +301,7 @@ enum DWRITE_LOCALITY
 /// <summary>
 /// Represents a method of rendering glyphs.
 /// </summary>
-enum DWRITE_RENDERING_MODE1
+enum DWRITE_RENDERING_MODE1: INT32
 {
     /// <summary>
     /// Specifies that the rendering mode is determined automatically based on the font and size.
@@ -1651,7 +1662,7 @@ struct DWRITE_LINE_METRICS1 : DWRITE_LINE_METRICS
 /// <summary>
 /// Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics. 
 /// </summary>
-enum DWRITE_FONT_LINE_GAP_USAGE
+enum DWRITE_FONT_LINE_GAP_USAGE: INT32
 {
     /// <summary>
     /// The usage of the font line gap depends on the method used for text layout.
@@ -1913,6 +1924,11 @@ DWRITE_BEGIN_INTERFACE(IDWriteFontFace4, "27F2A904-4EB8-441D-9678-0563F53E3E2F")
     /// <summary>
     /// Gets all the glyph image formats supported by the entire font (SVG, PNG, JPEG, ...).
     /// </summary>
+    /// <remarks>
+    /// If the font has an SBIX table, this method reports all of the supported SBIX formats
+    /// (PNG, JPEG, and TIFF) as potentially present. This is for performance reasons, to avoid
+    /// having to scan the entire SBIX table to determine what formats are actually used.
+    /// </remarks>
     STDMETHOD_(DWRITE_GLYPH_IMAGE_FORMATS, GetGlyphImageFormats)() PURE;
 
     /// <summary>
@@ -2192,7 +2208,7 @@ DWRITE_BEGIN_INTERFACE(IDWriteRemoteFontFileStream, "4DB3757A-2C72-4ED9-B2B6-1AB
 /// a font file format (DWRITE_FONT_FILE_TYPE) because the container describes the container
 /// in which the underlying font file is packaged.
 /// </summary>
-enum DWRITE_CONTAINER_TYPE
+enum DWRITE_CONTAINER_TYPE: INT32
 {
     DWRITE_CONTAINER_TYPE_UNKNOWN,
     DWRITE_CONTAINER_TYPE_WOFF,
@@ -2435,7 +2451,7 @@ interface IDWriteFontSetBuilder2;
 /// <remarks>
 /// Use DWRITE_MAKE_FONT_AXIS_TAG() to create a custom one.
 /// <remarks>
-enum DWRITE_FONT_AXIS_TAG : UINT32
+enum DWRITE_FONT_AXIS_TAG: UINT32
 {
     DWRITE_FONT_AXIS_TAG_WEIGHT         = DWRITE_MAKE_FONT_AXIS_TAG('w','g','h','t'),
     DWRITE_FONT_AXIS_TAG_WIDTH          = DWRITE_MAKE_FONT_AXIS_TAG('w','d','t','h'),
@@ -2490,7 +2506,7 @@ struct DWRITE_FONT_AXIS_RANGE
 /// <summary>
 /// How font families are grouped together, used by IDWriteFontCollection.
 /// </summary>
-enum DWRITE_FONT_FAMILY_MODEL
+enum DWRITE_FONT_FAMILY_MODEL: INT32
 {
     /// <summary>
     /// Families are grouped by the typographic family name preferred by the font author. The family can contain as
@@ -2512,7 +2528,7 @@ enum DWRITE_FONT_FAMILY_MODEL
 /// <summary>
 /// Apply certain axes automatically in layout during font selection.
 /// </summary>
-enum DWRITE_AUTOMATIC_FONT_AXES
+enum DWRITE_AUTOMATIC_FONT_AXES: INT32
 {
     /// <summary>
     /// No axes are automatically applied.
@@ -2535,7 +2551,7 @@ DEFINE_ENUM_FLAG_OPERATORS(DWRITE_AUTOMATIC_FONT_AXES)
 /// <summary>
 /// Attributes for a font axis.
 /// </summary>
-enum DWRITE_FONT_AXIS_ATTRIBUTES
+enum DWRITE_FONT_AXIS_ATTRIBUTES: INT32
 {
     /// <summary>
     /// No attributes.
@@ -3583,7 +3599,7 @@ DWRITE_BEGIN_INTERFACE(IDWriteFactory7, "35D0E0B3-9076-4D2E-A016-A91B568A06B4") 
 /// <summary>
 /// The font source type identifies the mechanism by which a font came to be included in a font set.
 /// </summary>
-enum DWRITE_FONT_SOURCE_TYPE
+enum DWRITE_FONT_SOURCE_TYPE: INT32
 {
     /// <summary>
     /// The font source is unknown or is not any of the other defined font source types.
@@ -3745,10 +3761,6 @@ DWRITE_BEGIN_INTERFACE(IDWriteFontSet4, "EEC175FC-BEA9-4C86-8B53-CCBDD7DF0C82") 
         ) PURE;
 };
 
-#endif // DWRITE_CORE || NTDDI_VERSION >= NTDDI_WIN10_NI
-
-#if DWRITE_CORE
-
 /// <summary>
 /// Contains information about a bitmap associated with an IDWriteBitmapRenderTarget.
 /// The bitmap is top-down with 32-bits per pixel and no padding between scan lines.
@@ -3791,7 +3803,7 @@ DWRITE_BEGIN_INTERFACE(IDWriteBitmapRenderTarget2, "C553A742-FC01-44DA-A66E-B8B9
 /// See the DWRITE_PAINT_TYPE enumeration for which paint types are required for each
 /// feature level.
 /// </remarks>
-enum DWRITE_PAINT_FEATURE_LEVEL
+enum DWRITE_PAINT_FEATURE_LEVEL: INT32
 {
     /// <summary>
     /// No paint API support.
@@ -3813,7 +3825,7 @@ enum DWRITE_PAINT_FEATURE_LEVEL
 /// Combination of flags specifying attributes of a color glyph or of specific color values in
 /// a color glyph.
 /// </summary>
-enum DWRITE_PAINT_ATTRIBUTES
+enum DWRITE_PAINT_ATTRIBUTES: INT32
 {
     DWRITE_PAINT_ATTRIBUTES_NONE = 0,
 
@@ -3877,7 +3889,7 @@ struct DWRITE_PAINT_COLOR
 /// Specifies a composite mode for combining source and destination paint elements in a
 /// color glyph. These are taken from the W3C Compositing and Blending Level 1 specification.
 /// </summary>
-enum DWRITE_COLOR_COMPOSITE_MODE
+enum DWRITE_COLOR_COMPOSITE_MODE: INT32
 {
     // Porter-Duff modes.
     DWRITE_COLOR_COMPOSITE_CLEAR,
@@ -3922,7 +3934,7 @@ enum DWRITE_COLOR_COMPOSITE_MODE
 /// <remarks>
 /// For more information about each paint type, see DWRITE_PAINT_ELEMENT. 
 /// </remarks>
-enum DWRITE_PAINT_TYPE
+enum DWRITE_PAINT_TYPE: INT32
 {
     // The following paint types may be returned for color feature levels greater than
     // or equal to DWRITE_PAINT_FEATURE_LEVEL_COLR_V0.
@@ -4571,107 +4583,105 @@ DWRITE_BEGIN_INTERFACE(IDWriteBitmapRenderTarget3, "AEEC37DB-C337-40F1-8E2A-9A41
         ) PURE;
 };
 
-#endif // DWRITE_CORE
-
-#if DWRITE_CORE
-
 /// <summary>
-/// Specifies the data type of a parameter passed to
-/// IDWriteEventSink::LogEvent.
-/// </summary>
-enum DWRITE_EVENT_PARAM_TYPE : UINT32
-{
-    /// <summary>
-    /// An event tag, which is a UINT64 value encoding up to eight ASCII characters
-    /// in little-endian order.
-    /// </summary>
-    DWRITE_EVENT_PARAM_TYPE_TAG,
-
-    /// <summary>
-    /// 32-bit unsigned value.
-    /// </summary>
-    DWRITE_EVENT_PARAM_TYPE_UINT32,
-
-    /// <summary>
-    /// Time in system clock ticks as reported by std::chrono::system_clock.
-    /// </summary>
-    DWRITE_EVENT_PARAM_TYPE_DATETIME,
-
-    /// <summary>
-    /// Null-terminated string of WCHAR.
-    /// </summary>
-    DWRITE_EVENT_PARAM_TYPE_STRINGW,
-
-    /// <summary>
-    /// Null-terminated UTF-8 string.
-    /// </summary>
-    DWRITE_EVENT_PARAM_TYPE_STRINGA
-};
-
-/// <summary>
-/// Represents a parameter passed to IDWriteEventSink::LogEvent.
-/// </summary>
-struct DWRITE_EVENT_PARAM
-{
-    DWRITE_EVENT_PARAM_TYPE paramType;
-
-    union DWRITE_EVENT_PARAM_VALUE
-    {
-        UINT64 tag;                         // DWRITE_EVENT_PARAM_TYPE_TAG
-        UINT32 uint32;                      // DWRITE_EVENT_PARAM_TYPE_UINT32
-        UINT64 dateTime;                    // DWRITE_EVENT_PARAM_TYPE_DATETIME
-        _Field_z_ WCHAR const* stringW;     // DWRITE_EVENT_PARAM_TYPE_STRINGW
-        _Field_z_ char const* stringA;      // DWRITE_EVENT_PARAM_TYPE_STRINGA
-    } paramValue;
-};
-
-/// <summary>
-/// Callback interface that receives internal events from DWriteCore.
+/// Encapsulates a reference-counted array of bytes.
 /// </summary>
 /// <remarks>
-/// Events sent to this interface should be used for diagnostic purposes only,
-/// they may change from version to version.
-/// 
-/// Each type of event is idenfied by a "tag" comprising up to 8 ASCII characters
-/// encoded as a UINT64. The first character of the tag is in the low-order byte.
-/// Following are some well-known event tags and the expected parameters for each.
-/// 
-///     "state" (TAG newState) ...
-///         Indicates an object is transitioning to the state specified by newState.
-///         Common states are "ctor" for a new object and "dtor" for a destroyed
-///         object.
-/// 
-///     "error" (UINT32 errorCode) (TAG taskID) (UINT32 lineNumber) ...
-///     
-///     "warning" (STRINGA message) (UINT32 lineNumber)?
-/// 
-///     "badfont" (STRINGA message)
-/// 
-///     "assert" (STRINGA fileName) (UINT32 lineNumber) (STRINGA expression)
-/// 
+/// This interface is returned by IDWriteFontSet5::GetCachedData. It may also be implemented by a client
+/// for cached data that has been loaded from a file or marshalled to another process.
 /// </remarks>
-DWRITE_BEGIN_INTERFACE(IDWriteEventSink, "b2839dc9-5419-4223-a069-c792d2dc6ba0") : IUnknown
+DWRITE_BEGIN_INTERFACE(IDWriteCachedData, "6189d808-1241-4cbb-9ab2-05e3e0a99c61") : IUnknown
 {
     /// <summary>
-    /// Notifies the event sink of an internal DWriteCore event.
+    /// Gets a pointer to the raw data owned by the object.
     /// </summary>
-    /// <param name="objectId">Unique integer ID of the object that logged the
-    /// event, or zero if the event did not come from a specific object.</param>
-    /// <param name="classTag">Event tag identifying the type of object that
-    /// logged the event, or zero if the event did not come from a specific
-    /// object.</param>
-    /// <param name="eventTag">Event tag identifying the type of event.</param>
-    /// <param name="eventParams">Array of additional event parameters.</param>
-    /// <param name="eventParamCount">Number of additional event parameters.</param>
-    STDMETHOD_(void, LogEvent)(
-        UINT32 objectId,
-        UINT64 classTag,
-        UINT64 eventTag,
-        _In_reads_(eventParamCount) DWRITE_EVENT_PARAM const* eventParams,
-        UINT32 eventParamCount
-        ) PURE;
+    /// <param name="cachedData">Receives a pointer to the array.</param>
+    /// <param name="cachedDataSize">Receives the size in bytes of the array.</param>
+    /// <remarks>
+    /// The returned pointer remains valid for the lifetime of the IDWriteCachedData object.
+    /// </remarks>
+    STDMETHOD(GetData)(
+        _Outptr_result_bytebuffer_(*cachedDataSize) void const** cachedData,
+        _Out_ UINT32* cachedDataSize
+    ) PURE;
 };
 
-#endif // DWRITE_CORE
+DWRITE_BEGIN_INTERFACE(IDWriteFontSet5, "a98f357c-5e4d-48f7-8287-085a74bb836c") : IDWriteFontSet4
+{
+    /// <summary>
+    /// Gets a binary representation of the font set that can cached by the client.
+    /// </summary>
+    /// <param name="cachedData">Receives a pointer to an object that encapsulates the font set data.</param>
+    /// <remarks>
+    /// The returned font set data can be cached by the client and subsequently passed to
+    /// IDWriteFactory9::CreateFontSetFromCachedData or IDWriteFactory9::CreateFontSetBuilderWithCache.
+    /// </remarks>
+    STDMETHOD(GetCachedData)(_COM_Outptr_ IDWriteCachedData** cachedData) PURE;
+};
+
+/// <summary>
+/// Represents an object that can be used to create a new font set taking advantage of cached
+/// data from an old font set.
+/// </summary>
+DWRITE_BEGIN_INTERFACE(IDWriteFontSetBuilderWithCache, "d2719864-547b-449d-a3e9-e47c4e1e792f") : IUnknown
+{
+    /// <summary>
+    /// Adds a font file to the new font set. If the font file was present in the old font set
+    /// then its properties are copied from there; otherwise its properties are recomputed by
+    /// parsing the font.
+    /// </summary>
+    STDMETHOD(AddFontFile)(IDWriteFontFile* fontFileReference) PURE;
+
+    /// <summary>
+    /// Creates a new font set containig all of the fonts added using the AddFontFile method.
+    /// </summary>
+    STDMETHOD(CreateFontSet)(_COM_Outptr_ IDWriteFontSet5** fontSet) PURE;
+};
+
+DWRITE_BEGIN_INTERFACE(IDWriteFactory9, "6b718546-8fb4-4889-b1f4-4da1a43bbdd9") : IDWriteFactory8
+{
+    /// <summary>
+    /// Creates an object that can be used to create a new font set taking advantage of cached data
+    /// from an old font set.
+    /// </summary>
+    /// <param name="cachedData">Pointer to to an object that encapsulates cached data originally
+    /// obtained by calling IDWriteFontSet5::GetCacheData.</param>
+    /// <param name="builder">Receives a pointer to the newly created object.</param>
+    /// <returns>Standard HRESULT error code.</returns>
+    /// <remarks>The cachedData parameter may point to a user-implemented object that encapsulates
+    /// cached data read from a file or other storage device. This enables an application to save
+    /// font set data across sessions. If the cached data is invalid or the wrong version, the method
+    /// succeeds, but the resulting builder object does not use the cached data.</remarks>
+    STDMETHOD(CreateFontSetBuilderWithCache)(
+        _In_opt_ IDWriteCachedData* cachedData,
+        _COM_Outptr_ IDWriteFontSetBuilderWithCache** builder
+        ) PURE;
+
+    /// <summary>
+    /// Creates a new font set object from the data returned by IDWriteFontSet5::GetCachedData.
+    /// </summary>
+    /// <param name="cachedData">Pointer to to an object that encapsulates cached data originally
+    /// obtained by calling IDWriteFontSet5::GetCacheData.</param>
+    /// <param name="fontSet">Receives a pointer to the newly created font set.</param>
+    /// <returns>Standard HRESULT error code or DWRITE_E_CACHEFORMAT if the cached data is invalid
+    /// or is the wrong version.</returns>
+    /// <remarks>
+    /// This method is primarily intended for marshalling font sets across process boundaries. It
+    /// should not be used to recreate a font set from data saved in a previous session. This is
+    /// because the previously-saved data may be stale (if any fonts were updated) or its memory
+    /// layout may be invalid (if DirectWrite was updated). In the latter case, the method fails with
+    /// DWRITE_E_CACHEFORMAT. In the former case, the method succeeds, but the resulting font set
+    /// may refer to font files that no longer exist. This can result in later errors when
+    /// subsequent operations need to access the font file, e.g., to create a font face object or
+    /// render glyphs. To safely recreate a font set using data cached in a previous session, use
+    /// the CreateFontSetBuilderWithCache method.
+    /// </remarks>
+    STDMETHOD(CreateFontSetFromCachedData)(
+        _Notnull_ IDWriteCachedData* cachedData,
+        _COM_Outptr_ IDWriteFontSet5** fontSet
+    ) PURE;
+};
+
+#endif // DWRITE_CORE || NTDDI_VERSION >= NTDDI_WIN10_NI
 
 #endif // DWRITE_3_H_INCLUDED

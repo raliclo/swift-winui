@@ -6,6 +6,7 @@
 #include <EventToken.h>
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
+#include "Windows.Devices.Haptics.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -40,17 +41,77 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CInput_CIMouseEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDevice_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CInput_CIPenDevice_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDevice __x_ABI_CWindows_CDevices_CInput_CIPenDevice;
 
 #endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDevice_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDevice2 __x_ABI_CWindows_CDevices_CInput_CIPenDevice2;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics __x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics;
 
 #endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDockListener __x_ABI_CWindows_CDevices_CInput_CIPenDockListener;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CInput_CIPointerDevice_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CInput_CIPointerDevice_FWD_DEFINED__
@@ -382,6 +443,236 @@ typedef struct __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage __x_ABI_CWin
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CMouseDevice___x_ABI_CWindows__CDevices__CInput__CMouseEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* sender,
+        __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* sender,
+        __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* sender,
+        __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenDockListener* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenDockListener* sender,
+        __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenDockListener* sender,
+        __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs_INTERFACE_DEFINED__
+    
+#ifndef ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController __x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController;
+
+#endif // ____x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController_FWD_DEFINED__
+
 typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_CRect;
 
 typedef enum __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType;
@@ -393,6 +684,7 @@ enum __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType
         __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Touch = 0,
     __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Pen = 1,
     __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Mouse = 2,
+    __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Touchpad = 3,
 };
 
 struct __x_ABI_CWindows_CDevices_CInput_CMouseDelta
@@ -589,6 +881,92 @@ struct __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIMouseEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIMouseEventArgs_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* add_IsSupportedChanged)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_IsSupportedChanged)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TailButtonClicked)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonClickedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TailButtonClicked)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TailButtonDoubleClicked)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonDoubleClickedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TailButtonDoubleClicked)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TailButtonLongPressed)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenButtonListener___x_ABI_CWindows__CDevices__CInput__CPenTailButtonLongPressedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TailButtonLongPressed)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListener* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenButtonListener;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenButtonListener_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenButtonListener** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenButtonListenerStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDevice_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CInput_CIPenDevice_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenDeviceVtbl
@@ -621,6 +999,39 @@ struct __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDevice;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDevice_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenDevice2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SimpleHapticsController)(__x_ABI_CWindows_CDevices_CInput_CIPenDevice2* This,
+        __x_ABI_CWindows_CDevices_CHaptics_CISimpleHapticsController** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenDevice2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenDevice2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenDevice2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDevice2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDevice2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_INTERFACE_DEFINED__
@@ -655,6 +1066,242 @@ struct __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDeviceStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* add_IsSupportedChanged)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_IsSupportedChanged)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Docked)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenDockedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Docked)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Undocked)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CInput__CPenDockListener___x_ABI_CWindows__CDevices__CInput__CPenUndockedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Undocked)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListener* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenDockListener
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDockListener;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockListener_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics* This,
+        __x_ABI_CWindows_CDevices_CInput_CIPenDockListener** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockListenerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenDockedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonClickedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonDoubleClickedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenTailButtonLongPressedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CInput_CIPenUndockedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CInput_CIPointerDevice_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CInput_CIPointerDevice_INTERFACE_DEFINED__

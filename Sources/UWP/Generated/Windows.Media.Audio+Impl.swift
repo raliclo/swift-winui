@@ -4,5 +4,22 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Windows_Media_Audio {
+    public enum AudioStateMonitorBridge: AbiBridge {
+        public typealias SwiftProjection = AudioStateMonitor
+        public typealias CABI = __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor>?) -> AudioStateMonitor? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+public class AudioStateMonitorMaker: MakeFromAbi {
+    public typealias SwiftType = AudioStateMonitor
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return AudioStateMonitor(fromAbi: abi)
+    }
 }

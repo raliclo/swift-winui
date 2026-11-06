@@ -11,6 +11,30 @@
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView;
@@ -29,6 +53,30 @@
 
 #endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4 __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5 __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion;
@@ -40,6 +88,12 @@
     typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionsChangedEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionsChangedEventArgs;
 
 #endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionsChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewStatics_FWD_DEFINED__
@@ -59,10 +113,98 @@
 
 #endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewTransferringXYFocusEventArgs_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
 
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsControllerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion_INTERFACE_DEFINED__
 
@@ -197,6 +339,70 @@
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* sender,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* sender,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView_IInspectable_INTERFACE_DEFINED__
 
@@ -228,6 +434,70 @@
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView* sender,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView* sender,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__
@@ -261,6 +531,38 @@
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView* sender,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewTransferringXYFocusEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewTransferringXYFocusEventArgs_INTERFACE_DEFINED__
 
@@ -293,7 +595,17 @@
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewTransferringXYFocusEventArgs_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+
 typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_CRect;
+
+typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
 #ifndef ____x_ABI_CWindows_CUI_CIUIContext_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CIUIContext_FWD_DEFINED__
@@ -313,6 +625,10 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Keyboard = 1,
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Handwriting = 2,
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Emoji = 3,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Symbols = 4,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Clipboard = 5,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Dictation = 6,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Gamepad = 7,
 };
 
 enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewOcclusionKind
@@ -330,6 +646,155 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewXYFocusTransferDir
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewXYFocusTransferDirection_Left = 3,
 };
 
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_PrimaryViewAnimationStarting)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewAnimationStartingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PrimaryViewAnimationStarting)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_OcclusionsChanged)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreFrameworkInputViewOcclusionsChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_OcclusionsChanged)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Occlusions)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion** value);
+    HRESULT (STDMETHODCALLTYPE* get_FrameworkAnimationRecommended)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_AnimationDuration)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Occlusions)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion** value);
+    HRESULT (STDMETHODCALLTYPE* get_Handled)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForUIContext)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+        __x_ABI_CWindows_CUI_CIUIContext* context,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView** result);
+    HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics* This,
+        __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputView** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreFrameworkInputViewStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewVtbl
@@ -455,6 +920,163 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewXYFocusTransferDir
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_PrimaryViewShowing)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewShowingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PrimaryViewShowing)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_PrimaryViewHiding)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewHidingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PrimaryViewHiding)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsKindSupported)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+        enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind type,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* add_SupportedKindsChanged)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_SupportedKindsChanged)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_PrimaryViewAnimationStarting)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputView___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewAnimationStartingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PrimaryViewAnimationStarting)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputView5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Occlusions)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CCoreInputViewOcclusion** value);
+    HRESULT (STDMETHODCALLTYPE* get_Handled)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_Handled)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AnimationDuration)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewAnimationStartingEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryCancel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewHidingEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusion_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionVtbl
@@ -526,6 +1148,39 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewXYFocusTransferDir
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionsChangedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewOcclusionsChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryCancel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewShowingEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewStatics_INTERFACE_DEFINED__
@@ -636,4 +1291,78 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewXYFocusTransferDir
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewTransferringXYFocusEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CICoreInputViewTransferringXYFocusEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetAdvancedEffectsEnabled)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* SetAnimationsEnabled)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* SetAutoHideScrollBars)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* SetMessageDuration)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+        UINT32 value);
+    HRESULT (STDMETHODCALLTYPE* SetTextScaleFactor)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsController_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestDefaultAsync)(__x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CViewManagement__CCore__CUISettingsController** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CCore_CIUISettingsControllerStatics_INTERFACE_DEFINED__) */
     

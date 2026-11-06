@@ -49,6 +49,12 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties __x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties;
@@ -66,6 +72,12 @@
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIH264ProfileIdsStatics __x_ABI_CWindows_CMedia_CMediaProperties_CIH264ProfileIdsStatics;
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIH264ProfileIdsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIImageEncodingProperties_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIImageEncodingProperties_FWD_DEFINED__
@@ -133,6 +145,12 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4 __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties;
@@ -169,6 +187,18 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics5_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6 __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7 __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio;
@@ -186,6 +216,12 @@
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingProperties __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingProperties;
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingProperties_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties_FWD_DEFINED__
@@ -228,6 +264,18 @@
     typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2 __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2;
 
 #endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3 __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -1497,6 +1545,61 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling420BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling420BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling400BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling400BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_HighChromaSubsampling444BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_HighChromaSubsampling444BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling420BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling400BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling444BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling422BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling422BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ProfessionalChromaSubsampling422BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics* This,
+        INT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIAv1ProfileIdsStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingProperties_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIContainerEncodingPropertiesVtbl
@@ -1611,6 +1714,81 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIH264ProfileIdsStatics;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIH264ProfileIdsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling420BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling420BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling420BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling422BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling422BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling444BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling444BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainChromaSubsampling444BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MonochromeBitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MonochromeBitDepth16)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling420BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling420BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling420BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling422BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling422BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling444BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling444BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling444BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainIntraChromaSubsampling444BitDepth16)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainStillChromaSubsampling420BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainStillChromaSubsampling444BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MainStillChromaSubsampling444BitDepth16)(__x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics* This,
+        INT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIHevcProfileIdsStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIImageEncodingProperties_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIImageEncodingProperties_INTERFACE_DEFINED__
@@ -2036,6 +2214,43 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics3;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateVp9)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+        enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality quality,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfile** result);
+    HRESULT (STDMETHODCALLTYPE* CreateAv1)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4* This,
+        enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality quality,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfile** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProfileStatics4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingPropertiesVtbl
@@ -2326,6 +2541,78 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics5;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics5_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Pgs)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Srt)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Ssa)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_VobSub)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics6_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Av1)(__x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingSubtypesStatics7_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatioVtbl
@@ -2444,6 +2731,49 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingProperties;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingProperties_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreatePgs)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties** result);
+    HRESULT (STDMETHODCALLTYPE* CreateSrt)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties** result);
+    HRESULT (STDMETHODCALLTYPE* CreateSsa)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+        UINT32 formatUserDataLength,
+        BYTE* formatUserData,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties** result);
+    HRESULT (STDMETHODCALLTYPE* CreateVobSub)(__x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics* This,
+        UINT32 formatUserDataLength,
+        BYTE* formatUserData,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CITimedMetadataEncodingPropertiesStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties_INTERFACE_DEFINED__
@@ -2704,4 +3034,76 @@ enum __x_ABI_CWindows_CMedia_CMediaProperties_CVideoEncodingQuality
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateVp9)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties** result);
+    HRESULT (STDMETHODCALLTYPE* CreateAv1)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3* This,
+        __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Profile0ChromaSubsampling420BitDepth8)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Profile2ChromaSubsampling420BitDepth10)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Profile2ChromaSubsampling420BitDepth12)(__x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics* This,
+        INT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CMediaProperties_CIVp9ProfileIdsStatics_INTERFACE_DEFINED__) */
     

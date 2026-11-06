@@ -82,6 +82,12 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4 __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters;
@@ -124,6 +130,12 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3 __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction;
@@ -141,6 +153,24 @@
     typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePresentationReport __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePresentationReport;
 
 #endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePresentationReport_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicQuadLayer_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicQuadLayer_FWD_DEFINED__
@@ -178,6 +208,12 @@
 
 #endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3 __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs;
@@ -213,6 +249,12 @@
     typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration;
 
 #endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2 __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2;
+
+#endif // ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -472,6 +514,92 @@ typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWi
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicCameraPose_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        UINT32 itemsLength,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__
 
@@ -555,6 +683,90 @@ typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWi
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__
@@ -790,6 +1002,56 @@ typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWi
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicCameraPose_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        UINT32 index,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethodVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__
 
@@ -840,6 +1102,56 @@ typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWi
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFramePresentationReport_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 index,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__
 
@@ -889,6 +1201,73 @@ typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWi
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 index,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 index,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 index,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReportVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicQuadLayer_INTERFACE_DEFINED__
@@ -1245,6 +1624,14 @@ typedef enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicViewConfigurati
 
 typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicAdapterId __x_ABI_CWindows_CGraphics_CHolographic_CHolographicAdapterId;
 
+typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFrameId __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFrameId;
+
+enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod
+    {
+        __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod_DepthReprojection = 0,
+    __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod_AutoPlanar = 1,
+};
+
 enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFramePresentResult
     {
         __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFramePresentResult_Success = 0,
@@ -1281,6 +1668,11 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicAdapterId
     {
         UINT32 LowPart;
     INT32 HighPart;
+};
+
+struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFrameId
+    {
+        UINT64 Value;
 };
 
 struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
@@ -1721,6 +2113,41 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters3;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DepthReprojectionMethod)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod* value);
+    HRESULT (STDMETHODCALLTYPE* put_DepthReprojectionMethod)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4* This,
+        enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicDepthReprojectionMethod value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraRenderingParameters4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParameters_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicCameraViewportParametersVtbl
@@ -1984,6 +2411,39 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame2;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3* This,
+        struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFrameId* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrame3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePrediction_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePredictionVtbl
@@ -2092,6 +2552,121 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePresentationReport;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFramePresentationReport_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_FrameId)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+        struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicFrameId* value);
+    HRESULT (STDMETHODCALLTYPE* get_MissedLatchCount)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativeFrameReadyTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativeActualGpuFinishTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativeTargetLatchTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReportVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReportVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitorVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ReadReports)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicFrameScanoutReport** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitorVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitorVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_RenderingReport)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameRenderingReport** value);
+    HRESULT (STDMETHODCALLTYPE* get_MissedScanoutCount)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativeLatchTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativeScanoutStartTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* get_SystemRelativePhotonTime)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReportVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReportVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutReport_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicQuadLayer_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicQuadLayer_INTERFACE_DEFINED__
@@ -2338,6 +2913,40 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace2;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateFrameScanoutMonitor)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3* This,
+        UINT32 maxQueuedReports,
+        __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicFrameScanoutMonitor** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpace3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicSpaceCameraAddedEventArgsVtbl
@@ -2568,4 +3177,37 @@ struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SupportedDepthReprojectionMethods)(__x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CGraphics__CHolographic__CHolographicDepthReprojectionMethod** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2Vtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CHolographic_CIHolographicViewConfiguration2_INTERFACE_DEFINED__) */
     

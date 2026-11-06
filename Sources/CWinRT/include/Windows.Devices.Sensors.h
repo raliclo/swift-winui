@@ -35,6 +35,18 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer4_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5 __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId;
@@ -119,6 +131,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIActivitySensorTriggerDetails_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIAltimeter_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIAltimeter_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIAltimeter __x_ABI_CWindows_CDevices_CSensors_CIAltimeter;
@@ -166,6 +184,18 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIBarometer2 __x_ABI_CWindows_CDevices_CSensors_CIBarometer2;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIBarometer2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIBarometer3 __x_ABI_CWindows_CDevices_CSensors_CIBarometer3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIBarometerReading_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIBarometerReading_FWD_DEFINED__
@@ -215,6 +245,18 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CICompass3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CICompass4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CICompass4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CICompass4 __x_ABI_CWindows_CDevices_CSensors_CICompass4;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CICompass4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold __x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId __x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId;
@@ -257,6 +299,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CICompassStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometer __x_ABI_CWindows_CDevices_CSensors_CIGyrometer;
@@ -274,6 +322,18 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometer3 __x_ABI_CWindows_CDevices_CSensors_CIGyrometer3;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4 __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDeviceId_FWD_DEFINED__
@@ -311,6 +371,18 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHeadPosition __x_ABI_CWindows_CDevices_CSensors_CIHeadPosition;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading __x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading;
@@ -335,6 +407,120 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleSensorStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3 __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometer __x_ABI_CWindows_CDevices_CSensors_CIInclinometer;
@@ -352,6 +538,18 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometer3 __x_ABI_CWindows_CDevices_CSensors_CIInclinometer3;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4 __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDeviceId_FWD_DEFINED__
@@ -419,6 +617,30 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensor2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensor3 __x_ABI_CWindows_CDevices_CSensors_CILightSensor3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensor4 __x_ABI_CWindows_CDevices_CSensors_CILightSensor4;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2 __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId __x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId;
@@ -436,6 +658,12 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading2 __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading2;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3 __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReadingChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReadingChangedEventArgs_FWD_DEFINED__
@@ -455,6 +683,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CILightSensorStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer;
@@ -472,6 +706,18 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer3 __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer3;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4 __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDeviceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDeviceId_FWD_DEFINED__
@@ -508,6 +754,12 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerStatics2 __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerStatics2;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CSensors_CIOrientationSensor_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CSensors_CIOrientationSensor_FWD_DEFINED__
@@ -718,6 +970,12 @@
     typedef interface __x_ABI_CWindows_CDevices_CSensors_CISimpleOrientationSensorStatics2 __x_ABI_CWindows_CDevices_CSensors_CISimpleOrientationSensorStatics2;
 
 #endif // ____x_ABI_CWindows_CDevices_CSensors_CISimpleOrientationSensorStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions;
+
+#endif // ____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -1330,6 +1588,234 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHingeAngleSensor_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeaturesVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettingsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings_INTERFACE_DEFINED__
     
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CInclinometer __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CSensors__CInclinometer;
 
@@ -2207,6 +2693,90 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVec
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CPedometerReading_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1_UINT32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1_UINT32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1_UINT32 __x_ABI_C__FIIterator_1_UINT32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1_UINT32;
+
+    typedef struct __x_ABI_C__FIIterator_1_UINT32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1_UINT32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1_UINT32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1_UINT32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1_UINT32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1_UINT32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1_UINT32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1_UINT32* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1_UINT32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1_UINT32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1_UINT32* This,
+        UINT32 itemsLength,
+        UINT32* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1_UINT32Vtbl;
+
+    interface __x_ABI_C__FIIterator_1_UINT32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1_UINT32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1_UINT32_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1_UINT32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1_UINT32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1_UINT32 __x_ABI_C__FIIterable_1_UINT32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1_UINT32;
+
+    typedef struct __x_ABI_C__FIIterable_1_UINT32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1_UINT32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1_UINT32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1_UINT32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1_UINT32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1_UINT32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1_UINT32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1_UINT32* This,
+        __x_ABI_C__FIIterator_1_UINT32** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1_UINT32Vtbl;
+
+    interface __x_ABI_C__FIIterable_1_UINT32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1_UINT32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1_UINT32_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CActivitySensorReadingChangeReport_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CActivitySensorReadingChangeReport_INTERFACE_DEFINED__
 
@@ -2376,6 +2946,90 @@ typedef enum __x_ABI_CWindows_CDevices_CSensors_CActivityType __x_ABI_CWindows_C
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CProximitySensorReading_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CSensors__CProximitySensorReading_INTERFACE_DEFINED__
@@ -2711,6 +3365,92 @@ typedef enum __x_ABI_CWindows_CDevices_CSensors_CPedometerStepKind __x_ABI_CWind
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CDevices__CSensors__CPedometerStepKind___x_ABI_CWindows__CDevices__CSensors__CPedometerReading_INTERFACE_DEFINED__
     
+typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CTimeSpan** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
+    
 typedef interface __x_ABI_C__FIMapView_2_HSTRING_IInspectable __x_ABI_C__FIMapView_2_HSTRING_IInspectable;
 
 #if !defined(____x_ABI_C__FIMapView_2_HSTRING_IInspectable_INTERFACE_DEFINED__)
@@ -2808,6 +3548,56 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
 
     
     #endif // ____x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__CPedometerStepKind___x_ABI_CWindows__CDevices__CSensors__CPedometerReading_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1_UINT32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1_UINT32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1_UINT32 __x_ABI_C__FIVectorView_1_UINT32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1_UINT32;
+
+    typedef struct __x_ABI_C__FIVectorView_1_UINT32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1_UINT32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1_UINT32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1_UINT32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1_UINT32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1_UINT32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1_UINT32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1_UINT32* This,
+        UINT32 index,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1_UINT32* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1_UINT32* This,
+        UINT32 value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1_UINT32* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        UINT32* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1_UINT32Vtbl;
+
+    interface __x_ABI_C__FIVectorView_1_UINT32
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1_UINT32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1_UINT32_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CActivitySensorReadingChangeReport_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CActivitySensorReadingChangeReport_INTERFACE_DEFINED__
@@ -2909,6 +3699,56 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        UINT32 index,
+        __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPersonVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CProximitySensorReading_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CProximitySensorReading_INTERFACE_DEFINED__
 
@@ -2958,6 +3798,56 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CProximitySensorReading_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        UINT32 index,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__
@@ -3026,6 +3916,38 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
     
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CDevices__CSensors__CActivityType_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIEventHandler_1_IInspectable __x_ABI_C__FIEventHandler_1_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIEventHandler_1_IInspectable;
+
+    typedef struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+        IInspectable* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FIEventHandler_1_IInspectableVtbl;
+
+    interface __x_ABI_C__FIEventHandler_1_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__
 
@@ -3063,6 +3985,44 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
 
     
     #endif // ____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_int __x_ABI_C__FIReference_1_int;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_int;
+
+    typedef struct __x_ABI_C__FIReference_1_intVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_int* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_int* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_int* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_int* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_int* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_int* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_int* This,
+        INT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_intVtbl;
+
+    interface __x_ABI_C__FIReference_1_int
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_intVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIReference_1_UINT32_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIReference_1_UINT32_INTERFACE_DEFINED__
@@ -3102,8 +4062,126 @@ typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CDevices__CSensors__C
     
     #endif // ____x_ABI_C__FIReference_1_UINT32_INTERFACE_DEFINED__
     
-typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
+typedef enum __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement;
 
+#if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement;
+
+    typedef struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagementVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagementVtbl;
+
+    interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagementVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement_INTERFACE_DEFINED__
+    
+typedef enum __x_ABI_CWindows_CDevices_CSensors_CHumanPresence __x_ABI_CWindows_CDevices_CSensors_CHumanPresence;
+
+#if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence;
+
+    typedef struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanPresence* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceVtbl;
+
+    interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
+
+#if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime;
+
+    typedef struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl;
+
+    interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
 
@@ -3398,6 +4476,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHingeAngleSensor___x_ABI_CWindows__CDevices__CSensors__CHingeAngleSensorReadingChangedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* sender,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CInclinometer___x_ABI_CWindows__CDevices__CSensors__CInclinometerReadingChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CInclinometer___x_ABI_CWindows__CDevices__CSensors__CInclinometerReadingChangedEventArgs_INTERFACE_DEFINED__
 
@@ -3624,7 +4734,11 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
-typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncAction __x_ABI_CWindows_CFoundation_CIAsyncAction;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
@@ -3652,6 +4766,10 @@ typedef enum __x_ABI_CWindows_CDevices_CSensors_CActivitySensorReadingConfidence
 
 typedef enum __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy;
 
+typedef enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction;
+
+typedef enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode;
+
 typedef enum __x_ABI_CWindows_CDevices_CSensors_CSensorOptimizationGoal __x_ABI_CWindows_CDevices_CSensors_CSensorOptimizationGoal;
 
 typedef enum __x_ABI_CWindows_CDevices_CSensors_CSensorReadingType __x_ABI_CWindows_CDevices_CSensors_CSensorReadingType;
@@ -3659,6 +4777,8 @@ typedef enum __x_ABI_CWindows_CDevices_CSensors_CSensorReadingType __x_ABI_CWind
 typedef enum __x_ABI_CWindows_CDevices_CSensors_CSensorType __x_ABI_CWindows_CDevices_CSensors_CSensorType;
 
 typedef enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation;
+
+typedef struct __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity;
 
 enum __x_ABI_CWindows_CDevices_CSensors_CAccelerometerReadingType
     {
@@ -3685,12 +4805,41 @@ enum __x_ABI_CWindows_CDevices_CSensors_CActivityType
     __x_ABI_CWindows_CDevices_CSensors_CActivityType_Biking = 7,
 };
 
+enum __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement
+    {
+        __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement_Unknown = 0,
+    __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement_Engaged = 1,
+    __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement_Unengaged = 2,
+};
+
+enum __x_ABI_CWindows_CDevices_CSensors_CHumanPresence
+    {
+        __x_ABI_CWindows_CDevices_CSensors_CHumanPresence_Unknown = 0,
+    __x_ABI_CWindows_CDevices_CSensors_CHumanPresence_Present = 1,
+    __x_ABI_CWindows_CDevices_CSensors_CHumanPresence_NotPresent = 2,
+};
+
 enum __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy
     {
         __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy_Unknown = 0,
     __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy_Unreliable = 1,
     __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy_Approximate = 2,
     __x_ABI_CWindows_CDevices_CSensors_CMagnetometerAccuracy_High = 3,
+};
+
+enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction
+    {
+        __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction_Dim = 0,
+    __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction_Notify = 1,
+    __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction_DimAndNotify = 2,
+};
+
+enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode
+    {
+        __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode_Manually = 0,
+    __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode_OneHour = 1,
+    __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode_FourHours = 2,
+    __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode_OneDay = 3,
 };
 
 enum __x_ABI_CWindows_CDevices_CSensors_CPedometerStepKind
@@ -3738,6 +4887,12 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation_Rotated270DegreesCounterclockwise = 3,
     __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation_Faceup = 4,
     __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation_Facedown = 5,
+};
+
+struct __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity
+    {
+        DOUBLE X;
+    DOUBLE Y;
 };
 
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer_INTERFACE_DEFINED__)
@@ -3893,6 +5048,82 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIAccelerometer4;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometer5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_XAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_XAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_YAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_YAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_ZAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_ZAxisInGForce)(__x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDataThreshold_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIAccelerometerDeviceId_INTERFACE_DEFINED__
@@ -4400,6 +5631,41 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIActivitySensorTriggerDetails;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIActivitySensorTriggerDetails_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptionsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIAltimeter_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIAltimeter_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CIAltimeterVtbl
@@ -4702,6 +5968,74 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIBarometer2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometer2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIBarometer3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CIBarometer3* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIBarometer3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIBarometer3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIBarometer3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIBarometer3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometer3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Hectopascals)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_Hectopascals)(__x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometerDataThreshold_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIBarometerReading_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIBarometerReading_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CIBarometerReadingVtbl
@@ -4990,6 +6324,74 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CICompass3;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CICompass3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CICompass4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CICompass4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CICompass4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CICompass4* This,
+        __x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CICompass4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CICompass4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CICompass4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CICompass4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CICompass4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CICompassDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Degrees)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_Degrees)(__x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CICompassDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CICompassDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CICompassDataThreshold_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CICompassDeviceId_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CICompassDeviceIdVtbl
@@ -5230,6 +6632,47 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CICompassStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CICompassStatics2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIDetectedPersonVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Engagement)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement* value);
+    HRESULT (STDMETHODCALLTYPE* get_DistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* get_HeadOrientation)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation** value);
+    HRESULT (STDMETHODCALLTYPE* get_HeadPosition)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHeadPosition** value);
+    HRESULT (STDMETHODCALLTYPE* get_PersonId)(__x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson* This,
+        __x_ABI_C__FIReference_1_int** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIDetectedPersonVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIDetectedPersonVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIDetectedPerson_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometer_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CIGyrometerVtbl
@@ -5345,6 +6788,82 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIGyrometer3;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometer3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometer4* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIGyrometer4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIGyrometer4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometer4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_XAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_XAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_YAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_YAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_ZAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_ZAxisInDegreesPerSecond)(__x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDataThreshold_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIGyrometerDeviceId_INTERFACE_DEFINED__
@@ -5555,6 +7074,78 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIGyrometerStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIGyrometerStatics2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_RollInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_PitchInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_YawInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation* This,
+        __x_ABI_C__FIReference_1_double** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientationVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHeadOrientationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHeadOrientation_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHeadPositionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AzimuthInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_AltitudeInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHeadPosition* This,
+        __x_ABI_C__FIReference_1_double** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHeadPositionVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHeadPosition
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHeadPositionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHeadPosition;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHeadPosition_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReading_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHingeAngleReadingVtbl
@@ -5713,6 +7304,761 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHingeAngleSensorStatics;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHingeAngleSensorStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeaturesVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SensorId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_SupportedWakeOrLockDistancesInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+        __x_ABI_C__FIVectorView_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsWakeOnApproachSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsLockOnLeaveSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAttentionAwareDimmingSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeaturesVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeaturesVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsAdaptiveDimmingSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsOnlookerDetectionSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeviceId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxDetectableDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* get_MinDetectableDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* GetCurrentReading)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading** result);
+    HRESULT (STDMETHODCALLTYPE* add_ReadingChanged)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensorReadingChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ReadingChanged)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPresenceSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsEngagementSupported)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_MaxDetectablePersons)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MinDetectableAzimuthInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxDetectableAzimuthInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_MinDetectableAltitudeInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxDetectableAltitudeInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3* This,
+        __x_ABI_C__FIReference_1_double** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtensionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Initialize)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+        HSTRING deviceInterface);
+    HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+    HRESULT (STDMETHODCALLTYPE* ProcessReading)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* reading,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate** result);
+    HRESULT (STDMETHODCALLTYPE* ProcessReadingTimeoutExpired)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* reading);
+    HRESULT (STDMETHODCALLTYPE* Stop)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+    HRESULT (STDMETHODCALLTYPE* Uninitialize)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+    HRESULT (STDMETHODCALLTYPE* Reset)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtensionVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtensionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorExtension_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Timestamp)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_Presence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanPresence* value);
+    HRESULT (STDMETHODCALLTYPE* get_Engagement)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanEngagement* value);
+    HRESULT (STDMETHODCALLTYPE* get_DistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Properties)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2* This,
+        __x_ABI_C__FIMapView_2_HSTRING_IInspectable** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_OnlookerPresence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_CHumanPresence* value);
+    HRESULT (STDMETHODCALLTYPE* get_DetectedPersons)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CSensors__CDetectedPerson** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Reading)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReading** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Timestamp)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime** value);
+    HRESULT (STDMETHODCALLTYPE* put_Timestamp)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_Presence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence** value);
+    HRESULT (STDMETHODCALLTYPE* put_Presence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* value);
+    HRESULT (STDMETHODCALLTYPE* get_Engagement)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement** value);
+    HRESULT (STDMETHODCALLTYPE* put_Engagement)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanEngagement* value);
+    HRESULT (STDMETHODCALLTYPE* get_DistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* put_DistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate* This,
+        __x_ABI_C__FIReference_1_UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdateVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdateVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_OnlookerPresence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence** value);
+    HRESULT (STDMETHODCALLTYPE* put_OnlookerPresence)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresence* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorReadingUpdate2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDeviceSelector)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* FromIdAsync)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+        HSTRING sensorId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor** operation);
+    HRESULT (STDMETHODCALLTYPE* GetDefaultAsync)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSensor** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* FromId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+        HSTRING sensorId,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor** result);
+    HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensor** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSensorStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SensorId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SensorId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_IsWakeOnApproachEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsWakeOnApproachEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_WakeOnApproachDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* put_WakeOnApproachDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        __x_ABI_C__FIReference_1_UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsLockOnLeaveEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsLockOnLeaveEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_LockOnLeaveDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        __x_ABI_C__FIReference_1_UINT32** value);
+    HRESULT (STDMETHODCALLTYPE* put_LockOnLeaveDistanceInMillimeters)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        __x_ABI_C__FIReference_1_UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_LockOnLeaveTimeout)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan* value);
+    HRESULT (STDMETHODCALLTYPE* put_LockOnLeaveTimeout)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        struct __x_ABI_CWindows_CFoundation_CTimeSpan value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAttentionAwareDimmingEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsAttentionAwareDimmingEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsAdaptiveDimmingEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsAdaptiveDimmingEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_WakeOptions)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions** value);
+    HRESULT (STDMETHODCALLTYPE* get_DimmingOptions)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIAdaptiveDimmingOptions** value);
+    HRESULT (STDMETHODCALLTYPE* get_LockOptions)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2* This,
+        __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsOnlookerDetectionEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsOnlookerDetectionEnabled)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_OnlookerDetectionOptions)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetCurrentSettingsAsync)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceSettings** operation);
+    HRESULT (STDMETHODCALLTYPE* GetCurrentSettings)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings** result);
+    HRESULT (STDMETHODCALLTYPE* UpdateSettingsAsync)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* settings,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* UpdateSettings)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettings* settings);
+    HRESULT (STDMETHODCALLTYPE* GetSupportedFeaturesForSensorIdAsync)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        HSTRING sensorId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CSensors__CHumanPresenceFeatures** operation);
+    HRESULT (STDMETHODCALLTYPE* GetSupportedFeaturesForSensorId)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        HSTRING sensorId,
+        __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceFeatures** result);
+    HRESULT (STDMETHODCALLTYPE* GetSupportedLockOnLeaveTimeouts)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CTimeSpan** result);
+    HRESULT (STDMETHODCALLTYPE* add_SettingsChanged)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_SettingsChanged)(__x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIHumanPresenceSettingsStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometer_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CIInclinometerVtbl
@@ -5830,6 +8176,82 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIInclinometer3;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometer3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometer4* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIInclinometer4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIInclinometer4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometer4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PitchInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_PitchInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_RollInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_RollInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_YawInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_YawInDegrees)(__x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold* This,
+        FLOAT value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDataThreshold_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIInclinometerDeviceId_INTERFACE_DEFINED__
@@ -6222,6 +8644,146 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensor2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensor2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensor3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor3* This,
+        __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILightSensor3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILightSensor3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILightSensor3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensor3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensor3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensor4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsChromaticitySupported)(__x_ABI_CWindows_CDevices_CSensors_CILightSensor4* This,
+        boolean* supported);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILightSensor4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILightSensor4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILightSensor4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensor4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensor4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LuxPercentage)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_LuxPercentage)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_AbsoluteLux)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_AbsoluteLux)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold* This,
+        FLOAT value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Chromaticity)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+        struct __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity* value);
+    HRESULT (STDMETHODCALLTYPE* put_Chromaticity)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2* This,
+        struct __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorDataThreshold2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceId_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorDeviceIdVtbl
@@ -6325,6 +8887,39 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensorReading2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Chromaticity)(__x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3* This,
+        struct __x_ABI_CWindows_CDevices_CSensors_CLightSensorChromaticity* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorReading3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorReadingChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CILightSensorReadingChangedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CSensors_CILightSensorReadingChangedEventArgsVtbl
@@ -6426,6 +9021,41 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILightSensorStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILightSensorStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptionsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CILockOnLeaveOptions_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer_INTERFACE_DEFINED__
@@ -6542,6 +9172,82 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIMagnetometer3;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ReportThreshold)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4* This,
+        __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometer4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThresholdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_XAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_XAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_YAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_YAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_ZAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_ZAxisMicroteslas)(__x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold* This,
+        FLOAT value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThresholdVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThresholdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDataThreshold_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDeviceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerDeviceId_INTERFACE_DEFINED__
@@ -6753,6 +9459,45 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIMagnetometerStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIMagnetometerStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Action)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction* value);
+    HRESULT (STDMETHODCALLTYPE* put_Action)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionAction value);
+    HRESULT (STDMETHODCALLTYPE* get_BackOnMode)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_BackOnMode)(__x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions* This,
+        enum __x_ABI_CWindows_CDevices_CSensors_COnlookerDetectionBackOnMode value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptionsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIOnlookerDetectionOptions_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CSensors_CIOrientationSensor_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CSensors_CIOrientationSensor_INTERFACE_DEFINED__
@@ -8036,4 +10781,43 @@ enum __x_ABI_CWindows_CDevices_CSensors_CSimpleOrientation
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CISimpleOrientationSensorStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CISimpleOrientationSensorStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowWhenExternalDisplayConnected)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_DisableWhenBatterySaverOn)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DisableWhenBatterySaverOn)(__x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptionsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CSensors_CIWakeOnApproachOptions_INTERFACE_DEFINED__) */
     

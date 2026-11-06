@@ -40,11 +40,12 @@ private var IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore
     .init(Data1: 0x2ACA929A, Data2: 0x5E28, Data3: 0x4EA6, Data4: ( 0x82,0x9E,0x29,0x13,0x4E,0x66,0x5D,0x6D ))// 2ACA929A-5E28-4EA6-829E-29134E665D6D
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragDropManager: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager }
 
-        internal func add_TargetRequestedImpl(_ value: TypedEventHandler<UWP.CoreDragDropManager?, UWP.CoreDropOperationTargetRequestedEventArgs?>?) throws -> EventRegistrationToken {
+        public func add_TargetRequested(_ value: TypedEventHandler<UWP.CoreDragDropManager?, UWP.CoreDropOperationTargetRequestedEventArgs?>?) throws -> EventRegistrationToken {
             var returnValue: EventRegistrationToken = .init()
             let valueWrapper = UWP.__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDragDrop__CCore__CCoreDragDropManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDragDrop__CCore__CCoreDropOperationTargetRequestedEventArgsWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
@@ -54,13 +55,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return returnValue
         }
 
-        internal func remove_TargetRequestedImpl(_ value: EventRegistrationToken) throws {
+        public func remove_TargetRequested(_ value: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_TargetRequested(pThis, value))
             }
         }
 
-        internal func get_AreConcurrentOperationsEnabledImpl() throws -> Bool {
+        public func get_AreConcurrentOperationsEnabled() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AreConcurrentOperationsEnabled(pThis, &value))
@@ -68,7 +69,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return .init(from: value)
         }
 
-        internal func put_AreConcurrentOperationsEnabledImpl(_ value: Bool) throws {
+        public func put_AreConcurrentOperationsEnabled(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AreConcurrentOperationsEnabled(pThis, .init(from: value)))
             }
@@ -79,13 +80,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragDropManagerStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManagerStatics }
 
-        internal func GetForCurrentViewImpl() throws -> UWP.CoreDragDropManager? {
+        public func GetForCurrentView() throws -> UWP.CoreDragDropManager? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManagerStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetForCurrentView(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragDropManagerBridge.from(abi: value)
         }
 
     }
@@ -93,16 +94,16 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragInfo: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo }
 
-        internal func get_DataImpl() throws -> UWP.DataPackageView? {
+        public func get_Data() throws -> UWP.DataPackageView? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Data(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_ApplicationModel_DataTransfer.DataPackageViewBridge.from(abi: value)
         }
 
-        internal func get_ModifiersImpl() throws -> UWP.DragDropModifiers {
+        public func get_Modifiers() throws -> UWP.DragDropModifiers {
             var value: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CDragDropModifiers = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Modifiers(pThis, &value))
@@ -110,7 +111,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return value
         }
 
-        internal func get_PositionImpl() throws -> WindowsFoundation.Point {
+        public func get_Position() throws -> WindowsFoundation.Point {
             var value: __x_ABI_CWindows_CFoundation_CPoint = .init()
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Position(pThis, &value))
@@ -123,7 +124,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragInfo2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo2 }
 
-        internal func get_AllowedOperationsImpl() throws -> UWP.DataPackageOperation {
+        public func get_AllowedOperations() throws -> UWP.DataPackageOperation {
             var value: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowedOperations(pThis, &value))
@@ -136,34 +137,34 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragOperation: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation }
 
-        internal func get_DataImpl() throws -> UWP.DataPackage? {
+        public func get_Data() throws -> UWP.DataPackage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Data(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_ApplicationModel_DataTransfer.DataPackageBridge.from(abi: value)
         }
 
-        internal func SetPointerIdImpl(_ pointerId: UInt32) throws {
+        public func SetPointerId(_ pointerId: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetPointerId(pThis, pointerId))
             }
         }
 
-        internal func SetDragUIContentFromSoftwareBitmapImpl(_ softwareBitmap: UWP.SoftwareBitmap?) throws {
+        public func SetDragUIContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap?) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetDragUIContentFromSoftwareBitmap(pThis, RawPointer(softwareBitmap)))
             }
         }
 
-        internal func SetDragUIContentFromSoftwareBitmapWithAnchorPointImpl(_ softwareBitmap: UWP.SoftwareBitmap?, _ anchorPoint: WindowsFoundation.Point) throws {
+        public func SetDragUIContentFromSoftwareBitmapWithAnchorPoint(_ softwareBitmap: UWP.SoftwareBitmap?, _ anchorPoint: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetDragUIContentFromSoftwareBitmapWithAnchorPoint(pThis, RawPointer(softwareBitmap), .from(swift: anchorPoint)))
             }
         }
 
-        internal func get_DragUIContentModeImpl() throws -> UWP.CoreDragUIContentMode {
+        public func get_DragUIContentMode() throws -> UWP.CoreDragUIContentMode {
             var value: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CCoreDragUIContentMode = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DragUIContentMode(pThis, &value))
@@ -171,13 +172,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return value
         }
 
-        internal func put_DragUIContentModeImpl(_ value: UWP.CoreDragUIContentMode) throws {
+        public func put_DragUIContentMode(_ value: UWP.CoreDragUIContentMode) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_DragUIContentMode(pThis, value))
             }
         }
 
-        internal func StartAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
+        public func StartAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.StartAsync(pThis, &valueAbi))
@@ -191,7 +192,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragOperation2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation2 }
 
-        internal func get_AllowedOperationsImpl() throws -> UWP.DataPackageOperation {
+        public func get_AllowedOperations() throws -> UWP.DataPackageOperation {
             var value: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_AllowedOperations(pThis, &value))
@@ -199,7 +200,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return value
         }
 
-        internal func put_AllowedOperationsImpl(_ value: UWP.DataPackageOperation) throws {
+        public func put_AllowedOperations(_ value: UWP.DataPackageOperation) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_AllowedOperations(pThis, value))
             }
@@ -210,19 +211,19 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDragUIOverride: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride }
 
-        internal func SetContentFromSoftwareBitmapImpl(_ softwareBitmap: UWP.SoftwareBitmap?) throws {
+        public func SetContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap?) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetContentFromSoftwareBitmap(pThis, RawPointer(softwareBitmap)))
             }
         }
 
-        internal func SetContentFromSoftwareBitmapWithAnchorPointImpl(_ softwareBitmap: UWP.SoftwareBitmap?, _ anchorPoint: WindowsFoundation.Point) throws {
+        public func SetContentFromSoftwareBitmapWithAnchorPoint(_ softwareBitmap: UWP.SoftwareBitmap?, _ anchorPoint: WindowsFoundation.Point) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetContentFromSoftwareBitmapWithAnchorPoint(pThis, RawPointer(softwareBitmap), .from(swift: anchorPoint)))
             }
         }
 
-        internal func get_IsContentVisibleImpl() throws -> Bool {
+        public func get_IsContentVisible() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsContentVisible(pThis, &value))
@@ -230,13 +231,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return .init(from: value)
         }
 
-        internal func put_IsContentVisibleImpl(_ value: Bool) throws {
+        public func put_IsContentVisible(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsContentVisible(pThis, .init(from: value)))
             }
         }
 
-        internal func get_CaptionImpl() throws -> String {
+        public func get_Caption() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Caption(pThis, &value))
@@ -244,14 +245,14 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return .init(from: value)
         }
 
-        internal func put_CaptionImpl(_ value: String) throws {
+        public func put_Caption(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Caption(pThis, _value.get()))
             }
         }
 
-        internal func get_IsCaptionVisibleImpl() throws -> Bool {
+        public func get_IsCaptionVisible() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCaptionVisible(pThis, &value))
@@ -259,13 +260,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return .init(from: value)
         }
 
-        internal func put_IsCaptionVisibleImpl(_ value: Bool) throws {
+        public func put_IsCaptionVisible(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsCaptionVisible(pThis, .init(from: value)))
             }
         }
 
-        internal func get_IsGlyphVisibleImpl() throws -> Bool {
+        public func get_IsGlyphVisible() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsGlyphVisible(pThis, &value))
@@ -273,13 +274,13 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return .init(from: value)
         }
 
-        internal func put_IsGlyphVisibleImpl(_ value: Bool) throws {
+        public func put_IsGlyphVisible(_ value: Bool) throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsGlyphVisible(pThis, .init(from: value)))
             }
         }
 
-        internal func ClearImpl() throws {
+        public func Clear() throws {
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.Clear(pThis))
             }
@@ -290,7 +291,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDropOperationTarget: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget }
 
-        open func EnterAsyncImpl(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
+        open func EnterAsync(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
             let (returnValue) = try ComPtrs.initialize { returnValueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.EnterAsync(pThis, RawPointer(dragInfo), RawPointer(dragUIOverride), &returnValueAbi))
@@ -299,7 +300,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackageOperationWrapper.unwrapFrom(abi: returnValue)
         }
 
-        open func OverAsyncImpl(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
+        open func OverAsync(_ dragInfo: UWP.CoreDragInfo?, _ dragUIOverride: UWP.CoreDragUIOverride?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
             let (returnValue) = try ComPtrs.initialize { returnValueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.OverAsync(pThis, RawPointer(dragInfo), RawPointer(dragUIOverride), &returnValueAbi))
@@ -308,7 +309,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackageOperationWrapper.unwrapFrom(abi: returnValue)
         }
 
-        open func LeaveAsyncImpl(_ dragInfo: UWP.CoreDragInfo?) throws -> WindowsFoundation.AnyIAsyncAction? {
+        open func LeaveAsync(_ dragInfo: UWP.CoreDragInfo?) throws -> WindowsFoundation.AnyIAsyncAction? {
             let (returnValue) = try ComPtrs.initialize { returnValueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.LeaveAsync(pThis, RawPointer(dragInfo), &returnValueAbi))
@@ -317,7 +318,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
             return __ABI_Windows_Foundation.IAsyncActionWrapper.unwrapFrom(abi: returnValue)
         }
 
-        open func DropAsyncImpl(_ dragInfo: UWP.CoreDragInfo?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
+        open func DropAsync(_ dragInfo: UWP.CoreDragInfo?) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>? {
             let (returnValue) = try ComPtrs.initialize { returnValueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTarget.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.DropAsync(pThis, RawPointer(dragInfo), &returnValueAbi))
@@ -359,47 +360,47 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
         EnterAsync: {
             do {
                 guard let __unwrapped__instance = ICoreDropOperationTargetWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let dragInfo: UWP.CoreDragInfo? = .from(abi: ComPtr($1))
-                let dragUIOverride: UWP.CoreDragUIOverride? = .from(abi: ComPtr($2))
+                let dragInfo: UWP.CoreDragInfo? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragInfoBridge.from(abi: ComPtr($1))
+                let dragUIOverride: UWP.CoreDragUIOverride? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragUIOverrideBridge.from(abi: ComPtr($2))
                 let returnValue = try __unwrapped__instance.enterAsync(dragInfo, dragUIOverride)
                 let returnValueWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackageOperationWrapper(returnValue)
                 returnValueWrapper?.copyTo($3)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         OverAsync: {
             do {
                 guard let __unwrapped__instance = ICoreDropOperationTargetWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let dragInfo: UWP.CoreDragInfo? = .from(abi: ComPtr($1))
-                let dragUIOverride: UWP.CoreDragUIOverride? = .from(abi: ComPtr($2))
+                let dragInfo: UWP.CoreDragInfo? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragInfoBridge.from(abi: ComPtr($1))
+                let dragUIOverride: UWP.CoreDragUIOverride? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragUIOverrideBridge.from(abi: ComPtr($2))
                 let returnValue = try __unwrapped__instance.overAsync(dragInfo, dragUIOverride)
                 let returnValueWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackageOperationWrapper(returnValue)
                 returnValueWrapper?.copyTo($3)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         LeaveAsync: {
             do {
                 guard let __unwrapped__instance = ICoreDropOperationTargetWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let dragInfo: UWP.CoreDragInfo? = .from(abi: ComPtr($1))
+                let dragInfo: UWP.CoreDragInfo? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragInfoBridge.from(abi: ComPtr($1))
                 let returnValue = try __unwrapped__instance.leaveAsync(dragInfo)
                 let returnValueWrapper = __ABI_Windows_Foundation.IAsyncActionWrapper(returnValue)
                 returnValueWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         DropAsync: {
             do {
                 guard let __unwrapped__instance = ICoreDropOperationTargetWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let dragInfo: UWP.CoreDragInfo? = .from(abi: ComPtr($1))
+                let dragInfo: UWP.CoreDragInfo? = __IMPL_Windows_ApplicationModel_DataTransfer_DragDrop_Core.CoreDragInfoBridge.from(abi: ComPtr($1))
                 let returnValue = try __unwrapped__instance.dropAsync(dragInfo)
                 let returnValueWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackageOperationWrapper(returnValue)
                 returnValueWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 
@@ -407,7 +408,7 @@ public enum __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core {
     public class ICoreDropOperationTargetRequestedEventArgs: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTargetRequestedEventArgs }
 
-        internal func SetTargetImpl(_ target: UWP.AnyICoreDropOperationTarget?) throws {
+        public func SetTarget(_ target: UWP.AnyICoreDropOperationTarget?) throws {
             let targetWrapper = __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDropOperationTargetWrapper(target)
             let _target = try! targetWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTargetRequestedEventArgs.self) { pThis in

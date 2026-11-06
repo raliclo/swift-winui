@@ -32,6 +32,12 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4 __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication __x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication;
@@ -768,6 +774,12 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIAppDisplayInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInfo __x_ABI_CWindows_CApplicationModel_CIAppInfo;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInfo_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
@@ -927,6 +939,39 @@ enum __x_ABI_CWindows_CApplicationModel_CCore_CAppRestartFailureReason
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry3;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AppInfo)(__x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4* This,
+        __x_ABI_CWindows_CApplicationModel_CIAppInfo** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CCore_CIAppListEntry4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CCore_CICoreApplication_INTERFACE_DEFINED__

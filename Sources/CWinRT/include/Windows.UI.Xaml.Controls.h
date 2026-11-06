@@ -568,6 +568,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIWebViewNavigationFailed
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2 __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem;
@@ -609,6 +615,12 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIWebViewNavigationFailed
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics;
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2 __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CICandidateWindowBoundsChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICandidateWindowBoundsChangedEventArgs_FWD_DEFINED__
@@ -1738,6 +1750,18 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIWebViewNavigationFailed
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2 __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory;
@@ -1749,6 +1773,18 @@ typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIWebViewNavigationFailed
     typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics;
 
 #endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2 __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs;
+
+#endif // ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CXaml_CControls_CIHub_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHub_FWD_DEFINED__
@@ -11247,6 +11283,70 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingPanelOpenedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs* This,
+        __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView* sender,
+        __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs* This,
+        __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView* sender,
+        __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CInkToolbar_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CInkToolbar_IInspectable_INTERFACE_DEFINED__
 
@@ -20122,6 +20222,133 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CZoomMode
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedDisabledBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodaySelectedInnerBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodaySelectedInnerBorderBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_BlackoutStrikethroughBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_BlackoutStrikethroughBrush)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_BlackoutBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_BlackoutBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemHoverBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CalendarItemHoverBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemPressedBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CalendarItemPressedBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_CalendarItemDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBlackoutBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayBlackoutBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayHoverBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayHoverBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayPressedBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayPressedBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayDisabledBackground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBlackoutForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_TodayBlackoutForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedHoverForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedHoverForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedPressedForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedPressedForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SelectedDisabledForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_OutOfScopeHoverForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_OutOfScopeHoverForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_OutOfScopePressedForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_OutOfScopePressedForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_DisabledForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_DisabledForeground)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        __x_ABI_CWindows_CUI_CXaml_CMedia_CIBrush* value);
+    HRESULT (STDMETHODCALLTYPE* get_DayItemMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness* value);
+    HRESULT (STDMETHODCALLTYPE* put_DayItemMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* get_MonthYearItemMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness* value);
+    HRESULT (STDMETHODCALLTYPE* put_MonthYearItemMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* get_FirstOfMonthLabelMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness* value);
+    HRESULT (STDMETHODCALLTYPE* put_FirstOfMonthLabelMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* get_FirstOfYearDecadeLabelMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness* value);
+    HRESULT (STDMETHODCALLTYPE* put_FirstOfYearDecadeLabelMargin)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CThickness value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius* value);
+    HRESULT (STDMETHODCALLTYPE* put_CalendarItemCornerRadius)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2* This,
+        struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarView2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItem_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewDayItemVtbl
@@ -20475,6 +20702,85 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CZoomMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodaySelectedInnerBorderBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_BlackoutStrikethroughBrushProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_BlackoutBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemHoverBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemPressedBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemDisabledBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBlackoutBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayHoverBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayPressedBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayDisabledBackgroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_TodayBlackoutForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedHoverForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedPressedForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SelectedDisabledForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_OutOfScopeHoverForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_OutOfScopePressedForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_DisabledForegroundProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_DayItemMarginProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_MonthYearItemMarginProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_FirstOfMonthLabelMarginProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_FirstOfYearDecadeLabelMarginProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CalendarItemCornerRadiusProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICalendarViewStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CICandidateWindowBoundsChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CICandidateWindowBoundsChangedEventArgs_INTERFACE_DEFINED__
@@ -28059,6 +28365,98 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CZoomMode
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsSwitchToKeyboardEnabled)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsSwitchToKeyboardEnabled)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IsCommandBarOpen)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsCommandBarOpen)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_InputDeviceTypes)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes* value);
+    HRESULT (STDMETHODCALLTYPE* put_InputDeviceTypes)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        enum __x_ABI_CWindows_CUI_CCore_CCoreInputDeviceTypes value);
+    HRESULT (STDMETHODCALLTYPE* add_CandidatesChanged)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewCandidatesChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_CandidatesChanged)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TextSubmitted)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingView___x_ABI_CWindows__CUI__CXaml__CControls__CHandwritingViewTextSubmittedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TextSubmitted)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* GetCandidates)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        UINT32 candidatesSessionId,
+        __x_ABI_C__FIVectorView_1_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* SelectCandidate)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2* This,
+        UINT32 candidatesSessionId,
+        UINT32 selectedCandidateIndex);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingView2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CandidatesSessionId)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs* This,
+        UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewCandidatesChangedEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewFactoryVtbl
@@ -28132,6 +28530,72 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CZoomMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics;
 #endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsSwitchToKeyboardEnabledProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsCommandBarOpenProperty)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2* This,
+        __x_ABI_CWindows_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHandwritingViewTextSubmittedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CXaml_CControls_CIHub_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CXaml_CControls_CIHub_INTERFACE_DEFINED__

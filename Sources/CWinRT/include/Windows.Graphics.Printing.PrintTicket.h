@@ -7,6 +7,7 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Windows.Data.Xml.Dom.h"
+#include "Windows.Storage.Streams.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -52,6 +53,12 @@
     typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket;
 
 #endif // ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory;
+
+#endif // ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketValidationResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketValidationResult_FWD_DEFINED__
@@ -292,6 +299,12 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
     typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CStreams_CIInputStream_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CStreams_CIInputStream_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CStreams_CIInputStream __x_ABI_CWindows_CStorage_CStreams_CIInputStream;
+
+#endif // ____x_ABI_CWindows_CStorage_CStreams_CIInputStream_FWD_DEFINED__
 
 typedef enum __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CPrintTicketFeatureSelectionType __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CPrintTicketFeatureSelectionType;
 
@@ -716,6 +729,41 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CPrintTicketValueType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory* This,
+        HSTRING printerName,
+        __x_ABI_CWindows_CStorage_CStreams_CIInputStream* printTicketStream,
+        __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicket** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactoryVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketFactory_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketValidationResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CGraphics_CPrinting_CPrintTicket_CIWorkflowPrintTicketValidationResult_INTERFACE_DEFINED__

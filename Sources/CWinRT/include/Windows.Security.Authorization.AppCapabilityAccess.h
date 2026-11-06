@@ -17,6 +17,12 @@
 
 #endif // ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2 __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2;
+
+#endif // ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs;
@@ -542,6 +548,41 @@ enum __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CAppCapabili
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability;
 #endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DisplayMessage)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_DisplayMessage)(__x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2Vtbl;
+
+    interface __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2;
+#endif /* !defined(____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapability2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSecurity_CAuthorization_CAppCapabilityAccess_CIAppCapabilityAccessChangedEventArgs_INTERFACE_DEFINED__

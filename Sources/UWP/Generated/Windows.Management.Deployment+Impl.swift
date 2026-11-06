@@ -4,5 +4,177 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Windows_Management_Deployment {
+    public enum AddPackageOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = AddPackageOptions
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions>?) -> AddPackageOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum DeploymentResultBridge: AbiBridge {
+        public typealias SwiftProjection = DeploymentResult
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult>?) -> DeploymentResult? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum PackageAllUserProvisioningOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = PackageAllUserProvisioningOptions
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions>?) -> PackageAllUserProvisioningOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum PackageManagerBridge: AbiBridge {
+        public typealias SwiftProjection = PackageManager
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager>?) -> PackageManager? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum PackageManagerDebugSettingsBridge: AbiBridge {
+        public typealias SwiftProjection = PackageManagerDebugSettings
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings>?) -> PackageManagerDebugSettings? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum PackageUserInformationBridge: AbiBridge {
+        public typealias SwiftProjection = PackageUserInformation
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageUserInformation
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageUserInformation>?) -> PackageUserInformation? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum PackageVolumeBridge: AbiBridge {
+        public typealias SwiftProjection = PackageVolume
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume>?) -> PackageVolume? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum RegisterPackageOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = RegisterPackageOptions
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions>?) -> RegisterPackageOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum RemovePackageOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = RemovePackageOptions
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions>?) -> RemovePackageOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum StagePackageOptionsBridge: AbiBridge {
+        public typealias SwiftProjection = StagePackageOptions
+        public typealias CABI = __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions>?) -> StagePackageOptions? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+extension DeploymentProgress: WinRTBridgeable {
+    public typealias ABI = __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
+    public static func from(abi: ABI) -> Self {
+        .init(state: abi.state, percentage: abi.percentage)
+    }
+    public func toABI() -> ABI {
+        .from(swift: self)
+    }
+}
+
+@_spi(WinRTInternal)
+public class AddPackageOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = AddPackageOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return AddPackageOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class DeploymentResultMaker: MakeFromAbi {
+    public typealias SwiftType = DeploymentResult
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return DeploymentResult(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class PackageAllUserProvisioningOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = PackageAllUserProvisioningOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return PackageAllUserProvisioningOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class PackageManagerMaker: MakeFromAbi {
+    public typealias SwiftType = PackageManager
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return PackageManager(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class PackageManagerDebugSettingsMaker: MakeFromAbi {
+    public typealias SwiftType = PackageManagerDebugSettings
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return PackageManagerDebugSettings(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class PackageUserInformationMaker: MakeFromAbi {
+    public typealias SwiftType = PackageUserInformation
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return PackageUserInformation(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class PackageVolumeMaker: MakeFromAbi {
+    public typealias SwiftType = PackageVolume
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return PackageVolume(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class RegisterPackageOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = RegisterPackageOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return RegisterPackageOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class RemovePackageOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = RemovePackageOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return RemovePackageOptions(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class StagePackageOptionsMaker: MakeFromAbi {
+    public typealias SwiftType = StagePackageOptions
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return StagePackageOptions(fromAbi: abi)
+    }
 }

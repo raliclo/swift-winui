@@ -5,7 +5,7 @@ import Foundation
 import CWinRT
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.xmlnsdefinition)
-public struct XmlnsDefinition: Hashable, Codable {
+public struct XmlnsDefinition: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.xmlnsdefinition.xmlnamespace)
     public var xmlNamespace: String = ""
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.xmlnsdefinition.namespace)
@@ -14,9 +14,6 @@ public struct XmlnsDefinition: Hashable, Codable {
     public init(xmlNamespace: String, namespace: String) {
         self.xmlNamespace = xmlNamespace
         self.namespace = namespace
-    }
-    public static func from(abi: __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXmlnsDefinition) -> XmlnsDefinition {
-        .init(xmlNamespace: .init(from: abi.XmlNamespace), namespace: .init(from: abi.Namespace))
     }
 }
 
@@ -58,6 +55,8 @@ public protocol IXamlMetadataProvider : WinRTInterface {
     func getXamlType(_ type: WinUI.TypeName) throws -> WinUI.AnyIXamlType!
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxamltype)
     func getXamlType(_ fullName: String) throws -> WinUI.AnyIXamlType!
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxmlnsdefinitions)
+    func getXmlnsDefinitions() throws -> [WinUI.XmlnsDefinition]
 }
 
 extension IXamlMetadataProvider {

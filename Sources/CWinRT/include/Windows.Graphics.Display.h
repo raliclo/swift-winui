@@ -6,6 +6,7 @@
 #include <EventToken.h>
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
+#include "Windows.Graphics.h"
 #include "Windows.Storage.Streams.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
@@ -124,6 +125,18 @@ typedef interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesEventHa
     typedef interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesStatics __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesStatics;
 
 #endif // ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices;
+
+#endif // ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics;
+
+#endif // ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -604,6 +617,8 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 #endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
 
 typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
+
+typedef struct __x_ABI_CWindows_CGraphics_CDisplayId __x_ABI_CWindows_CGraphics_CDisplayId;
 
 typedef enum __x_ABI_CWindows_CGraphics_CDisplay_CAdvancedColorKind __x_ABI_CWindows_CGraphics_CDisplay_CAdvancedColorKind;
 
@@ -1505,4 +1520,69 @@ struct __x_ABI_CWindows_CGraphics_CDisplay_CNitRange
     
     EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesStatics;
 #endif /* !defined(____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayPropertiesStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServices_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* FindAll)(__x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics* This,
+        UINT32* resultLength,
+        struct __x_ABI_CWindows_CGraphics_CDisplayId** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStaticsVtbl;
+
+    interface __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics;
+#endif /* !defined(____x_ABI_CWindows_CGraphics_CDisplay_CIDisplayServicesStatics_INTERFACE_DEFINED__) */
     

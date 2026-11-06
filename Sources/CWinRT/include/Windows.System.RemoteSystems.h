@@ -2170,6 +2170,7 @@ enum __x_ABI_CWindows_CSystem_CRemoteSystems_CRemoteSystemAuthorizationKind
     {
         __x_ABI_CWindows_CSystem_CRemoteSystems_CRemoteSystemAuthorizationKind_SameUser = 0,
     __x_ABI_CWindows_CSystem_CRemoteSystems_CRemoteSystemAuthorizationKind_Anonymous = 1,
+    __x_ABI_CWindows_CSystem_CRemoteSystems_CRemoteSystemAuthorizationKind_SameFamily = 2,
 };
 
 enum __x_ABI_CWindows_CSystem_CRemoteSystems_CRemoteSystemDiscoveryType

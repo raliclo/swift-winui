@@ -27,6 +27,12 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs;
@@ -110,12 +116,6 @@
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics;
-
-#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_FWD_DEFINED__
@@ -243,6 +243,12 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellLte_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma;
@@ -260,6 +266,18 @@
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation_FWD_DEFINED__
@@ -279,11 +297,23 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandResult_FWD_DEFINED__
@@ -296,6 +326,12 @@
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceDataReceivedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceDataReceivedEventArgs_FWD_DEFINED__
@@ -321,6 +357,12 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem;
@@ -338,6 +380,12 @@
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem3 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem3;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModemConfiguration_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModemConfiguration_FWD_DEFINED__
@@ -459,6 +507,30 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSarManager_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs;
@@ -513,6 +585,18 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3 __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient;
@@ -537,6 +621,12 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2 __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics;
@@ -555,11 +645,23 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4 __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult;
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration;
+
+#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIProvisionFromXmlDocumentResults_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIProvisionFromXmlDocumentResults_FWD_DEFINED__
@@ -2887,6 +2989,90 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CN
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellLte_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellTdscdma_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellTdscdma_INTERFACE_DEFINED__
 
@@ -3476,6 +3662,90 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandPinT
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandRadioStateChange_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandUiccApp_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandUiccApp_INTERFACE_DEFINED__
@@ -4145,6 +4415,56 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandPinT
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellLte_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        UINT32 index,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNRVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellTdscdma_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellTdscdma_INTERFACE_DEFINED__
 
@@ -4495,6 +4815,56 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandPinT
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandRadioStateChange_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        UINT32 index,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandUiccApp_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandUiccApp_INTERFACE_DEFINED__
 
@@ -4702,6 +5072,44 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandPinT
 
     
     #endif // ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIReference_1___z__zint64_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___z__zint64_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___z__zint64 __x_ABI_C__FIReference_1___z__zint64;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___z__zint64;
+
+    typedef struct __x_ABI_C__FIReference_1___z__zint64Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___z__zint64* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___z__zint64* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___z__zint64* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___z__zint64* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___z__zint64* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___z__zint64* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___z__zint64* This,
+        INT64* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___z__zint64Vtbl;
+
+    interface __x_ABI_C__FIReference_1___z__zint64
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___z__zint64Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___z__zint64_INTERFACE_DEFINED__
     
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
@@ -5031,6 +5439,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandAccountWatcher___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandAccountUpdatedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession* sender,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceDataSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceDataReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceDataSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceDataReceivedEventArgs_INTERFACE_DEFINED__
 
@@ -5127,6 +5567,70 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSarManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandTransmissionStateChangedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* sender,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* sender,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CData_CXml_CDom_CIXmlDocument_FWD_DEFINED__
 #define ____x_ABI_CWindows_CData_CXml_CDom_CIXmlDocument_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CData_CXml_CDom_CIXmlDocument __x_ABI_CWindows_CData_CXml_CDom_CIXmlDocument;
@@ -5219,6 +5723,8 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandPinL
 
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandRadioState __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandRadioState;
 
+typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState;
+
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandUiccAppOperationStatus __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandUiccAppOperationStatus;
 
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CNetworkDeviceStatus __x_ABI_CWindows_CNetworking_CNetworkOperators_CNetworkDeviceStatus;
@@ -5236,6 +5742,12 @@ typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringCapability
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus;
 
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState;
+
+typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind;
+
+typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand;
+
+typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority;
 
 typedef enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CUiccAccessCondition __x_ABI_CWindows_CNetworking_CNetworkOperators_CUiccAccessCondition;
 
@@ -5256,6 +5768,8 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Hsdpa = 0x8,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Hsupa = 0x10,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_LteAdvanced = 0x20,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_NewRadioNonStandalone = 0x40,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_NewRadioStandalone = 0x80,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xRtt = 0x10000,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xEvdo = 0x20000,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xEvdoRevA = 0x40000,
@@ -5306,6 +5820,11 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_OperationProhibitedByProfileClass = 21,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileNotPresent = 22,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_NoCorrespondingRequest = 23,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_TimeoutWaitingForResponse = 24,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_IccidAlreadyExists = 25,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileProcessingError = 26,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ServerNotTrusted = 27,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileDownloadMaxRetriesExceeded = 28,
 };
 
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimProfileClass
@@ -5424,6 +5943,20 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandRadioState
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandRadioState_On = 1,
 };
 
+enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState
+    {
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Unmanaged = 0,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Unknown = 1,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_OffEmpty = 2,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Off = 3,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Empty = 4,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_NotReady = 5,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Active = 6,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_Error = 7,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_ActiveEsim = 8,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState_ActiveEsimNoProfile = 9,
+};
+
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandUiccAppOperationStatus
     {
         __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandUiccAppOperationStatus_Success = 0,
@@ -5506,6 +6039,9 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_OperationInProgress = 6,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_BluetoothDeviceOff = 7,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_NetworkLimitedConnectivity = 8,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_AlreadyOn = 9,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_RadioRestriction = 10,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_BandInterference = 11,
 };
 
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState
@@ -5514,6 +6050,27 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState_On = 1,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState_Off = 2,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState_InTransition = 3,
+};
+
+enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind
+    {
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind_Wpa2 = 0,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind_Wpa3TransitionMode = 1,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind_Wpa3 = 2,
+};
+
+enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand
+    {
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand_Auto = 0,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand_TwoPointFourGigahertz = 1,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand_FiveGigahertz = 2,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand_SixGigahertz = 3,
+};
+
+enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority
+    {
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority_Default = 0,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority_TetheringOverStation = 1,
 };
 
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CUiccAccessCondition
@@ -5668,6 +6225,39 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim2;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SlotIndex)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3* This,
+        __x_ABI_C__FIReference_1_int** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESim3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimAddedEventArgs_INTERFACE_DEFINED__
@@ -6227,40 +6817,6 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* RequestUnlockAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-        HSTRING contactListId,
-        __x_ABI_C__FIAsyncOperation_1_boolean** returnValue);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl;
-
-    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics;
-#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_INTERFACE_DEFINED__
@@ -7095,6 +7651,55 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellLte;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellLte_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNRVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CellId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1___z__zint64** value);
+    HRESULT (STDMETHODCALLTYPE* get_ChannelNumber)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* get_PhysicalCellId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* get_ProviderId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ReferenceSignalReceivedPowerInDBm)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_ReferenceSignalReceivedQualityInDBm)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_TimingAdvanceInNanoseconds)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* get_TrackingAreaCode)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* get_SignalToNoiseRatioInDB)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR* This,
+        __x_ABI_C__FIReference_1_double** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNRVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNRVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellNR_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdma_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellTdscdmaVtbl
@@ -7240,6 +7845,74 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_NeighboringCellsNR)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR** value);
+    HRESULT (STDMETHODCALLTYPE* get_ServingCellsNR)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCellNR** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCellsInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CurrentSlotIndex)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs* This,
+        INT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandCurrentSlotIndexChangedEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformationVtbl
@@ -7373,6 +8046,39 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation3;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SlotManager)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceInformation4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceVtbl
@@ -7411,6 +8117,45 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceService_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeviceId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_DeviceServiceId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+        GUID* value);
+    HRESULT (STDMETHODCALLTYPE* get_EventId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_ReceivedData)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs* This,
+        __x_ABI_CWindows_CStorage_CStreams_CIBuffer** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandResult_INTERFACE_DEFINED__
@@ -7486,6 +8231,42 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_CommandReceived)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandSession___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandDeviceServiceCommandEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_CommandReceived)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceCommandSession2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceDataReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceDataReceivedEventArgs_INTERFACE_DEFINED__
@@ -7634,6 +8415,39 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_EventId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2* This,
+        UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandDeviceServiceTriggerDetails2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModemVtbl
@@ -7761,6 +8575,51 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem3;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetIsPassthroughEnabledWithSlotIndexAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+        boolean value,
+        INT32 slotindex,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandModemStatus** operation);
+    HRESULT (STDMETHODCALLTYPE* GetIsPassthroughEnabledWithSlotIndexAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+        INT32 slotindex,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* SetIsPassthroughEnabledWithSlotIndex)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+        boolean value,
+        INT32 slotindex,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandModemStatus* result);
+    HRESULT (STDMETHODCALLTYPE* GetIsPassthroughEnabledWithSlotIndex)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4* This,
+        INT32 slotindex,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModem4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModemConfiguration_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandModemConfiguration_INTERFACE_DEFINED__
@@ -8534,6 +9393,158 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSarManager;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSarManager_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Index)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_State)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandSlotState* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IccId)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SlotInfo)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfo** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotInfoChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SlotInfos)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfo** value);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentSlotIndex)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* SetCurrentSlot)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        INT32 slotIndex,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CMobileBroadbandModemStatus* result);
+    HRESULT (STDMETHODCALLTYPE* SetCurrentSlotAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        INT32 slotIndex,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandModemStatus** operation);
+    HRESULT (STDMETHODCALLTYPE* add_SlotInfoChanged)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotInfoChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_SlotInfoChanged)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_CurrentSlotIndexChanged)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandSlotManager___x_ABI_CWindows__CNetworking__CNetworkOperators__CMobileBroadbandCurrentSlotIndexChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_CurrentSlotIndexChanged)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManagerVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandSlotManager_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIMobileBroadbandTransmissionStateChangedEventArgsVtbl
@@ -8872,6 +9883,88 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsBandSupported)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand band,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsBandSupportedAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand band,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* get_Band)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand* value);
+    HRESULT (STDMETHODCALLTYPE* put_Band)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsAuthenticationKindSupported)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind authenticationKind,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsAuthenticationKindSupportedAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind authenticationKind,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* get_AuthenticationKind)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind* value);
+    HRESULT (STDMETHODCALLTYPE* put_AuthenticationKind)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringAccessPointConfiguration3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClient_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringClientVtbl
@@ -9020,6 +10113,40 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* StartTetheringAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2* This,
+        __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* configuration,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CNetworking__CNetworkOperators__CNetworkOperatorTetheringOperationResult** asyncInfo);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManager2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStaticsVtbl
@@ -9129,6 +10256,45 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics3;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsNoConnectionsTimeoutEnabled)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* EnableNoConnectionsTimeout)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This);
+    HRESULT (STDMETHODCALLTYPE* EnableNoConnectionsTimeoutAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* DisableNoConnectionsTimeout)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This);
+    HRESULT (STDMETHODCALLTYPE* DisableNoConnectionsTimeoutAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4* This,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringManagerStatics4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResultVtbl
@@ -9163,6 +10329,69 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringOperationResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfigurationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Ssid)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Ssid)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Passphrase)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Passphrase)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* IsBandSupported)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand band,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsBandSupportedAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand band,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* get_Band)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand* value);
+    HRESULT (STDMETHODCALLTYPE* put_Band)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiBand value);
+    HRESULT (STDMETHODCALLTYPE* IsAuthenticationKindSupported)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind authenticationKind,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsAuthenticationKindSupportedAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind authenticationKind,
+        __x_ABI_C__FIAsyncOperation_1_boolean** operation);
+    HRESULT (STDMETHODCALLTYPE* get_AuthenticationKind)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind* value);
+    HRESULT (STDMETHODCALLTYPE* put_AuthenticationKind)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiAuthenticationKind value);
+    HRESULT (STDMETHODCALLTYPE* get_PerformancePriority)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority* value);
+    HRESULT (STDMETHODCALLTYPE* put_PerformancePriority)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration* This,
+        enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringWiFiPerformancePriority value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfigurationVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfigurationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CINetworkOperatorTetheringSessionAccessPointConfiguration_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIProvisionFromXmlDocumentResults_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIProvisionFromXmlDocumentResults_INTERFACE_DEFINED__

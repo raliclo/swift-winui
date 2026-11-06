@@ -53,11 +53,29 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2 __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation __x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIBounceScalarNaturalMotionAnimation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIBounceScalarNaturalMotionAnimation_FWD_DEFINED__
@@ -76,6 +94,12 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIBounceVector3NaturalMotionAnimation __x_ABI_CWindows_CUI_CComposition_CIBounceVector3NaturalMotionAnimation;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIBounceVector3NaturalMotionAnimation_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIColorKeyFrameAnimation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIColorKeyFrameAnimation_FWD_DEFINED__
@@ -239,6 +263,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush __x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush;
@@ -323,6 +353,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4 __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionLight_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionLight_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionLight __x_ABI_CWindows_CUI_CComposition_CICompositionLight;
@@ -400,6 +436,12 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionObject4 __x_ABI_CWindows_CUI_CComposition_CICompositionObject4;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionObject4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionObject5 __x_ABI_CWindows_CUI_CComposition_CICompositionObject5;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionObjectFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionObjectFactory_FWD_DEFINED__
@@ -533,6 +575,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionSpriteShape_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionSurface_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionSurface_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionSurface __x_ABI_CWindows_CUI_CComposition_CICompositionSurface;
@@ -557,6 +605,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceBrush3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionTarget_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTarget_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionTarget __x_ABI_CWindows_CUI_CComposition_CICompositionTarget;
@@ -568,6 +622,18 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionTargetFactory __x_ABI_CWindows_CUI_CComposition_CICompositionTargetFactory;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionTargetFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionTexture __x_ABI_CWindows_CUI_CComposition_CICompositionTexture;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositionTransform_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTransform_FWD_DEFINED__
@@ -641,11 +707,29 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositor6_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositor7_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositor7_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositor7 __x_ABI_CWindows_CUI_CComposition_CICompositor7;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositor7_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositor8_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositor8_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositor8 __x_ABI_CWindows_CUI_CComposition_CICompositor8;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositor8_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositorStatics __x_ABI_CWindows_CUI_CComposition_CICompositorStatics;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CICompositorWithProjectedShadow_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CICompositorWithProjectedShadow_FWD_DEFINED__
@@ -683,6 +767,18 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CICubicBezierEasingFunction_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIDistantLight_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIDistantLight_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIDistantLight __x_ABI_CWindows_CUI_CComposition_CIDistantLight;
@@ -706,6 +802,18 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIDropShadow2 __x_ABI_CWindows_CUI_CComposition_CIDropShadow2;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIDropShadow2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIExpressionAnimation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIExpressionAnimation_FWD_DEFINED__
@@ -803,11 +911,23 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIPointLight3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation __x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIRectangleClip __x_ABI_CWindows_CUI_CComposition_CIRectangleClip;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIRedirectVisual_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIRedirectVisual_FWD_DEFINED__
@@ -844,6 +964,12 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIShapeVisual __x_ABI_CWindows_CUI_CComposition_CIShapeVisual;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIShapeVisual_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CISineEasingFunction __x_ABI_CWindows_CUI_CComposition_CISineEasingFunction;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CISpotLight_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CISpotLight_FWD_DEFINED__
@@ -953,6 +1079,18 @@
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIVisual2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisual3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIVisual3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisual3 __x_ABI_CWindows_CUI_CComposition_CIVisual3;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIVisual3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisual4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIVisual4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisual4 __x_ABI_CWindows_CUI_CComposition_CIVisual4;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIVisual4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisualCollection_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIVisualCollection_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisualCollection __x_ABI_CWindows_CUI_CComposition_CIVisualCollection;
@@ -964,6 +1102,12 @@
     typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisualElement __x_ABI_CWindows_CUI_CComposition_CIVisualElement;
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIVisualElement_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CComposition_CIVisualElement2 __x_ABI_CWindows_CUI_CComposition_CIVisualElement2;
+
+#endif // ____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CComposition_CIVisualFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CComposition_CIVisualFactory_FWD_DEFINED__
@@ -981,6 +1125,82 @@
 
 // Collection interface definitions
 
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionSurface** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurfaceVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1_float_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1_float_INTERFACE_DEFINED__
 
@@ -2670,11 +2890,19 @@ typedef struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 __x_ABI_CWindows_
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CComposition__CCompositionGraphicsDevice___x_ABI_CWindows__CUI__CComposition__CRenderingDeviceReplacedEventArgs_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CFoundation_CIAsyncAction __x_ABI_CWindows_CFoundation_CIAsyncAction;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
@@ -2696,11 +2924,15 @@ typedef struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion __x_ABI_CWindo
 
 typedef struct __x_ABI_CWindows_CFoundation_CNumerics_CVector4 __x_ABI_CWindows_CFoundation_CNumerics_CVector4;
 
+typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
+
 typedef struct __x_ABI_CWindows_CFoundation_CSize __x_ABI_CWindows_CFoundation_CSize;
 
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
 typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode;
+
+typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace;
 
 typedef enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat;
 
@@ -2768,6 +3000,8 @@ typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionCompositeMode __x_ABI
 
 typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionDropShadowSourcePolicy __x_ABI_CWindows_CUI_CComposition_CCompositionDropShadowSourcePolicy;
 
+typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode;
+
 typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionEffectFactoryLoadStatus __x_ABI_CWindows_CUI_CComposition_CCompositionEffectFactoryLoadStatus;
 
 typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionGetValueStatus __x_ABI_CWindows_CUI_CComposition_CCompositionGetValueStatus;
@@ -2781,6 +3015,8 @@ typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionStretch __x_ABI_CWind
 typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeCap __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeCap;
 
 typedef enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin;
+
+typedef struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint;
 
 enum __x_ABI_CWindows_CUI_CComposition_CAnimationControllerProgressBehavior
     {
@@ -2883,6 +3119,13 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionDropShadowSourcePolicy
     __x_ABI_CWindows_CUI_CComposition_CCompositionDropShadowSourcePolicy_InheritFromVisualContent = 1,
 };
 
+enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode
+    {
+        __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode_In = 0,
+    __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode_Out = 1,
+    __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode_InOut = 2,
+};
+
 enum __x_ABI_CWindows_CUI_CComposition_CCompositionEffectFactoryLoadStatus
     {
         __x_ABI_CWindows_CUI_CComposition_CCompositionEffectFactoryLoadStatus_Success = 0,
@@ -2933,6 +3176,12 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin_Bevel = 1,
     __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin_Round = 2,
     __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin_MiterOrBevel = 3,
+};
+
+struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
+    {
+        struct __x_ABI_CWindows_CFoundation_CPoint Point;
+    FLOAT Radius;
 };
 
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIAmbientLight_INTERFACE_DEFINED__)
@@ -3154,6 +3403,76 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetResolvedCompositionObject)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionObject** result);
+    HRESULT (STDMETHODCALLTYPE* GetResolvedCompositionObjectProperty)(__x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2* This,
+        HSTRING* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+    HRESULT (STDMETHODCALLTYPE* get_Amplitude)(__x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction* This,
+        FLOAT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimationVtbl
@@ -3187,6 +3506,43 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIBooleanKeyFrameAnimation_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+    HRESULT (STDMETHODCALLTYPE* get_Bounces)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Bounciness)(__x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction* This,
+        FLOAT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIBounceScalarNaturalMotionAnimation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIBounceScalarNaturalMotionAnimation_INTERFACE_DEFINED__
@@ -3304,6 +3660,39 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIBounceVector3NaturalMotionAnimation;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIBounceVector3NaturalMotionAnimation_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIColorKeyFrameAnimation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIColorKeyFrameAnimation_INTERFACE_DEFINED__
@@ -3756,9 +4145,9 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* AreEffectsSupported)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
-        boolean* value);
+        boolean* result);
     HRESULT (STDMETHODCALLTYPE* AreEffectsFast)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
-        boolean* value);
+        boolean* result);
     HRESULT (STDMETHODCALLTYPE* add_Changed)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CComposition__CCompositionCapabilities_IInspectable* handler,
         EventRegistrationToken* token);
@@ -3796,7 +4185,7 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStatics* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStatics* This,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities** current);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStaticsVtbl;
@@ -4286,6 +4675,87 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionFactory;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionFactory_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateCubicBezierEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 controlPoint1,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 controlPoint2,
+        __x_ABI_CWindows_CUI_CComposition_CICubicBezierEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateLinearEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        __x_ABI_CWindows_CUI_CComposition_CILinearEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateStepEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        __x_ABI_CWindows_CUI_CComposition_CIStepEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateStepEasingFunctionWithStepCount)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        INT32 stepCount,
+        __x_ABI_CWindows_CUI_CComposition_CIStepEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateBackEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        FLOAT amplitude,
+        __x_ABI_CWindows_CUI_CComposition_CIBackEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateBounceEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        INT32 bounces,
+        FLOAT bounciness,
+        __x_ABI_CWindows_CUI_CComposition_CIBounceEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateCircleEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        __x_ABI_CWindows_CUI_CComposition_CICircleEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateElasticEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        INT32 oscillations,
+        FLOAT springiness,
+        __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateExponentialEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        FLOAT exponent,
+        __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreatePowerEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        FLOAT power,
+        __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction** result);
+    HRESULT (STDMETHODCALLTYPE* CreateSineEasingFunction)(__x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* owner,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode mode,
+        __x_ABI_CWindows_CUI_CComposition_CISineEasingFunction** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionEasingFunctionStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrush_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionEffectBrushVtbl
@@ -4413,7 +4883,7 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameterFactory* This,
         HSTRING name,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameter** instance);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameter** value);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameterFactoryVtbl;
@@ -4832,6 +5302,44 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CaptureAsync)(__x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4* This,
+        __x_ABI_CWindows_CUI_CComposition_CIVisual* captureVisual,
+        struct __x_ABI_CWindows_CGraphics_CSizeInt32 size,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat pixelFormat,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode alphaMode,
+        FLOAT sdrBoost,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CUI__CComposition__CICompositionSurface** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionGraphicsDevice4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionLight_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionLight_INTERFACE_DEFINED__
@@ -5361,6 +5869,41 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionObject4;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionObject4_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionObject5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* StartAnimationWithController)(__x_ABI_CWindows_CUI_CComposition_CICompositionObject5* This,
+        HSTRING propertyName,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionAnimation* animation,
+        __x_ABI_CWindows_CUI_CComposition_CIAnimationController* animationController);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionObject5Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionObject5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionObject5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionObject5;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionObject5_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionObjectFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionObjectFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionObjectFactoryVtbl
@@ -5481,7 +6024,7 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CUI_CComposition_CICompositionPathFactory* This,
         __x_ABI_CWindows_CGraphics_CIGeometrySource2D* source,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionPath** result);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionPath** value);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionPathFactoryVtbl;
@@ -6290,6 +6833,41 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionSpriteShape;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSpriteShape_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdropVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SystemBackdrop)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionBrush** value);
+    HRESULT (STDMETHODCALLTYPE* put_SystemBackdrop)(__x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionBrush* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdropVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdropVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSupportsSystemBackdrop_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSurface_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionSurface_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceVtbl
@@ -6466,6 +7044,39 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceBrush3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceBrush3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacadeVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetRealSurface)(__x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionSurface** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacadeVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacadeVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionSurfaceFacade_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTarget_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTarget_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionTargetVtbl
@@ -6531,6 +7142,80 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionTargetFactory;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTargetFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionTextureVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SourceRect)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* value);
+    HRESULT (STDMETHODCALLTYPE* put_SourceRect)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32 value);
+    HRESULT (STDMETHODCALLTYPE* get_AlphaMode)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_AlphaMode)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode value);
+    HRESULT (STDMETHODCALLTYPE* get_ColorSpace)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace* value);
+    HRESULT (STDMETHODCALLTYPE* put_ColorSpace)(__x_ABI_CWindows_CUI_CComposition_CICompositionTexture* This,
+        enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionTextureVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionTexture
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionTextureVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionTexture;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTexture_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactoryVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTextureFactory_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositionTransform_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositionTransform_INTERFACE_DEFINED__
@@ -7041,7 +7726,7 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     HRESULT (STDMETHODCALLTYPE* CreateViewBox)(__x_ABI_CWindows_CUI_CComposition_CICompositor5* This,
         __x_ABI_CWindows_CUI_CComposition_CICompositionViewBox** result);
     HRESULT (STDMETHODCALLTYPE* RequestCommitAsync)(__x_ABI_CWindows_CUI_CComposition_CICompositor5* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** action);
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositor5Vtbl;
@@ -7098,6 +7783,92 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositor6;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositor6_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositor7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositor7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositor7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DispatcherQueue)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+        __x_ABI_CWindows_CSystem_CIDispatcherQueue** value);
+    HRESULT (STDMETHODCALLTYPE* CreateAnimationPropertyInfo)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+        __x_ABI_CWindows_CUI_CComposition_CIAnimationPropertyInfo** result);
+    HRESULT (STDMETHODCALLTYPE* CreateRectangleClip)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+        __x_ABI_CWindows_CUI_CComposition_CIRectangleClip** result);
+    HRESULT (STDMETHODCALLTYPE* CreateRectangleClipWithSides)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+        FLOAT left,
+        FLOAT top,
+        FLOAT right,
+        FLOAT bottom,
+        __x_ABI_CWindows_CUI_CComposition_CIRectangleClip** result);
+    HRESULT (STDMETHODCALLTYPE* CreateRectangleClipWithSidesAndRadius)(__x_ABI_CWindows_CUI_CComposition_CICompositor7* This,
+        FLOAT left,
+        FLOAT top,
+        FLOAT right,
+        FLOAT bottom,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 topLeftRadius,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 topRightRadius,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 bottomRightRadius,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 bottomLeftRadius,
+        __x_ABI_CWindows_CUI_CComposition_CIRectangleClip** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositor7Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositor7
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositor7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositor7;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositor7_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositor8_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositor8_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositor8Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateAnimationController)(__x_ABI_CWindows_CUI_CComposition_CICompositor8* This,
+        __x_ABI_CWindows_CUI_CComposition_CIAnimationController** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositor8Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositor8
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositor8Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositor8;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositor8_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositorStaticsVtbl
@@ -7132,6 +7903,39 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositorStatics;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositorStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrushVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryCreateBlurredWallpaperBackdropBrush)(__x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionBackdropBrush** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrushVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrushVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICompositorWithBlurredWallpaperBackdropBrush_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CICompositorWithProjectedShadow_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CICompositorWithProjectedShadow_INTERFACE_DEFINED__
@@ -7335,6 +8139,89 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CICubicBezierEasingFunction;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CICubicBezierEasingFunction_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* AddTrailPoints)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+        UINT32 inkPointsLength,
+        struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint* inkPoints,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* AddTrailPointsWithPrediction)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+        UINT32 inkPointsLength,
+        struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint* inkPoints,
+        UINT32 predictedInkPointsLength,
+        struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint* predictedInkPoints,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* RemoveTrailPoints)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+        UINT32 generationId);
+    HRESULT (STDMETHODCALLTYPE* StartNewTrail)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual* This,
+        struct __x_ABI_CWindows_CUI_CColor color);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* compositor,
+        __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual** result);
+    HRESULT (STDMETHODCALLTYPE* CreateForSwapChain)(__x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics* This,
+        __x_ABI_CWindows_CUI_CComposition_CICompositor* compositor,
+        __x_ABI_CWindows_CUI_CComposition_CICompositionSurface* swapChain,
+        __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisual** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIDelegatedInkTrailVisualStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIDistantLight_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIDistantLight_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CIDistantLightVtbl
@@ -7498,6 +8385,78 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIDropShadow2;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIDropShadow2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+    HRESULT (STDMETHODCALLTYPE* get_Oscillations)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Springiness)(__x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction* This,
+        FLOAT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIElasticEasingFunction_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+    HRESULT (STDMETHODCALLTYPE* get_Exponent)(__x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction* This,
+        FLOAT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIExponentialEasingFunction_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIExpressionAnimation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIExpressionAnimation_INTERFACE_DEFINED__
@@ -8115,6 +9074,41 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIPointLight3;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIPointLight3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+    HRESULT (STDMETHODCALLTYPE* get_Power)(__x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction* This,
+        FLOAT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIPowerEasingFunction_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimationVtbl
@@ -8152,6 +9146,69 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIQuaternionKeyFrameAnimation_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIRectangleClipVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Bottom)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_Bottom)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_BottomLeftRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2* value);
+    HRESULT (STDMETHODCALLTYPE* put_BottomLeftRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 value);
+    HRESULT (STDMETHODCALLTYPE* get_BottomRightRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2* value);
+    HRESULT (STDMETHODCALLTYPE* put_BottomRightRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 value);
+    HRESULT (STDMETHODCALLTYPE* get_Left)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_Left)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_Right)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_Right)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_Top)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT* value);
+    HRESULT (STDMETHODCALLTYPE* put_Top)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        FLOAT value);
+    HRESULT (STDMETHODCALLTYPE* get_TopLeftRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2* value);
+    HRESULT (STDMETHODCALLTYPE* put_TopLeftRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 value);
+    HRESULT (STDMETHODCALLTYPE* get_TopRightRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2* value);
+    HRESULT (STDMETHODCALLTYPE* put_TopRightRadius)(__x_ABI_CWindows_CUI_CComposition_CIRectangleClip* This,
+        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIRectangleClipVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIRectangleClip
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIRectangleClipVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIRectangleClip;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIRectangleClip_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIRedirectVisual_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIRedirectVisual_INTERFACE_DEFINED__
@@ -8369,6 +9426,39 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIShapeVisual;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIShapeVisual_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CISineEasingFunctionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Mode)(__x_ABI_CWindows_CUI_CComposition_CISineEasingFunction* This,
+        enum __x_ABI_CWindows_CUI_CComposition_CCompositionEasingFunctionMode* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CISineEasingFunctionVtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CISineEasingFunction
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CISineEasingFunctionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CISineEasingFunction;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CISineEasingFunction_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CISpotLight_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CISpotLight_INTERFACE_DEFINED__
@@ -9167,6 +10257,76 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIVisual2;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIVisual2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIVisual3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIVisual3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIVisual3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsHitTestVisible)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsHitTestVisible)(__x_ABI_CWindows_CUI_CComposition_CIVisual3* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIVisual3Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIVisual3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIVisual3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIVisual3;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIVisual3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIVisual4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIVisual4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIVisual4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPixelSnappingEnabled)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsPixelSnappingEnabled)(__x_ABI_CWindows_CUI_CComposition_CIVisual4* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIVisual4Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIVisual4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIVisual4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIVisual4;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIVisual4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIVisualCollection_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIVisualCollection_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CComposition_CIVisualCollectionVtbl
@@ -9243,6 +10403,39 @@ enum __x_ABI_CWindows_CUI_CComposition_CCompositionStrokeLineJoin
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIVisualElement;
 #endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIVisualElement_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CComposition_CIVisualElement2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetVisualInternal)(__x_ABI_CWindows_CUI_CComposition_CIVisualElement2* This,
+        __x_ABI_CWindows_CUI_CComposition_CIVisual** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CComposition_CIVisualElement2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CComposition_CIVisualElement2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CComposition_CIVisualElement2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CComposition_CIVisualElement2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CComposition_CIVisualElement2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CComposition_CIVisualFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CComposition_CIVisualFactory_INTERFACE_DEFINED__

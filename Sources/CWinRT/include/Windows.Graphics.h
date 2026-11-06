@@ -24,6 +24,11 @@ struct __x_ABI_CWindows_CGraphics_CDisplayAdapterId
     INT32 HighPart;
 };
 
+struct __x_ABI_CWindows_CGraphics_CDisplayId
+    {
+        UINT64 Value;
+};
+
 struct __x_ABI_CWindows_CGraphics_CPointInt32
     {
         INT32 X;

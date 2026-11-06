@@ -616,12 +616,6 @@
 
 #endif // ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionResourceDictionary_FWD_DEFINED__
 
-#ifndef ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_FWD_DEFINED__
-#define ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_FWD_DEFINED__
-    typedef interface __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions;
-
-#endif // ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_FWD_DEFINED__
-
 #ifndef ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics_FWD_DEFINED__
 #define ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics;
@@ -3053,6 +3047,12 @@ typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape __x_ABI_CMicr
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CProvider_CIValueProvider_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDataTemplateSelector_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDataTemplateSelector_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDataTemplateSelector __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDataTemplateSelector;
@@ -3340,6 +3340,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIDragStart
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CISelectorItem_FWD_DEFINED__
 
 typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CRichEditClipboardFormat __x_ABI_CMicrosoft_CUI_CXaml_CControls_CRichEditClipboardFormat;
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition_FWD_DEFINED__
 
 typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius;
 
@@ -7857,37 +7863,6 @@ enum __x_ABI_CXamlToolkit_CWinUI_CControls_CThumbPosition
     EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionResourceDictionary;
 #endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionResourceDictionary_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_INTERFACE_DEFINED__)
-    #define ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions* This,
-            TrustLevel* trustLevel);
-    
-        END_INTERFACE
-    } __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsVtbl;
-
-    interface __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions
-    {
-        CONST_VTBL struct __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions;
-#endif /* !defined(____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensions_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CXamlToolkit_CWinUI_CControls_CIStyleExtensionsStaticsVtbl
@@ -8002,10 +7977,12 @@ enum __x_ABI_CXamlToolkit_CWinUI_CControls_CThumbPosition
         HSTRING* value);
     HRESULT (STDMETHODCALLTYPE* put_QueryText)(__x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgs* This,
         HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgs* This,
-        __x_ABI_CWindows_CFoundation_CIDeferral** result);
     HRESULT (STDMETHODCALLTYPE* get_Cancel)(__x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgs* This,
         boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_Cancel)(__x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgs* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
 
         END_INTERFACE
     } __x_ABI_CXamlToolkit_CWinUI_CControls_CISuggestionRequestedEventArgsVtbl;
@@ -8966,6 +8943,18 @@ enum __x_ABI_CXamlToolkit_CWinUI_CControls_CThumbPosition
         __x_ABI_C__FIReference_1_boolean* value);
     HRESULT (STDMETHODCALLTYPE* GetAutoLayout)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIUniformGridStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIFrameworkElement* element,
+        __x_ABI_C__FIReference_1_boolean** result);
+    HRESULT (STDMETHODCALLTYPE* SetAutoLayout2)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIUniformGridStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition* element,
+        __x_ABI_C__FIReference_1_boolean* value);
+    HRESULT (STDMETHODCALLTYPE* GetAutoLayout2)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIUniformGridStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIRowDefinition* element,
+        __x_ABI_C__FIReference_1_boolean** result);
+    HRESULT (STDMETHODCALLTYPE* SetAutoLayout3)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIUniformGridStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition* element,
+        __x_ABI_C__FIReference_1_boolean* value);
+    HRESULT (STDMETHODCALLTYPE* GetAutoLayout3)(__x_ABI_CXamlToolkit_CWinUI_CControls_CIUniformGridStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIColumnDefinition* element,
         __x_ABI_C__FIReference_1_boolean** result);
 
         END_INTERFACE

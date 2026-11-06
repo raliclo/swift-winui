@@ -6,8 +6,10 @@
 #include <EventToken.h>
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
+#include "Windows.Devices.Enumeration.h"
 #include "Windows.Media.Capture.h"
 #include "Windows.Media.Devices.Core.h"
+#include "Windows.Media.Effects.h"
 #include "Windows.Media.MediaProperties.h"
 #include "Windows.Storage.Streams.h"
 // Importing Collections header
@@ -56,6 +58,18 @@ typedef interface __x_ABI_CWindows_CMedia_CDevices_CIRedialRequestedEventHandler
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10 __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11 __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2 __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2;
@@ -92,11 +106,29 @@ typedef interface __x_ABI_CWindows_CMedia_CDevices_CIRedialRequestedEventHandler
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController7_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8 __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9 __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController;
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2 __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceModule_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceModule_FWD_DEFINED__
@@ -134,6 +166,24 @@ typedef interface __x_ABI_CWindows_CMedia_CDevices_CIRedialRequestedEventHandler
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CICallControlStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs __x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs;
@@ -145,6 +195,24 @@ typedef interface __x_ABI_CWindows_CMedia_CDevices_CIRedialRequestedEventHandler
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CIDialRequestedEventArgs __x_ABI_CWindows_CMedia_CDevices_CIDialRequestedEventArgs;
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CIDialRequestedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIExposureCompensationControl_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIExposureCompensationControl_FWD_DEFINED__
@@ -271,6 +339,12 @@ typedef interface __x_ABI_CWindows_CMedia_CDevices_CIRedialRequestedEventHandler
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CIOpticalImageStabilizationControl __x_ABI_CWindows_CMedia_CDevices_CIOpticalImageStabilizationControl;
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CIOpticalImageStabilizationControl_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl;
+
+#endif // ____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CDevices_CIPhotoConfirmationControl_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CDevices_CIPhotoConfirmationControl_FWD_DEFINED__
@@ -777,6 +851,90 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CCaptureSceneMode __x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CCaptureSceneMode_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
     
 typedef enum __x_ABI_CWindows_CMedia_CDevices_CFocusMode __x_ABI_CWindows_CMedia_CDevices_CFocusMode;
 
@@ -1926,6 +2084,56 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode __x_ABI_CWindo
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CCaptureSceneMode_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        UINT32 index,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapabilityVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CFocusMode_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CFocusMode_INTERFACE_DEFINED__
 
@@ -2598,6 +2806,40 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode __x_ABI_CWindo
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CAudioDeviceModulesManager___x_ABI_CWindows__CMedia__CDevices__CAudioDeviceModuleNotificationEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs* This,
+        __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* sender,
+        __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__
+    
+typedef enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel __x_ABI_CWindows_CDevices_CEnumeration_CPanel;
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
@@ -2622,6 +2864,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
+typedef enum __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode;
+
 typedef enum __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType;
 
 typedef enum __x_ABI_CWindows_CMedia_CCapture_CPowerlineFrequency __x_ABI_CWindows_CMedia_CCapture_CPowerlineFrequency;
@@ -2631,6 +2875,12 @@ typedef enum __x_ABI_CWindows_CMedia_CCapture_CPowerlineFrequency __x_ABI_CWindo
     typedef interface __x_ABI_CWindows_CMedia_CDevices_CCore_CIVariablePhotoSequenceController __x_ABI_CWindows_CMedia_CDevices_CCore_CIVariablePhotoSequenceController;
 
 #endif // ____x_ABI_CWindows_CMedia_CDevices_CCore_CIVariablePhotoSequenceController_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager;
+
+#endif // ____x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager_FWD_DEFINED__
 
 typedef enum __x_ABI_CWindows_CMedia_CMediaProperties_CMediaPixelFormat __x_ABI_CWindows_CMedia_CMediaProperties_CMediaPixelFormat;
 
@@ -2650,9 +2900,13 @@ typedef enum __x_ABI_CWindows_CMedia_CMediaProperties_CMediaThumbnailFormat __x_
 
 typedef enum __x_ABI_CWindows_CMedia_CDevices_CAudioDeviceRole __x_ABI_CWindows_CMedia_CDevices_CAudioDeviceRole;
 
+typedef enum __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind;
+
 typedef enum __x_ABI_CWindows_CMedia_CDevices_CCaptureUse __x_ABI_CWindows_CMedia_CDevices_CCaptureUse;
 
 typedef enum __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset;
+
+typedef enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode;
 
 typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCaptureFocusState __x_ABI_CWindows_CMedia_CDevices_CMediaCaptureFocusState;
 
@@ -2687,6 +2941,12 @@ enum __x_ABI_CWindows_CMedia_CDevices_CAutoFocusRange
         __x_ABI_CWindows_CMedia_CDevices_CAutoFocusRange_FullRange = 0,
     __x_ABI_CWindows_CMedia_CDevices_CAutoFocusRange_Macro = 1,
     __x_ABI_CWindows_CMedia_CDevices_CAutoFocusRange_Normal = 2,
+};
+
+enum __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind
+    {
+        __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind_Lid = 0,
+    __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind_CameraHardware = 1,
 };
 
 enum __x_ABI_CWindows_CMedia_CDevices_CCameraStreamState
@@ -2731,6 +2991,13 @@ enum __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset
     __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset_Fluorescent = 5,
     __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset_Tungsten = 6,
     __x_ABI_CWindows_CMedia_CDevices_CColorTemperaturePreset_Candlelight = 7,
+};
+
+enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode
+    {
+        __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode_Off = 0,
+    __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode_On = 1,
+    __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode_Auto = 2,
 };
 
 enum __x_ABI_CWindows_CMedia_CDevices_CFocusMode
@@ -3106,6 +3373,74 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CameraOcclusionInfo)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10* This,
+        __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController10_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryAcquireExclusiveControl)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11* This,
+        HSTRING deviceId,
+        enum __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode mode,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController11_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController2Vtbl
@@ -3361,6 +3696,72 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController7;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController7_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PanelBasedOptimizationControl)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8* This,
+        __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController8_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DigitalWindowControl)(__x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9* This,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAdvancedVideoCaptureDeviceController9_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceControllerVtbl
@@ -3399,6 +3800,39 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AudioCaptureEffectsManager)(__x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2* This,
+        __x_ABI_CWindows_CMedia_CEffects_CIAudioCaptureEffectsManager** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceController2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceModule_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIAudioDeviceModule_INTERFACE_DEFINED__
@@ -3663,6 +4097,116 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CICallControlStatics;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CICallControlStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetState)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+        __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState** result);
+    HRESULT (STDMETHODCALLTYPE* IsOcclusionKindSupported)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+        enum __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind occlusionKind,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* add_StateChanged)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionInfo___x_ABI_CWindows__CMedia__CDevices__CCameraOcclusionStateChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_StateChanged)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfoVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfoVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsOccluded)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* IsOcclusionKind)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState* This,
+        enum __x_ABI_CWindows_CMedia_CDevices_CCameraOcclusionKind occlusionKind,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_State)(__x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs* This,
+        __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionState** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CICameraOcclusionStateChangedEventArgs_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CDevices_CIDefaultAudioDeviceChangedEventArgsVtbl
@@ -3731,6 +4275,143 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIDialRequestedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIDialRequestedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBoundsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_NormalizedOriginTop)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_NormalizedOriginTop)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_NormalizedOriginLeft)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_NormalizedOriginLeft)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE value);
+    HRESULT (STDMETHODCALLTYPE* get_Scale)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_Scale)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBoundsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBoundsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapabilityVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Width)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_Height)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MinScaleValue)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxScaleValue)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* get_MinScaleValueWithoutUpsampling)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* get_NormalizedFieldOfViewLimit)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability* This,
+        struct __x_ABI_CWindows_CFoundation_CRect* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapabilityVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapabilityVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControlVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsSupported)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_SupportedModes)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        UINT32* valueLength,
+        enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode** value);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentMode)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode* value);
+    HRESULT (STDMETHODCALLTYPE* GetBounds)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds** result);
+    HRESULT (STDMETHODCALLTYPE* Configure)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode digitalWindowMode);
+    HRESULT (STDMETHODCALLTYPE* ConfigureWithBounds)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        enum __x_ABI_CWindows_CMedia_CDevices_CDigitalWindowMode digitalWindowMode,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowBounds* digitalWindowBounds);
+    HRESULT (STDMETHODCALLTYPE* get_SupportedCapabilities)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CMedia__CDevices__CDigitalWindowCapability** value);
+    HRESULT (STDMETHODCALLTYPE* GetCapabilityForSize)(__x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl* This,
+        INT32 width,
+        INT32 height,
+        __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowCapability** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControlVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControlVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIDigitalWindowControl_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIExposureCompensationControl_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIExposureCompensationControl_INTERFACE_DEFINED__
@@ -4691,6 +5372,43 @@ enum __x_ABI_CWindows_CMedia_CDevices_CZoomTransitionMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIOpticalImageStabilizationControl;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIOpticalImageStabilizationControl_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControlVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsSupported)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_Panel)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+        enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel* value);
+    HRESULT (STDMETHODCALLTYPE* put_Panel)(__x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl* This,
+        enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControlVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControlVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CDevices_CIPanelBasedOptimizationControl_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CDevices_CIPhotoConfirmationControl_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CDevices_CIPhotoConfirmationControl_INTERFACE_DEFINED__

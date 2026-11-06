@@ -45,12 +45,6 @@ public final class AudioTrack : WinRTClass, IMediaTrack {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaTrack>?) -> AudioTrack? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -60,44 +54,44 @@ public final class AudioTrack : WinRTClass, IMediaTrack {
     }
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.id)
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.label)
     public var label : String {
-        get { try! _default.get_LabelImpl() }
-        set { try! _default.put_LabelImpl(newValue) }
+        get { try! _default.get_Label() }
+        set { try! _default.put_Label(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.language)
     public var language : String {
-        get { try! _default.get_LanguageImpl() }
+        get { try! _default.get_Language() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.trackkind)
     public var trackKind : MediaTrackKind {
-        get { try! _default.get_TrackKindImpl() }
+        get { try! _default.get_TrackKind() }
     }
 
     private lazy var _IAudioTrack: __ABI_Windows_Media_Core.IAudioTrack! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.getencodingproperties)
     public func getEncodingProperties() throws -> UWP.AudioEncodingProperties! {
-        try _IAudioTrack.GetEncodingPropertiesImpl()
+        try _IAudioTrack.GetEncodingProperties()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.name)
     public var name : String {
-        get { try! _IAudioTrack.get_NameImpl() }
+        get { try! _IAudioTrack.get_Name() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.playbackitem)
     public var playbackItem : UWP.MediaPlaybackItem! {
-        get { try! _IAudioTrack.get_PlaybackItemImpl() }
+        get { try! _IAudioTrack.get_PlaybackItem() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.supportinfo)
     public var supportInfo : AudioTrackSupportInfo! {
-        get { try! _IAudioTrack.get_SupportInfoImpl() }
+        get { try! _IAudioTrack.get_SupportInfo() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrack.openfailed)
@@ -105,10 +99,10 @@ public final class AudioTrack : WinRTClass, IMediaTrack {
       .init(
         add: { [weak self] in
           guard let this = self?._IAudioTrack else { return .init() }
-          return try! this.add_OpenFailedImpl($0)
+          return try! this.add_OpenFailed($0)
         },
         remove: { [weak self] in
-         try? self?._IAudioTrack.remove_OpenFailedImpl($0)
+         try? self?._IAudioTrack.remove_OpenFailed($0)
        }
       )
     }()
@@ -133,19 +127,13 @@ public final class AudioTrackOpenFailedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIAudioTrackOpenFailedEventArgs>?) -> AudioTrackOpenFailedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotrackopenfailedeventargs.extendederror)
     public var extendedError : HRESULT {
-        get { try! _default.get_ExtendedErrorImpl() }
+        get { try! _default.get_ExtendedError() }
     }
 
     deinit {
@@ -167,34 +155,28 @@ public final class AudioTrackSupportInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIAudioTrackSupportInfo>?) -> AudioTrackSupportInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotracksupportinfo.decoderstatus)
     public var decoderStatus : MediaDecoderStatus {
-        get { try! _default.get_DecoderStatusImpl() }
+        get { try! _default.get_DecoderStatus() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotracksupportinfo.degradation)
     public var degradation : AudioDecoderDegradation {
-        get { try! _default.get_DegradationImpl() }
+        get { try! _default.get_Degradation() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotracksupportinfo.degradationreason)
     public var degradationReason : AudioDecoderDegradationReason {
-        get { try! _default.get_DegradationReasonImpl() }
+        get { try! _default.get_DegradationReason() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.audiotracksupportinfo.mediasourcestatus)
     public var mediaSourceStatus : MediaSourceStatus {
-        get { try! _default.get_MediaSourceStatusImpl() }
+        get { try! _default.get_MediaSourceStatus() }
     }
 
     deinit {
@@ -216,29 +198,24 @@ public final class MediaBinder : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaBinder>?) -> MediaBinder? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Media.Core.MediaBinder")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.Media.Core.MediaBinder")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabinder.source)
     public var source : MediaSource! {
-        get { try! _default.get_SourceImpl() }
+        get { try! _default.get_Source() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabinder.token)
     public var token : String {
-        get { try! _default.get_TokenImpl() }
-        set { try! _default.put_TokenImpl(newValue) }
+        get { try! _default.get_Token() }
+        set { try! _default.put_Token(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabinder.binding)
@@ -246,10 +223,10 @@ public final class MediaBinder : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_BindingImpl($0)
+          return try! this.add_Binding($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_BindingImpl($0)
+         try? self?._default.remove_Binding($0)
        }
       )
     }()
@@ -273,39 +250,33 @@ public final class MediaBindingEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaBindingEventArgs>?) -> MediaBindingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.getdeferral)
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.seturi)
     public func setUri(_ uri: WindowsFoundation.Uri!) throws {
-        try _default.SetUriImpl(uri)
+        try _default.SetUri(uri)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.setstream)
     public func setStream(_ stream: UWP.AnyIRandomAccessStream!, _ contentType: String) throws {
-        try _default.SetStreamImpl(stream, contentType)
+        try _default.SetStream(stream, contentType)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.setstreamreference)
     public func setStreamReference(_ stream: UWP.AnyIRandomAccessStreamReference!, _ contentType: String) throws {
-        try _default.SetStreamReferenceImpl(stream, contentType)
+        try _default.SetStreamReference(stream, contentType)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.mediabinder)
     public var mediaBinder : MediaBinder! {
-        get { try! _default.get_MediaBinderImpl() }
+        get { try! _default.get_MediaBinder() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.canceled)
@@ -313,10 +284,10 @@ public final class MediaBindingEventArgs : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_CanceledImpl($0)
+          return try! this.add_Canceled($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_CanceledImpl($0)
+         try? self?._default.remove_Canceled($0)
        }
       )
     }()
@@ -324,18 +295,18 @@ public final class MediaBindingEventArgs : WinRTClass {
     private lazy var _IMediaBindingEventArgs2: __ABI_Windows_Media_Core.IMediaBindingEventArgs2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.setadaptivemediasource)
     public func setAdaptiveMediaSource(_ mediaSource: UWP.AdaptiveMediaSource!) throws {
-        try _IMediaBindingEventArgs2.SetAdaptiveMediaSourceImpl(mediaSource)
+        try _IMediaBindingEventArgs2.SetAdaptiveMediaSource(mediaSource)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.setstoragefile)
     public func setStorageFile(_ file: UWP.AnyIStorageFile!) throws {
-        try _IMediaBindingEventArgs2.SetStorageFileImpl(file)
+        try _IMediaBindingEventArgs2.SetStorageFile(file)
     }
 
     private lazy var _IMediaBindingEventArgs3: __ABI_Windows_Media_Core.IMediaBindingEventArgs3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediabindingeventargs.setdownloadoperation)
     public func setDownloadOperation(_ downloadOperation: UWP.DownloadOperation!) throws {
-        try _IMediaBindingEventArgs3.SetDownloadOperationImpl(downloadOperation)
+        try _IMediaBindingEventArgs3.SetDownloadOperation(downloadOperation)
     }
 
     deinit {
@@ -359,19 +330,13 @@ public final class MediaCueEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaCueEventArgs>?) -> MediaCueEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediacueeventargs.cue)
     public var cue : AnyIMediaCue! {
-        get { try! _default.get_CueImpl() }
+        get { try! _default.get_Cue() }
     }
 
     deinit {
@@ -393,12 +358,6 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaSource2>?) -> MediaSource? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -406,95 +365,95 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
     override public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
         return super.queryInterface(iid)
     }
-    private static let _IMediaSourceStatics: __ABI_Windows_Media_Core.IMediaSourceStatics = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaSource"))
+    private static let _IMediaSourceStatics: __ABI_Windows_Media_Core.IMediaSourceStatics = try! RoGetActivationFactory("Windows.Media.Core.MediaSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromadaptivemediasource)
-    public static func createFromAdaptiveMediaSource(_ mediaSource: UWP.AdaptiveMediaSource!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromAdaptiveMediaSourceImpl(mediaSource)
+    public static func createFromAdaptiveMediaSource(_ mediaSource: UWP.AdaptiveMediaSource!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromAdaptiveMediaSource(mediaSource)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfrommediastreamsource)
-    public static func createFromMediaStreamSource(_ mediaSource: MediaStreamSource!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromMediaStreamSourceImpl(mediaSource)
+    public static func createFromMediaStreamSource(_ mediaSource: MediaStreamSource!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromMediaStreamSource(mediaSource)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfrommsestreamsource)
-    public static func createFromMseStreamSource(_ mediaSource: MseStreamSource!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromMseStreamSourceImpl(mediaSource)
+    public static func createFromMseStreamSource(_ mediaSource: MseStreamSource!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromMseStreamSource(mediaSource)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromimediasource)
-    public static func createFromIMediaSource(_ mediaSource: AnyIMediaSource!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromIMediaSourceImpl(mediaSource)
+    public static func createFromIMediaSource(_ mediaSource: AnyIMediaSource!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromIMediaSource(mediaSource)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromstoragefile)
-    public static func createFromStorageFile(_ file: UWP.AnyIStorageFile!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromStorageFileImpl(file)
+    public static func createFromStorageFile(_ file: UWP.AnyIStorageFile!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromStorageFile(file)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromstream)
-    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!, _ contentType: String) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromStreamImpl(stream, contentType)
+    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!, _ contentType: String) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromStream(stream, contentType)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromstreamreference)
-    public static func createFromStreamReference(_ stream: UWP.AnyIRandomAccessStreamReference!, _ contentType: String) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromStreamReferenceImpl(stream, contentType)
+    public static func createFromStreamReference(_ stream: UWP.AnyIRandomAccessStreamReference!, _ contentType: String) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromStreamReference(stream, contentType)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromuri)
-    public static func createFromUri(_ uri: WindowsFoundation.Uri!) -> MediaSource! {
-        return try! _IMediaSourceStatics.CreateFromUriImpl(uri)
+    public static func createFromUri(_ uri: WindowsFoundation.Uri!) throws -> MediaSource! {
+        return try _IMediaSourceStatics.CreateFromUri(uri)
     }
 
-    private static let _IMediaSourceStatics2: __ABI_Windows_Media_Core.IMediaSourceStatics2 = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaSource"))
+    private static let _IMediaSourceStatics2: __ABI_Windows_Media_Core.IMediaSourceStatics2 = try! RoGetActivationFactory("Windows.Media.Core.MediaSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfrommediabinder)
-    public static func createFromMediaBinder(_ binder: MediaBinder!) -> MediaSource! {
-        return try! _IMediaSourceStatics2.CreateFromMediaBinderImpl(binder)
+    public static func createFromMediaBinder(_ binder: MediaBinder!) throws -> MediaSource! {
+        return try _IMediaSourceStatics2.CreateFromMediaBinder(binder)
     }
 
-    private static let _IMediaSourceStatics3: __ABI_Windows_Media_Core.IMediaSourceStatics3 = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaSource"))
+    private static let _IMediaSourceStatics3: __ABI_Windows_Media_Core.IMediaSourceStatics3 = try! RoGetActivationFactory("Windows.Media.Core.MediaSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfrommediaframesource)
-    public static func createFromMediaFrameSource(_ frameSource: UWP.MediaFrameSource!) -> MediaSource! {
-        return try! _IMediaSourceStatics3.CreateFromMediaFrameSourceImpl(frameSource)
+    public static func createFromMediaFrameSource(_ frameSource: UWP.MediaFrameSource!) throws -> MediaSource! {
+        return try _IMediaSourceStatics3.CreateFromMediaFrameSource(frameSource)
     }
 
-    private static let _IMediaSourceStatics4: __ABI_Windows_Media_Core.IMediaSourceStatics4 = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaSource"))
+    private static let _IMediaSourceStatics4: __ABI_Windows_Media_Core.IMediaSourceStatics4 = try! RoGetActivationFactory("Windows.Media.Core.MediaSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.createfromdownloadoperation)
-    public static func createFromDownloadOperation(_ downloadOperation: UWP.DownloadOperation!) -> MediaSource! {
-        return try! _IMediaSourceStatics4.CreateFromDownloadOperationImpl(downloadOperation)
+    public static func createFromDownloadOperation(_ downloadOperation: UWP.DownloadOperation!) throws -> MediaSource! {
+        return try _IMediaSourceStatics4.CreateFromDownloadOperation(downloadOperation)
     }
 
     private lazy var _IMediaPlaybackSource: __ABI_Windows_Media_Playback.IMediaPlaybackSource! = getInterfaceForCaching()
     private lazy var _IClosable: __ABI_Windows_Foundation.IClosable! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.close)
     public func close() throws {
-        try _IClosable.CloseImpl()
+        try _IClosable.Close()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.customproperties)
     public var customProperties : WindowsFoundation.ValueSet! {
-        get { try! _default.get_CustomPropertiesImpl() }
+        get { try! _default.get_CustomProperties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.duration)
     public var duration : WindowsFoundation.TimeSpan? {
-        get { try! _default.get_DurationImpl() }
+        get { try! _default.get_Duration() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.externaltimedmetadatatracks)
     public var externalTimedMetadataTracks : WindowsFoundation.AnyIObservableVector<TimedMetadataTrack?>! {
-        get { try! _default.get_ExternalTimedMetadataTracksImpl() }
+        get { try! _default.get_ExternalTimedMetadataTracks() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.externaltimedtextsources)
     public var externalTimedTextSources : WindowsFoundation.AnyIObservableVector<TimedTextSource?>! {
-        get { try! _default.get_ExternalTimedTextSourcesImpl() }
+        get { try! _default.get_ExternalTimedTextSources() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.isopen)
     public var isOpen : Bool {
-        get { try! _default.get_IsOpenImpl() }
+        get { try! _default.get_IsOpen() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.openoperationcompleted)
@@ -502,10 +461,10 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_OpenOperationCompletedImpl($0)
+          return try! this.add_OpenOperationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_OpenOperationCompletedImpl($0)
+         try? self?._default.remove_OpenOperationCompleted($0)
        }
       )
     }()
@@ -513,12 +472,12 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
     private lazy var _IMediaSource3: __ABI_Windows_Media_Core.IMediaSource3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.reset)
     public func reset() throws {
-        try _IMediaSource3.ResetImpl()
+        try _IMediaSource3.Reset()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.state)
     public var state : MediaSourceState {
-        get { try! _IMediaSource3.get_StateImpl() }
+        get { try! _IMediaSource3.get_State() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.statechanged)
@@ -526,10 +485,10 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
       .init(
         add: { [weak self] in
           guard let this = self?._IMediaSource3 else { return .init() }
-          return try! this.add_StateChangedImpl($0)
+          return try! this.add_StateChanged($0)
         },
         remove: { [weak self] in
-         try? self?._IMediaSource3.remove_StateChangedImpl($0)
+         try? self?._IMediaSource3.remove_StateChanged($0)
        }
       )
     }()
@@ -537,33 +496,33 @@ public final class MediaSource : WinRTClass, UWP.IMediaPlaybackSource, WindowsFo
     private lazy var _IMediaSource4: __ABI_Windows_Media_Core.IMediaSource4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.openasync)
     public func openAsync() throws -> WindowsFoundation.AnyIAsyncAction! {
-        try _IMediaSource4.OpenAsyncImpl()
+        try _IMediaSource4.OpenAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.adaptivemediasource)
     public var adaptiveMediaSource : UWP.AdaptiveMediaSource! {
-        get { try! _IMediaSource4.get_AdaptiveMediaSourceImpl() }
+        get { try! _IMediaSource4.get_AdaptiveMediaSource() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.mediastreamsource)
     public var mediaStreamSource : MediaStreamSource! {
-        get { try! _IMediaSource4.get_MediaStreamSourceImpl() }
+        get { try! _IMediaSource4.get_MediaStreamSource() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.msestreamsource)
     public var mseStreamSource : MseStreamSource! {
-        get { try! _IMediaSource4.get_MseStreamSourceImpl() }
+        get { try! _IMediaSource4.get_MseStreamSource() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.uri)
     public var uri : WindowsFoundation.Uri! {
-        get { try! _IMediaSource4.get_UriImpl() }
+        get { try! _IMediaSource4.get_Uri() }
     }
 
     private lazy var _IMediaSource5: __ABI_Windows_Media_Core.IMediaSource5! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasource.downloadoperation)
     public var downloadOperation : UWP.DownloadOperation! {
-        get { try! _IMediaSource5.get_DownloadOperationImpl() }
+        get { try! _IMediaSource5.get_DownloadOperation() }
     }
 
     deinit {
@@ -590,19 +549,13 @@ public final class MediaSourceError : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaSourceError>?) -> MediaSourceError? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasourceerror.extendederror)
     public var extendedError : HRESULT {
-        get { try! _default.get_ExtendedErrorImpl() }
+        get { try! _default.get_ExtendedError() }
     }
 
     deinit {
@@ -624,19 +577,13 @@ public final class MediaSourceOpenOperationCompletedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaSourceOpenOperationCompletedEventArgs>?) -> MediaSourceOpenOperationCompletedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasourceopenoperationcompletedeventargs.error)
     public var error : MediaSourceError! {
-        get { try! _default.get_ErrorImpl() }
+        get { try! _default.get_Error() }
     }
 
     deinit {
@@ -658,24 +605,18 @@ public final class MediaSourceStateChangedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaSourceStateChangedEventArgs>?) -> MediaSourceStateChangedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasourcestatechangedeventargs.newstate)
     public var newState : MediaSourceState {
-        get { try! _default.get_NewStateImpl() }
+        get { try! _default.get_NewState() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediasourcestatechangedeventargs.oldstate)
     public var oldState : MediaSourceState {
-        get { try! _default.get_OldStateImpl() }
+        get { try! _default.get_OldState() }
     }
 
     deinit {
@@ -697,75 +638,69 @@ public final class MediaStreamSample : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSample>?) -> MediaStreamSample? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IMediaStreamSampleStatics: __ABI_Windows_Media_Core.IMediaStreamSampleStatics = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaStreamSample"))
+    private static let _IMediaStreamSampleStatics: __ABI_Windows_Media_Core.IMediaStreamSampleStatics = try! RoGetActivationFactory("Windows.Media.Core.MediaStreamSample")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.createfrombuffer)
-    public static func createFromBuffer(_ buffer: UWP.AnyIBuffer!, _ timestamp: WindowsFoundation.TimeSpan) -> MediaStreamSample! {
-        return try! _IMediaStreamSampleStatics.CreateFromBufferImpl(buffer, timestamp)
+    public static func createFromBuffer(_ buffer: UWP.AnyIBuffer!, _ timestamp: WindowsFoundation.TimeSpan) throws -> MediaStreamSample! {
+        return try _IMediaStreamSampleStatics.CreateFromBuffer(buffer, timestamp)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.createfromstreamasync)
-    public static func createFromStreamAsync(_ stream: UWP.AnyIInputStream!, _ count: UInt32, _ timestamp: WindowsFoundation.TimeSpan) -> WindowsFoundation.AnyIAsyncOperation<MediaStreamSample?>! {
-        return try! _IMediaStreamSampleStatics.CreateFromStreamAsyncImpl(stream, count, timestamp)
+    public static func createFromStreamAsync(_ stream: UWP.AnyIInputStream!, _ count: UInt32, _ timestamp: WindowsFoundation.TimeSpan) throws -> WindowsFoundation.AnyIAsyncOperation<MediaStreamSample?>! {
+        return try _IMediaStreamSampleStatics.CreateFromStreamAsync(stream, count, timestamp)
     }
 
-    private static let _IMediaStreamSampleStatics2: __ABI_Windows_Media_Core.IMediaStreamSampleStatics2 = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaStreamSample"))
+    private static let _IMediaStreamSampleStatics2: __ABI_Windows_Media_Core.IMediaStreamSampleStatics2 = try! RoGetActivationFactory("Windows.Media.Core.MediaStreamSample")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.createfromdirect3d11surface)
-    public static func createFromDirect3D11Surface(_ surface: UWP.AnyIDirect3DSurface!, _ timestamp: WindowsFoundation.TimeSpan) -> MediaStreamSample! {
-        return try! _IMediaStreamSampleStatics2.CreateFromDirect3D11SurfaceImpl(surface, timestamp)
+    public static func createFromDirect3D11Surface(_ surface: UWP.AnyIDirect3DSurface!, _ timestamp: WindowsFoundation.TimeSpan) throws -> MediaStreamSample! {
+        return try _IMediaStreamSampleStatics2.CreateFromDirect3D11Surface(surface, timestamp)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.buffer)
     public var buffer : UWP.Buffer! {
-        get { try! _default.get_BufferImpl() }
+        get { try! _default.get_Buffer() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.decodetimestamp)
     public var decodeTimestamp : WindowsFoundation.TimeSpan {
-        get { try! _default.get_DecodeTimestampImpl() }
-        set { try! _default.put_DecodeTimestampImpl(newValue) }
+        get { try! _default.get_DecodeTimestamp() }
+        set { try! _default.put_DecodeTimestamp(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.discontinuous)
     public var discontinuous : Bool {
-        get { try! _default.get_DiscontinuousImpl() }
-        set { try! _default.put_DiscontinuousImpl(newValue) }
+        get { try! _default.get_Discontinuous() }
+        set { try! _default.put_Discontinuous(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.duration)
     public var duration : WindowsFoundation.TimeSpan {
-        get { try! _default.get_DurationImpl() }
-        set { try! _default.put_DurationImpl(newValue) }
+        get { try! _default.get_Duration() }
+        set { try! _default.put_Duration(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.extendedproperties)
     public var extendedProperties : MediaStreamSamplePropertySet! {
-        get { try! _default.get_ExtendedPropertiesImpl() }
+        get { try! _default.get_ExtendedProperties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.keyframe)
     public var keyFrame : Bool {
-        get { try! _default.get_KeyFrameImpl() }
-        set { try! _default.put_KeyFrameImpl(newValue) }
+        get { try! _default.get_KeyFrame() }
+        set { try! _default.put_KeyFrame(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.protection)
     public var protection : MediaStreamSampleProtectionProperties! {
-        get { try! _default.get_ProtectionImpl() }
+        get { try! _default.get_Protection() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.timestamp)
     public var timestamp : WindowsFoundation.TimeSpan {
-        get { try! _default.get_TimestampImpl() }
+        get { try! _default.get_Timestamp() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.processed)
@@ -773,10 +708,10 @@ public final class MediaStreamSample : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ProcessedImpl($0)
+          return try! this.add_Processed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ProcessedImpl($0)
+         try? self?._default.remove_Processed($0)
        }
       )
     }()
@@ -784,7 +719,7 @@ public final class MediaStreamSample : WinRTClass {
     private lazy var _IMediaStreamSample2: __ABI_Windows_Media_Core.IMediaStreamSample2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsample.direct3d11surface)
     public var direct3D11Surface : UWP.AnyIDirect3DSurface! {
-        get { try! _IMediaStreamSample2.get_Direct3D11SurfaceImpl() }
+        get { try! _IMediaStreamSample2.get_Direct3D11Surface() }
     }
 
     deinit {
@@ -810,12 +745,6 @@ public final class MediaStreamSamplePropertySet : WinRTClass, IMap, IIterable {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_C__FIMap_2_GUID_IInspectable>?) -> MediaStreamSamplePropertySet? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -825,43 +754,43 @@ public final class MediaStreamSamplePropertySet : WinRTClass, IMap, IIterable {
     }
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.lookup)
     public func lookup(_ key: Foundation.UUID) -> Any? {
-        try! _default.LookupImpl(key)
+        try! _default.Lookup(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.haskey)
     public func hasKey(_ key: Foundation.UUID) -> Bool {
-        try! _default.HasKeyImpl(key)
+        try! _default.HasKey(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.getview)
     public func getView() -> WindowsFoundation.AnyIMapView<Foundation.UUID, Any?>? {
-        try! _default.GetViewImpl()
+        try! _default.GetView()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.insert)
     public func insert(_ key: Foundation.UUID, _ value: Any?) -> Bool {
-        try! _default.InsertImpl(key, value)
+        try! _default.Insert(key, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.remove)
     public func remove(_ key: Foundation.UUID) {
-        try! _default.RemoveImpl(key)
+        try! _default.Remove(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.clear)
     public func clear() {
-        try! _default.ClearImpl()
+        try! _default.Clear()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.size)
     public var size : UInt32 {
-        get { try! _default.get_SizeImpl() }
+        get { try! _default.get_Size() }
     }
 
     private lazy var _IIterable: IIterableIKeyValuePairUUID_Any! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsamplepropertyset.first)
     public func first() -> WindowsFoundation.AnyIIterator<WindowsFoundation.AnyIKeyValuePair<Foundation.UUID, Any?>?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     deinit {
@@ -884,14 +813,38 @@ public final class MediaStreamSampleProtectionProperties : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSampleProtectionProperties>?) -> MediaStreamSampleProtectionProperties? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.setkeyidentifier)
+    public func setKeyIdentifier(_ value: [UInt8]) throws {
+        try _default.SetKeyIdentifier(value)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.getkeyidentifier)
+    public func getKeyIdentifier(_ value: inout [UInt8]) throws {
+        try _default.GetKeyIdentifier(&value)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.setinitializationvector)
+    public func setInitializationVector(_ value: [UInt8]) throws {
+        try _default.SetInitializationVector(value)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.getinitializationvector)
+    public func getInitializationVector(_ value: inout [UInt8]) throws {
+        try _default.GetInitializationVector(&value)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.setsubsamplemapping)
+    public func setSubSampleMapping(_ value: [UInt8]) throws {
+        try _default.SetSubSampleMapping(value)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsampleprotectionproperties.getsubsamplemapping)
+    public func getSubSampleMapping(_ value: inout [UInt8]) throws {
+        try _default.GetSubSampleMapping(&value)
     }
 
     deinit {
@@ -913,12 +866,6 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSource>?) -> MediaStreamSource? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -926,69 +873,74 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
     override public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
         return super.queryInterface(iid)
     }
-    private static let _IMediaStreamSourceFactory: __ABI_Windows_Media_Core.IMediaStreamSourceFactory = try! RoGetActivationFactory(HString("Windows.Media.Core.MediaStreamSource"))
+    private static let _IMediaStreamSourceFactory: __ABI_Windows_Media_Core.IMediaStreamSourceFactory = try! RoGetActivationFactory("Windows.Media.Core.MediaStreamSource")
     public init(_ descriptor: AnyIMediaStreamDescriptor!) {
-        super.init(try! Self._IMediaStreamSourceFactory.CreateFromDescriptorImpl(descriptor))
+        super.init(try! Self._IMediaStreamSourceFactory.CreateFromDescriptor(descriptor))
     }
 
     public init(_ descriptor: AnyIMediaStreamDescriptor!, _ descriptor2: AnyIMediaStreamDescriptor!) {
-        super.init(try! Self._IMediaStreamSourceFactory.CreateFromDescriptorsImpl(descriptor, descriptor2))
+        super.init(try! Self._IMediaStreamSourceFactory.CreateFromDescriptors(descriptor, descriptor2))
     }
 
     private lazy var _IMediaSource: __ABI_Windows_Media_Core.IMediaSource! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.notifyerror)
     public func notifyError(_ errorStatus: MediaStreamSourceErrorStatus) throws {
-        try _default.NotifyErrorImpl(errorStatus)
+        try _default.NotifyError(errorStatus)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.addstreamdescriptor)
     public func addStreamDescriptor(_ descriptor: AnyIMediaStreamDescriptor!) throws {
-        try _default.AddStreamDescriptorImpl(descriptor)
+        try _default.AddStreamDescriptor(descriptor)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.setbufferedrange)
     public func setBufferedRange(_ startOffset: WindowsFoundation.TimeSpan, _ endOffset: WindowsFoundation.TimeSpan) throws {
-        try _default.SetBufferedRangeImpl(startOffset, endOffset)
+        try _default.SetBufferedRange(startOffset, endOffset)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.addprotectionkey)
+    public func addProtectionKey(_ streamDescriptor: AnyIMediaStreamDescriptor!, _ keyIdentifier: [UInt8], _ licenseData: [UInt8]) throws {
+        try _default.AddProtectionKey(streamDescriptor, keyIdentifier, licenseData)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.buffertime)
     public var bufferTime : WindowsFoundation.TimeSpan {
-        get { try! _default.get_BufferTimeImpl() }
-        set { try! _default.put_BufferTimeImpl(newValue) }
+        get { try! _default.get_BufferTime() }
+        set { try! _default.put_BufferTime(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.canseek)
     public var canSeek : Bool {
-        get { try! _default.get_CanSeekImpl() }
-        set { try! _default.put_CanSeekImpl(newValue) }
+        get { try! _default.get_CanSeek() }
+        set { try! _default.put_CanSeek(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.duration)
     public var duration : WindowsFoundation.TimeSpan {
-        get { try! _default.get_DurationImpl() }
-        set { try! _default.put_DurationImpl(newValue) }
+        get { try! _default.get_Duration() }
+        set { try! _default.put_Duration(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.mediaprotectionmanager)
     public var mediaProtectionManager : UWP.MediaProtectionManager! {
-        get { try! _default.get_MediaProtectionManagerImpl() }
-        set { try! _default.put_MediaProtectionManagerImpl(newValue) }
+        get { try! _default.get_MediaProtectionManager() }
+        set { try! _default.put_MediaProtectionManager(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.musicproperties)
     public var musicProperties : UWP.MusicProperties! {
-        get { try! _default.get_MusicPropertiesImpl() }
+        get { try! _default.get_MusicProperties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.thumbnail)
     public var thumbnail : UWP.AnyIRandomAccessStreamReference! {
-        get { try! _default.get_ThumbnailImpl() }
-        set { try! _default.put_ThumbnailImpl(newValue) }
+        get { try! _default.get_Thumbnail() }
+        set { try! _default.put_Thumbnail(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.videoproperties)
     public var videoProperties : UWP.VideoProperties! {
-        get { try! _default.get_VideoPropertiesImpl() }
+        get { try! _default.get_VideoProperties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.closed)
@@ -996,10 +948,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ClosedImpl($0)
+          return try! this.add_Closed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ClosedImpl($0)
+         try? self?._default.remove_Closed($0)
        }
       )
     }()
@@ -1009,10 +961,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_PausedImpl($0)
+          return try! this.add_Paused($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_PausedImpl($0)
+         try? self?._default.remove_Paused($0)
        }
       )
     }()
@@ -1022,10 +974,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SampleRequestedImpl($0)
+          return try! this.add_SampleRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SampleRequestedImpl($0)
+         try? self?._default.remove_SampleRequested($0)
        }
       )
     }()
@@ -1035,10 +987,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_StartingImpl($0)
+          return try! this.add_Starting($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_StartingImpl($0)
+         try? self?._default.remove_Starting($0)
        }
       )
     }()
@@ -1048,10 +1000,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SwitchStreamsRequestedImpl($0)
+          return try! this.add_SwitchStreamsRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SwitchStreamsRequestedImpl($0)
+         try? self?._default.remove_SwitchStreamsRequested($0)
        }
       )
     }()
@@ -1062,10 +1014,10 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._IMediaStreamSource2 else { return .init() }
-          return try! this.add_SampleRenderedImpl($0)
+          return try! this.add_SampleRendered($0)
         },
         remove: { [weak self] in
-         try? self?._IMediaStreamSource2.remove_SampleRenderedImpl($0)
+         try? self?._IMediaStreamSource2.remove_SampleRendered($0)
        }
       )
     }()
@@ -1073,15 +1025,15 @@ public final class MediaStreamSource : WinRTClass, IMediaSource {
     private lazy var _IMediaStreamSource3: __ABI_Windows_Media_Core.IMediaStreamSource3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.maxsupportedplaybackrate)
     public var maxSupportedPlaybackRate : Double? {
-        get { try! _IMediaStreamSource3.get_MaxSupportedPlaybackRateImpl() }
-        set { try! _IMediaStreamSource3.put_MaxSupportedPlaybackRateImpl(newValue) }
+        get { try! _IMediaStreamSource3.get_MaxSupportedPlaybackRate() }
+        set { try! _IMediaStreamSource3.put_MaxSupportedPlaybackRate(newValue) }
     }
 
     private lazy var _IMediaStreamSource4: __ABI_Windows_Media_Core.IMediaStreamSource4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsource.islive)
     public var isLive : Bool {
-        get { try! _IMediaStreamSource4.get_IsLiveImpl() }
-        set { try! _IMediaStreamSource4.put_IsLiveImpl(newValue) }
+        get { try! _IMediaStreamSource4.get_IsLive() }
+        set { try! _IMediaStreamSource4.put_IsLive(newValue) }
     }
 
     deinit {
@@ -1107,19 +1059,13 @@ public final class MediaStreamSourceClosedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceClosedEventArgs>?) -> MediaStreamSourceClosedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceclosedeventargs.request)
     public var request : MediaStreamSourceClosedRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     deinit {
@@ -1141,19 +1087,13 @@ public final class MediaStreamSourceClosedRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceClosedRequest>?) -> MediaStreamSourceClosedRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceclosedrequest.reason)
     public var reason : MediaStreamSourceClosedReason {
-        get { try! _default.get_ReasonImpl() }
+        get { try! _default.get_Reason() }
     }
 
     deinit {
@@ -1175,19 +1115,13 @@ public final class MediaStreamSourceSampleRenderedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSampleRenderedEventArgs>?) -> MediaStreamSourceSampleRenderedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerenderedeventargs.samplelag)
     public var sampleLag : WindowsFoundation.TimeSpan {
-        get { try! _default.get_SampleLagImpl() }
+        get { try! _default.get_SampleLag() }
     }
 
     deinit {
@@ -1209,35 +1143,29 @@ public final class MediaStreamSourceSampleRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSampleRequest>?) -> MediaStreamSourceSampleRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest.getdeferral)
     public func getDeferral() throws -> MediaStreamSourceSampleRequestDeferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest.reportsampleprogress)
     public func reportSampleProgress(_ progress: UInt32) throws {
-        try _default.ReportSampleProgressImpl(progress)
+        try _default.ReportSampleProgress(progress)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest.sample)
     public var sample : MediaStreamSample! {
-        get { try! _default.get_SampleImpl() }
-        set { try! _default.put_SampleImpl(newValue) }
+        get { try! _default.get_Sample() }
+        set { try! _default.put_Sample(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest.streamdescriptor)
     public var streamDescriptor : AnyIMediaStreamDescriptor! {
-        get { try! _default.get_StreamDescriptorImpl() }
+        get { try! _default.get_StreamDescriptor() }
     }
 
     deinit {
@@ -1259,19 +1187,13 @@ public final class MediaStreamSourceSampleRequestDeferral : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSampleRequestDeferral>?) -> MediaStreamSourceSampleRequestDeferral? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequestdeferral.complete)
     public func complete() throws {
-        try _default.CompleteImpl()
+        try _default.Complete()
     }
 
     deinit {
@@ -1293,19 +1215,13 @@ public final class MediaStreamSourceSampleRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSampleRequestedEventArgs>?) -> MediaStreamSourceSampleRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequestedeventargs.request)
     public var request : MediaStreamSourceSampleRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     deinit {
@@ -1327,19 +1243,13 @@ public final class MediaStreamSourceStartingEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceStartingEventArgs>?) -> MediaStreamSourceStartingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcestartingeventargs.request)
     public var request : MediaStreamSourceStartingRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     deinit {
@@ -1361,29 +1271,23 @@ public final class MediaStreamSourceStartingRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceStartingRequest>?) -> MediaStreamSourceStartingRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcestartingrequest.getdeferral)
     public func getDeferral() throws -> MediaStreamSourceStartingRequestDeferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcestartingrequest.setactualstartposition)
     public func setActualStartPosition(_ position: WindowsFoundation.TimeSpan) throws {
-        try _default.SetActualStartPositionImpl(position)
+        try _default.SetActualStartPosition(position)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcestartingrequest.startposition)
     public var startPosition : WindowsFoundation.TimeSpan? {
-        get { try! _default.get_StartPositionImpl() }
+        get { try! _default.get_StartPosition() }
     }
 
     deinit {
@@ -1405,19 +1309,13 @@ public final class MediaStreamSourceStartingRequestDeferral : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceStartingRequestDeferral>?) -> MediaStreamSourceStartingRequestDeferral? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourcestartingrequestdeferral.complete)
     public func complete() throws {
-        try _default.CompleteImpl()
+        try _default.Complete()
     }
 
     deinit {
@@ -1439,29 +1337,23 @@ public final class MediaStreamSourceSwitchStreamsRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSwitchStreamsRequest>?) -> MediaStreamSourceSwitchStreamsRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceswitchstreamsrequest.getdeferral)
     public func getDeferral() throws -> MediaStreamSourceSwitchStreamsRequestDeferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceswitchstreamsrequest.newstreamdescriptor)
     public var newStreamDescriptor : AnyIMediaStreamDescriptor! {
-        get { try! _default.get_NewStreamDescriptorImpl() }
+        get { try! _default.get_NewStreamDescriptor() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceswitchstreamsrequest.oldstreamdescriptor)
     public var oldStreamDescriptor : AnyIMediaStreamDescriptor! {
-        get { try! _default.get_OldStreamDescriptorImpl() }
+        get { try! _default.get_OldStreamDescriptor() }
     }
 
     deinit {
@@ -1483,19 +1375,13 @@ public final class MediaStreamSourceSwitchStreamsRequestDeferral : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSwitchStreamsRequestDeferral>?) -> MediaStreamSourceSwitchStreamsRequestDeferral? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceswitchstreamsrequestdeferral.complete)
     public func complete() throws {
-        try _default.CompleteImpl()
+        try _default.Complete()
     }
 
     deinit {
@@ -1517,19 +1403,13 @@ public final class MediaStreamSourceSwitchStreamsRequestedEventArgs : WinRTClass
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaStreamSourceSwitchStreamsRequestedEventArgs>?) -> MediaStreamSourceSwitchStreamsRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.mediastreamsourceswitchstreamsrequestedeventargs.request)
     public var request : MediaStreamSourceSwitchStreamsRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     deinit {
@@ -1551,73 +1431,67 @@ public final class MseSourceBuffer : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMseSourceBuffer>?) -> MseSourceBuffer? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.appendbuffer)
     public func appendBuffer(_ buffer: UWP.AnyIBuffer!) throws {
-        try _default.AppendBufferImpl(buffer)
+        try _default.AppendBuffer(buffer)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.appendstream)
     public func appendStream(_ stream: UWP.AnyIInputStream!) throws {
-        try _default.AppendStreamImpl(stream)
+        try _default.AppendStream(stream)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.appendstream)
     public func appendStream(_ stream: UWP.AnyIInputStream!, _ maxSize: UInt64) throws {
-        try _default.AppendStreamMaxSizeImpl(stream, maxSize)
+        try _default.AppendStreamMaxSize(stream, maxSize)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.abort)
     public func abort() throws {
-        try _default.AbortImpl()
+        try _default.Abort()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.remove)
     public func remove(_ start: WindowsFoundation.TimeSpan, _ end: WindowsFoundation.TimeSpan?) throws {
-        try _default.RemoveImpl(start, end)
+        try _default.Remove(start, end)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.appendwindowend)
     public var appendWindowEnd : WindowsFoundation.TimeSpan? {
-        get { try! _default.get_AppendWindowEndImpl() }
-        set { try! _default.put_AppendWindowEndImpl(newValue) }
+        get { try! _default.get_AppendWindowEnd() }
+        set { try! _default.put_AppendWindowEnd(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.appendwindowstart)
     public var appendWindowStart : WindowsFoundation.TimeSpan {
-        get { try! _default.get_AppendWindowStartImpl() }
-        set { try! _default.put_AppendWindowStartImpl(newValue) }
+        get { try! _default.get_AppendWindowStart() }
+        set { try! _default.put_AppendWindowStart(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.buffered)
     public var buffered : WindowsFoundation.AnyIVectorView<MseTimeRange>! {
-        get { try! _default.get_BufferedImpl() }
+        get { try! _default.get_Buffered() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.isupdating)
     public var isUpdating : Bool {
-        get { try! _default.get_IsUpdatingImpl() }
+        get { try! _default.get_IsUpdating() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.mode)
     public var mode : MseAppendMode {
-        get { try! _default.get_ModeImpl() }
-        set { try! _default.put_ModeImpl(newValue) }
+        get { try! _default.get_Mode() }
+        set { try! _default.put_Mode(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.timestampoffset)
     public var timestampOffset : WindowsFoundation.TimeSpan {
-        get { try! _default.get_TimestampOffsetImpl() }
-        set { try! _default.put_TimestampOffsetImpl(newValue) }
+        get { try! _default.get_TimestampOffset() }
+        set { try! _default.put_TimestampOffset(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebuffer.aborted)
@@ -1625,10 +1499,10 @@ public final class MseSourceBuffer : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_AbortedImpl($0)
+          return try! this.add_Aborted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_AbortedImpl($0)
+         try? self?._default.remove_Aborted($0)
        }
       )
     }()
@@ -1638,10 +1512,10 @@ public final class MseSourceBuffer : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ErrorOccurredImpl($0)
+          return try! this.add_ErrorOccurred($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ErrorOccurredImpl($0)
+         try? self?._default.remove_ErrorOccurred($0)
        }
       )
     }()
@@ -1651,10 +1525,10 @@ public final class MseSourceBuffer : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_UpdateEndedImpl($0)
+          return try! this.add_UpdateEnded($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_UpdateEndedImpl($0)
+         try? self?._default.remove_UpdateEnded($0)
        }
       )
     }()
@@ -1664,10 +1538,10 @@ public final class MseSourceBuffer : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_UpdateStartingImpl($0)
+          return try! this.add_UpdateStarting($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_UpdateStartingImpl($0)
+         try? self?._default.remove_UpdateStarting($0)
        }
       )
     }()
@@ -1677,10 +1551,10 @@ public final class MseSourceBuffer : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_UpdatedImpl($0)
+          return try! this.add_Updated($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_UpdatedImpl($0)
+         try? self?._default.remove_Updated($0)
        }
       )
     }()
@@ -1704,19 +1578,13 @@ public final class MseSourceBufferList : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMseSourceBufferList>?) -> MseSourceBufferList? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebufferlist.buffers)
     public var buffers : WindowsFoundation.AnyIVectorView<MseSourceBuffer?>! {
-        get { try! _default.get_BuffersImpl() }
+        get { try! _default.get_Buffers() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msesourcebufferlist.sourcebufferadded)
@@ -1724,10 +1592,10 @@ public final class MseSourceBufferList : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SourceBufferAddedImpl($0)
+          return try! this.add_SourceBufferAdded($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SourceBufferAddedImpl($0)
+         try? self?._default.remove_SourceBufferAdded($0)
        }
       )
     }()
@@ -1737,10 +1605,10 @@ public final class MseSourceBufferList : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_SourceBufferRemovedImpl($0)
+          return try! this.add_SourceBufferRemoved($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_SourceBufferRemovedImpl($0)
+         try? self?._default.remove_SourceBufferRemoved($0)
        }
       )
     }()
@@ -1764,12 +1632,6 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMseStreamSource>?) -> MseStreamSource? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -1777,51 +1639,52 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
     override public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
         return super.queryInterface(iid)
     }
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.Media.Core.MseStreamSource")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.Media.Core.MseStreamSource")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
-    private static let _IMseStreamSourceStatics: __ABI_Windows_Media_Core.IMseStreamSourceStatics = try! RoGetActivationFactory(HString("Windows.Media.Core.MseStreamSource"))
+    private static let _IMseStreamSourceStatics: __ABI_Windows_Media_Core.IMseStreamSourceStatics = try! RoGetActivationFactory("Windows.Media.Core.MseStreamSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.iscontenttypesupported)
-    public static func isContentTypeSupported(_ contentType: String) -> Bool {
-        return try! _IMseStreamSourceStatics.IsContentTypeSupportedImpl(contentType)
+    public static func isContentTypeSupported(_ contentType: String) throws -> Bool {
+        return try _IMseStreamSourceStatics.IsContentTypeSupported(contentType)
     }
 
     private lazy var _IMediaSource: __ABI_Windows_Media_Core.IMediaSource! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.addsourcebuffer)
     public func addSourceBuffer(_ mimeType: String) throws -> MseSourceBuffer! {
-        try _default.AddSourceBufferImpl(mimeType)
+        try _default.AddSourceBuffer(mimeType)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.removesourcebuffer)
     public func removeSourceBuffer(_ buffer: MseSourceBuffer!) throws {
-        try _default.RemoveSourceBufferImpl(buffer)
+        try _default.RemoveSourceBuffer(buffer)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.endofstream)
     public func endOfStream(_ status: MseEndOfStreamStatus) throws {
-        try _default.EndOfStreamImpl(status)
+        try _default.EndOfStream(status)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.activesourcebuffers)
     public var activeSourceBuffers : MseSourceBufferList! {
-        get { try! _default.get_ActiveSourceBuffersImpl() }
+        get { try! _default.get_ActiveSourceBuffers() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.duration)
     public var duration : WindowsFoundation.TimeSpan? {
-        get { try! _default.get_DurationImpl() }
-        set { try! _default.put_DurationImpl(newValue) }
+        get { try! _default.get_Duration() }
+        set { try! _default.put_Duration(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.readystate)
     public var readyState : MseReadyState {
-        get { try! _default.get_ReadyStateImpl() }
+        get { try! _default.get_ReadyState() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.sourcebuffers)
     public var sourceBuffers : MseSourceBufferList! {
-        get { try! _default.get_SourceBuffersImpl() }
+        get { try! _default.get_SourceBuffers() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.closed)
@@ -1829,10 +1692,10 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ClosedImpl($0)
+          return try! this.add_Closed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ClosedImpl($0)
+         try? self?._default.remove_Closed($0)
        }
       )
     }()
@@ -1842,10 +1705,10 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_EndedImpl($0)
+          return try! this.add_Ended($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_EndedImpl($0)
+         try? self?._default.remove_Ended($0)
        }
       )
     }()
@@ -1855,10 +1718,10 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_OpenedImpl($0)
+          return try! this.add_Opened($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_OpenedImpl($0)
+         try? self?._default.remove_Opened($0)
        }
       )
     }()
@@ -1866,8 +1729,8 @@ public final class MseStreamSource : WinRTClass, IMediaSource {
     private lazy var _IMseStreamSource2: __ABI_Windows_Media_Core.IMseStreamSource2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msestreamsource.liveseekablerange)
     public var liveSeekableRange : MseTimeRange? {
-        get { try! _IMseStreamSource2.get_LiveSeekableRangeImpl() }
-        set { try! _IMseStreamSource2.put_LiveSeekableRangeImpl(newValue) }
+        get { try! _IMseStreamSource2.get_LiveSeekableRange() }
+        set { try! _IMseStreamSource2.put_LiveSeekableRange(newValue) }
     }
 
     deinit {
@@ -1891,12 +1754,6 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrack>?) -> TimedMetadataTrack? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -1904,61 +1761,61 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
     override public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
         return super.queryInterface(iid)
     }
-    private static let _ITimedMetadataTrackFactory: __ABI_Windows_Media_Core.ITimedMetadataTrackFactory = try! RoGetActivationFactory(HString("Windows.Media.Core.TimedMetadataTrack"))
+    private static let _ITimedMetadataTrackFactory: __ABI_Windows_Media_Core.ITimedMetadataTrackFactory = try! RoGetActivationFactory("Windows.Media.Core.TimedMetadataTrack")
     public init(_ id: String, _ language: String, _ kind: TimedMetadataKind) {
-        super.init(try! Self._ITimedMetadataTrackFactory.CreateImpl(id, language, kind))
+        super.init(try! Self._ITimedMetadataTrackFactory.Create(id, language, kind))
     }
 
     private lazy var _IMediaTrack: __ABI_Windows_Media_Core.IMediaTrack! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.id)
     public var id : String {
-        get { try! _IMediaTrack.get_IdImpl() }
+        get { try! _IMediaTrack.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.label)
     public var label : String {
-        get { try! _IMediaTrack.get_LabelImpl() }
-        set { try! _IMediaTrack.put_LabelImpl(newValue) }
+        get { try! _IMediaTrack.get_Label() }
+        set { try! _IMediaTrack.put_Label(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.language)
     public var language : String {
-        get { try! _IMediaTrack.get_LanguageImpl() }
+        get { try! _IMediaTrack.get_Language() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.trackkind)
     public var trackKind : MediaTrackKind {
-        get { try! _IMediaTrack.get_TrackKindImpl() }
+        get { try! _IMediaTrack.get_TrackKind() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.addcue)
     public func addCue(_ cue: AnyIMediaCue!) throws {
-        try _default.AddCueImpl(cue)
+        try _default.AddCue(cue)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.removecue)
     public func removeCue(_ cue: AnyIMediaCue!) throws {
-        try _default.RemoveCueImpl(cue)
+        try _default.RemoveCue(cue)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.activecues)
     public var activeCues : WindowsFoundation.AnyIVectorView<AnyIMediaCue?>! {
-        get { try! _default.get_ActiveCuesImpl() }
+        get { try! _default.get_ActiveCues() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.cues)
     public var cues : WindowsFoundation.AnyIVectorView<AnyIMediaCue?>! {
-        get { try! _default.get_CuesImpl() }
+        get { try! _default.get_Cues() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.dispatchtype)
     public var dispatchType : String {
-        get { try! _default.get_DispatchTypeImpl() }
+        get { try! _default.get_DispatchType() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.timedmetadatakind)
     public var timedMetadataKind : TimedMetadataKind {
-        get { try! _default.get_TimedMetadataKindImpl() }
+        get { try! _default.get_TimedMetadataKind() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.cueentered)
@@ -1966,10 +1823,10 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_CueEnteredImpl($0)
+          return try! this.add_CueEntered($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_CueEnteredImpl($0)
+         try? self?._default.remove_CueEntered($0)
        }
       )
     }()
@@ -1979,10 +1836,10 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_CueExitedImpl($0)
+          return try! this.add_CueExited($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_CueExitedImpl($0)
+         try? self?._default.remove_CueExited($0)
        }
       )
     }()
@@ -1992,10 +1849,10 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_TrackFailedImpl($0)
+          return try! this.add_TrackFailed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_TrackFailedImpl($0)
+         try? self?._default.remove_TrackFailed($0)
        }
       )
     }()
@@ -2003,12 +1860,12 @@ public final class TimedMetadataTrack : WinRTClass, IMediaTrack {
     private lazy var _ITimedMetadataTrack2: __ABI_Windows_Media_Core.ITimedMetadataTrack2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.name)
     public var name : String {
-        get { try! _ITimedMetadataTrack2.get_NameImpl() }
+        get { try! _ITimedMetadataTrack2.get_Name() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrack.playbackitem)
     public var playbackItem : UWP.MediaPlaybackItem! {
-        get { try! _ITimedMetadataTrack2.get_PlaybackItemImpl() }
+        get { try! _ITimedMetadataTrack2.get_PlaybackItem() }
     }
 
     deinit {
@@ -2032,24 +1889,18 @@ public final class TimedMetadataTrackError : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrackError>?) -> TimedMetadataTrackError? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrackerror.errorcode)
     public var errorCode : TimedMetadataTrackErrorCode {
-        get { try! _default.get_ErrorCodeImpl() }
+        get { try! _default.get_ErrorCode() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrackerror.extendederror)
     public var extendedError : HRESULT {
-        get { try! _default.get_ExtendedErrorImpl() }
+        get { try! _default.get_ExtendedError() }
     }
 
     deinit {
@@ -2071,19 +1922,13 @@ public final class TimedMetadataTrackFailedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrackFailedEventArgs>?) -> TimedMetadataTrackFailedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedmetadatatrackfailedeventargs.error)
     public var error : TimedMetadataTrackError! {
-        get { try! _default.get_ErrorImpl() }
+        get { try! _default.get_Error() }
     }
 
     deinit {
@@ -2105,56 +1950,50 @@ public final class TimedTextSource : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CITimedTextSource>?) -> TimedTextSource? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ITimedTextSourceStatics: __ABI_Windows_Media_Core.ITimedTextSourceStatics = try! RoGetActivationFactory(HString("Windows.Media.Core.TimedTextSource"))
+    private static let _ITimedTextSourceStatics: __ABI_Windows_Media_Core.ITimedTextSourceStatics = try! RoGetActivationFactory("Windows.Media.Core.TimedTextSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromstream)
-    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics.CreateFromStreamImpl(stream)
+    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics.CreateFromStream(stream)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromuri)
-    public static func createFromUri(_ uri: WindowsFoundation.Uri!) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics.CreateFromUriImpl(uri)
+    public static func createFromUri(_ uri: WindowsFoundation.Uri!) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics.CreateFromUri(uri)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromstream)
-    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!, _ defaultLanguage: String) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics.CreateFromStreamWithLanguageImpl(stream, defaultLanguage)
+    public static func createFromStream(_ stream: UWP.AnyIRandomAccessStream!, _ defaultLanguage: String) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics.CreateFromStreamWithLanguage(stream, defaultLanguage)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromuri)
-    public static func createFromUri(_ uri: WindowsFoundation.Uri!, _ defaultLanguage: String) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics.CreateFromUriWithLanguageImpl(uri, defaultLanguage)
+    public static func createFromUri(_ uri: WindowsFoundation.Uri!, _ defaultLanguage: String) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics.CreateFromUriWithLanguage(uri, defaultLanguage)
     }
 
-    private static let _ITimedTextSourceStatics2: __ABI_Windows_Media_Core.ITimedTextSourceStatics2 = try! RoGetActivationFactory(HString("Windows.Media.Core.TimedTextSource"))
+    private static let _ITimedTextSourceStatics2: __ABI_Windows_Media_Core.ITimedTextSourceStatics2 = try! RoGetActivationFactory("Windows.Media.Core.TimedTextSource")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromstreamwithindex)
-    public static func createFromStreamWithIndex(_ stream: UWP.AnyIRandomAccessStream!, _ indexStream: UWP.AnyIRandomAccessStream!) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics2.CreateFromStreamWithIndexImpl(stream, indexStream)
+    public static func createFromStreamWithIndex(_ stream: UWP.AnyIRandomAccessStream!, _ indexStream: UWP.AnyIRandomAccessStream!) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics2.CreateFromStreamWithIndex(stream, indexStream)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromuriwithindex)
-    public static func createFromUriWithIndex(_ uri: WindowsFoundation.Uri!, _ indexUri: WindowsFoundation.Uri!) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics2.CreateFromUriWithIndexImpl(uri, indexUri)
+    public static func createFromUriWithIndex(_ uri: WindowsFoundation.Uri!, _ indexUri: WindowsFoundation.Uri!) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics2.CreateFromUriWithIndex(uri, indexUri)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromstreamwithindex)
-    public static func createFromStreamWithIndex(_ stream: UWP.AnyIRandomAccessStream!, _ indexStream: UWP.AnyIRandomAccessStream!, _ defaultLanguage: String) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics2.CreateFromStreamWithIndexAndLanguageImpl(stream, indexStream, defaultLanguage)
+    public static func createFromStreamWithIndex(_ stream: UWP.AnyIRandomAccessStream!, _ indexStream: UWP.AnyIRandomAccessStream!, _ defaultLanguage: String) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics2.CreateFromStreamWithIndexAndLanguage(stream, indexStream, defaultLanguage)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.createfromuriwithindex)
-    public static func createFromUriWithIndex(_ uri: WindowsFoundation.Uri!, _ indexUri: WindowsFoundation.Uri!, _ defaultLanguage: String) -> TimedTextSource! {
-        return try! _ITimedTextSourceStatics2.CreateFromUriWithIndexAndLanguageImpl(uri, indexUri, defaultLanguage)
+    public static func createFromUriWithIndex(_ uri: WindowsFoundation.Uri!, _ indexUri: WindowsFoundation.Uri!, _ defaultLanguage: String) throws -> TimedTextSource! {
+        return try _ITimedTextSourceStatics2.CreateFromUriWithIndexAndLanguage(uri, indexUri, defaultLanguage)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsource.resolved)
@@ -2162,10 +2001,10 @@ public final class TimedTextSource : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_ResolvedImpl($0)
+          return try! this.add_Resolved($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_ResolvedImpl($0)
+         try? self?._default.remove_Resolved($0)
        }
       )
     }()
@@ -2189,24 +2028,18 @@ public final class TimedTextSourceResolveResultEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CITimedTextSourceResolveResultEventArgs>?) -> TimedTextSourceResolveResultEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsourceresolveresulteventargs.error)
     public var error : TimedMetadataTrackError! {
-        get { try! _default.get_ErrorImpl() }
+        get { try! _default.get_Error() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.timedtextsourceresolveresulteventargs.tracks)
     public var tracks : WindowsFoundation.AnyIVectorView<TimedMetadataTrack?>! {
-        get { try! _default.get_TracksImpl() }
+        get { try! _default.get_Tracks() }
     }
 
     deinit {
@@ -2228,12 +2061,6 @@ public final class VideoTrack : WinRTClass, IMediaTrack {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIMediaTrack>?) -> VideoTrack? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -2243,44 +2070,44 @@ public final class VideoTrack : WinRTClass, IMediaTrack {
     }
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.id)
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.label)
     public var label : String {
-        get { try! _default.get_LabelImpl() }
-        set { try! _default.put_LabelImpl(newValue) }
+        get { try! _default.get_Label() }
+        set { try! _default.put_Label(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.language)
     public var language : String {
-        get { try! _default.get_LanguageImpl() }
+        get { try! _default.get_Language() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.trackkind)
     public var trackKind : MediaTrackKind {
-        get { try! _default.get_TrackKindImpl() }
+        get { try! _default.get_TrackKind() }
     }
 
     private lazy var _IVideoTrack: __ABI_Windows_Media_Core.IVideoTrack! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.getencodingproperties)
     public func getEncodingProperties() throws -> UWP.VideoEncodingProperties! {
-        try _IVideoTrack.GetEncodingPropertiesImpl()
+        try _IVideoTrack.GetEncodingProperties()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.name)
     public var name : String {
-        get { try! _IVideoTrack.get_NameImpl() }
+        get { try! _IVideoTrack.get_Name() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.playbackitem)
     public var playbackItem : UWP.MediaPlaybackItem! {
-        get { try! _IVideoTrack.get_PlaybackItemImpl() }
+        get { try! _IVideoTrack.get_PlaybackItem() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.supportinfo)
     public var supportInfo : VideoTrackSupportInfo! {
-        get { try! _IVideoTrack.get_SupportInfoImpl() }
+        get { try! _IVideoTrack.get_SupportInfo() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrack.openfailed)
@@ -2288,10 +2115,10 @@ public final class VideoTrack : WinRTClass, IMediaTrack {
       .init(
         add: { [weak self] in
           guard let this = self?._IVideoTrack else { return .init() }
-          return try! this.add_OpenFailedImpl($0)
+          return try! this.add_OpenFailed($0)
         },
         remove: { [weak self] in
-         try? self?._IVideoTrack.remove_OpenFailedImpl($0)
+         try? self?._IVideoTrack.remove_OpenFailed($0)
        }
       )
     }()
@@ -2316,19 +2143,13 @@ public final class VideoTrackOpenFailedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIVideoTrackOpenFailedEventArgs>?) -> VideoTrackOpenFailedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotrackopenfailedeventargs.extendederror)
     public var extendedError : HRESULT {
-        get { try! _default.get_ExtendedErrorImpl() }
+        get { try! _default.get_ExtendedError() }
     }
 
     deinit {
@@ -2350,24 +2171,18 @@ public final class VideoTrackSupportInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CMedia_CCore_CIVideoTrackSupportInfo>?) -> VideoTrackSupportInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotracksupportinfo.decoderstatus)
     public var decoderStatus : MediaDecoderStatus {
-        get { try! _default.get_DecoderStatusImpl() }
+        get { try! _default.get_DecoderStatus() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.videotracksupportinfo.mediasourcestatus)
     public var mediaSourceStatus : MediaSourceStatus {
-        get { try! _default.get_MediaSourceStatusImpl() }
+        get { try! _default.get_MediaSourceStatus() }
     }
 
     deinit {
@@ -2376,7 +2191,7 @@ public final class VideoTrackSupportInfo : WinRTClass {
 }
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msetimerange)
-public struct MseTimeRange: Hashable, Codable {
+public struct MseTimeRange: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msetimerange.start)
     public var start: WindowsFoundation.TimeSpan = .init()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.media.core.msetimerange.end)
@@ -2385,9 +2200,6 @@ public struct MseTimeRange: Hashable, Codable {
     public init(start: WindowsFoundation.TimeSpan, end: WindowsFoundation.TimeSpan) {
         self.start = start
         self.end = end
-    }
-    public static func from(abi: __x_ABI_CWindows_CMedia_CCore_CMseTimeRange) -> MseTimeRange {
-        .init(start: .from(abi: abi.Start), end: .from(abi: abi.End))
     }
 }
 
@@ -2509,7 +2321,7 @@ extension UWP.AudioDecoderDegradation {
         __x_ABI_CWindows_CMedia_CCore_CAudioDecoderDegradation_DownmixTo8Channels
     }
 }
-extension UWP.AudioDecoderDegradation: @retroactive Hashable, @retroactive Codable {}
+extension UWP.AudioDecoderDegradation: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.AudioDecoderDegradationReason {
     public static var none : UWP.AudioDecoderDegradationReason {
@@ -2522,7 +2334,7 @@ extension UWP.AudioDecoderDegradationReason {
         __x_ABI_CWindows_CMedia_CCore_CAudioDecoderDegradationReason_SpatialAudioNotSupported
     }
 }
-extension UWP.AudioDecoderDegradationReason: @retroactive Hashable, @retroactive Codable {}
+extension UWP.AudioDecoderDegradationReason: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaDecoderStatus {
     public static var fullySupported : UWP.MediaDecoderStatus {
@@ -2538,7 +2350,7 @@ extension UWP.MediaDecoderStatus {
         __x_ABI_CWindows_CMedia_CCore_CMediaDecoderStatus_Degraded
     }
 }
-extension UWP.MediaDecoderStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaDecoderStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaSourceState {
     public static var initial : UWP.MediaSourceState {
@@ -2557,7 +2369,7 @@ extension UWP.MediaSourceState {
         __x_ABI_CWindows_CMedia_CCore_CMediaSourceState_Closed
     }
 }
-extension UWP.MediaSourceState: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaSourceState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaSourceStatus {
     public static var fullySupported : UWP.MediaSourceStatus {
@@ -2567,7 +2379,7 @@ extension UWP.MediaSourceStatus {
         __x_ABI_CWindows_CMedia_CCore_CMediaSourceStatus_Unknown
     }
 }
-extension UWP.MediaSourceStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaSourceStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaStreamSourceClosedReason {
     public static var done : UWP.MediaStreamSourceClosedReason {
@@ -2592,7 +2404,7 @@ extension UWP.MediaStreamSourceClosedReason {
         __x_ABI_CWindows_CMedia_CCore_CMediaStreamSourceClosedReason_MissingSampleRequestedEventHandler
     }
 }
-extension UWP.MediaStreamSourceClosedReason: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaStreamSourceClosedReason: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaStreamSourceErrorStatus {
     public static var other : UWP.MediaStreamSourceErrorStatus {
@@ -2620,7 +2432,7 @@ extension UWP.MediaStreamSourceErrorStatus {
         __x_ABI_CWindows_CMedia_CCore_CMediaStreamSourceErrorStatus_UnsupportedMediaFormat
     }
 }
-extension UWP.MediaStreamSourceErrorStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaStreamSourceErrorStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MediaTrackKind {
     public static var audio : UWP.MediaTrackKind {
@@ -2633,7 +2445,7 @@ extension UWP.MediaTrackKind {
         __x_ABI_CWindows_CMedia_CCore_CMediaTrackKind_TimedMetadata
     }
 }
-extension UWP.MediaTrackKind: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MediaTrackKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MseAppendMode {
     public static var segments : UWP.MseAppendMode {
@@ -2643,7 +2455,7 @@ extension UWP.MseAppendMode {
         __x_ABI_CWindows_CMedia_CCore_CMseAppendMode_Sequence
     }
 }
-extension UWP.MseAppendMode: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MseAppendMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MseEndOfStreamStatus {
     public static var success : UWP.MseEndOfStreamStatus {
@@ -2659,7 +2471,7 @@ extension UWP.MseEndOfStreamStatus {
         __x_ABI_CWindows_CMedia_CCore_CMseEndOfStreamStatus_UnknownError
     }
 }
-extension UWP.MseEndOfStreamStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MseEndOfStreamStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.MseReadyState {
     public static var closed : UWP.MseReadyState {
@@ -2672,7 +2484,7 @@ extension UWP.MseReadyState {
         __x_ABI_CWindows_CMedia_CCore_CMseReadyState_Ended
     }
 }
-extension UWP.MseReadyState: @retroactive Hashable, @retroactive Codable {}
+extension UWP.MseReadyState: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.TimedMetadataKind {
     public static var caption : UWP.TimedMetadataKind {
@@ -2700,7 +2512,7 @@ extension UWP.TimedMetadataKind {
         __x_ABI_CWindows_CMedia_CCore_CTimedMetadataKind_Speech
     }
 }
-extension UWP.TimedMetadataKind: @retroactive Hashable, @retroactive Codable {}
+extension UWP.TimedMetadataKind: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.TimedMetadataTrackErrorCode {
     public static var none : UWP.TimedMetadataTrackErrorCode {
@@ -2716,5 +2528,5 @@ extension UWP.TimedMetadataTrackErrorCode {
         __x_ABI_CWindows_CMedia_CCore_CTimedMetadataTrackErrorCode_InternalError
     }
 }
-extension UWP.TimedMetadataTrackErrorCode: @retroactive Hashable, @retroactive Codable {}
+extension UWP.TimedMetadataTrackErrorCode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

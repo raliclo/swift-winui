@@ -15,10 +15,60 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2 __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2;
+
+#endif // ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme;
+
+#endif // ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
 
+#if !defined(____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIEventHandler_1_IInspectable __x_ABI_C__FIEventHandler_1_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIEventHandler_1_IInspectable;
+
+    typedef struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIEventHandler_1_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIEventHandler_1_IInspectable* This,
+        IInspectable* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FIEventHandler_1_IInspectableVtbl;
+
+    interface __x_ABI_C__FIEventHandler_1_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FIEventHandler_1_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
+    
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 typedef enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionColor __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionColor;
@@ -138,4 +188,148 @@ enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionStyle
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_PropertiesChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_PropertiesChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionPropertiesStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_DisplayName)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_FontColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComputedFontColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        struct __x_ABI_CWindows_CUI_CColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_FontOpacity)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionOpacity* value);
+    HRESULT (STDMETHODCALLTYPE* get_FontSize)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionSize* value);
+    HRESULT (STDMETHODCALLTYPE* get_FontStyle)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionStyle* value);
+    HRESULT (STDMETHODCALLTYPE* get_FontEffect)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionEdgeEffect* value);
+    HRESULT (STDMETHODCALLTYPE* get_BackgroundColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComputedBackgroundColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        struct __x_ABI_CWindows_CUI_CColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_BackgroundOpacity)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionOpacity* value);
+    HRESULT (STDMETHODCALLTYPE* get_RegionColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComputedRegionColor)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        struct __x_ABI_CWindows_CUI_CColor* value);
+    HRESULT (STDMETHODCALLTYPE* get_RegionOpacity)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* This,
+        enum __x_ABI_CWindows_CMedia_CClosedCaptioning_CClosedCaptionOpacity* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAvailableThemes)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        UINT32* resultLength,
+        __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme*** result);
+    HRESULT (STDMETHODCALLTYPE* GetSelectedTheme)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme** result);
+    HRESULT (STDMETHODCALLTYPE* TrySetSelectedTheme)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionTheme* value,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* add_ThemesChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ThemesChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_SelectedThemeChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_SelectedThemeChanged)(__x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CClosedCaptioning_CIClosedCaptionThemeStatics_INTERFACE_DEFINED__) */
     

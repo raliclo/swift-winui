@@ -135,6 +135,12 @@ typedef interface __x_ABI_CWindows_CStorage_CIStreamedFileDataRequestedHandler _
 
 #endif // ____x_ABI_CWindows_CStorage_CIKnownFoldersStatics3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4 __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4;
+
+#endif // ____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CStorage_CIPathIOStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIPathIOStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CIPathIOStatics __x_ABI_CWindows_CStorage_CIPathIOStatics;
@@ -177,6 +183,12 @@ typedef interface __x_ABI_CWindows_CStorage_CIStreamedFileDataRequestedHandler _
 
 #endif // ____x_ABI_CWindows_CStorage_CIStorageFileStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageFileStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageFileStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageFileStatics2 __x_ABI_CWindows_CStorage_CIStorageFileStatics2;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageFileStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CIStorageFolder __x_ABI_CWindows_CStorage_CIStorageFolder;
@@ -200,6 +212,12 @@ typedef interface __x_ABI_CWindows_CStorage_CIStreamedFileDataRequestedHandler _
     typedef interface __x_ABI_CWindows_CStorage_CIStorageFolderStatics __x_ABI_CWindows_CStorage_CIStorageFolderStatics;
 
 #endif // ____x_ABI_CWindows_CStorage_CIStorageFolderStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageFolderStatics2 __x_ABI_CWindows_CStorage_CIStorageFolderStatics2;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageItem_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageItem_FWD_DEFINED__
@@ -261,11 +279,41 @@ typedef interface __x_ABI_CWindows_CStorage_CIStreamedFileDataRequestedHandler _
 
 #endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2 __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker;
 
 #endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2 __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics;
+
+#endif // ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageLibraryStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageLibraryStatics_FWD_DEFINED__
@@ -1964,6 +2012,84 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CIStorageItem_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus;
+
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+        enum __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatusVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CWindows_CStorage_CProvider_CFileUpdateStatus __x_ABI_CWindows_CStorage_CProvider_CFileUpdateStatus;
 
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CProvider__CFileUpdateStatus __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CProvider__CFileUpdateStatus;
@@ -3344,6 +3470,7 @@ enum __x_ABI_CWindows_CStorage_CApplicationDataLocality
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_Roaming = 1,
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_Temporary = 2,
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_LocalCache = 3,
+    __x_ABI_CWindows_CStorage_CApplicationDataLocality_SharedLocal = 4,
 };
 
 enum __x_ABI_CWindows_CStorage_CCreationCollisionOption
@@ -3388,6 +3515,17 @@ enum __x_ABI_CWindows_CStorage_CKnownFolderId
     __x_ABI_CWindows_CStorage_CKnownFolderId_VideosLibrary = 13,
     __x_ABI_CWindows_CStorage_CKnownFolderId_AllAppMods = 14,
     __x_ABI_CWindows_CStorage_CKnownFolderId_CurrentAppMods = 15,
+    __x_ABI_CWindows_CStorage_CKnownFolderId_DownloadsFolder = 16,
+};
+
+enum __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus
+    {
+        __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_DeniedBySystem = 0,
+    __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_NotDeclaredByApp = 1,
+    __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_DeniedByUser = 2,
+    __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_UserPromptRequired = 3,
+    __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_Allowed = 4,
+    __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus_AllowedPerAppFolder = 5,
 };
 
 enum __x_ABI_CWindows_CStorage_CKnownLibraryId
@@ -4266,6 +4404,47 @@ enum __x_ABI_CWindows_CStorage_CStreamedFileFailureMode
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIKnownFoldersStatics3;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CIKnownFoldersStatics3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RequestAccessAsync)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+        enum __x_ABI_CWindows_CStorage_CKnownFolderId folderId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus** operation);
+    HRESULT (STDMETHODCALLTYPE* RequestAccessForUserAsync)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+        __x_ABI_CWindows_CSystem_CIUser* user,
+        enum __x_ABI_CWindows_CStorage_CKnownFolderId folderId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CKnownFoldersAccessStatus** operation);
+    HRESULT (STDMETHODCALLTYPE* GetFolderAsync)(__x_ABI_CWindows_CStorage_CIKnownFoldersStatics4* This,
+        enum __x_ABI_CWindows_CStorage_CKnownFolderId folderId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFolder** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4Vtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIKnownFoldersStatics4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIKnownFoldersStatics4;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIKnownFoldersStatics4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CStorage_CIPathIOStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CIPathIOStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CStorage_CIPathIOStaticsVtbl
@@ -4626,6 +4805,41 @@ enum __x_ABI_CWindows_CStorage_CStreamedFileFailureMode
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageFileStatics;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageFileStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageFileStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageFileStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageFileStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetFileFromPathForUserAsync)(__x_ABI_CWindows_CStorage_CIStorageFileStatics2* This,
+        __x_ABI_CWindows_CSystem_CIUser* user,
+        HSTRING path,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFile** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageFileStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageFileStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageFileStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageFileStatics2;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageFileStatics2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CStorage_CIStorageFolder_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CIStorageFolder_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CStorage_CIStorageFolderVtbl
@@ -4786,6 +5000,41 @@ enum __x_ABI_CWindows_CStorage_CStreamedFileFailureMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageFolderStatics;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageFolderStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageFolderStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetFolderFromPathForUserAsync)(__x_ABI_CWindows_CStorage_CIStorageFolderStatics2* This,
+        __x_ABI_CWindows_CSystem_CIUser* user,
+        HSTRING path,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CStorageFolder** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageFolderStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageFolderStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageFolderStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageFolderStatics2;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageFolderStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CStorage_CIStorageItem_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CIStorageItem_INTERFACE_DEFINED__
@@ -5194,6 +5443,39 @@ enum __x_ABI_CWindows_CStorage_CStreamedFileFailureMode
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetLastChangeId)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2* This,
+        UINT64* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2Vtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeReader2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerVtbl
@@ -5228,6 +5510,139 @@ enum __x_ABI_CWindows_CStorage_CStreamedFileFailureMode
     
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* EnableWithOptions)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This,
+        __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* options);
+    HRESULT (STDMETHODCALLTYPE* Disable)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2Vtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTracker2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TrackChangeDetails)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_TrackChangeDetails)(__x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptionsVtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryChangeTrackerOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdVtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeId_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Unknown)(__x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics* This,
+        UINT64* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStaticsVtbl;
+
+    interface __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryLastChangeIdStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CStorage_CIStorageLibraryStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CIStorageLibraryStatics_INTERFACE_DEFINED__

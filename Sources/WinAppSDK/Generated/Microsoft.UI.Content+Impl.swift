@@ -4,7 +4,96 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Microsoft_UI_Content {
+    public enum IContentSiteAutomationBridge : AbiInterfaceBridge {
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteAutomation
+        public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteAutomation
+        public typealias SwiftProjection = AnyIContentSiteAutomation
+        public static func from(abi: ComPtr<CABI>?) -> SwiftProjection? {
+            guard let abi = abi else { return nil }
+            return IContentSiteAutomationImpl(abi)
+        }
+
+        public static func makeAbi() -> CABI {
+            let vtblPtr = withUnsafeMutablePointer(to: &__ABI_Microsoft_UI_Content.IContentSiteAutomationVTable) { $0 }
+            return .init(lpVtbl: vtblPtr)
+        }
+    }
+
+    fileprivate class IContentSiteAutomationImpl: IContentSiteAutomation, WinRTAbiImpl {
+        fileprivate typealias Bridge = IContentSiteAutomationBridge
+        fileprivate let _default: Bridge.SwiftABI
+        fileprivate var thisPtr: WindowsFoundation.IInspectable { _default }
+        fileprivate init(_ fromAbi: ComPtr<Bridge.CABI>) {
+            _default = Bridge.SwiftABI(fromAbi)
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.automationoption)
+        fileprivate var automationOption : ContentAutomationOptions {
+            get { try! _default.get_AutomationOption() }
+            set { try! _default.put_AutomationOption(newValue) }
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.automationprovider)
+        fileprivate var automationProvider : Any! {
+            get { try! _default.get_AutomationProvider() }
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.fragmentrootautomationproviderrequested)
+        fileprivate lazy var fragmentRootAutomationProviderRequested : Event<TypedEventHandler<IContentSiteAutomation?, ContentSiteAutomationProviderRequestedEventArgs?>> = {
+          .init(
+            add: { [weak self] in
+              guard let this = self?._default else { return .init() }
+              return try! this.add_FragmentRootAutomationProviderRequested($0)
+            },
+            remove: { [weak self] in
+             try? self?._default.remove_FragmentRootAutomationProviderRequested($0)
+           }
+          )
+        }()
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.nextsiblingautomationproviderrequested)
+        fileprivate lazy var nextSiblingAutomationProviderRequested : Event<TypedEventHandler<IContentSiteAutomation?, ContentSiteAutomationProviderRequestedEventArgs?>> = {
+          .init(
+            add: { [weak self] in
+              guard let this = self?._default else { return .init() }
+              return try! this.add_NextSiblingAutomationProviderRequested($0)
+            },
+            remove: { [weak self] in
+             try? self?._default.remove_NextSiblingAutomationProviderRequested($0)
+           }
+          )
+        }()
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.parentautomationproviderrequested)
+        fileprivate lazy var parentAutomationProviderRequested : Event<TypedEventHandler<IContentSiteAutomation?, ContentSiteAutomationProviderRequestedEventArgs?>> = {
+          .init(
+            add: { [weak self] in
+              guard let this = self?._default else { return .init() }
+              return try! this.add_ParentAutomationProviderRequested($0)
+            },
+            remove: { [weak self] in
+             try? self?._default.remove_ParentAutomationProviderRequested($0)
+           }
+          )
+        }()
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteautomation.previoussiblingautomationproviderrequested)
+        fileprivate lazy var previousSiblingAutomationProviderRequested : Event<TypedEventHandler<IContentSiteAutomation?, ContentSiteAutomationProviderRequestedEventArgs?>> = {
+          .init(
+            add: { [weak self] in
+              guard let this = self?._default else { return .init() }
+              return try! this.add_PreviousSiblingAutomationProviderRequested($0)
+            },
+            remove: { [weak self] in
+             try? self?._default.remove_PreviousSiblingAutomationProviderRequested($0)
+           }
+          )
+        }()
+
+    }
+
     public enum IContentSiteBridgeBridge : AbiInterfaceBridge {
         public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteBridge
         public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteBridge
@@ -30,27 +119,438 @@ public enum __IMPL_Microsoft_UI_Content {
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge.dispatcherqueue)
         fileprivate var dispatcherQueue : WinAppSDK.DispatcherQueue! {
-            get { try! _default.get_DispatcherQueueImpl() }
+            get { try! _default.get_DispatcherQueue() }
         }
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge.layoutdirectionoverride)
         fileprivate var layoutDirectionOverride : ContentLayoutDirection? {
-            get { try! _default.get_LayoutDirectionOverrideImpl() }
-            set { try! _default.put_LayoutDirectionOverrideImpl(newValue) }
+            get { try! _default.get_LayoutDirectionOverride() }
+            set { try! _default.put_LayoutDirectionOverride(newValue) }
         }
 
         /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge.overridescale)
         fileprivate var overrideScale : Float {
-            get { try! _default.get_OverrideScaleImpl() }
-            set { try! _default.put_OverrideScaleImpl(newValue) }
+            get { try! _default.get_OverrideScale() }
+            set { try! _default.put_OverrideScale(newValue) }
         }
 
         private lazy var _IClosable: __ABI_Windows_Foundation.IClosable! = getInterfaceForCaching()
         /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitebridge.close)
         fileprivate func close() throws {
-            try _IClosable.CloseImpl()
+            try _IClosable.Close()
         }
 
     }
 
+    public enum IContentSiteInputBridge : AbiInterfaceBridge {
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteInput
+        public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteInput
+        public typealias SwiftProjection = AnyIContentSiteInput
+        public static func from(abi: ComPtr<CABI>?) -> SwiftProjection? {
+            guard let abi = abi else { return nil }
+            return IContentSiteInputImpl(abi)
+        }
+
+        public static func makeAbi() -> CABI {
+            let vtblPtr = withUnsafeMutablePointer(to: &__ABI_Microsoft_UI_Content.IContentSiteInputVTable) { $0 }
+            return .init(lpVtbl: vtblPtr)
+        }
+    }
+
+    fileprivate class IContentSiteInputImpl: IContentSiteInput, WinRTAbiImpl {
+        fileprivate typealias Bridge = IContentSiteInputBridge
+        fileprivate let _default: Bridge.SwiftABI
+        fileprivate var thisPtr: WindowsFoundation.IInspectable { _default }
+        fileprivate init(_ fromAbi: ComPtr<Bridge.CABI>) {
+            _default = Bridge.SwiftABI(fromAbi)
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteinput.processeskeyboardinput)
+        fileprivate var processesKeyboardInput : Bool {
+            get { try! _default.get_ProcessesKeyboardInput() }
+            set { try! _default.put_ProcessesKeyboardInput(newValue) }
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsiteinput.processespointerinput)
+        fileprivate var processesPointerInput : Bool {
+            get { try! _default.get_ProcessesPointerInput() }
+            set { try! _default.put_ProcessesPointerInput(newValue) }
+        }
+
+    }
+
+    public enum IContentSiteLinkBridge : AbiInterfaceBridge {
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteLink
+        public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteLink
+        public typealias SwiftProjection = AnyIContentSiteLink
+        public static func from(abi: ComPtr<CABI>?) -> SwiftProjection? {
+            guard let abi = abi else { return nil }
+            return IContentSiteLinkImpl(abi)
+        }
+
+        public static func makeAbi() -> CABI {
+            let vtblPtr = withUnsafeMutablePointer(to: &__ABI_Microsoft_UI_Content.IContentSiteLinkVTable) { $0 }
+            return .init(lpVtbl: vtblPtr)
+        }
+    }
+
+    fileprivate class IContentSiteLinkImpl: IContentSiteLink, WinRTAbiImpl {
+        fileprivate typealias Bridge = IContentSiteLinkBridge
+        fileprivate let _default: Bridge.SwiftABI
+        fileprivate var thisPtr: WindowsFoundation.IInspectable { _default }
+        fileprivate init(_ fromAbi: ComPtr<Bridge.CABI>) {
+            _default = Bridge.SwiftABI(fromAbi)
+        }
+
+        /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.content.icontentsitelink.parent)
+        fileprivate var parent : ContentIsland! {
+            get { try! _default.get_Parent() }
+        }
+
+    }
+
+    public enum ChildSiteLinkBridge: AbiBridge {
+        public typealias SwiftProjection = ChildSiteLink
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIChildSiteLink
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIChildSiteLink>?) -> ChildSiteLink? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentCoordinateConverterBridge: ComposableBridge {
+        public typealias SwiftProjection = ContentCoordinateConverter
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentCoordinateConverter
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentCoordinateConverter>?) -> ContentCoordinateConverter? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IContentCoordinateConverter : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = ContentCoordinateConverter
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentCoordinateConverter
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentCoordinateConverter
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IContentCoordinateConverter
+    }
+
+    public enum ContentDeferralBridge: AbiBridge {
+        public typealias SwiftProjection = ContentDeferral
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentDeferral
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentDeferral>?) -> ContentDeferral? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentEnvironmentSettingChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = ContentEnvironmentSettingChangedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentEnvironmentSettingChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentEnvironmentSettingChangedEventArgs>?) -> ContentEnvironmentSettingChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentEnvironmentStateChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = ContentEnvironmentStateChangedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentEnvironmentStateChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentEnvironmentStateChangedEventArgs>?) -> ContentEnvironmentStateChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentIslandBridge: ComposableBridge {
+        public typealias SwiftProjection = ContentIsland
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIsland
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentIsland>?) -> ContentIsland? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IContentIsland : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = ContentIsland
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIsland
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentIsland
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IContentIsland
+    }
+
+    public enum ContentIslandAutomationProviderRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = ContentIslandAutomationProviderRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIslandAutomationProviderRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentIslandAutomationProviderRequestedEventArgs>?) -> ContentIslandAutomationProviderRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentIslandEnvironmentBridge: ComposableBridge {
+        public typealias SwiftProjection = ContentIslandEnvironment
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIslandEnvironment
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentIslandEnvironment>?) -> ContentIslandEnvironment? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IContentIslandEnvironment : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = ContentIslandEnvironment
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIslandEnvironment
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentIslandEnvironment
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IContentIslandEnvironment
+    }
+
+    public enum ContentIslandStateChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = ContentIslandStateChangedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentIslandStateChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentIslandStateChangedEventArgs>?) -> ContentIslandStateChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentSiteAutomationProviderRequestedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = ContentSiteAutomationProviderRequestedEventArgs
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteAutomationProviderRequestedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentSiteAutomationProviderRequestedEventArgs>?) -> ContentSiteAutomationProviderRequestedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum ContentSiteEnvironmentViewBridge: ComposableBridge {
+        public typealias SwiftProjection = ContentSiteEnvironmentView
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteEnvironmentView
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentSiteEnvironmentView>?) -> ContentSiteEnvironmentView? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IContentSiteEnvironmentView : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = ContentSiteEnvironmentView
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteEnvironmentView
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteEnvironmentView
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IContentSiteEnvironmentView
+    }
+
+    public enum ContentSiteViewBridge: ComposableBridge {
+        public typealias SwiftProjection = ContentSiteView
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteView
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIContentSiteView>?) -> ContentSiteView? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IContentSiteView : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = ContentSiteView
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIContentSiteView
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IContentSiteView
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IContentSiteView
+    }
+
+    public enum DesktopChildSiteBridgeBridge: AbiBridge {
+        public typealias SwiftProjection = DesktopChildSiteBridge
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIDesktopChildSiteBridge
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIDesktopChildSiteBridge>?) -> DesktopChildSiteBridge? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum DesktopPopupSiteBridgeBridge: AbiBridge {
+        public typealias SwiftProjection = DesktopPopupSiteBridge
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge>?) -> DesktopPopupSiteBridge? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum DesktopSiteBridgeBridge: ComposableBridge {
+        public typealias SwiftProjection = DesktopSiteBridge
+        public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIDesktopSiteBridge
+        public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CContent_CIDesktopSiteBridge>?) -> DesktopSiteBridge? {
+            guard let abi = abi else { return nil }
+            return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+        }
+        public enum IDesktopSiteBridge : ComposableImpl {
+            public typealias CABI = C_IInspectable
+            public typealias SwiftABI = WindowsFoundation.IInspectable
+            public typealias Class = DesktopSiteBridge
+            public typealias SwiftProjection = WinRTClassWeakReference<Class>
+            public enum Default : AbiInterface {
+                public typealias CABI = __x_ABI_CMicrosoft_CUI_CContent_CIDesktopSiteBridge
+                public typealias SwiftABI = __ABI_Microsoft_UI_Content.IDesktopSiteBridge
+            }
+        }
+        @_spi(WinRTInternal)
+        public typealias Composable = IDesktopSiteBridge
+    }
+
+}
+@_spi(WinRTInternal)
+public class IContentSiteAutomationMaker: MakeFromAbi {
+    public typealias SwiftType = AnyIContentSiteAutomation
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Microsoft_UI_Content.IContentSiteAutomation = try! abi.QueryInterface()
+        return __IMPL_Microsoft_UI_Content.IContentSiteAutomationBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class IContentSiteBridgeMaker: MakeFromAbi {
+    public typealias SwiftType = AnyIContentSiteBridge
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Microsoft_UI_Content.IContentSiteBridge = try! abi.QueryInterface()
+        return __IMPL_Microsoft_UI_Content.IContentSiteBridgeBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class IContentSiteInputMaker: MakeFromAbi {
+    public typealias SwiftType = AnyIContentSiteInput
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Microsoft_UI_Content.IContentSiteInput = try! abi.QueryInterface()
+        return __IMPL_Microsoft_UI_Content.IContentSiteInputBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class IContentSiteLinkMaker: MakeFromAbi {
+    public typealias SwiftType = AnyIContentSiteLink
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        let swiftAbi: __ABI_Microsoft_UI_Content.IContentSiteLink = try! abi.QueryInterface()
+        return __IMPL_Microsoft_UI_Content.IContentSiteLinkBridge.from(abi: RawPointer(swiftAbi))!
+    }
+}
+@_spi(WinRTInternal)
+public class ChildSiteLinkMaker: MakeFromAbi {
+    public typealias SwiftType = ChildSiteLink
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ChildSiteLink(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentCoordinateConverterMaker: MakeFromAbi {
+    public typealias SwiftType = ContentCoordinateConverter
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentCoordinateConverter(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentDeferralMaker: MakeFromAbi {
+    public typealias SwiftType = ContentDeferral
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentDeferral(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentEnvironmentSettingChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = ContentEnvironmentSettingChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentEnvironmentSettingChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentEnvironmentStateChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = ContentEnvironmentStateChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentEnvironmentStateChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentIslandMaker: MakeFromAbi {
+    public typealias SwiftType = ContentIsland
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentIsland(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentIslandAutomationProviderRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = ContentIslandAutomationProviderRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentIslandAutomationProviderRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentIslandEnvironmentMaker: MakeFromAbi {
+    public typealias SwiftType = ContentIslandEnvironment
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentIslandEnvironment(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentIslandStateChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = ContentIslandStateChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentIslandStateChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentSiteAutomationProviderRequestedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = ContentSiteAutomationProviderRequestedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentSiteAutomationProviderRequestedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentSiteEnvironmentViewMaker: MakeFromAbi {
+    public typealias SwiftType = ContentSiteEnvironmentView
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentSiteEnvironmentView(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class ContentSiteViewMaker: MakeFromAbi {
+    public typealias SwiftType = ContentSiteView
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ContentSiteView(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class DesktopChildSiteBridgeMaker: MakeFromAbi {
+    public typealias SwiftType = DesktopChildSiteBridge
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return DesktopChildSiteBridge(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class DesktopPopupSiteBridgeMaker: MakeFromAbi {
+    public typealias SwiftType = DesktopPopupSiteBridge
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return DesktopPopupSiteBridge(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class DesktopSiteBridgeMaker: MakeFromAbi {
+    public typealias SwiftType = DesktopSiteBridge
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return DesktopSiteBridge(fromAbi: abi)
+    }
 }

@@ -22,6 +22,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics;
@@ -34,6 +40,18 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence;
@@ -45,6 +63,18 @@
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager;
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManagerChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManagerChangedEventArgs_FWD_DEFINED__
@@ -88,11 +118,35 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath;
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPrimaryDescription_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPrimaryDescription_FWD_DEFINED__
@@ -124,6 +178,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState;
@@ -154,11 +214,29 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool;
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2 __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayView_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayView_FWD_DEFINED__
@@ -188,6 +266,82 @@
 
 // Collection interface definitions
 
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDeviceVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayAdapter_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayAdapter_INTERFACE_DEFINED__
 
@@ -731,6 +885,92 @@
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2_GUID_IInspectable_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CGraphics_CRectInt32 __x_ABI_CWindows_CGraphics_CRectInt32;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32 __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CGraphics_CRectInt32* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32 __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CGraphics__CRectInt32** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32Vtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32_INTERFACE_DEFINED__
     
 typedef interface __x_ABI_C__FIMapView_2_GUID_IInspectable __x_ABI_C__FIMapView_2_GUID_IInspectable;
 
@@ -1330,6 +1570,70 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayManager___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayManagerPathsFailedOrInvalidatedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable_INTERFACE_DEFINED__
+    
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor;
@@ -1338,11 +1642,25 @@ typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_
 
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CDisplayMonitorUsageKind __x_ABI_CWindows_CDevices_CDisplay_CDisplayMonitorUsageKind;
 
+typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
 #ifndef ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CFoundation_CIDeferral __x_ABI_CWindows_CFoundation_CIDeferral;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncAction __x_ABI_CWindows_CFoundation_CIAsyncAction;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
@@ -1388,7 +1706,13 @@ typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPathScaling __x_AB
 
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPathStatus __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPathStatus;
 
+typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus;
+
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation;
+
+typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions;
+
+typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus;
 
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateApplyOptions __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateApplyOptions;
 
@@ -1397,6 +1721,8 @@ typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateFunctionalize
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateOperationStatus __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateOperationStatus;
 
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTargetPersistence __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTargetPersistence;
+
+typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind;
 
 typedef enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayWireFormatColorSpace __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayWireFormatColorSpace;
 
@@ -1426,6 +1752,7 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions
     {
         __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_None = 0,
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_EnforceSourceOwnership = 0x1,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_VirtualRefreshRateAware = 0x2,
 };
 
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerResult
@@ -1463,12 +1790,37 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPathStatus
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPathStatus_InvalidatedAsync = 5,
 };
 
+enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus
+    {
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_Success = 0,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_SourceStatusPreventedPresent = 1,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_ScanoutInvalid = 2,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_SourceInvalid = 3,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_DeviceInvalid = 4,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus_UnknownFailure = 5,
+};
+
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation
     {
         __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation_None = 0,
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation_Clockwise90Degrees = 1,
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation_Clockwise180Degrees = 2,
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayRotation_Clockwise270Degrees = 3,
+};
+
+enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions
+    {
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions_None = 0,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions_AllowTearing = 0x2,
+};
+
+enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus
+    {
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus_Active = 0,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus_PoweredOff = 1,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus_Invalid = 2,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus_OwnedByAnotherDevice = 3,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus_Unowned = 4,
 };
 
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayStateApplyOptions
@@ -1509,6 +1861,7 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTargetPersistence
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind
     {
         __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind_OnPresentFlipAway = 0,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind_OnPresentFlipTo = 1,
 };
 
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayWireFormatColorSpace
@@ -1593,6 +1946,41 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsIndirectDisplayDevice)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_PreferredRenderAdapter)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapterStatics_INTERFACE_DEFINED__
@@ -1682,6 +2070,78 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateSimpleScanoutWithDirtyRectsAndOptions)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource* source,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySurface* surface,
+        UINT32 subresourceIndex,
+        UINT32 syncInterval,
+        __x_ABI_C__FIIterable_1___x_ABI_CWindows__CGraphics__CRectInt32* dirtyRects,
+        enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayScanoutOptions options,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayScanout** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_RenderAdapterId)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter* This,
+        struct __x_ABI_CWindows_CGraphics_CDisplayAdapterId* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapterVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDeviceRenderAdapter_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence_INTERFACE_DEFINED__
@@ -1790,6 +2250,74 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryReadCurrentStateForModeQuery)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManagerResultWithState** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateDisplayDeviceForIndirectAdapter)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter* indirectAdapter,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayAdapter* renderAdapter,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayDevice** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManager3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManagerChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayManagerChangedEventArgs_INTERFACE_DEFINED__
@@ -2061,6 +2589,128 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PhysicalPresentationRate)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2* This,
+        struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayModeInfo2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsActive)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* GetAvailableMuxTargets)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayTarget** result);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentTarget)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTarget** value);
+    HRESULT (STDMETHODCALLTYPE* get_PreferredTarget)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTarget** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAutomaticTargetSwitchingEnabled)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* SetPreferredTarget)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTarget* target,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* SetAutomaticTargetSwitching)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* add_Changed)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Changed)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDevice_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDeviceSelector)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* FromIdAsync)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics* This,
+        HSTRING deviceInterfaceId,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayMuxDevice** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayMuxDeviceStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPathVtbl
@@ -2140,6 +2790,41 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PhysicalPresentationRate)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayPresentationRate** value);
+    HRESULT (STDMETHODCALLTYPE* put_PhysicalPresentationRate)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplayPresentationRate* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPath2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPrimaryDescription_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayPrimaryDescription_INTERFACE_DEFINED__
@@ -2333,6 +3018,44 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+        enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus* value);
+    HRESULT (STDMETHODCALLTYPE* add_StatusChanged)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CDisplay__CCore__CDisplaySource_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_StatusChanged)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplaySource2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayState_INTERFACE_DEFINED__
@@ -2565,6 +3288,40 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetSignal)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2* This,
+        enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind signalKind,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayFence* fence);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPoolVtbl
@@ -2599,6 +3356,77 @@ struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TryExecuteTask)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2* This,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTask* task,
+        __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskPool2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PresentStatus)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+        enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_PresentId)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+        UINT64* value);
+    HRESULT (STDMETHODCALLTYPE* get_SourceStatus)(__x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult* This,
+        enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplaySourceStatus* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResultVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayTaskResult_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayView_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CCore_CIDisplayView_INTERFACE_DEFINED__

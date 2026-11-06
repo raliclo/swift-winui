@@ -50,6 +50,12 @@
 
 #endif // ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptions_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_FWD_DEFINED__
+#define ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources;
+
+#endif // ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory;
@@ -2843,6 +2849,47 @@ struct __x_ABI_CWindows_CStorage_CSearch_CSortEntry
     EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptions;
 #endif /* !defined(____x_ABI_CWindows_CStorage_CSearch_CIQueryOptions_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSourcesVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IncludeLocalSemanticIndex)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeLocalSemanticIndex)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IncludeCloudProviders)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IncludeCloudProviders)(__x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSourcesVtbl;
+
+    interface __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSourcesVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources;
+#endif /* !defined(____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactoryVtbl

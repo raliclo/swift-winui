@@ -28,6 +28,18 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3 __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4 __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics;
@@ -124,6 +136,24 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEAppearanceSubcategoriesStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice;
@@ -154,6 +184,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice5_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6 __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics;
@@ -165,6 +201,24 @@
     typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics2 __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics2;
 
 #endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics;
+
+#endif // ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothSignalStrengthFilter_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothSignalStrengthFilter_FWD_DEFINED__
@@ -1384,6 +1438,8 @@ typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothCacheMode __x_ABI_CW
 
 typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothConnectionStatus __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothConnectionStatus;
 
+typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus;
+
 typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothMajorClass __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothMajorClass;
 
 typedef enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothMinorClass __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothMinorClass;
@@ -1421,6 +1477,14 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothError
     __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothError_DisabledByUser = 7,
     __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothError_ConsentRequired = 8,
     __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothError_TransportNotSupported = 9,
+};
+
+enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus
+    {
+        __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus_Unspecified = 0,
+    __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus_Success = 1,
+    __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus_DeviceNotAvailable = 2,
+    __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus_AccessDenied = 3,
 };
 
 enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothMajorClass
@@ -1607,6 +1671,76 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsExtendedAdvertisingSupported)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxAdvertisementDataLength)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3* This,
+        UINT32* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsLowEnergyUncoded2MPhySupported)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsLowEnergyCodedPhySupported)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapter4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothAdapterStatics_INTERFACE_DEFINED__
@@ -2328,6 +2462,115 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEAppearanceSubcategoriesStatics;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEAppearanceSubcategoriesStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParametersVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LinkTimeout)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectionLatency)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectionInterval)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters* This,
+        UINT16* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParametersVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParametersVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_TransmitInfo)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo** value);
+    HRESULT (STDMETHODCALLTYPE* get_ReceiveInfo)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsUncoded1MPhy)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsUncoded2MPhy)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsCodedPhy)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfoVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfoVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhyInfo_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceVtbl
@@ -2537,6 +2780,54 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice5;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice5_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetConnectionParameters)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionParameters** result);
+    HRESULT (STDMETHODCALLTYPE* GetConnectionPhy)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEConnectionPhy** result);
+    HRESULT (STDMETHODCALLTYPE* RequestPreferredConnectionParameters)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* preferredConnectionParameters,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest** result);
+    HRESULT (STDMETHODCALLTYPE* add_ConnectionParametersChanged)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CBluetooth__CBluetoothLEDevice_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ConnectionParametersChanged)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_ConnectionPhyChanged)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CDevices__CBluetooth__CBluetoothLEDevice_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ConnectionPhyChanged)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDevice6_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStaticsVtbl
@@ -2562,7 +2853,7 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
         UINT64 bluetoothAddress,
         __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CBluetooth__CBluetoothLEDevice** operation);
     HRESULT (STDMETHODCALLTYPE* GetDeviceSelector)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics* This,
-        HSTRING* deviceSelector);
+        HSTRING* result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStaticsVtbl;
@@ -2629,6 +2920,115 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics2;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LinkTimeout)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_ConnectionLatency)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_MinConnectionInterval)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+        UINT16* value);
+    HRESULT (STDMETHODCALLTYPE* get_MaxConnectionInterval)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters* This,
+        UINT16* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequestVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest* This,
+        enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothLEPreferredConnectionParametersRequestStatus* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequestVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequestVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersRequest_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Balanced)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters** value);
+    HRESULT (STDMETHODCALLTYPE* get_ThroughputOptimized)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters** value);
+    HRESULT (STDMETHODCALLTYPE* get_PowerOptimized)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics* This,
+        __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParameters** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStaticsVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEPreferredConnectionParametersStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothSignalStrengthFilter_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothSignalStrengthFilter_INTERFACE_DEFINED__

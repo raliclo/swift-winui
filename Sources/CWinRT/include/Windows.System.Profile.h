@@ -30,6 +30,12 @@
 
 #endif // ____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2 __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2;
+
+#endif // ____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics __x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics;
@@ -60,6 +66,12 @@
 
 #endif // ____x_ABI_CWindows_CSystem_CProfile_CIKnownRetailInfoPropertiesStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics;
+
+#endif // ____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics __x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics;
@@ -72,6 +84,12 @@
 
 #endif // ____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2 __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics __x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics;
@@ -83,6 +101,12 @@
     typedef interface __x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics2 __x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics2;
 
 #endif // ____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics;
+
+#endif // ____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSystem_CProfile_CISystemIdentificationInfo_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CProfile_CISystemIdentificationInfo_FWD_DEFINED__
@@ -810,6 +834,8 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
 
+typedef enum __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy;
+
 typedef enum __x_ABI_CWindows_CSystem_CProfile_CPlatformDataCollectionLevel __x_ABI_CWindows_CSystem_CProfile_CPlatformDataCollectionLevel;
 
 typedef enum __x_ABI_CWindows_CSystem_CProfile_CSystemIdentificationSource __x_ABI_CWindows_CSystem_CProfile_CSystemIdentificationSource;
@@ -817,6 +843,13 @@ typedef enum __x_ABI_CWindows_CSystem_CProfile_CSystemIdentificationSource __x_A
 typedef enum __x_ABI_CWindows_CSystem_CProfile_CSystemOutOfBoxExperienceState __x_ABI_CWindows_CSystem_CProfile_CSystemOutOfBoxExperienceState;
 
 typedef enum __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons;
+
+enum __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy
+    {
+        __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy_Unknown = 0,
+    __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy_PermissionRequired = 1,
+    __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy_AlwaysAllowed = 2,
+};
 
 enum __x_ABI_CWindows_CSystem_CProfile_CPlatformDataCollectionLevel
     {
@@ -950,6 +983,39 @@ enum __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ProductName)(__x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIAnalyticsVersionInfo2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CProfile_CIAppApplicabilityStatics_INTERFACE_DEFINED__
@@ -1164,6 +1230,39 @@ enum __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIKnownRetailInfoPropertiesStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIKnownRetailInfoPropertiesStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Policy)(__x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics* This,
+        enum __x_ABI_CWindows_CSystem_CProfile_CPlatformAutomaticAppSignInPolicy* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIPlatformAutomaticAppSignInManagerStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CProfile_CIPlatformDiagnosticsAndUsageDataSettingsStaticsVtbl
@@ -1240,6 +1339,39 @@ enum __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsDemoModeEnabledEx)(__x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CIRetailInfoStatics2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStaticsVtbl
@@ -1305,6 +1437,44 @@ enum __x_ABI_CWindows_CSystem_CProfile_CUnsupportedAppRequirementReasons
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics2;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CISharedModeSettingsStatics2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsEnabled)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* add_Changed)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Changed)(__x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStaticsVtbl;
+
+    interface __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CProfile_CISmartAppControlPolicyStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CProfile_CISystemIdentificationInfo_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CProfile_CISystemIdentificationInfo_INTERFACE_DEFINED__

@@ -6,6 +6,8 @@ import CWinRT
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.directxalphamode)
 public typealias DirectXAlphaMode = __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.directxcolorspace)
+public typealias DirectXColorSpace = __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.directxpixelformat)
 public typealias DirectXPixelFormat = __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat
 extension UWP.DirectXAlphaMode {
@@ -22,7 +24,95 @@ extension UWP.DirectXAlphaMode {
         __x_ABI_CWindows_CGraphics_CDirectX_CDirectXAlphaMode_Ignore
     }
 }
-extension UWP.DirectXAlphaMode: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DirectXAlphaMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
+
+extension UWP.DirectXColorSpace {
+    public static var rgbFullG22NoneP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22NoneP709
+    }
+    public static var rgbFullG10NoneP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG10NoneP709
+    }
+    public static var rgbStudioG22NoneP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbStudioG22NoneP709
+    }
+    public static var rgbStudioG22NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbStudioG22NoneP2020
+    }
+    public static var reserved : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_Reserved
+    }
+    public static var yccFullG22NoneP709X601 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccFullG22NoneP709X601
+    }
+    public static var yccStudioG22LeftP601 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG22LeftP601
+    }
+    public static var yccFullG22LeftP601 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccFullG22LeftP601
+    }
+    public static var yccStudioG22LeftP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG22LeftP709
+    }
+    public static var yccFullG22LeftP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccFullG22LeftP709
+    }
+    public static var yccStudioG22LeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG22LeftP2020
+    }
+    public static var yccFullG22LeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccFullG22LeftP2020
+    }
+    public static var rgbFullG2084NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG2084NoneP2020
+    }
+    public static var yccStudioG2084LeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG2084LeftP2020
+    }
+    public static var rgbStudioG2084NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbStudioG2084NoneP2020
+    }
+    public static var yccStudioG22TopLeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG22TopLeftP2020
+    }
+    public static var yccStudioG2084TopLeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG2084TopLeftP2020
+    }
+    public static var rgbFullG22NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22NoneP2020
+    }
+    public static var yccStudioGHlgTopLeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioGHlgTopLeftP2020
+    }
+    public static var yccFullGHlgTopLeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccFullGHlgTopLeftP2020
+    }
+    public static var rgbStudioG24NoneP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbStudioG24NoneP709
+    }
+    public static var rgbStudioG24NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbStudioG24NoneP2020
+    }
+    public static var yccStudioG24LeftP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP709
+    }
+    public static var yccStudioG24LeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP2020
+    }
+    public static var yccStudioG24TopLeftP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24TopLeftP2020
+    }
+    public static var rgbFullG10NoneP2020 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG10NoneP2020
+    }
+    public static var rgbFullG22ExtNoneP709 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22ExtNoneP709
+    }
+    public static var rgbFullG22NoneP3 : UWP.DirectXColorSpace {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22NoneP3
+    }
+}
+extension UWP.DirectXColorSpace: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DirectXPixelFormat {
     public static var unknown : UWP.DirectXPixelFormat {
@@ -382,6 +472,15 @@ extension UWP.DirectXPixelFormat {
     public static var v408 : UWP.DirectXPixelFormat {
         __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_V408
     }
+    public static var samplerFeedbackMinMipOpaque : UWP.DirectXPixelFormat {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMinMipOpaque
+    }
+    public static var samplerFeedbackMipRegionUsedOpaque : UWP.DirectXPixelFormat {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMipRegionUsedOpaque
+    }
+    public static var a4b4g4r4 : UWP.DirectXPixelFormat {
+        __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_A4B4G4R4
+    }
 }
-extension UWP.DirectXPixelFormat: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DirectXPixelFormat: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

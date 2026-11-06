@@ -26,6 +26,12 @@
 
 #endif // ____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2 __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
@@ -68,6 +74,8 @@ typedef enum __x_ABI_CWindows_CSystem_CPower_CBatteryStatus __x_ABI_CWindows_CSy
 
 typedef enum __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus;
 
+typedef enum __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2 __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2;
+
 typedef enum __x_ABI_CWindows_CSystem_CPower_CPowerSupplyStatus __x_ABI_CWindows_CSystem_CPower_CPowerSupplyStatus;
 
 enum __x_ABI_CWindows_CSystem_CPower_CBatteryStatus
@@ -83,6 +91,14 @@ enum __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus
         __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus_Disabled = 0,
     __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus_Off = 1,
     __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus_On = 2,
+};
+
+enum __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2
+    {
+        __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2_Unknown = 0,
+    __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2_Off = 1,
+    __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2_Standard = 2,
+    __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2_HighSavings = 3,
 };
 
 enum __x_ABI_CWindows_CSystem_CPower_CPowerSupplyStatus
@@ -267,4 +283,44 @@ enum __x_ABI_CWindows_CSystem_CPower_CPowerSupplyStatus
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_EnergySaverStatus2)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+        enum __x_ABI_CWindows_CSystem_CPower_CEnergySaverStatus2* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsEnergySaverStatus2Supported)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* add_EnergySaverStatus2Changed)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+        __x_ABI_C__FIEventHandler_1_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_EnergySaverStatus2Changed)(__x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CPower_CIPowerManagerStatics2_INTERFACE_DEFINED__) */
     

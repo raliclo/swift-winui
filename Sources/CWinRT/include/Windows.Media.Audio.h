@@ -33,6 +33,18 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioDeviceOutputNode_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode __x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode;
@@ -200,6 +212,24 @@
     typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioNodeWithListener __x_ABI_CWindows_CMedia_CAudio_CIAudioNodeWithListener;
 
 #endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioNodeWithListener_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor_FWD_DEFINED__
@@ -387,10 +417,92 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2 __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2;
+
+#endif // ____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
 
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__
+    
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CCreateAudioDeviceInputNodeResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CMedia__CAudio__CCreateAudioDeviceInputNodeResult;
 
 #if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CCreateAudioDeviceInputNodeResult_INTERFACE_DEFINED__)
@@ -1554,6 +1666,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
     #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CTimeSpan_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable* This,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioFileInputNode_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioFileInputNode_IInspectable_INTERFACE_DEFINED__
 
@@ -1713,6 +1857,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioGraph___x_ABI_CWindows__CMedia__CAudio__CAudioGraphUnrecoverableErrorOccurredEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable* This,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioStateMonitor_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioStateMonitor_IInspectable_INTERFACE_DEFINED__
@@ -1888,6 +2064,8 @@ typedef enum __x_ABI_CWindows_CMedia_CSoundLevel __x_ABI_CWindows_CMedia_CSoundL
 
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus;
 
+typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus;
+
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioFileNodeCreationStatus __x_ABI_CWindows_CMedia_CAudio_CAudioFileNodeCreationStatus;
 
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioGraphCreationStatus __x_ABI_CWindows_CMedia_CAudio_CAudioGraphCreationStatus;
@@ -1899,6 +2077,10 @@ typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterDecayKind __x_ABI_C
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterSettings __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterSettings;
 
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterShapeKind __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterShapeKind;
+
+typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus;
+
+typedef enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState;
 
 typedef enum __x_ABI_CWindows_CMedia_CAudio_CMediaSourceAudioInputNodeCreationStatus __x_ABI_CWindows_CMedia_CAudio_CMediaSourceAudioInputNodeCreationStatus;
 
@@ -1917,6 +2099,13 @@ enum __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus
     __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus_FormatNotSupported = 2,
     __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus_UnknownFailure = 3,
     __x_ABI_CWindows_CMedia_CAudio_CAudioDeviceNodeCreationStatus_AccessDenied = 4,
+};
+
+enum __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus
+    {
+        __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus_NotEnabled = 0,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus_Enabled = 1,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus_NotSupported = 2,
 };
 
 enum __x_ABI_CWindows_CMedia_CAudio_CAudioFileNodeCreationStatus
@@ -1960,6 +2149,20 @@ enum __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterShapeKind
     {
         __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterShapeKind_Omnidirectional = 0,
     __x_ABI_CWindows_CMedia_CAudio_CAudioNodeEmitterShapeKind_Cone = 1,
+};
+
+enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus
+    {
+        __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus_Success = 0,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus_RequestTimedOut = 1,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus_DeniedBySystem = 2,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus_UnknownFailure = 3,
+};
+
+enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState
+    {
+        __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState_Closed = 0,
+    __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState_Opened = 1,
 };
 
 enum __x_ABI_CWindows_CMedia_CAudio_CMediaSourceAudioInputNodeCreationStatus
@@ -2064,6 +2267,87 @@ enum __x_ABI_CWindows_CMedia_CAudio_CSpatialAudioModel
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioDeviceOutputNode;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioDeviceOutputNode_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeviceId)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_EffectsPackId)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+        enum __x_ABI_CWindows_CMedia_CAudio_CAudioEffectsPackStatus* value);
+    HRESULT (STDMETHODCALLTYPE* add_StatusChanged)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioEffectsPackConfiguration_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_StatusChanged)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForDeviceId)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+        HSTRING effectsPackId,
+        HSTRING deviceId,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfiguration** result);
+    HRESULT (STDMETHODCALLTYPE* IsDeviceIdSupported)(__x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics* This,
+        HSTRING effectsPackId,
+        HSTRING deviceId,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioEffectsPackConfigurationStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioFileInputNode_INTERFACE_DEFINED__
@@ -3256,6 +3540,124 @@ enum __x_ABI_CWindows_CMedia_CAudio_CSpatialAudioModel
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioNodeWithListener;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioNodeWithListener_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This);
+    HRESULT (STDMETHODCALLTYPE* StartAsync)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* get_DeviceId)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_State)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionState* value);
+    HRESULT (STDMETHODCALLTYPE* Open)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult** result);
+    HRESULT (STDMETHODCALLTYPE* OpenAsync)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnectionOpenResult** operation);
+    HRESULT (STDMETHODCALLTYPE* add_StateChanged)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioPlaybackConnection_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_StateChanged)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+        enum __x_ABI_CWindows_CMedia_CAudio_CAudioPlaybackConnectionOpenResultStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResultVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionOpenResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDeviceSelector)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* TryCreateFromId)(__x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics* This,
+        HSTRING id,
+        __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnection** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStaticsVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioPlaybackConnectionStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor_INTERFACE_DEFINED__
@@ -4503,4 +4905,37 @@ enum __x_ABI_CWindows_CMedia_CAudio_CSpatialAudioModel
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DTSXForHomeTheater)(__x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CAudio_CISpatialAudioFormatSubtypeStatics2_INTERFACE_DEFINED__) */
     

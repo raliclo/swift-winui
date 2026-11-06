@@ -58,6 +58,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2 __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2;
+
+#endif // ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint;
@@ -75,6 +81,12 @@
     typedef interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPositionSourceTimestamp __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPositionSourceTimestamp;
 
 #endif // ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPositionSourceTimestamp_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource;
+
+#endif // ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CDevices_CGeolocation_CIGeolocator_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeolocator_FWD_DEFINED__
@@ -1598,6 +1610,41 @@ struct __x_ABI_CWindows_CDevices_CGeolocation_CBasicGeoposition
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_GeometricDilutionOfPrecision)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+        __x_ABI_C__FIReference_1_double** value);
+    HRESULT (STDMETHODCALLTYPE* get_TimeDilutionOfPrecision)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2* This,
+        __x_ABI_C__FIReference_1_double** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateSatelliteData2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPoint_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPointVtbl
@@ -1698,6 +1745,39 @@ struct __x_ABI_CWindows_CDevices_CGeolocation_CBasicGeoposition
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPositionSourceTimestamp;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithPositionSourceTimestamp_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSourceVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsRemoteSource)(__x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSourceVtbl;
+
+    interface __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSourceVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeocoordinateWithRemoteSource_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CGeolocation_CIGeolocator_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CGeolocation_CIGeolocator_INTERFACE_DEFINED__

@@ -8,6 +8,10 @@ private var IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptions: WindowsFoundat
     .init(Data1: 0x1E5E46EE, Data2: 0x0F45, Data3: 0x4838, Data4: ( 0xA8,0xE9,0xD0,0x47,0x9D,0x44,0x6C,0x30 ))// 1E5E46EE-0F45-4838-A8E9-D0479D446C30
 }
 
+private var IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources: WindowsFoundation.IID {
+    .init(Data1: 0x8D342D6B, Data2: 0x8800, Data3: 0x426E, Data4: ( 0xB5,0xCF,0x4B,0x32,0x8F,0x82,0x4E,0x7E ))// 8D342D6B-8800-426E-B5CF-4B328F824E7E
+}
+
 private var IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory: WindowsFoundation.IID {
     .init(Data1: 0x032E1F8C, Data2: 0xA9C1, Data3: 0x4E71, Data4: ( 0x80,0x11,0x0D,0xEE,0x9D,0x48,0x11,0xA3 ))// 032E1F8C-A9C1-4E71-8011-0DEE9D4811A3
 }
@@ -40,11 +44,12 @@ private var IID___x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase: Wind
     .init(Data1: 0xC297D70D, Data2: 0x7353, Data3: 0x47AB, Data4: ( 0xBA,0x58,0x8C,0x61,0x42,0x5D,0xC5,0x4B ))// C297D70D-7353-47AB-BA58-8C61425DC54B
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Storage_Search {
     public class IQueryOptions: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptions }
 
-        internal func get_FileTypeFilterImpl() throws -> WindowsFoundation.AnyIVector<String>? {
+        public func get_FileTypeFilter() throws -> WindowsFoundation.AnyIVector<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_FileTypeFilter(pThis, &valueAbi))
@@ -53,7 +58,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIVector_1_HSTRINGWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_FolderDepthImpl() throws -> UWP.FolderDepth {
+        public func get_FolderDepth() throws -> UWP.FolderDepth {
             var value: __x_ABI_CWindows_CStorage_CSearch_CFolderDepth = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_FolderDepth(pThis, &value))
@@ -61,13 +66,13 @@ public enum __ABI_Windows_Storage_Search {
             return value
         }
 
-        internal func put_FolderDepthImpl(_ value: UWP.FolderDepth) throws {
+        public func put_FolderDepth(_ value: UWP.FolderDepth) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_FolderDepth(pThis, value))
             }
         }
 
-        internal func get_ApplicationSearchFilterImpl() throws -> String {
+        public func get_ApplicationSearchFilter() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ApplicationSearchFilter(pThis, &value))
@@ -75,14 +80,14 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        internal func put_ApplicationSearchFilterImpl(_ value: String) throws {
+        public func put_ApplicationSearchFilter(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ApplicationSearchFilter(pThis, _value.get()))
             }
         }
 
-        internal func get_UserSearchFilterImpl() throws -> String {
+        public func get_UserSearchFilter() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_UserSearchFilter(pThis, &value))
@@ -90,14 +95,14 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        internal func put_UserSearchFilterImpl(_ value: String) throws {
+        public func put_UserSearchFilter(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_UserSearchFilter(pThis, _value.get()))
             }
         }
 
-        internal func get_LanguageImpl() throws -> String {
+        public func get_Language() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Language(pThis, &value))
@@ -105,14 +110,14 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        internal func put_LanguageImpl(_ value: String) throws {
+        public func put_Language(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Language(pThis, _value.get()))
             }
         }
 
-        internal func get_IndexerOptionImpl() throws -> UWP.IndexerOption {
+        public func get_IndexerOption() throws -> UWP.IndexerOption {
             var value: __x_ABI_CWindows_CStorage_CSearch_CIndexerOption = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IndexerOption(pThis, &value))
@@ -120,13 +125,13 @@ public enum __ABI_Windows_Storage_Search {
             return value
         }
 
-        internal func put_IndexerOptionImpl(_ value: UWP.IndexerOption) throws {
+        public func put_IndexerOption(_ value: UWP.IndexerOption) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_IndexerOption(pThis, value))
             }
         }
 
-        internal func get_SortOrderImpl() throws -> WindowsFoundation.AnyIVector<UWP.SortEntry>? {
+        public func get_SortOrder() throws -> WindowsFoundation.AnyIVector<UWP.SortEntry>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_SortOrder(pThis, &valueAbi))
@@ -135,7 +140,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIVector_1___x_ABI_CWindows__CStorage__CSearch__CSortEntryWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_GroupPropertyNameImpl() throws -> String {
+        public func get_GroupPropertyName() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_GroupPropertyName(pThis, &value))
@@ -143,7 +148,7 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        internal func get_DateStackOptionImpl() throws -> UWP.DateStackOption {
+        public func get_DateStackOption() throws -> UWP.DateStackOption {
             var value: __x_ABI_CWindows_CStorage_CSearch_CDateStackOption = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_DateStackOption(pThis, &value))
@@ -151,7 +156,7 @@ public enum __ABI_Windows_Storage_Search {
             return value
         }
 
-        internal func SaveToStringImpl() throws -> String {
+        public func SaveToString() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SaveToString(pThis, &value))
@@ -159,20 +164,20 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        internal func LoadFromStringImpl(_ value: String) throws {
+        public func LoadFromString(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.LoadFromString(pThis, _value.get()))
             }
         }
 
-        internal func SetThumbnailPrefetchImpl(_ mode: UWP.ThumbnailMode, _ requestedSize: UInt32, _ options: UWP.ThumbnailOptions) throws {
+        public func SetThumbnailPrefetch(_ mode: UWP.ThumbnailMode, _ requestedSize: UInt32, _ options: UWP.ThumbnailOptions) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.SetThumbnailPrefetch(pThis, mode, requestedSize, options))
             }
         }
 
-        internal func SetPropertyPrefetchImpl(_ options: UWP.PropertyPrefetchOptions, _ propertiesToRetrieve: WindowsFoundation.AnyIIterable<String>?) throws {
+        public func SetPropertyPrefetch(_ options: UWP.PropertyPrefetchOptions, _ propertiesToRetrieve: WindowsFoundation.AnyIIterable<String>?) throws {
             let propertiesToRetrieveWrapper = UWP.__x_ABI_C__FIIterable_1_HSTRINGWrapper(propertiesToRetrieve)
             let _propertiesToRetrieve = try! propertiesToRetrieveWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptions.self) { pThis in
@@ -182,10 +187,43 @@ public enum __ABI_Windows_Storage_Search {
 
     }
 
+    public class IQueryOptionsAdditionalSearchSources: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources }
+
+        public func get_IncludeLocalSemanticIndex() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IncludeLocalSemanticIndex(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_IncludeLocalSemanticIndex(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IncludeLocalSemanticIndex(pThis, .init(from: value)))
+            }
+        }
+
+        public func get_IncludeCloudProviders() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IncludeCloudProviders(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_IncludeCloudProviders(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsAdditionalSearchSources.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IncludeCloudProviders(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
     public class IQueryOptionsFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory }
 
-        internal func CreateCommonFileQueryImpl(_ query: UWP.CommonFileQuery, _ fileTypeFilter: WindowsFoundation.AnyIIterable<String>?) throws -> IQueryOptions {
+        public func CreateCommonFileQuery(_ query: UWP.CommonFileQuery, _ fileTypeFilter: WindowsFoundation.AnyIIterable<String>?) throws -> IQueryOptions {
             let (queryOptions) = try ComPtrs.initialize { queryOptionsAbi in
                 let fileTypeFilterWrapper = UWP.__x_ABI_C__FIIterable_1_HSTRINGWrapper(fileTypeFilter)
                 let _fileTypeFilter = try! fileTypeFilterWrapper?.toABI { $0 }
@@ -196,7 +234,7 @@ public enum __ABI_Windows_Storage_Search {
             return IQueryOptions(queryOptions!)
         }
 
-        internal func CreateCommonFolderQueryImpl(_ query: UWP.CommonFolderQuery) throws -> IQueryOptions {
+        public func CreateCommonFolderQuery(_ query: UWP.CommonFolderQuery) throws -> IQueryOptions {
             let (queryOptions) = try ComPtrs.initialize { queryOptionsAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsFactory.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateCommonFolderQuery(pThis, query, &queryOptionsAbi))
@@ -210,7 +248,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IQueryOptionsWithProviderFilter: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsWithProviderFilter }
 
-        internal func get_StorageProviderIdFilterImpl() throws -> WindowsFoundation.AnyIVector<String>? {
+        public func get_StorageProviderIdFilter() throws -> WindowsFoundation.AnyIVector<String>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIQueryOptionsWithProviderFilter.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_StorageProviderIdFilter(pThis, &valueAbi))
@@ -224,7 +262,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageFileQueryResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageFileQueryResult }
 
-        internal func GetFilesAsyncImpl(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
+        public func GetFilesAsync(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFileQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFilesAsync(pThis, startIndex, maxNumberOfItems, &operationAbi))
@@ -233,7 +271,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFileWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetFilesAsyncDefaultStartAndCountImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
+        public func GetFilesAsyncDefaultStartAndCount() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFileQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFilesAsyncDefaultStartAndCount(pThis, &operationAbi))
@@ -247,7 +285,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageFileQueryResult2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageFileQueryResult2 }
 
-        internal func GetMatchingPropertiesWithRangesImpl(_ file: UWP.StorageFile?) throws -> WindowsFoundation.AnyIMap<String, WindowsFoundation.AnyIVectorView<UWP.TextSegment>?>? {
+        public func GetMatchingPropertiesWithRanges(_ file: UWP.StorageFile?) throws -> WindowsFoundation.AnyIMap<String, WindowsFoundation.AnyIVectorView<UWP.TextSegment>?>? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFileQueryResult2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetMatchingPropertiesWithRanges(pThis, RawPointer(file), &resultAbi))
@@ -261,7 +299,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageFolderQueryOperations: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations }
 
-        open func GetIndexedStateAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.IndexedState>? {
+        open func GetIndexedStateAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.IndexedState>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetIndexedStateAsync(pThis, &operationAbi))
@@ -270,79 +308,79 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CSearch__CIndexedStateWrapper.unwrapFrom(abi: operation)
         }
 
-        open func CreateFileQueryOverloadDefaultImpl() throws -> UWP.StorageFileQueryResult? {
+        open func CreateFileQueryOverloadDefault() throws -> UWP.StorageFileQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFileQueryOverloadDefault(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFileQueryResultBridge.from(abi: value)
         }
 
-        open func CreateFileQueryImpl(_ query: UWP.CommonFileQuery) throws -> UWP.StorageFileQueryResult? {
+        open func CreateFileQuery(_ query: UWP.CommonFileQuery) throws -> UWP.StorageFileQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFileQuery(pThis, query, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFileQueryResultBridge.from(abi: value)
         }
 
-        open func CreateFileQueryWithOptionsImpl(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageFileQueryResult? {
+        open func CreateFileQueryWithOptions(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageFileQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFileQueryWithOptions(pThis, RawPointer(queryOptions), &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFileQueryResultBridge.from(abi: value)
         }
 
-        open func CreateFolderQueryOverloadDefaultImpl() throws -> UWP.StorageFolderQueryResult? {
+        open func CreateFolderQueryOverloadDefault() throws -> UWP.StorageFolderQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFolderQueryOverloadDefault(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFolderQueryResultBridge.from(abi: value)
         }
 
-        open func CreateFolderQueryImpl(_ query: UWP.CommonFolderQuery) throws -> UWP.StorageFolderQueryResult? {
+        open func CreateFolderQuery(_ query: UWP.CommonFolderQuery) throws -> UWP.StorageFolderQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFolderQuery(pThis, query, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFolderQueryResultBridge.from(abi: value)
         }
 
-        open func CreateFolderQueryWithOptionsImpl(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageFolderQueryResult? {
+        open func CreateFolderQueryWithOptions(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageFolderQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFolderQueryWithOptions(pThis, RawPointer(queryOptions), &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageFolderQueryResultBridge.from(abi: value)
         }
 
-        open func CreateItemQueryImpl() throws -> UWP.StorageItemQueryResult? {
+        open func CreateItemQuery() throws -> UWP.StorageItemQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateItemQuery(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageItemQueryResultBridge.from(abi: value)
         }
 
-        open func CreateItemQueryWithOptionsImpl(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageItemQueryResult? {
+        open func CreateItemQueryWithOptions(_ queryOptions: UWP.QueryOptions?) throws -> UWP.StorageItemQueryResult? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateItemQueryWithOptions(pThis, RawPointer(queryOptions), &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.StorageItemQueryResultBridge.from(abi: value)
         }
 
-        open func GetFilesAsyncImpl(_ query: UWP.CommonFileQuery, _ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
+        open func GetFilesAsync(_ query: UWP.CommonFileQuery, _ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFilesAsync(pThis, query, startIndex, maxItemsToRetrieve, &operationAbi))
@@ -351,7 +389,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFileWrapper.unwrapFrom(abi: operation)
         }
 
-        open func GetFilesAsyncOverloadDefaultStartAndCountImpl(_ query: UWP.CommonFileQuery) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
+        open func GetFilesAsyncOverloadDefaultStartAndCount(_ query: UWP.CommonFileQuery) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFile?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFilesAsyncOverloadDefaultStartAndCount(pThis, query, &operationAbi))
@@ -360,7 +398,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFileWrapper.unwrapFrom(abi: operation)
         }
 
-        open func GetFoldersAsyncImpl(_ query: UWP.CommonFolderQuery, _ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
+        open func GetFoldersAsync(_ query: UWP.CommonFolderQuery, _ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFoldersAsync(pThis, query, startIndex, maxItemsToRetrieve, &operationAbi))
@@ -369,7 +407,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFolderWrapper.unwrapFrom(abi: operation)
         }
 
-        open func GetFoldersAsyncOverloadDefaultStartAndCountImpl(_ query: UWP.CommonFolderQuery) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
+        open func GetFoldersAsyncOverloadDefaultStartAndCount(_ query: UWP.CommonFolderQuery) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFoldersAsyncOverloadDefaultStartAndCount(pThis, query, &operationAbi))
@@ -378,7 +416,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFolderWrapper.unwrapFrom(abi: operation)
         }
 
-        open func GetItemsAsyncImpl(_ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
+        open func GetItemsAsync(_ startIndex: UInt32, _ maxItemsToRetrieve: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetItemsAsync(pThis, startIndex, maxItemsToRetrieve, &operationAbi))
@@ -387,7 +425,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CIStorageItemWrapper.unwrapFrom(abi: operation)
         }
 
-        open func AreQueryOptionsSupportedImpl(_ queryOptions: UWP.QueryOptions?) throws -> Bool {
+        open func AreQueryOptionsSupported(_ queryOptions: UWP.QueryOptions?) throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.AreQueryOptionsSupported(pThis, RawPointer(queryOptions), &value))
@@ -395,7 +433,7 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        open func IsCommonFolderQuerySupportedImpl(_ query: UWP.CommonFolderQuery) throws -> Bool {
+        open func IsCommonFolderQuerySupported(_ query: UWP.CommonFolderQuery) throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.IsCommonFolderQuerySupported(pThis, query, &value))
@@ -403,7 +441,7 @@ public enum __ABI_Windows_Storage_Search {
             return .init(from: value)
         }
 
-        open func IsCommonFileQuerySupportedImpl(_ query: UWP.CommonFileQuery) throws -> Bool {
+        open func IsCommonFileQuerySupported(_ query: UWP.CommonFileQuery) throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryOperations.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.IsCommonFileQuerySupported(pThis, query, &value))
@@ -448,7 +486,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CStorage__CSearch__CIndexedStateWrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFileQueryOverloadDefault: {
@@ -457,7 +495,7 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.createFileQuery()
                 value?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFileQuery: {
@@ -467,17 +505,17 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.createFileQuery(query)
                 value?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFileQueryWithOptions: {
             do {
                 guard let __unwrapped__instance = IStorageFolderQueryOperationsWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let queryOptions: UWP.QueryOptions? = .from(abi: ComPtr($1))
+                let queryOptions: UWP.QueryOptions? = __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: ComPtr($1))
                 let value = try __unwrapped__instance.createFileQueryWithOptions(queryOptions)
                 value?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFolderQueryOverloadDefault: {
@@ -486,7 +524,7 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.createFolderQuery()
                 value?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFolderQuery: {
@@ -496,17 +534,17 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.createFolderQuery(query)
                 value?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateFolderQueryWithOptions: {
             do {
                 guard let __unwrapped__instance = IStorageFolderQueryOperationsWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let queryOptions: UWP.QueryOptions? = .from(abi: ComPtr($1))
+                let queryOptions: UWP.QueryOptions? = __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: ComPtr($1))
                 let value = try __unwrapped__instance.createFolderQueryWithOptions(queryOptions)
                 value?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateItemQuery: {
@@ -515,17 +553,17 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.createItemQuery()
                 value?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         CreateItemQueryWithOptions: {
             do {
                 guard let __unwrapped__instance = IStorageFolderQueryOperationsWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let queryOptions: UWP.QueryOptions? = .from(abi: ComPtr($1))
+                let queryOptions: UWP.QueryOptions? = __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: ComPtr($1))
                 let value = try __unwrapped__instance.createItemQueryWithOptions(queryOptions)
                 value?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetFilesAsync: {
@@ -538,7 +576,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFileWrapper(operation)
                 operationWrapper?.copyTo($4)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetFilesAsyncOverloadDefaultStartAndCount: {
@@ -549,7 +587,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFileWrapper(operation)
                 operationWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetFoldersAsync: {
@@ -562,7 +600,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFolderWrapper(operation)
                 operationWrapper?.copyTo($4)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetFoldersAsyncOverloadDefaultStartAndCount: {
@@ -573,7 +611,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFolderWrapper(operation)
                 operationWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetItemsAsync: {
@@ -585,17 +623,17 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CIStorageItemWrapper(operation)
                 operationWrapper?.copyTo($3)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         AreQueryOptionsSupported: {
             do {
                 guard let __unwrapped__instance = IStorageFolderQueryOperationsWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let queryOptions: UWP.QueryOptions? = .from(abi: ComPtr($1))
+                let queryOptions: UWP.QueryOptions? = __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: ComPtr($1))
                 let value = try __unwrapped__instance.areQueryOptionsSupported(queryOptions)
                 $2?.initialize(to: .init(from: value))
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         IsCommonFolderQuerySupported: {
@@ -605,7 +643,7 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.isCommonFolderQuerySupported(query)
                 $2?.initialize(to: .init(from: value))
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         IsCommonFileQuerySupported: {
@@ -615,7 +653,7 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.isCommonFileQuerySupported(query)
                 $2?.initialize(to: .init(from: value))
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 
@@ -623,7 +661,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageFolderQueryResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryResult }
 
-        internal func GetFoldersAsyncImpl(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
+        public func GetFoldersAsync(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFoldersAsync(pThis, startIndex, maxNumberOfItems, &operationAbi))
@@ -632,7 +670,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CStorageFolderWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetFoldersAsyncDefaultStartAndCountImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
+        public func GetFoldersAsyncDefaultStartAndCount() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.StorageFolder?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageFolderQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetFoldersAsyncDefaultStartAndCount(pThis, &operationAbi))
@@ -646,7 +684,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageItemQueryResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageItemQueryResult }
 
-        internal func GetItemsAsyncImpl(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
+        public func GetItemsAsync(_ startIndex: UInt32, _ maxNumberOfItems: UInt32) throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageItemQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetItemsAsync(pThis, startIndex, maxNumberOfItems, &operationAbi))
@@ -655,7 +693,7 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CStorage__CIStorageItemWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetItemsAsyncDefaultStartAndCountImpl() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
+        public func GetItemsAsyncDefaultStartAndCount() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageItemQueryResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetItemsAsyncDefaultStartAndCount(pThis, &operationAbi))
@@ -669,7 +707,7 @@ public enum __ABI_Windows_Storage_Search {
     public class IStorageQueryResultBase: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase }
 
-        open func GetItemCountAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperation<UInt32>? {
+        open func GetItemCountAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UInt32>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetItemCountAsync(pThis, &operationAbi))
@@ -678,16 +716,16 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1_UINT32Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func get_FolderImpl() throws -> UWP.StorageFolder? {
+        open func get_Folder() throws -> UWP.StorageFolder? {
             let (container) = try ComPtrs.initialize { containerAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Folder(pThis, &containerAbi))
                 }
             }
-            return .from(abi: container)
+            return __IMPL_Windows_Storage.StorageFolderBridge.from(abi: container)
         }
 
-        open func add_ContentsChangedImpl(_ handler: TypedEventHandler<UWP.AnyIStorageQueryResultBase?, Any?>?) throws -> EventRegistrationToken {
+        open func add_ContentsChanged(_ handler: TypedEventHandler<UWP.AnyIStorageQueryResultBase?, Any?>?) throws -> EventRegistrationToken {
             var eventCookie: EventRegistrationToken = .init()
             let handlerWrapper = UWP.__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CStorage__CSearch__CIStorageQueryResultBase_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -697,13 +735,13 @@ public enum __ABI_Windows_Storage_Search {
             return eventCookie
         }
 
-        open func remove_ContentsChangedImpl(_ eventCookie: EventRegistrationToken) throws {
+        open func remove_ContentsChanged(_ eventCookie: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ContentsChanged(pThis, eventCookie))
             }
         }
 
-        open func add_OptionsChangedImpl(_ changedHandler: TypedEventHandler<UWP.AnyIStorageQueryResultBase?, Any?>?) throws -> EventRegistrationToken {
+        open func add_OptionsChanged(_ changedHandler: TypedEventHandler<UWP.AnyIStorageQueryResultBase?, Any?>?) throws -> EventRegistrationToken {
             var eventCookie: EventRegistrationToken = .init()
             let changedHandlerWrapper = UWP.__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CStorage__CSearch__CIStorageQueryResultBase_IInspectableWrapper(changedHandler)
             let _changedHandler = try! changedHandlerWrapper?.toABI { $0 }
@@ -713,13 +751,13 @@ public enum __ABI_Windows_Storage_Search {
             return eventCookie
         }
 
-        open func remove_OptionsChangedImpl(_ eventCookie: EventRegistrationToken) throws {
+        open func remove_OptionsChanged(_ eventCookie: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_OptionsChanged(pThis, eventCookie))
             }
         }
 
-        open func FindStartIndexAsyncImpl(_ value: Any?) throws -> WindowsFoundation.AnyIAsyncOperation<UInt32>? {
+        open func FindStartIndexAsync(_ value: Any?) throws -> WindowsFoundation.AnyIAsyncOperation<UInt32>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let valueWrapper = __ABI_.AnyWrapper(value)
                 let _value = try! valueWrapper?.toABI { $0 }
@@ -730,16 +768,16 @@ public enum __ABI_Windows_Storage_Search {
             return UWP.__x_ABI_C__FIAsyncOperation_1_UINT32Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func GetCurrentQueryOptionsImpl() throws -> UWP.QueryOptions? {
+        open func GetCurrentQueryOptions() throws -> UWP.QueryOptions? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetCurrentQueryOptions(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: value)
         }
 
-        open func ApplyNewQueryOptionsImpl(_ newQueryOptions: UWP.QueryOptions?) throws {
+        open func ApplyNewQueryOptions(_ newQueryOptions: UWP.QueryOptions?) throws {
             _ = try perform(as: __x_ABI_CWindows_CStorage_CSearch_CIStorageQueryResultBase.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.ApplyNewQueryOptions(pThis, RawPointer(newQueryOptions)))
             }
@@ -782,7 +820,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1_UINT32Wrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         get_Folder: {
@@ -830,7 +868,7 @@ public enum __ABI_Windows_Storage_Search {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperation_1_UINT32Wrapper(operation)
                 operationWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         GetCurrentQueryOptions: {
@@ -839,16 +877,16 @@ public enum __ABI_Windows_Storage_Search {
                 let value = try __unwrapped__instance.getCurrentQueryOptions()
                 value?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         ApplyNewQueryOptions: {
             do {
                 guard let __unwrapped__instance = IStorageQueryResultBaseWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
-                let newQueryOptions: UWP.QueryOptions? = .from(abi: ComPtr($1))
+                let newQueryOptions: UWP.QueryOptions? = __IMPL_Windows_Storage_Search.QueryOptionsBridge.from(abi: ComPtr($1))
                 try __unwrapped__instance.applyNewQueryOptions(newQueryOptions)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 

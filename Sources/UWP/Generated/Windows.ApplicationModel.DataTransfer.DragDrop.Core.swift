@@ -20,26 +20,20 @@ public final class CoreDragDropManager : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragDropManager>?) -> CoreDragDropManager? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _ICoreDragDropManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDragDropManagerStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragDropManager"))
+    private static let _ICoreDragDropManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDragDropManagerStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragDropManager")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragdropmanager.getforcurrentview)
-    public static func getForCurrentView() -> CoreDragDropManager! {
-        return try! _ICoreDragDropManagerStatics.GetForCurrentViewImpl()
+    public static func getForCurrentView() throws -> CoreDragDropManager! {
+        return try _ICoreDragDropManagerStatics.GetForCurrentView()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragdropmanager.areconcurrentoperationsenabled)
     public var areConcurrentOperationsEnabled : Bool {
-        get { try! _default.get_AreConcurrentOperationsEnabledImpl() }
-        set { try! _default.put_AreConcurrentOperationsEnabledImpl(newValue) }
+        get { try! _default.get_AreConcurrentOperationsEnabled() }
+        set { try! _default.put_AreConcurrentOperationsEnabled(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragdropmanager.targetrequested)
@@ -47,10 +41,10 @@ public final class CoreDragDropManager : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_TargetRequestedImpl($0)
+          return try! this.add_TargetRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_TargetRequestedImpl($0)
+         try? self?._default.remove_TargetRequested($0)
        }
       )
     }()
@@ -74,35 +68,29 @@ public final class CoreDragInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragInfo>?) -> CoreDragInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraginfo.data)
     public var data : UWP.DataPackageView! {
-        get { try! _default.get_DataImpl() }
+        get { try! _default.get_Data() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraginfo.modifiers)
     public var modifiers : UWP.DragDropModifiers {
-        get { try! _default.get_ModifiersImpl() }
+        get { try! _default.get_Modifiers() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraginfo.position)
     public var position : WindowsFoundation.Point {
-        get { try! _default.get_PositionImpl() }
+        get { try! _default.get_Position() }
     }
 
     private lazy var _ICoreDragInfo2: __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDragInfo2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraginfo.allowedoperations)
     public var allowedOperations : UWP.DataPackageOperation {
-        get { try! _ICoreDragInfo2.get_AllowedOperationsImpl() }
+        get { try! _ICoreDragInfo2.get_AllowedOperations() }
     }
 
     deinit {
@@ -125,56 +113,51 @@ public final class CoreDragOperation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragOperation>?) -> CoreDragOperation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragOperation")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragOperation")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.setpointerid)
     public func setPointerId(_ pointerId: UInt32) throws {
-        try _default.SetPointerIdImpl(pointerId)
+        try _default.SetPointerId(pointerId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.setdraguicontentfromsoftwarebitmap)
     public func setDragUIContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap!) throws {
-        try _default.SetDragUIContentFromSoftwareBitmapImpl(softwareBitmap)
+        try _default.SetDragUIContentFromSoftwareBitmap(softwareBitmap)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.setdraguicontentfromsoftwarebitmap)
     public func setDragUIContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap!, _ anchorPoint: WindowsFoundation.Point) throws {
-        try _default.SetDragUIContentFromSoftwareBitmapWithAnchorPointImpl(softwareBitmap, anchorPoint)
+        try _default.SetDragUIContentFromSoftwareBitmapWithAnchorPoint(softwareBitmap, anchorPoint)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.startasync)
     public func startAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.DataPackageOperation>! {
-        try _default.StartAsyncImpl()
+        try _default.StartAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.data)
     public var data : UWP.DataPackage! {
-        get { try! _default.get_DataImpl() }
+        get { try! _default.get_Data() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.draguicontentmode)
     public var dragUIContentMode : CoreDragUIContentMode {
-        get { try! _default.get_DragUIContentModeImpl() }
-        set { try! _default.put_DragUIContentModeImpl(newValue) }
+        get { try! _default.get_DragUIContentMode() }
+        set { try! _default.put_DragUIContentMode(newValue) }
     }
 
     private lazy var _ICoreDragOperation2: __ABI_Windows_ApplicationModel_DataTransfer_DragDrop_Core.ICoreDragOperation2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredragoperation.allowedoperations)
     public var allowedOperations : UWP.DataPackageOperation {
-        get { try! _ICoreDragOperation2.get_AllowedOperationsImpl() }
-        set { try! _ICoreDragOperation2.put_AllowedOperationsImpl(newValue) }
+        get { try! _ICoreDragOperation2.get_AllowedOperations() }
+        set { try! _ICoreDragOperation2.put_AllowedOperations(newValue) }
     }
 
     deinit {
@@ -197,53 +180,47 @@ public final class CoreDragUIOverride : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDragUIOverride>?) -> CoreDragUIOverride? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.setcontentfromsoftwarebitmap)
     public func setContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap!) throws {
-        try _default.SetContentFromSoftwareBitmapImpl(softwareBitmap)
+        try _default.SetContentFromSoftwareBitmap(softwareBitmap)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.setcontentfromsoftwarebitmap)
     public func setContentFromSoftwareBitmap(_ softwareBitmap: UWP.SoftwareBitmap!, _ anchorPoint: WindowsFoundation.Point) throws {
-        try _default.SetContentFromSoftwareBitmapWithAnchorPointImpl(softwareBitmap, anchorPoint)
+        try _default.SetContentFromSoftwareBitmapWithAnchorPoint(softwareBitmap, anchorPoint)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.clear)
     public func clear() throws {
-        try _default.ClearImpl()
+        try _default.Clear()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.caption)
     public var caption : String {
-        get { try! _default.get_CaptionImpl() }
-        set { try! _default.put_CaptionImpl(newValue) }
+        get { try! _default.get_Caption() }
+        set { try! _default.put_Caption(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.iscaptionvisible)
     public var isCaptionVisible : Bool {
-        get { try! _default.get_IsCaptionVisibleImpl() }
-        set { try! _default.put_IsCaptionVisibleImpl(newValue) }
+        get { try! _default.get_IsCaptionVisible() }
+        set { try! _default.put_IsCaptionVisible(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.iscontentvisible)
     public var isContentVisible : Bool {
-        get { try! _default.get_IsContentVisibleImpl() }
-        set { try! _default.put_IsContentVisibleImpl(newValue) }
+        get { try! _default.get_IsContentVisible() }
+        set { try! _default.put_IsContentVisible(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredraguioverride.isglyphvisible)
     public var isGlyphVisible : Bool {
-        get { try! _default.get_IsGlyphVisibleImpl() }
-        set { try! _default.put_IsGlyphVisibleImpl(newValue) }
+        get { try! _default.get_IsGlyphVisible() }
+        set { try! _default.put_IsGlyphVisible(newValue) }
     }
 
     deinit {
@@ -265,19 +242,13 @@ public final class CoreDropOperationTargetRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CICoreDropOperationTargetRequestedEventArgs>?) -> CoreDropOperationTargetRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dragdrop.core.coredropoperationtargetrequestedeventargs.settarget)
     public func setTarget(_ target: AnyICoreDropOperationTarget!) throws {
-        try _default.SetTargetImpl(target)
+        try _default.SetTarget(target)
     }
 
     deinit {
@@ -317,5 +288,5 @@ extension UWP.CoreDragUIContentMode {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDragDrop_CCore_CCoreDragUIContentMode_Deferred
     }
 }
-extension UWP.CoreDragUIContentMode: @retroactive Hashable, @retroactive Codable {}
+extension UWP.CoreDragUIContentMode: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

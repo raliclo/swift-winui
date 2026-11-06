@@ -47,6 +47,9 @@ enum __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace
     __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP709 = 22,
     __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24LeftP2020 = 23,
     __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_YccStudioG24TopLeftP2020 = 24,
+    __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG10NoneP2020 = 25,
+    __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22ExtNoneP709 = 26,
+    __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXColorSpace_RgbFullG22NoneP3 = 27,
 };
 
 enum __x_ABI_CMicrosoft_CGraphics_CDirectX_CDirectXPixelFormat

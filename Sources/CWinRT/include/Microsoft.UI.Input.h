@@ -184,6 +184,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3 __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics;
@@ -387,6 +393,12 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointProperties __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointProperties;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointProperties_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointTransform_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointTransform_FWD_DEFINED__
@@ -2920,6 +2932,39 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController2;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ShouldShowKeyboardCues)(__x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusController3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputFocusControllerStaticsVtbl
@@ -4334,6 +4379,40 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIPointerPointProperties;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointProperties_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetCurrentPoint)(__x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics* This,
+        UINT32 pointerId,
+        __x_ABI_CMicrosoft_CUI_CInput_CIPointerPoint** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointTransform_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIPointerPointTransform_INTERFACE_DEFINED__

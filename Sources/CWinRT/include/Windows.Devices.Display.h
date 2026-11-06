@@ -15,6 +15,12 @@
 
 #endif // ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2 __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2;
+
+#endif // ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics;
@@ -274,6 +280,39 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CDisplayMonitorUsageKind
     
     EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor;
 #endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsDolbyVisionSupportedInHdrMode)(__x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2Vtbl;
+
+    interface __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2;
+#endif /* !defined(____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitor2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CDevices_CDisplay_CIDisplayMonitorStatics_INTERFACE_DEFINED__

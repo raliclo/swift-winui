@@ -120,6 +120,12 @@
 
 #endif // ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2 __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage __x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage;
@@ -617,6 +623,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
 
 typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundation_CTimeSpan;
 
+typedef enum __x_ABI_CWindows_CSystem_CProcessorArchitecture __x_ABI_CWindows_CSystem_CProcessorArchitecture;
+
 #ifndef ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CIUser __x_ABI_CWindows_CSystem_CIUser;
@@ -631,6 +639,7 @@ enum __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Detecting = 3,
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Resolving = 4,
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_VerifyingResolution = 5,
+    __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Executing = 6,
 };
 
 #if !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CIDiagnosticActionResult_INTERFACE_DEFINED__)
@@ -1292,6 +1301,42 @@ enum __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsArchitectureSupported)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+        enum __x_ABI_CWindows_CSystem_CProcessorArchitecture type,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* get_PreferredArchitecture)(__x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2* This,
+        enum __x_ABI_CWindows_CSystem_CProcessorArchitecture* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CISystemDiagnosticInfoStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CDiagnostics_CISystemMemoryUsage_INTERFACE_DEFINED__

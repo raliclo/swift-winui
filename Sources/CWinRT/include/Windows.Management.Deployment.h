@@ -11,6 +11,72 @@
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2 __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3 __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult __x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult;
@@ -23,11 +89,47 @@
 
 #endif // ____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2 __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_FWD_DEFINED__
 #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager;
 
 #endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10 __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11 __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12 __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager2_FWD_DEFINED__
 #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager2_FWD_DEFINED__
@@ -71,6 +173,12 @@
 
 #endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager8_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9 __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings_FWD_DEFINED__
 #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings __x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings;
@@ -94,6 +202,90 @@
     typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume2 __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume2;
 
 #endif // ____x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2 __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2 __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2 __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3 __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult;
+
+#endif // ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -757,6 +949,130 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CM
 
 #endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
 
+#if !defined(____x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    typedef struct __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Key)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** result);
+    HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        HSTRING* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        UINT32 itemsLength,
+        __x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_C__FIIterator_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_C__FIKeyValuePair_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
 
@@ -925,6 +1241,326 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CM
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CPackageUserInformation_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+#if !defined(____x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    typedef struct __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Lookup)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* HasKey)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* Split)(__x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** first,
+        __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** second);
+
+        END_INTERFACE
+    } __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING;
+
+    typedef struct __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Lookup)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* HasKey)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_C__FIMapView_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* Insert)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key,
+        HSTRING value,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* Remove)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* key);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING* This);
+
+        END_INTERFACE
+    } __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1_HSTRING __x_ABI_C__FIVectorView_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIVectorView_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32 index,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        HSTRING value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1_HSTRING* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        HSTRING* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIVectorView_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
 
@@ -974,6 +1610,223 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CM
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUriVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1_HSTRING __x_ABI_C__FIVector_1_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1_HSTRING;
+
+    typedef struct __x_ABI_C__FIVector_1_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 index,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1_HSTRING* This,
+        __x_ABI_C__FIVectorView_1_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1_HSTRING* This,
+        HSTRING value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 index,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 index,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1_HSTRING* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1_HSTRING* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1_HSTRING* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        HSTRING* items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1_HSTRING* This,
+        UINT32 itemsLength,
+        HSTRING* items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIVector_1_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1_HSTRING_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
@@ -1042,9 +1895,220 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CM
     
     #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUriVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CFoundation__CUri** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUriVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUriVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember;
+
+    typedef struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember** result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* SetAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* value);
+    HRESULT (STDMETHODCALLTYPE* InsertAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAt)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 index);
+    HRESULT (STDMETHODCALLTYPE* Append)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* value);
+    HRESULT (STDMETHODCALLTYPE* RemoveAtEnd)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+    HRESULT (STDMETHODCALLTYPE* Clear)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** items,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* ReplaceAll)(__x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** items);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl;
+
+    interface __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember
+    {
+        CONST_VTBL struct __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMemberVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember_INTERFACE_DEFINED__
+    
+#ifndef ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState __x_ABI_CWindows_CApplicationModel_CPackageContentGroupState;
 
+typedef struct __x_ABI_CWindows_CApplicationModel_CPackageVersion __x_ABI_CWindows_CApplicationModel_CPackageVersion;
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
+typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
@@ -1066,13 +2130,23 @@ typedef enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState _
 
 typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState;
 
+typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority;
+
 typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageState __x_ABI_CWindows_CManagement_CDeployment_CPackageState;
 
 typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStatus __x_ABI_CWindows_CManagement_CDeployment_CPackageStatus;
 
+typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference;
+
 typedef enum __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes;
 
 typedef enum __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions;
+
+typedef enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions;
+
+typedef enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus;
+
+typedef enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption;
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CAddPackageByAppInstallerOptions
     {
@@ -1092,9 +2166,8 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_ForceTargetApplicationShutdown = 0x40,
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_RequiredContentGroupOnly = 0x100,
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_ForceUpdateFromAnyVersion = 0x40000,
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_RetainFilesOnFailure = 0x200000,
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_StageInPlace = 0x400000,
 };
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState
@@ -1109,6 +2182,13 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState
     __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState_Staged = 1,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState_Installed = 2,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageInstallState_Paused = 6,
+};
+
+enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority
+    {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_Low = 0,
+    __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_Normal = 1,
+    __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority_High = 2,
 };
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CPackageState
@@ -1128,6 +2208,12 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStatus
     __x_ABI_CWindows_CManagement_CDeployment_CPackageStatus_Disabled = 0x8,
 };
 
+enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference
+    {
+        __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference_Full = 0,
+    __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference_Stub = 1,
+};
+
 enum __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes
     {
         __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_None = 0,
@@ -1137,13 +2223,41 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Bundle = 0x8,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Xap = 0x10,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Optional = 0x20,
+    __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_All = 0xffffffff,
 };
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions
     {
         __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_None = 0,
     __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveApplicationData = 0x1000,
+    __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveRoamableApplicationData = 0x80,
+    __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_DeferRemovalWhenPackagesAreInUse = 0x2000,
     __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_RemoveForAllUsers = 0x80000,
+};
+
+enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions
+    {
+        __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions_FailIfExists = 0,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions_MergeWithExisting = 1,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions_ReplaceExisting = 2,
+};
+
+enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus
+    {
+        __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_Success = 0,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_BlockedByPolicy = 1,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_AlreadyExists = 2,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_PackageFamilyExistsInAnotherContainer = 3,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_NotFound = 4,
+    __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus_UnknownFailure = 5,
+};
+
+enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption
+    {
+        __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_Default = 0,
+    __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_InstallFull = 1,
+    __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_InstallStub = 2,
+    __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption_UsePreference = 3,
 };
 
 struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
@@ -1152,6 +2266,504 @@ struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     UINT32 percentage;
 };
 
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DependencyPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_TargetVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume** value);
+    HRESULT (STDMETHODCALLTYPE* put_TargetVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume* value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageFamilyNames)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_C__FIVector_1_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_RelatedPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_StubPackageOption)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption* value);
+    HRESULT (STDMETHODCALLTYPE* put_StubPackageOption)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption value);
+    HRESULT (STDMETHODCALLTYPE* get_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceTargetAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceTargetAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RequiredContentGroupOnly)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_RequiredContentGroupOnly)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RetainFilesOnFailure)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_RetainFilesOnFailure)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_DeferRegistrationWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeferRegistrationWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ExpectedDigests)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+        __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_LimitToExistingPackages)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_LimitToExistingPackages)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PackageOperationPriority)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority* value);
+    HRESULT (STDMETHODCALLTYPE* put_PackageOperationPriority)(__x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetAutoUpdateSettings)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+        HSTRING packageFamilyName,
+        __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* appInstallerInfo);
+    HRESULT (STDMETHODCALLTYPE* ClearAutoUpdateSettings)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+        HSTRING packageFamilyName);
+    HRESULT (STDMETHODCALLTYPE* PauseAutoUpdatesUntil)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager* This,
+        HSTRING packageFamilyName,
+        struct __x_ABI_CWindows_CFoundation_CDateTime dateTime);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager** result);
+    HRESULT (STDMETHODCALLTYPE* GetForSystem)(__x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManager** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAppInstallerManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Version)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        struct __x_ABI_CWindows_CApplicationModel_CPackageVersion* value);
+    HRESULT (STDMETHODCALLTYPE* put_Version)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        struct __x_ABI_CWindows_CApplicationModel_CPackageVersion value);
+    HRESULT (STDMETHODCALLTYPE* get_AppInstallerUri)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_AppInstallerUri)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_OnLaunch)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_OnLaunch)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_HoursBetweenUpdateChecks)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_HoursBetweenUpdateChecks)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        UINT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_ShowPrompt)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShowPrompt)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateBlocksActivation)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_UpdateBlocksActivation)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AutomaticBackgroundTask)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AutomaticBackgroundTask)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_IsAutoRepairEnabled)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsAutoRepairEnabled)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_RepairUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_DependencyPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateFromAppInstallerInfo)(__x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics* This,
+        __x_ABI_CWindows_CApplicationModel_CIAppInstallerInfo* appInstallerInfo,
+        __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptions** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStaticsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIAutoUpdateSettingsOptionsStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Members)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember** value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_CreateCollisionOption)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions* value);
+    HRESULT (STDMETHODCALLTYPE* put_CreateCollisionOption)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerCreationCollisionOptions value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Container)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** value);
+    HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResultVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AllUsers)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllUsers)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResultVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResultVtbl
@@ -1221,6 +2833,115 @@ struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     
     EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult2;
 #endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIDeploymentResult2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Name)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Name)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_PackageFamilyName)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_PackageFamilyName)(__x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_OptionalPackageFamilyNames)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+        __x_ABI_C__FIVector_1_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_ProjectionOrderPackageFamilyNames)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* This,
+        __x_ABI_C__FIVector_1_HSTRING** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeferAutomaticRegistration)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeferAutomaticRegistration)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_INTERFACE_DEFINED__
@@ -1312,6 +3033,121 @@ struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     
     EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager;
 #endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ProvisionPackageForAllUsersWithOptionsAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10* This,
+        HSTRING mainPackageFamilyName,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageAllUserProvisioningOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager10_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RemovePackageByUriAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* packageUri,
+        __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager11_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsPackageRemovalPending)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+        HSTRING packageFullName,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsPackageRemovalPendingForUser)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+        HSTRING packageFullName,
+        HSTRING userSecurityId,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsPackageRemovalPendingByUri)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* packageUri,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* IsPackageRemovalPendingByUriForUser)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* packageUri,
+        HSTRING userSecurityId,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager12_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager2_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager2_INTERFACE_DEFINED__
@@ -1706,6 +3542,61 @@ struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager8;
 #endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager8_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* FindProvisionedPackages)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CApplicationModel__CPackage** packageCollection);
+    HRESULT (STDMETHODCALLTYPE* AddPackageByUriAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* packageUri,
+        __x_ABI_CWindows_CManagement_CDeployment_CIAddPackageOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** deploymentOperation);
+    HRESULT (STDMETHODCALLTYPE* StagePackageByUriAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* packageUri,
+        __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** deploymentOperation);
+    HRESULT (STDMETHODCALLTYPE* RegisterPackageByUriAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* manifestUri,
+        __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** deploymentOperation);
+    HRESULT (STDMETHODCALLTYPE* RegisterPackagesByFullNameAsync)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        __x_ABI_C__FIIterable_1_HSTRING* packageFullNames,
+        __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CManagement__CDeployment__CDeploymentResult___x_ABI_CWindows__CManagement__CDeployment__CDeploymentProgress** deploymentOperation);
+    HRESULT (STDMETHODCALLTYPE* SetPackageStubPreference)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        HSTRING packageFamilyName,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference useStub);
+    HRESULT (STDMETHODCALLTYPE* GetPackageStubPreference)(__x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9* This,
+        HSTRING packageFamilyName,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageStubPreference* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManager9_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettings_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIPackageManagerDebugSettingsVtbl
@@ -1917,4 +3808,602 @@ struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     
     EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume2;
 #endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DependencyPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_AppDataVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume** value);
+    HRESULT (STDMETHODCALLTYPE* put_AppDataVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume* value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageFamilyNames)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_C__FIVector_1_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceTargetAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceTargetAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_DeferRegistrationWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeferRegistrationWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ExpectedDigests)(__x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2* This,
+        __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRegisterPackageOptions2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PreserveApplicationData)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_PreserveApplicationData)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_PreserveRoamableApplicationData)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_PreserveRoamableApplicationData)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RemoveForAllUsers)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_RemoveForAllUsers)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeferRemovalWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeferRemovalWhenPackagesAreInUse)(__x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIRemovePackageOptions2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Name)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Id)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* GetMembers)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainerMember** result);
+    HRESULT (STDMETHODCALLTYPE* RemovePackageFamily)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+        HSTRING packageFamilyName,
+        __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* options,
+        __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult** result);
+    HRESULT (STDMETHODCALLTYPE* ResetData)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateContainer)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+        HSTRING name,
+        __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerOptions* options,
+        __x_ABI_CWindows_CManagement_CDeployment_CICreateSharedPackageContainerResult** result);
+    HRESULT (STDMETHODCALLTYPE* DeleteContainer)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+        HSTRING id,
+        __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerOptions* options,
+        __x_ABI_CWindows_CManagement_CDeployment_CIDeleteSharedPackageContainerResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetContainer)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+        HSTRING id,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* FindContainers)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer** result);
+    HRESULT (STDMETHODCALLTYPE* FindContainersWithOptions)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIFindSharedPackageContainerOptions* options,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CManagement__CDeployment__CSharedPackageContainer** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager** result);
+    HRESULT (STDMETHODCALLTYPE* GetForUser)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+        HSTRING userSid,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager** result);
+    HRESULT (STDMETHODCALLTYPE* GetForProvisioning)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManager** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStaticsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PackageFamilyName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory* This,
+        HSTRING packageFamilyName,
+        __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMember** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactoryVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CISharedPackageContainerMemberFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DependencyPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_TargetVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume** value);
+    HRESULT (STDMETHODCALLTYPE* put_TargetVolume)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_CWindows_CManagement_CDeployment_CIPackageVolume* value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageFamilyNames)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_C__FIVector_1_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_OptionalPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_RelatedPackageUris)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CFoundation__CUri** value);
+    HRESULT (STDMETHODCALLTYPE* get_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_ExternalLocationUri)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_StubPackageOption)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption* value);
+    HRESULT (STDMETHODCALLTYPE* put_StubPackageOption)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CStubPackageOption value);
+    HRESULT (STDMETHODCALLTYPE* get_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_DeveloperMode)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceUpdateFromAnyVersion)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_InstallAllResources)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RequiredContentGroupOnly)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_RequiredContentGroupOnly)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_StageInPlace)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowUnsigned)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ExpectedDigests)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2* This,
+        __x_ABI_C__FIMap_2___x_ABI_CWindows__CFoundation__CUri_HSTRING** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PackageOperationPriority)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority* value);
+    HRESULT (STDMETHODCALLTYPE* put_PackageOperationPriority)(__x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CPackageOperationPriority value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3Vtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIStagePackageOptions3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ForceAppShutdown)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_RequirePackagesPresent)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_RequirePackagesPresent)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+        enum __x_ABI_CWindows_CManagement_CDeployment_CSharedPackageContainerOperationStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResultVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CDeployment_CIUpdateSharedPackageContainerResult_INTERFACE_DEFINED__) */
     

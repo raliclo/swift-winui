@@ -883,6 +883,7 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CPrintColorMode
     __x_ABI_CWindows_CGraphics_CPrinting_CPrintColorMode_Color = 3,
     __x_ABI_CWindows_CGraphics_CPrinting_CPrintColorMode_Grayscale = 4,
     __x_ABI_CWindows_CGraphics_CPrinting_CPrintColorMode_Monochrome = 5,
+    __x_ABI_CWindows_CGraphics_CPrinting_CPrintColorMode_AutoSelect = 6,
 };
 
 enum __x_ABI_CWindows_CGraphics_CPrinting_CPrintDuplex

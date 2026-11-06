@@ -349,6 +349,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3 __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3;
+
+#endif // ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics;
@@ -372,6 +378,12 @@
     typedef interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics5 __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics5;
 
 #endif // ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CUI_CNotifications_CIToastNotifier_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotifier_FWD_DEFINED__
@@ -2074,6 +2086,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CTimeSpan __x_ABI_CWindows_CFoundati
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotification___x_ABI_CWindows__CUI__CNotifications__CToastFailedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable* This,
+        __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotifier___x_ABI_CWindows__CUI__CNotifications__CScheduledToastNotificationShowingEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotifier___x_ABI_CWindows__CUI__CNotifications__CScheduledToastNotificationShowingEventArgs_INTERFACE_DEFINED__
 
@@ -2175,6 +2219,8 @@ typedef enum __x_ABI_CWindows_CUI_CNotifications_CTileTemplateType __x_ABI_CWind
 typedef enum __x_ABI_CWindows_CUI_CNotifications_CToastDismissalReason __x_ABI_CWindows_CUI_CNotifications_CToastDismissalReason;
 
 typedef enum __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType;
+
+typedef enum __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode;
 
 typedef enum __x_ABI_CWindows_CUI_CNotifications_CToastNotificationPriority __x_ABI_CWindows_CUI_CNotifications_CToastNotificationPriority;
 
@@ -2378,6 +2424,13 @@ enum __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType
     __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType_Removed = 1,
     __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType_Expired = 2,
     __x_ABI_CWindows_CUI_CNotifications_CToastHistoryChangedType_Added = 3,
+};
+
+enum __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode
+    {
+        __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode_Unrestricted = 0,
+    __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode_PriorityOnly = 1,
+    __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode_AlarmsOnly = 2,
 };
 
 enum __x_ABI_CWindows_CUI_CNotifications_CToastNotificationPriority
@@ -4621,6 +4674,44 @@ enum __x_ABI_CWindows_CUI_CNotifications_CUserNotificationChangedKind
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser2;
 #endif /* !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_NotificationMode)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+        enum __x_ABI_CWindows_CUI_CNotifications_CToastNotificationMode* value);
+    HRESULT (STDMETHODCALLTYPE* add_NotificationModeChanged)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CNotifications__CToastNotificationManagerForUser_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_NotificationModeChanged)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3;
+#endif /* !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerForUser3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStaticsVtbl
@@ -4761,6 +4852,39 @@ enum __x_ABI_CWindows_CUI_CNotifications_CUserNotificationChangedKind
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics5;
 #endif /* !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationManagerStatics5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsExpandableContentSupported)(__x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotificationStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CNotifications_CIToastNotifier_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CNotifications_CIToastNotifier_INTERFACE_DEFINED__

@@ -292,6 +292,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2 __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics;
@@ -816,6 +822,8 @@ typedef enum __x_ABI_CMicrosoft_CUI_CContent_CContentCoordinateRoundingMode __x_
 
 typedef enum __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy;
 
+typedef enum __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor;
+
 enum __x_ABI_CMicrosoft_CUI_CContent_CContentAutomationOptions
     {
         __x_ABI_CMicrosoft_CUI_CContent_CContentAutomationOptions_None = 0,
@@ -842,6 +850,13 @@ enum __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy
         __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy_None = 0,
     __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy_ResizeContentToParentWindow = 1,
     __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy_ResizeParentWindowToContent = 2,
+};
+
+enum __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor
+    {
+        __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor_None = 0,
+    __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor_TopLevelWindow = 1,
+    __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor_ParentIsland = 2,
 };
 
 #if !defined(____x_ABI_CMicrosoft_CUI_CContent_CIChildSiteLink_INTERFACE_DEFINED__)
@@ -2699,6 +2714,45 @@ enum __x_ABI_CMicrosoft_CUI_CContent_CContentSizePolicy
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AnchoringBehavior)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+        enum __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor* value);
+    HRESULT (STDMETHODCALLTYPE* put_AnchoringBehavior)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+        enum __x_ABI_CMicrosoft_CUI_CContent_CPopupAnchor value);
+    HRESULT (STDMETHODCALLTYPE* get_AnchoringPixelAlignment)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+        enum __x_ABI_CMicrosoft_CUI_CContent_CContentCoordinateRoundingMode* value);
+    HRESULT (STDMETHODCALLTYPE* put_AnchoringPixelAlignment)(__x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2* This,
+        enum __x_ABI_CMicrosoft_CUI_CContent_CContentCoordinateRoundingMode value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridge2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CContent_CIDesktopPopupSiteBridgeStatics_INTERFACE_DEFINED__

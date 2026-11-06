@@ -20,61 +20,55 @@ public final class PointerDevice : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CDevices_CInput_CIPointerDevice>?) -> PointerDevice? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IPointerDeviceStatics: __ABI_Windows_Devices_Input.IPointerDeviceStatics = try! RoGetActivationFactory(HString("Windows.Devices.Input.PointerDevice"))
+    private static let _IPointerDeviceStatics: __ABI_Windows_Devices_Input.IPointerDeviceStatics = try! RoGetActivationFactory("Windows.Devices.Input.PointerDevice")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.getpointerdevice)
-    public static func getPointerDevice(_ pointerId: UInt32) -> PointerDevice! {
-        return try! _IPointerDeviceStatics.GetPointerDeviceImpl(pointerId)
+    public static func getPointerDevice(_ pointerId: UInt32) throws -> PointerDevice! {
+        return try _IPointerDeviceStatics.GetPointerDevice(pointerId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.getpointerdevices)
-    public static func getPointerDevices() -> WindowsFoundation.AnyIVectorView<PointerDevice?>! {
-        return try! _IPointerDeviceStatics.GetPointerDevicesImpl()
+    public static func getPointerDevices() throws -> WindowsFoundation.AnyIVectorView<PointerDevice?>! {
+        return try _IPointerDeviceStatics.GetPointerDevices()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.isintegrated)
     public var isIntegrated : Bool {
-        get { try! _default.get_IsIntegratedImpl() }
+        get { try! _default.get_IsIntegrated() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.maxcontacts)
     public var maxContacts : UInt32 {
-        get { try! _default.get_MaxContactsImpl() }
+        get { try! _default.get_MaxContacts() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.physicaldevicerect)
     public var physicalDeviceRect : WindowsFoundation.Rect {
-        get { try! _default.get_PhysicalDeviceRectImpl() }
+        get { try! _default.get_PhysicalDeviceRect() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.pointerdevicetype)
     public var pointerDeviceType : PointerDeviceType {
-        get { try! _default.get_PointerDeviceTypeImpl() }
+        get { try! _default.get_PointerDeviceType() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.screenrect)
     public var screenRect : WindowsFoundation.Rect {
-        get { try! _default.get_ScreenRectImpl() }
+        get { try! _default.get_ScreenRect() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.supportedusages)
     public var supportedUsages : WindowsFoundation.AnyIVectorView<PointerDeviceUsage>! {
-        get { try! _default.get_SupportedUsagesImpl() }
+        get { try! _default.get_SupportedUsages() }
     }
 
     private lazy var _IPointerDevice2: __ABI_Windows_Devices_Input.IPointerDevice2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdevice.maxpointerswithzdistance)
     public var maxPointersWithZDistance : UInt32 {
-        get { try! _IPointerDevice2.get_MaxPointersWithZDistanceImpl() }
+        get { try! _IPointerDevice2.get_MaxPointersWithZDistance() }
     }
 
     deinit {
@@ -84,7 +78,7 @@ public final class PointerDevice : WinRTClass {
 }
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdeviceusage)
-public struct PointerDeviceUsage: Hashable, Codable {
+public struct PointerDeviceUsage: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdeviceusage.usagepage)
     public var usagePage: UInt32 = 0
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.devices.input.pointerdeviceusage.usage)
@@ -112,9 +106,6 @@ public struct PointerDeviceUsage: Hashable, Codable {
         self.unit = unit
         self.physicalMultiplier = physicalMultiplier
     }
-    public static func from(abi: __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage) -> PointerDeviceUsage {
-        .init(usagePage: abi.UsagePage, usage: abi.Usage, minLogical: abi.MinLogical, maxLogical: abi.MaxLogical, minPhysical: abi.MinPhysical, maxPhysical: abi.MaxPhysical, unit: abi.Unit, physicalMultiplier: abi.PhysicalMultiplier)
-    }
 }
 
 extension UWP.PointerDeviceType {
@@ -127,6 +118,9 @@ extension UWP.PointerDeviceType {
     public static var mouse : UWP.PointerDeviceType {
         __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Mouse
     }
+    public static var touchpad : UWP.PointerDeviceType {
+        __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Touchpad
+    }
 }
-extension UWP.PointerDeviceType: @retroactive Hashable, @retroactive Codable {}
+extension UWP.PointerDeviceType: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

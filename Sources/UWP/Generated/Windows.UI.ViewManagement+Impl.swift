@@ -4,5 +4,86 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
+@_spi(WinRTInternal)
 public enum __IMPL_Windows_UI_ViewManagement {
+    public enum ActivationViewSwitcherBridge: AbiBridge {
+        public typealias SwiftProjection = ActivationViewSwitcher
+        public typealias CABI = __x_ABI_CWindows_CUI_CViewManagement_CIActivationViewSwitcher
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CUI_CViewManagement_CIActivationViewSwitcher>?) -> ActivationViewSwitcher? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum UISettingsBridge: AbiBridge {
+        public typealias SwiftProjection = UISettings
+        public typealias CABI = __x_ABI_CWindows_CUI_CViewManagement_CIUISettings
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CUI_CViewManagement_CIUISettings>?) -> UISettings? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum UISettingsAnimationsEnabledChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = UISettingsAnimationsEnabledChangedEventArgs
+        public typealias CABI = __x_ABI_CWindows_CUI_CViewManagement_CIUISettingsAnimationsEnabledChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CUI_CViewManagement_CIUISettingsAnimationsEnabledChangedEventArgs>?) -> UISettingsAnimationsEnabledChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum UISettingsAutoHideScrollBarsChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = UISettingsAutoHideScrollBarsChangedEventArgs
+        public typealias CABI = __x_ABI_CWindows_CUI_CViewManagement_CIUISettingsAutoHideScrollBarsChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CUI_CViewManagement_CIUISettingsAutoHideScrollBarsChangedEventArgs>?) -> UISettingsAutoHideScrollBarsChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+    public enum UISettingsMessageDurationChangedEventArgsBridge: AbiBridge {
+        public typealias SwiftProjection = UISettingsMessageDurationChangedEventArgs
+        public typealias CABI = __x_ABI_CWindows_CUI_CViewManagement_CIUISettingsMessageDurationChangedEventArgs
+        public static func from(abi: ComPtr<__x_ABI_CWindows_CUI_CViewManagement_CIUISettingsMessageDurationChangedEventArgs>?) -> UISettingsMessageDurationChangedEventArgs? {
+            guard let abi = abi else { return nil }
+            return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+        }
+    }
+
+}
+@_spi(WinRTInternal)
+public class ActivationViewSwitcherMaker: MakeFromAbi {
+    public typealias SwiftType = ActivationViewSwitcher
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return ActivationViewSwitcher(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class UISettingsMaker: MakeFromAbi {
+    public typealias SwiftType = UISettings
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return UISettings(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class UISettingsAnimationsEnabledChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = UISettingsAnimationsEnabledChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return UISettingsAnimationsEnabledChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class UISettingsAutoHideScrollBarsChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = UISettingsAutoHideScrollBarsChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return UISettingsAutoHideScrollBarsChangedEventArgs(fromAbi: abi)
+    }
+}
+@_spi(WinRTInternal)
+public class UISettingsMessageDurationChangedEventArgsMaker: MakeFromAbi {
+    public typealias SwiftType = UISettingsMessageDurationChangedEventArgs
+    public static func from(abi: WindowsFoundation.IInspectable) -> SwiftType {
+        return UISettingsMessageDurationChangedEventArgs(fromAbi: abi)
+    }
 }

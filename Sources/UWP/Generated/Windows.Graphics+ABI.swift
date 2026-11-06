@@ -8,6 +8,7 @@ private var IID___x_ABI_CWindows_CGraphics_CIGeometrySource2D: WindowsFoundation
     .init(Data1: 0xCAFF7902, Data2: 0x670C, Data3: 0x4181, Data4: ( 0xA6,0x24,0xDA,0x97,0x72,0x03,0xB8,0x45 ))// CAFF7902-670C-4181-A624-DA977203B845
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Graphics {
     public class IGeometrySource2D: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CGraphics_CIGeometrySource2D }
@@ -48,6 +49,11 @@ public enum __ABI_Windows_Graphics {
 extension __x_ABI_CWindows_CGraphics_CDisplayAdapterId {
         public static func from(swift: UWP.DisplayAdapterId) -> __x_ABI_CWindows_CGraphics_CDisplayAdapterId {
             .init(LowPart: swift.lowPart, HighPart: swift.highPart)
+        }
+    }
+    extension __x_ABI_CWindows_CGraphics_CDisplayId {
+        public static func from(swift: UWP.DisplayId) -> __x_ABI_CWindows_CGraphics_CDisplayId {
+            .init(Value: swift.value)
         }
     }
     extension __x_ABI_CWindows_CGraphics_CPointInt32 {

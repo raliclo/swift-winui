@@ -5,7 +5,7 @@ import Foundation
 import CWinRT
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dmultisampledescription)
-public struct Direct3DMultisampleDescription: Hashable, Codable {
+public struct Direct3DMultisampleDescription: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dmultisampledescription.count)
     public var count: Int32 = 0
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dmultisampledescription.quality)
@@ -15,13 +15,10 @@ public struct Direct3DMultisampleDescription: Hashable, Codable {
         self.count = count
         self.quality = quality
     }
-    public static func from(abi: __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DMultisampleDescription) -> Direct3DMultisampleDescription {
-        .init(count: abi.Count, quality: abi.Quality)
-    }
 }
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dsurfacedescription)
-public struct Direct3DSurfaceDescription: Hashable, Codable {
+public struct Direct3DSurfaceDescription: Hashable, Codable, Sendable {
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dsurfacedescription.width)
     public var width: Int32 = 0
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.graphics.directx.direct3d11.direct3dsurfacedescription.height)
@@ -36,9 +33,6 @@ public struct Direct3DSurfaceDescription: Hashable, Codable {
         self.height = height
         self.format = format
         self.multisampleDescription = multisampleDescription
-    }
-    public static func from(abi: __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DSurfaceDescription) -> Direct3DSurfaceDescription {
-        .init(width: abi.Width, height: abi.Height, format: abi.Format, multisampleDescription: .from(abi: abi.MultisampleDescription))
     }
 }
 

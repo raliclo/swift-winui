@@ -25,12 +25,6 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTask_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance_FWD_DEFINED__
-#define ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance;
-
-#endif // ____x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance_FWD_DEFINED__
-
 #if !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITask_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITask_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITaskVtbl
@@ -49,9 +43,7 @@
             HSTRING* className);
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITask* This,
             TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* Run)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITask* This,
-        __x_ABI_CWindows_CApplicationModel_CBackground_CIBackgroundTaskInstance* taskInstance);
-
+    
         END_INTERFACE
     } __x_ABI_CMicrosoft_CWindows_CApplicationModel_CBackground_CUniversalBGTask_CITaskVtbl;
 

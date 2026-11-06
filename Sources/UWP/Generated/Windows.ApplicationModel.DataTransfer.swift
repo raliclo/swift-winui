@@ -14,92 +14,92 @@ public typealias SetHistoryItemAsContentStatus = __x_ABI_CWindows_CApplicationMo
 public typealias ShareUITheme = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard)
 public final class Clipboard {
-    private static let _IClipboardStatics: __ABI_Windows_ApplicationModel_DataTransfer.IClipboardStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.Clipboard"))
+    private static let _IClipboardStatics: __ABI_Windows_ApplicationModel_DataTransfer.IClipboardStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.Clipboard")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.getcontent)
-    public static func getContent() -> DataPackageView! {
-        return try! _IClipboardStatics.GetContentImpl()
+    public static func getContent() throws -> DataPackageView! {
+        return try _IClipboardStatics.GetContent()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.setcontent)
-    public static func setContent(_ content: DataPackage!) {
-        try! _IClipboardStatics.SetContentImpl(content)
+    public static func setContent(_ content: DataPackage!) throws {
+        try _IClipboardStatics.SetContent(content)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.flush)
-    public static func flush() {
-        try! _IClipboardStatics.FlushImpl()
+    public static func flush() throws {
+        try _IClipboardStatics.Flush()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.clear)
-    public static func clear() {
-        try! _IClipboardStatics.ClearImpl()
+    public static func clear() throws {
+        try _IClipboardStatics.Clear()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.contentchanged)
     public static var contentChanged : Event<EventHandler<Any?>> = {
       .init(
-        add: { try! _IClipboardStatics.add_ContentChangedImpl($0) },
-        remove: { try? _IClipboardStatics.remove_ContentChangedImpl($0) }
+        add: { try! _IClipboardStatics.add_ContentChanged($0) },
+        remove: { try? _IClipboardStatics.remove_ContentChanged($0) }
       )
     }()
 
-    private static let _IClipboardStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IClipboardStatics2 = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.Clipboard"))
+    private static let _IClipboardStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IClipboardStatics2 = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.Clipboard")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.gethistoryitemsasync)
-    public static func getHistoryItemsAsync() -> WindowsFoundation.AnyIAsyncOperation<ClipboardHistoryItemsResult?>! {
-        return try! _IClipboardStatics2.GetHistoryItemsAsyncImpl()
+    public static func getHistoryItemsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<ClipboardHistoryItemsResult?>! {
+        return try _IClipboardStatics2.GetHistoryItemsAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.clearhistory)
-    public static func clearHistory() -> Bool {
-        return try! _IClipboardStatics2.ClearHistoryImpl()
+    public static func clearHistory() throws -> Bool {
+        return try _IClipboardStatics2.ClearHistory()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.deleteitemfromhistory)
-    public static func deleteItemFromHistory(_ item: ClipboardHistoryItem!) -> Bool {
-        return try! _IClipboardStatics2.DeleteItemFromHistoryImpl(item)
+    public static func deleteItemFromHistory(_ item: ClipboardHistoryItem!) throws -> Bool {
+        return try _IClipboardStatics2.DeleteItemFromHistory(item)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.sethistoryitemascontent)
-    public static func setHistoryItemAsContent(_ item: ClipboardHistoryItem!) -> SetHistoryItemAsContentStatus {
-        return try! _IClipboardStatics2.SetHistoryItemAsContentImpl(item)
+    public static func setHistoryItemAsContent(_ item: ClipboardHistoryItem!) throws -> SetHistoryItemAsContentStatus {
+        return try _IClipboardStatics2.SetHistoryItemAsContent(item)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.ishistoryenabled)
-    public static func isHistoryEnabled() -> Bool {
-        return try! _IClipboardStatics2.IsHistoryEnabledImpl()
+    public static func isHistoryEnabled() throws -> Bool {
+        return try _IClipboardStatics2.IsHistoryEnabled()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.isroamingenabled)
-    public static func isRoamingEnabled() -> Bool {
-        return try! _IClipboardStatics2.IsRoamingEnabledImpl()
+    public static func isRoamingEnabled() throws -> Bool {
+        return try _IClipboardStatics2.IsRoamingEnabled()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.setcontentwithoptions)
-    public static func setContentWithOptions(_ content: DataPackage!, _ options: ClipboardContentOptions!) -> Bool {
-        return try! _IClipboardStatics2.SetContentWithOptionsImpl(content, options)
+    public static func setContentWithOptions(_ content: DataPackage!, _ options: ClipboardContentOptions!) throws -> Bool {
+        return try _IClipboardStatics2.SetContentWithOptions(content, options)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.historychanged)
     public static var historyChanged : Event<EventHandler<ClipboardHistoryChangedEventArgs?>> = {
       .init(
-        add: { try! _IClipboardStatics2.add_HistoryChangedImpl($0) },
-        remove: { try? _IClipboardStatics2.remove_HistoryChangedImpl($0) }
+        add: { try! _IClipboardStatics2.add_HistoryChanged($0) },
+        remove: { try? _IClipboardStatics2.remove_HistoryChanged($0) }
       )
     }()
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.historyenabledchanged)
     public static var historyEnabledChanged : Event<EventHandler<Any?>> = {
       .init(
-        add: { try! _IClipboardStatics2.add_HistoryEnabledChangedImpl($0) },
-        remove: { try? _IClipboardStatics2.remove_HistoryEnabledChangedImpl($0) }
+        add: { try! _IClipboardStatics2.add_HistoryEnabledChanged($0) },
+        remove: { try? _IClipboardStatics2.remove_HistoryEnabledChanged($0) }
       )
     }()
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboard.roamingenabledchanged)
     public static var roamingEnabledChanged : Event<EventHandler<Any?>> = {
       .init(
-        add: { try! _IClipboardStatics2.add_RoamingEnabledChangedImpl($0) },
-        remove: { try? _IClipboardStatics2.remove_RoamingEnabledChangedImpl($0) }
+        add: { try! _IClipboardStatics2.add_RoamingEnabledChanged($0) },
+        remove: { try? _IClipboardStatics2.remove_RoamingEnabledChanged($0) }
       )
     }()
 
@@ -119,40 +119,35 @@ public final class ClipboardContentOptions : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIClipboardContentOptions>?) -> ClipboardContentOptions? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.ClipboardContentOptions")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.ApplicationModel.DataTransfer.ClipboardContentOptions")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardcontentoptions.historyformats)
     public var historyFormats : WindowsFoundation.AnyIVector<String>! {
-        get { try! _default.get_HistoryFormatsImpl() }
+        get { try! _default.get_HistoryFormats() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardcontentoptions.isallowedinhistory)
     public var isAllowedInHistory : Bool {
-        get { try! _default.get_IsAllowedInHistoryImpl() }
-        set { try! _default.put_IsAllowedInHistoryImpl(newValue) }
+        get { try! _default.get_IsAllowedInHistory() }
+        set { try! _default.put_IsAllowedInHistory(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardcontentoptions.isroamable)
     public var isRoamable : Bool {
-        get { try! _default.get_IsRoamableImpl() }
-        set { try! _default.put_IsRoamableImpl(newValue) }
+        get { try! _default.get_IsRoamable() }
+        set { try! _default.put_IsRoamable(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardcontentoptions.roamingformats)
     public var roamingFormats : WindowsFoundation.AnyIVector<String>! {
-        get { try! _default.get_RoamingFormatsImpl() }
+        get { try! _default.get_RoamingFormats() }
     }
 
     deinit {
@@ -171,12 +166,6 @@ public final class ClipboardHistoryChangedEventArgs : WinRTClass {
             return RawPointer(_default)
         }
         return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIClipboardHistoryChangedEventArgs>?) -> ClipboardHistoryChangedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
     }
 
     @_spi(WinRTInternal)
@@ -203,29 +192,23 @@ public final class ClipboardHistoryItem : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIClipboardHistoryItem>?) -> ClipboardHistoryItem? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardhistoryitem.content)
     public var content : DataPackageView! {
-        get { try! _default.get_ContentImpl() }
+        get { try! _default.get_Content() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardhistoryitem.id)
     public var id : String {
-        get { try! _default.get_IdImpl() }
+        get { try! _default.get_Id() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardhistoryitem.timestamp)
     public var timestamp : WindowsFoundation.DateTime {
-        get { try! _default.get_TimestampImpl() }
+        get { try! _default.get_Timestamp() }
     }
 
     deinit {
@@ -247,24 +230,18 @@ public final class ClipboardHistoryItemsResult : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIClipboardHistoryItemsResult>?) -> ClipboardHistoryItemsResult? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardhistoryitemsresult.items)
     public var items : WindowsFoundation.AnyIVectorView<ClipboardHistoryItem?>! {
-        get { try! _default.get_ItemsImpl() }
+        get { try! _default.get_Items() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.clipboardhistoryitemsresult.status)
     public var status : ClipboardHistoryItemsResultStatus {
-        get { try! _default.get_StatusImpl() }
+        get { try! _default.get_Status() }
     }
 
     deinit {
@@ -286,84 +263,79 @@ public final class DataPackage : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage>?) -> DataPackage? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DataPackage")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.ApplicationModel.DataTransfer.DataPackage")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.getview)
     public func getView() throws -> DataPackageView! {
-        try _default.GetViewImpl()
+        try _default.GetView()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setdata)
     public func setData(_ formatId: String, _ value: Any!) throws {
-        try _default.SetDataImpl(formatId, value)
+        try _default.SetData(formatId, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setdataprovider)
     public func setDataProvider(_ formatId: String, _ delayRenderer: DataProviderHandler!) throws {
-        try _default.SetDataProviderImpl(formatId, delayRenderer)
+        try _default.SetDataProvider(formatId, delayRenderer)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.settext)
     public func setText(_ value: String) throws {
-        try _default.SetTextImpl(value)
+        try _default.SetText(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.seturi)
     public func setUri(_ value: WindowsFoundation.Uri!) throws {
-        try _default.SetUriImpl(value)
+        try _default.SetUri(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.sethtmlformat)
     public func setHtmlFormat(_ value: String) throws {
-        try _default.SetHtmlFormatImpl(value)
+        try _default.SetHtmlFormat(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setrtf)
     public func setRtf(_ value: String) throws {
-        try _default.SetRtfImpl(value)
+        try _default.SetRtf(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setbitmap)
     public func setBitmap(_ value: UWP.RandomAccessStreamReference!) throws {
-        try _default.SetBitmapImpl(value)
+        try _default.SetBitmap(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setstorageitems)
     public func setStorageItems(_ value: WindowsFoundation.AnyIIterable<UWP.AnyIStorageItem?>!) throws {
-        try _default.SetStorageItemsReadOnlyImpl(value)
+        try _default.SetStorageItemsReadOnly(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setstorageitems)
     public func setStorageItems(_ value: WindowsFoundation.AnyIIterable<UWP.AnyIStorageItem?>!, _ readOnly: Bool) throws {
-        try _default.SetStorageItemsImpl(value, readOnly)
+        try _default.SetStorageItems(value, readOnly)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.properties)
     public var properties : DataPackagePropertySet! {
-        get { try! _default.get_PropertiesImpl() }
+        get { try! _default.get_Properties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.requestedoperation)
     public var requestedOperation : DataPackageOperation {
-        get { try! _default.get_RequestedOperationImpl() }
-        set { try! _default.put_RequestedOperationImpl(newValue) }
+        get { try! _default.get_RequestedOperation() }
+        set { try! _default.put_RequestedOperation(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.resourcemap)
     public var resourceMap : WindowsFoundation.AnyIMap<String, UWP.RandomAccessStreamReference?>! {
-        get { try! _default.get_ResourceMapImpl() }
+        get { try! _default.get_ResourceMap() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.destroyed)
@@ -371,10 +343,10 @@ public final class DataPackage : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_DestroyedImpl($0)
+          return try! this.add_Destroyed($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_DestroyedImpl($0)
+         try? self?._default.remove_Destroyed($0)
        }
       )
     }()
@@ -384,10 +356,10 @@ public final class DataPackage : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_OperationCompletedImpl($0)
+          return try! this.add_OperationCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_OperationCompletedImpl($0)
+         try? self?._default.remove_OperationCompleted($0)
        }
       )
     }()
@@ -395,12 +367,12 @@ public final class DataPackage : WinRTClass {
     private lazy var _IDataPackage2: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackage2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setapplicationlink)
     public func setApplicationLink(_ value: WindowsFoundation.Uri!) throws {
-        try _IDataPackage2.SetApplicationLinkImpl(value)
+        try _IDataPackage2.SetApplicationLink(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.setweblink)
     public func setWebLink(_ value: WindowsFoundation.Uri!) throws {
-        try _IDataPackage2.SetWebLinkImpl(value)
+        try _IDataPackage2.SetWebLink(value)
     }
 
     private lazy var _IDataPackage3: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackage3! = getInterfaceForCaching()
@@ -409,10 +381,24 @@ public final class DataPackage : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._IDataPackage3 else { return .init() }
-          return try! this.add_ShareCompletedImpl($0)
+          return try! this.add_ShareCompleted($0)
         },
         remove: { [weak self] in
-         try? self?._IDataPackage3.remove_ShareCompletedImpl($0)
+         try? self?._IDataPackage3.remove_ShareCompleted($0)
+       }
+      )
+    }()
+
+    private lazy var _IDataPackage4: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackage4! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage.sharecanceled)
+    public lazy var shareCanceled : Event<TypedEventHandler<DataPackage?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._IDataPackage4 else { return .init() }
+          return try! this.add_ShareCanceled($0)
+        },
+        remove: { [weak self] in
+         try? self?._IDataPackage4.remove_ShareCanceled($0)
        }
       )
     }()
@@ -421,6 +407,7 @@ public final class DataPackage : WinRTClass {
         _default = nil
         _IDataPackage2 = nil
         _IDataPackage3 = nil
+        _IDataPackage4 = nil
     }
 }
 
@@ -441,12 +428,6 @@ public final class DataPackagePropertySet : WinRTClass, IMap, IIterable {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet>?) -> DataPackagePropertySet? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -457,123 +438,123 @@ public final class DataPackagePropertySet : WinRTClass, IMap, IIterable {
     private lazy var _IMap: IMapString_Any! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.lookup)
     public func lookup(_ key: String) -> Any? {
-        try! _IMap.LookupImpl(key)
+        try! _IMap.Lookup(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.haskey)
     public func hasKey(_ key: String) -> Bool {
-        try! _IMap.HasKeyImpl(key)
+        try! _IMap.HasKey(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.getview)
     public func getView() -> WindowsFoundation.AnyIMapView<String, Any?>? {
-        try! _IMap.GetViewImpl()
+        try! _IMap.GetView()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.insert)
     public func insert(_ key: String, _ value: Any?) -> Bool {
-        try! _IMap.InsertImpl(key, value)
+        try! _IMap.Insert(key, value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.remove)
     public func remove(_ key: String) {
-        try! _IMap.RemoveImpl(key)
+        try! _IMap.Remove(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.clear)
     public func clear() {
-        try! _IMap.ClearImpl()
+        try! _IMap.Clear()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.size)
     public var size : UInt32 {
-        get { try! _IMap.get_SizeImpl() }
+        get { try! _IMap.get_Size() }
     }
 
     private lazy var _IIterable: IIterableIKeyValuePairString_Any! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.first)
     public func first() -> WindowsFoundation.AnyIIterator<WindowsFoundation.AnyIKeyValuePair<String, Any?>?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.applicationlistinguri)
     public var applicationListingUri : WindowsFoundation.Uri! {
-        get { try! _default.get_ApplicationListingUriImpl() }
-        set { try! _default.put_ApplicationListingUriImpl(newValue) }
+        get { try! _default.get_ApplicationListingUri() }
+        set { try! _default.put_ApplicationListingUri(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.applicationname)
     public var applicationName : String {
-        get { try! _default.get_ApplicationNameImpl() }
-        set { try! _default.put_ApplicationNameImpl(newValue) }
+        get { try! _default.get_ApplicationName() }
+        set { try! _default.put_ApplicationName(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.description)
     public var description : String {
-        get { try! _default.get_DescriptionImpl() }
-        set { try! _default.put_DescriptionImpl(newValue) }
+        get { try! _default.get_Description() }
+        set { try! _default.put_Description(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.filetypes)
     public var fileTypes : WindowsFoundation.AnyIVector<String>! {
-        get { try! _default.get_FileTypesImpl() }
+        get { try! _default.get_FileTypes() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.thumbnail)
     public var thumbnail : UWP.AnyIRandomAccessStreamReference! {
-        get { try! _default.get_ThumbnailImpl() }
-        set { try! _default.put_ThumbnailImpl(newValue) }
+        get { try! _default.get_Thumbnail() }
+        set { try! _default.put_Thumbnail(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.title)
     public var title : String {
-        get { try! _default.get_TitleImpl() }
-        set { try! _default.put_TitleImpl(newValue) }
+        get { try! _default.get_Title() }
+        set { try! _default.put_Title(newValue) }
     }
 
     private lazy var _IDataPackagePropertySet2: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySet2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.contentsourceapplicationlink)
     public var contentSourceApplicationLink : WindowsFoundation.Uri! {
-        get { try! _IDataPackagePropertySet2.get_ContentSourceApplicationLinkImpl() }
-        set { try! _IDataPackagePropertySet2.put_ContentSourceApplicationLinkImpl(newValue) }
+        get { try! _IDataPackagePropertySet2.get_ContentSourceApplicationLink() }
+        set { try! _IDataPackagePropertySet2.put_ContentSourceApplicationLink(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.contentsourceweblink)
     public var contentSourceWebLink : WindowsFoundation.Uri! {
-        get { try! _IDataPackagePropertySet2.get_ContentSourceWebLinkImpl() }
-        set { try! _IDataPackagePropertySet2.put_ContentSourceWebLinkImpl(newValue) }
+        get { try! _IDataPackagePropertySet2.get_ContentSourceWebLink() }
+        set { try! _IDataPackagePropertySet2.put_ContentSourceWebLink(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.logobackgroundcolor)
     public var logoBackgroundColor : UWP.Color {
-        get { try! _IDataPackagePropertySet2.get_LogoBackgroundColorImpl() }
-        set { try! _IDataPackagePropertySet2.put_LogoBackgroundColorImpl(newValue) }
+        get { try! _IDataPackagePropertySet2.get_LogoBackgroundColor() }
+        set { try! _IDataPackagePropertySet2.put_LogoBackgroundColor(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.packagefamilyname)
     public var packageFamilyName : String {
-        get { try! _IDataPackagePropertySet2.get_PackageFamilyNameImpl() }
-        set { try! _IDataPackagePropertySet2.put_PackageFamilyNameImpl(newValue) }
+        get { try! _IDataPackagePropertySet2.get_PackageFamilyName() }
+        set { try! _IDataPackagePropertySet2.put_PackageFamilyName(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.square30x30logo)
     public var square30x30Logo : UWP.AnyIRandomAccessStreamReference! {
-        get { try! _IDataPackagePropertySet2.get_Square30x30LogoImpl() }
-        set { try! _IDataPackagePropertySet2.put_Square30x30LogoImpl(newValue) }
+        get { try! _IDataPackagePropertySet2.get_Square30x30Logo() }
+        set { try! _IDataPackagePropertySet2.put_Square30x30Logo(newValue) }
     }
 
     private lazy var _IDataPackagePropertySet3: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySet3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.enterpriseid)
     public var enterpriseId : String {
-        get { try! _IDataPackagePropertySet3.get_EnterpriseIdImpl() }
-        set { try! _IDataPackagePropertySet3.put_EnterpriseIdImpl(newValue) }
+        get { try! _IDataPackagePropertySet3.get_EnterpriseId() }
+        set { try! _IDataPackagePropertySet3.put_EnterpriseId(newValue) }
     }
 
     private lazy var _IDataPackagePropertySet4: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySet4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.contentsourceuseractivityjson)
     public var contentSourceUserActivityJson : String {
-        get { try! _IDataPackagePropertySet4.get_ContentSourceUserActivityJsonImpl() }
-        set { try! _IDataPackagePropertySet4.put_ContentSourceUserActivityJsonImpl(newValue) }
+        get { try! _IDataPackagePropertySet4.get_ContentSourceUserActivityJson() }
+        set { try! _IDataPackagePropertySet4.put_ContentSourceUserActivityJson(newValue) }
     }
 
     deinit {
@@ -603,12 +584,6 @@ public final class DataPackagePropertySetView : WinRTClass, IMapView, IIterable 
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySetView>?) -> DataPackagePropertySetView? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
@@ -618,103 +593,103 @@ public final class DataPackagePropertySetView : WinRTClass, IMapView, IIterable 
     }
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.applicationlistinguri)
     public var applicationListingUri : WindowsFoundation.Uri! {
-        get { try! _default.get_ApplicationListingUriImpl() }
+        get { try! _default.get_ApplicationListingUri() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.applicationname)
     public var applicationName : String {
-        get { try! _default.get_ApplicationNameImpl() }
+        get { try! _default.get_ApplicationName() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.description)
     public var description : String {
-        get { try! _default.get_DescriptionImpl() }
+        get { try! _default.get_Description() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.filetypes)
     public var fileTypes : WindowsFoundation.AnyIVectorView<String>! {
-        get { try! _default.get_FileTypesImpl() }
+        get { try! _default.get_FileTypes() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.thumbnail)
     public var thumbnail : UWP.RandomAccessStreamReference! {
-        get { try! _default.get_ThumbnailImpl() }
+        get { try! _default.get_Thumbnail() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.title)
     public var title : String {
-        get { try! _default.get_TitleImpl() }
+        get { try! _default.get_Title() }
     }
 
     private lazy var _IDataPackagePropertySetView2: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySetView2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.contentsourceapplicationlink)
     public var contentSourceApplicationLink : WindowsFoundation.Uri! {
-        get { try! _IDataPackagePropertySetView2.get_ContentSourceApplicationLinkImpl() }
+        get { try! _IDataPackagePropertySetView2.get_ContentSourceApplicationLink() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.contentsourceweblink)
     public var contentSourceWebLink : WindowsFoundation.Uri! {
-        get { try! _IDataPackagePropertySetView2.get_ContentSourceWebLinkImpl() }
+        get { try! _IDataPackagePropertySetView2.get_ContentSourceWebLink() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.logobackgroundcolor)
     public var logoBackgroundColor : UWP.Color {
-        get { try! _IDataPackagePropertySetView2.get_LogoBackgroundColorImpl() }
+        get { try! _IDataPackagePropertySetView2.get_LogoBackgroundColor() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.packagefamilyname)
     public var packageFamilyName : String {
-        get { try! _IDataPackagePropertySetView2.get_PackageFamilyNameImpl() }
+        get { try! _IDataPackagePropertySetView2.get_PackageFamilyName() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.square30x30logo)
     public var square30x30Logo : UWP.AnyIRandomAccessStreamReference! {
-        get { try! _IDataPackagePropertySetView2.get_Square30x30LogoImpl() }
+        get { try! _IDataPackagePropertySetView2.get_Square30x30Logo() }
     }
 
     private lazy var _IDataPackagePropertySetView3: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySetView3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.enterpriseid)
     public var enterpriseId : String {
-        get { try! _IDataPackagePropertySetView3.get_EnterpriseIdImpl() }
+        get { try! _IDataPackagePropertySetView3.get_EnterpriseId() }
     }
 
     private lazy var _IDataPackagePropertySetView4: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySetView4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.contentsourceuseractivityjson)
     public var contentSourceUserActivityJson : String {
-        get { try! _IDataPackagePropertySetView4.get_ContentSourceUserActivityJsonImpl() }
+        get { try! _IDataPackagePropertySetView4.get_ContentSourceUserActivityJson() }
     }
 
     private lazy var _IDataPackagePropertySetView5: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackagePropertySetView5! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.isfromroamingclipboard)
     public var isFromRoamingClipboard : Bool {
-        get { try! _IDataPackagePropertySetView5.get_IsFromRoamingClipboardImpl() }
+        get { try! _IDataPackagePropertySetView5.get_IsFromRoamingClipboard() }
     }
 
     private lazy var _IMapView: IMapViewString_Any! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.lookup)
     public func lookup(_ key: String) -> Any? {
-        try! _IMapView.LookupImpl(key)
+        try! _IMapView.Lookup(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.haskey)
     public func hasKey(_ key: String) -> Bool {
-        try! _IMapView.HasKeyImpl(key)
+        try! _IMapView.HasKey(key)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.split)
     public func split(_ first: inout WindowsFoundation.AnyIMapView<String, Any?>?, _ second: inout WindowsFoundation.AnyIMapView<String, Any?>?) {
-        try! _IMapView.SplitImpl(&first, &second)
+        try! _IMapView.Split(&first, &second)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.size)
     public var size : UInt32 {
-        get { try! _IMapView.get_SizeImpl() }
+        get { try! _IMapView.get_Size() }
     }
 
     private lazy var _IIterable: IIterableIKeyValuePairString_Any! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertysetview.first)
     public func first() -> WindowsFoundation.AnyIIterator<WindowsFoundation.AnyIKeyValuePair<String, Any?>?>? {
-        try! _IIterable.FirstImpl()
+        try! _IIterable.First()
     }
 
     deinit {
@@ -742,117 +717,111 @@ public final class DataPackageView : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView>?) -> DataPackageView? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.reportoperationcompleted)
     public func reportOperationCompleted(_ value: DataPackageOperation) throws {
-        try _default.ReportOperationCompletedImpl(value)
+        try _default.ReportOperationCompleted(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.contains)
     public func contains(_ formatId: String) throws -> Bool {
-        try _default.ContainsImpl(formatId)
+        try _default.Contains(formatId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getdataasync)
     public func getDataAsync(_ formatId: String) throws -> WindowsFoundation.AnyIAsyncOperation<Any?>! {
-        try _default.GetDataAsyncImpl(formatId)
+        try _default.GetDataAsync(formatId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.gettextasync)
     public func getTextAsync() throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.GetTextAsyncImpl()
+        try _default.GetTextAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.gettextasync)
     public func getTextAsync(_ formatId: String) throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.GetCustomTextAsyncImpl(formatId)
+        try _default.GetCustomTextAsync(formatId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.geturiasync)
     public func getUriAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.Uri?>! {
-        try _default.GetUriAsyncImpl()
+        try _default.GetUriAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.gethtmlformatasync)
     public func getHtmlFormatAsync() throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.GetHtmlFormatAsyncImpl()
+        try _default.GetHtmlFormatAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getresourcemapasync)
     public func getResourceMapAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIMapView<String, UWP.RandomAccessStreamReference?>?>! {
-        try _default.GetResourceMapAsyncImpl()
+        try _default.GetResourceMapAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getrtfasync)
     public func getRtfAsync() throws -> WindowsFoundation.AnyIAsyncOperation<String>! {
-        try _default.GetRtfAsyncImpl()
+        try _default.GetRtfAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getbitmapasync)
     public func getBitmapAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.RandomAccessStreamReference?>! {
-        try _default.GetBitmapAsyncImpl()
+        try _default.GetBitmapAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getstorageitemsasync)
     public func getStorageItemsAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.AnyIVectorView<UWP.AnyIStorageItem?>?>! {
-        try _default.GetStorageItemsAsyncImpl()
+        try _default.GetStorageItemsAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.availableformats)
     public var availableFormats : WindowsFoundation.AnyIVectorView<String>! {
-        get { try! _default.get_AvailableFormatsImpl() }
+        get { try! _default.get_AvailableFormats() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.properties)
     public var properties : DataPackagePropertySetView! {
-        get { try! _default.get_PropertiesImpl() }
+        get { try! _default.get_Properties() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.requestedoperation)
     public var requestedOperation : DataPackageOperation {
-        get { try! _default.get_RequestedOperationImpl() }
+        get { try! _default.get_RequestedOperation() }
     }
 
     private lazy var _IDataPackageView2: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackageView2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getapplicationlinkasync)
     public func getApplicationLinkAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.Uri?>! {
-        try _IDataPackageView2.GetApplicationLinkAsyncImpl()
+        try _IDataPackageView2.GetApplicationLinkAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.getweblinkasync)
     public func getWebLinkAsync() throws -> WindowsFoundation.AnyIAsyncOperation<WindowsFoundation.Uri?>! {
-        try _IDataPackageView2.GetWebLinkAsyncImpl()
+        try _IDataPackageView2.GetWebLinkAsync()
     }
 
     private lazy var _IDataPackageView3: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackageView3! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.requestaccessasync)
     public func requestAccessAsync() throws -> WindowsFoundation.AnyIAsyncOperation<UWP.ProtectionPolicyEvaluationResult>! {
-        try _IDataPackageView3.RequestAccessAsyncImpl()
+        try _IDataPackageView3.RequestAccessAsync()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.requestaccessasync)
     public func requestAccessAsync(_ enterpriseId: String) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.ProtectionPolicyEvaluationResult>! {
-        try _IDataPackageView3.RequestAccessWithEnterpriseIdAsyncImpl(enterpriseId)
+        try _IDataPackageView3.RequestAccessWithEnterpriseIdAsync(enterpriseId)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.unlockandassumeenterpriseidentity)
     public func unlockAndAssumeEnterpriseIdentity() throws -> UWP.ProtectionPolicyEvaluationResult {
-        try _IDataPackageView3.UnlockAndAssumeEnterpriseIdentityImpl()
+        try _IDataPackageView3.UnlockAndAssumeEnterpriseIdentity()
     }
 
     private lazy var _IDataPackageView4: __ABI_Windows_ApplicationModel_DataTransfer.IDataPackageView4! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackageview.setacceptedformatid)
     public func setAcceptedFormatId(_ formatId: String) throws {
-        try _IDataPackageView4.SetAcceptedFormatIdImpl(formatId)
+        try _IDataPackageView4.SetAcceptedFormatId(formatId)
     }
 
     deinit {
@@ -877,19 +846,13 @@ public final class DataProviderDeferral : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataProviderDeferral>?) -> DataProviderDeferral? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dataproviderdeferral.complete)
     public func complete() throws {
-        try _default.CompleteImpl()
+        try _default.Complete()
     }
 
     deinit {
@@ -911,34 +874,28 @@ public final class DataProviderRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataProviderRequest>?) -> DataProviderRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dataproviderrequest.getdeferral)
     public func getDeferral() throws -> DataProviderDeferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dataproviderrequest.setdata)
     public func setData(_ value: Any!) throws {
-        try _default.SetDataImpl(value)
+        try _default.SetData(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dataproviderrequest.deadline)
     public var deadline : WindowsFoundation.DateTime {
-        get { try! _default.get_DeadlineImpl() }
+        get { try! _default.get_Deadline() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.dataproviderrequest.formatid)
     public var formatId : String {
-        get { try! _default.get_FormatIdImpl() }
+        get { try! _default.get_FormatId() }
     }
 
     deinit {
@@ -960,35 +917,29 @@ public final class DataRequest : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequest>?) -> DataRequest? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequest.failwithdisplaytext)
     public func failWithDisplayText(_ value: String) throws {
-        try _default.FailWithDisplayTextImpl(value)
+        try _default.FailWithDisplayText(value)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequest.getdeferral)
     public func getDeferral() throws -> DataRequestDeferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequest.data)
     public var data : DataPackage! {
-        get { try! _default.get_DataImpl() }
-        set { try! _default.put_DataImpl(newValue) }
+        get { try! _default.get_Data() }
+        set { try! _default.put_Data(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequest.deadline)
     public var deadline : WindowsFoundation.DateTime {
-        get { try! _default.get_DeadlineImpl() }
+        get { try! _default.get_Deadline() }
     }
 
     deinit {
@@ -1010,19 +961,13 @@ public final class DataRequestDeferral : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestDeferral>?) -> DataRequestDeferral? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequestdeferral.complete)
     public func complete() throws {
-        try _default.CompleteImpl()
+        try _default.Complete()
     }
 
     deinit {
@@ -1044,19 +989,13 @@ public final class DataRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestedEventArgs>?) -> DataRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datarequestedeventargs.request)
     public var request : DataRequest! {
-        get { try! _default.get_RequestImpl() }
+        get { try! _default.get_Request() }
     }
 
     deinit {
@@ -1078,37 +1017,31 @@ public final class DataTransferManager : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager>?) -> DataTransferManager? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IDataTransferManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.DataTransferManager"))
+    private static let _IDataTransferManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DataTransferManager")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.showshareui)
-    public static func showShareUI() {
-        try! _IDataTransferManagerStatics.ShowShareUIImpl()
+    public static func showShareUI() throws {
+        try _IDataTransferManagerStatics.ShowShareUI()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.getforcurrentview)
-    public static func getForCurrentView() -> DataTransferManager! {
-        return try! _IDataTransferManagerStatics.GetForCurrentViewImpl()
+    public static func getForCurrentView() throws -> DataTransferManager! {
+        return try _IDataTransferManagerStatics.GetForCurrentView()
     }
 
-    private static let _IDataTransferManagerStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics2 = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.DataTransferManager"))
+    private static let _IDataTransferManagerStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics2 = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DataTransferManager")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.issupported)
-    public static func isSupported() -> Bool {
-        return try! _IDataTransferManagerStatics2.IsSupportedImpl()
+    public static func isSupported() throws -> Bool {
+        return try _IDataTransferManagerStatics2.IsSupported()
     }
 
-    private static let _IDataTransferManagerStatics3: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics3 = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.DataTransferManager"))
+    private static let _IDataTransferManagerStatics3: __ABI_Windows_ApplicationModel_DataTransfer.IDataTransferManagerStatics3 = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.DataTransferManager")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.showshareui)
-    public static func showShareUI(_ options: ShareUIOptions!) {
-        try! _IDataTransferManagerStatics3.ShowShareUIWithOptionsImpl(options)
+    public static func showShareUI(_ options: ShareUIOptions!) throws {
+        try _IDataTransferManagerStatics3.ShowShareUIWithOptions(options)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.datarequested)
@@ -1116,10 +1049,10 @@ public final class DataTransferManager : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_DataRequestedImpl($0)
+          return try! this.add_DataRequested($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_DataRequestedImpl($0)
+         try? self?._default.remove_DataRequested($0)
        }
       )
     }()
@@ -1129,10 +1062,10 @@ public final class DataTransferManager : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._default else { return .init() }
-          return try! this.add_TargetApplicationChosenImpl($0)
+          return try! this.add_TargetApplicationChosen($0)
         },
         remove: { [weak self] in
-         try? self?._default.remove_TargetApplicationChosenImpl($0)
+         try? self?._default.remove_TargetApplicationChosen($0)
        }
       )
     }()
@@ -1143,10 +1076,10 @@ public final class DataTransferManager : WinRTClass {
       .init(
         add: { [weak self] in
           guard let this = self?._IDataTransferManager2 else { return .init() }
-          return try! this.add_ShareProvidersRequestedImpl($0)
+          return try! this.add_ShareProvidersRequested($0)
         },
         remove: { [weak self] in
-         try? self?._IDataTransferManager2.remove_ShareProvidersRequestedImpl($0)
+         try? self?._IDataTransferManager2.remove_ShareProvidersRequested($0)
        }
       )
     }()
@@ -1159,15 +1092,15 @@ public final class DataTransferManager : WinRTClass {
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.htmlformathelper)
 public final class HtmlFormatHelper {
-    private static let _IHtmlFormatHelperStatics: __ABI_Windows_ApplicationModel_DataTransfer.IHtmlFormatHelperStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.HtmlFormatHelper"))
+    private static let _IHtmlFormatHelperStatics: __ABI_Windows_ApplicationModel_DataTransfer.IHtmlFormatHelperStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.HtmlFormatHelper")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.htmlformathelper.getstaticfragment)
-    public static func getStaticFragment(_ htmlFormat: String) -> String {
-        return try! _IHtmlFormatHelperStatics.GetStaticFragmentImpl(htmlFormat)
+    public static func getStaticFragment(_ htmlFormat: String) throws -> String {
+        return try _IHtmlFormatHelperStatics.GetStaticFragment(htmlFormat)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.htmlformathelper.createhtmlformat)
-    public static func createHtmlFormat(_ htmlFragment: String) -> String {
-        return try! _IHtmlFormatHelperStatics.CreateHtmlFormatImpl(htmlFragment)
+    public static func createHtmlFormat(_ htmlFragment: String) throws -> String {
+        return try _IHtmlFormatHelperStatics.CreateHtmlFormat(htmlFragment)
     }
 
 }
@@ -1186,25 +1119,19 @@ public final class OperationCompletedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIOperationCompletedEventArgs>?) -> OperationCompletedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.operationcompletedeventargs.operation)
     public var operation : DataPackageOperation {
-        get { try! _default.get_OperationImpl() }
+        get { try! _default.get_Operation() }
     }
 
     private lazy var _IOperationCompletedEventArgs2: __ABI_Windows_ApplicationModel_DataTransfer.IOperationCompletedEventArgs2! = getInterfaceForCaching()
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.operationcompletedeventargs.acceptedformatid)
     public var acceptedFormatId : String {
-        get { try! _IOperationCompletedEventArgs2.get_AcceptedFormatIdImpl() }
+        get { try! _IOperationCompletedEventArgs2.get_AcceptedFormatId() }
     }
 
     deinit {
@@ -1227,19 +1154,13 @@ public final class ShareCompletedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareCompletedEventArgs>?) -> ShareCompletedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharecompletedeventargs.sharetarget)
     public var shareTarget : ShareTargetInfo! {
-        get { try! _default.get_ShareTargetImpl() }
+        get { try! _default.get_ShareTarget() }
     }
 
     deinit {
@@ -1261,40 +1182,34 @@ public final class ShareProvider : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvider>?) -> ShareProvider? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
-    private static let _IShareProviderFactory: __ABI_Windows_ApplicationModel_DataTransfer.IShareProviderFactory = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.ShareProvider"))
+    private static let _IShareProviderFactory: __ABI_Windows_ApplicationModel_DataTransfer.IShareProviderFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.ShareProvider")
     public init(_ title: String, _ displayIcon: UWP.RandomAccessStreamReference!, _ backgroundColor: UWP.Color, _ handler: ShareProviderHandler!) {
-        super.init(try! Self._IShareProviderFactory.CreateImpl(title, displayIcon, backgroundColor, handler))
+        super.init(try! Self._IShareProviderFactory.Create(title, displayIcon, backgroundColor, handler))
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovider.backgroundcolor)
     public var backgroundColor : UWP.Color {
-        get { try! _default.get_BackgroundColorImpl() }
+        get { try! _default.get_BackgroundColor() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovider.displayicon)
     public var displayIcon : UWP.RandomAccessStreamReference! {
-        get { try! _default.get_DisplayIconImpl() }
+        get { try! _default.get_DisplayIcon() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovider.tag)
     public var tag : Any! {
-        get { try! _default.get_TagImpl() }
-        set { try! _default.put_TagImpl(newValue) }
+        get { try! _default.get_Tag() }
+        set { try! _default.put_Tag(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovider.title)
     public var title : String {
-        get { try! _default.get_TitleImpl() }
+        get { try! _default.get_Title() }
     }
 
     deinit {
@@ -1316,29 +1231,23 @@ public final class ShareProviderOperation : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProviderOperation>?) -> ShareProviderOperation? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovideroperation.reportcompleted)
     public func reportCompleted() throws {
-        try _default.ReportCompletedImpl()
+        try _default.ReportCompleted()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovideroperation.data)
     public var data : DataPackageView! {
-        get { try! _default.get_DataImpl() }
+        get { try! _default.get_Data() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovideroperation.provider)
     public var provider : ShareProvider! {
-        get { try! _default.get_ProviderImpl() }
+        get { try! _default.get_Provider() }
     }
 
     deinit {
@@ -1360,29 +1269,23 @@ public final class ShareProvidersRequestedEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgs>?) -> ShareProvidersRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovidersrequestedeventargs.getdeferral)
     public func getDeferral() throws -> WindowsFoundation.Deferral! {
-        try _default.GetDeferralImpl()
+        try _default.GetDeferral()
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovidersrequestedeventargs.data)
     public var data : DataPackageView! {
-        get { try! _default.get_DataImpl() }
+        get { try! _default.get_Data() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareprovidersrequestedeventargs.providers)
     public var providers : WindowsFoundation.AnyIVector<ShareProvider?>! {
-        get { try! _default.get_ProvidersImpl() }
+        get { try! _default.get_Providers() }
     }
 
     deinit {
@@ -1404,24 +1307,18 @@ public final class ShareTargetInfo : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareTargetInfo>?) -> ShareTargetInfo? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharetargetinfo.appusermodelid)
     public var appUserModelId : String {
-        get { try! _default.get_AppUserModelIdImpl() }
+        get { try! _default.get_AppUserModelId() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharetargetinfo.shareprovider)
     public var shareProvider : ShareProvider! {
-        get { try! _default.get_ShareProviderImpl() }
+        get { try! _default.get_ShareProvider() }
     }
 
     deinit {
@@ -1443,30 +1340,25 @@ public final class ShareUIOptions : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareUIOptions>?) -> ShareUIOptions? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
+    private static let _defaultFactory: WindowsFoundation.IActivationFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.ShareUIOptions")
     override public init() {
-        super.init(try! RoActivateInstance(HString("Windows.ApplicationModel.DataTransfer.ShareUIOptions")))
+        super.init(try! Self._defaultFactory.ActivateInstance())
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareuioptions.selectionrect)
     public var selectionRect : WindowsFoundation.Rect? {
-        get { try! _default.get_SelectionRectImpl() }
-        set { try! _default.put_SelectionRectImpl(newValue) }
+        get { try! _default.get_SelectionRect() }
+        set { try! _default.put_SelectionRect(newValue) }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.shareuioptions.theme)
     public var theme : ShareUITheme {
-        get { try! _default.get_ThemeImpl() }
-        set { try! _default.put_ThemeImpl(newValue) }
+        get { try! _default.get_Theme() }
+        set { try! _default.put_Theme(newValue) }
     }
 
     deinit {
@@ -1476,72 +1368,72 @@ public final class ShareUIOptions : WinRTClass {
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharedstorageaccessmanager)
 public final class SharedStorageAccessManager {
-    private static let _ISharedStorageAccessManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer.ISharedStorageAccessManagerStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.SharedStorageAccessManager"))
+    private static let _ISharedStorageAccessManagerStatics: __ABI_Windows_ApplicationModel_DataTransfer.ISharedStorageAccessManagerStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.SharedStorageAccessManager")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharedstorageaccessmanager.addfile)
-    public static func addFile(_ file: UWP.AnyIStorageFile!) -> String {
-        return try! _ISharedStorageAccessManagerStatics.AddFileImpl(file)
+    public static func addFile(_ file: UWP.AnyIStorageFile!) throws -> String {
+        return try _ISharedStorageAccessManagerStatics.AddFile(file)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharedstorageaccessmanager.redeemtokenforfileasync)
-    public static func redeemTokenForFileAsync(_ token: String) -> WindowsFoundation.AnyIAsyncOperation<UWP.StorageFile?>! {
-        return try! _ISharedStorageAccessManagerStatics.RedeemTokenForFileAsyncImpl(token)
+    public static func redeemTokenForFileAsync(_ token: String) throws -> WindowsFoundation.AnyIAsyncOperation<UWP.StorageFile?>! {
+        return try _ISharedStorageAccessManagerStatics.RedeemTokenForFileAsync(token)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.sharedstorageaccessmanager.removefile)
-    public static func removeFile(_ token: String) {
-        try! _ISharedStorageAccessManagerStatics.RemoveFileImpl(token)
+    public static func removeFile(_ token: String) throws {
+        try _ISharedStorageAccessManagerStatics.RemoveFile(token)
     }
 
 }
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats)
 public final class StandardDataFormats {
-    private static let _IStandardDataFormatsStatics: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.StandardDataFormats"))
+    private static let _IStandardDataFormatsStatics: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.StandardDataFormats")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.bitmap)
     public static var bitmap : String {
-        get { try! _IStandardDataFormatsStatics.get_BitmapImpl() }
+        get { try! _IStandardDataFormatsStatics.get_Bitmap() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.html)
     public static var html : String {
-        get { try! _IStandardDataFormatsStatics.get_HtmlImpl() }
+        get { try! _IStandardDataFormatsStatics.get_Html() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.rtf)
     public static var rtf : String {
-        get { try! _IStandardDataFormatsStatics.get_RtfImpl() }
+        get { try! _IStandardDataFormatsStatics.get_Rtf() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.storageitems)
     public static var storageItems : String {
-        get { try! _IStandardDataFormatsStatics.get_StorageItemsImpl() }
+        get { try! _IStandardDataFormatsStatics.get_StorageItems() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.text)
     public static var text : String {
-        get { try! _IStandardDataFormatsStatics.get_TextImpl() }
+        get { try! _IStandardDataFormatsStatics.get_Text() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.uri)
     public static var uri : String {
-        get { try! _IStandardDataFormatsStatics.get_UriImpl() }
+        get { try! _IStandardDataFormatsStatics.get_Uri() }
     }
 
-    private static let _IStandardDataFormatsStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics2 = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.StandardDataFormats"))
+    private static let _IStandardDataFormatsStatics2: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics2 = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.StandardDataFormats")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.applicationlink)
     public static var applicationLink : String {
-        get { try! _IStandardDataFormatsStatics2.get_ApplicationLinkImpl() }
+        get { try! _IStandardDataFormatsStatics2.get_ApplicationLink() }
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.weblink)
     public static var webLink : String {
-        get { try! _IStandardDataFormatsStatics2.get_WebLinkImpl() }
+        get { try! _IStandardDataFormatsStatics2.get_WebLink() }
     }
 
-    private static let _IStandardDataFormatsStatics3: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics3 = try! RoGetActivationFactory(HString("Windows.ApplicationModel.DataTransfer.StandardDataFormats"))
+    private static let _IStandardDataFormatsStatics3: __ABI_Windows_ApplicationModel_DataTransfer.IStandardDataFormatsStatics3 = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.StandardDataFormats")
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.standarddataformats.useractivityjsonarray)
     public static var userActivityJsonArray : String {
-        get { try! _IStandardDataFormatsStatics3.get_UserActivityJsonArrayImpl() }
+        get { try! _IStandardDataFormatsStatics3.get_UserActivityJsonArray() }
     }
 
 }
@@ -1560,19 +1452,13 @@ public final class TargetApplicationChosenEventArgs : WinRTClass {
     }
 
     @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CWindows_CApplicationModel_CDataTransfer_CITargetApplicationChosenEventArgs>?) -> TargetApplicationChosenEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
     public init(fromAbi: WindowsFoundation.IInspectable) {
         super.init(fromAbi)
     }
 
     /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.targetapplicationchoseneventargs.applicationname)
     public var applicationName : String {
-        get { try! _default.get_ApplicationNameImpl() }
+        get { try! _default.get_ApplicationName() }
     }
 
     deinit {
@@ -1580,8 +1466,272 @@ public final class TargetApplicationChosenEventArgs : WinRTClass {
     }
 }
 
-public typealias DataProviderHandler = (DataProviderRequest?) -> ()
-public typealias ShareProviderHandler = (ShareProviderOperation?) -> ()
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget)
+public final class TransferTarget : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_ApplicationModel_DataTransfer.ITransferTarget
+    private typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTarget
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _ITransferTargetStatics: __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.TransferTarget")
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget.createwatcher)
+    public static func createWatcher(_ options: TransferTargetDiscoveryOptions!) throws -> TransferTargetWatcher! {
+        return try _ITransferTargetStatics.CreateWatcher(options)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget.displayicon)
+    public var displayIcon : UWP.AnyIRandomAccessStreamReference! {
+        get { try! _default.get_DisplayIcon() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget.id)
+    public var id : String {
+        get { try! _default.get_Id() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget.isenabled)
+    public var isEnabled : Bool {
+        get { try! _default.get_IsEnabled() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertarget.label)
+    public var label : String {
+        get { try! _default.get_Label() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetchangedeventargs)
+public final class TransferTargetChangedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetChangedEventArgs
+    private typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetChangedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetchangedeventargs.target)
+    public var target : TransferTarget! {
+        get { try! _default.get_Target() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetdiscoveryoptions)
+public final class TransferTargetDiscoveryOptions : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetDiscoveryOptions
+    private typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetDiscoveryOptions
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _ITransferTargetDiscoveryOptionsFactory: __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetDiscoveryOptionsFactory = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.TransferTargetDiscoveryOptions")
+    public init(_ dataPackage: DataPackageView!) {
+        super.init(try! Self._ITransferTargetDiscoveryOptionsFactory.CreateInstance(dataPackage))
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetdiscoveryoptions.allowedtargetappids)
+    public var allowedTargetAppIds : [String] {
+        get { try! _default.get_AllowedTargetAppIds() }
+        set { try! _default.put_AllowedTargetAppIds(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetdiscoveryoptions.datapackage)
+    public var dataPackage : DataPackageView! {
+        get { try! _default.get_DataPackage() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetdiscoveryoptions.maxapptargets)
+    public var maxAppTargets : Int32 {
+        get { try! _default.get_MaxAppTargets() }
+        set { try! _default.put_MaxAppTargets(newValue) }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetinvokeresult)
+public final class TransferTargetInvokeResult : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetInvokeResult
+    private typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetInvokeResult
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetinvokeresult.extendederror)
+    public var extendedError : HRESULT {
+        get { try! _default.get_ExtendedError() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetinvokeresult.succeeded)
+    public var succeeded : Bool {
+        get { try! _default.get_Succeeded() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher)
+public final class TransferTargetWatcher : WinRTClass {
+    private typealias SwiftABI = __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetWatcher
+    private typealias CABI = __x_ABI_CWindows_CApplicationModel_CDataTransfer_CITransferTargetWatcher
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    private static let _ITransferTargetWatcherStatics: __ABI_Windows_ApplicationModel_DataTransfer.ITransferTargetWatcherStatics = try! RoGetActivationFactory("Windows.ApplicationModel.DataTransfer.TransferTargetWatcher")
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.issupported)
+    public static func isSupported(_ dataPackage: DataPackageView!) throws -> Bool {
+        return try _ITransferTargetWatcherStatics.IsSupported(dataPackage)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.start)
+    public func start() throws {
+        try _default.Start()
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.stop)
+    public func stop() throws {
+        try _default.Stop()
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.transfertoasync)
+    public func transferToAsync(_ target: TransferTarget!, _ parentWindowHandle: UWP.WindowId) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<TransferTargetInvokeResult?, Double>! {
+        try _default.TransferToAsync(target, parentWindowHandle)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.added)
+    public lazy var added : Event<TypedEventHandler<TransferTargetWatcher?, TransferTargetChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Added($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Added($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.enumerationcompleted)
+    public lazy var enumerationCompleted : Event<TypedEventHandler<TransferTargetWatcher?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_EnumerationCompleted($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_EnumerationCompleted($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.removed)
+    public lazy var removed : Event<TypedEventHandler<TransferTargetWatcher?, TransferTargetChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Removed($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Removed($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.stopped)
+    public lazy var stopped : Event<TypedEventHandler<TransferTargetWatcher?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Stopped($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Stopped($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.transfertargetwatcher.updated)
+    public lazy var updated : Event<TypedEventHandler<TransferTargetWatcher?, TransferTargetChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_Updated($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_Updated($0)
+       }
+      )
+    }()
+
+    deinit {
+        _default = nil
+    }
+}
+
+public typealias DataProviderHandler = (DataProviderRequest?) throws -> ()
+public typealias ShareProviderHandler = (ShareProviderOperation?) throws -> ()
 extension UWP.ClipboardHistoryItemsResultStatus {
     public static var success : UWP.ClipboardHistoryItemsResultStatus {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CClipboardHistoryItemsResultStatus_Success
@@ -1593,7 +1743,7 @@ extension UWP.ClipboardHistoryItemsResultStatus {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CClipboardHistoryItemsResultStatus_ClipboardHistoryDisabled
     }
 }
-extension UWP.ClipboardHistoryItemsResultStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.ClipboardHistoryItemsResultStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.DataPackageOperation {
     public static var none : UWP.DataPackageOperation {
@@ -1608,8 +1758,14 @@ extension UWP.DataPackageOperation {
     public static var link : UWP.DataPackageOperation {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_Link
     }
+    public static var newTarget : UWP.DataPackageOperation {
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_NewTarget
+    }
+    public static var backgroundTarget : UWP.DataPackageOperation {
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation_BackgroundTarget
+    }
 }
-extension UWP.DataPackageOperation: @retroactive Hashable, @retroactive Codable {}
+extension UWP.DataPackageOperation: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.SetHistoryItemAsContentStatus {
     public static var success : UWP.SetHistoryItemAsContentStatus {
@@ -1622,7 +1778,7 @@ extension UWP.SetHistoryItemAsContentStatus {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CSetHistoryItemAsContentStatus_ItemDeleted
     }
 }
-extension UWP.SetHistoryItemAsContentStatus: @retroactive Hashable, @retroactive Codable {}
+extension UWP.SetHistoryItemAsContentStatus: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 
 extension UWP.ShareUITheme {
     public static var `default` : UWP.ShareUITheme {
@@ -1635,5 +1791,5 @@ extension UWP.ShareUITheme {
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme_Dark
     }
 }
-extension UWP.ShareUITheme: @retroactive Hashable, @retroactive Codable {}
+extension UWP.ShareUITheme: @retroactive Hashable, @retroactive Codable, @retroactive @unchecked Sendable {}
 

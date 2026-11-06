@@ -95,6 +95,12 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2 __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2;
+
+#endif // ____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CCore_CIDataCue_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCore_CIDataCue_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCore_CIDataCue __x_ABI_CWindows_CMedia_CCore_CIDataCue;
@@ -551,6 +557,12 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrackProvider_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextBouten __x_ABI_CWindows_CMedia_CCore_CITimedTextBouten;
+
+#endif // ____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextCue_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextCue_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextCue __x_ABI_CWindows_CMedia_CCore_CITimedTextCue;
@@ -568,6 +580,12 @@
     typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextRegion __x_ABI_CWindows_CMedia_CCore_CITimedTextRegion;
 
 #endif // ____x_ABI_CWindows_CMedia_CCore_CITimedTextRegion_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextRuby __x_ABI_CWindows_CMedia_CCore_CITimedTextRuby;
+
+#endif // ____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextSource_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextSource_FWD_DEFINED__
@@ -604,6 +622,12 @@
     typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle2 __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle2;
 
 #endif // ____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3 __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3;
+
+#endif // ____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CCore_CITimedTextSubformat_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextSubformat_FWD_DEFINED__
@@ -4471,6 +4495,10 @@ typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedMetadataKind __x_ABI_CWindows_C
 
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedMetadataTrackErrorCode __x_ABI_CWindows_CMedia_CCore_CTimedMetadataTrackErrorCode;
 
+typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition;
+
+typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType;
+
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextDisplayAlignment __x_ABI_CWindows_CMedia_CCore_CTimedTextDisplayAlignment;
 
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextFlowDirection __x_ABI_CWindows_CMedia_CCore_CTimedTextFlowDirection;
@@ -4478,6 +4506,12 @@ typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextFlowDirection __x_ABI_CWind
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextFontStyle __x_ABI_CWindows_CMedia_CCore_CTimedTextFontStyle;
 
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment;
+
+typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign;
+
+typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition;
+
+typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve;
 
 typedef enum __x_ABI_CWindows_CMedia_CCore_CTimedTextScrollMode __x_ABI_CWindows_CMedia_CCore_CTimedTextScrollMode;
 
@@ -4634,6 +4668,25 @@ enum __x_ABI_CWindows_CMedia_CCore_CTimedMetadataTrackErrorCode
     __x_ABI_CWindows_CMedia_CCore_CTimedMetadataTrackErrorCode_InternalError = 3,
 };
 
+enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition
+    {
+        __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition_Before = 0,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition_After = 1,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition_Outside = 2,
+};
+
+enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType
+    {
+        __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_None = 0,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_Auto = 1,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_FilledCircle = 2,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_OpenCircle = 3,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_FilledDot = 4,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_OpenDot = 5,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_FilledSesame = 6,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType_OpenSesame = 7,
+};
+
 enum __x_ABI_CWindows_CMedia_CCore_CTimedTextDisplayAlignment
     {
         __x_ABI_CWindows_CMedia_CCore_CTimedTextDisplayAlignment_Before = 0,
@@ -4659,6 +4712,32 @@ enum __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment
         __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment_Start = 0,
     __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment_End = 1,
     __x_ABI_CWindows_CMedia_CCore_CTimedTextLineAlignment_Center = 2,
+};
+
+enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign
+    {
+        __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_Center = 0,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_Start = 1,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_End = 2,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_SpaceAround = 3,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_SpaceBetween = 4,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign_WithBase = 5,
+};
+
+enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition
+    {
+        __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition_Before = 0,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition_After = 1,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition_Outside = 2,
+};
+
+enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve
+    {
+        __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve_None = 0,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve_Before = 1,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve_After = 2,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve_Both = 3,
+    __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve_Outside = 4,
 };
 
 enum __x_ABI_CWindows_CMedia_CCore_CTimedTextScrollMode
@@ -5237,6 +5316,39 @@ struct __x_ABI_CWindows_CMedia_CCore_CTimedTextSize
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_VideoFormatAv1)(__x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CICodecSubtypesStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCore_CIDataCue_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCore_CIDataCue_INTERFACE_DEFINED__
@@ -8198,6 +8310,49 @@ struct __x_ABI_CWindows_CMedia_CCore_CTimedTextSize
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrackProvider;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedMetadataTrackProvider_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCore_CITimedTextBoutenVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Type)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType* value);
+    HRESULT (STDMETHODCALLTYPE* put_Type)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenType value);
+    HRESULT (STDMETHODCALLTYPE* get_Color)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        struct __x_ABI_CWindows_CUI_CColor* value);
+    HRESULT (STDMETHODCALLTYPE* put_Color)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        struct __x_ABI_CWindows_CUI_CColor value);
+    HRESULT (STDMETHODCALLTYPE* get_Position)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition* value);
+    HRESULT (STDMETHODCALLTYPE* put_Position)(__x_ABI_CWindows_CMedia_CCore_CITimedTextBouten* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextBoutenPosition value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCore_CITimedTextBoutenVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCore_CITimedTextBouten
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCore_CITimedTextBoutenVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedTextBouten;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextBouten_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextCue_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextCue_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CCore_CITimedTextCueVtbl
@@ -8354,6 +8509,53 @@ struct __x_ABI_CWindows_CMedia_CCore_CTimedTextSize
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedTextRegion;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextRegion_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCore_CITimedTextRubyVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Text)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Text)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Position)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition* value);
+    HRESULT (STDMETHODCALLTYPE* put_Position)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyPosition value);
+    HRESULT (STDMETHODCALLTYPE* get_Align)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign* value);
+    HRESULT (STDMETHODCALLTYPE* put_Align)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyAlign value);
+    HRESULT (STDMETHODCALLTYPE* get_Reserve)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve* value);
+    HRESULT (STDMETHODCALLTYPE* put_Reserve)(__x_ABI_CWindows_CMedia_CCore_CITimedTextRuby* This,
+        enum __x_ABI_CWindows_CMedia_CCore_CTimedTextRubyReserve value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCore_CITimedTextRubyVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCore_CITimedTextRuby
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCore_CITimedTextRubyVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedTextRuby;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextRuby_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextSource_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextSource_INTERFACE_DEFINED__
@@ -8645,6 +8847,49 @@ struct __x_ABI_CWindows_CMedia_CCore_CTimedTextSize
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedTextStyle2;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Ruby)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        __x_ABI_CWindows_CMedia_CCore_CITimedTextRuby** value);
+    HRESULT (STDMETHODCALLTYPE* get_Bouten)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        __x_ABI_CWindows_CMedia_CCore_CITimedTextBouten** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsTextCombined)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsTextCombined)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_FontAngleInDegrees)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* put_FontAngleInDegrees)(__x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3* This,
+        DOUBLE value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextStyle3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCore_CITimedTextSubformat_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCore_CITimedTextSubformat_INTERFACE_DEFINED__

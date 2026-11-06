@@ -64,17 +64,22 @@ private var IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperti
     .init(Data1: 0xCF1EBD5D, Data2: 0x49FE, Data3: 0x4D00, Data4: ( 0xB5,0x9A,0xCF,0xA4,0xDF,0xC5,0x19,0x44 ))// CF1EBD5D-49FE-4D00-B59A-CFA4DFC51944
 }
 
+private var IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3: WindowsFoundation.IID {
+    .init(Data1: 0x65B46685, Data2: 0x60DA, Data3: 0x5E51, Data4: ( 0x91,0xA2,0xB3,0x8C,0x47,0x63,0xB8,0x72 ))// 65B46685-60DA-5E51-91A2-B38C4763B872
+}
+
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingProperties: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties }
 
-        internal func put_BitrateImpl(_ value: UInt32) throws {
+        public func put_Bitrate(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Bitrate(pThis, value))
             }
         }
 
-        internal func get_BitrateImpl() throws -> UInt32 {
+        public func get_Bitrate() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Bitrate(pThis, &value))
@@ -82,13 +87,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_ChannelCountImpl(_ value: UInt32) throws {
+        public func put_ChannelCount(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ChannelCount(pThis, value))
             }
         }
 
-        internal func get_ChannelCountImpl() throws -> UInt32 {
+        public func get_ChannelCount() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ChannelCount(pThis, &value))
@@ -96,13 +101,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_SampleRateImpl(_ value: UInt32) throws {
+        public func put_SampleRate(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_SampleRate(pThis, value))
             }
         }
 
-        internal func get_SampleRateImpl() throws -> UInt32 {
+        public func get_SampleRate() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SampleRate(pThis, &value))
@@ -110,13 +115,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_BitsPerSampleImpl(_ value: UInt32) throws {
+        public func put_BitsPerSample(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_BitsPerSample(pThis, value))
             }
         }
 
-        internal func get_BitsPerSampleImpl() throws -> UInt32 {
+        public func get_BitsPerSample() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_BitsPerSample(pThis, &value))
@@ -129,7 +134,7 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingProperties2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties2 }
 
-        internal func get_IsSpatialImpl() throws -> Bool {
+        public func get_IsSpatial() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSpatial(pThis, &value))
@@ -142,13 +147,13 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingProperties3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties3 }
 
-        internal func CopyImpl() throws -> UWP.AudioEncodingProperties? {
+        public func Copy() throws -> UWP.AudioEncodingProperties? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingProperties3.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.Copy(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: result)
         }
 
     }
@@ -156,49 +161,49 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingPropertiesStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics }
 
-        internal func CreateAacImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateAac(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateAac(pThis, sampleRate, channelCount, bitrate, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateAacAdtsImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateAacAdts(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateAacAdts(pThis, sampleRate, channelCount, bitrate, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateMp3Impl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateMp3(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateMp3(pThis, sampleRate, channelCount, bitrate, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreatePcmImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreatePcm(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreatePcm(pThis, sampleRate, channelCount, bitsPerSample, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateWmaImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateWma(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitrate: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateWma(pThis, sampleRate, channelCount, bitrate, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
     }
@@ -206,22 +211,22 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingPropertiesStatics2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics2 }
 
-        internal func CreateAlacImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateAlac(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateAlac(pThis, sampleRate, channelCount, bitsPerSample, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateFlacImpl(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
+        public func CreateFlac(_ sampleRate: UInt32, _ channelCount: UInt32, _ bitsPerSample: UInt32) throws -> UWP.AudioEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesStatics2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateFlac(pThis, sampleRate, channelCount, bitsPerSample, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.AudioEncodingPropertiesBridge.from(abi: value)
         }
 
     }
@@ -229,21 +234,38 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IAudioEncodingPropertiesWithFormatUserData: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData }
 
+        public func SetFormatUserData(_ value: [UInt8]) throws {
+            try value.toABI { _value in
+                _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.SetFormatUserData(pThis, _value.count, _value.start))
+                }
+            }
+        }
+
+        public func GetFormatUserData(_ value: inout [UInt8]) throws {
+            var _value: WinRTArrayAbi<UINT8> = (0, nil)
+            _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIAudioEncodingPropertiesWithFormatUserData.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.GetFormatUserData(pThis, &_value.count, &_value.start))
+            }
+            defer { CoTaskMemFree(_value.start) }
+            value = .from(abi: _value)
+        }
+
     }
 
     public class IMediaEncodingProperties: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties }
 
-        open func get_PropertiesImpl() throws -> UWP.MediaPropertySet? {
+        open func get_Properties() throws -> UWP.MediaPropertySet? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Properties(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.MediaPropertySetBridge.from(abi: value)
         }
 
-        open func get_TypeImpl() throws -> String {
+        open func get_Type() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Type(pThis, &value))
@@ -251,14 +273,14 @@ public enum __ABI_Windows_Media_MediaProperties {
             return .init(from: value)
         }
 
-        open func put_SubtypeImpl(_ value: String) throws {
+        open func put_Subtype(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Subtype(pThis, _value.get()))
             }
         }
 
-        open func get_SubtypeImpl() throws -> String {
+        open func get_Subtype() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Subtype(pThis, &value))
@@ -329,13 +351,13 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IMediaRatio: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio }
 
-        internal func put_NumeratorImpl(_ value: UInt32) throws {
+        public func put_Numerator(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Numerator(pThis, value))
             }
         }
 
-        internal func get_NumeratorImpl() throws -> UInt32 {
+        public func get_Numerator() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Numerator(pThis, &value))
@@ -343,13 +365,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_DenominatorImpl(_ value: UInt32) throws {
+        public func put_Denominator(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Denominator(pThis, value))
             }
         }
 
-        internal func get_DenominatorImpl() throws -> UInt32 {
+        public func get_Denominator() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIMediaRatio.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Denominator(pThis, &value))
@@ -362,13 +384,13 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingProperties: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties }
 
-        internal func put_BitrateImpl(_ value: UInt32) throws {
+        public func put_Bitrate(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Bitrate(pThis, value))
             }
         }
 
-        internal func get_BitrateImpl() throws -> UInt32 {
+        public func get_Bitrate() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Bitrate(pThis, &value))
@@ -376,13 +398,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_WidthImpl(_ value: UInt32) throws {
+        public func put_Width(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Width(pThis, value))
             }
         }
 
-        internal func get_WidthImpl() throws -> UInt32 {
+        public func get_Width() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Width(pThis, &value))
@@ -390,13 +412,13 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func put_HeightImpl(_ value: UInt32) throws {
+        public func put_Height(_ value: UInt32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Height(pThis, value))
             }
         }
 
-        internal func get_HeightImpl() throws -> UInt32 {
+        public func get_Height() throws -> UInt32 {
             var value: UINT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Height(pThis, &value))
@@ -404,22 +426,22 @@ public enum __ABI_Windows_Media_MediaProperties {
             return value
         }
 
-        internal func get_FrameRateImpl() throws -> UWP.MediaRatio? {
+        public func get_FrameRate() throws -> UWP.MediaRatio? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_FrameRate(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.MediaRatioBridge.from(abi: value)
         }
 
-        internal func get_PixelAspectRatioImpl() throws -> UWP.MediaRatio? {
+        public func get_PixelAspectRatio() throws -> UWP.MediaRatio? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_PixelAspectRatio(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.MediaRatioBridge.from(abi: value)
         }
 
     }
@@ -427,13 +449,30 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingProperties2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties2 }
 
-        internal func put_ProfileIdImpl(_ value: Int32) throws {
+        public func SetFormatUserData(_ value: [UInt8]) throws {
+            try value.toABI { _value in
+                _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.SetFormatUserData(pThis, _value.count, _value.start))
+                }
+            }
+        }
+
+        public func GetFormatUserData(_ value: inout [UInt8]) throws {
+            var _value: WinRTArrayAbi<UINT8> = (0, nil)
+            _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.GetFormatUserData(pThis, &_value.count, &_value.start))
+            }
+            defer { CoTaskMemFree(_value.start) }
+            value = .from(abi: _value)
+        }
+
+        public func put_ProfileId(_ value: Int32) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ProfileId(pThis, value))
             }
         }
 
-        internal func get_ProfileIdImpl() throws -> Int32 {
+        public func get_ProfileId() throws -> Int32 {
             var value: INT32 = 0
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties2.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ProfileId(pThis, &value))
@@ -446,7 +485,7 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingProperties3: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties3 }
 
-        internal func get_StereoscopicVideoPackingModeImpl() throws -> UWP.StereoscopicVideoPackingMode {
+        public func get_StereoscopicVideoPackingMode() throws -> UWP.StereoscopicVideoPackingMode {
             var value: __x_ABI_CWindows_CMedia_CMediaProperties_CStereoscopicVideoPackingMode = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties3.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_StereoscopicVideoPackingMode(pThis, &value))
@@ -459,7 +498,7 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingProperties4: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties4 }
 
-        internal func get_SphericalVideoFrameFormatImpl() throws -> UWP.SphericalVideoFrameFormat {
+        public func get_SphericalVideoFrameFormat() throws -> UWP.SphericalVideoFrameFormat {
             var value: __x_ABI_CWindows_CMedia_CMediaProperties_CSphericalVideoFrameFormat = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties4.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SphericalVideoFrameFormat(pThis, &value))
@@ -472,13 +511,13 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingProperties5: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties5 }
 
-        internal func CopyImpl() throws -> UWP.VideoEncodingProperties? {
+        public func Copy() throws -> UWP.VideoEncodingProperties? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingProperties5.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.Copy(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: result)
         }
 
     }
@@ -486,32 +525,32 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingPropertiesStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics }
 
-        internal func CreateH264Impl() throws -> UWP.VideoEncodingProperties? {
+        public func CreateH264() throws -> UWP.VideoEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateH264(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateMpeg2Impl() throws -> UWP.VideoEncodingProperties? {
+        public func CreateMpeg2() throws -> UWP.VideoEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateMpeg2(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: value)
         }
 
-        internal func CreateUncompressedImpl(_ subtype: String, _ width: UInt32, _ height: UInt32) throws -> UWP.VideoEncodingProperties? {
+        public func CreateUncompressed(_ subtype: String, _ width: UInt32, _ height: UInt32) throws -> UWP.VideoEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 let _subtype = try! HString(subtype)
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateUncompressed(pThis, _subtype.get(), width, height, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: value)
         }
 
     }
@@ -519,13 +558,36 @@ public enum __ABI_Windows_Media_MediaProperties {
     public class IVideoEncodingPropertiesStatics2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2 }
 
-        internal func CreateHevcImpl() throws -> UWP.VideoEncodingProperties? {
+        public func CreateHevc() throws -> UWP.VideoEncodingProperties? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateHevc(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: value)
+        }
+
+    }
+
+    public class IVideoEncodingPropertiesStatics3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3 }
+
+        public func CreateVp9() throws -> UWP.VideoEncodingProperties? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.CreateVp9(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: result)
+        }
+
+        public func CreateAv1() throws -> UWP.VideoEncodingProperties? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CWindows_CMedia_CMediaProperties_CIVideoEncodingPropertiesStatics3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.CreateAv1(pThis, &resultAbi))
+                }
+            }
+            return __IMPL_Windows_Media_MediaProperties.VideoEncodingPropertiesBridge.from(abi: result)
         }
 
     }

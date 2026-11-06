@@ -12,6 +12,10 @@ private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient2: WindowsFoundation.IID
     .init(Data1: 0xCDD83348, Data2: 0xE8B7, Data3: 0x4CEC, Data4: ( 0xB1,0xB0,0xDC,0x45,0x5F,0xE7,0x2C,0x92 ))// CDD83348-E8B7-4CEC-B1B0-DC455FE72C92
 }
 
+private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient3: WindowsFoundation.IID {
+    .init(Data1: 0x1172FD01, Data2: 0x9899, Data3: 0x4194, Data4: ( 0x96,0x3F,0x8F,0x9D,0x72,0xA7,0xEC,0x15 ))// 1172FD01-9899-4194-963F-8F9D72A7EC15
+}
+
 private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory: WindowsFoundation.IID {
     .init(Data1: 0xC30C4ECA, Data2: 0xE3FA, Data3: 0x4F99, Data4: ( 0xAF,0xB4,0x63,0xCC,0x65,0x00,0x94,0x62 ))// C30C4ECA-E3FA-4F99-AFB4-63CC65009462
 }
@@ -48,6 +52,10 @@ private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage: WindowsFoundat
     .init(Data1: 0xF5762B3C, Data2: 0x74D4, Data3: 0x4811, Data4: ( 0xB5,0xDC,0x9F,0x8B,0x4E,0x2F,0x9A,0xBF ))// F5762B3C-74D4-4811-B5DC-9F8B4E2F9ABF
 }
 
+private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2: WindowsFoundation.IID {
+    .init(Data1: 0xC3C60489, Data2: 0x62C2, Data3: 0x4A3F, Data4: ( 0x95,0x54,0x22,0x6E,0x7C,0x60,0xBD,0x96 ))// C3C60489-62C2-4A3F-9554-226E7C60BD96
+}
+
 private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory: WindowsFoundation.IID {
     .init(Data1: 0x5BAC994E, Data2: 0x3886, Data3: 0x412E, Data4: ( 0xAE,0xC3,0x52,0xEC,0x7F,0x25,0x61,0x6F ))// 5BAC994E-3886-412E-AEC3-52EC7F25616F
 }
@@ -68,11 +76,12 @@ private var IID___x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation: WindowsF
     .init(Data1: 0x70127198, Data2: 0xC6A7, Data3: 0x4ED0, Data4: ( 0x83,0x3A,0x83,0xFD,0x8B,0x8F,0x17,0x8D ))// 70127198-C6A7-4ED0-833A-83FD8B8F178D
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Web_Http {
     public class IHttpClient: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient }
 
-        internal func DeleteAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func DeleteAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.DeleteAsync(pThis, RawPointer(uri), &operationAbi))
@@ -81,7 +90,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func GetAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetAsync(pThis, RawPointer(uri), &operationAbi))
@@ -90,7 +99,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetWithOptionAsyncImpl(_ uri: WindowsFoundation.Uri?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func GetWithOptionAsync(_ uri: WindowsFoundation.Uri?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetWithOptionAsync(pThis, RawPointer(uri), completionOption, &operationAbi))
@@ -99,7 +108,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetBufferAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIBuffer?, UWP.HttpProgress>? {
+        public func GetBufferAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIBuffer?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetBufferAsync(pThis, RawPointer(uri), &operationAbi))
@@ -108,7 +117,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIBuffer___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetInputStreamAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIInputStream?, UWP.HttpProgress>? {
+        public func GetInputStreamAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIInputStream?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetInputStreamAsync(pThis, RawPointer(uri), &operationAbi))
@@ -117,7 +126,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIInputStream___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func GetStringAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<String, UWP.HttpProgress>? {
+        public func GetStringAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<String, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.GetStringAsync(pThis, RawPointer(uri), &operationAbi))
@@ -126,7 +135,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_HSTRING___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func PostAsyncImpl(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func PostAsync(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let contentWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(content)
                 let _content = try! contentWrapper?.toABI { $0 }
@@ -137,7 +146,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func PutAsyncImpl(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func PutAsync(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let contentWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(content)
                 let _content = try! contentWrapper?.toABI { $0 }
@@ -148,7 +157,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func SendRequestAsyncImpl(_ request: UWP.HttpRequestMessage?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func SendRequestAsync(_ request: UWP.HttpRequestMessage?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.SendRequestAsync(pThis, RawPointer(request), &operationAbi))
@@ -157,7 +166,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func SendRequestWithOptionAsyncImpl(_ request: UWP.HttpRequestMessage?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
+        public func SendRequestWithOptionAsync(_ request: UWP.HttpRequestMessage?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpResponseMessage?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.SendRequestWithOptionAsync(pThis, RawPointer(request), completionOption, &operationAbi))
@@ -166,13 +175,13 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpResponseMessage___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func get_DefaultRequestHeadersImpl() throws -> UWP.HttpRequestHeaderCollection? {
+        public func get_DefaultRequestHeaders() throws -> UWP.HttpRequestHeaderCollection? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultRequestHeaders(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http_Headers.HttpRequestHeaderCollectionBridge.from(abi: value)
         }
 
     }
@@ -180,7 +189,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpClient2: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient2 }
 
-        internal func TryDeleteAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TryDeleteAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryDeleteAsync(pThis, RawPointer(uri), &operationAbi))
@@ -189,7 +198,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryGetAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TryGetAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetAsync(pThis, RawPointer(uri), &operationAbi))
@@ -198,7 +207,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryGetAsync2Impl(_ uri: WindowsFoundation.Uri?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TryGetAsync2(_ uri: WindowsFoundation.Uri?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetAsync2(pThis, RawPointer(uri), completionOption, &operationAbi))
@@ -207,7 +216,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryGetBufferAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetBufferResult?, UWP.HttpProgress>? {
+        public func TryGetBufferAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetBufferResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetBufferAsync(pThis, RawPointer(uri), &operationAbi))
@@ -216,7 +225,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpGetBufferResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryGetInputStreamAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetInputStreamResult?, UWP.HttpProgress>? {
+        public func TryGetInputStreamAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetInputStreamResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetInputStreamAsync(pThis, RawPointer(uri), &operationAbi))
@@ -225,7 +234,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpGetInputStreamResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryGetStringAsyncImpl(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetStringResult?, UWP.HttpProgress>? {
+        public func TryGetStringAsync(_ uri: WindowsFoundation.Uri?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpGetStringResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TryGetStringAsync(pThis, RawPointer(uri), &operationAbi))
@@ -234,7 +243,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpGetStringResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryPostAsyncImpl(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TryPostAsync(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let contentWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(content)
                 let _content = try! contentWrapper?.toABI { $0 }
@@ -245,7 +254,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TryPutAsyncImpl(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TryPutAsync(_ uri: WindowsFoundation.Uri?, _ content: UWP.AnyIHttpContent?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let contentWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(content)
                 let _content = try! contentWrapper?.toABI { $0 }
@@ -256,7 +265,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TrySendRequestAsyncImpl(_ request: UWP.HttpRequestMessage?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TrySendRequestAsync(_ request: UWP.HttpRequestMessage?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TrySendRequestAsync(pThis, RawPointer(request), &operationAbi))
@@ -265,7 +274,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CWeb__CHttp__CHttpRequestResult___x_ABI_CWindows__CWeb__CHttp__CHttpProgressWrapper.unwrapFrom(abi: operation)
         }
 
-        internal func TrySendRequestAsync2Impl(_ request: UWP.HttpRequestMessage?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
+        public func TrySendRequestAsync2(_ request: UWP.HttpRequestMessage?, _ completionOption: UWP.HttpCompletionOption) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.HttpRequestResult?, UWP.HttpProgress>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient2.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.TrySendRequestAsync2(pThis, RawPointer(request), completionOption, &operationAbi))
@@ -276,10 +285,30 @@ public enum __ABI_Windows_Web_Http {
 
     }
 
+    public class IHttpClient3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClient3 }
+
+        public func get_DefaultPrivacyAnnotation() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultPrivacyAnnotation(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_DefaultPrivacyAnnotation(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpClient3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultPrivacyAnnotation(pThis, _value.get()))
+            }
+        }
+
+    }
+
     public class IHttpClientFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpClientFactory }
 
-        internal func CreateImpl(_ filter: UWP.AnyIHttpFilter?) throws -> IHttpClient {
+        public func Create(_ filter: UWP.AnyIHttpFilter?) throws -> IHttpClient {
             let (value) = try ComPtrs.initialize { valueAbi in
                 let filterWrapper = __ABI_Windows_Web_Http_Filters.IHttpFilterWrapper(filter)
                 let _filter = try! filterWrapper?.toABI { $0 }
@@ -295,16 +324,16 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpContent: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpContent }
 
-        open func get_HeadersImpl() throws -> UWP.HttpContentHeaderCollection? {
+        open func get_Headers() throws -> UWP.HttpContentHeaderCollection? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http_Headers.HttpContentHeaderCollectionBridge.from(abi: value)
         }
 
-        open func BufferAllAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UInt64, UInt64>? {
+        open func BufferAllAsync() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UInt64, UInt64>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.BufferAllAsync(pThis, &operationAbi))
@@ -313,7 +342,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_UINT64_UINT64Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func ReadAsBufferAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIBuffer?, UInt64>? {
+        open func ReadAsBufferAsync() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIBuffer?, UInt64>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ReadAsBufferAsync(pThis, &operationAbi))
@@ -322,7 +351,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIBuffer_UINT64Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func ReadAsInputStreamAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIInputStream?, UInt64>? {
+        open func ReadAsInputStreamAsync() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UWP.AnyIInputStream?, UInt64>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ReadAsInputStreamAsync(pThis, &operationAbi))
@@ -331,7 +360,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIInputStream_UINT64Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func ReadAsStringAsyncImpl() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<String, UInt64>? {
+        open func ReadAsStringAsync() throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<String, UInt64>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.ReadAsStringAsync(pThis, &operationAbi))
@@ -340,7 +369,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_HSTRING_UINT64Wrapper.unwrapFrom(abi: operation)
         }
 
-        open func TryComputeLengthImpl(_ length: inout UInt64) throws -> Bool {
+        open func TryComputeLength(_ length: inout UInt64) throws -> Bool {
             var succeeded: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpContent.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.TryComputeLength(pThis, &length, &succeeded))
@@ -348,7 +377,7 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: succeeded)
         }
 
-        open func WriteToStreamAsyncImpl(_ outputStream: UWP.AnyIOutputStream?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UInt64, UInt64>? {
+        open func WriteToStreamAsync(_ outputStream: UWP.AnyIOutputStream?) throws -> WindowsFoundation.AnyIAsyncOperationWithProgress<UInt64, UInt64>? {
             let (operation) = try ComPtrs.initialize { operationAbi in
                 let outputStreamWrapper = __ABI_Windows_Storage_Streams.IOutputStreamWrapper(outputStream)
                 let _outputStream = try! outputStreamWrapper?.toABI { $0 }
@@ -404,7 +433,7 @@ public enum __ABI_Windows_Web_Http {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_UINT64_UINT64Wrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         ReadAsBufferAsync: {
@@ -414,7 +443,7 @@ public enum __ABI_Windows_Web_Http {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIBuffer_UINT64Wrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         ReadAsInputStreamAsync: {
@@ -424,7 +453,7 @@ public enum __ABI_Windows_Web_Http {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CWindows__CStorage__CStreams__CIInputStream_UINT64Wrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         ReadAsStringAsync: {
@@ -434,7 +463,7 @@ public enum __ABI_Windows_Web_Http {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_HSTRING_UINT64Wrapper(operation)
                 operationWrapper?.copyTo($1)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         TryComputeLength: {
@@ -445,7 +474,7 @@ public enum __ABI_Windows_Web_Http {
                 $1?.initialize(to: length)
                 $2?.initialize(to: .init(from: succeeded))
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         },
 
         WriteToStreamAsync: {
@@ -456,7 +485,7 @@ public enum __ABI_Windows_Web_Http {
                 let operationWrapper = UWP.__x_ABI_C__FIAsyncOperationWithProgress_2_UINT64_UINT64Wrapper(operation)
                 operationWrapper?.copyTo($2)
                 return S_OK
-            } catch { return failWith(err: E_FAIL) } 
+            } catch { return failWith(error: error) }
         }
     )
 
@@ -464,7 +493,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpGetBufferResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult }
 
-        internal func get_ExtendedErrorImpl() throws -> HRESULT {
+        public func get_ExtendedError() throws -> HRESULT {
             var value: HRESULT = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtendedError(pThis, &value))
@@ -472,25 +501,25 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func get_RequestMessageImpl() throws -> UWP.HttpRequestMessage? {
+        public func get_RequestMessage() throws -> UWP.HttpRequestMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpRequestMessageBridge.from(abi: value)
         }
 
-        internal func get_ResponseMessageImpl() throws -> UWP.HttpResponseMessage? {
+        public func get_ResponseMessage() throws -> UWP.HttpResponseMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResponseMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpResponseMessageBridge.from(abi: value)
         }
 
-        internal func get_SucceededImpl() throws -> Bool {
+        public func get_Succeeded() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Succeeded(pThis, &value))
@@ -498,7 +527,7 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: value)
         }
 
-        internal func get_ValueImpl() throws -> UWP.AnyIBuffer? {
+        public func get_Value() throws -> UWP.AnyIBuffer? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetBufferResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Value(pThis, &valueAbi))
@@ -512,7 +541,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpGetInputStreamResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult }
 
-        internal func get_ExtendedErrorImpl() throws -> HRESULT {
+        public func get_ExtendedError() throws -> HRESULT {
             var value: HRESULT = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtendedError(pThis, &value))
@@ -520,25 +549,25 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func get_RequestMessageImpl() throws -> UWP.HttpRequestMessage? {
+        public func get_RequestMessage() throws -> UWP.HttpRequestMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpRequestMessageBridge.from(abi: value)
         }
 
-        internal func get_ResponseMessageImpl() throws -> UWP.HttpResponseMessage? {
+        public func get_ResponseMessage() throws -> UWP.HttpResponseMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResponseMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpResponseMessageBridge.from(abi: value)
         }
 
-        internal func get_SucceededImpl() throws -> Bool {
+        public func get_Succeeded() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Succeeded(pThis, &value))
@@ -546,7 +575,7 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: value)
         }
 
-        internal func get_ValueImpl() throws -> UWP.AnyIInputStream? {
+        public func get_Value() throws -> UWP.AnyIInputStream? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetInputStreamResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Value(pThis, &valueAbi))
@@ -560,7 +589,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpGetStringResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult }
 
-        internal func get_ExtendedErrorImpl() throws -> HRESULT {
+        public func get_ExtendedError() throws -> HRESULT {
             var value: HRESULT = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtendedError(pThis, &value))
@@ -568,25 +597,25 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func get_RequestMessageImpl() throws -> UWP.HttpRequestMessage? {
+        public func get_RequestMessage() throws -> UWP.HttpRequestMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpRequestMessageBridge.from(abi: value)
         }
 
-        internal func get_ResponseMessageImpl() throws -> UWP.HttpResponseMessage? {
+        public func get_ResponseMessage() throws -> UWP.HttpResponseMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResponseMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpResponseMessageBridge.from(abi: value)
         }
 
-        internal func get_SucceededImpl() throws -> Bool {
+        public func get_Succeeded() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Succeeded(pThis, &value))
@@ -594,7 +623,7 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: value)
         }
 
-        internal func get_ValueImpl() throws -> String {
+        public func get_Value() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpGetStringResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Value(pThis, &value))
@@ -607,7 +636,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpMethod: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpMethod }
 
-        internal func get_MethodImpl() throws -> String {
+        public func get_Method() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethod.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Method(pThis, &value))
@@ -620,7 +649,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpMethodFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpMethodFactory }
 
-        internal func CreateImpl(_ method: String) throws -> IHttpMethod {
+        public func Create(_ method: String) throws -> IHttpMethod {
             let (value) = try ComPtrs.initialize { valueAbi in
                 let _method = try! HString(method)
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodFactory.self) { pThis in
@@ -635,67 +664,67 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpMethodStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics }
 
-        internal func get_DeleteImpl() throws -> UWP.HttpMethod? {
+        public func get_Delete() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Delete(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_GetImpl() throws -> UWP.HttpMethod? {
+        public func get_Get() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Get(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_HeadImpl() throws -> UWP.HttpMethod? {
+        public func get_Head() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Head(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_OptionsImpl() throws -> UWP.HttpMethod? {
+        public func get_Options() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Options(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_PatchImpl() throws -> UWP.HttpMethod? {
+        public func get_Patch() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Patch(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_PostImpl() throws -> UWP.HttpMethod? {
+        public func get_Post() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Post(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func get_PutImpl() throws -> UWP.HttpMethod? {
+        public func get_Put() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpMethodStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Put(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
     }
@@ -703,7 +732,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpRequestMessage: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage }
 
-        internal func get_ContentImpl() throws -> UWP.AnyIHttpContent? {
+        public func get_Content() throws -> UWP.AnyIHttpContent? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Content(pThis, &valueAbi))
@@ -712,7 +741,7 @@ public enum __ABI_Windows_Web_Http {
             return __ABI_Windows_Web_Http.IHttpContentWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_ContentImpl(_ value: UWP.AnyIHttpContent?) throws {
+        public func put_Content(_ value: UWP.AnyIHttpContent?) throws {
             let valueWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
@@ -720,31 +749,31 @@ public enum __ABI_Windows_Web_Http {
             }
         }
 
-        internal func get_HeadersImpl() throws -> UWP.HttpRequestHeaderCollection? {
+        public func get_Headers() throws -> UWP.HttpRequestHeaderCollection? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http_Headers.HttpRequestHeaderCollectionBridge.from(abi: value)
         }
 
-        internal func get_MethodImpl() throws -> UWP.HttpMethod? {
+        public func get_Method() throws -> UWP.HttpMethod? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Method(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpMethodBridge.from(abi: value)
         }
 
-        internal func put_MethodImpl(_ value: UWP.HttpMethod?) throws {
+        public func put_Method(_ value: UWP.HttpMethod?) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Method(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_PropertiesImpl() throws -> WindowsFoundation.AnyIMap<String, Any?>? {
+        public func get_Properties() throws -> WindowsFoundation.AnyIMap<String, Any?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Properties(pThis, &valueAbi))
@@ -753,28 +782,48 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIMap_2_HSTRING_IInspectableWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_RequestUriImpl() throws -> WindowsFoundation.Uri? {
+        public func get_RequestUri() throws -> WindowsFoundation.Uri? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestUri(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Foundation.UriBridge.from(abi: value)
         }
 
-        internal func put_RequestUriImpl(_ value: WindowsFoundation.Uri?) throws {
+        public func put_RequestUri(_ value: WindowsFoundation.Uri?) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_RequestUri(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_TransportInformationImpl() throws -> UWP.HttpTransportInformation? {
+        public func get_TransportInformation() throws -> UWP.HttpTransportInformation? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_TransportInformation(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpTransportInformationBridge.from(abi: value)
+        }
+
+    }
+
+    public class IHttpRequestMessage2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2 }
+
+        public func get_PrivacyAnnotation() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PrivacyAnnotation(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        public func put_PrivacyAnnotation(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessage2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PrivacyAnnotation(pThis, _value.get()))
+            }
         }
 
     }
@@ -782,7 +831,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpRequestMessageFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory }
 
-        internal func CreateImpl(_ method: UWP.HttpMethod?, _ uri: WindowsFoundation.Uri?) throws -> IHttpRequestMessage {
+        public func Create(_ method: UWP.HttpMethod?, _ uri: WindowsFoundation.Uri?) throws -> IHttpRequestMessage {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestMessageFactory.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.Create(pThis, RawPointer(method), RawPointer(uri), &valueAbi))
@@ -796,7 +845,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpRequestResult: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpRequestResult }
 
-        internal func get_ExtendedErrorImpl() throws -> HRESULT {
+        public func get_ExtendedError() throws -> HRESULT {
             var value: HRESULT = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtendedError(pThis, &value))
@@ -804,25 +853,25 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func get_RequestMessageImpl() throws -> UWP.HttpRequestMessage? {
+        public func get_RequestMessage() throws -> UWP.HttpRequestMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpRequestMessageBridge.from(abi: value)
         }
 
-        internal func get_ResponseMessageImpl() throws -> UWP.HttpResponseMessage? {
+        public func get_ResponseMessage() throws -> UWP.HttpResponseMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestResult.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ResponseMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpResponseMessageBridge.from(abi: value)
         }
 
-        internal func get_SucceededImpl() throws -> Bool {
+        public func get_Succeeded() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpRequestResult.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Succeeded(pThis, &value))
@@ -835,7 +884,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpResponseMessage: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage }
 
-        internal func get_ContentImpl() throws -> UWP.AnyIHttpContent? {
+        public func get_Content() throws -> UWP.AnyIHttpContent? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Content(pThis, &valueAbi))
@@ -844,7 +893,7 @@ public enum __ABI_Windows_Web_Http {
             return __ABI_Windows_Web_Http.IHttpContentWrapper.unwrapFrom(abi: value)
         }
 
-        internal func put_ContentImpl(_ value: UWP.AnyIHttpContent?) throws {
+        public func put_Content(_ value: UWP.AnyIHttpContent?) throws {
             let valueWrapper = __ABI_Windows_Web_Http.IHttpContentWrapper(value)
             let _value = try! valueWrapper?.toABI { $0 }
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
@@ -852,16 +901,16 @@ public enum __ABI_Windows_Web_Http {
             }
         }
 
-        internal func get_HeadersImpl() throws -> UWP.HttpResponseHeaderCollection? {
+        public func get_Headers() throws -> UWP.HttpResponseHeaderCollection? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_Headers(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http_Headers.HttpResponseHeaderCollectionBridge.from(abi: value)
         }
 
-        internal func get_IsSuccessStatusCodeImpl() throws -> Bool {
+        public func get_IsSuccessStatusCode() throws -> Bool {
             var value: boolean = 0
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSuccessStatusCode(pThis, &value))
@@ -869,7 +918,7 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: value)
         }
 
-        internal func get_ReasonPhraseImpl() throws -> String {
+        public func get_ReasonPhrase() throws -> String {
             var value: HSTRING?
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReasonPhrase(pThis, &value))
@@ -877,29 +926,29 @@ public enum __ABI_Windows_Web_Http {
             return .init(from: value)
         }
 
-        internal func put_ReasonPhraseImpl(_ value: String) throws {
+        public func put_ReasonPhrase(_ value: String) throws {
             let _value = try! HString(value)
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_ReasonPhrase(pThis, _value.get()))
             }
         }
 
-        internal func get_RequestMessageImpl() throws -> UWP.HttpRequestMessage? {
+        public func get_RequestMessage() throws -> UWP.HttpRequestMessage? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_RequestMessage(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Web_Http.HttpRequestMessageBridge.from(abi: value)
         }
 
-        internal func put_RequestMessageImpl(_ value: UWP.HttpRequestMessage?) throws {
+        public func put_RequestMessage(_ value: UWP.HttpRequestMessage?) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_RequestMessage(pThis, RawPointer(value)))
             }
         }
 
-        internal func get_SourceImpl() throws -> UWP.HttpResponseMessageSource {
+        public func get_Source() throws -> UWP.HttpResponseMessageSource {
             var value: __x_ABI_CWindows_CWeb_CHttp_CHttpResponseMessageSource = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Source(pThis, &value))
@@ -907,13 +956,13 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func put_SourceImpl(_ value: UWP.HttpResponseMessageSource) throws {
+        public func put_Source(_ value: UWP.HttpResponseMessageSource) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Source(pThis, value))
             }
         }
 
-        internal func get_StatusCodeImpl() throws -> UWP.HttpStatusCode {
+        public func get_StatusCode() throws -> UWP.HttpStatusCode {
             var value: __x_ABI_CWindows_CWeb_CHttp_CHttpStatusCode = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_StatusCode(pThis, &value))
@@ -921,13 +970,13 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func put_StatusCodeImpl(_ value: UWP.HttpStatusCode) throws {
+        public func put_StatusCode(_ value: UWP.HttpStatusCode) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_StatusCode(pThis, value))
             }
         }
 
-        internal func get_VersionImpl() throws -> UWP.HttpVersion {
+        public func get_Version() throws -> UWP.HttpVersion {
             var value: __x_ABI_CWindows_CWeb_CHttp_CHttpVersion = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_Version(pThis, &value))
@@ -935,19 +984,19 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func put_VersionImpl(_ value: UWP.HttpVersion) throws {
+        public func put_Version(_ value: UWP.HttpVersion) throws {
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Version(pThis, value))
             }
         }
 
-        internal func EnsureSuccessStatusCodeImpl() throws -> UWP.HttpResponseMessage? {
+        public func EnsureSuccessStatusCode() throws -> UWP.HttpResponseMessage? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessage.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.EnsureSuccessStatusCode(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Web_Http.HttpResponseMessageBridge.from(abi: result)
         }
 
     }
@@ -955,7 +1004,7 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpResponseMessageFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessageFactory }
 
-        internal func CreateImpl(_ statusCode: UWP.HttpStatusCode) throws -> IHttpResponseMessage {
+        public func Create(_ statusCode: UWP.HttpStatusCode) throws -> IHttpResponseMessage {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpResponseMessageFactory.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.Create(pThis, statusCode, &valueAbi))
@@ -969,16 +1018,16 @@ public enum __ABI_Windows_Web_Http {
     public class IHttpTransportInformation: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation }
 
-        internal func get_ServerCertificateImpl() throws -> UWP.Certificate? {
+        public func get_ServerCertificate() throws -> UWP.Certificate? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServerCertificate(pThis, &valueAbi))
                 }
             }
-            return .from(abi: value)
+            return __IMPL_Windows_Security_Cryptography_Certificates.CertificateBridge.from(abi: value)
         }
 
-        internal func get_ServerCertificateErrorSeverityImpl() throws -> UWP.SocketSslErrorSeverity {
+        public func get_ServerCertificateErrorSeverity() throws -> UWP.SocketSslErrorSeverity {
             var value: __x_ABI_CWindows_CNetworking_CSockets_CSocketSslErrorSeverity = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServerCertificateErrorSeverity(pThis, &value))
@@ -986,7 +1035,7 @@ public enum __ABI_Windows_Web_Http {
             return value
         }
 
-        internal func get_ServerCertificateErrorsImpl() throws -> WindowsFoundation.AnyIVectorView<UWP.ChainValidationResult>? {
+        public func get_ServerCertificateErrors() throws -> WindowsFoundation.AnyIVectorView<UWP.ChainValidationResult>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServerCertificateErrors(pThis, &valueAbi))
@@ -995,7 +1044,7 @@ public enum __ABI_Windows_Web_Http {
             return UWP.__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSecurity__CCryptography__CCertificates__CChainValidationResultWrapper.unwrapFrom(abi: value)
         }
 
-        internal func get_ServerIntermediateCertificatesImpl() throws -> WindowsFoundation.AnyIVectorView<UWP.Certificate?>? {
+        public func get_ServerIntermediateCertificates() throws -> WindowsFoundation.AnyIVectorView<UWP.Certificate?>? {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CWindows_CWeb_CHttp_CIHttpTransportInformation.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_ServerIntermediateCertificates(pThis, &valueAbi))

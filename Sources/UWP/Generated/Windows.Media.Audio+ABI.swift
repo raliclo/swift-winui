@@ -12,11 +12,12 @@ private var IID___x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics: Windo
     .init(Data1: 0x6374EA4C, Data2: 0x1B3B, Data3: 0x4001, Data4: ( 0x94,0xD9,0xDD,0x22,0x53,0x30,0xFA,0x40 ))// 6374EA4C-1B3B-4001-94D9-DD225330FA40
 }
 
+@_spi(WinRTInternal)
 public enum __ABI_Windows_Media_Audio {
     public class IAudioStateMonitor: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor }
 
-        internal func add_SoundLevelChangedImpl(_ handler: TypedEventHandler<UWP.AudioStateMonitor?, Any?>?) throws -> EventRegistrationToken {
+        public func add_SoundLevelChanged(_ handler: TypedEventHandler<UWP.AudioStateMonitor?, Any?>?) throws -> EventRegistrationToken {
             var token: EventRegistrationToken = .init()
             let handlerWrapper = UWP.__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CAudio__CAudioStateMonitor_IInspectableWrapper(handler)
             let _handler = try! handlerWrapper?.toABI { $0 }
@@ -26,13 +27,13 @@ public enum __ABI_Windows_Media_Audio {
             return token
         }
 
-        internal func remove_SoundLevelChangedImpl(_ token: EventRegistrationToken) throws {
+        public func remove_SoundLevelChanged(_ token: EventRegistrationToken) throws {
             _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SoundLevelChanged(pThis, token))
             }
         }
 
-        internal func get_SoundLevelImpl() throws -> UWP.SoundLevel {
+        public func get_SoundLevel() throws -> UWP.SoundLevel {
             var value: __x_ABI_CWindows_CMedia_CSoundLevel = .init(0)
             _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitor.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.get_SoundLevel(pThis, &value))
@@ -45,78 +46,78 @@ public enum __ABI_Windows_Media_Audio {
     public class IAudioStateMonitorStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics }
 
-        internal func CreateForRenderMonitoringImpl() throws -> UWP.AudioStateMonitor? {
+        public func CreateForRenderMonitoring() throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForRenderMonitoring(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForRenderMonitoringWithCategoryImpl(_ category: UWP.AudioRenderCategory) throws -> UWP.AudioStateMonitor? {
+        public func CreateForRenderMonitoringWithCategory(_ category: UWP.AudioRenderCategory) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForRenderMonitoringWithCategory(pThis, category, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForRenderMonitoringWithCategoryAndDeviceRoleImpl(_ category: UWP.AudioRenderCategory, _ role: UWP.AudioDeviceRole) throws -> UWP.AudioStateMonitor? {
+        public func CreateForRenderMonitoringWithCategoryAndDeviceRole(_ category: UWP.AudioRenderCategory, _ role: UWP.AudioDeviceRole) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForRenderMonitoringWithCategoryAndDeviceRole(pThis, category, role, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForRenderMonitoringWithCategoryAndDeviceIdImpl(_ category: UWP.AudioRenderCategory, _ deviceId: String) throws -> UWP.AudioStateMonitor? {
+        public func CreateForRenderMonitoringWithCategoryAndDeviceId(_ category: UWP.AudioRenderCategory, _ deviceId: String) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _deviceId = try! HString(deviceId)
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForRenderMonitoringWithCategoryAndDeviceId(pThis, category, _deviceId.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForCaptureMonitoringImpl() throws -> UWP.AudioStateMonitor? {
+        public func CreateForCaptureMonitoring() throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForCaptureMonitoring(pThis, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForCaptureMonitoringWithCategoryImpl(_ category: UWP.MediaCategory) throws -> UWP.AudioStateMonitor? {
+        public func CreateForCaptureMonitoringWithCategory(_ category: UWP.MediaCategory) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForCaptureMonitoringWithCategory(pThis, category, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForCaptureMonitoringWithCategoryAndDeviceRoleImpl(_ category: UWP.MediaCategory, _ role: UWP.AudioDeviceRole) throws -> UWP.AudioStateMonitor? {
+        public func CreateForCaptureMonitoringWithCategoryAndDeviceRole(_ category: UWP.MediaCategory, _ role: UWP.AudioDeviceRole) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForCaptureMonitoringWithCategoryAndDeviceRole(pThis, category, role, &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
-        internal func CreateForCaptureMonitoringWithCategoryAndDeviceIdImpl(_ category: UWP.MediaCategory, _ deviceId: String) throws -> UWP.AudioStateMonitor? {
+        public func CreateForCaptureMonitoringWithCategoryAndDeviceId(_ category: UWP.MediaCategory, _ deviceId: String) throws -> UWP.AudioStateMonitor? {
             let (result) = try ComPtrs.initialize { resultAbi in
                 let _deviceId = try! HString(deviceId)
                 _ = try perform(as: __x_ABI_CWindows_CMedia_CAudio_CIAudioStateMonitorStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.CreateForCaptureMonitoringWithCategoryAndDeviceId(pThis, category, _deviceId.get(), &resultAbi))
                 }
             }
-            return .from(abi: result)
+            return __IMPL_Windows_Media_Audio.AudioStateMonitorBridge.from(abi: result)
         }
 
     }

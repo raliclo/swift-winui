@@ -46,6 +46,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2;
@@ -256,6 +262,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager__Manual_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration;
@@ -279,6 +291,18 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs_FWD_DEFINED__
@@ -562,6 +586,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs;
@@ -760,6 +790,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo;
@@ -814,6 +850,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs;
@@ -849,6 +891,36 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings_FWD_DEFINED__
@@ -921,6 +993,24 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs_FWD_DEFINED__
@@ -1101,6 +1191,12 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_FWD_DEFINED__
@@ -2687,6 +2783,426 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVec
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ProcessExtendedInfo_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        UINT32 index,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        UINT32 index,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_INTERFACE_DEFINED__
     
 #ifndef ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStream_FWD_DEFINED__
@@ -4495,6 +5011,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DOMContentLoadedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DevToolsProtocolEventReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DevToolsProtocolEventReceivedEventArgs_INTERFACE_DEFINED__
 
@@ -5295,6 +5843,102 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Controller___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2MoveFocusRequestedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadOperation_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DownloadOperation_IInspectable_INTERFACE_DEFINED__
 
@@ -5518,6 +6162,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DOMContentLoadedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__
@@ -5774,6 +6450,230 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Profile_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2WebMessageReceivedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__
     
 typedef enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation;
 
@@ -6209,6 +7109,7 @@ enum __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_LocalFonts = 10,
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_MidiSystemExclusiveMessages = 11,
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_WindowManagement = 12,
+    __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionKind_PersistentStorage = 13,
 };
 
 enum __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PermissionState
@@ -6305,6 +7206,9 @@ enum __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_LaunchFailed = 4,
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_OutOfMemory = 5,
     __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_ProfileDeleted = 6,
+    __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_NormalExit = 7,
+    __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_AbnormalExit = 8,
+    __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessFailedReason_IntegrityFailure = 9,
 };
 
 enum __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ProcessKind
@@ -6618,6 +7522,40 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2Profile__Manual3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__ManualVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetServiceWorkerRegistrationsAsync)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual* This,
+        HSTRING scope,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration** operation);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__ManualVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__ManualVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2ServiceWorkerManager__Manual_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2_INTERFACE_DEFINED__
@@ -8222,6 +9160,51 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager__Manual;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CookieManager__Manual_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_BucketId)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_CrashReportId)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExceptionCode)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        UINT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_FaultOffset)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        UINT64* value);
+    HRESULT (STDMETHODCALLTYPE* get_FaultingModuleName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_FaultingModuleVersion)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ReportTime)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport* This,
+        UINT64* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReportVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReportVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistration_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CustomSchemeRegistrationVtbl
@@ -8362,6 +9345,93 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DOMContentLoadedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ScriptUri)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* add_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_WebMessageReceived)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_WebMessageReceived)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* PostWebMessageAsJson)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        HSTRING webMessageAsJson);
+    HRESULT (STDMETHODCALLTYPE* PostWebMessageAsString)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker* This,
+        HSTRING webMessageAsString);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_OriginalSourceFrameInfo)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameInfo** value);
+    HRESULT (STDMETHODCALLTYPE* get_Worker)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorker** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DedicatedWorkerCreatedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2DevToolsProtocolEventReceivedEventArgs_INTERFACE_DEFINED__
@@ -10164,6 +11234,42 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame8_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgsVtbl
@@ -11577,6 +12683,39 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs3_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_CrashReport)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2CrashReport** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessFailedEventArgs4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfo_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ProcessInfoVtbl
@@ -11905,6 +13044,45 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile8_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AreWebViewScriptApisEnabledForServiceWorkers)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AreWebViewScriptApisEnabledForServiceWorkers)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ServiceWorkerManager)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager** value);
+    HRESULT (STDMETHODCALLTYPE* get_SharedWorkerManager)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Profile9_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SaveAsUIShowingEventArgsVtbl
@@ -12179,6 +13357,206 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServerCertificateErrorDetectedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ScriptUri)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* add_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_WebMessageReceived)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorker___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2WebMessageReceivedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_WebMessageReceived)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* PostWebMessageAsJson)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        HSTRING webMessageAsJson);
+    HRESULT (STDMETHODCALLTYPE* PostWebMessageAsString)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker* This,
+        HSTRING webMessageAsString);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ActiveServiceWorker)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerActivatedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ServiceWorkerRegistered)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegisteredEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ServiceWorkerRegistered)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* GetServiceWorkerRegistrationsAsync)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration** operation);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManagerVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ServiceWorkerRegistration)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegisteredEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistrationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ActiveServiceWorker)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorker** value);
+    HRESULT (STDMETHODCALLTYPE* get_Origin)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ScopeUri)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_TopLevelOrigin)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* add_ServiceWorkerActivated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerActivatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ServiceWorkerActivated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_Unregistering)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2ServiceWorkerRegistration_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Unregistering)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistrationVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistrationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ServiceWorkerRegistration_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Settings_INTERFACE_DEFINED__
@@ -12633,6 +14011,119 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedBuffer__Manual_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Origin)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ScriptUri)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_TopLevelOrigin)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* add_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Destroying)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Worker)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorker** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerCreatedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_SharedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerManager___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorkerCreatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_SharedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* GetSharedWorkersAsync)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2SharedWorker** operation);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManagerVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SharedWorkerManager_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2SourceChangedEventArgs_INTERFACE_DEFINED__
@@ -13752,6 +15243,42 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DedicatedWorkerCreatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_DedicatedWorkerCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__29_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_INTERFACE_DEFINED__

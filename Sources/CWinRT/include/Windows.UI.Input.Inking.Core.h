@@ -32,6 +32,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2 __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2;
+
+#endif // ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics;
@@ -353,6 +359,12 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
 #endif // ____x_ABI_CWindows_CUI_CComposition_CIContainerVisual_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CCore_CICoreCursor_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CCore_CICoreCursor_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CCore_CICoreCursor __x_ABI_CWindows_CUI_CCore_CICoreCursor;
+
+#endif // ____x_ABI_CWindows_CUI_CCore_CICoreCursor_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CInput_CInking_CIInkDrawingAttributes_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CInput_CInking_CIInkDrawingAttributes_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CInput_CInking_CIInkDrawingAttributes __x_ABI_CWindows_CUI_CInput_CInking_CIInkDrawingAttributes;
@@ -524,6 +536,41 @@ enum __x_ABI_CWindows_CUI_CInput_CInking_CCore_CCoreWetStrokeDisposition
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource;
 #endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PointerCursor)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+        __x_ABI_CWindows_CUI_CCore_CICoreCursor** value);
+    HRESULT (STDMETHODCALLTYPE* put_PointerCursor)(__x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2* This,
+        __x_ABI_CWindows_CUI_CCore_CICoreCursor* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2Vtbl;
+
+    interface __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2;
+#endif /* !defined(____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSource2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CInput_CInking_CCore_CICoreInkIndependentInputSourceStatics_INTERFACE_DEFINED__

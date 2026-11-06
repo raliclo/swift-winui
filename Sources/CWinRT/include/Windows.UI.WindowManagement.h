@@ -121,6 +121,12 @@
 
 #endif // ____x_ABI_CWindows_CUI_CWindowManagement_CIFullScreenPresentationConfiguration_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics;
+
+#endif // ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment __x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment;
@@ -396,6 +402,92 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CComposition__CIVisualElement_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CUI_CWindowId __x_ABI_CWindows_CUI_CWindowId;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        struct __x_ABI_CWindows_CUI_CWindowId* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CUI_CWindowId* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowId** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowManagement__CAppWindowTitleBarOcclusion_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CUI__CWindowManagement__CAppWindowTitleBarOcclusion_INTERFACE_DEFINED__
@@ -698,6 +790,56 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CComposition__CIVisualElement_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 index,
+        struct __x_ABI_CWindows_CUI_CWindowId* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        struct __x_ABI_CWindows_CUI_CWindowId value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        struct __x_ABI_CWindows_CUI_CWindowId* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowIdVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowManagement__CAppWindowTitleBarOcclusion_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowManagement__CAppWindowTitleBarOcclusion_INTERFACE_DEFINED__
@@ -1963,6 +2105,39 @@ enum __x_ABI_CWindows_CUI_CWindowManagement_CWindowingEnvironmentKind
     
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CWindowManagement_CIFullScreenPresentationConfiguration;
 #endif /* !defined(____x_ABI_CWindows_CUI_CWindowManagement_CIFullScreenPresentationConfiguration_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* FindAllTopLevelWindowIds)(__x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CUI__CWindowId** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStaticsVtbl;
+
+    interface __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics;
+#endif /* !defined(____x_ABI_CWindows_CUI_CWindowManagement_CIWindowServicesStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CWindowManagement_CIWindowingEnvironment_INTERFACE_DEFINED__
