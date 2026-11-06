@@ -42,3 +42,8 @@ Superseded 2026-11-06: the links above are for 1.5-preview1, which these binding
 
 `zsh Support/generate-bindings.zsh` downloads the packages pinned in `Support/*/projections.json`, runs swift-winrt, and refreshes `Sources/CWinAppSDK/nuget`. Run it with `--help` for the stages. It replaces the six `Support/*/generate-bindings.ps1`, which passed an unset `$Package` and so fed every downloaded .winmd to every module.
 `zsh Support/generate-bindings.zsh` 會下載 `Support/*/projections.json` 固定的套件、執行 swift-winrt，並更新 `Sources/CWinAppSDK/nuget`；各階段見 `--help`。它取代六支 `Support/*/generate-bindings.ps1`，那些腳本傳入未設定的 `$Package`，於是每個模組都吃進所有下載的 .winmd。
+
+## WebView2 on Windows App SDK 2.x
+
+`Microsoft.Web.WebView2.Core.dll` is no longer in the Windows App Runtime 2.x framework package (1.5's had it). It ships here as a CWinAppSDK resource, from the WebView2 SDK's `runtimes/<arch>/native_uap`, and must be copied **beside the executable**: WinUI's `WebView2` finds it there (other places were not tried). Without it the control never starts its core, and nothing reports an error (2026-11-06).
+Windows App Runtime 2.x 的 framework 套件已不再附帶 `Microsoft.Web.WebView2.Core.dll`(1.5 的有)。它以 CWinAppSDK 資源的形式放在這裡，取自 WebView2 SDK 的 `runtimes/<arch>/native_uap`,而且必須複製到**執行檔旁邊**:放在那裡時 WinUI 的 `WebView2` 找得到(其他位置未試)。少了它，控制項永遠不會啟動核心，也不會回報任何錯誤(2026-11-06)。
