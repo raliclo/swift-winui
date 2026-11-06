@@ -95,3 +95,6 @@ swift-winrt.rsp
 Package.resolved
 
 .DS_Store
+# SwiftPM writes this at the package root when the CWinAppSDK resources are built (2026-11-06).
+# 建置 CWinAppSDK 資源時 SwiftPM 會在套件根目錄寫出這個檔（2026-11-06）。
+/Info.plist
