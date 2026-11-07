@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "Generate swift-winui bindings",
-            "command": "${workspaceFolder:swift-winui}/generate-bindings.ps1",
+            "command": "zsh ${workspaceFolder:swift-winui}/Support/generate-bindings.zsh",
             "problemMatcher": []
         }
     ]
